@@ -1,0 +1,76 @@
+---
+name: pages-media-kit
+description: When the user wants to create, optimize, or audit media kit or press page. Also use when the user mentions "media kit," "press kit," "press page," or "press resources."
+metadata:
+  version: 1.0.0
+---
+
+# Pages: Media Kit
+
+Guides media kit and press page content, structure, and accessibility for journalists.
+
+## Initial Assessment
+
+**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for company story, metrics, and key messages.
+
+Identify:
+1. **Audience**: Journalists, bloggers, analysts
+2. **Update frequency**: Before launches, events, announcements
+3. **Assets**: Logos, photos, videos, data
+
+## Best Practices
+
+### Essential Elements
+
+**Evergreen content:**
+- Company overview (background, mission, origin)
+- Key team bios and headshots
+- High-res logos (multiple sizes, transparent PNG)
+- Key statistics (customers, growth, metrics)
+
+**Regularly updated:**
+- Recent press releases
+- Product photos and video clips
+- Press coverage and media mentions
+- Contact for press inquiries
+
+### Media Assets
+
+| Asset | Format |
+|-------|--------|
+| **Logos** | PNG (transparent), SVG; horizontal and square |
+| **Photos** | High-res; horizontal for web, square for social |
+| **Videos** | Product demos, interviews |
+| **Credits** | Photo credits, usage rights |
+
+### Structure
+
+- **Dedicated page**: Press/Media section on website
+- **Self-service**: Journalists find what they need without emailing
+- **Concise**: 3–6 pages typical; each element adds value
+- **Downloadable**: ZIP or individual asset downloads
+
+### Timing
+
+- **Update before**: Launches, events, announcements
+- **Keep current**: Stale info damages credibility
+
+### Placement
+
+- **Discoverable**: Link in footer, About, or dedicated Press section
+- **Clear label**: "Press," "Media Kit," "For Journalists"
+
+## Output Format
+
+- **Structure** outline
+- **Asset** checklist (logos, photos, bios)
+- **Copy** for company overview
+- **Contact** for press inquiries
+- **SEO**: Often noindex; or index for "company name press" queries
+
+## Related Skills
+
+- **pages-about**: Media kit extends About for press
+- **pages-contact**: Press contact info
+- **pages-customer-stories**: Press may reference case studies
+- **seo-technical-indexing**: noindex vs. index for press page

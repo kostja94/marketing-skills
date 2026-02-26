@@ -1,0 +1,48 @@
+{
+  "project_name": "Project Name",
+  "scope": "SEO keywords for blog and landing pages",
+  "date": "2025-01-15",
+  "executive_summary": "Identified 50 target keywords across informational and commercial intent.",
+  "priorities": [
+    "Create pillar page for primary topic",
+    "Optimize pricing page for commercial keyword",
+    "Add FAQ content for question keyword"
+  ],
+  "total_keywords": 50,
+  "primary_intent": "Informational & Commercial",
+  "avg_difficulty": "35",
+  "content_gaps_count": 12,
+  "keywords": [
+    {
+      "keyword": "seo audit tool",
+      "volume": "2400",
+      "kd": "45",
+      "intent": "Commercial",
+      "priority": "High",
+      "target_page": "/features"
+    }
+  ],
+  "keyword_mapping": [
+    {
+      "page": "/features",
+      "keywords": "seo audit tool",
+      "status": "Optimize"
+    }
+  ],
+  "content_gaps": [
+    {
+      "keyword": "best seo tool for small business",
+      "volume": "880",
+      "competitor": "Competitor A",
+      "opportunity": "High"
+    }
+  ],
+  "action_plan": [
+    {
+      "priority": "1",
+      "action": "Create pillar page",
+      "impact": "High",
+      "effort": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "project_name": "Project Name",
+  "date": "2025-01-15",
+  "competitors": [
+    {"name": "Competitor A", "category": "Enterprise SEO"},
+    {"name": "Competitor B", "category": "SMB SEO"}
+  ],
+  "executive_summary": "Competitor A dominates enterprise segment; Competitor B targets SMBs. Our positioning opportunity: focus on mid-market with simplicity and AI-powered insights.",
+  "findings": [
+    "Competitor A has strong enterprise features but complex pricing",
+    "Competitor B lacks advanced reporting",
+    "Gap in AI-powered insights across competitors"
+  ],
+  "recommendations": [
+    "Differentiate with AI audit summaries",
+    "Simplify pricing vs Competitor A",
+    "Add reporting that Competitor B lacks"
+  ],
+  "competitor_overview": [
+    {
+      "name": "Competitor A",
+      "category": "Enterprise SEO",
+      "position": "Market leader",
+      "strength": "Comprehensive feature set"
+    },
+    {
+      "name": "Competitor B",
+      "category": "SMB SEO",
+      "position": "Budget option",
+      "strength": "Ease of use"
+    }
+  ],
+  "product_comparison": [
+    {
+      "feature": "Automated audits",
+      "us": "Yes",
+      "competitor_1": "Yes",
+      "competitor_2": "Limited"
+    },
+    {
+      "feature": "AI insights",
+      "us": "Yes",
+      "competitor_1": "No",
+      "competitor_2": "No"
+    }
+  ],
+  "our_strengths": "AI-powered insights, mid-market focus, simple pricing",
+  "our_weaknesses": "Smaller brand awareness, fewer integrations",
+  "our_opportunities": "AI differentiation, SMB expansion",
+  "our_threats": "Enterprise incumbents moving downmarket",
+  "competitor_swot_section": "*(Add detailed SWOT for each competitor)*",
+  "marketing": [
+    {
+      "competitor": "Competitor A",
+      "value_prop": "Enterprise-grade SEO",
+      "audience": "Large enterprises",
+      "channels": "Sales-led, content, events"
+    }
+  ],
+  "gaps": [
+    {
+      "gap": "No AI-powered insights",
+      "opportunity": "Differentiate with AI",
+      "priority": "High"
+    }
+  ],
+  "recommendation_list": [
+    {
+      "num": "1",
+      "recommendation": "Launch AI audit feature",
+      "impact": "High",
+      "effort": "Medium",
+      "owner": "Product"
+    }
+  ]
+}

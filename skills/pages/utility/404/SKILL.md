@@ -1,0 +1,70 @@
+---
+name: pages-404
+description: When the user wants to create, optimize, or audit 404 error pages. Also use when the user mentions "404 page," "error page," "page not found," or "broken link page."
+metadata:
+  version: 1.0.0
+---
+
+# Pages: 404 Error Page
+
+Guides 404 error page design for UX, conversion recovery, and brand consistency.
+
+## Initial Assessment
+
+**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for brand voice and key pages.
+
+Identify:
+1. **Site structure**: Key pages to link (homepage, popular pages, search)
+2. **Brand tone**: Friendly, professional, playful
+3. **Conversion goal**: Recover lost visitors, drive to key pages
+
+## Best Practices
+
+### Clear Error Messaging
+
+- **User-friendly**: Neutral message explaining the page wasn't found
+- **Optional 404 display**: Can show "404" but avoid blaming the user
+- **Empathetic tone**: Acknowledge the error gracefully; turn frustration into opportunity
+
+### Navigation and Redirection
+
+| Element | Purpose |
+|---------|---------|
+| **Site navigation** | Header/footer so users know they're still on your site |
+| **Search** | Help users find what they need |
+| **Popular pages** | Links to homepage, features, pricing, blog |
+| **Similar URLs** | Suggest corrections for common typos |
+| **Avoid auto-redirect** | Unless confident of user intent |
+
+### Design and Branding
+
+- **Consistent design**: Same header, footer, colors as rest of site
+- **Avoid confusion**: Users should not think they've left your domain
+- **Mobile responsive**: Test on all devices
+
+### Conversion Opportunities
+
+404 pages can drive conversions by:
+- Showcasing popular products or features
+- Featuring testimonials or social proof
+- Offering special promotions or value
+- Linking to mobile app or newsletter
+
+### Technical
+
+- **Track 404s**: Monitor broken links, fix or redirect
+- **Accessibility**: Maintain WCAG standards
+- **HTTP status**: Ensure proper 404 response code
+
+## Output Format
+
+- **Copy** options (headline, message, CTA)
+- **Link structure** (what to include)
+- **Design** checklist
+- **SEO**: Typically noindex; ensure canonical if needed
+
+## Related Skills
+
+- **pages-home**: Primary escape route
+- **seo-technical-indexing**: noindex for 404 if desired
+- **seo-on-page-metadata**: 404 page metadata

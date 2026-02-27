@@ -171,123 +171,17 @@ Platform skills (directories, Grokipedia) use full structure (Introduction → I
 
 ## Available Skills
 
-### SEO
+65 skills in 7 categories. [Full list with descriptions](docs/skills-list.md) · Run `npx skills add kostja94/marketing-skills --list` to discover all.
 
-#### Technical
-
-| Skill | Description |
-|-------|-------------|
-| [seo-technical-robots](skills/seo/technical/robots/) | Configure and audit robots.txt, AI crawler rules |
-| [seo-technical-sitemap](skills/seo/technical/sitemap/) | Create, audit, and optimize sitemap.xml |
-| [seo-technical-canonical](skills/seo/technical/canonical/) | Configure canonical URLs, fix duplicate content |
-| [seo-technical-indexing](skills/seo/technical/indexing/) | Fix indexing issues, noindex, Search Console |
-| [seo-technical-indexnow](skills/seo/technical/indexnow/) | Implement IndexNow for faster Bing indexing |
-| [seo-technical-crawlability](skills/seo/technical/crawlability/) | Redirect chains, broken links, site structure, orphan pages, pagination |
-
-#### On-Page
-
-| Skill | Description |
-|-------|-------------|
-| [seo-on-page-metadata](skills/seo/on-page/metadata/) | Meta tags, title, description, hreflang |
-| [seo-on-page-schema](skills/seo/on-page/schema/) | Structured data (Schema.org, JSON-LD) |
-| [seo-on-page-internal-links](skills/seo/on-page/internal-links/) | Internal linking, link equity, orphan pages |
-| [seo-on-page-url-structure](skills/seo/on-page/url-structure/) | URL optimization, hierarchy, slugs |
-| [seo-on-page-heading](skills/seo/on-page/heading/) | Heading structure (H1–H6), content outline |
-
-#### Off-Page
-
-| Skill | Description |
-|-------|-------------|
-| [seo-off-page-link-building](skills/seo/off-page/link-building/) | Link building, outreach, link acquisition |
-| [seo-off-page-backlink-analysis](skills/seo/off-page/backlink-analysis/) | Backlink audit, toxic links, competitive analysis |
-
-#### Content
-
-| Skill | Description |
-|-------|-------------|
-| [seo-content-keyword-research](skills/seo/content/keyword-research/) | Keyword research, search intent, difficulty |
-| [seo-content-content-strategy](skills/seo/content/content-strategy/) | Content clusters, pillar pages, editorial calendar |
-
-### Pages
-
-Pages are classified by **purpose** (brand, SEO, marketing, legal, utility). See [docs/page-types-taxonomy.md](docs/page-types-taxonomy.md) for the full taxonomy and best practices.
-
-| Purpose | Skill | Description |
-|---------|-------|-------------|
-| **Brand** | [pages-home](skills/pages/brand/home/) | Homepage content, structure, conversion |
-| Brand | [pages-about](skills/pages/brand/about/) | About page, company story, trust |
-| Brand | [pages-contact](skills/pages/brand/contact/) | Contact page, form optimization |
-| **SEO** | [pages-features](skills/pages/content/features/) | Features page, benefit-first copy |
-| SEO | [pages-glossary](skills/pages/content/glossary/) | Glossary, definitions, internal linking |
-| SEO | [pages-blog](skills/pages/content/blog/) | Blog page, SEO, content strategy |
-| SEO | [pages-resources](skills/pages/content/resources/) | Resources page, content hub |
-| SEO | [pages-faq](skills/pages/content/faq/) | FAQ page, SEO, conversion |
-| SEO | [pages-api](skills/pages/content/api/) | API introduction page (typically /api), links to docs |
-| **Marketing** | [pages-pricing](skills/pages/marketing/pricing/) | Pricing page, plans, objection handling |
-| Marketing | [pages-products](skills/pages/marketing/products/) | Product listing (e-commerce) |
-| Marketing | [pages-services](skills/pages/marketing/services/) | Services page (consulting, agencies) |
-| Marketing | [pages-category-pages](skills/pages/marketing/category-pages/) | E-commerce category pages, faceted navigation |
-| Marketing | [pages-customer-stories](skills/pages/marketing/customer-stories/) | Case studies, success stories |
-| Marketing | [pages-affiliate-program](skills/pages/marketing/affiliate-program/) | Affiliate program page, commission structure |
-| Marketing | [pages-media-kit](skills/pages/marketing/media-kit/) | Media kit, press resources |
-| **Legal** | [pages-privacy](skills/pages/legal/privacy/) | Privacy Policy page |
-| Legal | [pages-terms](skills/pages/legal/terms/) | Terms of Service page |
-| Legal | [pages-cookie-policy](skills/pages/legal/cookie-policy/) | Cookie policy, GDPR |
-| Legal | [pages-legal](skills/pages/legal/legal/) | Legal pages (Privacy, Terms, Cookie Policy) |
-| Legal | [pages-refund](skills/pages/legal/refund/) | Refund/return policy (e-commerce) |
-| Legal | [pages-shipping](skills/pages/legal/shipping/) | Shipping/delivery info (e-commerce) |
-| **Utility** | [pages-404](skills/pages/utility/404/) | 404 error page, UX, conversion recovery |
-| Utility | [pages-careers](skills/pages/utility/careers/) | Careers page, jobs, employer branding |
-
-### Components
-
-| Skill | Description |
-|-------|-------------|
-| [components-navigation-menu](skills/components/navigation-menu/) | Navigation menu design, SEO, UX, accessibility |
-| [components-footer](skills/components/footer/) | Footer design, links, SEO, newsletter placement |
-| [components-toc](skills/components/toc/) | Table of contents for long-form content, jump links |
-| [components-hero](skills/components/hero/) | Hero section design, conversion, above-the-fold |
-| [components-logo](skills/components/logo/) | Logo placement, linking, brand recall |
-| [components-trust-badges](skills/components/trust-badges/) | Trust badges, "Trusted by" logos, security seals |
-| [components-testimonials](skills/components/testimonials/) | Testimonials, reviews, customer quotes |
-| [components-cta](skills/components/cta/) | Call-to-action button design, conversion |
-| [components-newsletter-signup](skills/components/newsletter-signup/) | Newsletter signup form, email capture |
-
-### Channels
-
-| Skill | Description |
-|-------|-------------|
-| [channels-affiliate](skills/channels/affiliate/) | Affiliate marketing strategy, CPS model, recruitment |
-| [channels-influencer](skills/channels/influencer/) | Influencer marketing strategy, KOL, creator partnership |
-| [channels-referral](skills/channels/referral/) | Referral program strategy, user-driven growth |
-| [channels-creator-program](skills/channels/creator-program/) | Creator program strategy, content co-creation |
-| [channels-directories](skills/channels/directories/) | Directory submission (Taaft, Product Hunt, Shopify App Store) |
-
-### Platforms
-
-| Skill | Description |
-|-------|-------------|
-| [platforms-x](skills/platforms/x/) | X (Twitter) post copy, threads, image specs |
-| [platforms-reddit](skills/platforms/reddit/) | Reddit post copy, subreddit rules, engagement |
-| [platforms-linkedin](skills/platforms/linkedin/) | LinkedIn post copy, professional content |
-| [platforms-tiktok](skills/platforms/tiktok/) | TikTok caption, video specs, script |
-| [platforms-grokipedia](skills/platforms/grokipedia/) | Grokipedia recommendations, parasite SEO, GEO |
-
-### Strategies
-
-| Skill | Description |
-|-------|-------------|
-| [strategies-geo](skills/strategies/geo/) | GEO/AEO for AI search visibility (ChatGPT, Claude, Perplexity) |
-| [strategies-localization](skills/strategies/localization/) | Localization strategy, i18n, multilingual, global expansion |
-
-### Analytics
-
-| Skill | Description |
-|-------|-------------|
-| [analytics-traffic](skills/analytics/traffic/) | Traffic sources, dark traffic, UTM attribution |
-| [analytics-tracking](skills/analytics/tracking/) | GA4, event tracking, conversions |
-| [analytics-ai-traffic](skills/analytics/ai-traffic/) | Track AI search traffic in GA4 and GSC |
-| [analytics-google-search-console](skills/analytics/google-search-console/) | GSC analysis, indexing, Core Web Vitals, performance |
+| Category | Skills |
+|----------|--------|
+| **SEO** (15) | [Technical](skills/seo/technical/): robots, sitemap, canonical, indexing, indexnow, crawlability · [On-Page](skills/seo/on-page/): metadata, schema, internal-links, url-structure, heading · [Off-Page](skills/seo/off-page/): link-building, backlink-analysis · [Content](skills/seo/content/): keyword-research, content-strategy |
+| **Pages** (24) | [page-types-taxonomy](docs/page-types-taxonomy.md) — brand (home, about, contact), content (features, blog, faq, api…), marketing (pricing, products, services…), legal (privacy, terms…), utility (404, careers) |
+| **Components** (9) | [nav](skills/components/navigation-menu/), [footer](skills/components/footer/), [hero](skills/components/hero/), [toc](skills/components/toc/), [logo](skills/components/logo/), [trust-badges](skills/components/trust-badges/), [testimonials](skills/components/testimonials/), [cta](skills/components/cta/), [newsletter-signup](skills/components/newsletter-signup/) |
+| **Channels** (5) | [affiliate](skills/channels/affiliate/), [influencer](skills/channels/influencer/), [referral](skills/channels/referral/), [creator-program](skills/channels/creator-program/), [directories](skills/channels/directories/) |
+| **Platforms** (5) | [x](skills/platforms/x/), [reddit](skills/platforms/reddit/), [linkedin](skills/platforms/linkedin/), [tiktok](skills/platforms/tiktok/), [grokipedia](skills/platforms/grokipedia/) |
+| **Strategies** (2) | [geo](skills/strategies/geo/), [localization](skills/strategies/localization/) |
+| **Analytics** (4) | [traffic](skills/analytics/traffic/), [tracking](skills/analytics/tracking/), [ai-traffic](skills/analytics/ai-traffic/), [google-search-console](skills/analytics/google-search-console/) |
 
 ## Contributing
 
@@ -301,6 +195,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add or improve skills. Rules a
 | [skills.sh](https://skills.sh) | Skill directory and discovery |
 | [product-marketing-context template](templates/product-marketing-context.md) | Context file template (copy to `.cursor/`) |
 | [page-types-taxonomy](docs/page-types-taxonomy.md) | Page classification by purpose (brand, SEO, marketing, legal, utility) |
+| [skills-list](docs/skills-list.md) | Full list of all 65 skills with descriptions |
 | [SKILLS_GUIDE](SKILLS_GUIDE.md) | Rules, specs, skill authoring, quality checklist |
 
 ## License

@@ -15,6 +15,7 @@ By [kostja94](https://github.com/kostja94)
 - [How Skills Work Together](#how-skills-work-together)
 - [Skill Uniqueness and Cross-References](#skill-uniqueness-and-cross-references)
 - [Output Structure: Context First, Then Action](#output-structure-context-first-then-action)
+- [Tips & Rules](#tips--rules)
 - [Available Skills](#available-skills)
 - [Contributing](#contributing)
 - [References](#references)
@@ -64,119 +65,31 @@ git submodule add https://github.com/kostja94/marketing-skills.git .cursor/marke
 
 ## Usage
 
-Ask your AI agent — it will pick the right skill:
+Ask your agent — it picks the right skill from your prompt. Examples:
 
-| You say | Skill used |
-|---------|------------|
-| *SEO* | — |
-| "Configure robots.txt with AI crawler rules" | seo-technical-robots |
-| "Audit and optimize my sitemap" | seo-technical-sitemap |
-| "Fix canonical URLs and duplicate content" | seo-technical-canonical |
-| "Fix indexing issues in Search Console" | seo-technical-indexing |
-| "Implement IndexNow for Bing" | seo-technical-indexnow |
-| "Unify sitemap, IndexNow, feed data" | seo-technical-sitemap |
-| "Audit redirect chains and crawlability" | seo-technical-crawlability |
-| "Optimize meta tags and title" | seo-on-page-metadata |
-| "Add schema markup for rich results" | seo-on-page-schema |
-| "Audit my internal linking structure" | seo-on-page-internal-links |
-| "Optimize URL structure" | seo-on-page-url-structure |
-| "Fix heading structure (H1–H6)" | seo-on-page-heading |
-| "Keyword research and search intent" | seo-content-keyword-research |
-| "Create content strategy with pillar and cluster pages" | seo-content-content-strategy |
-| "Link building and outreach" | seo-off-page-link-building |
-| "Backlink audit and toxic links" | seo-off-page-backlink-analysis |
-| *Pages* | — |
-| "Optimize my homepage for conversions" | pages-home |
-| "Create pricing page" | pages-pricing |
-| "Create features page" | pages-features |
-| "Create product listing page" | pages-products |
-| "Optimize e-commerce category pages" | pages-category-pages |
-| "Create services page" | pages-services |
-| "Create a 404 page that recovers users" | pages-404 |
-| "Write an About page" | pages-about |
-| "Create careers page" | pages-careers |
-| "Create affiliate program page" | pages-affiliate-program |
-| "Create API introduction page" | pages-api |
-| "Create blog page" | pages-blog |
-| "Create contact page" | pages-contact |
-| "Create refund/return policy" | pages-refund |
-| "Create shipping policy" | pages-shipping |
-| "Create cookie policy" | pages-cookie-policy |
-| "Create customer stories page" | pages-customer-stories |
-| "Build high-converting FAQ page" | pages-faq |
-| "Create glossary page" | pages-glossary |
-| "Create legal pages" | pages-legal |
-| "Create media kit" | pages-media-kit |
-| "Create privacy policy" | pages-privacy |
-| "Create resources page" | pages-resources |
-| "Create terms of service" | pages-terms |
-| *Components* | — |
-| "Design navigation menu for SEO" | components-navigation-menu |
-| "Optimize footer for SEO and UX" | components-footer |
-| "Add table of contents to long articles" | components-toc |
-| "Design hero section for conversion" | components-hero |
-| "Optimize logo placement" | components-logo |
-| "Add trust badges or Trusted by logos" | components-trust-badges |
-| "Design testimonials section" | components-testimonials |
-| "Optimize CTA buttons" | components-cta |
-| "Design newsletter signup form" | components-newsletter-signup |
-| *Channels* | — |
-| "Plan affiliate marketing strategy" | channels-affiliate |
-| "Plan influencer marketing campaign" | channels-influencer |
-| "Set up referral program" | channels-referral |
-| "Build creator program" | channels-creator-program |
-| "Submit to Taaft, Product Hunt, directories, or curated lists" | channels-directories |
-| *Platforms* | — |
-| "Generate X post copy" | platforms-x |
-| "Create Reddit post" | platforms-reddit |
-| "Write LinkedIn post" | platforms-linkedin |
-| "Create TikTok caption" | platforms-tiktok |
-| "Add to Grokipedia" | platforms-grokipedia |
-| *Strategies* | — |
-| "Optimize for AI search (GEO)" | strategies-geo |
-| "Plan localization for global markets" | strategies-localization |
-| *Analytics* | — |
-| "Analyze dark traffic and attribution" | analytics-traffic |
-| "Set up GA4 event tracking" | analytics-tracking |
-| "Track AI search traffic in GA4" | analytics-ai-traffic |
-| "Analyze Google Search Console" | analytics-google-search-console |
+| You say | Skill |
+|---------|-------|
+| "Configure robots.txt" / "Audit sitemap" / "Fix canonical URLs" | seo-technical-* |
+| "Optimize meta tags" / "Add schema markup" / "Fix heading structure" | seo-on-page-* |
+| "Keyword research" / "Content strategy" / "Link building" | seo-content-* / seo-off-page-* |
+| "Create pricing page" / "Optimize homepage" / "Create FAQ" | pages-* |
+| "Submit to Taaft, Product Hunt" / "Directory submission" | channels-directories |
+| "Add to Grokipedia" / "GEO for AI search" | platforms-grokipedia / strategies-geo |
+| "GA4 tracking" / "Search Console" / "AI traffic" | analytics-* |
+
+See [Tips & Rules](#tips--rules) for best practices.
+
 ## Project Context
 
-**Without context, AI outputs stay generic.** Add a context file so the agent delivers tailored SEO, copy, and strategy.
+**Without context, outputs stay generic.** Add `.cursor/product-marketing-context.md` (or `.claude/`) so the agent delivers tailored copy and strategy. Skills read it automatically.
 
-### Step 1: Get the template
+**Get template**: `cp marketing-skills/templates/product-marketing-context.md .cursor/` or [download](https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/product-marketing-context.md).
 
-```bash
-# If you cloned or use submodule:
-cp marketing-skills/templates/product-marketing-context.md .cursor/product-marketing-context.md
-
-# If you used CLI install, download the template:
-curl -o .cursor/product-marketing-context.md https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/product-marketing-context.md
-```
-
-For Claude Code, use `.claude/product-marketing-context.md` instead.
-
-### Step 2: Fill in (start with essentials)
-
-| Priority | Section | What to add |
-|----------|---------|-------------|
-| **Must** | 1. Product Overview | One-line description, category, pricing |
-| **Must** | 2. Positioning Statement | For [target] who [need], our [product] is a [category] that [benefit] |
-| **Must** | 4. Target Audience / ICP | Who, pain points, jobs-to-be-done |
-| **Must** | 8. Brand & Voice | Tone, words to avoid |
-| **As you have** | 5. Existing Website | URL, tech stack, key pages |
-| **As you have** | 6. Keywords | Primary, secondary, intent |
-| **As you have** | 7. Competitors | Direct, alternatives, differentiation |
-
-**Tip**: Start with 1, 2, 4, 8. Add the rest as you have them. Update regularly — stale context degrades output quality.
-
-### How it works
-
-Skills automatically read `.cursor/product-marketing-context.md` (or `.claude/`) when executing. No extra prompts needed.
+**Start with**: Product Overview, Positioning, Target Audience, Brand & Voice. Add Keywords, Competitors, Website as you have them. Update regularly — stale context degrades quality.
 
 ## How Skills Work Together
 
-Recommended workflow: **Technical** → **On-Page** → **Content** → **Off-Page**. Page skills apply SEO when optimizing specific page types.
+Recommended workflow: **Technical** → **On-Page** → **Content** → **Off-Page**. Page skills apply SEO when optimizing specific page types. See each skill's **Related Skills** for the full dependency map.
 
 ```
                     ┌─────────────────────────────────────────────────────────┐
@@ -220,37 +133,29 @@ Cross-references: metadata ↔ schema ↔ heading  |  sitemap ↔ indexnow
                 internal-links ↔ crawlability  |  link-building ↔ backlink-analysis
 ```
 
-See each skill's **Related Skills** section for the full dependency map.
-
 ### Skill Uniqueness and Cross-References
 
-Each skill keeps **only topic-relevant content** and stays distinct from others. Overlapping topics are handled by **references** instead of duplication:
-
-- **Single focus**: One skill = one theme (e.g., channels-directories = directory/curated list submission; seo-off-page-link-building = outreach, guest posting, broken link building)
-- **Reference, don't repeat**: When another skill covers related work, link to it in Related Skills (e.g., link-building references channels-directories for directory submission; channels-directories references link-building for broader outreach)
-- **Clear boundaries**: If content belongs to another skill, move it there and add a cross-reference
-
-This keeps skills maintainable and avoids conflicting or duplicated guidance.
+Each skill keeps only topic-relevant content. Overlapping topics use **Related Skills** references instead of duplication (e.g., link-building ↔ channels-directories). This keeps skills maintainable and avoids conflicting guidance.
 
 ### Output Structure: Context First, Then Action
 
-Some skills (e.g. **channels-directories**, **platforms-grokipedia**) output a **complete response** in a fixed order. This helps users understand the platform before taking action:
+| Type | Output |
+|------|--------|
+| **Platform skills** (directories, Grokipedia) | Introduction → Importance → Methods → [Collaboration Channels] → Rules → Avoid → Action |
+| **Other skills** | 1–2 sentences on what/why, then main output |
 
-| Section | Purpose |
-|---------|---------|
-| **Introduction** | What the platform/channel is; key players |
-| **Importance** | Why it matters (backlinks, traffic, GEO, etc.) |
-| **Methods** | How to achieve the goal |
-| **Collaboration Channels** | (channels-directories) Newsletter, ads, social, campaigns beyond listing |
-| **Rules** | What to follow |
-| **Avoid** | What not to do |
-| **Action** | Ready-to-paste content for the user's specific task |
+**First-use only**: Context appears on first use. Say "skip intro" or "just do it" for repeat tasks to go straight to Action. See [SKILLS_GUIDE](SKILLS_GUIDE.md) for spec.
 
-*Other skills* use a lighter pattern: 1–2 sentences on what/why, then the main output.
+## Tips & Rules
 
-**First-use only**: Context (Introduction, Importance, etc. or brief context) appears on **first use** in the conversation. On subsequent use or when the user asks to skip (e.g., "just do it", "skip intro"), go directly to Action/main output.
-
-**Why this order?** Users who are new to the platform get context first. Once they understand the "why" and "how," the Action section is easier to use correctly. Skill authors: see [SKILLS_GUIDE](SKILLS_GUIDE.md) for how to apply this pattern to new skills.
+| Tip | Description |
+|-----|-------------|
+| **Project Context** | Add `.cursor/product-marketing-context.md` for tailored copy and strategy — outputs stay generic without it |
+| **Skip intro** | For repeat tasks, say "skip intro" or "just do it" to go straight to Action |
+| **Workflow order** | Technical → On-Page → Content → Off-Page; page skills apply SEO when optimizing specific pages |
+| **Related Skills** | Each skill links related skills — use them for dependencies and cross-references |
+| **Single focus** | One skill = one theme; overlapping topics use references, not duplication |
+| **Full spec** | See [SKILLS_GUIDE](SKILLS_GUIDE.md) for output structure and skill authoring |
 
 ## Available Skills
 

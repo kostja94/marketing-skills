@@ -6,6 +6,8 @@
 
 By [kostja94](https://github.com/kostja94)
 
+> **README** = overview & quick start. For rules, specs, and skill authoring → [SKILLS_GUIDE](SKILLS_GUIDE.md).
+
 ## Table of Contents
 
 - [What are Skills?](#what-are-skills)
@@ -135,27 +137,21 @@ Cross-references: metadata ↔ schema ↔ heading  |  sitemap ↔ indexnow
 
 ### Skill Uniqueness and Cross-References
 
-Each skill keeps only topic-relevant content. Overlapping topics use **Related Skills** references instead of duplication (e.g., link-building ↔ channels-directories). This keeps skills maintainable and avoids conflicting guidance.
+Each skill keeps only topic-relevant content. Overlapping topics use **Related Skills** references instead of duplication. See [SKILLS_GUIDE §4.2](SKILLS_GUIDE.md#42-skill-uniqueness-and-cross-references) for rules.
 
 ### Output Structure: Context First, Then Action
 
-| Type | Output |
-|------|--------|
-| **Platform skills** (directories, Grokipedia) | Introduction → Importance → Methods → [Collaboration Channels] → Rules → Avoid → Action |
-| **Other skills** | 1–2 sentences on what/why, then main output |
-
-**First-use only**: Context appears on first use. Say "skip intro" or "just do it" for repeat tasks to go straight to Action. See [SKILLS_GUIDE](SKILLS_GUIDE.md) for spec.
+Platform skills (directories, Grokipedia) use full structure (Introduction → Importance → Methods → Rules → Avoid → Action); others use brief context + main output. Say "skip intro" or "just do it" for repeat tasks. See [SKILLS_GUIDE §4.4](SKILLS_GUIDE.md#44-output-structure-context-first-then-action) for spec.
 
 ## Tips & Rules
 
 | Tip | Description |
 |-----|-------------|
-| **Project Context** | Add `.cursor/product-marketing-context.md` for tailored copy and strategy — outputs stay generic without it |
-| **Skip intro** | For repeat tasks, say "skip intro" or "just do it" to go straight to Action |
-| **Workflow order** | Technical → On-Page → Content → Off-Page; page skills apply SEO when optimizing specific pages |
-| **Related Skills** | Each skill links related skills — use them for dependencies and cross-references |
-| **Single focus** | One skill = one theme; overlapping topics use references, not duplication |
-| **Full spec** | See [SKILLS_GUIDE](SKILLS_GUIDE.md) for output structure and skill authoring |
+| **Project Context** | Add `.cursor/product-marketing-context.md` for tailored output |
+| **Skip intro** | "skip intro" or "just do it" → go straight to Action |
+| **Workflow order** | Technical → On-Page → Content → Off-Page |
+| **Related Skills** | Use each skill's Related Skills for dependencies |
+| **Rules & specs** | See [SKILLS_GUIDE](SKILLS_GUIDE.md) for output structure, skill authoring, quality checklist |
 
 ## Available Skills
 
@@ -279,7 +275,7 @@ Pages are classified by **purpose** (brand, SEO, marketing, legal, utility). See
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add or improve skills. For the full spec, see [SKILLS_GUIDE.md](SKILLS_GUIDE.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add or improve skills. Rules and specs → [SKILLS_GUIDE](SKILLS_GUIDE.md).
 
 ## References
 
@@ -289,6 +285,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add or improve skills. For the
 | [skills.sh](https://skills.sh) | Skill directory and discovery |
 | [product-marketing-context template](templates/product-marketing-context.md) | Context file template (copy to `.cursor/`) |
 | [page-types-taxonomy](docs/page-types-taxonomy.md) | Page classification by purpose (brand, SEO, marketing, legal, utility) |
+| [SKILLS_GUIDE](SKILLS_GUIDE.md) | Rules, specs, skill authoring, quality checklist |
 
 ## License
 

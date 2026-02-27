@@ -1,6 +1,8 @@
 # Agent Skills Writing Guide
 
-> Based on [Agent Skills Specification](https://agentskills.io/specification), [skills.sh Documentation](https://skills.sh/docs), and [Vercel skills CLI](https://github.com/vercel-labs/skills).
+> **SKILLS_GUIDE** = rules, specs, skill authoring. For overview, installation, usage → [README](README.md).
+
+Based on [Agent Skills Specification](https://agentskills.io/specification), [skills.sh Documentation](https://skills.sh/docs), and [Vercel skills CLI](https://github.com/vercel-labs/skills).
 
 ---
 
@@ -309,6 +311,7 @@ Before creating or modifying a skill, verify:
 
 | Resource | URL |
 |----------|-----|
+| [README](README.md) | Overview, installation, usage, available skills |
 | Agent Skills Specification | https://agentskills.io/specification |
 | Agent Skills Homepage | https://agentskills.io |
 | skills.sh Directory | https://skills.sh |

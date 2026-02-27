@@ -9,7 +9,7 @@ metadata:
 
 Guides TOC implementation for long-form articles, guides, and whitepapers. TOCs improve UX and SEO by enabling quick navigation and reducing bounce rates.
 
-**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -36,7 +36,7 @@ Identify:
 - One `<h1>` per page
 - `<h2>` for major sections
 - `<h3>` for subsections; avoid skipping levels
-- Headings ??0 characters for SEO
+- Headings →0 characters for SEO
 
 ### Jump Links
 
@@ -74,7 +74,7 @@ Identify:
 ### Mobile
 
 - Minimum 16px font size
-- Touch targets ??4�44px
+- Touch targets ≥44×44px
 - Responsive layout; consider collapsible on small screens
 
 ### Accessibility

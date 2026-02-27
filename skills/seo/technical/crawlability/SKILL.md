@@ -9,13 +9,13 @@ metadata:
 
 Guides crawlability improvements: robots, X-Robots-Tag, site structure, and internal linking.
 
-**When invoking**: On **first use**, if helpful, open with 1â€? sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1Ã—? sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Scope (Technical SEO)
 
 - **Redirect chains & loops**: Fix multi-hop redirects; point directly to final URL
 - **Broken links (4xx)**: Fix broken internal/external links; 301 or remove
-- **Site architecture**: Logical hierarchy; pages within 3â€? clicks from homepage
+- **Site architecture**: Logical hierarchy; pages within 3Ã—? clicks from homepage
 - **Orphan pages**: Add internal links to pages with no incoming links
 - **Pagination**: Prefer pagination over infinite scroll for crawlability
 
@@ -44,7 +44,7 @@ Identify:
 
 | Principle | Guideline |
 |-----------|-----------|
-| **Depth** | Important pages within 3â€? clicks from homepage |
+| **Depth** | Important pages within 3Ã—? clicks from homepage |
 | **Orphan pages** | Add internal links to pages with no incoming links |
 | **Hierarchy** | Logical structure; hub pages link to content |
 

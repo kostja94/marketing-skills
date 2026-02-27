@@ -7,9 +7,9 @@ metadata:
 
 # Components: Call-to-Action (CTA)
 
-Guides CTA button design for conversion. A well-designed CTA can increase conversion by 25??0%.
+Guides CTA button design for conversion. A well-designed CTA can increase conversion by 25–10%.
 
-**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -26,7 +26,7 @@ Identify:
 
 - **Look like buttons**: Background, border, corner radius, shadow
 - **Stand out**: Contrasting color; clear hierarchy
-- **Size**: ??8�48px for touch; minimum 48px wide
+- **Size**: ≥48×48px for touch; minimum 48px wide
 
 ### Hierarchy
 
@@ -38,7 +38,7 @@ Identify:
 
 - **Color**: High contrast; red/orange for urgency
 - **Shape**: Rounded = friendly; angled = dynamic
-- **Accessibility**: ??.5:1 contrast for text
+- **Accessibility**: →.5:1 contrast for text
 
 ## Copy Best Practices
 

@@ -9,7 +9,7 @@ metadata:
 
 Guides tracking of AI-driven search traffic in Google Analytics 4 and Google Search Console.
 
-**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Scope
 
@@ -27,10 +27,10 @@ Guides tracking of AI-driven search traffic in Google Analytics 4 and Google Sea
 
 ### Option 1: Exploration Report (Recommended)
 
-1. **Explore** ??**Free form**
+1. **Explore** →**Free form**
 2. **Dimensions**: `Session source` (or `Session source / medium`)
 3. **Metrics**: Sessions, Engagement rate, Event count, etc.
-4. **Filters**: Add filter ??`Session source` **Matches regex** ??use regex below
+4. **Filters**: Add filter →`Session source` **Matches regex** →use regex below
 5. Configure table, save report
 
 **Regex (common AI sources):**
@@ -41,7 +41,7 @@ chatgpt\.com|openai\.com|openai|perplexity\.ai|perplexity|doubao\.com|chat\.qwen
 
 ### Option 2: Custom Channel Group
 
-1. **Admin** ??**Data Display** ??**Channel Groups**
+1. **Admin** →**Data Display** →**Channel Groups**
 2. Copy default group, name e.g. "Default and AI Chatbots"
 3. Add channel "AI Chatbots": `Source` **Matches regex** (same regex)
 4. **Important**: Place "AI Chatbots" above "Referral" so it matches first
@@ -49,7 +49,7 @@ chatgpt\.com|openai\.com|openai|perplexity\.ai|perplexity|doubao\.com|chat\.qwen
 
 ### Option 3: Custom Report
 
-1. **Reports** ??**Library** ??Create Detail Report
+1. **Reports** →**Library** →Create Detail Report
 2. Use Traffic Acquisition template
 3. Add filter: `Session source` **Matches regex** (same regex)
 4. Save and add to menu

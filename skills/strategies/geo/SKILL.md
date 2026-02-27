@@ -9,7 +9,7 @@ metadata:
 
 Guides GEO/AEO strategy for AI search visibility. GEO optimizes content for ChatGPT, Claude, Perplexity, and Google AI Mode?getting cited in AI-generated answers rather than ranking in traditional SERPs.
 
-**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Scope
 
@@ -25,7 +25,7 @@ All refer to the same goal: visibility in AI assistant responses.
 | Dimension | SEO | GEO |
 |-----------|-----|-----|
 | **Goal** | Rankings in search results | Citations in AI answers |
-| **User path** | Click ??visit ??convert | Answer in-place; may not visit |
+| **User path** | Click →visit →convert | Answer in-place; may not visit |
 | **Content** | Full page optimization | Clear, citable paragraphs |
 | **Metrics** | Clicks, traffic | Citations, brand mentions |
 | **Platforms** | Google, Bing | ChatGPT, Claude, Perplexity |

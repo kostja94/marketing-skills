@@ -9,7 +9,7 @@ metadata:
 
 Guides media kit and press page content, structure, and accessibility for journalists.
 
-**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -49,7 +49,7 @@ Identify:
 
 - **Dedicated page**: Press/Media section on website
 - **Self-service**: Journalists find what they need without emailing
-- **Concise**: 3?? pages typical; each element adds value
+- **Concise**: 3→ pages typical; each element adds value
 - **Downloadable**: ZIP or individual asset downloads
 
 ### Timing

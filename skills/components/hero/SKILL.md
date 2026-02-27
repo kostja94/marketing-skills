@@ -9,7 +9,7 @@ metadata:
 
 Guides hero section design for conversion and first impressions. The hero is where users spend ~80% of initial viewing time; first impressions form in milliseconds.
 
-**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -31,7 +31,7 @@ Identify:
 
 ### Optional but Effective
 
-- **Trust cues**: 1?? elements (reviews, logos, statistics)
+- **Trust cues**: 1→ elements (reviews, logos, statistics)
 - **Secondary CTA**: For users not ready for primary action
 
 ## Best Practices
@@ -72,7 +72,7 @@ Identify:
 | Requirement | Practice |
 |-------------|----------|
 | **Contrast** | Text over images: sufficient contrast or overlay |
-| **Touch targets** | CTA ??4�44px |
+| **Touch targets** | CTA ≥44×44px |
 | **Keyboard** | CTA keyboard-accessible |
 | **Screen readers** | Proper heading order; image alt text |
 

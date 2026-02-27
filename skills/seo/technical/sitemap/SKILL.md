@@ -9,7 +9,7 @@ metadata:
 
 Guides sitemap creation, auditing, and optimization for search engine discovery.
 
-**When invoking**: On **first use**, if helpful, open with 1â€? sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1Ã—? sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Scope (Technical SEO)
 
@@ -33,7 +33,7 @@ Identify:
 
 | Item | Spec |
 |------|------|
-| Single sitemap limit | â‰?0,000 URLs, â‰?0MB (uncompressed) |
+| Single sitemap limit | 50,000 URLs, 50MB (uncompressed) |
 | Sitemap index | When exceeding limit, split and have main index reference sub-sitemaps |
 | Encoding | UTF-8 |
 | URL format | Full URL, same host, include `https://` |
@@ -47,7 +47,7 @@ Identify:
 | url | Full URL | `https://example.com/path` |
 | lastModified | Page last modified time | Use page metadata, ISO 8601; use `YYYY-MM-DD` or omit when no data |
 | changeFrequency | Update frequency | Home `daily`, list pages `weekly`, content pages `monthly` |
-| priority | Relative importance | Home 1.0, aggregate pages 0.9, content pages 0.7â€?.8, others 0.5â€?.6 |
+| priority | Relative importance | Home 1.0, aggregate pages 0.9, content pages 0.7Ã—?.8, others 0.5Ã—?.6 |
 
 ### lastmod (Critical)
 
@@ -59,13 +59,13 @@ Identify:
 ### changefreq / priority
 
 - **changefreq**: Hints only; does not directly determine crawl frequency. Values: `always`, `hourly`, `daily`, `weekly`, `monthly`, `yearly`, `never`.
-- **priority**: 0.0â€?.0; **does not affect ranking**; set higher for important pages; avoid identical values for all.
+- **priority**: 0.0Ã—?.0; **does not affect ranking**; set higher for important pages; avoid identical values for all.
 
 ## 3. Architecture & Split
 
 ### Single Sitemap
 
-- When URLs â‰?0,000, generate `/sitemap.xml` directly.
+- When URLs >50,000, generate `/sitemap.xml` directly.
 
 ### Sitemap Index (Multiple Sub-sitemaps)
 

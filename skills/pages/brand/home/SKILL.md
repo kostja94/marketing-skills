@@ -9,7 +9,7 @@ metadata:
 
 Guides homepage content, structure, and conversion optimization.
 
-**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -49,8 +49,8 @@ Identify:
 
 ### SEO
 
-- Unique title (50??0 chars) with primary keyword
-- Meta description (150??60 chars) with CTA
+- Unique title (50→0 chars) with primary keyword
+- Meta description (150→60 chars) with CTA
 - H1 = value proposition or primary headline
 - Logical H2?H6 structure
 

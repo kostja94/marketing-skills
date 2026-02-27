@@ -9,7 +9,7 @@ metadata:
 
 Guides Reddit post and comment creation. Use for generating publish-ready posts that follow subreddit norms. Suitable for copy agents. Design agents can use for image post context.
 
-**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Output: Publish-Ready Copy
 
@@ -53,7 +53,7 @@ This skill enables agents to generate Reddit post copy (title + body) that respe
 
 - **Upvote/downvote ratio** matters more than raw score
 - **Early engagement** weighs more; post at peak hours
-- **Karma**: 100??00+ recommended before promotional posts
+- **Karma**: 100→00+ recommended before promotional posts
 - **Author interaction**: Reply to comments; boosts ranking
 
 ## Formatting (Markdown)

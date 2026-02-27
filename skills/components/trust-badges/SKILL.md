@@ -9,7 +9,7 @@ metadata:
 
 Guides trust badge design and placement for conversion. Trust badges borrow authority from third-party organizations to signal legitimacy and reduce purchase anxiety.
 
-**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -24,10 +24,10 @@ Identify:
 
 | Type | Best Placement | Conversion Impact |
 |------|----------------|-------------------|
-| **Security** (SSL, Norton, McAfee) | Checkout, payment forms | +15??0% for unfamiliar brands |
-| **Payment logos** (Visa, PayPal, Stripe) | Checkout, cart | +8??2% trust |
-| **Money-back guarantee** | Product, checkout | +6??0% |
-| **Reviews/ratings** (Trustpilot, BBB) | Product, hero | +12??8% |
+| **Security** (SSL, Norton, McAfee) | Checkout, payment forms | +15–10% for unfamiliar brands |
+| **Payment logos** (Visa, PayPal, Stripe) | Checkout, cart | +8→2% trust |
+| **Money-back guarantee** | Product, checkout | +6–10% |
+| **Reviews/ratings** (Trustpilot, BBB) | Product, hero | +12→8% |
 | **Privacy/compliance** (GDPR, CCPA) | Forms, checkout | Data-sensitive transactions |
 
 **"Trusted by" logos**: Client/customer logos in hero or footer; social proof for B2B.
@@ -36,7 +36,7 @@ Identify:
 
 ### Quantity
 
-- **3?? badge types max**; more can cause "badge bloat" and reduce conversions by 5??%
+- **3→ badge types max**; more can cause "badge bloat" and reduce conversions by 5→%
 - Quality over quantity; use only legitimate, verifiable badges
 
 ### Placement

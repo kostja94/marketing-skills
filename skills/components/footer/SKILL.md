@@ -9,7 +9,7 @@ metadata:
 
 Guides footer design for SEO, UX, and conversion. Footers provide secondary navigation, support crawlability, and engage users below the fold (66% of engagement happens there).
 
-**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -76,8 +76,8 @@ Identify:
 
 | Requirement | Practice |
 |-------------|----------|
-| **Contrast** | ??.5:1 for link text |
-| **Touch targets** | ??4�44px on mobile |
+| **Contrast** | →.5:1 for link text |
+| **Touch targets** | ≥44×44px on mobile |
 | **Keyboard** | Full keyboard navigation |
 | **Screen readers** | Proper heading hierarchy, landmark roles |
 

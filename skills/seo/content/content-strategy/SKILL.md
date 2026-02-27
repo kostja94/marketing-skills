@@ -9,7 +9,7 @@ metadata:
 
 Guides content strategy for SEO: content clusters, pillar pages, and editorial planning.
 
-**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -27,15 +27,15 @@ Identify:
 
 ```
 Pillar page (broad topic)
-??? Cluster 1 (subtopic)
-??? Cluster 2 (subtopic)
-??? Cluster 3 (subtopic)
-??? Cluster 4 (subtopic)
+→? Cluster 1 (subtopic)
+→? Cluster 2 (subtopic)
+→? Cluster 3 (subtopic)
+→? Cluster 4 (subtopic)
 ```
 
 - **Pillar**: Comprehensive guide covering broad topic; targets head term
 - **Clusters**: Detailed articles on subtopics; targets long-tail; links to pillar
-- **Internal links**: Clusters ??pillar; related clusters
+- **Internal links**: Clusters →pillar; related clusters
 
 ### Example
 
@@ -56,7 +56,7 @@ Pillar page (broad topic)
 ## Editorial Calendar
 
 - Map keywords to content pieces
-- Prioritize by opportunity (volume � intent � feasibility)
+- Prioritize by opportunity (volume × intent × feasibility)
 - Schedule by capacity
 - Include update schedule for existing content
 

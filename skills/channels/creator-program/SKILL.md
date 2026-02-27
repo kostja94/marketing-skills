@@ -9,7 +9,7 @@ metadata:
 
 Guides creator program strategy for AI/SaaS products. Long-term partnerships with creators for content co-creation and brand building. Differs from affiliate (sales focus) and influencer (paid promotion focus).
 
-**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -42,10 +42,10 @@ Identify:
 
 | Phase | Weeks | Tasks |
 |-------|-------|-------|
-| **Plan** | 1?? | Goals, incentives, application form, resources |
-| **Launch** | 3?? | Landing page, promotion, tracking |
-| **Recruit** | 5?? | Screen applications, outreach, onboarding |
-| **Co-create** | 9??2 | Content publishing, support, promotion |
+| **Plan** | 1→ | Goals, incentives, application form, resources |
+| **Launch** | 3→ | Landing page, promotion, tracking |
+| **Recruit** | 5→ | Screen applications, outreach, onboarding |
+| **Co-create** | 9→2 | Content publishing, support, promotion |
 | **Optimize** | Ongoing | Metrics, feedback, incentive tweaks |
 
 ## Best Practices
@@ -54,7 +54,7 @@ Identify:
 - **Quality over quantity**: 1K+ followers + high content quality for AI tools
 - **Clear terms**: Content policy, NSFW rules, brand guidelines
 - **Communication**: Discord, Slack, email; regular updates
-- **Timeline**: 3?? months to see results; patience required
+- **Timeline**: 3→ months to see results; patience required
 
 ## Common Challenges
 

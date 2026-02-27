@@ -9,7 +9,7 @@ metadata:
 
 Guides contact page design and form optimization for conversions.
 
-**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -26,7 +26,7 @@ Identify:
 
 | Principle | Guideline |
 |-----------|-----------|
-| **Short** | 3?? fields for basic contact; long forms increase abandonment |
+| **Short** | 3→ fields for basic contact; long forms increase abandonment |
 | **Single column** | Vertical layout; works better on mobile |
 | **Logical grouping** | Name+email together; address fields together |
 | **Required fields** | Mark clearly (asterisk); avoid surprises |
@@ -41,7 +41,7 @@ Identify:
 ### CTA Button
 
 - **Action verbs**: "Send Message," "Get in Touch," "Start a Conversation"
-- **Avoid generic**: "Submit" ??"Send Message"
+- **Avoid generic**: "Submit" →"Send Message"
 - **Stand out**: Contrasting color, clear hierarchy
 
 ### Page-Level

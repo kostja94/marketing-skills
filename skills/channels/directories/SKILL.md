@@ -19,36 +19,36 @@ Directory submission + Product Hunt are common cold-start strategies for AI/SaaS
 |---------|--------------|
 | **Backlinks** | Quality directories pass link equity; improve domain authority and rankings. Focus on high-authority directories (DA 50+); avoid low-quality link farms. |
 | **Real traffic & conversion** | Referral traffic from directories converts. ~42% of businesses report increased referral traffic after submission; referral conversion ~1.8% (B2C), 1.1% (B2B), 1.3% (SaaS). Use UTM to track; proper attribution can improve measured conversion by ~23%. |
-| **Social proof for brand search** | When users search your brand name, directory listings (Product Hunt, G2, Taaft, Future Tools, SaaSHub, etc.) often dominate SERP. Third-party presence signals legitimacy; consumers check 5?7 sources before deciding. Verified badges and consistent NAP across directories boost trust. |
+| **Social proof for brand search** | When users search your brand name, directory listings (Product Hunt, G2, Taaft, Future Tools, SaaSHub, etc.) often dominate SERP. Third-party presence signals legitimacy; consumers check 5-7 sources before deciding. Verified badges and consistent NAP across directories boost trust. |
 
-## Current Best Practices (2024?2026)
+## Current Best Practices (2024-2026)
 
-**Quality over quantity.** Mass submission to hundreds of low-quality directories can harm rankings; strategic placement in 10?15 high-quality directories typically yields 15?25% improvement in indexing speed and branded search visibility.
+**Quality over quantity.** Mass submission to hundreds of low-quality directories can harm rankings; strategic placement in 10-15 high-quality directories typically yields 15-25% improvement in indexing speed and branded search visibility.
 
 | Practice | Why |
 |----------|-----|
 | **Prioritize DA/DR 50+** | High-authority directories pass link equity; low-quality link farms risk penalties |
 | **Editorial review preferred** | Human-curated directories (vs. automated) carry more weight; Google's Helpful Content Update favors editorially-curated listings |
-| **Niche over generic** | Industry-specific directories deliver faster results (30?60 days) and better topical relevance than generic sites (60?120 days) |
-| **NAP consistency** | Name, Address, Phone identical across all listings?critical for local SEO |
+| **Niche over generic** | Industry-specific directories deliver faster results (30-60 days) and better topical relevance than generic sites (60-120 days) |
+| **NAP consistency** | Name, Address, Phone identical across all listings--critical for local SEO |
 | **Track submissions** | Document where you submitted, approval status, canonical topics |
 
-**Budget reference**: Small businesses $300?500/mo; enterprises $1,500?3,000/mo for comprehensive programs. Results typically 30?60 days from high-authority directories.
+**Budget reference**: Small businesses $300-500/mo; enterprises $1,500-3,000/mo for comprehensive programs. Results typically 30-60 days from high-authority directories.
 
 ## Initial Assessment
 
-**Read product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it. Use sections 1?4, 5, 6, 8, 9 to generate submission content directly?no need to ask the user for info already in the context.
+**Read product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it. Use sections 1-4, 5, 6, 8, 9 to generate submission content directly--no need to ask the user for info already in the context.
 
 | Context section | Maps to directory fields |
 |-----------------|---------------------------|
 | 1. Product Overview | Name, one-line, category, pricing model |
 | 2. Positioning Statement | Tagline, long description |
-| 3. Value Proposition | Key messages, proof points ? Pros |
+| 3. Value Proposition | Key messages, proof points -> Pros |
 | 4. Target Audience | Description tone, use cases |
 | 5. Existing Website | URL, key pages |
 | 6. Keywords | Tags, negative keywords, Primary Task |
 | 8. Brand & Voice | Tone, avoid terms, preferred wording |
-| 9. Product Documentation | Features, capabilities ? Other features |
+| 9. Product Documentation | Features, capabilities -> Other features |
 
 **When context exists**: Generate ready-to-paste submission copy (tagline, short/long description, pros/cons, tags) tailored per platform. Output copy the user can paste into Taaft, Product Hunt, etc.
 
@@ -67,13 +67,13 @@ Identify:
 
 | Field | Typical Spec | Notes |
 |-------|--------------|-------|
-| **Product name** | 60?80 chars | Consistent spelling across all listings |
+| **Product name** | 60-80 chars | Consistent spelling across all listings |
 | **URL** | Working product/landing page | No redirect chains |
-| **Tagline / one-liner** | ?60 chars (Taaft: max 12 words) | Catchy, benefit-focused |
-| **Short description** | 150?255 chars | Used by many directories |
-| **Long description** | 400?600 chars | For platforms that allow more |
+| **Tagline / one-liner** | <=60 chars (Taaft: max 12 words) | Catchy, benefit-focused |
+| **Short description** | 150-255 chars | Used by many directories |
+| **Long description** | 400-600 chars | For platforms that allow more |
 | **Category / Task** | Platform-specific | Match taxonomy (Taaft: Primary + Secondary Tasks) |
-| **Keywords / Tags** | 5?10 terms, comma-separated | Natural, no stuffing |
+| **Keywords / Tags** | 5-10 terms, comma-separated | Natural, no stuffing |
 | **Contact** | Email, optional NAP | For verification |
 | **Company name** | Legal entity | Some directories require |
 | **Promo code** | If applicable | Product Hunt, deal platforms |
@@ -81,15 +81,15 @@ Identify:
 | **API availability** | Yes/No | AI/SaaS directories |
 | **Demo video** | URL or file | Many platforms support |
 
-**Platform-specific**: Taaft requires many more fields (icon, main image, demo video, features, models, built-with tools, modalities, pricing, legal URLs, pros/cons, socials, tracking links)?see Taaft section.
+**Platform-specific**: Taaft requires many more fields (icon, main image, demo video, features, models, built-with tools, modalities, pricing, legal URLs, pros/cons, socials, tracking links)--see Taaft section.
 
 ### Prepare Asset Tiers
 
 Create multiple versions so you can match each directory's format without rewriting from scratch:
 
-- **One-liner** (?60 chars): Elevator pitch; "Remote Project Manager Pro" beats "Project Tool"
-- **Short** (150?300 chars): Core value + one differentiator
-- **Long** (400?600 chars): Problem ? solution story; features + benefits
+- **One-liner** (<=60 chars): Elevator pitch; "Remote Project Manager Pro" beats "Project Tool"
+- **Short** (150-300 chars): Core value + one differentiator
+- **Long** (400-600 chars): Problem -> solution story; features + benefits
 
 ### Rich Content Base (Build First, Use Everywhere)
 
@@ -108,7 +108,7 @@ Even if a directory form does not require it, build a full reference so you can 
 
 ### Multiple Versions for Differentiation (SEO & GEO)
 
-**Do not submit identical copy to every directory.** Duplicate content hurts SEO and reduces GEO citation diversity. Generate **at least 2?3 distinct versions** per field (tagline, short, long) so:
+**Do not submit identical copy to every directory.** Duplicate content hurts SEO and reduces GEO citation diversity. Generate **at least 2-3 distinct versions** per field (tagline, short, long) so:
 
 - Different directories show different angles
 - AI tools and search engines see varied, non-duplicate signals
@@ -146,7 +146,7 @@ Inconsistent NAP or product names can hurt SEO and trust.
 
 ## Directory Offerings (Beyond Listing)
 
-Directories typically offer multiple touchpoints?not just inclusion in the catalog:
+Directories typically offer multiple touchpoints--not just inclusion in the catalog:
 
 | Offering | Description | Use When |
 |----------|-------------|----------|
@@ -156,9 +156,9 @@ Directories typically offer multiple touchpoints?not just inclusion in the catal
 | **Social promotion** | Directory shares your product on X, LinkedIn, etc. | Launch day amplification; viral potential |
 | **Marketing campaigns** | Bundled packages: listing + newsletter + ads + social | Full-funnel campaign; product launch or relaunch |
 
-**Strategy**: Start with free listing for backlinks and baseline traffic. Layer paid options (ads, newsletter features, campaigns) when ROI justifies?especially for launches or when organic listing underperforms.
+**Strategy**: Start with free listing for backlinks and baseline traffic. Layer paid options (ads, newsletter features, campaigns) when ROI justifies--especially for launches or when organic listing underperforms.
 
-**dofollow vs nofollow**: dofollow passes link equity for SEO; nofollow does not. But the goal is conversion?if users click through and convert, the shorter path (direct traffic) can outweigh SEO benefit. Small, unknown directories have driven three-figure annual subscriptions from a single 10-minute submission.
+**dofollow vs nofollow**: dofollow passes link equity for SEO; nofollow does not. But the goal is conversion--if users click through and convert, the shorter path (direct traffic) can outweigh SEO benefit. Small, unknown directories have driven three-figure annual subscriptions from a single 10-minute submission.
 
 ### Collaboration Channels (Newsletter, Ads, Social, Campaigns)
 
@@ -173,26 +173,26 @@ Directories typically offer multiple touchpoints?not just inclusion in the catal
 
 **Phased approach**: (1) Free listing first. (2) Newsletter features when launching. (3) Ads if organic underperforms. (4) Campaign packages for major launches.
 
-**Budget reference**: Small teams $0?500/mo (listing + occasional newsletter); growth $300?500/mo; enterprise $1,500?3,000+/mo for full programs.
+**Budget reference**: Small teams $0-500/mo (listing + occasional newsletter); growth $300-500/mo; enterprise $1,500-3,000+/mo for full programs.
 
 ## Directory Types
 
 | Type | Examples | Best For | Traffic / Benefit |
 |------|----------|----------|-------------------|
-| **AI tools** | Taaft (There's An AI For That) | AI products, SaaS | 4M+ monthly visitors; 700?10K+ visitors per listing |
+| **AI tools** | Taaft (There's An AI For That) | AI products, SaaS | 4M+ monthly visitors; 700-10K+ visitors per listing |
 | **Product launch** | Product Hunt | New products, features | Community exposure, press, early adopters |
 | **App stores** | Shopify App Store, Chrome Web Store | Apps, extensions | Merchant/developer discovery |
 | **Niche directories** | Industry-specific lists | Vertical SaaS, tools | Targeted backlinks, SEO |
 | **Review platforms** | G2, Capterra, TrustRadius, SaaSHub | B2B SaaS, commercial software | Rich snippets (reviews, ratings); higher-intent buyers; vendor verification required |
 | **Curated lists** | Best-of roundups, Awesome lists, niche blog posts | Any product | Editorial backlinks; outreach to list authors; same prep as directories |
 
-**Dimension diversity**: Your product has multiple dimensions?AI tool, productivity tool, SaaS, industry-specific. After AI directories, submit to vertical niches (e.g., e-commerce tools, marketing tools, cross-border commerce tools). Smaller traffic but higher intent and conversion.
+**Dimension diversity**: Your product has multiple dimensions--AI tool, productivity tool, SaaS, industry-specific. After AI directories, submit to vertical niches (e.g., e-commerce tools, marketing tools, cross-border commerce tools). Smaller traffic but higher intent and conversion.
 
-**Feature vs solution directories**: Feature directories (text, image, video, audio by modality) suit AI enthusiasts who compare tools. Solution directories (workflow-oriented: SEO tools, EDM marketing, TikTok analytics) suit users seeking 10? productivity in a workflow?often higher conversion for B2B.
+**Feature vs solution directories**: Feature directories (text, image, video, audio by modality) suit AI enthusiasts who compare tools. Solution directories (workflow-oriented: SEO tools, EDM marketing, TikTok analytics) suit users seeking 10x productivity in a workflow--often higher conversion for B2B.
 
 ## Directory Lists (Curated Lists)
 
-**Same principles as directories**?backlinks, traffic, discovery. Curated lists are editorial roundups (e.g., "Best AI tools 2025," "Top 10 SaaS for marketing") published on blogs, newsletters, or dedicated list sites.
+**Same principles as directories**--backlinks, traffic, discovery. Curated lists are editorial roundups (e.g., "Best AI tools 2025," "Top 10 SaaS for marketing") published on blogs, newsletters, or dedicated list sites.
 
 | Type | Examples | How to get listed |
 |------|----------|-------------------|
@@ -201,7 +201,7 @@ Directories typically offer multiple touchpoints?not just inclusion in the catal
 | **Comparison / alternatives** | AlternativeTo, G2 alternatives | Submit as alternative to X; comparison-focused copy |
 | **Niche roundups** | Industry blogs, newsletters | Pitch for inclusion; offer quote, case study, or exclusive angle |
 
-**Preparation**: Same as directory submission?product info, tagline, short/long description, screenshots. Tailor pitch to list theme (e.g., "best for startups," "budget-friendly," "enterprise-ready").
+**Preparation**: Same as directory submission--product info, tagline, short/long description, screenshots. Tailor pitch to list theme (e.g., "best for startups," "budget-friendly," "enterprise-ready").
 
 **Tip**: One solid backlink from a curated list often beats many low-quality directory links. Prioritize lists with editorial oversight and real traffic.
 
@@ -211,22 +211,22 @@ Directories typically offer multiple touchpoints?not just inclusion in the catal
 
 - **URL**: taaft.com/submit or theresanaiforthat.com/submit
 - **Scale**: 46K+ AI tools, 4M+ monthly visitors, 2.8M+ newsletter subscribers
-- **Listing**: 700?10K+ guaranteed targeted visitors per listing; early launch bonus (up to $300 PPC credits for launching on Taaft first)
+- **Listing**: 700-10K+ guaranteed targeted visitors per listing; early launch bonus (up to $300 PPC credits for launching on Taaft first)
 - **Beyond listing**: Newsletter features (reach 2.8M+ subs), ad placements, social promotion, marketing campaigns
-- **Free vs paid**: Submission fee varies; sometimes free listing is possible (e.g., early action, specific criteria)?check current pricing
+- **Free vs paid**: Submission fee varies; sometimes free listing is possible (e.g., early action, specific criteria)--check current pricing
 - **Use when**: Product is AI-related; want AI-focused traffic, backlinks, and paid amplification options
 
 **Taaft submission fields** (prepare before submitting; changes can take up to 24h to reflect):
 
 | Category | Field | Spec / Notes |
-|----------|-------|---------------|
+|----------|-------|--------------|
 | **Identity** | Name | Product/tool name |
 | | Primary Task | Search and select from Taaft task taxonomy (e.g., Text to speech, Image generation) |
 | | Secondary Tasks | Search and add; subject to approval, processed daily |
 | | Tagline | Max 12 words; benefit-focused |
 | | Description | Full product description; use-case driven, keyword-rich |
 | | Country | Select from list |
-| **Media** | Icon | SVG preferred; PNG/JPEG/WEBP ?500?500 px |
+| **Media** | Icon | SVG preferred; PNG/JPEG/WEBP <=500x500 px |
 | | Main image | Product screenshot or hero visual |
 | | Demo video | Optional; no captions (Taaft auto-generates for all languages) |
 | **Features** | Supported features | Check: Agents, API, MCP, Run locally, Open source, No signup, Supports TAAFT code |
@@ -250,7 +250,7 @@ Directories typically offer multiple touchpoints?not just inclusion in the catal
 | **Pros / Cons** | Pros | Add multiple; feature and benefit bullets |
 | | Cons | Add multiple; honest limitations (builds trust) |
 
-**Tip**: Pros and cons help users compare; be honest?negative keywords and cons improve relevance and trust.
+**Tip**: Pros and cons help users compare; be honest--negative keywords and cons improve relevance and trust.
 
 ### Product Hunt
 
@@ -270,13 +270,13 @@ Directories typically offer multiple touchpoints?not just inclusion in the catal
 - **URL**: shopify.dev/docs/apps/launch/shopify-app-store
 - **Listing**: App catalog; merchant discovery
 - **Beyond listing**: Featured placement, app store ads, partner marketing programs
-- **Requirements**: Partner account; session tokens (no third-party cookies); Shopify checkout; app icon 1200?1200; factual listing
+- **Requirements**: Partner account; session tokens (no third-party cookies); Shopify checkout; app icon 1200x1200; factual listing
 - **Use when**: Building Shopify apps; need merchant discovery and optional paid promotion
 
 ### Review Platforms (G2, Capterra, SaaSHub, TrustRadius)
 
 - **Type**: B2B software review platform (vendor-submitted, review-driven); rich snippets (stars, ratings) in SERP
-- **vs directories**: More complex submission (domain email verification, more fields, features, FAQ); commercialized (membership, paid placement); lower risk than PH ranking?reviews drive priority; higher-paying B2B users
+- **vs directories**: More complex submission (domain email verification, more fields, features, FAQ); commercialized (membership, paid placement); lower risk than PH ranking--reviews drive priority; higher-paying B2B users
 - **Examples**: G2 (3.2M), Capterra (3M), Software Advice (832K), TrustRadius (583K), SaaSHub (392K, dofollow, PA 90+), Crozdesk (109K), Trustpilot (58.3M)
 - **Use when**: B2B SaaS; want review-rich SERP presence and enterprise buyers
 
@@ -296,13 +296,13 @@ Before submitting to any directory:
 - [ ] **Asset tiers** prepared (one-liner, short, long) for platform-specific adaptation
 - [ ] **Landing page** live and optimized
 - [ ] **Product description** clear, benefit-focused (no jargon)
-- [ ] **Screenshots / demo** (Product Hunt: 1270?760 recommended)
+- [ ] **Screenshots / demo** (Product Hunt: 1270x760 recommended)
 - [ ] **Logo / icon** per platform specs
 - [ ] **Category** selected correctly per directory taxonomy
 - [ ] **URL** correct and working
-- [ ] **Media kit** (for Product Hunt, press outreach) ?see pages-media-kit
+- [ ] **Media kit** (for Product Hunt, press outreach) --see pages-media-kit
 - [ ] **Platform-specific copy** drafted (do not reuse identical text across directories)
-- [ ] **Taaft** (if applicable): Full field set?icon, main image, demo video, Primary/Secondary Tasks, features, models, built-with, modalities, pricing, legal URLs, pros/cons, socials, tracking links
+- [ ] **Taaft** (if applicable): Full field set--icon, main image, demo video, Primary/Secondary Tasks, features, models, built-with, modalities, pricing, legal URLs, pros/cons, socials, tracking links
 
 ## Best Practices
 
@@ -324,50 +324,50 @@ Before submitting to any directory:
 
 ### Required Output Structure (in order)
 
-1. **Introduction** ?What directory submission is: Taaft, Product Hunt, G2, curated lists, app stores; cold-start strategy for AI/SaaS; listings, ads, newsletter features, campaigns.
+1. **Introduction** --What directory submission is: Taaft, Product Hunt, G2, curated lists, app stores; cold-start strategy for AI/SaaS; listings, ads, newsletter features, campaigns.
 
-2. **Importance** ?Why directory submission matters: backlinks and domain authority; referral traffic and conversion (~42% report increased traffic); social proof for brand search (directory listings dominate SERP); third-party presence signals legitimacy.
+2. **Importance** --Why directory submission matters: backlinks and domain authority; referral traffic and conversion (~42% report increased traffic); social proof for brand search (directory listings dominate SERP); third-party presence signals legitimacy.
 
-3. **Methods** ?How to submit:
+3. **Methods** --How to submit:
    - **Taaft**: Full field set; Primary/Secondary Tasks; tailor for AI tool seekers
    - **Product Hunt**: Tagline, first comment, screenshots; community engagement
    - **G2/Capterra**: Features, pricing, verification; comparison-oriented
    - **Curated lists**: Outreach to list authors; pitch per theme
 
-4. **Collaboration Channels (Beyond Listing)** ?Newsletter, ads, social, campaigns. Include:
-   - **Newsletter**: Taaft (2.8M+ subs), Product Hunt Daily, Future Tools?high-intent; paid or bundled
+4. **Collaboration Channels (Beyond Listing)** --Newsletter, ads, social, campaigns. Include:
+   - **Newsletter**: Taaft (2.8M+ subs), Product Hunt Daily, Future Tools--high-intent; paid or bundled
    - **Ad placements**: Taaft, Product Hunt Featured, G2/Capterra sponsored; use UTM
    - **Social promotion**: Directory shares on X, LinkedIn; launch-day amplification
    - **Campaigns**: Bundled listing + newsletter + ads + social; full-funnel for launches
-   - **Phased approach**: Listing first ? Newsletter ? Ads ? Campaigns
-   - **Budget reference**: Small $0?500/mo; growth $300?500/mo; enterprise $1,500?3,000+/mo
+   - **Phased approach**: Listing first -> Newsletter -> Ads -> Campaigns
+   - **Budget reference**: Small $0-500/mo; growth $300-500/mo; enterprise $1,500-3,000+/mo
 
-5. **Rules** ?Tailor per platform; different expression per directory; multiple versions (A/B/C/D) to avoid duplicate content (SEO/GEO friendly); match category; prepare asset tiers (one-liner, short, long).
+5. **Rules** --Tailor per platform; different expression per directory; multiple versions (A/B/C/D) to avoid duplicate content (SEO/GEO friendly); match category; prepare asset tiers (one-liner, short, long).
 
-6. **Avoid** ?Copy-paste identical copy across directories; generic descriptions; missing legal URLs; wrong category; low-quality link farms.
+6. **Avoid** --Copy-paste identical copy across directories; generic descriptions; missing legal URLs; wrong category; low-quality link farms.
 
-7. **Action** ?Ready-to-paste submission content for the user's product:
-   - **Rich content base** (features, use cases, solutions, competitors, pricing)?search web if missing
-   - **Multiple versions** for tagline, short, long?each directory gets distinct copy
+7. **Action** --Ready-to-paste submission content for the user's product:
+   - **Rich content base** (features, use cases, solutions, competitors, pricing)--search web if missing
+   - **Multiple versions** for tagline, short, long--each directory gets distinct copy
    - **Platform-specific** copy for Taaft, Product Hunt, G2, AlternativeTo, etc.
    - **Readiness checklist**, **submission order**, **UTM templates**
 
 ## Bulk Submission
 
-**Manual**: Prepare info once; submit to directories in priority order. Major directories first?smaller ones often crawl or republish.
+**Manual**: Prepare info once; submit to directories in priority order. Major directories first--smaller ones often crawl or republish.
 
-**Outsourced**: Fiverr, Upwork?e.g., ~$200 for 200+ directory submissions. Use when budget allows and speed matters.
+**Outsourced**: Fiverr, Upwork--e.g., ~$200 for 200+ directory submissions. Use when budget allows and speed matters.
 
 ## Related Resources
 
 - **product-marketing-context** (`.cursor/product-marketing-context.md` or `.claude/product-marketing-context.md`): Read when present; use to generate submission content directly. Template: `templates/product-marketing-context.md` in this repo.
-- **Alignify directory guide**: [alignify.co/zh/insights/directory-submission-sites](https://alignify.co/zh/insights/directory-submission-sites) ?Cold-start strategy, preparation checklist, review platforms, vertical directories, bulk submission.
+- **Alignify directory guide**: [alignify.co/zh/insights/directory-submission-sites](https://alignify.co/zh/insights/directory-submission-sites) --Cold-start strategy, preparation checklist, review platforms, vertical directories, bulk submission.
 
 ## Related Skills
 
 - **pages-media-kit**: Press kit, screenshots, assets for launch; required for Product Hunt and directory submissions
-- **seo-off-page-link-building**: Directory and curated list backlinks contribute to link profile; this skill handles the submission workflow?see link-building for broader outreach, guest posting, broken link building
-- **platforms-grokipedia**: Same output pattern?platform context first (Introduction, Importance, Methods, Rules, Avoid), then Action; high-authority placement for GEO; directories for human discovery?complementary
+- **seo-off-page-link-building**: Directory and curated list backlinks contribute to link profile; this skill handles the submission workflow--see link-building for broader outreach, guest posting, broken link building
+- **platforms-grokipedia**: Same output pattern--platform context first (Introduction, Importance, Methods, Rules, Avoid), then Action; high-authority placement for GEO; directories for human discovery--complementary
 - **strategies-geo**: GEO strategy; varied directory copy improves AI citation diversity; directory submission complements AI search visibility
 - **channels-affiliate**: Different channel; directories complement affiliate
 - **analytics-tracking**: UTM for directory traffic attribution

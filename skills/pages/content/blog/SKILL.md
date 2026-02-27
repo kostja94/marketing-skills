@@ -9,7 +9,7 @@ metadata:
 
 Guides blog page structure, SEO, and content marketing best practices.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -34,7 +34,7 @@ Identify:
 
 ### Content Strategy
 
-- **Topical authority**: Pillar page per core topic + 6→0 cluster articles
+- **Topical authority**: Pillar page per core topic + 6-10 cluster articles
 - **Intent mapping**: Transactional, problem-aware, informational
 - **EEAT signals**: Author bios, Organization schema, citations, changelog
 
@@ -42,9 +42,9 @@ Identify:
 
 - **Title**: 55 chars, power words, primary keyword
 - **Meta**: Clear CTA in description
-- **Headers**: H1?H3 hierarchy, table of contents
+- **Headers**: H1-H3 hierarchy, table of contents
 - **Content depth**: 2,500+ words for pillars; Grade 8 readability
-- **URL**: Clean slugs, 3→ words
+- **URL**: Clean slugs, 3-5 words
 - **Schema**: Article, BlogPosting, FAQPage where relevant
 
 ### Technical

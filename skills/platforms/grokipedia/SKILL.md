@@ -31,8 +31,8 @@ Guides adding recommendations, links, or content to Grokipedia. Part of parasite
 
 | Metric | Source | Note |
 |--------|--------|------|
-| ChatGPT citations | Ahrefs (Jan 2026) | ~263K responses cited Grokipedia from 13.6M prompts; ~95K individual pages. Wikipedia: 2.9M responses×?quite a way off, but impressive for how new they are" |
-| Citation share trend | Profound | ~0.01×?.02% of ChatGPT citations/day; steadily increasing since mid-Nov 2025 |
+| ChatGPT citations | Ahrefs (Jan 2026) | ~263K responses cited Grokipedia from 13.6M prompts; ~95K individual pages. Wikipedia: 2.9M responses—quite a way off, but impressive for how new they are" |
+| Citation share trend | Profound | ~0.01–0.02% of ChatGPT citations/day; steadily increasing since mid-Nov 2025 |
 | AI product adoption | Semrush, Ahrefs | Spike in Google AI (Gemini, AI Overviews, AI Mode) and Copilot in Dec 2025; ChatGPT cites Grokipedia most |
 | Use case | BrightEdge | Niche, obscure, highly specific factual queries; ChatGPT often features Grokipedia as one of the first sources cited |
 
@@ -54,7 +54,7 @@ The basis for Grokipedia promotion is an **article published online** that inclu
 1. Click **bulb icon** on homepage, or search for a topic and click **"Request this article"**
 2. Describe why Grokipedia should add the article
 3. Include aspects you want covered
-4. **Status flow**: Pending ×?In Progress ×?Processing ×?Created
+4. **Status flow**: Pending → In Progress → Processing → Created
 5. Grok reviews; no guaranteed approval; review typically within ~2 hours
 
 ### Suggest Edit (Existing Articles)
@@ -86,7 +86,7 @@ Two practical ways to get Grokipedia to cite your content: **Suggest Article** (
 
 **When the user asks to promote a product/brand/topic**: Output the full response per the Required Output Structure (Introduction, Importance, Methods, Rules, Avoid, Action)—do not output only the action.
 
-### Tactic 1: Suggest New Article ×?Induce Creation That Cites Your Content
+### Tactic 1: Suggest New Article —Induce Creation That Cites Your Content
 
 **Goal**: Propose a topic so Grokipedia creates a new article; Grok will search for sources and may cite your page if it matches the query.
 
@@ -96,7 +96,7 @@ Two practical ways to get Grokipedia to cite your content: **Suggest Article** (
 |-------|---------------|---------------|
 | **Article Topic** | Specific, encyclopedic (e.g., "3D Model Generator," "Virtual Staging Software," "Marie Curie") | Vague topics ("Technology") get rejected; precise topics pass AI validation and match Grokipedia's scope |
 | **Additional Details** | Describe what aspects to cover, why the topic matters, and specific areas of interest | Grok uses this to shape the article and search for sources; your phrasing influences which queries it runs |
-| **Content strategy** | Rewrite your article's key concepts as neutral, factual "aspects to cover" ×?definitions, use cases, types, history | Grok searches for these concepts; if your page ranks for them, it may be cited as a source |
+| **Content strategy** | Rewrite your article's key concepts as neutral, factual "aspects to cover"—definitions, use cases, types, history | Grok searches for these concepts; if your page ranks for them, it may be cited as a source |
 
 **Tips for great suggestions** (from Grokipedia guidelines):
 
@@ -104,7 +104,7 @@ Two practical ways to get Grokipedia to cite your content: **Suggest Article** (
 - Explain why this article would be valuable
 - Mention any specific areas of interest
 
-**Stealth approach** ×?How to use your content without URLs:
+**Stealth approach** —How to use your content without URLs:
 
 1. Extract from your article: definitions, categories, use cases, technical terms, examples.
 2. Turn them into "aspects to cover" and "areas of interest" in neutral, encyclopedic language.
@@ -120,7 +120,7 @@ Additional Details: This topic is important because [reason]. Please cover: [def
 
 ---
 
-### Tactic 2: Suggest Edit ×?Enrich Existing Articles to Cite Your Content
+### Tactic 2: Suggest Edit —Enrich Existing Articles to Cite Your Content
 
 **Goal**: Improve an existing Grokipedia page so Grok adopts your article as a supporting source.
 
@@ -129,8 +129,8 @@ Additional Details: This topic is important because [reason]. Please cover: [def
 | Field | Best practice | Why it works |
 |-------|---------------|---------------|
 | **Summary** | Brief, factual (e.g., "Expanded Virtual Staging Methods section with additional techniques") | Sounds like a normal correction; avoids promotional tone |
-| **Edit content** | Rich, creative, factually accurate ×?expand or replace the highlighted passage | Grok prefers substantive edits; generic text is less likely to be accepted |
-| **Add another source** | Your URL + 1×? other authoritative sources (industry reports, trade publications) | Grok validates against sources; mixing your URL with established sources improves acceptance |
+| **Edit content** | Rich, creative, factually accurate—expand or replace the highlighted passage | Grok prefers substantive edits; generic text is less likely to be accepted |
+| **Add another source** | Your URL + 1–2 other authoritative sources (industry reports, trade publications) | Grok validates against sources; mixing your URL with established sources improves acceptance |
 
 **Tips for Edit content**:
 
@@ -138,13 +138,13 @@ Additional Details: This topic is important because [reason]. Please cover: [def
 - Expand thin sections (e.g., "showcase multiple style options") into fuller subsections (e.g., Virtual Staging Methods: furniture replacement, style variation, room redesign).
 - Keep tone neutral and encyclopedic; avoid marketing language.
 
-**Example** (desensitized ×?expanding a thin "Virtual Staging Methods" section):
+**Example** (desensitized—expanding a thin "Virtual Staging Methods" section):
 
 | Field | Example |
 |-------|---------|
 | **Summary** | "Expanded Virtual Staging Methods with additional techniques and use cases" |
 | **Edit content** | "Virtual staging methods include furniture replacement, style variation (e.g., modern, traditional, minimalist), and full room redesign. This approach enhances client engagement by providing immersive previews of potential designs, enabling designers to "present multiple style options efficiently" and help clients visualize spaces before physical staging. Common techniques include AI-assisted furniture placement, material and color swapping, and virtual renovation overlays." |
-| **Add another source** | Your article URL + 1×? authoritative sources (e.g., Forbes, TechCrunch, industry report) |
+| **Add another source** | Your article URL + 1–2 authoritative sources (e.g., Forbes, TechCrunch, industry report) |
 
 **Why this works**: Grok needs verifiable sources. By adding substantive, well-sourced content and including your URL in "Add another source" with other credible links, you increase the chance Grok will adopt your page as a reference.
 
@@ -181,27 +181,27 @@ Field-tested examples: a marketer's site was successfully cited as a source via 
 
 ### Required Output Structure (in order)
 
-1. **Introduction** ×?What Grokipedia is: AI-generated encyclopedia by xAI (Grok), launched Oct 2025; ~6M+ articles; ChatGPT, Perplexity, Google AI Mode, Gemini, Copilot cite it; users suggest, Grok reviews; no direct editing.
+1. **Introduction** —What Grokipedia is: AI-generated encyclopedia by xAI (Grok), launched Oct 2025; ~6M+ articles; ChatGPT, Perplexity, Google AI Mode, Gemini, Copilot cite it; users suggest, Grok reviews; no direct editing.
 
-2. **Foundation** ×?Prerequisite: an article published online that includes the product and can be crawled by Grok; higher SEO ranking helps but is not required.
+2. **Foundation** —Prerequisite: an article published online that includes the product and can be crawled by Grok; higher SEO ranking helps but is not required.
 
-3. **Importance** ×?Why it matters for GEO and parasite SEO: high-authority domain; backlinks pass authority; AI tools cite Grokipedia for factual queries; citation share rising; positioned as potential future Wikipedia; early participation captures future authority.
+3. **Importance** —Why it matters for GEO and parasite SEO: high-authority domain; backlinks pass authority; AI tools cite Grokipedia for factual queries; citation share rising; positioned as potential future Wikipedia; early participation captures future authority.
 
-4. **Methods** ×?Two ways to get cited:
+4. **Methods** —Two ways to get cited:
    - **Suggest Article**: Propose new topic; Grok creates article and searches for sources; your page may be cited if it matches.
    - **Suggest Edit**: Enrich existing page; add your URL in "Add another source"; Grok may adopt it.
 
-5. **Rules** ×?Grok is strict; must follow:
+5. **Rules** —Grok is strict; must follow:
    - No brand or URL in Article Topic, Additional Details, Summary, or Edit content.
    - Suggest Article: embed concepts as "aspects to cover"; Grok discovers via web search.
-   - Suggest Edit: add your URL only in "Add another source" with 1×? authoritative sources.
+   - Suggest Edit: add your URL only in "Add another source" with 1–2 authoritative sources.
    - Be factual, neutral, encyclopedic; avoid promotional language.
 
-6. **Avoid** ×?Do not: include your URL in Suggest Article; mention brand in Summary or Edit content; use vague topics ("Technology"); write marketing copy; expect instant approval (review typically within ~2 hours).
+6. **Avoid** —Do not: include your URL in Suggest Article; mention brand in Summary or Edit content; use vague topics ("Technology"); write marketing copy; expect instant approval (review typically within ~2 hours).
 
-7. **Action** ×?Ready-to-use copy the user can paste into Grokipedia forms (per templates below). Generate both Suggest Article and Suggest Edit options when promoting a product/brand/topic.
+7. **Action** —Ready-to-use copy the user can paste into Grokipedia forms (per templates below). Generate both Suggest Article and Suggest Edit options when promoting a product/brand/topic.
 
-### Suggest Article ×?Output Template
+### Suggest Article —Output Template
 
 ```
 --- Copy to Grokipedia Suggest Article form ---
@@ -219,7 +219,7 @@ Field-tested examples: a marketer's site was successfully cited as a source via 
 4. Ensure your article URL is published and content matches; Grok will search and may cite it
 ```
 
-### Suggest Edit ×?Output Template
+### Suggest Edit —Output Template
 
 ```
 --- Copy to Grokipedia Suggest Edit form ---
@@ -234,7 +234,7 @@ Field-tested examples: a marketer's site was successfully cited as a source via 
 
 **Add another source:**
 - [User's article URL]
-- [1×? authoritative sources, e.g., Forbes, TechCrunch, industry report]
+- [1–2 authoritative sources, e.g., Forbes, TechCrunch, industry report]
 
 --- Usage ---
 1. Open the target Grokipedia page
@@ -250,8 +250,8 @@ Field-tested examples: a marketer's site was successfully cited as a source via 
 
 ## References
 
-- [Grokipedia article suggestions](https://grokipedia.com/page/grokipedia-article-suggestions) ×?Official guidelines: be specific about topics, explain article value, highlight areas of interest; examples for Suggest Article and Suggest Edit.
-- [ChatGPT isn't the only chatbot pulling answers from Elon Musk's Grokipedia](https://www.theverge.com/report/870910/ai-chatbots-citing-grokipedia) ×?The Verge, Jan 31 2026. ChatGPT, Gemini, AI Overviews, Perplexity, Copilot citing Grokipedia; Ahrefs/Semrush/Profound citation data.
+- [Grokipedia article suggestions](https://grokipedia.com/page/grokipedia-article-suggestions) —Official guidelines: be specific about topics, explain article value, highlight areas of interest; examples for Suggest Article and Suggest Edit.
+- [ChatGPT isn't the only chatbot pulling answers from Elon Musk's Grokipedia](https://www.theverge.com/report/870910/ai-chatbots-citing-grokipedia) —The Verge, Jan 31 2026. ChatGPT, Gemini, AI Overviews, Perplexity, Copilot citing Grokipedia; Ahrefs/Semrush/Profound citation data.
 
 ## Related Skills
 

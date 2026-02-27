@@ -9,12 +9,12 @@ metadata:
 
 Guides heading (H1-H6) optimization for SEO and content structure.
 
-**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Scope (On-Page SEO)
 
 - **H1 tag**: One per page; clear headline; matches content; primary keyword near start
-- **Header tags (H1?H6)**: Logical hierarchy; keyword in headers; one idea per heading
+- **Header tags (H1-H6)**: Logical hierarchy; keyword in headers; one idea per heading
 
 ## Initial Assessment
 
@@ -36,11 +36,11 @@ Identify:
 | **Descriptive** | Clearly describe page content |
 | **Match intent** | Align with title tag and user intent |
 
-### H2?H6 Hierarchy
+### H2-H6 Hierarchy
 
 | Principle | Guideline |
 |-----------|-----------|
-| **Logical order** | H1 ?H2 ?H3; don't skip levels |
+| **Logical order** | H1 ? H2 ? H3; don't skip levels |
 | **One idea per heading** | Each heading = one topic |
 | **Scannable** | Headings should summarize section content |
 | **Keyword variation** | Use related keywords in subheadings |
@@ -49,12 +49,12 @@ Identify:
 
 ```
 H1 (page title)
-?? H2 (section 1)
-?  ?? H3 (subsection)
-?  ?? H3
-?? H2 (section 2)
-?  ?? H3
-?? H2 (section 3)
+? H2 (section 1)
+   ? H3 (subsection)
+   ? H3
+? H2 (section 2)
+   ? H3
+? H2 (section 3)
 ```
 
 ## Common Issues
@@ -69,7 +69,7 @@ H1 (page title)
 ## Output Format
 
 - **H1** recommendation (with keyword)
-- **H2?H6** outline for content
+- **H2-H6** outline for content
 - **Hierarchy** check
 - **References**: [Google headings](https://developers.google.com/search/docs/appearance/title-link)
 

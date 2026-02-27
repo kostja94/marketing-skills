@@ -9,7 +9,7 @@ metadata:
 
 Guides About page content, structure, and trust-building for company websites.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -36,7 +36,7 @@ Identify:
 
 ### Strategic Approach
 
-- **Tell a story**: Convey who you are and why you're different?not just facts
+- **Tell a story**: Convey who you are and why you're different--not just facts
 - **Customer-focused**: Frame around what you solve for customers, not self-promotion
 - **Build trust**: Social links, testimonials, contact details, certifications
 - **Visible placement**: About in main nav, not buried in footer

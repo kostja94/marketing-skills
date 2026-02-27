@@ -9,7 +9,7 @@ metadata:
 
 Guides analysis of Google Search Console (GSC) data: performance metrics, indexing, sitemaps, Core Web Vitals, and rich results. Covers best practices for monthly monitoring and actionable insights.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Scope
 
@@ -44,7 +44,7 @@ Guides analysis of Google Search Console (GSC) data: performance metrics, indexi
 
 ### 1. Performance (Search Results)
 
-**Location**: Performance →Search results
+**Location**: Performance ? Search results
 
 | Metric | Use |
 |--------|-----|
@@ -63,30 +63,30 @@ Use to compare actual CTR vs expected. Benchmarks vary by SERP features (AI Over
 
 | Position | Expected CTR (baseline) | With AI Overviews (lower) |
 |----------|-------------------------|---------------------------|
-| 1 | 25–35% | ~19% |
-| 2 | 12–18% | ~12% |
-| 3 | 8–12% | ~7% |
-| 4–5 | 5–7% | ~5% |
-| 6–10 | 2–5% | 2–5% |
+| 1 | 25-35% | ~19% |
+| 2 | 12-18% | ~12% |
+| 3 | 8-12% | ~7% |
+| 4-5 | 5-7% | ~5% |
+| 6-10 | 2-5% | 2-5% |
 
 **Interpretation**: If actual CTR is below expected for your position, prioritize title/meta optimization. Over 90% of first-page results have CTR below 10%; significant upside exists.
 
 #### Low CTR, High Impressions: Optimization Workflow
 
-1. **Identify**: Sort by impressions; filter positions 1–10; 1,000+ monthly impressions
+1. **Identify**: Sort by impressions; filter positions 1-10; 1,000+ monthly impressions
 2. **Compare**: Actual CTR vs expected for position (see table above)
-3. **Gap**: e.g., position 4 at 2% CTR vs expected 5–7% →~3–5% uplift potential
-4. **Action**: Optimize title and meta (see below); add schema for rich results (+10–20% clicks)
+3. **Gap**: e.g., position 4 at 2% CTR vs expected 5-7% ? ~3-5% uplift potential
+4. **Action**: Optimize title and meta (see below); add schema for rich results (+10-20% clicks)
 
 #### Title Tag Best Practices
 
 | Aspect | Guideline |
 |--------|-----------|
-| **Length** | 50–60 chars to avoid truncation; Google reads full tag, weights beginning |
+| **Length** | 50-60 chars to avoid truncation; Google reads full tag, weights beginning |
 | **Front-load** | Main phrase first; branding at end |
 | **Clarity** | Match search intent; avoid keyword stuffing |
 | **Engagement** | Numbers, power words, questions can boost CTR ~36% |
-| **Example** | Bad: "SEO Tips for Small Business" →Better: "11 SEO Tips That Actually Work (2026)" |
+| **Example** | Bad: "SEO Tips for Small Business" ? Better: "11 SEO Tips That Actually Work (2026)" |
 
 Google may rewrite titles if they mismatch content or intent. H1 should align with title.
 
@@ -94,19 +94,19 @@ Google may rewrite titles if they mismatch content or intent. H1 should align wi
 
 | Aspect | Guideline |
 |--------|-----------|
-| **Length** | 120–158 chars (~150 sweet spot); ~920px desktop, ~680px mobile |
+| **Length** | 120-158 chars (~150 sweet spot); ~920px desktop, ~680px mobile |
 | **Unique** | One per page; no duplicate descriptions |
 | **Intent** | Answer "why should I click?"; match search intent |
 | **Content** | Include author, date, price where relevant |
-| **Impact** | Does not affect ranking; well-written descriptions improve CTR 5–10% |
+| **Impact** | Does not affect ranking; well-written descriptions improve CTR 5-10% |
 
 #### Rich Results & CTR
 
-Pages with review stars, FAQ schema, or other rich snippets see 10–20% more clicks. See seo-on-page-schema.
+Pages with review stars, FAQ schema, or other rich snippets see 10-20% more clicks. See seo-on-page-schema.
 
 ### 2. Insights Report
 
-**Location**: Performance →Insights (or Overview)
+**Location**: Performance ? Insights (or Overview)
 
 Simplified overview; replaces standalone Search Console Insights. Data from GSC only (no GA since Dec 2024).
 
@@ -125,11 +125,11 @@ Simplified overview; replaces standalone Search Console Insights. Data from GSC 
 
 ### 3. Page Indexing (Coverage)
 
-**Location**: Indexing →Page indexing
+**Location**: Indexing ? Page indexing
 
-**Status grouping** (updated): Valid + Valid with warning →**Indexed**. Error + Excluded →**Not indexed**.
+**Status grouping** (updated): Valid + Valid with warning ? **Indexed**. Error + Excluded ? **Not indexed**.
 
-**Indexed vs Not indexed are complementary**: Not all site content should be indexed. Login, admin, duplicate content, legal boilerplate, and low-value pages often intentionally use noindex. Indexed and non-indexed pages can reference each other (e.g., sitemap includes indexable URLs; noindex pages still exist and link internally). Non-indexed is not inherently a problem?investigate only when important pages are excluded. See seo-technical-indexing (noindex usage) and seo-technical-robots (crawl control) for when to exclude.
+**Indexed vs Not indexed are complementary**: Not all site content should be indexed. Login, admin, duplicate content, legal boilerplate, and low-value pages often intentionally use noindex. Indexed and non-indexed pages can reference each other (e.g., sitemap includes indexable URLs; noindex pages still exist and link internally). Non-indexed is not inherently a problem--investigate only when important pages are excluded. See seo-technical-indexing (noindex usage) and seo-technical-robots (crawl control) for when to exclude.
 
 | Metric | Action |
 |--------|--------|
@@ -148,19 +148,19 @@ Simplified overview; replaces standalone Search Console Insights. Data from GSC 
 - 5xx errors
 - 404 errors
 - Blocked by robots.txt
-- Discovered →currently not indexed
-- Crawled →currently not indexed
+- Discovered ? currently not indexed
+- Crawled ? currently not indexed
 
 **Quick check**: If trend line is stable, spend ~3 seconds; move on. Investigate if fourth column (trend) shifts.
 
-**Diagnosis workflow**: GSC Coverage →click Issue →view sample URLs →identify pattern →fix (see seo-technical-indexing for fix actions).
+**Diagnosis workflow**: GSC Coverage ? click Issue ? view sample URLs ? identify pattern ? fix (see seo-technical-indexing for fix actions).
 
 **Coverage issue types**:
 
 | Issue | Meaning | Next step |
 |-------|---------|-----------|
 | Crawled - currently not indexed | Crawled but not indexed | See seo-technical-indexing |
-| Excluded by ×noindex× tag | Intentionally excluded; often valid (login, admin, legal, etc.) | Ignore if expected; verify important pages not accidentally noindexed |
+| Excluded by "noindex" tag | Intentionally excluded; often valid (login, admin, legal, etc.) | Ignore if expected; verify important pages not accidentally noindexed |
 | Blocked by robots.txt | Crawl blocked | See seo-technical-robots; may be intentional |
 | Redirect / 404 | Redirect or missing | Fix URL or redirect |
 | Duplicate / Canonical | Duplicate content | Usually OK; keep canonical |
@@ -169,7 +169,7 @@ Simplified overview; replaces standalone Search Console Insights. Data from GSC 
 
 ### 4. Video Indexing (If Applicable)
 
-**Location**: Indexing →Video indexing
+**Location**: Indexing ? Video indexing
 
 - **Videos indexed** / **Videos not indexed**: Toggle off the other for clear view
 - **Why videos are not indexed**: Thumbnail blocked, invalid size/format, not in main content, etc.
@@ -178,19 +178,19 @@ Skip if video SEO is not in roadmap.
 
 ### 5. XML Sitemaps
 
-**Location**: Indexing →Sitemaps
+**Location**: Indexing ? Sitemaps
 
 | Check | Action |
 |------|--------|
 | Status | Confirm each sitemap says "Success" |
-| URLs indexed | Click sitemap →see indexed count; drops indicate indexing issues |
+| URLs indexed | Click sitemap ? see indexed count; drops indicate indexing issues |
 | Bellwether sitemaps | For large sites, monitor templated sitemaps (by country, language, division) |
 
 Enterprise: Glitches can block new URL crawling, cause hreflang confusion, delay fresh content discovery.
 
 ### 6. Core Web Vitals
 
-**Location**: Experience →Core Web Vitals
+**Location**: Experience ? Core Web Vitals
 
 **Priority**: Mobile first (Google's higher expectations for mobile).
 
@@ -200,7 +200,7 @@ Enterprise: Glitches can block new URL crawling, cause hreflang confusion, delay
 | **Needs improvement** | Fix | Monitor |
 | **Poor URLs** | Fix | Monitor |
 
-**Why URLs don't have good score**: Click "Open report" →grouped example URLs by issue type.
+**Why URLs don't have good score**: Click "Open report" ? grouped example URLs by issue type.
 
 | Issue | Threshold (mobile) |
 |-------|--------------------|
@@ -210,13 +210,13 @@ Enterprise: Glitches can block new URL crawling, cause hreflang confusion, delay
 
 **Tip**: Historical chart is short; export to spreadsheet for longer trends. Share with dev team regularly; correlate dates with releases.
 
-**Layout** (updated): Two tables?Poor or Need improvement; Good (click "View data about usable pages").
+**Layout** (updated): Two tables--Poor or Need improvement; Good (click "View data about usable pages").
 
 ### 7. Enhancements (Rich Results)
 
-**Location**: Experience →Enhancements (Product snippets, Merchant listings under Shopping)
+**Location**: Experience ? Enhancements (Product snippets, Merchant listings under Shopping)
 
-**Status** (updated): Two-tier→*invalid** (critical issues, may not appear) vs **valid** (no critical issues; may still have warnings). Warnings no longer top-level.
+**Status** (updated): Two-tier?*invalid* (critical issues, may not appear) vs **valid** (no critical issues; may still have warnings). Warnings no longer top-level.
 
 | Type | Examples |
 |------|----------|
@@ -246,7 +246,7 @@ For GA4 AI traffic tracking, see analytics-ai-traffic.
 
 ## Search Console API
 
-**Method**: `searchanalytics.query()` →exposes all Performance report data.
+**Method**: `searchanalytics.query()` --exposes all Performance report data.
 
 ### Metrics
 
@@ -262,7 +262,7 @@ date, query, page, country, device. Search appearance (AMP, blue link, rich resu
 |-------|-------|
 | Rows per day per search type per property | 50,000 |
 | Rows per response | 25,000 (use pagination: startRow, rowLimit) |
-| Data availability | 2→ days after |
+| Data availability | 2-3 days after |
 
 **Tip**: Run daily queries for one day of data to avoid quota. Verify data presence first (dimensions: date only, no filters).
 

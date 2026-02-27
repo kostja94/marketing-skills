@@ -9,7 +9,7 @@ metadata:
 
 Guides website traffic analysis across all channels (organic, paid, social, referral, direct). Covers traffic source attribution, dark traffic identification, and multi-channel reporting.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Scope
 
@@ -32,11 +32,11 @@ Guides website traffic analysis across all channels (organic, paid, social, refe
 
 ### What It Is
 
-Traffic without clear origin?analytics tools default to "Direct" when referrer is missing. Common causes:
+Traffic without clear origin--analytics tools default to "Direct" when referrer is missing. Common causes:
 
 - **Private/dark social**: WhatsApp, Messenger, Slack, Discord, TikTok shares
 - **Email clients**: Many strip referrer headers
-- **HTTPS?HTTP**: Referrer not passed
+- **HTTPS->HTTP**: Referrer not passed
 - **Mobile apps**: In-app browsers often omit referrer
 - **Ad blockers, privacy tools**: Block tracking
 
@@ -60,8 +60,8 @@ When traffic was sent from known sources, analytics often misattributed:
 
 ### Segmenting Direct Traffic
 
-1. **Expected direct**: Homepage, short URLs, brand pages?likely real direct
-2. **Unexpected direct**: Long URLs, deep pages, product pages?likely dark traffic
+1. **Expected direct**: Homepage, short URLs, brand pages--likely real direct
+2. **Unexpected direct**: Long URLs, deep pages, product pages--likely dark traffic
 3. **Report separately**: Use segments in GA4/analytics to avoid overcounting direct
 
 ## UTM Best Practices

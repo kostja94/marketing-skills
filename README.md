@@ -11,7 +11,8 @@ By [kostja94](https://github.com/kostja94)
 ## Table of Contents
 
 - [What are Skills?](#what-are-skills)
-- [Installation](#installation)
+- [Installation](#installation) — Full or selective; delete what you don't need
+- [Linking to Your Project](#linking-to-your-project) — Connect skills with your project
 - [Usage](#usage)
 - [Project Context](#project-context) — Add context for tailored results
 - [How Skills Work Together](#how-skills-work-together)
@@ -33,14 +34,16 @@ Skills are markdown files that give AI agents focused knowledge and workflows fo
 
 ## Installation
 
+**Full or selective.** Install all 65 skills, or only the ones you need. You can also delete unwanted skills after install — skills are independent.
+
 ### CLI (Recommended)
 
 ```bash
 # Install all skills
 npx skills add kostja94/marketing-skills
 
-# Install specific skills
-npx skills add kostja94/marketing-skills --skill seo-technical-robots seo-on-page-metadata
+# Install specific skills only
+npx skills add kostja94/marketing-skills --skill seo-technical-robots seo-on-page-metadata pages-pricing
 
 # List available skills
 npx skills add kostja94/marketing-skills --list
@@ -53,8 +56,8 @@ git clone https://github.com/kostja94/marketing-skills.git
 cp -r marketing-skills/skills/* .cursor/skills/
 cp -r marketing-skills/templates .cursor/
 cp -r marketing-skills/tools .cursor/
-# Copy context template: cp marketing-skills/templates/product-marketing-context.md .cursor/
 # For Claude Code: use .claude/ instead of .cursor/
+# To keep only some skills: copy selectively, or delete unwanted folders from .cursor/skills/
 ```
 
 ### Git Submodule
@@ -62,8 +65,21 @@ cp -r marketing-skills/tools .cursor/
 ```bash
 git submodule add https://github.com/kostja94/marketing-skills.git .cursor/marketing-skills
 # Reference skills from .cursor/marketing-skills/skills/
-# Copy context template: cp .cursor/marketing-skills/templates/product-marketing-context.md .cursor/
+# To use fewer skills: symlink or copy only the skill folders you need into .cursor/skills/
 ```
+
+## Linking to Your Project
+
+Marketing skills are generic. To get tailored output, connect them with your project:
+
+| Method | Purpose |
+|--------|---------|
+| **[Product Context](#project-context)** | Product, audience, brand — skills read this automatically |
+| **Project Rules** (`.cursor/rules/`) | Code style, architecture, conventions — applied alongside skills |
+| **AGENTS.md** | Simple project instructions — alternative to rules |
+| **@file references** | In chat: `@package.json` `@README.md` — agent includes them when relevant |
+
+**Recommended**: Start with [Product Context](#project-context). Add rules or AGENTS.md for project-specific patterns. See [SKILLS_GUIDE §10 Customization](SKILLS_GUIDE.md#10-customization) for details.
 
 ## Usage
 

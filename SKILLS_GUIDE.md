@@ -271,6 +271,16 @@ The CLI recursively searches for `SKILL.md` in:
 - `skills/.experimental/`
 - Agent-specific paths (e.g. `.cursor/skills/`, `.claude/skills/`)
 
+### 6.4 Full vs. Selective Install
+
+| Option | How |
+|--------|-----|
+| **Full install** | `npx skills add kostja94/marketing-skills` — all 65 skills |
+| **Selective install** | `npx skills add kostja94/marketing-skills --skill seo-technical-robots pages-pricing` — only specified skills |
+| **Delete after install** | Remove unwanted folders from `.cursor/skills/` — skills are independent, no cross-dependencies |
+
+Skills are self-contained. Removing unused skills reduces context load and keeps the agent focused.
+
 ---
 
 ## 7. Naming and Categorization
@@ -307,7 +317,32 @@ Before creating or modifying a skill, verify:
 
 ---
 
-## 9. Reference Links
+## 10. Customization
+
+Marketing skills are generic. Users must connect them with project-specific content for tailored output.
+
+### 10.1 Linking Skills to Project Content
+
+| Method | File/Location | Purpose |
+|--------|---------------|---------|
+| **Product Context** | `.cursor/product-marketing-context.md` (or `.claude/`) | Product, audience, brand, keywords — skills read this automatically when executing |
+| **Project Rules** | `.cursor/rules/*.md` | Code style, architecture, conventions — Cursor applies alongside skills |
+| **AGENTS.md** | Project root or subdirs | Simple instructions — alternative to rules |
+| **@file in chat** | User mentions `@package.json` `@README.md` | Agent includes files when relevant |
+
+### 10.2 Recommended Workflow
+
+1. **Product Context first** — Copy `templates/product-marketing-context.md` to `.cursor/`, fill Product Overview, Positioning, Target Audience, Brand & Voice.
+2. **Add rules if needed** — For project-specific patterns (e.g., "Use our design system", "Follow API conventions"), add `.cursor/rules/` files.
+3. **@mention files** — When asking for copy or SEO for a specific page, include `@path/to/page.tsx` or `@content.md` so the agent has the actual content.
+
+### 10.3 Customizing Skills Themselves
+
+Advanced users can fork skills and edit `SKILL.md` to add project-specific instructions. Keep a reference to the original skill for updates. See [README](README.md) for install options.
+
+---
+
+## 11. Reference Links
 
 | Resource | URL |
 |----------|-----|

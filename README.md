@@ -189,12 +189,19 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add or improve skills. Rules a
 
 ## References
 
+**External**
+
 | Resource | Purpose |
 |----------|---------|
 | [Alignify](https://alignify.co/) | SEO guides, growth strategies, AI tools — for human reading |
 | [skills.sh](https://skills.sh) | Skill directory and discovery |
-| [product-marketing-context template](templates/product-marketing-context.md) | Context file template (copy to `.cursor/`) |
-| [page-types-taxonomy](docs/page-types-taxonomy.md) | Page classification by purpose (brand, SEO, marketing, legal, utility) |
+
+**Internal**
+
+| Resource | Purpose |
+|----------|---------|
+| [product-marketing-context](templates/product-marketing-context.md) | Context template (copy to `.cursor/`) |
+| [page-types-taxonomy](docs/page-types-taxonomy.md) | Page classification (brand, SEO, marketing, legal, utility) |
 | [skills-list](docs/skills-list.md) | Full list of all 65 skills with descriptions |
 | [SKILLS_GUIDE](SKILLS_GUIDE.md) | Rules, specs, skill authoring, quality checklist |
 

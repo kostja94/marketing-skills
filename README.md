@@ -11,6 +11,7 @@ By [kostja94](https://github.com/kostja94)
 ## Table of Contents
 
 - [What are Skills?](#what-are-skills)
+- [Project Structure](#project-structure)
 - [Installation](#installation) — Full or selective; delete what you don't need
 - [Linking to Your Project](#linking-to-your-project) — Connect skills with your project
 - [Usage](#usage)
@@ -31,6 +32,19 @@ Skills are markdown files that give AI agents focused knowledge and workflows fo
 **Skills = for agents.** For human-readable SEO guides and growth strategies, see [Alignify](https://alignify.co/).
 
 **For best results**: Add a [Project Context](#project-context) file — without it, outputs stay generic.
+
+## Project Structure
+
+```
+marketing-skills/
+├── skills/           # 65 skills (core) — seo/, pages/, components/, channels/, platforms/, strategies/, analytics/
+├── docs/             # Documentation — skills-list.md, page-types-taxonomy.md
+├── templates/        # User-copyable templates — product-marketing-context.md, report templates
+├── tools/            # Report generation — generate-report.py, *-guide.md, data/
+├── README.md         # Overview & quick start
+├── SKILLS_GUIDE.md   # Rules, specs, skill authoring
+└── CONTRIBUTING.md   # How to add or improve skills
+```
 
 ## Installation
 
@@ -204,6 +218,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add or improve skills. Rules a
 | [page-types-taxonomy](docs/page-types-taxonomy.md) | Page classification (brand, SEO, marketing, legal, utility) |
 | [skills-list](docs/skills-list.md) | Full list of all 65 skills with descriptions |
 | [SKILLS_GUIDE](SKILLS_GUIDE.md) | Rules, specs, skill authoring, quality checklist |
+| [tools/](tools/README.md) | Report generation (keyword, competitor) |
 
 ## License
 

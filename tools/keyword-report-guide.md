@@ -1,4 +1,4 @@
-# Keyword Report
+# Keyword Report Guide
 
 Generate keyword research reports from uploaded Excel/CSV and web enrichment.
 

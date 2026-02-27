@@ -2,8 +2,8 @@
 
 Generate keyword and competitor reports from uploaded Excel/CSV, enriched by web search and site visits.
 
-**Templates**: `templates/keyword-report.md`, `templates/competitor-report.md`  
-**Guides**: [keyword-report.md](keyword-report.md), [competitor-report.md](competitor-report.md)
+**Templates** (output format): `templates/keyword-report.md`, `templates/competitor-report.md`  
+**Guides** (how to generate): [keyword-report-guide.md](keyword-report-guide.md), [competitor-report-guide.md](competitor-report-guide.md)
 
 ## Workflow
 

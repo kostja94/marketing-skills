@@ -1,4 +1,4 @@
-# Competitor Report
+# Competitor Report Guide
 
 Generate competitor analysis reports from uploaded Excel/CSV and web enrichment.
 

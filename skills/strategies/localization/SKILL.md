@@ -7,7 +7,9 @@ metadata:
 
 # Strategies: Localization
 
-Guides localization strategy for AI/SaaS products expanding into global markets. Covers i18n implementation, translation, pricing, and marketing adaptation—not just text translation.
+Guides localization strategy for AI/SaaS products expanding into global markets. Covers i18n implementation, translation, pricing, and marketing adaptation?not just text translation.
+
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 

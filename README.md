@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-64 specialized skills for Claude Code, Cursor, and other AI agents — SEO, 24 page types, channels, platforms, strategies, components, and analytics.
+65 specialized skills for Claude Code, Cursor, and other AI agents — SEO, 24 page types, channels, platforms, strategies, components, and analytics.
 
 By [kostja94](https://github.com/kostja94)
 
@@ -13,6 +13,8 @@ By [kostja94](https://github.com/kostja94)
 - [Usage](#usage)
 - [Project Context](#project-context) — Add context for tailored results
 - [How Skills Work Together](#how-skills-work-together)
+- [Skill Uniqueness and Cross-References](#skill-uniqueness-and-cross-references)
+- [Output Structure: Context First, Then Action](#output-structure-context-first-then-action)
 - [Available Skills](#available-skills)
 - [Contributing](#contributing)
 - [References](#references)
@@ -123,11 +125,13 @@ Ask your AI agent — it will pick the right skill:
 | "Plan influencer marketing campaign" | channels-influencer |
 | "Set up referral program" | channels-referral |
 | "Build creator program" | channels-creator-program |
+| "Submit to Taaft, Product Hunt, directories, or curated lists" | channels-directories |
 | *Platforms* | — |
 | "Generate X post copy" | platforms-x |
 | "Create Reddit post" | platforms-reddit |
 | "Write LinkedIn post" | platforms-linkedin |
 | "Create TikTok caption" | platforms-tiktok |
+| "Add to Grokipedia" | platforms-grokipedia |
 | *Strategies* | — |
 | "Optimize for AI search (GEO)" | strategies-geo |
 | "Plan localization for global markets" | strategies-localization |
@@ -135,6 +139,7 @@ Ask your AI agent — it will pick the right skill:
 | "Analyze dark traffic and attribution" | analytics-traffic |
 | "Set up GA4 event tracking" | analytics-tracking |
 | "Track AI search traffic in GA4" | analytics-ai-traffic |
+| "Analyze Google Search Console" | analytics-google-search-console |
 ## Project Context
 
 **Without context, AI outputs stay generic.** Add a context file so the agent delivers tailored SEO, copy, and strategy.
@@ -199,16 +204,16 @@ Recommended workflow: **Technical** → **On-Page** → **Content** → **Off-Pa
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│  Channels: affiliate · influencer · referral · creator-program                         │
+│  Channels: affiliate · influencer · referral · creator-program · directories             │
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│  Platforms: x · reddit · linkedin · tiktok  |  Strategies: geo · localization          │
+│  Platforms: x · reddit · linkedin · tiktok · grokipedia  |  Strategies: geo · localization          │
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
 │  Components: nav · footer · hero · toc · logo · trust-badges · testimonials · cta ·     │
-│  newsletter-signup  |  Analytics: traffic · tracking · ai-traffic                        │
+│  newsletter-signup  |  Analytics: traffic · tracking · ai-traffic · google-search-console │
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 
 Cross-references: metadata ↔ schema ↔ heading  |  sitemap ↔ indexnow
@@ -216,6 +221,36 @@ Cross-references: metadata ↔ schema ↔ heading  |  sitemap ↔ indexnow
 ```
 
 See each skill's **Related Skills** section for the full dependency map.
+
+### Skill Uniqueness and Cross-References
+
+Each skill keeps **only topic-relevant content** and stays distinct from others. Overlapping topics are handled by **references** instead of duplication:
+
+- **Single focus**: One skill = one theme (e.g., channels-directories = directory/curated list submission; seo-off-page-link-building = outreach, guest posting, broken link building)
+- **Reference, don't repeat**: When another skill covers related work, link to it in Related Skills (e.g., link-building references channels-directories for directory submission; channels-directories references link-building for broader outreach)
+- **Clear boundaries**: If content belongs to another skill, move it there and add a cross-reference
+
+This keeps skills maintainable and avoids conflicting or duplicated guidance.
+
+### Output Structure: Context First, Then Action
+
+Some skills (e.g. **channels-directories**, **platforms-grokipedia**) output a **complete response** in a fixed order. This helps users understand the platform before taking action:
+
+| Section | Purpose |
+|---------|---------|
+| **Introduction** | What the platform/channel is; key players |
+| **Importance** | Why it matters (backlinks, traffic, GEO, etc.) |
+| **Methods** | How to achieve the goal |
+| **Collaboration Channels** | (channels-directories) Newsletter, ads, social, campaigns beyond listing |
+| **Rules** | What to follow |
+| **Avoid** | What not to do |
+| **Action** | Ready-to-paste content for the user's specific task |
+
+*Other skills* use a lighter pattern: 1–2 sentences on what/why, then the main output.
+
+**First-use only**: Context (Introduction, Importance, etc. or brief context) appears on **first use** in the conversation. On subsequent use or when the user asks to skip (e.g., "just do it", "skip intro"), go directly to Action/main output.
+
+**Why this order?** Users who are new to the platform get context first. Once they understand the "why" and "how," the Action section is easier to use correctly. Skill authors: see [SKILLS_GUIDE](SKILLS_GUIDE.md) for how to apply this pattern to new skills.
 
 ## Available Skills
 
@@ -309,6 +344,7 @@ Pages are classified by **purpose** (brand, SEO, marketing, legal, utility). See
 | [channels-influencer](skills/channels/influencer/) | Influencer marketing strategy, KOL, creator partnership |
 | [channels-referral](skills/channels/referral/) | Referral program strategy, user-driven growth |
 | [channels-creator-program](skills/channels/creator-program/) | Creator program strategy, content co-creation |
+| [channels-directories](skills/channels/directories/) | Directory submission (Taaft, Product Hunt, Shopify App Store) |
 
 ### Platforms
 
@@ -318,6 +354,7 @@ Pages are classified by **purpose** (brand, SEO, marketing, legal, utility). See
 | [platforms-reddit](skills/platforms/reddit/) | Reddit post copy, subreddit rules, engagement |
 | [platforms-linkedin](skills/platforms/linkedin/) | LinkedIn post copy, professional content |
 | [platforms-tiktok](skills/platforms/tiktok/) | TikTok caption, video specs, script |
+| [platforms-grokipedia](skills/platforms/grokipedia/) | Grokipedia recommendations, parasite SEO, GEO |
 
 ### Strategies
 
@@ -333,6 +370,7 @@ Pages are classified by **purpose** (brand, SEO, marketing, legal, utility). See
 | [analytics-traffic](skills/analytics/traffic/) | Traffic sources, dark traffic, UTM attribution |
 | [analytics-tracking](skills/analytics/tracking/) | GA4, event tracking, conversions |
 | [analytics-ai-traffic](skills/analytics/ai-traffic/) | Track AI search traffic in GA4 and GSC |
+| [analytics-google-search-console](skills/analytics/google-search-console/) | GSC analysis, indexing, Core Web Vitals, performance |
 
 ## Contributing
 

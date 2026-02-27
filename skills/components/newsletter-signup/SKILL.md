@@ -9,6 +9,8 @@ metadata:
 
 Guides newsletter signup form design for list growth. Email subscribers spend 138% more than non-subscribers; top popups convert at 23%+.
 
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Initial Assessment
 
 **Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for audience and value proposition.
@@ -60,7 +62,7 @@ Identify:
 | **Placeholders** | Don't replace labels; supplement only |
 | **Error messages** | Clear, associated with field |
 | **Keyboard** | Full tab order; submit via Enter |
-| **Touch targets** | ≥44×44px for submit button |
+| **Touch targets** | ??4�44px for submit button |
 
 ## Technical
 

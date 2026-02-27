@@ -7,7 +7,9 @@ metadata:
 
 # Pages: API Introduction
 
-Guides the API introduction page — typically at `/api` — that overviews the API, use cases, and links to documentation. API documentation (endpoint reference, code examples) lives on separate pages.
+Guides the API introduction page ??typically at `/api` ??that overviews the API, use cases, and links to documentation. API documentation (endpoint reference, code examples) lives on separate pages.
+
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -21,7 +23,7 @@ Identify:
 ## Page Role
 
 - **API page** (`/api`): Introduction, overview, value prop, CTA to docs or signup
-- **API documentation**: Separate pages — endpoint reference, auth, examples, tutorials
+- **API documentation**: Separate pages ??endpoint reference, auth, examples, tutorials
 
 ## Best Practices
 

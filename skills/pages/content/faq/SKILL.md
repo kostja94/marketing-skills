@@ -9,6 +9,8 @@ metadata:
 
 Guides FAQ page content, structure, and optimization for SEO and conversion.
 
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Initial Assessment
 
 **Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for objections, product details, and customer language.
@@ -57,7 +59,7 @@ Identify:
 
 - Reduces support load
 - Targets long-tail and voice search
-- Can convert 2–3x higher than standard content
+- Can convert 2??x higher than standard content
 - Builds trust; creates featured snippet opportunities
 
 ## Output Format

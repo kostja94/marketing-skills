@@ -21,6 +21,10 @@ Contributions are welcome! Here's how to add or improve skills.
 - Follow category prefix: `seo-technical-robots`, `seo-on-page-metadata`, `pages-home`
 - Be specific: `seo-technical-sitemap` not `sitemap`
 
+## Language
+
+- **All skill content must be in English** — descriptions, instructions, examples, and output formats. This ensures consistency and broad agent compatibility.
+
 ## Description Best Practices
 
 - Write in third person

@@ -9,6 +9,8 @@ metadata:
 
 Guides internal linking strategy for SEO: crawlability, link equity distribution, and user navigation.
 
+**When invoking**: On **first use**, if helpful, open with 1â€? sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Scope (On-Page SEO)
 
 - **Internal links**: Contextual links; descriptive anchor text; related posts; hub pages

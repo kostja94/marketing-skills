@@ -9,6 +9,8 @@ metadata:
 
 Guides analytics implementation: GA4 setup, event tracking, conversions, and data quality. Applies to web and app tracking across marketing channels.
 
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Scope
 
 - **GA4**: Web data stream, gtag.js, configuration
@@ -26,7 +28,7 @@ Guides analytics implementation: GA4 setup, event tracking, conversions, and dat
 
 ### Enhanced Measurement
 
-Enable in Admin → Data Streams → Enhanced Measurement for automatic tracking of:
+Enable in Admin ??Data Streams ??Enhanced Measurement for automatic tracking of:
 
 - Page views, scrolls, outbound clicks
 - Site search, file downloads
@@ -45,7 +47,7 @@ Enable in Admin → Data Streams → Enhanced Measurement for automatic tracking
 
 ### Naming Conventions
 
-- **Length**: ≤40 characters
+- **Length**: ??0 characters
 - **Format**: `snake_case`, lowercase
 - **Verb first**: `download_pdf`, `submit_form`, `video_play`
 - **Context**: `pricing_page_scroll` vs generic `scroll`
@@ -74,7 +76,7 @@ Place below the Google tag snippet. Events fire on page load or user action (e.g
 
 ### Custom Events
 
-- Focus on 15–25 meaningful events aligned with KPIs
+- Focus on 15??5 meaningful events aligned with KPIs
 - Add parameters for context (e.g., `content_type`, `item_id`)
 - Avoid tracking everything; prioritize quality over quantity
 
@@ -106,3 +108,4 @@ Place below the Google tag snippet. Events fire on page load or user action (e.g
 
 - **analytics-traffic**: UTM and source attribution
 - **analytics-ai-traffic**: AI traffic in GA4
+- **analytics-google-search-console**: GSC analysis (correlate with GA4)

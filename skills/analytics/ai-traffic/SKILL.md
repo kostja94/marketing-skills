@@ -9,6 +9,8 @@ metadata:
 
 Guides tracking of AI-driven search traffic in Google Analytics 4 and Google Search Console.
 
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Scope
 
 - **AI search traffic**: Track in GA4 and GSC; separate AI sources from organic referral
@@ -25,10 +27,10 @@ Guides tracking of AI-driven search traffic in Google Analytics 4 and Google Sea
 
 ### Option 1: Exploration Report (Recommended)
 
-1. **Explore** → **Free form**
+1. **Explore** ??**Free form**
 2. **Dimensions**: `Session source` (or `Session source / medium`)
 3. **Metrics**: Sessions, Engagement rate, Event count, etc.
-4. **Filters**: Add filter → `Session source` **Matches regex** → use regex below
+4. **Filters**: Add filter ??`Session source` **Matches regex** ??use regex below
 5. Configure table, save report
 
 **Regex (common AI sources):**
@@ -39,7 +41,7 @@ chatgpt\.com|openai\.com|openai|perplexity\.ai|perplexity|doubao\.com|chat\.qwen
 
 ### Option 2: Custom Channel Group
 
-1. **Admin** → **Data Display** → **Channel Groups**
+1. **Admin** ??**Data Display** ??**Channel Groups**
 2. Copy default group, name e.g. "Default and AI Chatbots"
 3. Add channel "AI Chatbots": `Source` **Matches regex** (same regex)
 4. **Important**: Place "AI Chatbots" above "Referral" so it matches first
@@ -47,7 +49,7 @@ chatgpt\.com|openai\.com|openai|perplexity\.ai|perplexity|doubao\.com|chat\.qwen
 
 ### Option 3: Custom Report
 
-1. **Reports** → **Library** → Create Detail Report
+1. **Reports** ??**Library** ??Create Detail Report
 2. Use Traffic Acquisition template
 3. Add filter: `Session source` **Matches regex** (same regex)
 4. Save and add to menu
@@ -65,13 +67,8 @@ chatgpt\.com|openai\.com|openai|perplexity\.ai|perplexity|doubao\.com|chat\.qwen
 
 ## Google AI Overviews
 
-- **GSC**: AI Overviews clicks/impressions are not separated from organic in Performance
 - **GA4 + URL fragment**: Some AI Overview clicks add URL fragments; can use GTM (partial coverage)
-- **GSC filter**: Use regex on queries that tend to trigger AI Overviews:
-
-```
-(?i)^(who|what|where|when|why|how|which|is|are|can|does|should)|\b(vs|versus|compare|difference|pros and cons|guide|tutorial|best|top|list)\b
-```
+- **GSC**: For AI Overviews analysis in GSC (filter, limitations), see analytics-google-search-console
 
 ## Checklist
 
@@ -80,7 +77,7 @@ chatgpt\.com|openai\.com|openai|perplexity\.ai|perplexity|doubao\.com|chat\.qwen
 - [ ] Channel group updated with AI above Referral (if used)
 - [ ] Custom report added to Library (optional)
 - [ ] GTM + URL fragment for AI Overviews (optional)
-- [ ] GSC AI-oriented query filter (optional)
+- [ ] GSC AI-oriented query filter (optional; see analytics-google-search-console)
 
 ## Output Format
 
@@ -91,4 +88,5 @@ chatgpt\.com|openai\.com|openai|perplexity\.ai|perplexity|doubao\.com|chat\.qwen
 
 - **analytics-traffic**: Traffic sources, attribution, UTM
 - **analytics-tracking**: GA4 events and conversions
+- **analytics-google-search-console**: GSC AI traffic analysis
 - **seo-technical-robots**: AI crawler allow/block strategy

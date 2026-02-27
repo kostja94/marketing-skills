@@ -9,6 +9,8 @@ metadata:
 
 Guides backlink profile analysis: assessing quality, identifying issues, and planning improvements.
 
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Scope (Off-Page SEO)
 
 - **Backlink audit**: Analyze profile; toxic links; competitive analysis
@@ -58,7 +60,7 @@ Identify:
 ## Disavow File
 
 - Use only when necessary (manual penalty, toxic links)
-- Submit via Google Search Console
+- Submit via Google Search Console (see analytics-google-search-console for Links report and disavow submission)
 - **Caution**: Over-disavowing can harm; use sparingly
 - **References**: [Google Disavow](https://developers.google.com/search/docs/crawling-indexing/block-indexing#disavow-links)
 
@@ -72,4 +74,5 @@ Identify:
 
 ## Related Skills
 
+- **analytics-google-search-console**: Links report, disavow file submission
 - **seo-off-page-link-building**: Use analysis to plan link building

@@ -112,10 +112,12 @@ Example: For marketing managers at SMBs who need to run SEO audits without hirin
 | Section | Used by |
 |---------|---------|
 | 1–4 | All skills: SEO, pages, components, channels |
-| 5 | Technical SEO, sitemap, crawlability |
-| 6 | On-page SEO, metadata, keyword research |
+| 5 | Technical SEO, sitemap, crawlability; directory submission (URL) |
+| 6 | On-page SEO, metadata, keyword research; directory tags, Primary Task |
 | 7 | Competitive positioning, content strategy |
-| 8 | Copy, tone, testimonials, CTAs |
-| 9–10 | Features, API docs, content strategy |
+| 8 | Copy, tone, testimonials, CTAs; directory descriptions |
+| 9–10 | Features, API docs, content strategy; directory features, pros/cons |
+
+**Directory submission** (channels-directories): When submitting to Taaft, Product Hunt, etc., the agent reads this file and generates ready-to-paste content (tagline, description, pros/cons, tags) per platform. Fill 1–4, 5, 6, 8, 9 for best results.
 
 **Tip**: Start with 1–4 and 8. Add 5–7 as you have them. Update regularly — context degrades when stale.

@@ -9,6 +9,8 @@ metadata:
 
 Guides testimonial design and placement for conversion. 92% of consumers read reviews before buying; testimonials can increase conversion by up to 67%.
 
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Initial Assessment
 
 **Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for customer personas and industries.

@@ -9,6 +9,8 @@ metadata:
 
 Guides affiliate program page content and structure for conversion and quality affiliate signups.
 
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Initial Assessment
 
 **Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, audience, and proof points.
@@ -22,10 +24,10 @@ Identify:
 
 ### Four Key Questions Affiliates Ask
 
-1. **How much can I earn?** — Be specific upfront
-2. **Is this product worth promoting?** — Product value, audience fit
-3. **Will I be set up for success?** — Resources, support, tracking
-4. **Can I trust you to pay me?** — Payment terms, proof
+1. **How much can I earn?** ??Be specific upfront
+2. **Is this product worth promoting?** ??Product value, audience fit
+3. **Will I be set up for success?** ??Resources, support, tracking
+4. **Can I trust you to pay me?** ??Payment terms, proof
 
 ### Commission Structure (Transparency)
 
@@ -41,9 +43,9 @@ Identify:
 
 ### Value Proposition
 
-- **Specific numbers**: "Earn 30% recurring—up to $147/month per customer"
+- **Specific numbers**: "Earn 30% recurring?up to $147/month per customer"
 - **Earning calculator**: Help affiliates visualize income
-- **Avoid vague**: "Great commissions" → "30% recurring for 12 months"
+- **Avoid vague**: "Great commissions" ??"30% recurring for 12 months"
 
 ### Product Information
 
@@ -55,7 +57,7 @@ Affiliates stake their reputation; convince them it's worth promoting:
 
 ### Design
 
-- Treat like a product landing page—professional, engaging
+- Treat like a product landing page?professional, engaging
 - Same quality as main marketing pages
 
 ## Output Format

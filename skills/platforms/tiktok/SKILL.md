@@ -9,16 +9,18 @@ metadata:
 
 Guides TikTok caption and video script creation. Use for generating publish-ready captions and video specs. Suitable for copy agents, video agents (format, length), and design agents (thumbnail).
 
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Output: Publish-Ready Copy
 
-This skill enables agents to generate TikTok captions and video scripts. Captions drive SEO, accessibility, and watch time (12–40% increase with captions). 80%+ watch without sound.
+This skill enables agents to generate TikTok captions and video scripts. Captions drive SEO, accessibility, and watch time (12??0% increase with captions). 80%+ watch without sound.
 
 ## Caption Structure
 
 | Element | Length | Purpose |
 |--------|--------|---------|
-| **Hook** | 5–8 words | Grab attention; create curiosity |
-| **Context** | 1–2 sentences | Size, price, backstory—info video doesn't show |
+| **Hook** | 5?? words | Grab attention; create curiosity |
+| **Context** | 1?? sentences | Size, price, backstory?info video doesn't show |
 | **CTA** | Optional | "Save this," "Link in bio" |
 
 **Hook examples**: "Stop scrolling if you sell on Etsy," "This took me 47 attempts," "Wait for the final result"
@@ -28,10 +30,10 @@ This skill enables agents to generate TikTok captions and video scripts. Caption
 | Spec | Value | Notes |
 |------|-------|-------|
 | **Aspect ratio** | 9:16 (portrait) | Standard; fills mobile |
-| **Resolution** | 1080×1920 px | Recommended |
-| **Length** | 3 sec – 10 min | 15–60 sec for tips; 1–3 min for tutorials |
+| **Resolution** | 1080�1920 px | Recommended |
+| **Length** | 3 sec ??10 min | 15??0 sec for tips; 1?? min for tutorials |
 | **Format** | MP4, MOV | H.264, AAC |
-| **File size** | ≤75MB (Android), ≤288MB (iOS) | Varies by device |
+| **File size** | ??5MB (Android), ??88MB (iOS) | Varies by device |
 
 ## Caption Best Practices
 
@@ -44,9 +46,9 @@ This skill enables agents to generate TikTok captions and video scripts. Caption
 
 | Length | Use |
 |--------|-----|
-| **15–60 sec** | Quick tips, humor, hooks |
-| **1–3 min** | Tutorials, storytelling |
-| **3–10 min** | Deep dives (longer format) |
+| **15??0 sec** | Quick tips, humor, hooks |
+| **1?? min** | Tutorials, storytelling |
+| **3??0 min** | Deep dives (longer format) |
 
 ## Output Format
 
@@ -54,8 +56,8 @@ When generating TikTok content, provide:
 
 1. **Caption** (hook + context + CTA)
 2. **Video script** (if video agent)
-3. **Video specs** (9:16, 1080×1920, length)
-4. **Hashtags** (3–5; niche-relevant)
+3. **Video specs** (9:16, 1080�1920, length)
+4. **Hashtags** (3??; niche-relevant)
 
 ## Related Skills
 

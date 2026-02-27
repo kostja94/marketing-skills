@@ -9,6 +9,8 @@ metadata:
 
 Guides LinkedIn post copy creation and optimization. Use for generating publish-ready professional content. Suitable for copy agents and design agents (image specs).
 
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Output: Publish-Ready Copy
 
 This skill enables agents to generate LinkedIn post copy optimized for engagement. Output includes character-counted text and structure for the "See more" threshold.
@@ -17,18 +19,18 @@ This skill enables agents to generate LinkedIn post copy optimized for engagemen
 
 | Type | Limit | Notes |
 |------|-------|-------|
-| **Post** | 3,000 characters | Optimal: 1,300–1,600 |
-| **First line (critical)** | 210–235 chars | Visible before "See more"; 60–70% decide here |
-| **Short posts** | 100–300 chars | Polls, announcements, quotes |
+| **Post** | 3,000 characters | Optimal: 1,300??,600 |
+| **First line (critical)** | 210??35 chars | Visible before "See more"; 60??0% decide here |
+| **Short posts** | 100??00 chars | Polls, announcements, quotes |
 
 ## Optimal Length by Content Type
 
 | Type | Characters | Use |
 |------|------------|-----|
-| **Short** | 100–300 | Polls, announcements, quotes |
-| **Medium** | 300–1,200 | Case studies, tips, BTS |
-| **Long** | 1,200–3,000 | Thought leadership, analysis |
-| **Sweet spot** | 1,300–1,600 | Highest engagement |
+| **Short** | 100??00 | Polls, announcements, quotes |
+| **Medium** | 300??,200 | Case studies, tips, BTS |
+| **Long** | 1,200??,000 | Thought leadership, analysis |
+| **Sweet spot** | 1,300??,600 | Highest engagement |
 | **Avoid** | >2,000 | ~35% engagement drop |
 
 ## First Line (Hook)
@@ -41,10 +43,10 @@ This skill enables agents to generate LinkedIn post copy optimized for engagemen
 
 | Format | Dimensions | Use |
 |--------|------------|-----|
-| **Single image** | 1200×627 (1.91:1) | Feed; link previews |
-| **Square** | 1200×1200 | Single image |
+| **Single image** | 1200�627 (1.91:1) | Feed; link previews |
+| **Square** | 1200�1200 | Single image |
 | **Carousel** | Up to 20 images | Multi-image post |
-| **File** | ≤8MB; JPG/PNG | Native uploads perform better |
+| **File** | ??MB; JPG/PNG | Native uploads perform better |
 | **Vertical** | Preferred | 88% browse on mobile |
 
 ## Best Practices
@@ -58,9 +60,9 @@ This skill enables agents to generate LinkedIn post copy optimized for engagemen
 
 When generating LinkedIn copy, provide:
 
-1. **First line** (≤210 chars; hook)
+1. **First line** (??10 chars; hook)
 2. **Full post** with character count
-3. **Hashtags** (3–5; end of post)
+3. **Hashtags** (3??; end of post)
 4. **Image specs** (if design agent needs dimensions)
 
 ## Related Skills

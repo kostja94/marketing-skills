@@ -9,6 +9,8 @@ metadata:
 
 Guides logo placement and implementation for brand recall and navigation. Logo placement affects user orientation and conversion.
 
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Initial Assessment
 
 **Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for brand guidelines.
@@ -29,7 +31,7 @@ Identify:
 
 ### Avoid
 
-- **Centered logos**: Users navigating home from centered logos are ~6Ã— more likely to fail
+- **Centered logos**: Users navigating home from centered logos are ~6× more likely to fail
 - **Right-aligned**: Violates conventions; harms brand recognition
 
 ### When Center May Work
@@ -70,7 +72,7 @@ Identify:
 | **Alt text** | Descriptive; company name |
 | **Contrast** | Logo visible against background |
 | **Focus** | Link receives visible focus state |
-| **Touch targets** | Adequate size on mobile (â‰¥44Ã—44px) |
+| **Touch targets** | Adequate size on mobile (??4×44px) |
 
 ## Output Format
 

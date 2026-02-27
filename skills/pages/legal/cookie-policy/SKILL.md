@@ -9,6 +9,8 @@ metadata:
 
 Guides cookie policy page content for GDPR and transparency. Often separate from Privacy Policy.
 
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Initial Assessment
 
 Identify:

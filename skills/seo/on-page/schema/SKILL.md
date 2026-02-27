@@ -9,6 +9,8 @@ metadata:
 
 Guides implementation of Schema.org structured data (JSON-LD) for rich snippets and enhanced search results.
 
+**When invoking**: On **first use**, if helpful, open with 1â€? sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Scope (On-Page SEO)
 
 - **Schema markup**: Schema.org types (Recipe, Product, Article, Event, LocalBusiness, etc.) for rich results

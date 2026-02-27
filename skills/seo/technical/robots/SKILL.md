@@ -9,6 +9,8 @@ metadata:
 
 Guides configuration and auditing of robots.txt for search engine and AI crawler control.
 
+**When invoking**: On **first use**, if helpful, open with 1â€? sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Scope (Technical SEO)
 
 - **Robots.txt**: Review Disallow/Allow; avoid blocking important pages
@@ -32,6 +34,7 @@ Identify:
 |-------|------|
 | **Purpose** | Controls crawler access; does NOT prevent indexing (disallowed URLs may still appear in search without snippet) |
 | **No-index** | Use noindex meta or auth for sensitive content; robots.txt is publicly readable |
+| **Indexed vs non-indexed** | Not all content should be indexed. robots.txt and noindex complement each other: robots for path-level crawl control, noindex for page-level indexing. See seo-technical-indexing |
 | **Advisory** | Rules are advisory; malicious crawlers may ignore |
 
 ### Location and Format

@@ -9,6 +9,8 @@ metadata:
 
 Guides media kit and press page content, structure, and accessibility for journalists.
 
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Initial Assessment
 
 **Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for company story, metrics, and key messages.
@@ -47,7 +49,7 @@ Identify:
 
 - **Dedicated page**: Press/Media section on website
 - **Self-service**: Journalists find what they need without emailing
-- **Concise**: 3–6 pages typical; each element adds value
+- **Concise**: 3?? pages typical; each element adds value
 - **Downloadable**: ZIP or individual asset downloads
 
 ### Timing
@@ -74,3 +76,4 @@ Identify:
 - **pages-contact**: Press contact info
 - **pages-customer-stories**: Press may reference case studies
 - **seo-technical-indexing**: noindex vs. index for press page
+- **channels-directories**: Media kit required for Product Hunt and directory submissions

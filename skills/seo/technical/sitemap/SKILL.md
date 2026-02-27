@@ -9,6 +9,8 @@ metadata:
 
 Guides sitemap creation, auditing, and optimization for search engine discovery.
 
+**When invoking**: On **first use**, if helpful, open with 1â€? sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Scope (Technical SEO)
 
 - **Sitemap**: Create XML sitemap; submit to Google Search Console
@@ -31,7 +33,7 @@ Identify:
 
 | Item | Spec |
 |------|------|
-| Single sitemap limit | â‰¤50,000 URLs, â‰¤50MB (uncompressed) |
+| Single sitemap limit | â‰?0,000 URLs, â‰?0MB (uncompressed) |
 | Sitemap index | When exceeding limit, split and have main index reference sub-sitemaps |
 | Encoding | UTF-8 |
 | URL format | Full URL, same host, include `https://` |
@@ -45,7 +47,7 @@ Identify:
 | url | Full URL | `https://example.com/path` |
 | lastModified | Page last modified time | Use page metadata, ISO 8601; use `YYYY-MM-DD` or omit when no data |
 | changeFrequency | Update frequency | Home `daily`, list pages `weekly`, content pages `monthly` |
-| priority | Relative importance | Home 1.0, aggregate pages 0.9, content pages 0.7â€“0.8, others 0.5â€“0.6 |
+| priority | Relative importance | Home 1.0, aggregate pages 0.9, content pages 0.7â€?.8, others 0.5â€?.6 |
 
 ### lastmod (Critical)
 
@@ -57,13 +59,13 @@ Identify:
 ### changefreq / priority
 
 - **changefreq**: Hints only; does not directly determine crawl frequency. Values: `always`, `hourly`, `daily`, `weekly`, `monthly`, `yearly`, `never`.
-- **priority**: 0.0â€“1.0; **does not affect ranking**; set higher for important pages; avoid identical values for all.
+- **priority**: 0.0â€?.0; **does not affect ranking**; set higher for important pages; avoid identical values for all.
 
 ## 3. Architecture & Split
 
 ### Single Sitemap
 
-- When URLs â‰¤50,000, generate `/sitemap.xml` directly.
+- When URLs â‰?0,000, generate `/sitemap.xml` directly.
 
 ### Sitemap Index (Multiple Sub-sitemaps)
 
@@ -175,7 +177,7 @@ With multiple sitemaps, only declare the main index.
 | Sitemap 404 | Build failure, wrong path, incorrect export; check routes and deployment |
 | Missing pages | URLs not in data source, filtered or excluded |
 | lastmod anomaly | Avoid `new Date()`; use `modifiedDate` from page metadata |
-| Google not indexing | Submit sitemap in Search Console; check Coverage and robots |
+| Google not indexing | Submit sitemap in GSC; check Coverage (analytics-google-search-console) and robots |
 | EN/ZH URL mismatch | Use unified data source; share same list when generating by locale |
 
 ## References
@@ -185,5 +187,6 @@ With multiple sitemaps, only declare the main index.
 
 ## Related Skills
 
+- **analytics-google-search-console**: Sitemap status, indexed URL count, Coverage
 - **seo-technical-robots**: Reference sitemap in robots.txt
 - **seo-technical-indexnow**: Share same URL list from config

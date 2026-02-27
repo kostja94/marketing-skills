@@ -9,6 +9,8 @@ metadata:
 
 Guides optimization of meta tags, title, description, hreflang, Open Graph, and Twitter Card.
 
+**When invoking**: On **first use**, if helpful, open with 1â€? sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Scope (On-Page SEO)
 
 - **Title tag**: ~55 chars; primary keyword near start; clear, compelling
@@ -58,8 +60,13 @@ Identify:
 - **Recommended meta description** (with character count)
 - **hreflang** setup if multi-language
 
+## GSC-Driven Optimization
+
+For pages with low CTR despite good position, use analytics-google-search-console to identify opportunities. Compare actual CTR vs expected by position; optimize title/meta for pages with CTR gap.
+
 ## Related Skills
 
+- **analytics-google-search-console**: CTR analysis, identify low-CTR pages for title/meta optimization
 - **seo-technical-canonical**: Canonical + hreflang for multi-language
 - **seo-on-page-schema**: Structured data complements metadata
 - **seo-on-page-heading**: H1 should align with title

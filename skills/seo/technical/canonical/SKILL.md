@@ -9,6 +9,8 @@ metadata:
 
 Guides canonical tag configuration to consolidate duplicate content and declare preferred URLs.
 
+**When invoking**: On **first use**, if helpful, open with 1â€? sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Scope (Technical SEO)
 
 - **Duplicate site versions**: Ensure only one URL version (HTTPS, www vs non-www); 301 redirect others
@@ -77,4 +79,5 @@ export const metadata = {
 
 - **seo-technical-sitemap**: Sitemap URLs should match canonical
 - **seo-technical-indexnow**: Submit canonical URLs
-- **seo-technical-indexing**: Resolve duplicate content in GSC
+- **analytics-google-search-console**: Find duplicate content in Coverage report
+- **seo-technical-indexing**: Resolve indexing issues

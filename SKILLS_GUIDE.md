@@ -48,7 +48,7 @@ skills/
 │   └── content/          # Content SEO
 ├── pages/                # Page types
 ├── components/           # UI components (navigation, etc.)
-├── channels/             # Acquisition channels (affiliate, influencer, referral, creator-program)
+├── channels/             # Acquisition channels (affiliate, influencer, referral, creator-program, directories)
 ├── platforms/            # Publishing platforms (x, reddit, linkedin, tiktok)
 ├── strategies/           # Cross-cutting strategies (geo, localization)
 ├── analytics/            # Traffic, tracking
@@ -133,13 +133,25 @@ metadata:
 
 The Markdown body after the frontmatter has no fixed structure. Recommended sections:
 
+### 4.1 Recommended Sections
+
 - **Step-by-step instructions**: Clear procedural guidance
 - **Edge cases**: Common exceptions and handling
 - **Input/output examples**: Concrete examples
 - **Output format**: Expected output structure
 - **Related Skills**: References to related skills
 
-### 4.1 Progressive Disclosure
+### 4.2 Skill Uniqueness and Cross-References
+
+Each skill must keep **only topic-relevant content** and remain distinct. Use **references** to connect related skills—do not duplicate content.
+
+| Principle | Practice |
+|-----------|----------|
+| **Single focus** | One skill = one theme. If content belongs elsewhere, move it and add a cross-reference |
+| **Reference, don't repeat** | When another skill covers related work, link in Related Skills (e.g., "see channels-directories for directory submission") |
+| **Clear boundaries** | Avoid overlap: directory submission → channels-directories; link-building outreach → seo-off-page-link-building |
+
+### 4.3 Progressive Disclosure
 
 | Level | Content | Suggested Tokens |
 |-------|---------|------------------|
@@ -151,7 +163,48 @@ The Markdown body after the frontmatter has no fixed structure. Recommended sect
 - Put detailed references in `references/` and link with relative paths
 - Keep reference depth to **one level**; avoid deep nesting
 
-### 4.2 File References
+### 4.4 Output Structure: Context First, Then Action
+
+**Two-tier approach:**
+
+| Tier | Skills | Output |
+|------|--------|--------|
+| **Full structure** | Platform/channel (directories, Grokipedia, etc.) | Introduction, Importance, Methods, [Collaboration Channels], Rules, Avoid, Action |
+| **Brief context** | All other skills | 1–2 sentences on what this covers and why it matters, then main output |
+
+#### Tier 1: Full Structure (Platform/Channel Skills)
+
+Apply when the skill targets a specific platform (directory, wiki, social) and users may be unfamiliar with it.
+
+| Section | Content |
+|---------|---------|
+| **Introduction** | What the platform/channel is; key players, scale |
+| **Importance** | Why it matters |
+| **Methods** | How to achieve the goal |
+| **Collaboration Channels** | (optional) Newsletter, ads, social, campaigns |
+| **Rules** | What to follow |
+| **Avoid** | What not to do |
+| **Action** | Ready-to-paste content |
+
+**Required instruction in skill body:**
+```markdown
+**On each invocation**: On **first use** in the conversation, output the complete response (Introduction, Importance, Methods, [Collaboration Channels if applicable], Rules, Avoid, Action). On **subsequent use** or when the user asks to skip (e.g., "just do it", "skip intro", "I already know"), go directly to Action.
+```
+
+#### Tier 2: Brief Context (All Other Skills)
+
+For task-oriented skills (SEO, pages, components, etc.), add a short context when it helps understanding.
+
+**Required instruction in skill body:**
+```markdown
+**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+```
+
+#### First-Use-Only Rule: Context vs. Action
+
+Conceptual introductions (Introduction, Importance, Methods, Rules, Avoid for platform skills; 1–2 sentence context for others) are for **first-time understanding**. After the user has seen them once in the conversation, skip directly to the deliverable (Action or main output). Also skip when the user explicitly asks for direct output (e.g., "just do it", "skip intro", "directly", "I already know").
+
+### 4.5 File References
 
 ```markdown
 See [the reference guide](references/spec.md) for details.
@@ -239,6 +292,9 @@ The CLI recursively searches for `SKILL.md` in:
 
 Before creating or modifying a skill, verify:
 
+- [ ] **All content in English** — descriptions, instructions, examples, output formats
+- [ ] **Single focus** — only topic-relevant content; overlapping topics use Related Skills references
+- [ ] **Output structure**: Platform/channel skills use full structure (Introduction, Importance, Methods, [Collaboration Channels], Rules, Avoid, Action) with "On each invocation"; other skills include "When invoking" with brief context (1–2 sentences) before main output
 - [ ] `name` follows spec (lowercase, hyphens, ≤64 chars)
 - [ ] `description` includes WHAT and WHEN, in third person
 - [ ] `description` includes trigger keywords

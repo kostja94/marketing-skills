@@ -7,7 +7,9 @@ metadata:
 
 # Channels: Referral
 
-Guides referral program strategy for AI/SaaS products. Leverage existing users to drive growth; 3%–5% conversion vs. 1%–2% for ads; CAC 50%–70% lower.
+Guides referral program strategy for AI/SaaS products. Leverage existing users to drive growth; 3%??% conversion vs. 1%??% for ads; CAC 50%??0% lower.
+
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -25,7 +27,7 @@ Identify:
 | **Who** | Existing users | Professional promoters | KOLs |
 | **Incentive** | Discounts, credits | Commission | Fees, product |
 | **Barrier** | Low (all users) | Medium | High |
-| **Conversion** | 3%–5% | Varies | Varies |
+| **Conversion** | 3%??% | Varies | Varies |
 
 ## Reward Models
 
@@ -68,4 +70,5 @@ Identify:
 
 - **channels-affiliate**: Different audience; can run both
 - **channels-influencer**: Brand building vs. user-driven growth
+- **channels-directories**: Directory submission for discovery; referral for user-driven growth
 - **analytics-tracking**: Referral link tracking, UTM

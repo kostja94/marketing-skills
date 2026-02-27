@@ -9,6 +9,8 @@ metadata:
 
 Guides URL structure optimization for SEO: readability, hierarchy, and best practices.
 
+**When invoking**: On **first use**, if helpful, open with 1â€? sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Scope (On-Page SEO)
 
 - **URL slug**: Short; descriptive; hyphens; primary keyword; no dates; avoid special characters

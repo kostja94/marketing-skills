@@ -9,6 +9,8 @@ metadata:
 
 Guides link building strategy: acquiring quality backlinks to improve domain authority and rankings.
 
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Scope (Off-Page SEO)
 
 - **Link building**: Acquire backlinks from relevant, authoritative sites
@@ -37,7 +39,7 @@ Identify:
 | **Broken link building** | Find broken links, suggest your content as replacement |
 | **Unlinked brand mentions** | Turn mentions into links via outreach |
 | **Journalist requests** | Respond to #JournoRequest; provide quotes/assets |
-| **Resource pages** | Get listed on industry resource/link pages |
+| **Directory and curated list submission** | Get listed on directories (Taaft, Product Hunt, G2) and curated "best-of" lists?see **channels-directories** for full guidance |
 | **Digital PR** | Press releases, news, expert quotes; earn authoritative links at scale |
 | **Partnerships** | Partner links, co-marketing |
 
@@ -69,3 +71,4 @@ Identify:
 - **seo-off-page-backlink-analysis**: Analyze current backlink profile
 - **seo-content-content-strategy**: Content strategy supports link building
 - **seo-content-keyword-research**: Target keywords inform link targets
+- **channels-directories**: Directory and curated list submission?preparation, platform-specific copy, Taaft/Product Hunt/G2; use when user wants to submit product to directories or get listed on best-of roundups

@@ -9,6 +9,8 @@ metadata:
 
 Guides glossary page structure, content, and internal linking for SEO.
 
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Initial Assessment
 
 **Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for industry terms and customer language.
@@ -24,7 +26,7 @@ Identify:
 
 | Element | Purpose |
 |---------|---------|
-| **Alphabetical index** | A–Z or by category |
+| **Alphabetical index** | A?Z or by category |
 | **Term + definition** | Clear, concise explanation |
 | **Related terms** | Cross-links within glossary |
 | **Internal links** | Link to relevant blog/content |

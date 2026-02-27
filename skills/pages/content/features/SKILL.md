@@ -9,6 +9,8 @@ metadata:
 
 Guides features page content, structure, and conversion optimization.
 
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
 ## Initial Assessment
 
 **Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, differentiation, and proof points.
@@ -41,7 +43,7 @@ Identify:
 
 - **By use case**: Group by job-to-be-done
 - **By priority**: Most important/differentiating first
-- **By journey**: Discovery → evaluation → decision
+- **By journey**: Discovery ??evaluation ??decision
 
 ### Per-Feature Pages
 

@@ -9,7 +9,7 @@ metadata:
 
 Guides customer story and case study page content, structure, and conversion.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -22,7 +22,7 @@ Identify:
 
 ## Best Practices
 
-### Structure (Challenge →Solution →Results)
+### Structure (Challenge -> Solution -> Results)
 
 | Section | Content |
 |---------|---------|
@@ -71,6 +71,7 @@ Identify:
 
 ## Related Skills
 
+- **components-url-slug**: URL slug for case study pages (e.g. /customers/case-slug); 3-5 words
 - **pages-about**: Social proof complements About
 - **pages-pricing**: Case studies support pricing justification
 - **pages-home**: Customer stories on homepage

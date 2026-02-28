@@ -70,6 +70,7 @@ Identify:
 
 ## Related Skills
 
+- **components-url-slug**: URL slug for glossary terms (e.g. /glossary/term-slug); 3-5 words
 - **seo-on-page-internal-links**: Glossary is internal linking hub
 - **seo-content-content-strategy**: Glossary supports content clusters
 - **pages-blog**: Link between glossary and blog

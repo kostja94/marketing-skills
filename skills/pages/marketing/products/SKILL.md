@@ -9,7 +9,7 @@ metadata:
 
 Guides product listing and category page content for e-commerce. For individual product detail pages, structure varies by platform.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -54,6 +54,8 @@ Identify:
 
 ## Related Skills
 
+- **components-url-slug**: URL slug for product pages; 3-5 words, primary keyword
+- **seo-on-page-url-structure**: Product URL hierarchy (e.g. /products/category/product)
 - **pages-features**: For SaaS feature pages
 - **seo-on-page-schema**: Product, ItemList schema
 - **seo-on-page-internal-links**: Category linking

@@ -11,7 +11,7 @@ Guides structure, SEO, and UX for **individual article pages** — one blog post
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
-**Output workflow**: Always output in order: **1. Intent Analysis** → **2. Content Analysis** → **3. Recommendations**. Do not skip steps.
+**Output workflow**: Always output in order: **0. Research Phase** (keywords, search intent, competitors) → **1. Intent Analysis** → **2. Content Analysis** → **3. Recommendations**. Do not skip steps. When Research Phase was performed via web search, show the search results and findings.
 
 ## Optimization Foundation: Four Inputs
 
@@ -24,17 +24,11 @@ Article analysis and creation rest on **four inputs**. Gather or infer them befo
 | **Article intent** | Informational, commercial, transactional, navigational; drives structure, CTA, SEO depth | product-marketing-context Section 6 (target intent); article orientation; content type |
 | **Competitor articles** | Structure to adopt, content gaps, length target, keyword opportunities | User-provided URLs; product-marketing-context Section 11; web search |
 
-**When any input is missing**: Proactively ask or search. For competitors, ask: *"Do you have competitor article URLs? If not, I can search for top-ranking articles for [target keyword]."* For product/keywords/intent, infer from article or prompt user to add product-marketing-context.
+**When any input is missing**: Proactively ask or search. For article analysis: perform **Research Phase** (keyword search, search intent, competitor articles) by default — see Research Phase section. For product/keywords/intent, infer from article or prompt user to add product-marketing-context.
 
 ## Before Analysis: Gather Context
 
-**1. Competitor articles**
-
-- **If user provides URLs**: Use them for competitor analysis.
-- **If user does not provide URLs**: Proactively ask: *"Do you have competitor article URLs to analyze? If not, I can search for top-ranking articles for [target keyword from article]."*
-- **If user agrees or asks to search**: Search the web for top-ranking pages (e.g. `"[target keyword]"` or `"[keyword] site:competitor.com"`), fetch 2–3 articles via mcp_web_fetch or WebSearch, then include competitor analysis in Recommendations.
-
-**2. Product / company context**
+**1. Product / company context**
 
 Use available context to give **tailored** analysis:
 
@@ -45,6 +39,39 @@ Use available context to give **tailored** analysis:
 | **Web search** | When analyzing a known brand (e.g. Lessie AI): search for "[product] features", "[product] vs competitors", company positioning — use to validate product connection, suggest missing features/use cases, and improve competitor gap analysis |
 
 If no product-marketing-context exists, infer from the article and optionally search for company/product info to enrich recommendations.
+
+## Research Phase: Keyword, Search Intent, Competitor (Required for Article Analysis)
+
+When **analyzing or auditing** an article, perform the following searches and **output the results** in the analysis. Skip only if user explicitly asks to skip (e.g. "skip search").
+
+### 1. Keyword Search
+
+- **Extract seed keywords** from article (title, H1, H2s, meta keywords, first 100 words).
+- **Search the web** for related keywords and opportunity:
+  - `"[primary keyword]"` or `"[primary keyword] related keywords"`
+  - `"[primary keyword]" site:competitor.com` (if competitors known)
+  - Google autocomplete / "People also ask" style queries for the topic
+- **Output**: Primary keyword, secondary keywords, keyword opportunities (terms top rankers use that this article misses).
+
+### 2. Search Intent Analysis
+
+- **Determine intent** for primary and secondary keywords:
+  - **Informational**: How-to, what is, why, guides → blog, FAQ
+  - **Commercial**: Comparison, best, review → comparison pages, product pages
+  - **Transactional**: Buy, pricing, sign up → product, pricing, CTA
+  - **Navigational**: Brand name, login → brand pages
+- **Search the web** if needed: `"[keyword]"` to see SERP result types (blogs, product pages, etc.) and infer intent.
+- **Output**: Intent for primary keyword, intent for top 2–3 secondary keywords, whether article matches intent.
+
+### 3. Competitor Article Search
+
+- **If user provides URLs**: Use them for competitor analysis.
+- **If user does not provide URLs**: **By default, search** for top-ranking articles:
+  - Web search: `"[target keyword]"` or `"[primary keyword]"`
+  - Fetch 2–3 top-ranking pages via mcp_web_fetch or WebSearch
+  - Analyze: word count, H2 structure, keyword placement, content gaps, CTA, schema
+- **If user explicitly asks to skip**: Omit competitor search; note "Competitor analysis skipped" in output.
+- **Output**: Competitor URLs, brief structure comparison, content gaps, length target, keyword opportunities.
 
 ## Scope
 
@@ -100,12 +127,12 @@ Not all articles share the same goal. Choose structure, SEO depth, and schema ba
 
 ## Competitor Article Analysis
 
-Triggered when user provides URLs or agrees to search (see **Before Analysis** above):
+Performed as part of **Research Phase** (see above). When competitor articles are obtained:
 
-1. **Obtain articles**: URLs from user or product context (Section 11), or search web for `"[keyword]"` to find top-ranking pages
+1. **Obtain articles**: URLs from user or product context (Section 11), or search web for `"[keyword]"` to find top-ranking pages (default for analysis)
 2. **Fetch content**: mcp_web_fetch, WebSearch, or user-provided text
 3. **Analyze**: Content Analysis dimensions + word count, H2 structure, keyword placement, content gaps, CTA, schema
-4. **Output**: Add to Recommendations — structure to adopt, sections to add, length target, keyword opportunities, content gaps to fill
+4. **Output**: In Research Phase (Section 0) + add to Recommendations — structure to adopt, sections to add, length target, keyword opportunities, content gaps to fill
 
 ## Article Page Structure
 
@@ -202,9 +229,11 @@ See **strategies-geo** for full GEO strategy.
 
 ### URL
 
-- Clean slug: 3–5 words; primary keyword; lowercase, hyphens
-- Example: `/blog/seo-checklist-2025` not `/blog/post-12345`
-- Avoid date in path: `/blog/article-title` not `/blog/2025/01/15/article-title`
+Use **components-url-slug** for slug creation. Key rules:
+
+- **Slug**: 3–5 words; under 60 chars; primary keyword; lowercase, hyphens
+- **Example**: `/blog/ai-people-search` not `/blog/ai-search-engine-finding-people-speed-discovery-outreach`
+- **Avoid**: Date in path (`/blog/2025/01/15/article-title`); copy-pasting full title
 
 ### Date Display (Critical for CTR)
 
@@ -338,7 +367,17 @@ When auditing or optimizing an article, analyze content (beyond structure):
 
 ## Output Format
 
-### 1. Intent Analysis (output first)
+### 0. Research Phase (output first, when analysis/audit is performed)
+
+When analyzing or auditing an article, output this section **before** Intent Analysis. Include search sources and findings. If user asked to skip search, note that and infer from article only.
+
+| Section | Output |
+|--------|--------|
+| **Keyword Search** | Primary keyword (from article or search), secondary keywords, keyword opportunities (from SERP/competitor analysis). If search was performed: query used, top results observed. |
+| **Search Intent** | Intent for primary keyword (Informational/Commercial/Transactional/Navigational), intent for 2–3 secondary keywords, whether article content matches intent. If search was performed: SERP snippet types observed. |
+| **Competitor Articles** | If searched: 2–3 URLs, brief structure (word count, H2s), content gaps, length target. If user provided URLs: same. If skipped: "Competitor analysis skipped." |
+
+### 1. Intent Analysis (output second)
 
 Before any recommendations, output a brief analysis:
 
@@ -350,11 +389,11 @@ Before any recommendations, output a brief analysis:
 | **Evergreen vs timely** | Evergreen / Timely |
 | **Implications** | 1–2 sentences: e.g. "Low SEO priority → focus on clarity, shareability" or "SEO-driven → full keyword + GEO optimization" |
 
-### 2. Content Analysis (output second)
+### 2. Content Analysis (output third)
 
 Apply the Content Analysis table above. Output a brief assessment per dimension (✅ / ⚠️ / ❌ + one-line note).
 
-### 3. Recommendations (output third, tailored to intent)
+### 3. Recommendations (output fourth, tailored to intent)
 
 Assign **priority** to each item: **P0** (critical), **P1** (high), **P2** (medium), **P3** (nice-to-have). Output as table or list with priority prefix.
 
@@ -391,6 +430,7 @@ Example: `[P0] Add TL;DR or Key Takeaways — GEO, AI citation`
 - **seo-on-page-internal-links**: Related posts, contextual links
 - **seo-on-page-open-graph, seo-on-page-twitter-cards**: Social previews for articles (required for share previews)
 - **components-social-share**: Share buttons placement, platforms, intent URLs
+- **components-url-slug**: URL slug creation for articles; 3–5 words, primary keyword
 - **components-toc**: Table of contents for long articles
 - **components-breadcrumb**: Breadcrumb (e.g. Home > Blog > Category > Post)
 - **strategies-geo**: GEO strategy; AI citation optimization

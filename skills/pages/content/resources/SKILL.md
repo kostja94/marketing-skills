@@ -9,7 +9,7 @@ metadata:
 
 Guides resources page and content hub structure for discovery and SEO.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -66,6 +66,7 @@ Identify:
 
 ## Related Skills
 
+- **components-url-slug**: URL slug for resource pages (e.g. /resources/guide-slug); 3-5 words
 - **pages-blog**: Blog may be part of resources
 - **pages-glossary**: Glossary as resource
 - **seo-content-content-strategy**: Content hub strategy

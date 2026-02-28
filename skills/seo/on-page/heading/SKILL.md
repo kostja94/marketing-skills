@@ -40,7 +40,7 @@ Identify:
 
 | Principle | Guideline |
 |-----------|-----------|
-| **Logical order** | H1 ? H2 ? H3; don't skip levels |
+| **Logical order** | H1 -> H2 -> H3; don't skip levels |
 | **One idea per heading** | Each heading = one topic |
 | **Scannable** | Headings should summarize section content |
 | **Keyword variation** | Use related keywords in subheadings |
@@ -49,12 +49,12 @@ Identify:
 
 ```
 H1 (page title)
-? H2 (section 1)
-   ? H3 (subsection)
-   ? H3
-? H2 (section 2)
-   ? H3
-? H2 (section 3)
+-> H2 (section 1)
+   -> H3 (subsection)
+   -> H3
+-> H2 (section 2)
+   -> H3
+-> H2 (section 3)
 ```
 
 ## Common Issues
@@ -76,7 +76,7 @@ H1 (page title)
 ## Related Skills
 
 - **seo-content-optimization**: H2 keyword placement, quantity, tables, lists; complements heading structure
-- **pages-article**: Article page H1?H3 structure, intro/body/conclusion
+- **pages-article**: Article page H1-H3 structure, intro/body/conclusion
 - **seo-on-page-title**: H1 should align with title tag
 - **seo-on-page-schema**: Article schema uses headline (often H1)
 - **seo-content-content-strategy**: Content outline informs headings

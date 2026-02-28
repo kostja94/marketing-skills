@@ -9,7 +9,7 @@ metadata:
 
 Guides footer design for SEO, UX, and conversion. Footers provide secondary navigation, support crawlability, and engage users below the fold (66% of engagement happens there).
 
-**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -33,7 +33,7 @@ Identify:
 ### Business Information
 
 - Physical address, phone, email
-- Social media profile links (Follow us) ? distinct from **components-social-share** (share this page)
+- Social media profile links (Follow us) -> distinct from **components-social-share** (share this page)
 - Copyright and legal information (Privacy Policy, Terms of Service)
 
 ### User Engagement
@@ -76,8 +76,8 @@ Identify:
 
 | Requirement | Practice |
 |-------------|----------|
-| **Contrast** | ?.5:1 for link text |
-| **Touch targets** | ?44×44px on mobile |
+| **Contrast** | 4.5:1 for link text |
+| **Touch targets** | >=44x44px on mobile |
 | **Keyboard** | Full keyboard navigation |
 | **Screen readers** | Proper heading hierarchy, landmark roles |
 
@@ -91,7 +91,7 @@ Identify:
 ## Related Skills
 
 - **components-navigation-menu**: Footer complements header nav
-- **components-social-share**: Footer has profile links (Follow us); social-share has share buttons (share this page) ? different use cases
+- **components-social-share**: Footer has profile links (Follow us); social-share has share buttons (share this page) -> different use cases
 - **seo-technical-sitemap**: Footer can link to sitemap
 - **seo-on-page-internal-links**: Footer is secondary internal linking
 - **components-newsletter-signup**: Footer often hosts signup forms

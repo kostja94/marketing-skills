@@ -61,6 +61,7 @@ Identify:
 
 ## Related Skills
 
+- **seo-on-page-url-structure**: Service URL hierarchy (e.g. /services/web-development)
 - **pages-features**: For SaaS; services for service businesses
 - **pages-pricing**: Service pricing
 - **pages-customer-stories**: Proof for services

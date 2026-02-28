@@ -9,7 +9,7 @@ metadata:
 
 Guides content strategy for SEO: topic clusters, pillar pages, cluster articles, and editorial planning.
 
-**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -73,13 +73,13 @@ Cluster 6-12 (subtopics)
 
 ### Implementation Steps
 
-1. **Choose 3-7 core topics** ? business relevance, search demand, competitive opportunity
-2. **Map subtopics** ? People Also Ask, competitor analysis, keyword tools
-3. **Content audit** ? Identify existing pages that can become pillar or cluster; find gaps
-4. **Build clusters first** (optional) ? Cluster pages often rank first; add pillar after
-5. **Create pillar** ? Comprehensive guide; link to all clusters
-6. **Establish links** ? Pillar <-> cluster; cluster <-> cluster
-7. **Update quarterly** ? Maintain freshness and authority
+1. **Choose 3-7 core topics** -> business relevance, search demand, competitive opportunity
+2. **Map subtopics** -> People Also Ask, competitor analysis, keyword tools
+3. **Content audit** -> Identify existing pages that can become pillar or cluster; find gaps
+4. **Build clusters first** (optional) -> Cluster pages often rank first; add pillar after
+5. **Create pillar** -> Comprehensive guide; link to all clusters
+6. **Establish links** -> Pillar <-> cluster; cluster <-> cluster
+7. **Update quarterly** -> Maintain freshness and authority
 
 ### Example
 
@@ -90,26 +90,26 @@ Cluster 6-12 (subtopics)
 
 | Type | Use | SEO Fit |
 |------|-----|---------|
-| **How-to guides** | Informational intent; high share potential | High ? matches search intent |
+| **How-to guides** | Informational intent; high share potential | High -> matches search intent |
 | **Comparisons** | Commercial intent; "X vs Y" | High |
 | **List posts** | "Top 10," "Best X" | High |
 | **Glossaries** | Definition queries; internal link hub | High |
 | **Tools/calculators** | Linkable assets; engagement | High |
-| **Case studies** | Proof; conversion support | Medium ? supports conversion |
-| **Funding / PR** | Funding rounds, acquisitions | Low ? brand/PR, not search-driven |
-| **Product updates** | Feature launches, release notes | Low ? internal audience |
-| **News / Trending** | Industry news, hot topics | Medium ? quick spikes, short shelf life |
+| **Case studies** | Proof; conversion support | Medium -> supports conversion |
+| **Funding / PR** | Funding rounds, acquisitions | Low -> brand/PR, not search-driven |
+| **Product updates** | Feature launches, release notes | Low -> internal audience |
+| **News / Trending** | Industry news, hot topics | Medium -> quick spikes, short shelf life |
 
 ### Evergreen vs Timely Content Mix
 
-- **Evergreen** (70?75%): Pillar guides, how-tos, comparisons, glossaries. Drives long-term traffic, backlinks, authority. Refresh every 6?12 months.
-- **Timely** (25?30%): Seasonal, trending, news. Generates quick traffic, shows topical relevance. Link timely pieces into evergreen pillars.
+- **Evergreen** (70-75%): Pillar guides, how-tos, comparisons, glossaries. Drives long-term traffic, backlinks, authority. Refresh every 6-12 months.
+- **Timely** (25-30%): Seasonal, trending, news. Generates quick traffic, shows topical relevance. Link timely pieces into evergreen pillars.
 - **Balance**: Too much evergreen = blog feels stale; too much timely = irregular traffic, constant content churn.
 
 ## Editorial Calendar
 
 - Map keywords to content pieces
-- Prioritize by opportunity (volume ? intent ? feasibility)
+- Prioritize by opportunity (volume -> intent -> feasibility)
 - Schedule by capacity
 - Include update schedule for existing content
 
@@ -123,7 +123,7 @@ Cluster 6-12 (subtopics)
 ## Related Skills
 
 - **seo-content-keyword-research**: Keywords drive content plan
-- **seo-content-optimization**: Word count, H2 keywords, keyword density, multimedia, lists ? on-page content optimization
+- **seo-content-optimization**: Word count, H2 keywords, keyword density, multimedia, lists -> on-page content optimization
 - **seo-on-page-internal-links**: Clusters need internal linking
 - **seo-off-page-link-building**: Content strategy creates linkable assets
 - **seo-on-page-heading**: Content structure uses headings

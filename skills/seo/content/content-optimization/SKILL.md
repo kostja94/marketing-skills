@@ -29,7 +29,7 @@ Identify:
 
 ---
 
-## Word Count (字数)
+## Word Count
 
 **Google does not rank by word count.** Length should match search intent and topic depth. A 1,000-word post that satisfies intent can outrank a 3,000-word thin piece.
 

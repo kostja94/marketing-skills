@@ -43,13 +43,13 @@ Choose based on SEO weight distribution, brand consistency, and technical archit
 
 ### Content Strategy
 
-- **Topical authority**: Topic clusters ? pillar page per core topic + 6-12 cluster articles
+- **Topical authority**: Topic clusters -> pillar page per core topic + 6-12 cluster articles
 - **Intent mapping**: Transactional, problem-aware, informational
 - **EEAT signals**: Author bios, Organization schema, citations, changelog
 - **Refresh > new**: For established sites, updating existing content often outperforms publishing new posts; avoid changing only the date without substantive edits
 - **Quality > quantity**: Fewer high-quality posts beat many mediocre ones; consider deleting, merging, or refreshing underperformers
 - **Topic focus**: Avoid blindly expanding topics; dilution can hurt authority on core topics
-- **Conversion as north star**: SEO KPIs should tie to leads, signups, or sales ? not just traffic
+- **Conversion as north star**: SEO KPIs should tie to leads, signups, or sales -> not just traffic
 
 ### SEO
 
@@ -57,7 +57,7 @@ Choose based on SEO weight distribution, brand consistency, and technical archit
 - **Meta**: Clear CTA in description
 - **Headers**: H1-H3 hierarchy, table of contents
 - **Content depth**: 2,500+ words for pillars; Grade 8 readability
-- **URL**: Clean slugs, 3-5 words
+- **URL**: Use **components-url-slug** -> clean slugs, 3-5 words, under 60 chars
 - **Schema**: Article, BlogPosting, FAQPage where relevant
 
 ### Technical
@@ -69,7 +69,7 @@ Choose based on SEO weight distribution, brand consistency, and technical archit
 ### Design
 
 - **Scannable**: Preview copy, thumbnails, hero images
-- **Social sharing**: Share buttons on article pages ? see **components-social-share**
+- **Social sharing**: Share buttons on article pages -> see **components-social-share**
 - **Quick answers**: Definition boxes, mini-FAQs for AEO
 - **TOC**: Table of contents for Featured Snippets; jump links in long articles
 - **CTA placement**: Sidebar CTA or in-paragraph CTA at key conversion points
@@ -84,7 +84,8 @@ Choose based on SEO weight distribution, brand consistency, and technical archit
 
 ## Related Skills
 
-- **pages-article**: Single article/post page structure, SEO, schema ? use for individual post templates
+- **pages-article**: Single article/post page structure, SEO, schema -> use for individual post templates
+- **components-url-slug**: URL slug for blog posts; 3-5 words, primary keyword
 - **seo-content-content-strategy**: Content clusters, editorial calendar
 - **seo-content-keyword-research**: Keywords for blog topics
 - **seo-on-page-title, seo-on-page-description, seo-on-page-metadata, seo-on-page-open-graph, seo-on-page-twitter-cards**: Blog metadata and social previews

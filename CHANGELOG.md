@@ -8,6 +8,10 @@
 
 ## [2025-02-28]
 
+### Fixed
+
+- **Encoding** — Replaced corrupted Unicode (en-dash, arrows, symbols) with ASCII in 12 skills: content-strategy, toc, navigation-menu, footer, category-pages, features, resources, customer-stories, products, glossary, blog, heading. Prevents future mojibake.
+
 ### Changed
 
 - **seo-on-page-metadata** — Split into title, description, open-graph, twitter-cards; metadata now hreflang, robots, viewport only

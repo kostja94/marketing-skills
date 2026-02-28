@@ -9,7 +9,7 @@ metadata:
 
 Guides navigation menu design for SEO, UX, and accessibility. Navigation helps users find content and signals site structure to search engines.
 
-**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -24,7 +24,7 @@ Identify:
 
 ### Menu Size
 
-- **Primary nav**: ? items; avoid overwhelming users
+- **Primary nav**: 7-9 items; avoid overwhelming users
 - **Sub-navigation**: Up to 2 levels; deeper topics in sub-menus
 - **Pattern**: Horizontal top nav or vertical side nav; avoid novel patterns
 
@@ -63,8 +63,8 @@ Identify:
 | Requirement | Practice |
 |-------------|----------|
 | **Labels** | Clear, intuitive wording |
-| **Contrast** | ?.5:1 for link text |
-| **Touch targets** | ?44?44px; adequate spacing |
+| **Contrast** | 4.5:1 for link text |
+| **Touch targets** | >=44x44px; adequate spacing |
 | **Keyboard** | Full keyboard navigation; focus visible |
 | **Screen readers** | Proper ARIA; skip links for long menus |
 

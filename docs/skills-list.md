@@ -91,6 +91,7 @@ See [page-types-taxonomy.md](page-types-taxonomy.md) for full taxonomy.
 | [components-testimonials](../skills/components/testimonials/) | Testimonials, reviews, customer quotes |
 | [components-cta](../skills/components/cta/) | Call-to-action button design |
 | [components-newsletter-signup](../skills/components/newsletter-signup/) | Newsletter signup form |
+| [components-url-slug](../skills/components/url-slug/) | URL slug creation for content; 3–5 words, SEO-friendly |
 
 ## Channels
 

@@ -9,7 +9,7 @@ metadata:
 
 Guides features page content, structure, and conversion optimization.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -43,7 +43,7 @@ Identify:
 
 - **By use case**: Group by job-to-be-done
 - **By priority**: Most important/differentiating first
-- **By journey**: Discovery →evaluation →decision
+- **By journey**: Discovery -> evaluation -> decision
 
 ### Per-Feature Pages
 
@@ -68,6 +68,7 @@ Identify:
 
 ## Related Skills
 
+- **components-url-slug**: URL slug for per-feature pages (e.g. /features/feature-name); 3-5 words
 - **pages-home**: Homepage links to features
 - **pages-pricing**: Features inform plan tiers
 - **seo-on-page-schema**: SoftwareApplication schema

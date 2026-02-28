@@ -7,9 +7,9 @@ metadata:
 
 # Pages: Category Pages
 
-Guides e-commerce category page structure, content, and SEO optimization. Category pages organize products by attributes and drive 3→x more organic revenue than product pages by ranking for broad, high-volume keywords.
+Guides e-commerce category page structure, content, and SEO optimization. Category pages organize products by attributes and drive 3x more organic revenue than product pages by ranking for broad, high-volume keywords.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -26,9 +26,9 @@ Identify:
 
 | Principle | Practice |
 |-----------|----------|
-| **Logical grouping** | General →specific (e.g., Furniture →Bedroom furniture →Beds) |
+| **Logical grouping** | General -> specific (e.g., Furniture -> Bedroom furniture -> Beds) |
 | **User search intent** | Match how users search (e.g., "bedroom furniture" vs "furniture") |
-| **Crawl depth** | → clicks from homepage; shorter paths improve indexing |
+| **Crawl depth** | <=4 clicks from homepage; shorter paths improve indexing |
 | **Long-tail categories** | Niche categories convert better (36% vs 11.5% for broad) |
 
 ### URL Structure
@@ -53,7 +53,7 @@ Filters create many URL combinations (size + color + price). Manage to avoid dup
 
 ### Content Requirements
 
-- **150→00 words** unique copy; pages with this rank ~2.7x higher than product-only grids
+- **150-300 words** unique copy; pages with this rank ~2.7x higher than product-only grids
 - **Placement**: After hero/H1; FAQ block at bottom
 - **Purpose**: Help users decide; answer curation, materials, recommendations
 - **Avoid**: Manufacturer copy; crowding product grid
@@ -63,8 +63,8 @@ Filters create many URL combinations (size + color + price). Manage to avoid dup
 | Element | Practice |
 |---------|----------|
 | **H1** | One per page; primary keyword; clear purpose |
-| **Title tag** | 50→0 chars; keyword; compelling for CTR |
-| **Meta description** | 150→60 chars; value props (free shipping, returns) |
+| **Title tag** | 50-60 chars; keyword; compelling for CTR |
+| **Meta description** | 150-160 chars; value props (free shipping, returns) |
 | **Schema** | ItemList, Product; AggregateRating if reviews; FAQ if applicable |
 
 ### Trust & Conversion
@@ -76,7 +76,7 @@ Filters create many URL combinations (size + color + price). Manage to avoid dup
 ## Technical
 
 - **Consistent layout**: Same template across categories; predictable UX
-- **Mobile**: Responsive; touch targets ≥44×44px
+- **Mobile**: Responsive; touch targets >=44x44px
 - **Redirects**: 301 to category when product pages move; avoid breaking hierarchy
 
 ## Output Format

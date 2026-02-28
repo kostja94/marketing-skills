@@ -9,7 +9,7 @@ metadata:
 
 Guides sitemap creation, auditing, and optimization for search engine discovery.
 
-**When invoking**: On **first use**, if helpful, open with 1×? sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Scope (Technical SEO)
 
@@ -47,7 +47,7 @@ Identify:
 | url | Full URL | `https://example.com/path` |
 | lastModified | Page last modified time | Use page metadata, ISO 8601; use `YYYY-MM-DD` or omit when no data |
 | changeFrequency | Update frequency | Home `daily`, list pages `weekly`, content pages `monthly` |
-| priority | Relative importance | Home 1.0, aggregate pages 0.9, content pages 0.7×?.8, others 0.5×?.6 |
+| priority | Relative importance | Home 1.0, aggregate pages 0.9, content pages 0.7–0.8, others 0.5–0.6 |
 
 ### lastmod (Critical)
 
@@ -59,7 +59,7 @@ Identify:
 ### changefreq / priority
 
 - **changefreq**: Hints only; does not directly determine crawl frequency. Values: `always`, `hourly`, `daily`, `weekly`, `monthly`, `yearly`, `never`.
-- **priority**: 0.0×?.0; **does not affect ranking**; set higher for important pages; avoid identical values for all.
+- **priority**: 0.0–1.0; **does not affect ranking**; set higher for important pages; avoid identical values for all.
 
 ## 3. Architecture & Split
 

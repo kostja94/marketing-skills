@@ -169,7 +169,7 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│  Components: nav · footer · hero · toc · logo · trust-badges · testimonials · cta ·     │
+│  Components: nav · footer · hero · toc · logo · trust-badges · testimonials · cta · url-slug │
 │  newsletter-signup  |  Analytics: traffic · tracking · ai-traffic · google-search-console│
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 
@@ -199,7 +199,7 @@ Cross-references: metadata ↔ schema ↔ heading  |  sitemap ↔ indexnow
 |----------|--------|
 | **SEO** (19) | [Technical](skills/seo/technical/): robots, sitemap, canonical, indexing, indexnow, crawlability · [On-Page](skills/seo/on-page/): title, description, metadata, open-graph, twitter-cards, schema, internal-links, url-structure, heading · [Off-Page](skills/seo/off-page/): link-building, backlink-analysis · [Content](skills/seo/content/): keyword-research, content-strategy |
 | **Pages** (24) | [page-types-taxonomy](docs/page-types-taxonomy.md) — brand, content, marketing, legal, utility |
-| **Components** (10) | nav, breadcrumb, footer, hero, toc, logo, trust-badges, testimonials, cta, newsletter-signup |
+| **Components** (11) | nav, breadcrumb, footer, hero, toc, logo, trust-badges, testimonials, cta, newsletter-signup, url-slug |
 | **Channels** (5) | affiliate, influencer, referral, creator-program, directories |
 | **Platforms** (5) | x, reddit, linkedin, tiktok, grokipedia |
 | **Strategies** (2) | geo, localization |

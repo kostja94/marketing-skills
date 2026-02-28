@@ -1,5 +1,5 @@
 ---
-name: components-sidebar
+name: sidebar-generator
 description: When the user wants to design, optimize, or audit a sidebar for blogs, docs, or content pages. Also use when the user mentions "sidebar," "blog sidebar," "content sidebar," or "side panel."
 metadata:
   version: 1.0.0
@@ -61,7 +61,7 @@ Identify:
 
 ## Related Skills
 
-- **components-toc**: TOC often in sidebar for long content
-- **components-cta**: Sidebar CTA (use sparingly)
-- **components-newsletter-signup**: Sidebar signup; consider in-content instead
-- **seo-on-page-internal-links**: Related posts in sidebar
+- **toc-generator**: TOC often in sidebar for long content
+- **cta-generator**: Sidebar CTA (use sparingly)
+- **newsletter-signup-generator**: Sidebar signup; consider in-content instead
+- **internal-links**: Related posts in sidebar

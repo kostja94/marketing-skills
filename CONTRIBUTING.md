@@ -17,9 +17,15 @@ Contributions are welcome! Here's how to add or improve skills.
 
 ## Skill Naming
 
+**Core principles**: (1) Name must match skill content/function. (2) Use high-search-volume, generic keywords for discoverability.
+
 - Use lowercase letters and hyphens only
-- Follow category prefix: `seo-technical-robots`, `seo-on-page-metadata`, `pages-home`
-- Be specific: `seo-technical-sitemap` not `sitemap`
+- Follow category pattern: `[type]-page-generator` (pages), `[component]-generator` (components), industry terms (SEO)
+- Be specific: `schema-markup` not `schema`; `pricing-page-generator` not `pricing`
+- Platforms: add suffix (e.g. `twitter-x-posts`, `reddit-posts`)
+- No abbreviations: `employee-generated-content` not `egc`; `generative-engine-optimization` not `geo`
+
+**Full rules**: [SKILLS_GUIDE §7](SKILLS_GUIDE.md#7-naming-and-categorization) | [docs/naming-rules.md](docs/naming-rules.md)
 
 ## Language
 

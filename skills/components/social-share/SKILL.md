@@ -1,5 +1,5 @@
 ---
-name: components-social-share
+name: social-share-generator
 description: When the user wants to add, optimize, or audit social share buttons (share article to X, LinkedIn, Facebook, etc.). Also use when the user mentions "share buttons," "social share," "share to X," "share to LinkedIn," or "social sharing."
 metadata:
   version: 1.0.0
@@ -19,7 +19,7 @@ Guides implementation of **share buttons** that let users share the current page
 ## Why It Matters
 
 - Websites with visible social share icons see **~158% increase in social engagement** ([NiftyButtons](https://www.niftybuttons.com/blog/ultimate-guide-adding-social-media-icons-website-2025))
-- Share buttons amplify reach; Open Graph and Twitter Cards control preview — see **seo-on-page-open-graph**, **seo-on-page-twitter-cards**
+- Share buttons amplify reach; Open Graph and Twitter Cards control preview — see **open-graph**, **twitter-cards**
 
 ## Placement (Article Pages)
 
@@ -93,8 +93,8 @@ if (navigator.share) {
 
 ## Related Skills
 
-- **pages-article**: Share buttons on article pages; placement after intro, end of article
-- **pages-blog**: Share buttons on blog index and post cards
-- **seo-on-page-open-graph**: OG tags control share preview (og:image, og:title, etc.) — required for share buttons to show rich cards on Facebook, LinkedIn
-- **seo-on-page-twitter-cards**: Twitter Cards control X preview — required for share buttons to show rich cards when shared to X
-- **components-footer**: Footer has social *profile* links (Follow us); this skill is for *share* buttons (share this page)
+- **article-page-generator**: Share buttons on article pages; placement after intro, end of article
+- **blog-page-generator**: Share buttons on blog index and post cards
+- **open-graph**: OG tags control share preview (og:image, og:title, etc.) — required for share buttons to show rich cards on Facebook, LinkedIn
+- **twitter-cards**: Twitter Cards control X preview — required for share buttons to show rich cards when shared to X
+- **footer-generator**: Footer has social *profile* links (Follow us); this skill is for *share* buttons (share this page)

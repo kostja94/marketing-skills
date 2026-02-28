@@ -1,5 +1,5 @@
 ---
-name: pages-blog
+name: blog-page-generator
 description: When the user wants to create, optimize, or audit blog page structure and content. Also use when the user mentions "blog page," "blog index," "blog layout," or "content hub."
 metadata:
   version: 1.0.0
@@ -57,7 +57,7 @@ Choose based on SEO weight distribution, brand consistency, and technical archit
 - **Meta**: Clear CTA in description
 - **Headers**: H1-H3 hierarchy, table of contents
 - **Content depth**: 2,500+ words for pillars; Grade 8 readability
-- **URL**: Use **components-url-slug** -> clean slugs, 3-5 words, under 60 chars
+- **URL**: Use **url-slug-generator** -> clean slugs, 3-5 words, under 60 chars
 - **Schema**: Article, BlogPosting, FAQPage where relevant
 
 ### Technical
@@ -69,7 +69,7 @@ Choose based on SEO weight distribution, brand consistency, and technical archit
 ### Design
 
 - **Scannable**: Preview copy, thumbnails, hero images
-- **Social sharing**: Share buttons on article pages -> see **components-social-share**
+- **Social sharing**: Share buttons on article pages -> see **social-share-generator**
 - **Quick answers**: Definition boxes, mini-FAQs for AEO
 - **TOC**: Table of contents for Featured Snippets; jump links in long articles
 - **CTA placement**: Sidebar CTA or in-paragraph CTA at key conversion points
@@ -84,10 +84,10 @@ Choose based on SEO weight distribution, brand consistency, and technical archit
 
 ## Related Skills
 
-- **pages-article**: Single article/post page structure, SEO, schema -> use for individual post templates
-- **components-url-slug**: URL slug for blog posts; 3-5 words, primary keyword
-- **seo-content-content-strategy**: Content clusters, editorial calendar
-- **seo-content-keyword-research**: Keywords for blog topics
-- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata, seo-on-page-open-graph, seo-on-page-twitter-cards**: Blog metadata and social previews
-- **seo-on-page-schema**: Article schema
-- **pages-resources**: Blog may be part of resources hub
+- **article-page-generator**: Single article/post page structure, SEO, schema -> use for individual post templates
+- **url-slug-generator**: URL slug for blog posts; 3-5 words, primary keyword
+- **content-strategy**: Content clusters, editorial calendar
+- **keyword-research**: Keywords for blog topics
+- **title-tag, meta-description, page-metadata, open-graph, twitter-cards**: Blog metadata and social previews
+- **schema-markup**: Article schema
+- **resources-page-generator**: Blog may be part of resources hub

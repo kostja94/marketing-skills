@@ -1,5 +1,5 @@
 ---
-name: components-top-banner
+name: top-banner-generator
 description: When the user wants to add, optimize, or audit a top announcement bar or sticky banner. Also use when the user mentions "announcement bar," "top banner," "sticky bar," "promo banner," or "header banner."
 metadata:
   version: 1.0.0
@@ -60,7 +60,7 @@ Identify:
 
 ## Related Skills
 
-- **components-cta**: Banner CTA design
-- **components-newsletter-signup**: Lead capture in banner
-- **components-brand-visual**: Colors, typography for banner
-- **components-navigation-menu**: Banner sits above or integrates with nav
+- **cta-generator**: Banner CTA design
+- **newsletter-signup-generator**: Lead capture in banner
+- **brand-visual-generator**: Colors, typography for banner
+- **navigation-menu-generator**: Banner sits above or integrates with nav

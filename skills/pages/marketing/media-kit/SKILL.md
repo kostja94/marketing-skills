@@ -1,5 +1,5 @@
 ---
-name: pages-media-kit
+name: media-kit-page-generator
 description: When the user wants to create, optimize, or audit media kit or press page. Also use when the user mentions "media kit," "press kit," "press page," "press resources," or "brand assets."
 metadata:
   version: 1.0.0
@@ -89,11 +89,11 @@ Identify:
 
 ## Related Skills
 
-- **pages-about**: Media kit extends About for press
-- **pages-contact**: Press contact info
-- **pages-customer-stories**: Press may reference case studies
-- **components-logo**: Logo assets, placement rules; media kit hosts logo files
-- **components-favicon**: Favicon for browser/app; media kit can link or include
-- **components-brand-visual**: Typography, colors, spacing; brand guidelines document
-- **seo-technical-indexing**: noindex vs. index for press page
-- **channels-directories**: Media kit required for Product Hunt and directory submissions
+- **about-page-generator**: Media kit extends About for press
+- **contact-page-generator**: Press contact info
+- **customer-stories-page-generator**: Press may reference case studies
+- **logo-generator**: Logo assets, placement rules; media kit hosts logo files
+- **favicon-generator**: Favicon for browser/app; media kit can link or include
+- **brand-visual-generator**: Typography, colors, spacing; brand guidelines document
+- **indexing**: noindex vs. index for press page
+- **directory-submission**: Media kit required for Product Hunt and directory submissions

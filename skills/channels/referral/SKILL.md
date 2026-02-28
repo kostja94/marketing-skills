@@ -1,5 +1,5 @@
 ---
-name: channels-referral
+name: referral-program
 description: When the user wants to plan, implement, or optimize referral program strategy. Also use when the user mentions "referral program," "referral marketing," "user referral," "refer-a-friend," or "word-of-mouth growth."
 metadata:
   version: 1.0.0
@@ -123,7 +123,7 @@ Referral rate, conversion, CAC, LTV of referred users, referred-user retention.
 
 ## Related Skills
 
-- **channels-affiliate**: Different audience; can run both
-- **channels-influencer**: Brand building vs. user-driven growth
-- **channels-directories**: Directory submission for discovery; referral for user-driven growth
+- **affiliate-marketing**: Different audience; can run both
+- **influencer-marketing**: Brand building vs. user-driven growth
+- **directory-submission**: Directory submission for discovery; referral for user-driven growth
 - **analytics-tracking**: Referral link tracking, UTM

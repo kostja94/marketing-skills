@@ -1,5 +1,5 @@
 ---
-name: channels-email-marketing
+name: email-marketing
 description: When the user wants to plan email marketing, EDM, newsletter strategy, or email deliverability. Also use when the user mentions "email marketing," "EDM," "newsletter," "SPF," "DKIM," "DMARC," "email deliverability," or "email content strategy."
 metadata:
   version: 1.0.0
@@ -115,11 +115,11 @@ Identify:
 
 ## Related Skills
 
-- **components-newsletter-signup**: Signup form design
-- **analytics-traffic**: Email source attribution, UTM
+- **newsletter-signup-generator**: Signup form design
+- **traffic-analysis**: Email source attribution, UTM
 - **analytics-tracking**: Email click tracking
-- **seo-content-content-strategy**: Article selection for email delivery
-- **strategies-integrated-marketing**: Email as owned media channel
+- **content-strategy**: Article selection for email delivery
+- **integrated-marketing**: Email as owned media channel
 
 ## References
 

@@ -1,5 +1,5 @@
 ---
-name: components-testimonials
+name: testimonials-generator
 description: When the user wants to add, optimize, or design customer testimonials, reviews, or case study sections. Also use when the user mentions "testimonials," "reviews," "customer quotes," "social proof," or "case studies."
 metadata:
   version: 1.0.0
@@ -80,7 +80,7 @@ Video: 95% message retention vs 10% for text.
 
 ## Related Skills
 
-- **components-trust-badges**: Complementary trust signals
-- **components-hero**: Testimonials in hero for social proof
-- **components-cta**: Testimonials near CTAs boost conversion
-- **pages-pricing**: Testimonials on pricing pages
+- **trust-badges-generator**: Complementary trust signals
+- **hero-generator**: Testimonials in hero for social proof
+- **cta-generator**: Testimonials near CTAs boost conversion
+- **pricing-page-generator**: Testimonials on pricing pages

@@ -1,5 +1,5 @@
 ---
-name: components-cta
+name: cta-generator
 description: When the user wants to design, optimize, or audit call-to-action (CTA) buttons. Also use when the user mentions "CTA," "call to action," "button design," "conversion button," or "primary action."
 metadata:
   version: 1.0.0
@@ -74,7 +74,7 @@ Identify:
 
 ## Related Skills
 
-- **components-hero**: Hero typically contains primary CTA
-- **components-testimonials**: Testimonials near CTAs boost conversion
-- **components-trust-badges**: Badges near CTAs increase trust
-- **pages-pricing**: CTA on pricing pages (e.g., "Start free trial")
+- **hero-generator**: Hero typically contains primary CTA
+- **testimonials-generator**: Testimonials near CTAs boost conversion
+- **trust-badges-generator**: Badges near CTAs increase trust
+- **pricing-page-generator**: CTA on pricing pages (e.g., "Start free trial")

@@ -1,5 +1,5 @@
 ---
-name: pages-contact
+name: contact-page-generator
 description: When the user wants to create, optimize, or audit contact page and forms. Also use when the user mentions "contact page," "contact form," "get in touch," or "support form."
 metadata:
   version: 1.0.0
@@ -69,6 +69,6 @@ Identify:
 
 ## Related Skills
 
-- **pages-about**: Contact often linked from About
-- **pages-legal**: Privacy policy link near form
-- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: Contact page metadata
+- **about-page-generator**: Contact often linked from About
+- **legal-page-generator**: Privacy policy link near form
+- **title-tag, meta-description, page-metadata**: Contact page metadata

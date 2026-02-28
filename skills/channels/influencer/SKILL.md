@@ -1,5 +1,5 @@
 ---
-name: channels-influencer
+name: influencer-marketing
 description: When the user wants to plan, implement, or optimize influencer marketing strategy. Also use when the user mentions "influencer marketing," "KOL," "creator partnership," "brand ambassador," or "sponsored content."
 metadata:
   version: 1.0.0
@@ -79,7 +79,7 @@ Identify:
 
 ## Related Skills
 
-- **channels-affiliate**: Influencers can be affiliates (hybrid model)
-- **channels-creator-program**: Long-term creator partnerships
-- **channels-egc**: Internal employee content; influencer is external
-- **pages-affiliate-program**: Commission structure if hybrid
+- **affiliate-marketing**: Influencers can be affiliates (hybrid model)
+- **creator-program**: Long-term creator partnerships
+- **employee-generated-content**: Internal employee content; influencer is external
+- **affiliate-page-generator**: Commission structure if hybrid

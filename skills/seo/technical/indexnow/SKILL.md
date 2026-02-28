@@ -1,5 +1,5 @@
 ---
-name: seo-technical-indexnow
+name: indexnow
 description: When the user wants to implement IndexNow, notify search engines of new/updated URLs, or speed up Bing indexing. Also use when the user mentions "IndexNow," "Bing indexing," "URL notification," "instant indexing," "sitemap IndexNow sync," or "share URL list with sitemap."
 metadata:
   version: 1.0.0
@@ -96,5 +96,5 @@ npm run indexnow:all
 
 ## Related Skills
 
-- **seo-technical-sitemap**: Share same URL list from central config
-- **seo-technical-indexing**: Broader indexing strategy
+- **xml-sitemap**: Share same URL list from central config
+- **indexing**: Broader indexing strategy

@@ -1,5 +1,5 @@
 ---
-name: channels-community-forum
+name: community-forum
 description: When the user wants to promote via forums, communities, or invite users to join a community. Also use when the user mentions "forum promotion," "Indie Hacker," "Hacker News," "community growth," "Discord promotion," "vertical community," "brand encyclopedia," "Wikipedia," or "Quora."
 metadata:
   version: 1.0.0
@@ -28,7 +28,7 @@ Identify:
 | **Hacker News** | Tech, startups | Show HN launch; ~1,300 posts/day; front page = luck + timing |
 | **Hackernoon** | Dev, tech readers | Content distribution |
 | **Industry forums** | Niche verticals | Discount codes, leads; search "[industry] forum" |
-| **Reddit** | Subreddit-specific | See platforms-reddit; 90/10 rule; 29+ posts for traction |
+| **Reddit** | Subreddit-specific | See reddit-posts; 90/10 rule; 29+ posts for traction |
 
 ## Hacker News Launch
 
@@ -89,7 +89,7 @@ Identify:
 | **Wikipedia** | Global; neutral, cited content; brand credibility |
 | **Quora** | Q&A; brand discussion, thought leadership, long-term SEO |
 | **Stack Overflow** | Tech/dev; expertise signals, backlinks |
-| **Regional** | Baidu Baike, Sogou (China); see strategies-localization |
+| **Regional** | Baidu Baike, Sogou (China); see localization-strategy |
 
 **Wikipedia**: Neutral language, credible references, no promotional content. Regional encyclopedias (e.g. Baidu Baike in China) require verified credentials; prioritize local search share. Free and sustainable; supports long-term conversion while search habits persist.
 
@@ -103,12 +103,12 @@ Identify:
 
 ## Related Skills
 
-- **platforms-reddit**: Reddit post copy, subreddit rules
-- **channels-directories**: Product Hunt, Taaft; different from forum community
-- **channels-affiliate**: Communities as recruitment channel
-- **components-top-banner, components-popup**: Homepage CTA, banner
-- **components-newsletter-signup**: EDM, welcome email
-- **strategies-localization**: Regional markets (Baidu Baike, Zhihu, etc.)
+- **reddit-posts**: Reddit post copy, subreddit rules
+- **directory-submission**: Product Hunt, Taaft; different from forum community
+- **affiliate-marketing**: Communities as recruitment channel
+- **top-banner-generator, popup-generator**: Homepage CTA, banner
+- **newsletter-signup-generator**: EDM, welcome email
+- **localization-strategy**: Regional markets (Baidu Baike, Zhihu, etc.)
 
 ## References
 

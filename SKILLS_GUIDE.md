@@ -93,7 +93,7 @@ description: A description of what this skill does and when to use it.
 - Allowed characters only: `a-z`, `0-9`, `-`
 - Length: 1–64 characters
 
-**Valid examples**: `pdf-processing`, `seo-technical-sitemap`, `pages-home`
+**Valid examples**: `pdf-processing`, `xml-sitemap`, `homepage-generator`
 
 **Invalid examples**:
 - `PDF-Processing` (uppercase)
@@ -101,6 +101,8 @@ description: A description of what this skill does and when to use it.
 - `pdf--processing` (consecutive hyphens)
 
 ### 3.3 description Field Rules
+
+Full specification: [docs/description-rules.md](docs/description-rules.md). Optimization suggestions: [docs/description-optimization-suggestions.md](docs/description-optimization-suggestions.md).
 
 **Must include**:
 1. **WHAT**: What the skill does (specific capabilities)
@@ -160,8 +162,8 @@ Each skill must keep **only topic-relevant content** and remain distinct. Use **
 | Principle | Practice |
 |-----------|----------|
 | **Single focus** | One skill = one theme. If content belongs elsewhere, move it and add a cross-reference |
-| **Reference, don't repeat** | When another skill covers related work, link in Related Skills (e.g., "see channels-directories for directory submission") |
-| **Clear boundaries** | Avoid overlap: directory submission → channels-directories; link-building outreach → seo-off-page-link-building |
+| **Reference, don't repeat** | When another skill covers related work, link in Related Skills (e.g., "see directory-submission for directory submission") |
+| **Clear boundaries** | Avoid overlap: directory submission → directory-submission; link-building outreach → link-building |
 
 ### 4.3 Progressive Disclosure
 
@@ -286,7 +288,7 @@ The CLI recursively searches for `SKILL.md` in:
 | Option | How |
 |--------|-----|
 | **Full install** | `npx skills add kostja94/marketing-skills` — all 83 skills |
-| **Selective install** | `npx skills add kostja94/marketing-skills --skill seo-technical-robots pages-pricing` — only specified skills |
+| **Selective install** | `npx skills add kostja94/marketing-skills --skill robots-txt pricing-page-generator` — only specified skills |
 | **Delete after install** | Remove unwanted folders from `.cursor/skills/` — skills are independent, no cross-dependencies |
 
 Skills are self-contained. Removing unused skills reduces context load and keeps the agent focused.
@@ -295,18 +297,36 @@ Skills are self-contained. Removing unused skills reduces context load and keeps
 
 ## 7. Naming and Categorization
 
+**Full specification**: [docs/naming-rules.md](docs/naming-rules.md)
+
+### 7.0 Core Principles (Highest Priority)
+
+1. **Content / Function / Skills consistency** — The name must accurately reflect what the skill does and covers (scope, output, description).
+2. **High search volume, most generic keywords** — Use the most common terms for SEO and skills.sh discoverability. When in conflict, Principle 1 takes precedence.
+
 ### 7.1 Naming Conventions
 
-| Scenario | Format | Example |
-|----------|--------|---------|
-| Single level | `topic-action` | `seo-audit` |
-| Category hierarchy | `category-subcategory-specific` | `seo-technical-sitemap` |
-| Page types | `pages-type` | `pages-home`, `pages-pricing` |
+| Category | Pattern | Example |
+|----------|---------|---------|
+| Pages | `[type]-page-generator` | pricing-page-generator, homepage-generator |
+| Components | `[component]-generator` | trust-badges-generator, newsletter-signup-generator |
+| SEO | Industry term (noun phrase) | schema-markup, title-tag, canonical-tag, link-building |
+| Channels | `[channel]-[noun]` | referral-program, affiliate-marketing, employee-generated-content |
+| Platforms | `[platform]-[suffix]` | twitter-x-posts, reddit-posts, tiktok-captions |
+| Strategies | Full name, no abbreviation | generative-engine-optimization |
+| Analytics | `[metric]-[action]` or tool name | traffic-analysis, google-search-console |
+
+**Additional rules**:
+- Platform names: add suffix (posts, captions, recommendations)
+- Strategies: use full name (generative-engine-optimization, not geo)
+- Prefer 2+ words; exceptions: product names (indexnow), established terms (indexing)
+- For nested structure, `name` may differ from directory path for search discoverability
 
 ### 7.2 Names to Avoid
 
 - Too generic: `helper`, `utils`, `tools`
-- Vague: `seo` (prefer specific, e.g. `seo-technical-robots`)
+- Vague: `seo` (prefer specific, e.g. `schema-markup`)
+- Abbreviations unclear to new users: `egc`, `geo`
 
 ---
 

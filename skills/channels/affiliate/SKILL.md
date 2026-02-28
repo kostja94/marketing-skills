@@ -1,5 +1,5 @@
 ---
-name: channels-affiliate
+name: affiliate-marketing
 description: When the user wants to plan, implement, or optimize affiliate marketing strategy. Also use when the user mentions "affiliate marketing," "affiliate program strategy," "CPS model," "affiliate recruitment," or "commission structure."
 metadata:
   version: 1.0.0
@@ -72,8 +72,8 @@ For SaaS: Prefer pay-per-sale or pay-per-lead. Recurring commissions for subscri
 
 ## Related Skills
 
-- **pages-affiliate-program**: Landing page for affiliate signup
-- **channels-influencer**: Often paired; influencers can be affiliates
-- **channels-referral**: User-driven referral vs. affiliate-driven
-- **channels-directories**: Directory submission complements affiliate; both drive backlinks and traffic
-- **channels-community-forum**: Communities (Discord, Reddit, forums) as affiliate recruitment channel
+- **affiliate-page-generator**: Landing page for affiliate signup
+- **influencer-marketing**: Often paired; influencers can be affiliates
+- **referral-program**: User-driven referral vs. affiliate-driven
+- **directory-submission**: Directory submission complements affiliate; both drive backlinks and traffic
+- **community-forum**: Communities (Discord, Reddit, forums) as affiliate recruitment channel

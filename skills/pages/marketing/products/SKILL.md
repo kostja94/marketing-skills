@@ -1,5 +1,5 @@
 ---
-name: pages-products
+name: products-page-generator
 description: When the user wants to create, optimize, or audit a product listing or category page. Also use when the user mentions "product page," "product listing," "shop," or "e-commerce products."
 metadata:
   version: 1.0.0
@@ -54,9 +54,9 @@ Identify:
 
 ## Related Skills
 
-- **components-url-slug**: URL slug for product pages; 3-5 words, primary keyword
-- **seo-on-page-url-structure**: Product URL hierarchy (e.g. /products/category/product)
-- **pages-features**: For SaaS feature pages
-- **seo-on-page-schema**: Product, ItemList schema
-- **seo-on-page-internal-links**: Category linking
-- **components-breadcrumb**: Breadcrumb trail for product hierarchy
+- **url-slug-generator**: URL slug for product pages; 3-5 words, primary keyword
+- **url-structure**: Product URL hierarchy (e.g. /products/category/product)
+- **features-page-generator**: For SaaS feature pages
+- **schema-markup**: Product, ItemList schema
+- **internal-links**: Category linking
+- **breadcrumb-generator**: Breadcrumb trail for product hierarchy

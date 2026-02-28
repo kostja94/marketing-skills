@@ -1,5 +1,5 @@
 ---
-name: pages-affiliate-program
+name: affiliate-page-generator
 description: When the user wants to create, optimize, or audit affiliate program page content. Also use when the user mentions "affiliate program," "affiliate page," "partner program," or "referral program page."
 metadata:
   version: 1.0.0
@@ -71,8 +71,8 @@ Affiliates stake their reputation; convince them it's worth promoting:
 
 ## Related Skills
 
-- **channels-affiliate**: Affiliate marketing strategy, recruitment, channels
-- **pages-pricing**: Commission structure clarity
-- **pages-customer-stories**: Social proof for product
-- **pages-home**: Link from homepage
-- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: Affiliate page metadata
+- **affiliate-marketing**: Affiliate marketing strategy, recruitment, channels
+- **pricing-page-generator**: Commission structure clarity
+- **customer-stories-page-generator**: Social proof for product
+- **homepage-generator**: Link from homepage
+- **title-tag, meta-description, page-metadata**: Affiliate page metadata

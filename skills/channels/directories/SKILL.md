@@ -1,5 +1,5 @@
 ---
-name: channels-directories
+name: directory-submission
 description: When the user wants to submit a product to directories, launch platforms, curated lists, or app stores. Reads product-marketing-context.md when present and generates ready-to-paste submission content per platform. Also use when the user mentions "directory submission," "curated list," "best tools list," "Taaft," "Product Hunt," "directory ads," "newsletter feature," "directory campaign," "product info for directory," "tailor description per platform," "Shopify App Store," "Chrome Web Store," "submit to directory," "launch on Product Hunt," "navigation site," "product directory," or "get listed."
 metadata:
   version: 1.0.0
@@ -300,7 +300,7 @@ Before submitting to any directory:
 - [ ] **Logo / icon** per platform specs
 - [ ] **Category** selected correctly per directory taxonomy
 - [ ] **URL** correct and working
-- [ ] **Media kit** (for Product Hunt, press outreach) --see pages-media-kit
+- [ ] **Media kit** (for Product Hunt, press outreach) --see media-kit-page-generator
 - [ ] **Platform-specific copy** drafted (do not reuse identical text across directories)
 - [ ] **Taaft** (if applicable): Full field set--icon, main image, demo video, Primary/Secondary Tasks, features, models, built-with, modalities, pricing, legal URLs, pros/cons, socials, tracking links
 
@@ -365,10 +365,10 @@ Before submitting to any directory:
 
 ## Related Skills
 
-- **pages-media-kit**: Press kit, screenshots, assets for launch; required for Product Hunt and directory submissions
-- **seo-off-page-link-building**: Directory and curated list backlinks contribute to link profile; this skill handles the submission workflow--see seo-off-page-link-building for broader outreach, guest posting, broken link building
-- **platforms-grokipedia**: Same output pattern--platform context first (Introduction, Importance, Methods, Rules, Avoid), then Action; high-authority placement for GEO; directories for human discovery--complementary
-- **strategies-geo**: GEO strategy; varied directory copy improves AI citation diversity; directory submission complements AI search visibility
-- **channels-affiliate**: Different channel; directories complement affiliate
-- **channels-community-forum**: Forum promotion (HN, Indie Hacker); community invitation; different from directory listing
+- **media-kit-page-generator**: Press kit, screenshots, assets for launch; required for Product Hunt and directory submissions
+- **link-building**: Directory and curated list backlinks contribute to link profile; this skill handles the submission workflow--see link-building for broader outreach, guest posting, broken link building
+- **grokipedia-recommendations**: Same output pattern--platform context first (Introduction, Importance, Methods, Rules, Avoid), then Action; high-authority placement for GEO; directories for human discovery--complementary
+- **generative-engine-optimization**: GEO strategy; varied directory copy improves AI citation diversity; directory submission complements AI search visibility
+- **affiliate-marketing**: Different channel; directories complement affiliate
+- **community-forum**: Forum promotion (HN, Indie Hacker); community invitation; different from directory listing
 - **analytics-tracking**: UTM for directory traffic attribution

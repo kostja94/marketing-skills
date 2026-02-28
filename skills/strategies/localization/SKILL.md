@@ -1,5 +1,5 @@
 ---
-name: strategies-localization
+name: localization-strategy
 description: When the user wants to plan or implement localization strategy for multilingual and global growth. Also use when the user mentions "localization," "multilingual," "i18n," "global expansion," or "market entry."
 metadata:
   version: 1.0.0
@@ -85,6 +85,6 @@ Consider: Cultural expressions, search habits, competition, long-tail in small m
 
 ## Related Skills
 
-- **seo-on-page-metadata**: Hreflang implementation
-- **components-navigation-menu**: Language switcher SEO
-- **channels-affiliate**: Local affiliates for target markets
+- **page-metadata**: Hreflang implementation
+- **navigation-menu-generator**: Language switcher SEO
+- **affiliate-marketing**: Local affiliates for target markets

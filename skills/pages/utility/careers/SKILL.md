@@ -1,5 +1,5 @@
 ---
-name: pages-careers
+name: careers-page-generator
 description: When the user wants to create, optimize, or audit a careers or jobs page. Also use when the user mentions "careers," "jobs," "hiring," "open positions," or "company culture."
 metadata:
   version: 1.0.0
@@ -55,6 +55,6 @@ Identify:
 
 ## Related Skills
 
-- **pages-about**: Culture and team overlap
-- **seo-on-page-schema**: JobPosting schema
-- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: Careers page metadata
+- **about-page-generator**: Culture and team overlap
+- **schema-markup**: JobPosting schema
+- **title-tag, meta-description, page-metadata**: Careers page metadata

@@ -1,5 +1,5 @@
 ---
-name: components-logo
+name: logo-generator
 description: When the user wants to optimize logo placement, linking, or branding on a website. Also use when the user mentions "logo," "brand logo," "header logo," "logo placement," or "AI logo design."
 metadata:
   version: 1.0.0
@@ -18,7 +18,7 @@ Guides logo placement and implementation for brand recall and navigation. Logo p
 Identify:
 1. **Context**: Header, footer, standalone
 2. **Platform**: Web, mobile, both
-3. **Brand guidelines**: Size, clear space, variants (from components-brand-visual or media kit)
+3. **Brand guidelines**: Size, clear space, variants (from brand-visual-generator or media kit)
 
 ## Placement Best Practices
 
@@ -57,7 +57,7 @@ Identify:
 ### Size & Clear Space
 
 - Adequate size for recognition; not competing with nav or CTA
-- Maintain clear space around logo per brand guidelines (components-brand-visual)
+- Maintain clear space around logo per brand guidelines (brand-visual-generator)
 - Responsive: ensure readability on mobile
 
 ## AI Product Logo Design (Optional)
@@ -112,8 +112,8 @@ For AI/SaaS products, [Alignify AI Logo Guide](https://alignify.co/insights/ai-l
 
 ## Related Skills
 
-- **components-navigation-menu**: Logo typically sits in header with nav
-- **components-hero**: Logo appears in hero context on landing pages
-- **pages-media-kit**: Logo assets, brand guidelines, usage rules
-- **components-favicon**: Favicon derived from logo; consistent brand in browser tabs
-- **components-brand-visual**: Typography, colors, spacing; logo clear space and variants
+- **navigation-menu-generator**: Logo typically sits in header with nav
+- **hero-generator**: Logo appears in hero context on landing pages
+- **media-kit-page-generator**: Logo assets, brand guidelines, usage rules
+- **favicon-generator**: Favicon derived from logo; consistent brand in browser tabs
+- **brand-visual-generator**: Typography, colors, spacing; logo clear space and variants

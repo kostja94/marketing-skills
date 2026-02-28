@@ -1,5 +1,5 @@
 ---
-name: seo-off-page-backlink-analysis
+name: backlink-analysis
 description: When the user wants to analyze backlinks, audit link profile, or identify link issues. Also use when the user mentions "backlink analysis," "backlink audit," "referring domains," "toxic links," or "link profile."
 metadata:
   version: 1.0.0
@@ -60,7 +60,7 @@ Identify:
 ## Disavow File
 
 - Use only when necessary (manual penalty, toxic links)
-- Submit via Google Search Console (see analytics-google-search-console for Links report and disavow submission)
+- Submit via Google Search Console (see google-search-console for Links report and disavow submission)
 - **Caution**: Over-disavowing can harm; use sparingly
 - **References**: [Google Disavow](https://developers.google.com/search/docs/crawling-indexing/block-indexing#disavow-links)
 
@@ -74,6 +74,6 @@ Identify:
 
 ## Related Skills
 
-- **analytics-google-search-console**: Links report, disavow file submission
-- **analytics-seo-monitoring**: Backlink metrics in full SEO monitoring; quality vs quantity, referral ROI
-- **seo-off-page-link-building**: Use analysis to plan link building
+- **google-search-console**: Links report, disavow file submission
+- **seo-monitoring**: Backlink metrics in full SEO monitoring; quality vs quantity, referral ROI
+- **link-building**: Use analysis to plan link building

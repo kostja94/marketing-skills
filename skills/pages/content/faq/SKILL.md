@@ -1,5 +1,5 @@
 ---
-name: pages-faq
+name: faq-page-generator
 description: When the user wants to create, optimize, or audit FAQ page content. Also use when the user mentions "FAQ page," "frequently asked questions," "help page," or "Q&A page."
 metadata:
   version: 1.0.0
@@ -72,7 +72,7 @@ Identify:
 
 ## Related Skills
 
-- **pages-pricing**: FAQ often addresses pricing objections
-- **pages-contact**: FAQ reduces contact form volume
-- **seo-on-page-schema**: FAQPage schema
-- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: FAQ page metadata
+- **pricing-page-generator**: FAQ often addresses pricing objections
+- **contact-page-generator**: FAQ reduces contact form volume
+- **schema-markup**: FAQPage schema
+- **title-tag, meta-description, page-metadata**: FAQ page metadata

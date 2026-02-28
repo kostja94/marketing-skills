@@ -1,5 +1,5 @@
 ---
-name: pages-shipping
+name: shipping-page-generator
 description: When the user wants to create or optimize a shipping or delivery information page. Also use when the user mentions "shipping," "delivery," "shipping policy," or "delivery times."
 metadata:
   version: 1.0.0
@@ -50,6 +50,6 @@ Identify:
 
 ## Related Skills
 
-- **pages-refund**: Often paired in footer
-- **pages-faq**: Shipping questions in FAQ
-- **pages-legal**: Sometimes grouped with policies
+- **refund-page-generator**: Often paired in footer
+- **faq-page-generator**: Shipping questions in FAQ
+- **legal-page-generator**: Sometimes grouped with policies

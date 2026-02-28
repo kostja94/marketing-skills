@@ -59,7 +59,7 @@ marketing-skills/
 npx skills add kostja94/marketing-skills
 
 # Install specific skills only
-npx skills add kostja94/marketing-skills --skill seo-technical-robots seo-on-page-title seo-on-page-description pages-pricing
+npx skills add kostja94/marketing-skills --skill robots-txt title-tag meta-description pricing-page-generator
 
 # List available
 npx skills add kostja94/marketing-skills --list
@@ -124,13 +124,13 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 
 | You say | Skill |
 |---------|-------|
-| "Configure robots.txt" / "Audit sitemap" / "Fix canonical URLs" | seo-technical-* |
-| "Optimize title tag" / "Meta description" / "Open Graph" / "Twitter Cards" / "Add schema markup" / "Fix heading structure" | seo-on-page-* |
-| "Keyword research" / "Content strategy" / "Link building" | seo-content-* / seo-off-page-* |
-| "Create pricing page" / "Optimize homepage" / "Create FAQ" | pages-* |
-| "Submit to Taaft, Product Hunt" / "Directory submission" | channels-directories |
-| "Add to Grokipedia" / "GEO for AI search" | platforms-grokipedia / strategies-geo |
-| "GA4 tracking" / "Search Console" / "AI traffic" | analytics-* |
+| "Configure robots.txt" / "Audit sitemap" / "Fix canonical URLs" | robots-txt, xml-sitemap, canonical-tag |
+| "Optimize title tag" / "Meta description" / "Open Graph" / "Twitter Cards" / "Add schema markup" / "Fix heading structure" | title-tag, meta-description, open-graph, twitter-cards, schema-markup, heading-structure |
+| "Keyword research" / "Content strategy" / "Link building" | keyword-research, content-strategy, link-building |
+| "Create pricing page" / "Optimize homepage" / "Create FAQ" | pricing-page-generator, homepage-generator, faq-page-generator |
+| "Submit to Taaft, Product Hunt" / "Directory submission" | directory-submission |
+| "Add to Grokipedia" / "GEO for AI search" | grokipedia-recommendations, generative-engine-optimization |
+| "GA4 tracking" / "Search Console" / "AI traffic" | analytics-tracking, google-search-console, ai-traffic-tracking |
 
 ## How Skills Work Together
 

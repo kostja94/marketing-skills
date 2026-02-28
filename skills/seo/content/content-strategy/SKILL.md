@@ -1,5 +1,5 @@
 ---
-name: seo-content-content-strategy
+name: content-strategy
 description: When the user wants to plan content for SEO, create content calendar, or build topic clusters. Also use when the user mentions "content strategy," "content plan," "topic clusters," "pillar content," "pillar page," "cluster articles," or "editorial calendar."
 metadata:
   version: 1.0.0
@@ -122,8 +122,8 @@ Cluster 6-12 (subtopics)
 
 ## Related Skills
 
-- **seo-content-keyword-research**: Keywords drive content plan
-- **seo-content-optimization**: Word count, H2 keywords, keyword density, multimedia, lists -> on-page content optimization
-- **seo-on-page-internal-links**: Clusters need internal linking
-- **seo-off-page-link-building**: Content strategy creates linkable assets
-- **seo-on-page-heading**: Content structure uses headings
+- **keyword-research**: Keywords drive content plan
+- **content-optimization**: Word count, H2 keywords, keyword density, multimedia, lists -> on-page content optimization
+- **internal-links**: Clusters need internal linking
+- **link-building**: Content strategy creates linkable assets
+- **heading-structure**: Content structure uses headings

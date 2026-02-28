@@ -29,12 +29,12 @@
 
 | Task | Skill | Status | Priority | Notes | Updated |
 |------|-------|--------|----------|-------|---------|
-| robots.txt | seo-technical-robots | Pending | P0 | | |
-| sitemap.xml | seo-technical-sitemap | Pending | P0 | | |
-| Canonical URLs | seo-technical-canonical | Pending | P1 | | |
-| Indexing (noindex, GSC) | seo-technical-indexing | Pending | P1 | | |
-| IndexNow (Bing) | seo-technical-indexnow | Pending | P2 | | |
-| Crawlability (redirects, links, orphans) | seo-technical-crawlability | Pending | P0 | | |
+| robots.txt | robots-txt | Pending | P0 | | |
+| sitemap.xml | xml-sitemap | Pending | P0 | | |
+| Canonical URLs | canonical-tag | Pending | P1 | | |
+| Indexing (noindex, GSC) | indexing | Pending | P1 | | |
+| IndexNow (Bing) | indexnow | Pending | P2 | | |
+| Crawlability (redirects, links, orphans) | site-crawlability | Pending | P0 | | |
 
 ---
 
@@ -42,15 +42,15 @@
 
 | Task | Skill | Status | Priority | Notes | Updated |
 |------|-------|--------|----------|-------|---------|
-| Title tag | seo-on-page-title | Pending | P1 | | |
-| Meta description | seo-on-page-description | Pending | P1 | | |
-| Hreflang, meta robots, viewport | seo-on-page-metadata | Pending | P1 | | |
-| Open Graph | seo-on-page-open-graph | Pending | P2 | | |
-| Twitter Cards | seo-on-page-twitter-cards | Pending | P2 | | |
-| Schema / structured data | seo-on-page-schema | Pending | P1 | | |
-| Internal linking | seo-on-page-internal-links | Pending | P1 | | |
-| URL structure | seo-on-page-url-structure | Pending | P2 | | |
-| Heading structure (H1–H6) | seo-on-page-heading | Pending | P1 | | |
+| Title tag | title-tag | Pending | P1 | | |
+| Meta description | meta-description | Pending | P1 | | |
+| Hreflang, meta robots, viewport | page-metadata | Pending | P1 | | |
+| Open Graph | open-graph | Pending | P2 | | |
+| Twitter Cards | twitter-cards | Pending | P2 | | |
+| Schema / structured data | schema-markup | Pending | P1 | | |
+| Internal linking | internal-links | Pending | P1 | | |
+| URL structure | url-structure | Pending | P2 | | |
+| Heading structure (H1–H6) | heading-structure | Pending | P1 | | |
 
 ---
 
@@ -58,8 +58,8 @@
 
 | Task | Skill | Status | Priority | Notes | Updated |
 |------|-------|--------|----------|-------|---------|
-| Keyword research | seo-content-keyword-research | Pending | P1 | | |
-| Content strategy (clusters, pillar) | seo-content-content-strategy | Pending | P2 | | |
+| Keyword research | keyword-research | Pending | P1 | | |
+| Content strategy (clusters, pillar) | content-strategy | Pending | P2 | | |
 
 ---
 
@@ -67,8 +67,8 @@
 
 | Task | Skill | Status | Priority | Notes | Updated |
 |------|-------|--------|----------|-------|---------|
-| Link building | seo-off-page-link-building | Pending | P2 | | |
-| Backlink analysis | seo-off-page-backlink-analysis | Pending | P2 | | |
+| Link building | link-building | Pending | P2 | | |
+| Backlink analysis | backlink-analysis | Pending | P2 | | |
 
 ---
 
@@ -78,14 +78,14 @@ Add rows for pages that exist or need creation. See [page-types-taxonomy](https:
 
 | Page | Skill | Status | Priority | Notes | Updated |
 |------|-------|--------|----------|-------|---------|
-| Homepage | pages-home | Pending | P1 | | |
-| Pricing | pages-pricing | Pending | P1 | | |
-| Features | pages-features | Pending | P1 | | |
-| Blog | pages-blog | Pending | P2 | | |
-| FAQ | pages-faq | Pending | P2 | | |
-| About | pages-about | Pending | P2 | | |
-| Contact | pages-contact | Pending | P2 | | |
-| Privacy / Terms / Legal | pages-privacy, pages-terms | Pending | P1 | | |
+| Homepage | homepage-generator | Pending | P1 | | |
+| Pricing | pricing-page-generator | Pending | P1 | | |
+| Features | features-page-generator | Pending | P1 | | |
+| Blog | blog-page-generator | Pending | P2 | | |
+| FAQ | faq-page-generator | Pending | P2 | | |
+| About | about-page-generator | Pending | P2 | | |
+| Contact | contact-page-generator | Pending | P2 | | |
+| Privacy / Terms / Legal | privacy-page-generator, terms-page-generator | Pending | P1 | | |
 | *[Add more as needed]* | | | | | |
 
 ---
@@ -94,13 +94,13 @@ Add rows for pages that exist or need creation. See [page-types-taxonomy](https:
 
 | Task | Skill | Status | Priority | Notes | Updated |
 |------|-------|--------|----------|-------|---------|
-| Navigation | components-navigation-menu | Pending | P1 | | |
-| Breadcrumbs | components-breadcrumb | Pending | P1 | | |
-| Footer | components-footer | Pending | P1 | | |
-| Hero | components-hero | Pending | P1 | | |
-| CTAs | components-cta | Pending | P1 | | |
-| Trust badges / Testimonials | components-trust-badges, components-testimonials | Pending | P2 | | |
-| Newsletter signup | components-newsletter-signup | Pending | P2 | | |
+| Navigation | navigation-menu-generator | Pending | P1 | | |
+| Breadcrumbs | breadcrumb-generator | Pending | P1 | | |
+| Footer | footer-generator | Pending | P1 | | |
+| Hero | hero-generator | Pending | P1 | | |
+| CTAs | cta-generator | Pending | P1 | | |
+| Trust badges / Testimonials | trust-badges-generator, testimonials-generator | Pending | P2 | | |
+| Newsletter signup | newsletter-signup-generator | Pending | P2 | | |
 
 ---
 
@@ -108,10 +108,10 @@ Add rows for pages that exist or need creation. See [page-types-taxonomy](https:
 
 | Task | Skill | Status | Priority | Notes | Updated |
 |------|-------|--------|----------|-------|---------|
-| Directory submission (Taaft, Product Hunt) | channels-directories | Pending | P2 | | |
-| Affiliate / Influencer / Referral | channels-affiliate, etc. | Pending | P2 | | |
-| X / LinkedIn / Reddit / TikTok | platforms-* | Pending | P2 | | |
-| Grokipedia / GEO (AI search) | platforms-grokipedia, strategies-geo | Pending | P2 | | |
+| Directory submission (Taaft, Product Hunt) | directory-submission | Pending | P2 | | |
+| Affiliate / Influencer / Referral | affiliate-marketing, etc. | Pending | P2 | | |
+| X / LinkedIn / Reddit / TikTok | twitter-x-posts, linkedin-posts, etc. | Pending | P2 | | |
+| Grokipedia / GEO (AI search) | grokipedia-recommendations, generative-engine-optimization | Pending | P2 | | |
 
 ---
 
@@ -120,8 +120,8 @@ Add rows for pages that exist or need creation. See [page-types-taxonomy](https:
 | Task | Skill | Status | Priority | Notes | Updated |
 |------|-------|--------|----------|-------|---------|
 | GA4 / event tracking | analytics-tracking | Pending | P1 | | |
-| Search Console setup | analytics-google-search-console | Pending | P1 | | |
-| AI traffic tracking | analytics-ai-traffic | Pending | P2 | | |
+| Search Console setup | google-search-console | Pending | P1 | | |
+| AI traffic tracking | ai-traffic-tracking | Pending | P2 | | |
 
 ---
 

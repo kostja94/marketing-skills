@@ -1,5 +1,5 @@
 ---
-name: analytics-traffic
+name: traffic-analysis
 description: When the user wants to analyze website traffic sources, attribution, or dark traffic. Also use when the user mentions "traffic sources," "dark traffic," "direct traffic," "UTM parameters," "traffic attribution," or "channel analysis."
 metadata:
   version: 1.0.0
@@ -87,7 +87,7 @@ When traffic was sent from known sources, analytics often misattributed:
 | **Brand sites** | Diversified traffic is common for strong brands |
 | **Engagement** | Content, email, social, free tools drive return visits |
 
-See analytics-seo-monitoring for full SEO data analysis framework.
+See seo-monitoring for full SEO data analysis framework.
 
 ## Natural Traffic Benchmark
 
@@ -107,7 +107,7 @@ See analytics-seo-monitoring for full SEO data analysis framework.
 ## Related Skills
 
 - **analytics-tracking**: Implement UTM and event tracking
-- **analytics-ai-traffic**: AI search traffic
-- **analytics-google-search-console**: GSC performance and indexing analysis
-- **analytics-seo-monitoring**: Full SEO data analysis system, benchmark, article database
-- **channels-email-marketing**: Email strategy; UTM for email links
+- **ai-traffic-tracking**: AI search traffic
+- **google-search-console**: GSC performance and indexing analysis
+- **seo-monitoring**: Full SEO data analysis system, benchmark, article database
+- **email-marketing**: Email strategy; UTM for email links

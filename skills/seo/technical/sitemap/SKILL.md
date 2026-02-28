@@ -1,5 +1,5 @@
 ---
-name: seo-technical-sitemap
+name: xml-sitemap
 description: When the user wants to create, audit, or optimize sitemap.xml. Also use when the user mentions "sitemap," "sitemap.xml," "lastmod," "changefreq," "priority," "URL discovery for search engines," "single source of truth," "URL config," "unify sitemap IndexNow," or "reduce duplicate maintenance."
 metadata:
   version: 1.0.0
@@ -177,7 +177,7 @@ With multiple sitemaps, only declare the main index.
 | Sitemap 404 | Build failure, wrong path, incorrect export; check routes and deployment |
 | Missing pages | URLs not in data source, filtered or excluded |
 | lastmod anomaly | Avoid `new Date()`; use `modifiedDate` from page metadata |
-| Google not indexing | Submit sitemap in GSC; check Coverage (analytics-google-search-console) and robots |
+| Google not indexing | Submit sitemap in GSC; check Coverage (google-search-console) and robots |
 | EN/ZH URL mismatch | Use unified data source; share same list when generating by locale |
 
 ## References
@@ -187,6 +187,6 @@ With multiple sitemaps, only declare the main index.
 
 ## Related Skills
 
-- **analytics-google-search-console**: Sitemap status, indexed URL count, Coverage
-- **seo-technical-robots**: Reference sitemap in robots.txt
-- **seo-technical-indexnow**: Share same URL list from config
+- **google-search-console**: Sitemap status, indexed URL count, Coverage
+- **robots-txt**: Reference sitemap in robots.txt
+- **indexnow**: Share same URL list from config

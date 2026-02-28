@@ -1,5 +1,5 @@
 ---
-name: pages-home
+name: homepage-generator
 description: When the user wants to create, optimize, or audit homepage content and structure. Also use when the user mentions "homepage," "landing page," "main page," or "home page."
 metadata:
   version: 1.0.0
@@ -64,7 +64,7 @@ Identify:
 
 ## Related Skills
 
-- **pages-pricing**: Homepage often links to pricing
-- **pages-features**: Features section or link to features page
-- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata, seo-on-page-open-graph, seo-on-page-twitter-cards**: Homepage metadata and social previews
-- **seo-on-page-heading**: Homepage heading structure
+- **pricing-page-generator**: Homepage often links to pricing
+- **features-page-generator**: Features section or link to features page
+- **title-tag, meta-description, page-metadata, open-graph, twitter-cards**: Homepage metadata and social previews
+- **heading-structure**: Homepage heading structure

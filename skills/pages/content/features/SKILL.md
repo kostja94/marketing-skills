@@ -1,5 +1,5 @@
 ---
-name: pages-features
+name: features-page-generator
 description: When the user wants to create, optimize, or audit features page content. Also use when the user mentions "features page," "product features," "capabilities," or "what it does."
 metadata:
   version: 1.0.0
@@ -68,8 +68,8 @@ Identify:
 
 ## Related Skills
 
-- **components-url-slug**: URL slug for per-feature pages (e.g. /features/feature-name); 3-5 words
-- **pages-home**: Homepage links to features
-- **pages-pricing**: Features inform plan tiers
-- **seo-on-page-schema**: SoftwareApplication schema
-- **seo-on-page-heading**: Feature page heading structure
+- **url-slug-generator**: URL slug for per-feature pages (e.g. /features/feature-name); 3-5 words
+- **homepage-generator**: Homepage links to features
+- **pricing-page-generator**: Features inform plan tiers
+- **schema-markup**: SoftwareApplication schema
+- **heading-structure**: Feature page heading structure

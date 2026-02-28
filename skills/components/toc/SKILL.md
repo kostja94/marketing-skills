@@ -1,5 +1,5 @@
 ---
-name: components-toc
+name: toc-generator
 description: When the user wants to add, optimize, or audit table of contents (TOC) for long-form content. Also use when the user mentions "TOC," "table of contents," "jump links," "content outline," or "article navigation."
 metadata:
   version: 1.0.0
@@ -94,6 +94,6 @@ Identify:
 
 ## Related Skills
 
-- **seo-on-page-heading**: TOC built from heading structure
-- **seo-content-optimization**: H2 structure, lists, tables for Featured Snippets
-- **pages-article**: TOC common in long-form article pages
+- **heading-structure**: TOC built from heading structure
+- **content-optimization**: H2 structure, lists, tables for Featured Snippets
+- **article-page-generator**: TOC common in long-form article pages

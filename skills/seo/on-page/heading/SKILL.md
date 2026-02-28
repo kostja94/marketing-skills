@@ -1,5 +1,5 @@
 ---
-name: seo-on-page-heading
+name: heading-structure
 description: When the user wants to optimize heading structure (H1-H6), fix heading hierarchy, or improve content structure. Also use when the user mentions "H1," "heading," "heading hierarchy," or "content structure."
 metadata:
   version: 1.0.0
@@ -75,8 +75,8 @@ H1 (page title)
 
 ## Related Skills
 
-- **seo-content-optimization**: H2 keyword placement, quantity, tables, lists; complements heading structure
-- **pages-article**: Article page H1-H3 structure, intro/body/conclusion
-- **seo-on-page-title**: H1 should align with title tag
-- **seo-on-page-schema**: Article schema uses headline (often H1)
-- **seo-content-content-strategy**: Content outline informs headings
+- **content-optimization**: H2 keyword placement, quantity, tables, lists; complements heading structure
+- **article-page-generator**: Article page H1-H3 structure, intro/body/conclusion
+- **title-tag**: H1 should align with title tag
+- **schema-markup**: Article schema uses headline (often H1)
+- **content-strategy**: Content outline informs headings

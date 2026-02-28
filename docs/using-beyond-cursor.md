@@ -23,20 +23,20 @@ Products like **Lovable**, **Bolt**, **v0**, and similar vibe-coding tools often
 .lovable/
   product-marketing-context.md    # Pre-filled with your product info
   skills/
-    seo-technical-robots.md
-    seo-technical-sitemap.md
-    seo-on-page-title.md
-    seo-on-page-description.md
-    seo-on-page-metadata.md
-    seo-on-page-open-graph.md
-    seo-on-page-twitter-cards.md
-    seo-on-page-schema.md
-    seo-on-page-heading.md
-    seo-on-page-url-structure.md
-    components-hero.md
-    components-cta.md
-    components-testimonials.md
-    components-footer.md
+    robots-txt.md
+    xml-sitemap.md
+    title-tag.md
+    meta-description.md
+    page-metadata.md
+    open-graph.md
+    twitter-cards.md
+    schema-markup.md
+    heading-structure.md
+    url-structure.md
+    hero-generator.md
+    cta-generator.md
+    testimonials-generator.md
+    footer-generator.md
 ```
 
 **Files to create:**
@@ -44,13 +44,13 @@ Products like **Lovable**, **Bolt**, **v0**, and similar vibe-coding tools often
 | File | Source | Notes |
 |------|--------|-------|
 | `product-marketing-context.md` | [templates/product-marketing-context.md](../templates/product-marketing-context.md) | Fill in product, audience, brand, keywords |
-| `seo-technical-robots.md` | [skills/seo/technical/robots/SKILL.md](../skills/seo/technical/robots/SKILL.md) | Change context path to `.lovable/product-marketing-context.md` |
-| `seo-technical-sitemap.md` | [skills/seo/technical/sitemap/SKILL.md](../skills/seo/technical/sitemap/SKILL.md) | Same path adaptation |
-| `seo-on-page-title.md` | [skills/seo/on-page/title/SKILL.md](../skills/seo/on-page/title/SKILL.md) | Change context path |
-| `seo-on-page-description.md` | [skills/seo/on-page/description/SKILL.md](../skills/seo/on-page/description/SKILL.md) | Same path adaptation |
-| `seo-on-page-metadata.md` | [skills/seo/on-page/metadata/SKILL.md](../skills/seo/on-page/metadata/SKILL.md) | Same path adaptation |
-| `seo-on-page-open-graph.md` | [skills/seo/on-page/open-graph/SKILL.md](../skills/seo/on-page/open-graph/SKILL.md) | Same path adaptation |
-| `seo-on-page-twitter-cards.md` | [skills/seo/on-page/twitter-cards/SKILL.md](../skills/seo/on-page/twitter-cards/SKILL.md) | Same path adaptation |
+| `robots-txt.md` | [skills/seo/technical/robots/SKILL.md](../skills/seo/technical/robots/SKILL.md) | Change context path to `.lovable/product-marketing-context.md` |
+| `xml-sitemap.md` | [skills/seo/technical/sitemap/SKILL.md](../skills/seo/technical/sitemap/SKILL.md) | Same path adaptation |
+| `title-tag.md` | [skills/seo/on-page/title/SKILL.md](../skills/seo/on-page/title/SKILL.md) | Change context path |
+| `meta-description.md` | [skills/seo/on-page/description/SKILL.md](../skills/seo/on-page/description/SKILL.md) | Same path adaptation |
+| `page-metadata.md` | [skills/seo/on-page/metadata/SKILL.md](../skills/seo/on-page/metadata/SKILL.md) | Same path adaptation |
+| `open-graph.md` | [skills/seo/on-page/open-graph/SKILL.md](../skills/seo/on-page/open-graph/SKILL.md) | Same path adaptation |
+| `twitter-cards.md` | [skills/seo/on-page/twitter-cards/SKILL.md](../skills/seo/on-page/twitter-cards/SKILL.md) | Same path adaptation |
 | *…other skills* | `skills/*/SKILL.md` | Copy content, adapt paths |
 
 **What this enables:** When you ask the AI to optimize SEO, redesign components, or improve copy, it can reference these skill files for structured, best-practice-driven outputs tailored to your project.
@@ -72,7 +72,7 @@ Skills are **plain markdown**. You can use them with any LLM that accepts text i
 **Example prompt:**
 
 ```
-[Paste seo-on-page-title or seo-on-page-description skill content]
+[Paste title-tag or meta-description skill content]
 
 Using these guidelines, optimize the meta title and description for my homepage. 
 Product: [brief description]. Target keyword: [keyword].

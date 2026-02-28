@@ -1,5 +1,5 @@
 ---
-name: seo-on-page-schema
+name: schema-markup
 description: When the user wants to add or optimize structured data (Schema.org, JSON-LD). Also use when the user mentions "schema," "structured data," "JSON-LD," "rich snippets," "FAQ schema," "Article schema," "Organization schema," "JobPosting," "HowTo," "Event," "SoftwareApplication," "BreadcrumbList," "WebSite," "Recipe," "Product," "Dataset," or "GEO."
 metadata:
   version: 1.0.0
@@ -199,9 +199,9 @@ export const metadata = {
 
 ## Related Skills
 
-- **pages-article**: Article page structure; Article/BlogPosting/NewsArticle schema implementation
-- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: Metadata complements schema
-- **seo-on-page-heading**: Article schema uses headline (often H1)
-- **seo-technical-indexing**: Google Indexing API for JobPosting, BroadcastEvent
-- **strategies-geo**: GEO strategy and AI search visibility
-- **components-breadcrumb**: BreadcrumbList schema implementation
+- **article-page-generator**: Article page structure; Article/BlogPosting/NewsArticle schema implementation
+- **title-tag, meta-description, page-metadata**: Metadata complements schema
+- **heading-structure**: Article schema uses headline (often H1)
+- **indexing**: Google Indexing API for JobPosting, BroadcastEvent
+- **generative-engine-optimization**: GEO strategy and AI search visibility
+- **breadcrumb-generator**: BreadcrumbList schema implementation

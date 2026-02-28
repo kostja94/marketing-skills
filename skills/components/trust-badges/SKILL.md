@@ -1,5 +1,5 @@
 ---
-name: components-trust-badges
+name: trust-badges-generator
 description: When the user wants to add or optimize trust badges, "Trusted by" logos, security seals, or social proof elements. Also use when the user mentions "trust badges," "trusted by," "security badges," "payment logos," or "social proof."
 metadata:
   version: 1.0.0
@@ -72,7 +72,7 @@ Identify:
 
 ## Related Skills
 
-- **components-hero**: "Trusted by" often in hero
-- **components-testimonials**: Complementary social proof
-- **components-cta**: Badges near CTAs increase conversion
-- **pages-pricing**: Trust badges on pricing pages
+- **hero-generator**: "Trusted by" often in hero
+- **testimonials-generator**: Complementary social proof
+- **cta-generator**: Badges near CTAs increase conversion
+- **pricing-page-generator**: Trust badges on pricing pages

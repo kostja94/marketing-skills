@@ -1,5 +1,5 @@
 ---
-name: seo-technical-robots
+name: robots-txt
 description: When the user wants to configure, audit, or optimize robots.txt. Also use when the user mentions "robots.txt," "crawler rules," "block crawlers," "AI crawlers," "GPTBot," "allow/disallow," or "search engine crawling."
 metadata:
   version: 1.0.0
@@ -34,7 +34,7 @@ Identify:
 |-------|------|
 | **Purpose** | Controls crawler access; does NOT prevent indexing (disallowed URLs may still appear in search without snippet) |
 | **No-index** | Use noindex meta or auth for sensitive content; robots.txt is publicly readable |
-| **Indexed vs non-indexed** | Not all content should be indexed. robots.txt and noindex complement each other: robots for path-level crawl control, noindex for page-level indexing. See seo-technical-indexing |
+| **Indexed vs non-indexed** | Not all content should be indexed. robots.txt and noindex complement each other: robots for path-level crawl control, noindex for page-level indexing. See indexing |
 | **Advisory** | Rules are advisory; malicious crawlers may ignore |
 
 ### Location and Format
@@ -87,5 +87,5 @@ Clean-param: utm_source&utm_medium&utm_campaign&utm_term&utm_content&ref&fbclid&
 
 ## Related Skills
 
-- **seo-technical-sitemap**: Sitemap URL to reference in robots.txt
-- **seo-technical-crawlability**: Broader crawl and structure guidance
+- **xml-sitemap**: Sitemap URL to reference in robots.txt
+- **site-crawlability**: Broader crawl and structure guidance

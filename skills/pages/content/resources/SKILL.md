@@ -1,5 +1,5 @@
 ---
-name: pages-resources
+name: resources-page-generator
 description: When the user wants to create, optimize, or audit resources page or content hub. Also use when the user mentions "resources page," "resource center," "content hub," or "learning center."
 metadata:
   version: 1.0.0
@@ -66,8 +66,8 @@ Identify:
 
 ## Related Skills
 
-- **components-url-slug**: URL slug for resource pages (e.g. /resources/guide-slug); 3-5 words
-- **pages-blog**: Blog may be part of resources
-- **pages-glossary**: Glossary as resource
-- **seo-content-content-strategy**: Content hub strategy
-- **seo-on-page-internal-links**: Resource page linking
+- **url-slug-generator**: URL slug for resource pages (e.g. /resources/guide-slug); 3-5 words
+- **blog-page-generator**: Blog may be part of resources
+- **glossary-page-generator**: Glossary as resource
+- **content-strategy**: Content hub strategy
+- **internal-links**: Resource page linking

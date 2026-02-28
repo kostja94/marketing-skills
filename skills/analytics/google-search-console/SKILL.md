@@ -1,5 +1,5 @@
 ---
-name: analytics-google-search-console
+name: google-search-console
 description: When the user wants to analyze Google Search Console data, use GSC API, or interpret search performance. Also use when the user mentions "GSC," "Search Console," "indexing report," "Core Web Vitals," "Enhancements," "Insights report," "search performance," "impressions," "CTR," "average position," "index coverage," "title tag," "meta description," or "searchanalytics.query."
 metadata:
   version: 1.2.0
@@ -102,7 +102,7 @@ Google may rewrite titles if they mismatch content or intent. H1 should align wi
 
 #### Rich Results & CTR
 
-Pages with review stars, FAQ schema, or other rich snippets see 10-20% more clicks. See seo-on-page-schema.
+Pages with review stars, FAQ schema, or other rich snippets see 10-20% more clicks. See schema-markup.
 
 ### 2. Insights Report
 
@@ -129,7 +129,7 @@ Simplified overview; replaces standalone Search Console Insights. Data from GSC 
 
 **Status grouping** (updated): Valid + Valid with warning ? **Indexed**. Error + Excluded ? **Not indexed**.
 
-**Indexed vs Not indexed are complementary**: Not all site content should be indexed. Login, admin, duplicate content, legal boilerplate, and low-value pages often intentionally use noindex. Indexed and non-indexed pages can reference each other (e.g., sitemap includes indexable URLs; noindex pages still exist and link internally). Non-indexed is not inherently a problem--investigate only when important pages are excluded. See seo-technical-indexing (noindex usage) and seo-technical-robots (crawl control) for when to exclude.
+**Indexed vs Not indexed are complementary**: Not all site content should be indexed. Login, admin, duplicate content, legal boilerplate, and low-value pages often intentionally use noindex. Indexed and non-indexed pages can reference each other (e.g., sitemap includes indexable URLs; noindex pages still exist and link internally). Non-indexed is not inherently a problem--investigate only when important pages are excluded. See indexing (noindex usage) and robots-txt (crawl control) for when to exclude.
 
 | Metric | Action |
 |--------|--------|
@@ -153,15 +153,15 @@ Simplified overview; replaces standalone Search Console Insights. Data from GSC 
 
 **Quick check**: If trend line is stable, spend ~3 seconds; move on. Investigate if fourth column (trend) shifts.
 
-**Diagnosis workflow**: GSC Coverage ? click Issue ? view sample URLs ? identify pattern ? fix (see seo-technical-indexing for fix actions).
+**Diagnosis workflow**: GSC Coverage ? click Issue ? view sample URLs ? identify pattern ? fix (see indexing for fix actions).
 
 **Coverage issue types**:
 
 | Issue | Meaning | Next step |
 |-------|---------|-----------|
-| Crawled - currently not indexed | Crawled but not indexed | See seo-technical-indexing |
+| Crawled - currently not indexed | Crawled but not indexed | See indexing |
 | Excluded by "noindex" tag | Intentionally excluded; often valid (login, admin, legal, etc.) | Ignore if expected; verify important pages not accidentally noindexed |
-| Blocked by robots.txt | Crawl blocked | See seo-technical-robots; may be intentional |
+| Blocked by robots.txt | Crawl blocked | See robots-txt; may be intentional |
 | Redirect / 404 | Redirect or missing | Fix URL or redirect |
 | Duplicate / Canonical | Duplicate content | Usually OK; keep canonical |
 
@@ -235,14 +235,14 @@ Enterprise: Glitches can block new URL crawling, cause hreflang confusion, delay
 (?i)^(who|what|where|when|why|how|which|is|are|can|does|should)|\b(vs|versus|compare|difference|pros and cons|guide|tutorial|best|top|list)\b
 ```
 
-For GA4 AI traffic tracking, see analytics-ai-traffic.
+For GA4 AI traffic tracking, see ai-traffic-tracking.
 
 ### 9. Links & Disavow
 
 **Location**: Links (inbound links), Security & Manual Actions
 
 - **Links report**: View links to site and pages; anchor text distribution.
-- **Disavow file**: Submit via GSC when necessary (manual penalty, toxic links). Use sparingly; over-disavowing can harm. See seo-off-page-backlink-analysis for when to disavow.
+- **Disavow file**: Submit via GSC when necessary (manual penalty, toxic links). Use sparingly; over-disavowing can harm. See backlink-analysis for when to disavow.
 
 ## Search Console API
 
@@ -279,7 +279,7 @@ date, query, page, country, device. Search appearance (AMP, blue link, rich resu
 - [ ] Sitemaps: All "Success"; indexed URL counts stable
 - [ ] Core Web Vitals: Mobile good/needs improvement/poor
 - [ ] Enhancements: No new invalid items (critical issues)
-- [ ] Links: No manual actions; disavow only if needed (see seo-off-page-backlink-analysis)
+- [ ] Links: No manual actions; disavow only if needed (see backlink-analysis)
 - [ ] Data exported to spreadsheet (month-end snapshot)
 - [ ] Charts screenshotted for history
 - [ ] Release notes reviewed for correlation
@@ -296,12 +296,12 @@ date, query, page, country, device. Search appearance (AMP, blue link, rich resu
 
 ## Related Skills
 
-- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: Title, meta description, hreflang implementation
-- **seo-technical-sitemap**: Fix sitemap errors
-- **seo-technical-indexing**: Resolve indexing issues (fix actions)
-- **seo-on-page-schema**: Fix structured data / rich results
-- **seo-off-page-backlink-analysis**: When to disavow; backlink audit
-- **analytics-traffic**: Traffic sources, attribution
+- **title-tag, meta-description, page-metadata**: Title, meta description, hreflang implementation
+- **xml-sitemap**: Fix sitemap errors
+- **indexing**: Resolve indexing issues (fix actions)
+- **schema-markup**: Fix structured data / rich results
+- **backlink-analysis**: When to disavow; backlink audit
+- **traffic-analysis**: Traffic sources, attribution
 - **analytics-tracking**: GA4 events (correlate with GSC)
-- **analytics-ai-traffic**: GA4 AI traffic tracking
-- **analytics-seo-monitoring**: Full SEO data analysis system, benchmark, article database
+- **ai-traffic-tracking**: GA4 AI traffic tracking
+- **seo-monitoring**: Full SEO data analysis system, benchmark, article database

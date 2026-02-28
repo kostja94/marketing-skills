@@ -1,5 +1,5 @@
 ---
-name: platforms-grokipedia
+name: grokipedia-recommendations
 description: When the user wants to add recommendations, links, or content to Grokipedia. Also use when the user mentions "Grokipedia," "parasite SEO," "GEO wiki," "AI encyclopedia," "suggest Grokipedia article," or "Grokipedia citation."
 metadata:
   version: 1.0.0
@@ -255,7 +255,7 @@ Field-tested examples: a marketer's site was successfully cited as a source via 
 
 ## Related Skills
 
-- **strategies-geo**: GEO strategy, AI citation, distributed authority
-- **seo-off-page-link-building**: Link acquisition; Grokipedia as potential citation source
-- **channels-directories**: Same output pattern—platform context first (Introduction, Importance, Methods, Rules, Avoid), then Action; directory submission for backlinks and human discovery; Grokipedia for AI citation—different placement, complementary
-- **platforms-reddit**: Alternative high-authority platform for GEO
+- **generative-engine-optimization**: GEO strategy, AI citation, distributed authority
+- **link-building**: Link acquisition; Grokipedia as potential citation source
+- **directory-submission**: Same output pattern—platform context first (Introduction, Importance, Methods, Rules, Avoid), then Action; directory submission for backlinks and human discovery; Grokipedia for AI citation—different placement, complementary
+- **reddit-posts**: Alternative high-authority platform for GEO

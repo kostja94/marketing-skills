@@ -1,5 +1,5 @@
 ---
-name: pages-services
+name: services-page-generator
 description: When the user wants to create, optimize, or audit a services page. Also use when the user mentions "services page," "what we offer," "service offerings," or "consulting services."
 metadata:
   version: 1.0.0
@@ -61,8 +61,8 @@ Identify:
 
 ## Related Skills
 
-- **seo-on-page-url-structure**: Service URL hierarchy (e.g. /services/web-development)
-- **pages-features**: For SaaS; services for service businesses
-- **pages-pricing**: Service pricing
-- **pages-customer-stories**: Proof for services
-- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: Services page metadata
+- **url-structure**: Service URL hierarchy (e.g. /services/web-development)
+- **features-page-generator**: For SaaS; services for service businesses
+- **pricing-page-generator**: Service pricing
+- **customer-stories-page-generator**: Proof for services
+- **title-tag, meta-description, page-metadata**: Services page metadata

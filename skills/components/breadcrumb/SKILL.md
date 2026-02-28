@@ -1,5 +1,5 @@
 ---
-name: components-breadcrumb
+name: breadcrumb-generator
 description: When the user wants to add, optimize, or audit breadcrumb navigation. Also use when the user mentions "breadcrumbs," "breadcrumb trail," "path navigation," "BreadcrumbList schema," "location-based breadcrumb," "attribute-based breadcrumb," or "site hierarchy display."
 metadata:
   version: 1.0.0
@@ -166,7 +166,7 @@ When a page is reachable via multiple paths (e.g., product in multiple categorie
 | Site type | Use case |
 |-----------|----------|
 | **E-commerce** | Category > Subcategory > Product |
-| **Blog** | Home > Blog > Category > Post (see **pages-article** for article page structure) |
+| **Blog** | Home > Blog > Category > Post (see **article-page-generator** for article page structure) |
 | **Docs** | Home > Docs > Section > Page |
 | **Large sites** | Any site with 3+ level hierarchy |
 
@@ -204,10 +204,10 @@ When a page is reachable via multiple paths (e.g., product in multiple categorie
 
 ## Related Skills
 
-- **pages-article**: Article pages use breadcrumbs (Home > Blog > Category > Post)
-- **seo-on-page-schema**: BreadcrumbList is a core schema type
-- **components-navigation-menu**: Header nav; breadcrumbs complement primary nav
-- **seo-on-page-internal-links**: Breadcrumbs are internal links; distribute link equity
-- **seo-technical-crawlability**: Breadcrumbs help crawlers understand structure
-- **pages-category-pages**: Category hierarchy in breadcrumbs
-- **pages-marketing-products**: Product pages often need breadcrumbs (Category > Product)
+- **article-page-generator**: Article pages use breadcrumbs (Home > Blog > Category > Post)
+- **schema-markup**: BreadcrumbList is a core schema type
+- **navigation-menu-generator**: Header nav; breadcrumbs complement primary nav
+- **internal-links**: Breadcrumbs are internal links; distribute link equity
+- **site-crawlability**: Breadcrumbs help crawlers understand structure
+- **category-page-generator**: Category hierarchy in breadcrumbs
+- **products-page-generator**: Product pages often need breadcrumbs (Category > Product)

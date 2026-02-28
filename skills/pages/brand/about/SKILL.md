@@ -1,5 +1,5 @@
 ---
-name: pages-about
+name: about-page-generator
 description: When the user wants to create, optimize, or audit About page content. Also use when the user mentions "about page," "about us," "company story," or "our team."
 metadata:
   version: 1.0.0
@@ -58,7 +58,7 @@ Identify:
 
 ## Related Skills
 
-- **pages-home**: About often linked from homepage
-- **pages-contact**: Contact info on About
-- **pages-customer-stories**: Social proof complements About
-- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: About page metadata
+- **homepage-generator**: About often linked from homepage
+- **contact-page-generator**: Contact info on About
+- **customer-stories-page-generator**: Social proof complements About
+- **title-tag, meta-description, page-metadata**: About page metadata

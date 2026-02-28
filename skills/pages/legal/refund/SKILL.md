@@ -1,5 +1,5 @@
 ---
-name: pages-refund
+name: refund-page-generator
 description: When the user wants to create or optimize a refund or return policy page. Also use when the user mentions "refund policy," "return policy," "money-back guarantee," or "returns and refunds."
 metadata:
   version: 1.0.0
@@ -50,6 +50,6 @@ Identify:
 
 ## Related Skills
 
-- **pages-legal**: Refund is often a legal page
-- **pages-faq**: FAQ may link to refund policy
-- **pages-privacy**: Footer grouping
+- **legal-page-generator**: Refund is often a legal page
+- **faq-page-generator**: FAQ may link to refund policy
+- **privacy-page-generator**: Footer grouping

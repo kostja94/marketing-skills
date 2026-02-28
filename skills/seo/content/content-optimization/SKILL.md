@@ -1,5 +1,5 @@
 ---
-name: seo-content-optimization
+name: content-optimization
 description: When the user wants to optimize content for SEO—word count, H2 keywords, keyword density, multimedia, tables, lists. Also use when the user mentions "content length," "word count," "keyword stuffing," "H2 keywords," "tables," "bullet points," or "content structure."
 metadata:
   version: 1.0.0
@@ -7,7 +7,7 @@ metadata:
 
 # SEO Content: Content Optimization
 
-Guides on-page content optimization: word count, heading keywords, keyword density vs stuffing, multimedia, tables, and lists. Complements **seo-on-page-heading** (structure) and **seo-content-content-strategy** (planning).
+Guides on-page content optimization: word count, heading keywords, keyword density vs stuffing, multimedia, tables, and lists. Complements **heading-structure** (structure) and **content-strategy** (planning).
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -140,7 +140,7 @@ Identify:
 - **Answer-first**: Direct answer in first 40–60 words after H2; increases AI citation ~35%
 - **TL;DR or Key Takeaways**: Choose one — 50–100 word summary *or* 5–7 bullet points; supports GEO
 - **QAE pattern**: Question (H2) → Answer (2 sentences) → Evidence (data, lists, examples)
-- See **pages-article** for full GEO section; **strategies-geo** for GEO strategy
+- See **article-page-generator** for full GEO section; **generative-engine-optimization** for GEO strategy
 
 ### Featured Snippet Formats
 
@@ -162,9 +162,9 @@ Identify:
 
 ## Related Skills
 
-- **seo-on-page-heading**: H1–H6 hierarchy; this skill covers H2 keyword placement and quantity
-- **seo-content-content-strategy**: Topic clusters, pillar + cluster; this skill covers on-page optimization
-- **seo-content-keyword-research**: Target keywords inform placement
-- **pages-article**: Article structure, GEO (TL;DR, key takeaways, QAE)
-- **strategies-geo**: GEO strategy; AI citation optimization
-- **components-toc**: TOC built from H2–H3; supports snippet structure
+- **heading-structure**: H1–H6 hierarchy; this skill covers H2 keyword placement and quantity
+- **content-strategy**: Topic clusters, pillar + cluster; this skill covers on-page optimization
+- **keyword-research**: Target keywords inform placement
+- **article-page-generator**: Article structure, GEO (TL;DR, key takeaways, QAE)
+- **generative-engine-optimization**: GEO strategy; AI citation optimization
+- **toc-generator**: TOC built from H2–H3; supports snippet structure

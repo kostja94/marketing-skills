@@ -1,5 +1,5 @@
 ---
-name: seo-technical-indexing
+name: indexing
 description: When the user wants to fix indexing issues from Search Console, use noindex, or implement Google Indexing API. Also use when the user mentions "fix indexing," "not indexed," "Crawled - currently not indexed," "noindex," or "Google Indexing API."
 metadata:
   version: 1.0.0
@@ -7,20 +7,20 @@ metadata:
 
 # SEO Technical: Indexing
 
-Guides indexing troubleshooting and fix actions. For how to find and diagnose issues in GSC, see analytics-google-search-console.
+Guides indexing troubleshooting and fix actions. For how to find and diagnose issues in GSC, see google-search-console.
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Scope (Technical SEO)
 
 - **Fix actions**: noindex, robots.txt, canonical, content quality, URL Inspection
-- **Noindex**: Use when excluding pages intentionally; not all content needs indexing. Complements robots.txt (crawl control) and analytics-google-search-console (Coverage interpretation)
+- **Noindex**: Use when excluding pages intentionally; not all content needs indexing. Complements robots.txt (crawl control) and google-search-console (Coverage interpretation)
 
 ## Initial Assessment
 
 **Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for site URL and indexing goals.
 
-Identify issue from GSC (see analytics-google-search-console for Coverage report, issue types, diagnosis workflow). Then apply fix below.
+Identify issue from GSC (see google-search-console for Coverage report, issue types, diagnosis workflow). Then apply fix below.
 
 ## Crawled - Currently Not Indexed
 
@@ -57,7 +57,7 @@ Static assets in "Crawled - currently not indexed" is **normal and expected**.
 - **How**: `metadata.robots = { index: false }` or X-Robots-Tag
 - **Rationale**: Not all site content should be indexed; noindex is a valid choice for many pages
 - **Caution**: Avoid noindex on important content pages
-- **With robots.txt**: robots.txt controls crawl access; noindex controls indexing. Use both: robots for paths (e.g. /admin/), noindex for specific pages. See seo-technical-robots
+- **With robots.txt**: robots.txt controls crawl access; noindex controls indexing. Use both: robots for paths (e.g. /admin/), noindex for specific pages. See robots-txt
 
 ## Google Indexing API
 
@@ -75,8 +75,8 @@ Static assets in "Crawled - currently not indexed" is **normal and expected**.
 
 ## Related Skills
 
-- **analytics-google-search-console**: Find and diagnose indexing issues in GSC
-- **seo-technical-robots**: Ensure robots.txt does not block indexing
-- **seo-technical-sitemap**: Submit and maintain sitemap
-- **seo-technical-indexnow**: Faster indexing for Bing
-- **seo-technical-canonical**: Resolve duplicate content
+- **google-search-console**: Find and diagnose indexing issues in GSC
+- **robots-txt**: Ensure robots.txt does not block indexing
+- **xml-sitemap**: Submit and maintain sitemap
+- **indexnow**: Faster indexing for Bing
+- **canonical-tag**: Resolve duplicate content

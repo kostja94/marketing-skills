@@ -125,7 +125,7 @@ Articles must connect to the product and be keyword-driven. Use this section so 
 
 **Keyword basis**:
 - Use **Section 6 (Keywords)** for article topics and target terms
-- Run keyword research (seo-content-keyword-research) before drafting
+- Run keyword research (keyword-research) before drafting
 - Map primary/secondary/long-tail to article types (pillar vs cluster)
 
 **Competitor articles for optimization**:
@@ -175,6 +175,6 @@ Use when components-brand-visual, components-logo, or pages-media-kit need visua
 | 11 | Article creation, optimization; competitor analysis; product-linked content |
 | 12 | Logo, favicon, brand visual, media kit; typography, colors, spacing |
 
-**Directory submission** (channels-directories): When submitting to Taaft, Product Hunt, etc., the agent reads this file and generates ready-to-paste content (tagline, description, pros/cons, tags) per platform. Fill 1–4, 5, 6, 8, 9 for best results.
+**Directory submission** (directory-submission): When submitting to Taaft, Product Hunt, etc., the agent reads this file and generates ready-to-paste content (tagline, description, pros/cons, tags) per platform. Fill 1–4, 5, 6, 8, 9 for best results.
 
 **Tip**: Start with 1–4 and 8. Add 5–7 as you have them. Update regularly — context degrades when stale.

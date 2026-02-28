@@ -1,5 +1,5 @@
 ---
-name: platforms-reddit
+name: reddit-posts
 description: When the user wants to create Reddit post copy, comments, or optimize for Reddit. Also use when the user mentions "Reddit post," "subreddit," "r/," "Reddit marketing," or "post to Reddit."
 metadata:
   version: 1.0.0
@@ -74,7 +74,7 @@ When generating Reddit copy, provide:
 
 ## Related Skills
 
-- **platforms-x**: Alternative platform
-- **platforms-grokipedia**: Wiki/encyclopedia platform for GEO and parasite SEO
-- **channels-community-forum**: Forum and community promotion; HN, Indie Hacker; community invitation tactics
-- **channels-influencer**: Reddit can complement influencer outreach
+- **twitter-x-posts**: Alternative platform
+- **grokipedia-recommendations**: Wiki/encyclopedia platform for GEO and parasite SEO
+- **community-forum**: Forum and community promotion; HN, Indie Hacker; community invitation tactics
+- **influencer-marketing**: Reddit can complement influencer outreach

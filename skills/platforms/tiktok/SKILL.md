@@ -1,5 +1,5 @@
 ---
-name: platforms-tiktok
+name: tiktok-captions
 description: When the user wants to create TikTok video captions, scripts, or optimize for TikTok. Also use when the user mentions "TikTok post," "TikTok caption," "TikTok video," or "post to TikTok."
 metadata:
   version: 1.0.0
@@ -61,5 +61,5 @@ When generating TikTok content, provide:
 
 ## Related Skills
 
-- **channels-influencer**: TikTok is key influencer platform
-- **platforms-x**: Cross-posting short-form video
+- **influencer-marketing**: TikTok is key influencer platform
+- **twitter-x-posts**: Cross-posting short-form video

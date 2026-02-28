@@ -1,5 +1,5 @@
 ---
-name: platforms-x
+name: twitter-x-posts
 description: When the user wants to create X (Twitter) post copy, threads, or optimize for X platform. Also use when the user mentions "X post," "Twitter post," "tweet," "thread," "X marketing," or "post to X."
 metadata:
   version: 1.0.0
@@ -138,6 +138,6 @@ When generating X copy, provide:
 
 ## Related Skills
 
-- **channels-influencer**: X is key influencer platform
-- **platforms-reddit**: Alternative community channel
-- **seo-on-page-open-graph, seo-on-page-twitter-cards**: OG and Twitter Card tags for X link previews
+- **influencer-marketing**: X is key influencer platform
+- **reddit-posts**: Alternative community channel
+- **open-graph, twitter-cards**: OG and Twitter Card tags for X link previews

@@ -1,5 +1,5 @@
 ---
-name: seo-on-page-metadata
+name: page-metadata
 description: When the user wants to optimize meta tags other than title, description, Open Graph, or Twitter Cards. Also use when the user mentions "hreflang," "meta robots," "viewport," "charset," "canonical meta," or "other meta tags."
 metadata:
   version: 1.0.0
@@ -17,7 +17,7 @@ Guides optimization of meta tags beyond title, description, Open Graph, and Twit
 - **Meta robots**: index/noindex, follow/nofollow (page-level)
 - **Viewport**: Mobile responsiveness
 - **Charset**: Character encoding
-- **Metadata completeness**: All pages have title + meta description (see seo-on-page-title, seo-on-page-description)
+- **Metadata completeness**: All pages have title + meta description (see title-tag, meta-description)
 
 ## Initial Assessment
 
@@ -65,7 +65,7 @@ For pages that should not be indexed:
 <meta name="robots" content="noindex, nofollow">
 ```
 
-Or in Next.js: `metadata.robots = { index: false }`. See seo-technical-indexing for full indexing control.
+Or in Next.js: `metadata.robots = { index: false }`. See indexing for full indexing control.
 
 ## Viewport
 
@@ -91,12 +91,12 @@ Place in `<head>`; first child of `<head>` recommended.
 
 ## Related Skills
 
-- **seo-on-page-title**: Title tag
-- **seo-on-page-description**: Meta description
-- **seo-on-page-open-graph**: Open Graph for social sharing
-- **seo-on-page-twitter-cards**: Twitter Cards for X previews
-- **seo-technical-canonical**: Canonical + hreflang for multi-language
-- **seo-technical-indexing**: noindex, Search Console
-- **seo-on-page-schema**: Structured data complements metadata
-- **seo-on-page-heading**: H1 should align with title
-- **strategies-localization**: Hreflang implementation
+- **title-tag**: Title tag
+- **meta-description**: Meta description
+- **open-graph**: Open Graph for social sharing
+- **twitter-cards**: Twitter Cards for X previews
+- **canonical-tag**: Canonical + hreflang for multi-language
+- **indexing**: noindex, Search Console
+- **schema-markup**: Structured data complements metadata
+- **heading-structure**: H1 should align with title
+- **localization-strategy**: Hreflang implementation

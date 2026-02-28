@@ -1,6 +1,6 @@
 ---
-name: strategies-integrated-marketing
-description: When the user wants to plan integrated marketing, coordinate channels, or clarify program vs channel vs campaign. Also use when the user mentions "IMC," "integrated marketing," "channel mix," "marketing program," "PESO model," or "整合营销."
+name: integrated-marketing
+description: When the user wants to plan integrated marketing, coordinate channels, or clarify program vs channel vs campaign. Also use when the user mentions "IMC," "integrated marketing," "channel mix," "marketing program," "PESO model," or "integrated marketing communications."
 metadata:
   version: 1.0.0
 ---
@@ -75,11 +75,11 @@ When selecting channels, evaluate across:
 
 ## Related Skills
 
-- **channels-affiliate, channels-community-forum, channels-creator-program, channels-directories, channels-egc, channels-email-marketing, channels-influencer, channels-referral**: Specific channel tactics
-- **strategies-geo**: GEO as channel for AI search visibility
-- **analytics-traffic**: Attribution, UTM, multi-channel reporting
+- **affiliate-marketing, community-forum, creator-program, directory-submission, employee-generated-content, email-marketing, influencer-marketing, referral-program**: Specific channel tactics
+- **generative-engine-optimization**: GEO as channel for AI search visibility
+- **traffic-analysis**: Attribution, UTM, multi-channel reporting
 - **analytics-tracking**: GA4, event tracking across channels
-- **seo-content-content-strategy**: Content as owned media pillar
+- **content-strategy**: Content as owned media pillar
 
 ## References
 

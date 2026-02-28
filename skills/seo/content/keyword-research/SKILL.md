@@ -1,5 +1,5 @@
 ---
-name: seo-content-keyword-research
+name: keyword-research
 description: When the user wants to research keywords, find target keywords, or analyze search intent. Also use when the user mentions "keyword research," "target keywords," "search volume," "search intent," or "keyword difficulty."
 metadata:
   version: 1.0.0
@@ -69,8 +69,8 @@ Identify:
 
 ## Related Skills
 
-- **seo-content-content-strategy**: Keywords inform content plan
-- **seo-content-optimization**: Keyword placement, density vs stuffing, H2 keywords
-- **seo-on-page-title, seo-on-page-description**: Keywords in title, description
-- **seo-on-page-heading**: Keywords in H1, H2
-- **seo-off-page-link-building**: Keywords inform link targets
+- **content-strategy**: Keywords inform content plan
+- **content-optimization**: Keyword placement, density vs stuffing, H2 keywords
+- **title-tag, meta-description**: Keywords in title, description
+- **heading-structure**: Keywords in H1, H2
+- **link-building**: Keywords inform link targets

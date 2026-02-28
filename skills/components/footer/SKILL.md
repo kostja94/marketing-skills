@@ -1,5 +1,5 @@
 ---
-name: components-footer
+name: footer-generator
 description: When the user wants to design, optimize, or audit website footers. Also use when the user mentions "footer," "page footer," "site footer," "footer links," "footer navigation," or "footer SEO."
 metadata:
   version: 1.0.0
@@ -33,7 +33,7 @@ Identify:
 ### Business Information
 
 - Physical address, phone, email
-- Social media profile links (Follow us) -> distinct from **components-social-share** (share this page)
+- Social media profile links (Follow us) -> distinct from **social-share-generator** (share this page)
 - Copyright and legal information (Privacy Policy, Terms of Service)
 
 ### User Engagement
@@ -90,8 +90,8 @@ Identify:
 
 ## Related Skills
 
-- **components-navigation-menu**: Footer complements header nav
-- **components-social-share**: Footer has profile links (Follow us); social-share has share buttons (share this page) -> different use cases
-- **seo-technical-sitemap**: Footer can link to sitemap
-- **seo-on-page-internal-links**: Footer is secondary internal linking
-- **components-newsletter-signup**: Footer often hosts signup forms
+- **navigation-menu-generator**: Footer complements header nav
+- **social-share-generator**: Footer has profile links (Follow us); social-share has share buttons (share this page) -> different use cases
+- **xml-sitemap**: Footer can link to sitemap
+- **internal-links**: Footer is secondary internal linking
+- **newsletter-signup-generator**: Footer often hosts signup forms

@@ -1,5 +1,5 @@
 ---
-name: seo-on-page-description
+name: meta-description
 description: When the user wants to optimize the meta description or meta tag description. Also use when the user mentions "meta description," "page description," "SEO description," or "snippet for search."
 metadata:
   version: 1.0.0
@@ -41,12 +41,12 @@ Identify:
 
 ## GSC-Driven Optimization
 
-For pages with low CTR despite good position, use analytics-google-search-console to identify opportunities. Optimize meta description for pages with CTR gap.
+For pages with low CTR despite good position, use google-search-console to identify opportunities. Optimize meta description for pages with CTR gap.
 
 ## Related Skills
 
-- **analytics-google-search-console**: CTR analysis, identify low-CTR pages for meta optimization
-- **seo-on-page-title**: Title pairs with description in SERP
-- **seo-on-page-heading**: H1 should align with title; description summarizes content
-- **seo-on-page-open-graph**: og:description for social sharing (often mirrors or extends meta description)
-- **seo-content-keyword-research**: Keywords in content inform description
+- **google-search-console**: CTR analysis, identify low-CTR pages for meta optimization
+- **title-tag**: Title pairs with description in SERP
+- **heading-structure**: H1 should align with title; description summarizes content
+- **open-graph**: og:description for social sharing (often mirrors or extends meta description)
+- **keyword-research**: Keywords in content inform description

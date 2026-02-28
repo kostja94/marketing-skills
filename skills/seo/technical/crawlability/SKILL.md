@@ -1,5 +1,5 @@
 ---
-name: seo-technical-crawlability
+name: site-crawlability
 description: When the user wants to improve crawlability, fix orphan pages, or optimize site structure for search engines. Also use when the user mentions "crawlability," "crawl budget," "orphan pages," "internal links," or "site structure."
 metadata:
   version: 1.0.0
@@ -71,8 +71,8 @@ Identify:
 
 ## Related Skills
 
-- **seo-technical-robots**: robots.txt configuration
-- **seo-technical-sitemap**: URL discovery
-- **analytics-google-search-console**: Index status, Coverage report
-- **seo-technical-indexing**: Fix indexing issues
-- **seo-on-page-internal-links**: Internal linking best practices
+- **robots-txt**: robots.txt configuration
+- **xml-sitemap**: URL discovery
+- **google-search-console**: Index status, Coverage report
+- **indexing**: Fix indexing issues
+- **internal-links**: Internal linking best practices

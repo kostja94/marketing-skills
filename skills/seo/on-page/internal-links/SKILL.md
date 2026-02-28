@@ -1,5 +1,5 @@
 ---
-name: seo-on-page-internal-links
+name: internal-links
 description: When the user wants to optimize internal linking, fix orphan pages, or improve link structure. Also use when the user mentions "internal links," "internal linking," "anchor text," "link equity," or "orphan pages."
 metadata:
   version: 1.0.0
@@ -14,7 +14,7 @@ Guides internal linking strategy for SEO: crawlability, link equity distribution
 ## Scope (On-Page SEO)
 
 - **Internal links**: Contextual links; descriptive anchor text; related posts; hub pages
-- **Breadcrumbs**: Implement for large sites (e.g. ecommerce); see components-breadcrumb
+- **Breadcrumbs**: Implement for large sites (e.g. ecommerce); see breadcrumb-generator
 
 ## Initial Assessment
 
@@ -71,8 +71,8 @@ Identify:
 
 ## Related Skills
 
-- **pages-article**: Related posts, contextual links, end-of-article recommendations
-- **seo-technical-crawlability**: Internal links enable crawling
-- **seo-on-page-url-structure**: URL structure affects link patterns
-- **seo-content-content-strategy**: Topic clusters inform link structure; pillar <-> cluster; cluster <-> cluster
-- **components-breadcrumb**: Breadcrumbs are internal links; category hierarchy
+- **article-page-generator**: Related posts, contextual links, end-of-article recommendations
+- **site-crawlability**: Internal links enable crawling
+- **url-structure**: URL structure affects link patterns
+- **content-strategy**: Topic clusters inform link structure; pillar <-> cluster; cluster <-> cluster
+- **breadcrumb-generator**: Breadcrumbs are internal links; category hierarchy

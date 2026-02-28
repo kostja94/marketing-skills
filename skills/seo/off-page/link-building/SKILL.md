@@ -1,5 +1,5 @@
 ---
-name: seo-off-page-link-building
+name: link-building
 description: When the user wants to build backlinks, acquire links, or improve off-page SEO. Also use when the user mentions "link building," "backlinks," "off-page SEO," "link acquisition," or "outreach."
 metadata:
   version: 1.0.0
@@ -39,7 +39,7 @@ Identify:
 | **Broken link building** | Find broken links, suggest your content as replacement |
 | **Unlinked brand mentions** | Turn mentions into links via outreach |
 | **Journalist requests** | Respond to #JournoRequest; provide quotes/assets |
-| **Directory and curated list submission** | Get listed on directories (Taaft, Product Hunt, G2) and curated "best-of" lists--see **channels-directories** for full guidance |
+| **Directory and curated list submission** | Get listed on directories (Taaft, Product Hunt, G2) and curated "best-of" lists--see **directory-submission** for full guidance |
 | **Digital PR** | Press releases, news, expert quotes; earn authoritative links at scale |
 | **Partnerships** | Partner links, co-marketing |
 
@@ -68,7 +68,7 @@ Identify:
 
 ## Related Skills
 
-- **seo-off-page-backlink-analysis**: Analyze current backlink profile
-- **seo-content-content-strategy**: Content strategy supports link building
-- **seo-content-keyword-research**: Target keywords inform link targets
-- **channels-directories**: Directory and curated list submission--preparation, platform-specific copy, Taaft/Product Hunt/G2; use when user wants to submit product to directories or get listed on best-of roundups
+- **backlink-analysis**: Analyze current backlink profile
+- **content-strategy**: Content strategy supports link building
+- **keyword-research**: Target keywords inform link targets
+- **directory-submission**: Directory and curated list submission--preparation, platform-specific copy, Taaft/Product Hunt/G2; use when user wants to submit product to directories or get listed on best-of roundups

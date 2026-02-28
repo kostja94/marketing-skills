@@ -1,5 +1,5 @@
 ---
-name: seo-on-page-title
+name: title-tag
 description: When the user wants to optimize the title tag, page title, or SEO title. Also use when the user mentions "title tag," "page title," "SEO title," "title optimization," or "headline for search."
 metadata:
   version: 1.0.0
@@ -41,12 +41,12 @@ Identify:
 
 ## GSC-Driven Optimization
 
-For pages with low CTR despite good position, use analytics-google-search-console to identify opportunities. Compare actual CTR vs expected by position; optimize title for pages with CTR gap.
+For pages with low CTR despite good position, use google-search-console to identify opportunities. Compare actual CTR vs expected by position; optimize title for pages with CTR gap.
 
 ## Related Skills
 
-- **analytics-google-search-console**: CTR analysis, identify low-CTR pages for title optimization
-- **seo-on-page-description**: Meta description pairs with title in SERP
-- **seo-on-page-heading**: H1 should align with title tag
-- **seo-on-page-open-graph**: og:title for social sharing (often mirrors title)
-- **seo-on-page-schema**: Structured data complements metadata
+- **google-search-console**: CTR analysis, identify low-CTR pages for title optimization
+- **meta-description**: Meta description pairs with title in SERP
+- **heading-structure**: H1 should align with title tag
+- **open-graph**: og:title for social sharing (often mirrors title)
+- **schema-markup**: Structured data complements metadata

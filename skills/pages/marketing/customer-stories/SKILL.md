@@ -1,5 +1,5 @@
 ---
-name: pages-customer-stories
+name: customer-stories-page-generator
 description: When the user wants to create, optimize, or audit customer stories or case study pages. Also use when the user mentions "case studies," "customer stories," "success stories," or "testimonials page."
 metadata:
   version: 1.0.0
@@ -71,8 +71,8 @@ Identify:
 
 ## Related Skills
 
-- **components-url-slug**: URL slug for case study pages (e.g. /customers/case-slug); 3-5 words
-- **pages-about**: Social proof complements About
-- **pages-pricing**: Case studies support pricing justification
-- **pages-home**: Customer stories on homepage
-- **seo-on-page-schema**: CaseStudy schema
+- **url-slug-generator**: URL slug for case study pages (e.g. /customers/case-slug); 3-5 words
+- **about-page-generator**: Social proof complements About
+- **pricing-page-generator**: Case studies support pricing justification
+- **homepage-generator**: Customer stories on homepage
+- **schema-markup**: CaseStudy schema

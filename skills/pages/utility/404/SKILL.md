@@ -1,5 +1,5 @@
 ---
-name: pages-404
+name: 404-page-generator
 description: When the user wants to create, optimize, or audit 404 error pages. Also use when the user mentions "404 page," "error page," "page not found," or "broken link page."
 metadata:
   version: 1.0.0
@@ -40,7 +40,7 @@ Identify:
 
 ### Design and Branding
 
-- **Consistent design**: Same header, footer, colors as rest of site (components-brand-visual)
+- **Consistent design**: Same header, footer, colors as rest of site (brand-visual-generator)
 - **Avoid confusion**: Users should not think they've left your domain
 - **Mobile responsive**: Test on all devices
 
@@ -67,7 +67,7 @@ Identify:
 
 ## Related Skills
 
-- **pages-home**: Primary escape route
-- **components-brand-visual**: Typography, colors for consistent 404 design
-- **seo-technical-indexing**: noindex for 404 if desired
-- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: 404 page metadata
+- **homepage-generator**: Primary escape route
+- **brand-visual-generator**: Typography, colors for consistent 404 design
+- **indexing**: noindex for 404 if desired
+- **title-tag, meta-description, page-metadata**: 404 page metadata

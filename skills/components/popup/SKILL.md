@@ -1,5 +1,5 @@
 ---
-name: components-popup
+name: popup-generator
 description: When the user wants to add, optimize, or audit popups or modals for lead capture or offers. Also use when the user mentions "popup," "modal," "lightbox," "overlay," or "exit-intent."
 metadata:
   version: 1.0.0
@@ -67,8 +67,8 @@ Identify:
 
 ## Related Skills
 
-- **components-newsletter-signup**: Popup often contains signup form
-- **components-cta**: Popup CTA design
-- **components-top-banner**: Alternative to popup; less intrusive for announcements
-- **components-sidebar**: Alternative for CTAs; in-content often converts better
-- **components-brand-visual**: Popup styling
+- **newsletter-signup-generator**: Popup often contains signup form
+- **cta-generator**: Popup CTA design
+- **top-banner-generator**: Alternative to popup; less intrusive for announcements
+- **sidebar-generator**: Alternative for CTAs; in-content often converts better
+- **brand-visual-generator**: Popup styling

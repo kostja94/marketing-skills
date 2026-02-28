@@ -1,5 +1,5 @@
 ---
-name: seo-on-page-url-structure
+name: url-structure
 description: When the user wants to optimize URL structure, fix URL issues, or plan URL hierarchy. Also use when the user mentions "URL structure," "URL optimization," "slug," "clean URLs," or "URL hierarchy."
 metadata:
   version: 1.0.0
@@ -15,8 +15,8 @@ Guides URL structure optimization for SEO: readability, hierarchy, and best prac
 
 - **URL hierarchy**: Path structure, categories, depth
 - **URL format**: Static vs dynamic; omit file extensions
-- **URL slug**: See **components-url-slug** for slug creation (3–5 words, under 60 chars)
-- **Duplicate variants**: See **seo-technical-canonical** for HTTPS, www, trailing slash
+- **URL slug**: See **url-slug-generator** for slug creation (3–5 words, under 60 chars)
+- **Duplicate variants**: See **canonical-tag** for HTTPS, www, trailing slash
 
 ## Initial Assessment
 
@@ -63,7 +63,7 @@ Identify:
 | **Static** | `/blog/seo-guide` | Direct file; best SEO; content stable |
 | **Dynamic** | `/product?id=123` | Program-generated; avoid for indexable content |
 | **Pseudo-static** | `/blog/seo-guide` (rewritten from `.php`) | Combines both; common in CMS |
-| **Rule** | Prefer static or pseudo-static; if dynamic, keep params ≤2; use **seo-technical-canonical** and **seo-technical-robots** (Clean-param) |
+| **Rule** | Prefer static or pseudo-static; if dynamic, keep params ≤2; use **canonical-tag** and **robots-txt** (Clean-param) |
 
 ### File Extensions
 
@@ -76,7 +76,7 @@ Identify:
 |----------|----------|
 | **UTM / tracking** | Canonical to base URL; params in query string only |
 | **Search results** | Canonical to search page; avoid indexing result URLs |
-| **Filters / sort** | Canonical to base; or **seo-technical-robots** Clean-param |
+| **Filters / sort** | Canonical to base; or **robots-txt** Clean-param |
 | **Session IDs** | Use cookies; never in indexable URLs |
 
 ### Use Cases
@@ -84,7 +84,7 @@ Identify:
 | Scenario | Focus |
 |----------|-------|
 | **New site** | Plan hierarchy upfront; avoid later restructuring |
-| **Migration** | 301 mapping; canonical; see **seo-technical-canonical** |
+| **Migration** | 301 mapping; canonical; see **canonical-tag** |
 | **Large site** | Dynamic URLs, params, multi-language — canonical + robots |
 | **SEO audit** | Check structure, params, canonical consistency |
 
@@ -107,10 +107,10 @@ Identify:
 
 ## Related Skills
 
-- **seo-technical-canonical**: HTTPS, www, trailing slash — handles duplicate URL variants
-- **components-url-slug**: Slug creation for content pages; length, keywords, format
-- **pages-category-pages**: E-commerce category URL hierarchy, faceted URLs
-- **pages-products**: Product URL hierarchy
-- **pages-services**: Service URL hierarchy
-- **seo-technical-robots**: Clean-param for query params
-- **seo-on-page-internal-links**: URL structure affects link patterns
+- **canonical-tag**: HTTPS, www, trailing slash — handles duplicate URL variants
+- **url-slug-generator**: Slug creation for content pages; length, keywords, format
+- **category-page-generator**: E-commerce category URL hierarchy, faceted URLs
+- **products-page-generator**: Product URL hierarchy
+- **services-page-generator**: Service URL hierarchy
+- **robots-txt**: Clean-param for query params
+- **internal-links**: URL structure affects link patterns

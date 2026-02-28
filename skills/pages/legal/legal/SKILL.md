@@ -1,5 +1,5 @@
 ---
-name: pages-legal
+name: legal-page-generator
 description: When the user wants to create, optimize, or structure legal pages (Privacy, Terms, etc.). Also use when the user mentions "privacy policy," "terms of service," "legal pages," "cookie policy," or "terms and conditions."
 metadata:
   version: 1.0.0
@@ -68,8 +68,8 @@ Identify:
 
 ## Related Skills
 
-- **pages-privacy**: Privacy Policy page
-- **pages-terms**: Terms of Service page
-- **seo-technical-indexing**: noindex for legal pages
-- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: Legal page metadata
-- **pages-home**: Footer links to legal
+- **privacy-page-generator**: Privacy Policy page
+- **terms-page-generator**: Terms of Service page
+- **indexing**: noindex for legal pages
+- **title-tag, meta-description, page-metadata**: Legal page metadata
+- **homepage-generator**: Footer links to legal

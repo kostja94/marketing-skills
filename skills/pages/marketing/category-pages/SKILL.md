@@ -1,5 +1,5 @@
 ---
-name: pages-category-pages
+name: category-page-generator
 description: When the user wants to create, optimize, or audit e-commerce category pages or listing pages. Also use when the user mentions "category page," "product category," "faceted navigation," "filter URLs," or "e-commerce listing."
 metadata:
   version: 1.0.0
@@ -89,9 +89,9 @@ Filters create many URL combinations (size + color + price). Manage to avoid dup
 
 ## Related Skills
 
-- **pages-products**: Product cards, grid layout
-- **seo-technical-canonical**: Faceted URL canonicalization
-- **seo-on-page-schema**: ItemList, Product, FAQ schema
-- **seo-on-page-internal-links**: Category linking
-- **components-breadcrumb**: Breadcrumb trail for category hierarchy
-- **seo-on-page-url-structure**: URL hierarchy
+- **products-page-generator**: Product cards, grid layout
+- **canonical-tag**: Faceted URL canonicalization
+- **schema-markup**: ItemList, Product, FAQ schema
+- **internal-links**: Category linking
+- **breadcrumb-generator**: Breadcrumb trail for category hierarchy
+- **url-structure**: URL hierarchy

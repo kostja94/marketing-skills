@@ -1,6 +1,6 @@
 ---
-name: components-navigation-menu
-description: When the user wants to design, optimize, or audit site navigation menus. Also use when the user mentions "navigation," "nav menu," "header menu," "site structure," or "menu design." For breadcrumbs, use components-breadcrumb.
+name: navigation-menu-generator
+description: When the user wants to design, optimize, or audit site navigation menus. Also use when the user mentions "navigation," "nav menu," "header menu," "site structure," or "menu design." For breadcrumbs, use breadcrumb-generator.
 metadata:
   version: 1.0.0
 ---
@@ -48,7 +48,7 @@ Identify:
 
 - Sub-menus: Ensure HTML is in DOM (e.g., CSS-hidden, not JS-injected)
 - Footer nav: Include secondary links
-- Breadcrumbs: See components-breadcrumb for implementation
+- Breadcrumbs: See breadcrumb-generator for implementation
 
 ## UX Guidelines
 
@@ -84,10 +84,10 @@ Identify:
 
 ## Related Skills
 
-- **seo-technical-sitemap**: Nav should reflect discoverable pages
-- **seo-on-page-internal-links**: Nav is primary internal linking
-- **seo-technical-crawlability**: Nav affects crawl paths
-- **pages-category-pages**: Category hierarchy in nav
-- **components-footer**: Footer nav complements header nav
-- **components-logo**: Logo typically sits in header with nav
-- **components-breadcrumb**: Breadcrumb navigation; BreadcrumbList schema
+- **xml-sitemap**: Nav should reflect discoverable pages
+- **internal-links**: Nav is primary internal linking
+- **site-crawlability**: Nav affects crawl paths
+- **category-page-generator**: Category hierarchy in nav
+- **footer-generator**: Footer nav complements header nav
+- **logo-generator**: Logo typically sits in header with nav
+- **breadcrumb-generator**: Breadcrumb navigation; BreadcrumbList schema

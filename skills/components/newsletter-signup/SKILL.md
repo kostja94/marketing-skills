@@ -1,5 +1,5 @@
 ---
-name: components-newsletter-signup
+name: newsletter-signup-generator
 description: When the user wants to design, optimize, or audit newsletter signup forms. Also use when the user mentions "newsletter," "email signup," "subscribe form," "email capture," or "lead magnet."
 metadata:
   version: 1.0.0
@@ -79,7 +79,7 @@ Identify:
 
 ## Related Skills
 
-- **channels-email-marketing**: Full email marketing strategy; EDM, newsletter, deliverability, content types
-- **components-footer**: Footer often hosts signup forms
-- **components-cta**: Submit button is a CTA
-- **components-trust-badges**: Trust marks near form
+- **email-marketing**: Full email marketing strategy; EDM, newsletter, deliverability, content types
+- **footer-generator**: Footer often hosts signup forms
+- **cta-generator**: Submit button is a CTA
+- **trust-badges-generator**: Trust marks near form

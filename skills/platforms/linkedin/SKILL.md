@@ -1,5 +1,5 @@
 ---
-name: platforms-linkedin
+name: linkedin-posts
 description: When the user wants to create LinkedIn post copy or optimize for LinkedIn. Also use when the user mentions "LinkedIn post," "LinkedIn article," "professional post," or "post to LinkedIn."
 metadata:
   version: 1.0.0
@@ -67,5 +67,5 @@ When generating LinkedIn copy, provide:
 
 ## Related Skills
 
-- **channels-influencer**: LinkedIn influencers for B2B
-- **pages-about**: Professional brand alignment
+- **influencer-marketing**: LinkedIn influencers for B2B
+- **about-page-generator**: Professional brand alignment

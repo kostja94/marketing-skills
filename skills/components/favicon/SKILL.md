@@ -1,5 +1,5 @@
 ---
-name: components-favicon
+name: favicon-generator
 description: When the user wants to implement, optimize, or audit favicon and app icons. Also use when the user mentions "favicon," "app icon," "browser icon," "touch icon," or "PWA icon."
 metadata:
   version: 1.0.0
@@ -80,7 +80,7 @@ Include `icons` array in `manifest.json` with 192x192 and 512x512 for maskable i
 ## Best Practices
 
 - **Simplicity**: At 16x16, complex details are illegible; use simplified logo mark; design for brand recognition in SERPs
-- **Consistency**: Favicon should match logo/brand (components-logo, components-brand-visual)
+- **Consistency**: Favicon should match logo/brand (logo-generator, brand-visual-generator)
 - **Cache**: Use long cache; version for updates (e.g. `/favicon.ico?v=2`)
 - **Tools**: RealFaviconGenerator, favicon.io, or favicons npm package for automation
 - **Test**: Check across browsers, dark mode, and Search Console (favicon may take days to weeks to appear)
@@ -95,7 +95,7 @@ Include `icons` array in `manifest.json` with 192x192 and 512x512 for maskable i
 
 ## Related Skills
 
-- **components-logo**: Favicon typically derived from logo; consistent branding
-- **pages-media-kit**: Media kit should include favicon or link to brand assets
-- **components-brand-visual**: Visual identity; favicon aligns with brand colors and mark
-- **seo-technical-indexing**: Favicon requires crawlable homepage; URL Inspection for indexing
+- **logo-generator**: Favicon typically derived from logo; consistent branding
+- **media-kit-page-generator**: Media kit should include favicon or link to brand assets
+- **brand-visual-generator**: Visual identity; favicon aligns with brand colors and mark
+- **indexing**: Favicon requires crawlable homepage; URL Inspection for indexing

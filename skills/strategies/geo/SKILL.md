@@ -1,5 +1,5 @@
 ---
-name: strategies-geo
+name: generative-engine-optimization
 description: When the user wants to optimize for AI search visibility (ChatGPT, Claude, Perplexity). Also use when the user mentions "GEO," "AEO," "generative engine optimization," "AI search visibility," "LLM optimization," "parasite SEO," or "Grokipedia."
 metadata:
   version: 1.0.0
@@ -58,7 +58,7 @@ All refer to the same goal: visibility in AI assistant responses.
 | **Publishing** | Medium, LinkedIn, Substack | High; thought leadership |
 | **Technical** | GitHub, Stack Overflow | Very high; expertise signals |
 
-**Grokipedia**: xAI's AI encyclopedia; ChatGPT, Perplexity, Copilot cite it. See platforms-grokipedia for adding recommendations or links. Contribute genuinely useful content; avoid manipulative placement (Google Site Reputation Abuse policy).
+**Grokipedia**: xAI's AI encyclopedia; ChatGPT, Perplexity, Copilot cite it. See grokipedia-recommendations for adding recommendations or links. Contribute genuinely useful content; avoid manipulative placement (Google Site Reputation Abuse policy).
 
 ## Tools
 
@@ -77,11 +77,11 @@ ChatGPT traffic converts ~6x higher than Google search. AI tool users often have
 
 ## Related Skills
 
-- **platforms-grokipedia**: Add recommendations/links to Grokipedia; parasite SEO + GEO
-- **platforms-reddit**: High-authority community for GEO
-- **channels-directories**: Directory and curated list submission for backlinks and discovery; complements GEO (different placement: human discovery vs AI citation)
-- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: Foundation for discoverability
-- **analytics-ai-traffic**: Track AI traffic in GA4
-- **channels-affiliate**: GEO complements other growth channels
-- **strategies-integrated-marketing**: GEO as channel in IMC/PESO framework
-- **pages-article**: TL;DR, Key Takeaways, QAE pattern for article-level GEO
+- **grokipedia-recommendations**: Add recommendations/links to Grokipedia; parasite SEO + GEO
+- **reddit-posts**: High-authority community for GEO
+- **directory-submission**: Directory and curated list submission for backlinks and discovery; complements GEO (different placement: human discovery vs AI citation)
+- **title-tag, meta-description, page-metadata**: Foundation for discoverability
+- **ai-traffic-tracking**: Track AI traffic in GA4
+- **affiliate-marketing**: GEO complements other growth channels
+- **integrated-marketing**: GEO as channel in IMC/PESO framework
+- **article-page-generator**: TL;DR, Key Takeaways, QAE pattern for article-level GEO

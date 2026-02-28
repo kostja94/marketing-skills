@@ -1,5 +1,5 @@
 ---
-name: channels-creator-program
+name: creator-program
 description: When the user wants to plan, implement, or optimize creator program strategy. Also use when the user mentions "creator program," "creator partnership," "content co-creation," or "creator ambassador."
 metadata:
   version: 1.0.0
@@ -75,7 +75,7 @@ Identify:
 
 ## Related Skills
 
-- **channels-affiliate**: Can run both; different goals
-- **channels-influencer**: Influencers can join creator program
-- **channels-egc**: Employee content; creator program is external
-- **pages-affiliate-program**: If creator program has commission component
+- **affiliate-marketing**: Can run both; different goals
+- **influencer-marketing**: Influencers can join creator program
+- **employee-generated-content**: Employee content; creator program is external
+- **affiliate-page-generator**: If creator program has commission component

@@ -1,5 +1,5 @@
 ---
-name: pages-pricing
+name: pricing-page-generator
 description: When the user wants to create, optimize, or audit pricing page content and structure. Also use when the user mentions "pricing page," "pricing table," "plans," or "subscription."
 metadata:
   version: 1.0.0
@@ -64,6 +64,6 @@ Identify:
 
 ## Related Skills
 
-- **pages-home**: Homepage links to pricing
-- **pages-features**: Features inform plan differentiation
-- **seo-on-page-schema**: Product/Offer schema for pricing
+- **homepage-generator**: Homepage links to pricing
+- **features-page-generator**: Features inform plan differentiation
+- **schema-markup**: Product/Offer schema for pricing

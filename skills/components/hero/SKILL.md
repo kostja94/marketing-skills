@@ -1,5 +1,5 @@
 ---
-name: components-hero
+name: hero-generator
 description: When the user wants to design, optimize, or audit hero sections (above-the-fold main visual area). Also use when the user mentions "hero," "hero section," "above the fold," "landing hero," or "main banner."
 metadata:
   version: 1.0.0
@@ -45,7 +45,7 @@ Identify:
 ### Visuals
 
 - Fast-loading; avoid heavy assets that delay LCP
-- Brand-aligned; use typography and colors from components-brand-visual
+- Brand-aligned; use typography and colors from brand-visual-generator
 - Support the message; don't distract
 
 ### Technical
@@ -90,8 +90,8 @@ Identify:
 
 ## Related Skills
 
-- **components-cta**: Hero typically contains primary CTA
-- **components-trust-badges**: Trust cues in hero
-- **components-logo**: Logo appears in hero context
-- **components-brand-visual**: Typography, colors, spacing for hero design
-- **pages-home**: Hero is central to homepage design
+- **cta-generator**: Hero typically contains primary CTA
+- **trust-badges-generator**: Trust cues in hero
+- **logo-generator**: Logo appears in hero context
+- **brand-visual-generator**: Typography, colors, spacing for hero design
+- **homepage-generator**: Hero is central to homepage design

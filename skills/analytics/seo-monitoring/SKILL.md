@@ -1,5 +1,5 @@
 ---
-name: analytics-seo-monitoring
+name: seo-monitoring
 description: When the user wants to build an SEO data analysis system, monitor indexing/traffic/keywords/backlinks, or set up benchmarks. Also use when the user mentions "SEO data analysis," "SEO monitoring," "article database," "traffic benchmark," "penalty recovery," or "SEO work document."
 metadata:
   version: 1.0.0
@@ -194,9 +194,9 @@ Adjust rows as needed.
 
 ## Related Skills
 
-- **analytics-traffic**: Traffic sources, attribution, diversification
+- **traffic-analysis**: Traffic sources, attribution, diversification
 - **analytics-tracking**: GA4, events, CTA attribution, User ID
-- **analytics-google-search-console**: GSC reports, indexing, API
-- **analytics-ai-traffic**: AI search traffic
-- **seo-off-page-backlink-analysis**: Backlink audit, toxic links
-- **seo-technical-indexing**: Fix indexing issues
+- **google-search-console**: GSC reports, indexing, API
+- **ai-traffic-tracking**: AI search traffic
+- **backlink-analysis**: Backlink audit, toxic links
+- **indexing**: Fix indexing issues

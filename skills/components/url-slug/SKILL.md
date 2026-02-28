@@ -1,5 +1,5 @@
 ---
-name: components-url-slug
+name: url-slug-generator
 description: When the user wants to create, optimize, or validate URL slugs for content pages. Also use when the user mentions "URL slug," "blog URL," "article URL," "short URL," "clean slug," or "SEO-friendly URL."
 metadata:
   version: 1.0.0
@@ -91,12 +91,12 @@ When creating or auditing a slug:
 
 ## Related Skills
 
-- **seo-on-page-url-structure**: URL hierarchy, site structure; references this skill for slug conventions
-- **seo-technical-canonical**: When changing slugs, set up 301 redirects
-- **pages-article**: Article URL slugs
-- **pages-blog**: Blog post URL slugs
-- **pages-glossary**: Glossary term slugs
-- **pages-products**: Product page slugs
-- **pages-customer-stories**: Case study page slugs
-- **pages-resources**: Resource page slugs
-- **pages-features**: Per-feature page slugs
+- **url-structure**: URL hierarchy, site structure; references this skill for slug conventions
+- **canonical-tag**: When changing slugs, set up 301 redirects
+- **article-page-generator**: Article URL slugs
+- **blog-page-generator**: Blog post URL slugs
+- **glossary-page-generator**: Glossary term slugs
+- **products-page-generator**: Product page slugs
+- **customer-stories-page-generator**: Case study page slugs
+- **resources-page-generator**: Resource page slugs
+- **features-page-generator**: Per-feature page slugs

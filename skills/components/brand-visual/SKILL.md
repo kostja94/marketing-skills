@@ -1,5 +1,5 @@
 ---
-name: components-brand-visual
+name: brand-visual-generator
 description: When the user wants to define, audit, or apply visual identity (typography, colors, spacing). Also use when the user mentions "brand style guide," "visual identity," "design system," "typography," "color palette," "brand guidelines," or "AI brand aesthetics."
 metadata:
   version: 1.0.0
@@ -106,8 +106,8 @@ When creating or updating `.cursor/product-marketing-context.md`, add:
 
 ## Related Skills
 
-- **components-logo**: Logo placement, clear space; brand visual defines logo rules
-- **components-favicon**: Favicon aligns with brand mark and colors
-- **pages-media-kit**: Media kit hosts brand guidelines document; links to logo, favicon
-- **components-hero**: Hero uses brand typography, colors, spacing
-- **pages-404**: Error pages maintain brand consistency
+- **logo-generator**: Logo placement, clear space; brand visual defines logo rules
+- **favicon-generator**: Favicon aligns with brand mark and colors
+- **media-kit-page-generator**: Media kit hosts brand guidelines document; links to logo, favicon
+- **hero-generator**: Hero uses brand typography, colors, spacing
+- **404-page-generator**: Error pages maintain brand consistency

@@ -1,5 +1,5 @@
 ---
-name: seo-on-page-twitter-cards
+name: twitter-cards
 description: When the user wants to add or optimize Twitter Card metadata for X (Twitter) link previews. Also use when the user mentions "Twitter Card," "twitter:card," "twitter:image," "X preview," or "tweet preview."
 metadata:
   version: 1.0.0
@@ -98,9 +98,9 @@ export const metadata = {
 
 ## Related Skills
 
-- **components-social-share**: Share buttons use Twitter Cards for X previews when users share; Cards must be set for share buttons to show proper previews
-- **seo-on-page-open-graph**: OG tags; Twitter falls back to OG if Twitter tags missing
-- **seo-on-page-title**: Title tag often mirrors twitter:title
-- **seo-on-page-description**: Meta description often mirrors twitter:description
-- **seo-on-page-metadata**: Hreflang, other meta tags
-- **platforms-x**: X post copy and engagement (different from link previews)
+- **social-share-generator**: Share buttons use Twitter Cards for X previews when users share; Cards must be set for share buttons to show proper previews
+- **open-graph**: OG tags; Twitter falls back to OG if Twitter tags missing
+- **title-tag**: Title tag often mirrors twitter:title
+- **meta-description**: Meta description often mirrors twitter:description
+- **page-metadata**: Hreflang, other meta tags
+- **twitter-x-posts**: X post copy and engagement (different from link previews)

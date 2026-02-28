@@ -1,5 +1,5 @@
 ---
-name: seo-technical-canonical
+name: canonical-tag
 description: When the user wants to configure canonical URLs, fix duplicate content, or consolidate URL signals. Also use when the user mentions "canonical," "duplicate content," "preferred URL," or "URL consolidation."
 metadata:
   version: 1.0.0
@@ -101,9 +101,9 @@ return 301 https://$host$request_uri;
 
 ## Related Skills
 
-- **seo-on-page-url-structure**: URL hierarchy and format; canonical handles duplicate variants (HTTPS, www, trailing slash)
-- **strategies-localization**: hreflang + canonical for multi-language
-- **seo-technical-sitemap**: Sitemap URLs should match canonical
-- **seo-technical-indexnow**: Submit canonical URLs
-- **analytics-google-search-console**: Find duplicate content in Coverage report
-- **seo-technical-indexing**: Resolve indexing issues
+- **url-structure**: URL hierarchy and format; canonical handles duplicate variants (HTTPS, www, trailing slash)
+- **localization-strategy**: hreflang + canonical for multi-language
+- **xml-sitemap**: Sitemap URLs should match canonical
+- **indexnow**: Submit canonical URLs
+- **google-search-console**: Find duplicate content in Coverage report
+- **indexing**: Resolve indexing issues

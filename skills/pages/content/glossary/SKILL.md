@@ -1,5 +1,5 @@
 ---
-name: pages-glossary
+name: glossary-page-generator
 description: When the user wants to create, optimize, or audit glossary page content and structure. Also use when the user mentions "glossary," "definitions," "terminology," or "industry terms."
 metadata:
   version: 1.0.0
@@ -49,7 +49,7 @@ Identify:
 
 ### SEO Benefits
 
-- **Topic clusters**: Glossary as hub; links to and from pillar content; see seo-content-content-strategy
+- **Topic clusters**: Glossary as hub; links to and from pillar content; see content-strategy
 - **Long-tail**: Definition queries, "what is X"
 - **Crawlability**: Reduces depth; distributes authority
 - **User engagement**: Helps users understand; keeps them on site
@@ -70,8 +70,8 @@ Identify:
 
 ## Related Skills
 
-- **components-url-slug**: URL slug for glossary terms (e.g. /glossary/term-slug); 3-5 words
-- **seo-on-page-internal-links**: Glossary is internal linking hub
-- **seo-content-content-strategy**: Glossary supports content clusters
-- **pages-blog**: Link between glossary and blog
-- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: Glossary page metadata
+- **url-slug-generator**: URL slug for glossary terms (e.g. /glossary/term-slug); 3-5 words
+- **internal-links**: Glossary is internal linking hub
+- **content-strategy**: Glossary supports content clusters
+- **blog-page-generator**: Link between glossary and blog
+- **title-tag, meta-description, page-metadata**: Glossary page metadata

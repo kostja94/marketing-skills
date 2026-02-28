@@ -1,5 +1,5 @@
 ---
-name: analytics-ai-traffic
+name: ai-traffic-tracking
 description: When the user wants to track AI search traffic in GA4 or GSC. Also use when the user mentions "AI traffic," "ChatGPT referral," "Perplexity traffic," "AI Overviews," "GA4 AI sources," or "AI search analytics."
 metadata:
   version: 1.0.0
@@ -68,7 +68,7 @@ chatgpt\.com|openai\.com|openai|perplexity\.ai|perplexity|doubao\.com|chat\.qwen
 ## Google AI Overviews
 
 - **GA4 + URL fragment**: Some AI Overview clicks add URL fragments; can use GTM (partial coverage)
-- **GSC**: For AI Overviews analysis in GSC (filter, limitations), see analytics-google-search-console
+- **GSC**: For AI Overviews analysis in GSC (filter, limitations), see google-search-console
 
 ## Checklist
 
@@ -77,7 +77,7 @@ chatgpt\.com|openai\.com|openai|perplexity\.ai|perplexity|doubao\.com|chat\.qwen
 - [ ] Channel group updated with AI above Referral (if used)
 - [ ] Custom report added to Library (optional)
 - [ ] GTM + URL fragment for AI Overviews (optional)
-- [ ] GSC AI-oriented query filter (optional; see analytics-google-search-console)
+- [ ] GSC AI-oriented query filter (optional; see google-search-console)
 
 ## Output Format
 
@@ -86,7 +86,7 @@ chatgpt\.com|openai\.com|openai|perplexity\.ai|perplexity|doubao\.com|chat\.qwen
 
 ## Related Skills
 
-- **analytics-traffic**: Traffic sources, attribution, UTM
+- **traffic-analysis**: Traffic sources, attribution, UTM
 - **analytics-tracking**: GA4 events and conversions
-- **analytics-google-search-console**: GSC AI traffic analysis
-- **seo-technical-robots**: AI crawler allow/block strategy
+- **google-search-console**: GSC AI traffic analysis
+- **robots-txt**: AI crawler allow/block strategy

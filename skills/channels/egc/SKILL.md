@@ -1,5 +1,5 @@
 ---
-name: channels-egc
+name: employee-generated-content
 description: When the user wants to plan, implement, or optimize employee-generated content (EGC) or employee advocacy. Also use when the user mentions "EGC," "employee advocacy," "employee content," "internal brand ambassadors," or "employee social media."
 metadata:
   version: 1.0.0
@@ -76,11 +76,11 @@ Identify:
 
 ## Related Skills
 
-- **channels-influencer**: External influencers; EGC is internal
-- **channels-creator-program**: External creators; EGC is employee-driven
-- **platforms-linkedin**: Primary EGC platform for B2B
-- **strategies-integrated-marketing**: EGC as part of PESO shared/earned media
-- **analytics-traffic**: UTM tagging for employee-shared links
+- **influencer-marketing**: External influencers; EGC is internal
+- **creator-program**: External creators; EGC is employee-driven
+- **linkedin-posts**: Primary EGC platform for B2B
+- **integrated-marketing**: EGC as part of PESO shared/earned media
+- **traffic-analysis**: UTM tagging for employee-shared links
 
 ## References
 

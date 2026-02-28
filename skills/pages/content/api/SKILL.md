@@ -1,5 +1,5 @@
 ---
-name: pages-api
+name: api-page-generator
 description: When the user wants to create, optimize, or audit the API introduction/overview page. Also use when the user mentions "API page," "API landing page," or "/api page." Note: API documentation (endpoint reference, developer docs) is a separate page type.
 metadata:
   version: 1.0.0
@@ -56,6 +56,6 @@ Identify:
 
 ## Related Skills
 
-- **pages-home**: Link to API page for developers
-- **seo-on-page-schema**: WebPage or SoftwareApplication schema
-- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: API page metadata
+- **homepage-generator**: Link to API page for developers
+- **schema-markup**: WebPage or SoftwareApplication schema
+- **title-tag, meta-description, page-metadata**: API page metadata

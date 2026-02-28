@@ -1,5 +1,5 @@
 ---
-name: seo-on-page-open-graph
+name: open-graph
 description: When the user wants to add or optimize Open Graph metadata for social sharing. Also use when the user mentions "Open Graph," "og:tags," "og:title," "og:image," "Facebook preview," "LinkedIn preview," or "social share preview."
 metadata:
   version: 1.0.0
@@ -98,10 +98,10 @@ export const metadata = {
 
 ## Related Skills
 
-- **components-social-share**: Share buttons use OG tags for rich previews when users share; OG must be set for share buttons to show proper cards
-- **pages-article**: Use og:type `article` for article/post pages; article-specific tags (published_time, author)
-- **seo-on-page-metadata**: Hreflang, other meta tags
-- **seo-on-page-title**: Title tag often mirrors og:title
-- **seo-on-page-description**: Meta description often mirrors og:description
-- **seo-on-page-twitter-cards**: Twitter uses OG as fallback; add Twitter-specific tags for best results
-- **seo-technical-canonical**: og:url should match canonical URL
+- **social-share-generator**: Share buttons use OG tags for rich previews when users share; OG must be set for share buttons to show proper cards
+- **article-page-generator**: Use og:type `article` for article/post pages; article-specific tags (published_time, author)
+- **page-metadata**: Hreflang, other meta tags
+- **title-tag**: Title tag often mirrors og:title
+- **meta-description**: Meta description often mirrors og:description
+- **twitter-cards**: Twitter uses OG as fallback; add Twitter-specific tags for best results
+- **canonical-tag**: og:url should match canonical URL

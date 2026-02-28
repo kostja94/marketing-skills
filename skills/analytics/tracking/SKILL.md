@@ -27,7 +27,7 @@ Track CTA clicks on key articles to measure content ROI:
 | **Conversion** | Mark as conversion in GA4 for attribution |
 | **Use** | Compare high vs low performers; optimize CTA placement and copy |
 
-See analytics-seo-monitoring for article database and benchmark context.
+See seo-monitoring for article database and benchmark context.
 
 ## Scope
 
@@ -126,7 +126,7 @@ Place below the Google tag snippet. Events fire on page load or user action (e.g
 
 ## Related Skills
 
-- **analytics-traffic**: UTM and source attribution
-- **analytics-ai-traffic**: AI traffic in GA4
-- **analytics-google-search-console**: GSC analysis (correlate with GA4)
-- **analytics-seo-monitoring**: Article database, benchmark, full SEO monitoring framework
+- **traffic-analysis**: UTM and source attribution
+- **ai-traffic-tracking**: AI traffic in GA4
+- **google-search-console**: GSC analysis (correlate with GA4)
+- **seo-monitoring**: Article database, benchmark, full SEO monitoring framework

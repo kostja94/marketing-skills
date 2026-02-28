@@ -1,5 +1,5 @@
 ---
-name: pages-article
+name: article-page-generator
 description: When the user wants to create, optimize, or audit a single article/post page (not the blog index). Also use when the user mentions "article page," "blog post page," "single post," "post template," "individual article," "competitor article analysis," "optimize based on top-ranking articles," or "analyze ranking articles."
 metadata:
   version: 1.0.0
@@ -7,7 +7,7 @@ metadata:
 
 # Pages: Article (Single Post)
 
-Guides structure, SEO, and UX for **individual article pages** — one blog post, one guide, one piece of long-form content. Distinct from **pages-blog**, which covers the blog index/listing page.
+Guides structure, SEO, and UX for **individual article pages** — one blog post, one guide, one piece of long-form content. Distinct from **blog-page-generator**, which covers the blog index/listing page.
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -20,7 +20,7 @@ Article analysis and creation rest on **four inputs**. Gather or infer them befo
 | Input | Purpose | Source |
 |-------|---------|--------|
 | **Product** | Product connection, features, use cases, CTA placement | product-marketing-context (Sections 1–4, 9–11); article content; web search |
-| **Keywords** | Target keyword, primary/secondary placement | product-marketing-context Section 6; seo-content-keyword-research; article |
+| **Keywords** | Target keyword, primary/secondary placement | product-marketing-context Section 6; keyword-research; article |
 | **Article intent** | Informational, commercial, transactional, navigational; drives structure, CTA, SEO depth | product-marketing-context Section 6 (target intent); article orientation; content type |
 | **Competitor articles** | Structure to adopt, content gaps, length target, keyword opportunities | User-provided URLs; product-marketing-context Section 11; web search |
 
@@ -76,7 +76,7 @@ When **analyzing or auditing** an article, perform the following searches and **
 ## Scope
 
 - **Single article page**: One post, one URL (e.g. `/blog/how-to-optimize-seo`)
-- **Not** the blog index, category pages, or archive pages — see **pages-blog** for those
+- **Not** the blog index, category pages, or archive pages — see **blog-page-generator** for those
 
 ## Initial Assessment
 
@@ -84,7 +84,7 @@ When **analyzing or auditing** an article, perform the following searches and **
 
 Identify:
 1. **Product connection**: How does this article support the product? (educate on problem, introduce features, nurture leads)
-2. **Keyword basis**: Target keyword from product context or keyword research — see **seo-content-keyword-research**
+2. **Keyword basis**: Target keyword from product context or keyword research — see **keyword-research**
 3. **Content type**: Blog post, guide, tutorial, news, evergreen
 4. **Length**: Short (<1,000 words), medium (1,000–2,500), long (2,500+)
 5. **Intent**: Informational, commercial, problem-aware
@@ -160,11 +160,11 @@ The hero image displayed at the top of the article. Same image typically used fo
 | **Relevance** | Must align with article topic; articles with relevant images get ~94% more views |
 | **LCP** | Set `width` and `height` attributes to prevent CLS; use `srcset`/`sizes` for responsive |
 
-Schema and Open Graph require the same image (min 1200px wide, absolute URL). See **seo-on-page-open-graph**, **seo-on-page-twitter-cards**.
+Schema and Open Graph require the same image (min 1200px wide, absolute URL). See **open-graph**, **twitter-cards**.
 
 ### Social Sharing
 
-- Add **share buttons** (X, LinkedIn, Facebook, etc.) — see **components-social-share**
+- Add **share buttons** (X, LinkedIn, Facebook, etc.) — see **social-share-generator**
 - Place after intro and/or end of article; sticky sidebar for long-form
 - Requires **Open Graph** and **Twitter Cards** for rich previews when shared
 
@@ -180,7 +180,7 @@ Optimize for AI citation (ChatGPT, Perplexity, Google AI Overviews). Content str
 | **Answer blocks** | 100–200 words per section; direct answer + context + evidence + nuance |
 | **Structured formats** | Lists, tables, numbered steps increase citation rate |
 
-See **strategies-geo** for full GEO strategy.
+See **generative-engine-optimization** for full GEO strategy.
 
 ### Paragraph Length & Content
 
@@ -193,7 +193,7 @@ See **strategies-geo** for full GEO strategy.
 
 ### Long-Form (1,000+ words)
 
-- Add **table of contents** (TOC) after intro — see **components-toc**
+- Add **table of contents** (TOC) after intro — see **toc-generator**
 - Use jump links for major sections
 - Break text with images, lists, definition boxes, mini-FAQs
 
@@ -229,7 +229,7 @@ See **strategies-geo** for full GEO strategy.
 
 ### URL
 
-Use **components-url-slug** for slug creation. Key rules:
+Use **url-slug-generator** for slug creation. Key rules:
 
 - **Slug**: 3–5 words; under 60 chars; primary keyword; lowercase, hyphens
 - **Example**: `/blog/ai-people-search` not `/blog/ai-search-engine-finding-people-speed-discovery-outreach`
@@ -421,16 +421,16 @@ Example: `[P0] Add TL;DR or Key Takeaways — GEO, AI citation`
 
 ## Related Skills
 
-- **pages-blog**: Blog index/listing page; article pages live within blog
-- **seo-content-keyword-research**: Keyword basis for articles; run before drafting
-- **seo-on-page-title, seo-on-page-description**: Article metadata
-- **seo-on-page-schema**: Article/BlogPosting/NewsArticle schema
-- **seo-on-page-heading**: H1–H6 structure for article body
-- **seo-content-optimization**: Word count, H2 keywords, keyword density, tables, lists, multimedia
-- **seo-on-page-internal-links**: Related posts, contextual links
-- **seo-on-page-open-graph, seo-on-page-twitter-cards**: Social previews for articles (required for share previews)
-- **components-social-share**: Share buttons placement, platforms, intent URLs
-- **components-url-slug**: URL slug creation for articles; 3–5 words, primary keyword
-- **components-toc**: Table of contents for long articles
-- **components-breadcrumb**: Breadcrumb (e.g. Home > Blog > Category > Post)
-- **strategies-geo**: GEO strategy; AI citation optimization
+- **blog-page-generator**: Blog index/listing page; article pages live within blog
+- **keyword-research**: Keyword basis for articles; run before drafting
+- **title-tag, meta-description**: Article metadata
+- **schema-markup**: Article/BlogPosting/NewsArticle schema
+- **heading-structure**: H1–H6 structure for article body
+- **content-optimization**: Word count, H2 keywords, keyword density, tables, lists, multimedia
+- **internal-links**: Related posts, contextual links
+- **open-graph, twitter-cards**: Social previews for articles (required for share previews)
+- **social-share-generator**: Share buttons placement, platforms, intent URLs
+- **url-slug-generator**: URL slug creation for articles; 3–5 words, primary keyword
+- **toc-generator**: Table of contents for long articles
+- **breadcrumb-generator**: Breadcrumb (e.g. Home > Blog > Category > Post)
+- **generative-engine-optimization**: GEO strategy; AI citation optimization

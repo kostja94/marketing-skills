@@ -1,5 +1,5 @@
 ---
-name: pages-cookie-policy
+name: cookie-policy-page-generator
 description: When the user wants to create or optimize a cookie policy page. Also use when the user mentions "cookie policy," "cookies," "cookie consent," or "GDPR cookies."
 metadata:
   version: 1.0.0
@@ -52,6 +52,6 @@ Identify:
 
 ## Related Skills
 
-- **pages-privacy**: Privacy Policy; cookie policy complements
-- **pages-legal**: Legal page grouping
-- **seo-technical-indexing**: Often noindex
+- **privacy-page-generator**: Privacy Policy; cookie policy complements
+- **legal-page-generator**: Legal page grouping
+- **indexing**: Often noindex

@@ -1,5 +1,5 @@
 ---
-name: pages-terms
+name: terms-page-generator
 description: When the user wants to create, optimize, or structure Terms of Service page. Also use when the user mentions "terms of service," "terms and conditions," "terms of use," or "user agreement."
 metadata:
   version: 1.0.0
@@ -63,7 +63,7 @@ Identify:
 
 ## Related Skills
 
-- **pages-legal**: Terms is a legal page type
-- **pages-privacy**: Often linked together
-- **pages-contact**: Contact for terms questions
-- **seo-technical-indexing**: noindex for terms
+- **legal-page-generator**: Terms is a legal page type
+- **privacy-page-generator**: Often linked together
+- **contact-page-generator**: Contact for terms questions
+- **indexing**: noindex for terms

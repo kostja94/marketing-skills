@@ -1,5 +1,5 @@
 ---
-name: pages-privacy
+name: privacy-page-generator
 description: When the user wants to create, optimize, or structure Privacy Policy page. Also use when the user mentions "privacy policy," "privacy page," "data protection," or "GDPR compliance."
 metadata:
   version: 1.0.0
@@ -62,7 +62,7 @@ Identify:
 
 ## Related Skills
 
-- **pages-legal**: Privacy is a legal page type
-- **pages-terms**: Often linked together
-- **pages-contact**: Privacy link near forms
-- **seo-technical-indexing**: noindex for privacy
+- **legal-page-generator**: Privacy is a legal page type
+- **terms-page-generator**: Often linked together
+- **contact-page-generator**: Privacy link near forms
+- **indexing**: noindex for privacy

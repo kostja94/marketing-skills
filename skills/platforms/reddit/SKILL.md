@@ -76,4 +76,5 @@ When generating Reddit copy, provide:
 
 - **platforms-x**: Alternative platform
 - **platforms-grokipedia**: Wiki/encyclopedia platform for GEO and parasite SEO
+- **channels-community-forum**: Forum and community promotion; HN, Indie Hacker; community invitation tactics
 - **channels-influencer**: Reddit can complement influencer outreach

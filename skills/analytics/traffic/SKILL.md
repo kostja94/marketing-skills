@@ -78,6 +78,25 @@ When traffic was sent from known sources, analytics often misattributed:
 - **Apply everywhere**: Every link in emails, social posts, ads
 - **Avoid**: Typos, inconsistent values; causes fragmentation
 
+## Traffic Diversification
+
+| Principle | Guideline |
+|-----------|-----------|
+| **Search share** | Keep organic search below ~75% of total traffic |
+| **Health** | Higher direct + referral share = healthier profile |
+| **Brand sites** | Diversified traffic is common for strong brands |
+| **Engagement** | Content, email, social, free tools drive return visits |
+
+See analytics-seo-monitoring for full SEO data analysis framework.
+
+## Natural Traffic Benchmark
+
+**Location**: GA4 > Reports > Acquisition > Traffic acquisition
+
+1. Review organic traffic trend
+2. Record baseline (e.g., monthly total)
+3. Compare periodically to detect growth or decline
+
 ## Output Format
 
 - **Traffic source** breakdown
@@ -90,3 +109,5 @@ When traffic was sent from known sources, analytics often misattributed:
 - **analytics-tracking**: Implement UTM and event tracking
 - **analytics-ai-traffic**: AI search traffic
 - **analytics-google-search-console**: GSC performance and indexing analysis
+- **analytics-seo-monitoring**: Full SEO data analysis system, benchmark, article database
+- **channels-email-marketing**: Email strategy; UTM for email links

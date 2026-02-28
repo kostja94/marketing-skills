@@ -79,6 +79,7 @@ Identify:
 
 ## Related Skills
 
+- **channels-email-marketing**: Full email marketing strategy; EDM, newsletter, deliverability, content types
 - **components-footer**: Footer often hosts signup forms
 - **components-cta**: Submit button is a CTA
 - **components-trust-badges**: Trust marks near form

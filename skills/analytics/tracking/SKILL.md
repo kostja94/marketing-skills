@@ -9,11 +9,31 @@ metadata:
 
 Guides analytics implementation: GA4 setup, event tracking, conversions, and data quality. Applies to web and app tracking across marketing channels.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
+## User ID
+
+- **Purpose**: Cross-device, cross-session user identification
+- **Implementation**: Set `user_id` when user is identified (e.g., login); send to GA4
+- **Benefit**: Accurate attribution across sessions; better audience building
+
+## CTA Attribution (Article ROI)
+
+Track CTA clicks on key articles to measure content ROI:
+
+| Action | Purpose |
+|--------|---------|
+| **Event per CTA** | e.g., `cta_click` with `content_url`, `content_type` |
+| **Conversion** | Mark as conversion in GA4 for attribution |
+| **Use** | Compare high vs low performers; optimize CTA placement and copy |
+
+See analytics-seo-monitoring for article database and benchmark context.
 
 ## Scope
 
 - **GA4**: Web data stream, gtag.js, configuration
+- **User ID**: Cross-device, cross-session identification
+- **CTA attribution**: Per-article conversion tracking for content ROI
 - **Events**: Recommended and custom events
 - **Conversions**: Key events, parameters
 - **Quality**: Naming, testing, validation
@@ -28,7 +48,7 @@ Guides analytics implementation: GA4 setup, event tracking, conversions, and dat
 
 ### Enhanced Measurement
 
-Enable in Admin →Data Streams →Enhanced Measurement for automatic tracking of:
+Enable in Admin > Data Streams > Enhanced Measurement for automatic tracking of:
 
 - Page views, scrolls, outbound clicks
 - Site search, file downloads
@@ -47,7 +67,7 @@ Enable in Admin →Data Streams →Enhanced Measurement for automatic tracking o
 
 ### Naming Conventions
 
-- **Length**: ≤60 characters
+- **Length**: <=60 characters
 - **Format**: `snake_case`, lowercase
 - **Verb first**: `download_pdf`, `submit_form`, `video_play`
 - **Context**: `pricing_page_scroll` vs generic `scroll`
@@ -76,7 +96,7 @@ Place below the Google tag snippet. Events fire on page load or user action (e.g
 
 ### Custom Events
 
-- Focus on 15–25 meaningful events aligned with KPIs
+- Focus on 15-25 meaningful events aligned with KPIs
 - Add parameters for context (e.g., `content_type`, `item_id`)
 - Avoid tracking everything; prioritize quality over quantity
 
@@ -109,3 +129,4 @@ Place below the Google tag snippet. Events fire on page load or user action (e.g
 - **analytics-traffic**: UTM and source attribution
 - **analytics-ai-traffic**: AI traffic in GA4
 - **analytics-google-search-console**: GSC analysis (correlate with GA4)
+- **analytics-seo-monitoring**: Article database, benchmark, full SEO monitoring framework

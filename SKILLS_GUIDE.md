@@ -60,10 +60,10 @@ skills/
 │   └── content/          # Content SEO
 ├── pages/                # Page types
 ├── components/           # UI components (navigation, etc.)
-├── channels/             # Acquisition channels (affiliate, influencer, referral, creator-program, directories)
+├── channels/             # Acquisition channels (affiliate, email-marketing, egc, influencer, referral, creator-program, community-forum, directories)
 ├── platforms/            # Publishing platforms (x, reddit, linkedin, tiktok)
-├── strategies/           # Cross-cutting strategies (geo, localization)
-├── analytics/            # Traffic, tracking
+├── strategies/           # Cross-cutting strategies (geo, integrated-marketing, localization)
+├── analytics/            # Traffic, tracking, seo-monitoring
 └── ...
 ```
 
@@ -285,7 +285,7 @@ The CLI recursively searches for `SKILL.md` in:
 
 | Option | How |
 |--------|-----|
-| **Full install** | `npx skills add kostja94/marketing-skills` — all 70 skills |
+| **Full install** | `npx skills add kostja94/marketing-skills` — all 83 skills |
 | **Selective install** | `npx skills add kostja94/marketing-skills --skill seo-technical-robots pages-pricing` — only specified skills |
 | **Delete after install** | Remove unwanted folders from `.cursor/skills/` — skills are independent, no cross-dependencies |
 

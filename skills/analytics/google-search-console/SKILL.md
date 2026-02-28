@@ -279,7 +279,7 @@ date, query, page, country, device. Search appearance (AMP, blue link, rich resu
 - [ ] Sitemaps: All "Success"; indexed URL counts stable
 - [ ] Core Web Vitals: Mobile good/needs improvement/poor
 - [ ] Enhancements: No new invalid items (critical issues)
-- [ ] Links: No manual actions; disavow only if needed (see backlink-analysis)
+- [ ] Links: No manual actions; disavow only if needed (see seo-off-page-backlink-analysis)
 - [ ] Data exported to spreadsheet (month-end snapshot)
 - [ ] Charts screenshotted for history
 - [ ] Release notes reviewed for correlation
@@ -304,3 +304,4 @@ date, query, page, country, device. Search appearance (AMP, blue link, rich resu
 - **analytics-traffic**: Traffic sources, attribution
 - **analytics-tracking**: GA4 events (correlate with GSC)
 - **analytics-ai-traffic**: GA4 AI traffic tracking
+- **analytics-seo-monitoring**: Full SEO data analysis system, benchmark, article database

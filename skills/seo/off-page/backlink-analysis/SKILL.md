@@ -75,4 +75,5 @@ Identify:
 ## Related Skills
 
 - **analytics-google-search-console**: Links report, disavow file submission
+- **analytics-seo-monitoring**: Backlink metrics in full SEO monitoring; quality vs quantity, referral ROI
 - **seo-off-page-link-building**: Use analysis to plan link building

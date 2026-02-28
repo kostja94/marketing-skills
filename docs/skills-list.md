@@ -1,6 +1,6 @@
 # Full Skills List
 
-Complete list of all 75 skills with descriptions. See [README](../README.md) for overview.
+Complete list of all 83 skills with descriptions. See [README](../README.md) for overview.
 
 ## SEO
 
@@ -80,6 +80,9 @@ See [page-types-taxonomy.md](page-types-taxonomy.md) for full taxonomy.
 
 | Skill | Description |
 |-------|-------------|
+| [components-top-banner](../skills/components/top-banner/) | Announcement bar, sticky banner, promo bar |
+| [components-sidebar](../skills/components/sidebar/) | Sidebar for blogs, docs; nav, CTA, related content |
+| [components-popup](../skills/components/popup/) | Popup, modal, lightbox; lead capture, offers |
 | [components-navigation-menu](../skills/components/navigation-menu/) | Navigation menu design, SEO, UX, accessibility |
 | [components-breadcrumb](../skills/components/breadcrumb/) | Breadcrumb navigation, BreadcrumbList schema |
 | [components-social-share](../skills/components/social-share/) | Share buttons (X, LinkedIn, Facebook), placement, intent URLs |
@@ -100,9 +103,12 @@ See [page-types-taxonomy.md](page-types-taxonomy.md) for full taxonomy.
 | Skill | Description |
 |-------|-------------|
 | [channels-affiliate](../skills/channels/affiliate/) | Affiliate marketing strategy, CPS model |
+| [channels-email-marketing](../skills/channels/email-marketing/) | EDM, newsletter, deliverability, SEO synergy |
+| [channels-egc](../skills/channels/egc/) | Employee-generated content, employee advocacy |
 | [channels-influencer](../skills/channels/influencer/) | Influencer marketing, KOL, creator partnership |
 | [channels-referral](../skills/channels/referral/) | Referral program strategy |
 | [channels-creator-program](../skills/channels/creator-program/) | Creator program strategy |
+| [channels-community-forum](../skills/channels/community-forum/) | Forum promotion, community invitation, Indie Hacker, HN |
 | [channels-directories](../skills/channels/directories/) | Directory submission (Taaft, Product Hunt, etc.) |
 
 ## Platforms
@@ -120,6 +126,7 @@ See [page-types-taxonomy.md](page-types-taxonomy.md) for full taxonomy.
 | Skill | Description |
 |-------|-------------|
 | [strategies-geo](../skills/strategies/geo/) | GEO/AEO for AI search visibility |
+| [strategies-integrated-marketing](../skills/strategies/integrated-marketing/) | IMC, PESO, program vs channel vs campaign |
 | [strategies-localization](../skills/strategies/localization/) | Localization strategy, i18n, multilingual |
 
 ## Analytics
@@ -128,5 +135,6 @@ See [page-types-taxonomy.md](page-types-taxonomy.md) for full taxonomy.
 |-------|-------------|
 | [analytics-traffic](../skills/analytics/traffic/) | Traffic sources, dark traffic, UTM attribution |
 | [analytics-tracking](../skills/analytics/tracking/) | GA4, event tracking, conversions |
+| [analytics-seo-monitoring](../skills/analytics/seo-monitoring/) | SEO data analysis, benchmark, article database |
 | [analytics-ai-traffic](../skills/analytics/ai-traffic/) | Track AI search traffic in GA4 and GSC |
 | [analytics-google-search-console](../skills/analytics/google-search-console/) | GSC analysis, indexing, Core Web Vitals |

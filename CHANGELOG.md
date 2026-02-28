@@ -1,16 +1,39 @@
 # Changelog
 
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
 ## [Unreleased]
 
+### Fixed
+
+- **components-logo, components-hero, pages-404** — Encoding fix; Related Skills: media-kit, favicon, brand-visual
+- **SKILLS_GUIDE.md** — Updated skill count (70 → 83)
+- **strategies-integrated-marketing** — Added channels-community-forum to Related Skills
+- **analytics-google-search-console** — Fixed shorthand reference (backlink-analysis → seo-off-page-backlink-analysis)
+- **channels-directories** — Fixed shorthand reference (link-building → seo-off-page-link-building)
+
+### Changed
+
+- **platforms-x** — Post structure (hook/value/CTA); TweepCred; link optimization; Premium impact; Bookmark; video; content ratio; Twitter Cards + SEO
+- **channels-email-marketing** — EDM vs Newsletter; five content types; deliverability (SPF/DKIM/DMARC); article delivery (Retention, ToFu, MoFu) + SEO synergy
+- **channels-referral** — Mechanism types (link/code/social); tracking and attribution; fraud prevention; design framework; implementation (dashboard vs landing page, self-build vs third-party); Referral vs affiliate
+- **channels-community-forum** — Forum promotion (Indie Hacker, HN, Hackernoon); community invitation (welcome email, CTA, banner, EDM, Discord); vertical communities; brand basics (encyclopedia, Q&A)
+- **analytics-seo-monitoring** — SEO data analysis system: indexing, traffic, keywords, backlinks; benchmark; article database; tool selection; penalty recovery; work document management
+- **analytics-traffic** — Traffic diversification (search <75%), natural traffic benchmark
+- **analytics-tracking** — User ID, CTA attribution for article ROI
+- **channels-egc** — Employee-generated content, employee advocacy; 8x engagement, LinkedIn 561% reach
+- **strategies-integrated-marketing** — IMC, PESO model, program vs channel vs campaign, channel evaluation
+- **components-top-banner** — Announcement bar, sticky banner; lead capture, promo, urgency; 3-second rule
+- **components-sidebar** — Sidebar for blogs/docs; nav, CTA, related content; conversion data (prefer in-content)
+- **components-popup** — Popup/modal; timing, triggers; mobile/SEO considerations; easy-exit pattern
 - **components-favicon** — Favicon, app icons, PWA; sizes 16-512px; SVG/PNG/ICO
 - **components-brand-visual** — Visual identity: typography, colors, spacing; Section 12 template
-- **product-marketing-context** — Section 12: Visual Identity (colors, typography, spacing)
 - **pages-media-kit** — Brand guidelines, logo assets, usage rules; Related Skills: logo, favicon, brand-visual
-- **components-logo** — Encoding fix; Related Skills: media-kit, favicon, brand-visual
-- **components-hero, pages-404** — Encoding fix; Related Skills: brand-visual
 - **pages-article** — Optimization Foundation: Product + Keywords + Article intent + Competitor articles (four inputs)
 - **seo-content-content-strategy** — Content types + SEO fit; evergreen vs timely mix (70–75% / 25–30%)
-- **product-marketing-context** — Section 11: article orientations
+- **product-marketing-context** — Section 11: article orientations; Section 12: Visual Identity (colors, typography, spacing)
 
 ## [2025-02-28]
 

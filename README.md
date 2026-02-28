@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-75 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 25 page types, channels, platforms, strategies, components, and analytics.
+83 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 25 page types, channels, platforms, strategies, components, and analytics.
 
 **By [kostja](https://github.com/kostja94)** — I add new skills daily; please download the latest version. Questions or feedback? zyjstc@gmail.com
 
@@ -38,7 +38,7 @@ Skills are **markdown files** that give AI agents focused knowledge and workflow
 
 ```
 marketing-skills/
-├── skills/           # 75 skills — seo/, pages/, components/, channels/, platforms/, strategies/, analytics/
+├── skills/           # 83 skills — seo/, pages/, components/, channels/, platforms/, strategies/, analytics/
 ├── docs/             # using-beyond-cursor.md, skills-list.md, page-types-taxonomy.md
 ├── templates/        # product-marketing-context.md, skills-task-progress.md, report templates
 ├── tools/            # Report generation — generate-report.py, *-guide.md
@@ -50,7 +50,7 @@ marketing-skills/
 
 ## Installation
 
-**Full or selective.** Install all 75 skills, or only the ones you need. Skills are independent — delete unwanted ones after install.
+**Full or selective.** Install all 83 skills, or only the ones you need. Skills are independent — delete unwanted ones after install.
 
 ### CLI (Recommended)
 
@@ -161,16 +161,16 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│  Channels: affiliate · influencer · referral · creator-program · directories           │
+│  Channels: affiliate · email-marketing · egc · influencer · referral · creator-program · community-forum · directories │
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│  Platforms: x · reddit · linkedin · tiktok · grokipedia  |  Strategies: geo · localization│
+│  Platforms: x · reddit · linkedin · tiktok · grokipedia  |  Strategies: geo · integrated-marketing · localization│
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│  Components: nav · footer · hero · toc · logo · trust-badges · testimonials · cta · url-slug │
-│  newsletter-signup  |  Analytics: traffic · tracking · ai-traffic · google-search-console│
+│  Components: nav · footer · hero · toc · logo · trust-badges · testimonials · cta · url-slug   │
+│  newsletter-signup  |  Analytics: traffic · tracking · seo-monitoring · ai-traffic · google-search-console│
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 
 Cross-references: metadata ↔ schema ↔ heading  |  sitemap ↔ indexnow
@@ -193,17 +193,17 @@ Cross-references: metadata ↔ schema ↔ heading  |  sitemap ↔ indexnow
 
 ## Available Skills
 
-75 skills in 7 categories. [Full list](docs/skills-list.md) · `npx skills add kostja94/marketing-skills --list` (75 skills)
+83 skills in 7 categories. [Full list](docs/skills-list.md) · `npx skills add kostja94/marketing-skills --list` (83 skills)
 
 | Category | Skills |
 |----------|--------|
 | **SEO** (19) | [Technical](skills/seo/technical/): robots, sitemap, canonical, indexing, indexnow, crawlability · [On-Page](skills/seo/on-page/): title, description, metadata, open-graph, twitter-cards, schema, internal-links, url-structure, heading · [Off-Page](skills/seo/off-page/): link-building, backlink-analysis · [Content](skills/seo/content/): keyword-research, content-strategy |
 | **Pages** (24) | [page-types-taxonomy](docs/page-types-taxonomy.md) — brand, content, marketing, legal, utility |
 | **Components** (11) | nav, breadcrumb, footer, hero, toc, logo, trust-badges, testimonials, cta, newsletter-signup, url-slug |
-| **Channels** (5) | affiliate, influencer, referral, creator-program, directories |
+| **Channels** (8) | affiliate, email-marketing, egc, influencer, referral, creator-program, community-forum, directories |
 | **Platforms** (5) | x, reddit, linkedin, tiktok, grokipedia |
-| **Strategies** (2) | geo, localization |
-| **Analytics** (4) | traffic, tracking, ai-traffic, google-search-console |
+| **Strategies** (3) | geo, integrated-marketing, localization |
+| **Analytics** (5) | traffic, tracking, seo-monitoring, ai-traffic, google-search-console |
 
 ## Contributing
 
@@ -226,7 +226,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [SKILLS_GUIDE](SKILL
 | [skills-task-progress](templates/skills-task-progress.md) | Task tracker — status, priority |
 | [using-beyond-cursor](docs/using-beyond-cursor.md) | Lovable, ChatGPT, Gemini — no native support needed |
 | [page-types-taxonomy](docs/page-types-taxonomy.md) | Page classification |
-| [skills-list](docs/skills-list.md) | Full list of all 75 skills |
+| [skills-list](docs/skills-list.md) | Full list of all 83 skills |
 | [SKILLS_GUIDE](SKILLS_GUIDE.md) | Rules, specs, skill authoring |
 | [CHANGELOG](CHANGELOG.md) | What changed, when |
 | [tools/](tools/README.md) | Report generation (keyword, competitor) |

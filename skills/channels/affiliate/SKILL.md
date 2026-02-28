@@ -76,3 +76,4 @@ For SaaS: Prefer pay-per-sale or pay-per-lead. Recurring commissions for subscri
 - **channels-influencer**: Often paired; influencers can be affiliates
 - **channels-referral**: User-driven referral vs. affiliate-driven
 - **channels-directories**: Directory submission complements affiliate; both drive backlinks and traffic
+- **channels-community-forum**: Communities (Discord, Reddit, forums) as affiliate recruitment channel

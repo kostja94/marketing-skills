@@ -7,9 +7,9 @@ metadata:
 
 # Channels: Influencer
 
-Guides influencer marketing strategy for AI/SaaS products. Focus on trust and brand exposure; 2–3x higher conversion and 40%–50% lower CAC than traditional ads. 92% of consumers trust influencers over celebrities.
+Guides influencer marketing strategy for AI/SaaS products. Focus on trust and brand exposure; 2â3x higher conversion and 40%â50% lower CAC than traditional ads. 92% of consumers trust influencers over celebrities.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1â2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -18,7 +18,7 @@ Guides influencer marketing strategy for AI/SaaS products. Focus on trust and br
 Identify:
 1. **Goal**: Brand awareness, trust, or direct conversion
 2. **Platform**: Instagram, TikTok, YouTube, LinkedIn
-3. **Target**: Nano (1K–10K), micro (10K–100K), mid-tier (100K–1M), macro (1M+)
+3. **Target**: Nano (1Kâ10K), micro (10Kâ100K), mid-tier (100Kâ1M), macro (1M+)
 
 ## Influencer vs. Affiliate vs. Creator
 
@@ -33,9 +33,9 @@ Identify:
 
 | Platform | Best For | Audience |
 |----------|----------|----------|
-| **Instagram** | Visual, lifestyle | 25–34 |
+| **Instagram** | Visual, lifestyle | 25â34 |
 | **TikTok** | Viral, short-form | Under 24 |
-| **YouTube** | Reviews, tutorials | 18–24 |
+| **YouTube** | Reviews, tutorials | 18â24 |
 | **LinkedIn** | B2B, professional | Professionals |
 
 ## Discovery & Screening
@@ -81,4 +81,5 @@ Identify:
 
 - **channels-affiliate**: Influencers can be affiliates (hybrid model)
 - **channels-creator-program**: Long-term creator partnerships
+- **channels-egc**: Internal employee content; influencer is external
 - **pages-affiliate-program**: Commission structure if hybrid

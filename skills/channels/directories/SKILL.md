@@ -366,8 +366,9 @@ Before submitting to any directory:
 ## Related Skills
 
 - **pages-media-kit**: Press kit, screenshots, assets for launch; required for Product Hunt and directory submissions
-- **seo-off-page-link-building**: Directory and curated list backlinks contribute to link profile; this skill handles the submission workflow--see link-building for broader outreach, guest posting, broken link building
+- **seo-off-page-link-building**: Directory and curated list backlinks contribute to link profile; this skill handles the submission workflow--see seo-off-page-link-building for broader outreach, guest posting, broken link building
 - **platforms-grokipedia**: Same output pattern--platform context first (Introduction, Importance, Methods, Rules, Avoid), then Action; high-authority placement for GEO; directories for human discovery--complementary
 - **strategies-geo**: GEO strategy; varied directory copy improves AI citation diversity; directory submission complements AI search visibility
 - **channels-affiliate**: Different channel; directories complement affiliate
+- **channels-community-forum**: Forum promotion (HN, Indie Hacker); community invitation; different from directory listing
 - **analytics-tracking**: UTM for directory traffic attribution

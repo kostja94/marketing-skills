@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-73 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 25 page types, channels, platforms, strategies, components, and analytics.
+75 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 25 page types, channels, platforms, strategies, components, and analytics.
 
 **By [kostja](https://github.com/kostja94)** — I add new skills daily; please download the latest version. Questions or feedback? zyjstc@gmail.com
 
@@ -38,7 +38,7 @@ Skills are **markdown files** that give AI agents focused knowledge and workflow
 
 ```
 marketing-skills/
-├── skills/           # 73 skills — seo/, pages/, components/, channels/, platforms/, strategies/, analytics/
+├── skills/           # 75 skills — seo/, pages/, components/, channels/, platforms/, strategies/, analytics/
 ├── docs/             # using-beyond-cursor.md, skills-list.md, page-types-taxonomy.md
 ├── templates/        # product-marketing-context.md, skills-task-progress.md, report templates
 ├── tools/            # Report generation — generate-report.py, *-guide.md
@@ -50,7 +50,7 @@ marketing-skills/
 
 ## Installation
 
-**Full or selective.** Install all 73 skills, or only the ones you need. Skills are independent — delete unwanted ones after install.
+**Full or selective.** Install all 75 skills, or only the ones you need. Skills are independent — delete unwanted ones after install.
 
 ### CLI (Recommended)
 
@@ -193,7 +193,7 @@ Cross-references: metadata ↔ schema ↔ heading  |  sitemap ↔ indexnow
 
 ## Available Skills
 
-73 skills in 7 categories. [Full list](docs/skills-list.md) · `npx skills add kostja94/marketing-skills --list` (73 skills)
+75 skills in 7 categories. [Full list](docs/skills-list.md) · `npx skills add kostja94/marketing-skills --list` (75 skills)
 
 | Category | Skills |
 |----------|--------|
@@ -226,7 +226,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [SKILLS_GUIDE](SKILL
 | [skills-task-progress](templates/skills-task-progress.md) | Task tracker — status, priority |
 | [using-beyond-cursor](docs/using-beyond-cursor.md) | Lovable, ChatGPT, Gemini — no native support needed |
 | [page-types-taxonomy](docs/page-types-taxonomy.md) | Page classification |
-| [skills-list](docs/skills-list.md) | Full list of all 73 skills |
+| [skills-list](docs/skills-list.md) | Full list of all 75 skills |
 | [SKILLS_GUIDE](SKILLS_GUIDE.md) | Rules, specs, skill authoring |
 | [CHANGELOG](CHANGELOG.md) | What changed, when |
 | [tools/](tools/README.md) | Report generation (keyword, competitor) |

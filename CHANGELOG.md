@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+- **components-favicon** — Favicon, app icons, PWA; sizes 16-512px; SVG/PNG/ICO
+- **components-brand-visual** — Visual identity: typography, colors, spacing; Section 12 template
+- **product-marketing-context** — Section 12: Visual Identity (colors, typography, spacing)
+- **pages-media-kit** — Brand guidelines, logo assets, usage rules; Related Skills: logo, favicon, brand-visual
+- **components-logo** — Encoding fix; Related Skills: media-kit, favicon, brand-visual
+- **components-hero, pages-404** — Encoding fix; Related Skills: brand-visual
 - **pages-article** — Optimization Foundation: Product + Keywords + Article intent + Competitor articles (four inputs)
 - **seo-content-content-strategy** — Content types + SEO fit; evergreen vs timely mix (70–75% / 25–30%)
 - **product-marketing-context** — Section 11: article orientations

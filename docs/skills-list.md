@@ -1,6 +1,6 @@
 # Full Skills List
 
-Complete list of all 70 skills with descriptions. See [README](../README.md) for overview.
+Complete list of all 75 skills with descriptions. See [README](../README.md) for overview.
 
 ## SEO
 
@@ -87,6 +87,8 @@ See [page-types-taxonomy.md](page-types-taxonomy.md) for full taxonomy.
 | [components-toc](../skills/components/toc/) | Table of contents for long-form content |
 | [components-hero](../skills/components/hero/) | Hero section design, conversion |
 | [components-logo](../skills/components/logo/) | Logo placement, linking, brand recall |
+| [components-favicon](../skills/components/favicon/) | Favicon, app icons, PWA icons |
+| [components-brand-visual](../skills/components/brand-visual/) | Visual identity, typography, colors, spacing |
 | [components-trust-badges](../skills/components/trust-badges/) | Trust badges, "Trusted by" logos |
 | [components-testimonials](../skills/components/testimonials/) | Testimonials, reviews, customer quotes |
 | [components-cta](../skills/components/cta/) | Call-to-action button design |

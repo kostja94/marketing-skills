@@ -9,11 +9,11 @@ metadata:
 
 Guides 404 error page design for UX, conversion recovery, and brand consistency.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for brand voice and key pages.
+**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for brand voice, key pages, and Section 12 (Visual Identity).
 
 Identify:
 1. **Site structure**: Key pages to link (homepage, popular pages, search)
@@ -40,7 +40,7 @@ Identify:
 
 ### Design and Branding
 
-- **Consistent design**: Same header, footer, colors as rest of site
+- **Consistent design**: Same header, footer, colors as rest of site (components-brand-visual)
 - **Avoid confusion**: Users should not think they've left your domain
 - **Mobile responsive**: Test on all devices
 
@@ -68,5 +68,6 @@ Identify:
 ## Related Skills
 
 - **pages-home**: Primary escape route
+- **components-brand-visual**: Typography, colors for consistent 404 design
 - **seo-technical-indexing**: noindex for 404 if desired
 - **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: 404 page metadata

@@ -142,17 +142,38 @@ Example URLs to analyze (for "SEO audit tool"):
 
 ---
 
+## 12. Visual Identity (Optional)
+
+Use when components-brand-visual, components-logo, or pages-media-kit need visual specs. Document colors, typography, spacing so the agent can apply consistent branding.
+
+**Colors**:
+- Primary: [e.g. #4D46FE]
+- Secondary/accent: [e.g. #8F6CFF, #B592FF]
+- Backgrounds: [e.g. #F4F5F7, #191919; gradients with opacity]
+
+**Typography**:
+- Headings: [font, weight, color — e.g. Barlow Condensed Semi Bold #191919]
+- Body: [font, weight, color — e.g. Poppins Regular #666666]
+- Sizes: [e.g. Hero 120pt, section 60pt, sub 28pt, body 16pt]
+
+**Spacing**: [e.g. 120px horizontal margin; 120px section padding]
+
+**Layout** (if fixed): [e.g. viewport 1440x900; top bar 72px; footer 620px]
+
+---
+
 ## Quick Reference
 
 | Section | Used by |
 |---------|---------|
-| 1–4 | All skills: SEO, pages, components, channels |
+| 1-4 | All skills: SEO, pages, components, channels |
 | 5 | Technical SEO, sitemap, crawlability; directory submission (URL) |
 | 6 | On-page SEO, metadata, keyword research; directory tags, Primary Task |
 | 7 | Competitive positioning, content strategy |
 | 8 | Copy, tone, testimonials, CTAs; directory descriptions |
-| 9–10 | Features, API docs, content strategy; directory features, pros/cons |
+| 9-10 | Features, API docs, content strategy; directory features, pros/cons |
 | 11 | Article creation, optimization; competitor analysis; product-linked content |
+| 12 | Logo, favicon, brand visual, media kit; typography, colors, spacing |
 
 **Directory submission** (channels-directories): When submitting to Taaft, Product Hunt, etc., the agent reads this file and generates ready-to-paste content (tagline, description, pros/cons, tags) per platform. Fill 1–4, 5, 6, 8, 9 for best results.
 

@@ -1,6 +1,6 @@
 ---
 name: homepage-generator
-description: When the user wants to create, optimize, or audit homepage content and structure. Also use when the user mentions "homepage," "landing page," "main page," or "home page."
+description: When the user wants to create, optimize, or audit homepage content and structure. Also use when the user mentions "homepage," "landing page," "main page," "home page," "hero section," "above the fold," "home page design," "landing page optimization," "homepage conversion," or "homepage structure."
 metadata:
   version: 1.0.0
 ---

@@ -1,6 +1,6 @@
 ---
 name: popup-generator
-description: When the user wants to add, optimize, or audit popups or modals for lead capture or offers. Also use when the user mentions "popup," "modal," "lightbox," "overlay," or "exit-intent."
+description: When the user wants to add, optimize, or audit popups or modals for lead capture or offers. Also use when the user mentions "popup," "modal," "lightbox," "overlay," "exit-intent," "popup form," "modal design," "lead popup," "popup timing," or "popup triggers."
 metadata:
   version: 1.0.0
 ---

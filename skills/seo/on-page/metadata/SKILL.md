@@ -1,6 +1,6 @@
 ---
 name: page-metadata
-description: When the user wants to optimize meta tags other than title, description, Open Graph, or Twitter Cards. Also use when the user mentions "hreflang," "meta robots," "viewport," "charset," "canonical meta," or "other meta tags."
+description: When the user wants to optimize meta tags other than title, description, Open Graph, or Twitter Cards. Also use when the user mentions "hreflang," "meta robots," "viewport," "charset," "canonical meta," "other meta tags," "meta robots noindex," "meta robots nofollow," "hreflang tags," "viewport meta," or "meta charset."
 metadata:
   version: 1.0.0
 ---

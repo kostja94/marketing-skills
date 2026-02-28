@@ -1,6 +1,6 @@
 ---
 name: referral-program
-description: When the user wants to plan, implement, or optimize referral program strategy. Also use when the user mentions "referral program," "referral marketing," "user referral," "refer-a-friend," or "word-of-mouth growth."
+description: When the user wants to plan, implement, or optimize referral program strategy. Also use when the user mentions "referral program," "referral marketing," "user referral," "refer-a-friend," "word-of-mouth growth," "referral rewards," "referral tracking," "referral code," "referral incentives," or "viral loop."
 metadata:
   version: 1.0.0
 ---

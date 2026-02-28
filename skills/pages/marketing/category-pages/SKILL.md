@@ -1,6 +1,6 @@
 ---
 name: category-page-generator
-description: When the user wants to create, optimize, or audit e-commerce category pages or listing pages. Also use when the user mentions "category page," "product category," "faceted navigation," "filter URLs," or "e-commerce listing."
+description: When the user wants to create, optimize, or audit e-commerce category pages or listing pages. Also use when the user mentions "category page," "product category," "faceted navigation," "filter URLs," "e-commerce listing," "category SEO," "category structure," "product filters," or "listing page."
 metadata:
   version: 1.0.0
 ---

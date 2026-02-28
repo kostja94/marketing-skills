@@ -1,6 +1,6 @@
 ---
 name: ai-traffic-tracking
-description: When the user wants to track AI search traffic in GA4 or GSC. Also use when the user mentions "AI traffic," "ChatGPT referral," "Perplexity traffic," "AI Overviews," "GA4 AI sources," or "AI search analytics."
+description: When the user wants to track AI search traffic in GA4 or GSC. Also use when the user mentions "AI traffic," "ChatGPT referral," "Perplexity traffic," "AI Overviews," "GA4 AI sources," "AI search analytics," "track AI referrals," "AI search traffic," "Claude traffic," or "how to track AI traffic."
 metadata:
   version: 1.0.0
 ---

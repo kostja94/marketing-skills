@@ -1,6 +1,6 @@
 ---
 name: navigation-menu-generator
-description: When the user wants to design, optimize, or audit site navigation menus. Also use when the user mentions "navigation," "nav menu," "header menu," "site structure," or "menu design." For breadcrumbs, use breadcrumb-generator.
+description: When the user wants to design, optimize, or audit site navigation menus. Also use when the user mentions "navigation," "nav menu," "header menu," "site structure," "menu design," "navbar," "main menu," "mega menu," "dropdown menu," "mobile menu," or "hamburger menu." For breadcrumbs, use breadcrumb-generator.
 metadata:
   version: 1.0.0
 ---

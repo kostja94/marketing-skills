@@ -1,6 +1,6 @@
 ---
 name: directory-submission
-description: When the user wants to submit a product to directories, launch platforms, curated lists, or app stores. Reads product-marketing-context.md when present and generates ready-to-paste submission content per platform. Also use when the user mentions "directory submission," "curated list," "best tools list," "Taaft," "Product Hunt," "directory ads," "newsletter feature," "directory campaign," "product info for directory," "tailor description per platform," "Shopify App Store," "Chrome Web Store," "submit to directory," "launch on Product Hunt," "navigation site," "product directory," or "get listed."
+description: When the user wants to submit a product to directories, launch platforms, curated lists, or app stores. Reads product-marketing-context.md when present and generates ready-to-paste submission content per platform. Also use when the user mentions "directory submission," "get listed," "app store listing," "submit to directories," "curated list," "best tools list," "Taaft," "Product Hunt," "directory ads," "newsletter feature," "directory campaign," "product info for directory," "tailor description per platform," "Shopify App Store," "Chrome Web Store," "submit to directory," "launch on Product Hunt," "navigation site," or "product directory."
 metadata:
   version: 1.0.0
 ---

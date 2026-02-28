@@ -1,6 +1,6 @@
 ---
 name: robots-txt
-description: When the user wants to configure, audit, or optimize robots.txt. Also use when the user mentions "robots.txt," "crawler rules," "block crawlers," "AI crawlers," "GPTBot," "allow/disallow," or "search engine crawling."
+description: When the user wants to configure, audit, or optimize robots.txt. Also use when the user mentions "robots.txt," "crawler rules," "block crawlers," "AI crawlers," "GPTBot," "allow/disallow," "disallow path," "crawl directives," "user-agent," "block Googlebot," "fix robots.txt," "robots.txt blocking," or "search engine crawling."
 metadata:
   version: 1.0.0
 ---

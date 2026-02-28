@@ -1,6 +1,6 @@
 ---
 name: legal-page-generator
-description: When the user wants to create, optimize, or structure legal pages (Privacy, Terms, etc.). Also use when the user mentions "privacy policy," "terms of service," "legal pages," "cookie policy," or "terms and conditions."
+description: When the user wants to create, optimize, or structure legal pages (Privacy, Terms, etc.). Also use when the user mentions "privacy policy," "terms of service," "legal pages," "cookie policy," "terms and conditions," "legal footer," "legal section," "compliance pages," or "legal requirements."
 metadata:
   version: 1.0.0
 ---

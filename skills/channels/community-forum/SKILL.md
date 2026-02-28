@@ -1,6 +1,6 @@
 ---
 name: community-forum
-description: When the user wants to promote via forums, communities, or invite users to join a community. Also use when the user mentions "forum promotion," "Indie Hacker," "Hacker News," "community growth," "Discord promotion," "vertical community," "brand encyclopedia," "Wikipedia," or "Quora."
+description: When the user wants to promote via forums, communities, or invite users to join a community. Also use when the user mentions "forum promotion," "Indie Hacker," "Hacker News," "community growth," "Discord promotion," "vertical community," "brand encyclopedia," "Wikipedia," "Quora," "Reddit community," "community building," "forum marketing," or "community invite."
 metadata:
   version: 1.0.0
 ---

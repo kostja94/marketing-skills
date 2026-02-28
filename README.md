@@ -39,7 +39,7 @@ Skills are **markdown files** that give AI agents focused knowledge and workflow
 ```
 marketing-skills/
 ├── skills/           # 83 skills — seo/, pages/, components/, channels/, platforms/, strategies/, analytics/
-├── docs/             # using-beyond-cursor.md, skills-list.md, page-types-taxonomy.md
+├── docs/             # skills-list (incl. page taxonomy), using-beyond-cursor, naming-rules, description-rules
 ├── templates/        # product-marketing-context.md, skills-task-progress.md, report templates
 ├── tools/            # Report generation — generate-report.py, *-guide.md
 ├── README.md
@@ -198,7 +198,7 @@ Cross-references: metadata ↔ schema ↔ heading  |  sitemap ↔ indexnow
 | Category | Skills |
 |----------|--------|
 | **SEO** (19) | [Technical](skills/seo/technical/): robots, sitemap, canonical, indexing, indexnow, crawlability · [On-Page](skills/seo/on-page/): title, description, metadata, open-graph, twitter-cards, schema, internal-links, url-structure, heading · [Off-Page](skills/seo/off-page/): link-building, backlink-analysis · [Content](skills/seo/content/): keyword-research, content-strategy |
-| **Pages** (24) | [page-types-taxonomy](docs/page-types-taxonomy.md) — brand, content, marketing, legal, utility |
+| **Pages** (24) | [skills-list](docs/skills-list.md#pages) — brand, content, marketing, legal, utility |
 | **Components** (11) | nav, breadcrumb, footer, hero, toc, logo, trust-badges, testimonials, cta, newsletter-signup, url-slug |
 | **Channels** (8) | affiliate, email-marketing, egc, influencer, referral, creator-program, community-forum, directories |
 | **Platforms** (5) | x, reddit, linkedin, tiktok, grokipedia |
@@ -224,8 +224,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [SKILLS_GUIDE](SKILL
 |----------|---------|
 | [product-marketing-context](templates/product-marketing-context.md) | Context template |
 | [skills-task-progress](templates/skills-task-progress.md) | Task tracker — status, priority |
+| [docs/](docs/README.md) | Documentation index |
 | [using-beyond-cursor](docs/using-beyond-cursor.md) | Lovable, ChatGPT, Gemini — no native support needed |
-| [page-types-taxonomy](docs/page-types-taxonomy.md) | Page classification |
 | [skills-list](docs/skills-list.md) | Full list of all 83 skills |
 | [SKILLS_GUIDE](SKILLS_GUIDE.md) | Rules, specs, skill authoring |
 | [CHANGELOG](CHANGELOG.md) | What changed, when |

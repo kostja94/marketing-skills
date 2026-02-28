@@ -1,6 +1,6 @@
 ---
 name: about-page-generator
-description: When the user wants to create, optimize, or audit About page content. Also use when the user mentions "about page," "about us," "company story," or "our team."
+description: When the user wants to create, optimize, or audit About page content. Also use when the user mentions "about page," "about us," "company story," "our team," "about section," "company overview," "brand story," "team page," or "who we are."
 metadata:
   version: 1.0.0
 ---

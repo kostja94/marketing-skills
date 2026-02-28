@@ -1,6 +1,6 @@
 ---
 name: meta-description
-description: When the user wants to optimize the meta description or meta tag description. Also use when the user mentions "meta description," "page description," "SEO description," or "snippet for search."
+description: When the user wants to optimize the meta description or meta tag description. Also use when the user mentions "meta description," "meta desc," "page description," "SEO description," "search snippet," "SERP description," "description tag," "snippet for search," "meta description length," "rewrite meta description," or "description not showing."
 metadata:
   version: 1.0.0
 ---

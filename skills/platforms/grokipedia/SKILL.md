@@ -1,6 +1,6 @@
 ---
 name: grokipedia-recommendations
-description: When the user wants to add recommendations, links, or content to Grokipedia. Also use when the user mentions "Grokipedia," "parasite SEO," "GEO wiki," "AI encyclopedia," "suggest Grokipedia article," or "Grokipedia citation."
+description: When the user wants to add recommendations, links, or content to Grokipedia. Also use when the user mentions "Grokipedia," "parasite SEO," "GEO wiki," "AI encyclopedia," "suggest Grokipedia article," "Grokipedia citation," "Grokipedia listing," "AI search citation," "GEO visibility," or "Grokipedia optimization."
 metadata:
   version: 1.0.0
 ---

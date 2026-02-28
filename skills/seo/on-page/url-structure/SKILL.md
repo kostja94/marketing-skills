@@ -1,6 +1,6 @@
 ---
 name: url-structure
-description: When the user wants to optimize URL structure, fix URL issues, or plan URL hierarchy. Also use when the user mentions "URL structure," "URL optimization," "slug," "clean URLs," or "URL hierarchy."
+description: When the user wants to optimize URL structure, fix URL issues, or plan URL hierarchy. Also use when the user mentions "URL structure," "URL optimization," "slug," "clean URLs," "URL hierarchy," "URL path," "permalink structure," "URL best practices," "dynamic URLs," or "URL parameters."
 metadata:
   version: 1.0.0
 ---

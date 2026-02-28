@@ -6,7 +6,7 @@ Contributions are welcome! Here's how to add or improve skills.
 
 1. Create a new directory under the appropriate category:
    - SEO: `skills/seo/{technical,on-page,off-page,content}/skill-name/`
-   - Pages: `skills/pages/{brand,content,marketing,legal,utility}/skill-name/` (see [page-types-taxonomy](docs/page-types-taxonomy.md))
+   - Pages: `skills/pages/{brand,content,marketing,legal,utility}/skill-name/` (see [skills-list §Pages](docs/skills-list.md#pages))
 2. Add `SKILL.md` with:
    - YAML frontmatter: `name`, `description`, `metadata.version`
    - Scope section (what the skill covers)

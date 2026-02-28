@@ -46,35 +46,62 @@ Complete list of all 83 skills with descriptions. See [README](../README.md) for
 
 ## Pages
 
-See [page-types-taxonomy.md](page-types-taxonomy.md) for full taxonomy.
+Page classification framework for navigation design, sitemaps, content strategy, and SEO. Paths: `skills/pages/{brand,content,marketing,legal,utility}/`.
 
-| Purpose | Skill | Description |
-|---------|-------|-------------|
-| Brand | [homepage-generator](../skills/pages/brand/home/) | Homepage content, structure, conversion |
-| Brand | [about-page-generator](../skills/pages/brand/about/) | About page, company story, trust |
-| Brand | [contact-page-generator](../skills/pages/brand/contact/) | Contact page, form optimization |
-| SEO | [features-page-generator](../skills/pages/content/features/) | Features page, benefit-first copy |
-| SEO | [glossary-page-generator](../skills/pages/content/glossary/) | Glossary, definitions, internal linking |
-| SEO | [blog-page-generator](../skills/pages/content/blog/) | Blog index page, SEO, content strategy |
-| SEO | [article-page-generator](../skills/pages/content/article/) | Single article/post page, structure, SEO |
-| SEO | [resources-page-generator](../skills/pages/content/resources/) | Resources page, content hub |
-| SEO | [faq-page-generator](../skills/pages/content/faq/) | FAQ page, SEO, conversion |
-| SEO | [api-page-generator](../skills/pages/content/api/) | API introduction page |
-| Marketing | [pricing-page-generator](../skills/pages/marketing/pricing/) | Pricing page, plans, objection handling |
-| Marketing | [products-page-generator](../skills/pages/marketing/products/) | Product listing (e-commerce) |
-| Marketing | [services-page-generator](../skills/pages/marketing/services/) | Services page (consulting, agencies) |
-| Marketing | [category-page-generator](../skills/pages/marketing/category-pages/) | E-commerce category pages |
-| Marketing | [customer-stories-page-generator](../skills/pages/marketing/customer-stories/) | Case studies, success stories |
-| Marketing | [affiliate-page-generator](../skills/pages/marketing/affiliate-program/) | Affiliate program page |
-| Marketing | [media-kit-page-generator](../skills/pages/marketing/media-kit/) | Media kit, press resources |
-| Legal | [privacy-page-generator](../skills/pages/legal/privacy/) | Privacy Policy page |
-| Legal | [terms-page-generator](../skills/pages/legal/terms/) | Terms of Service page |
-| Legal | [cookie-policy-page-generator](../skills/pages/legal/cookie-policy/) | Cookie policy, GDPR |
-| Legal | [legal-page-generator](../skills/pages/legal/legal/) | Legal pages overview |
-| Legal | [refund-page-generator](../skills/pages/legal/refund/) | Refund/return policy |
-| Legal | [shipping-page-generator](../skills/pages/legal/shipping/) | Shipping/delivery info |
-| Utility | [404-page-generator](../skills/pages/utility/404/) | 404 error page, UX, conversion recovery |
-| Utility | [careers-page-generator](../skills/pages/utility/careers/) | Careers page, jobs, employer branding |
+### Classification Dimensions
+
+| Purpose | Goal | Key Metrics |
+|---------|------|-------------|
+| **Brand** | Build awareness, trust, identity | Brand search, dwell time, trust signals |
+| **SEO** | Organic traffic, educate users, topical authority | Organic rankings, traffic, backlinks |
+| **Marketing** | Conversion, acquisition, partnership recruitment | Conversion rate, CAC, signups/purchases |
+| **Legal** | Compliance, transparency, risk control | Compliance, accessibility |
+| **Utility** | Navigation support, UX, system functions | Usability, error recovery |
+
+| Intent | User Stage | Typical Pages |
+|--------|------------|---------------|
+| **Navigational** | Finding brand/website | Homepage, brand pages |
+| **Informational** | Learning, understanding | Blog, guides, glossary, FAQ |
+| **Commercial** | Comparing, evaluating | Features, pricing, services, case studies |
+| **Transactional** | Buying, signing up, taking action | Product pages, pricing, landing pages |
+
+### Page Mapping
+
+| Purpose | Page | Skill | Intent | Funnel |
+|---------|------|-------|--------|--------|
+| Brand | Home | [homepage-generator](../skills/pages/brand/home/) | Navigational | Awareness |
+| Brand | About | [about-page-generator](../skills/pages/brand/about/) | Navigational | Awareness |
+| Brand | Contact | [contact-page-generator](../skills/pages/brand/contact/) | Navigational | Support |
+| SEO | Features | [features-page-generator](../skills/pages/content/features/) | Commercial | Consideration |
+| SEO | Glossary | [glossary-page-generator](../skills/pages/content/glossary/) | Informational | Awareness |
+| SEO | Blog | [blog-page-generator](../skills/pages/content/blog/) | Informational | Awareness |
+| SEO | Article | [article-page-generator](../skills/pages/content/article/) | Informational | Awareness |
+| SEO | Resources | [resources-page-generator](../skills/pages/content/resources/) | Informational | Awareness |
+| SEO | FAQ | [faq-page-generator](../skills/pages/content/faq/) | Informational | Consideration |
+| SEO | API | [api-page-generator](../skills/pages/content/api/) | Informational | Consideration |
+| Marketing | Pricing | [pricing-page-generator](../skills/pages/marketing/pricing/) | Transactional | Decision |
+| Marketing | Products | [products-page-generator](../skills/pages/marketing/products/) | Transactional | Decision |
+| Marketing | Services | [services-page-generator](../skills/pages/marketing/services/) | Commercial | Consideration |
+| Marketing | Category pages | [category-page-generator](../skills/pages/marketing/category-pages/) | Commercial | Consideration |
+| Marketing | Customer stories | [customer-stories-page-generator](../skills/pages/marketing/customer-stories/) | Commercial | Consideration |
+| Marketing | Affiliate program | [affiliate-page-generator](../skills/pages/marketing/affiliate-program/) | Transactional | Decision |
+| Marketing | Media kit | [media-kit-page-generator](../skills/pages/marketing/media-kit/) | Commercial | Consideration |
+| Legal | Privacy | [privacy-page-generator](../skills/pages/legal/privacy/) | — | Support |
+| Legal | Terms | [terms-page-generator](../skills/pages/legal/terms/) | — | Support |
+| Legal | Cookie policy | [cookie-policy-page-generator](../skills/pages/legal/cookie-policy/) | — | Support |
+| Legal | Legal | [legal-page-generator](../skills/pages/legal/legal/) | — | Support |
+| Legal | Refund | [refund-page-generator](../skills/pages/legal/refund/) | — | Support |
+| Legal | Shipping | [shipping-page-generator](../skills/pages/legal/shipping/) | — | Support |
+| Utility | 404 | [404-page-generator](../skills/pages/utility/404/) | — | — |
+| Utility | Careers | [careers-page-generator](../skills/pages/utility/careers/) | Commercial | Consideration |
+
+### Best Practices
+
+- **Match intent to page type**: Informational → blog, FAQ, glossary; Commercial → features, pricing, case studies; Transactional → products, pricing.
+- **Avoid intent mismatch**: One clear primary goal per page.
+- **Internal linking**: Brand → conversion paths; SEO → commercial/transactional; Legal in footer.
+- **Indexing**: Brand, SEO, marketing: index; Legal: index but not keyword-optimized; System pages: noindex.
+- **Navigation**: Primary nav = brand + core marketing; Secondary = blog, resources, glossary; Footer = legal, contact, utility.
 
 ## Components
 

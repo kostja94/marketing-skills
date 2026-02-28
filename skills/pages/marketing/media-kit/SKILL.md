@@ -1,6 +1,6 @@
 ---
 name: media-kit-page-generator
-description: When the user wants to create, optimize, or audit media kit or press page. Also use when the user mentions "media kit," "press kit," "press page," "press resources," or "brand assets."
+description: When the user wants to create, optimize, or audit media kit or press page. Also use when the user mentions "media kit," "press kit," "press page," "press resources," "brand assets," "logo download," "press assets," "media resources," or "brand kit."
 metadata:
   version: 1.0.0
 ---

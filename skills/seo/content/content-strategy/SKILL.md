@@ -1,6 +1,6 @@
 ---
 name: content-strategy
-description: When the user wants to plan content for SEO, create content calendar, or build topic clusters. Also use when the user mentions "content strategy," "content plan," "topic clusters," "pillar content," "pillar page," "cluster articles," or "editorial calendar."
+description: When the user wants to plan content for SEO, create content calendar, or build topic clusters. Also use when the user mentions "content strategy," "content plan," "topic clusters," "pillar content," "pillar page," "cluster articles," "editorial calendar," "content hub," "content planning," "content clusters," "topic cluster strategy," "content strategy for SEO," or "content calendar."
 metadata:
   version: 1.0.0
 ---

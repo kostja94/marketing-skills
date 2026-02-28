@@ -1,6 +1,6 @@
 ---
 name: customer-stories-page-generator
-description: When the user wants to create, optimize, or audit customer stories or case study pages. Also use when the user mentions "case studies," "customer stories," "success stories," or "testimonials page."
+description: When the user wants to create, optimize, or audit customer stories or case study pages. Also use when the user mentions "case studies," "customer stories," "success stories," "testimonials page," "case study," "customer proof," "social proof page," or "results page."
 metadata:
   version: 1.0.0
 ---

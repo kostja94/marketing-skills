@@ -1,6 +1,6 @@
 ---
 name: creator-program
-description: When the user wants to plan, implement, or optimize creator program strategy. Also use when the user mentions "creator program," "creator partnership," "content co-creation," or "creator ambassador."
+description: When the user wants to plan, implement, or optimize creator program strategy. Also use when the user mentions "creator program," "creator partnership," "content co-creation," "creator ambassador," "creator economy," "creator collaboration," "UGC program," "creator incentives," or "creator community."
 metadata:
   version: 1.0.0
 ---

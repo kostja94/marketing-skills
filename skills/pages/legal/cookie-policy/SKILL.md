@@ -1,6 +1,6 @@
 ---
 name: cookie-policy-page-generator
-description: When the user wants to create or optimize a cookie policy page. Also use when the user mentions "cookie policy," "cookies," "cookie consent," or "GDPR cookies."
+description: When the user wants to create or optimize a cookie policy page. Also use when the user mentions "cookie policy," "cookies," "cookie consent," "GDPR cookies," "cookie banner," "cookie notice," "tracking cookies," or "cookie settings."
 metadata:
   version: 1.0.0
 ---

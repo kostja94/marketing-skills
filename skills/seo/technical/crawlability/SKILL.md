@@ -1,6 +1,6 @@
 ---
 name: site-crawlability
-description: When the user wants to improve crawlability, fix orphan pages, or optimize site structure for search engines. Also use when the user mentions "crawlability," "crawl budget," "orphan pages," "internal links," or "site structure."
+description: When the user wants to improve crawlability, fix orphan pages, or optimize site structure for search engines. Also use when the user mentions "crawlability," "crawl budget," "orphan pages," "internal links," "site structure," or "site crawlability."
 metadata:
   version: 1.0.0
 ---

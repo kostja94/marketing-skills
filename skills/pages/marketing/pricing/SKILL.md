@@ -1,6 +1,6 @@
 ---
 name: pricing-page-generator
-description: When the user wants to create, optimize, or audit pricing page content and structure. Also use when the user mentions "pricing page," "pricing table," "plans," or "subscription."
+description: When the user wants to create, optimize, or audit pricing page content and structure. Also use when the user mentions "pricing page," "pricing table," "plans," "subscription," "pricing plans," "pricing tiers," "pricing comparison," "SaaS pricing," "pricing page design," or "pricing objection handling."
 metadata:
   version: 1.0.0
 ---

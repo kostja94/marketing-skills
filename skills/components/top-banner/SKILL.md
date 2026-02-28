@@ -1,6 +1,6 @@
 ---
 name: top-banner-generator
-description: When the user wants to add, optimize, or audit a top announcement bar or sticky banner. Also use when the user mentions "announcement bar," "top banner," "sticky bar," "promo banner," or "header banner."
+description: When the user wants to add, optimize, or audit a top announcement bar or sticky banner. Also use when the user mentions "announcement bar," "top banner," "sticky bar," "promo banner," "header banner," "announcement bar design," "sticky header," "promo bar," "urgency banner," or "lead capture bar."
 metadata:
   version: 1.0.0
 ---

@@ -1,6 +1,6 @@
 ---
 name: generative-engine-optimization
-description: When the user wants to optimize for AI search visibility (ChatGPT, Claude, Perplexity). Also use when the user mentions "GEO," "AEO," "generative engine optimization," "AI search visibility," "LLM optimization," "parasite SEO," or "Grokipedia."
+description: When the user wants to optimize for AI search visibility (ChatGPT, Claude, Perplexity). Also use when the user mentions "GEO," "AEO," "generative engine optimization," "AI search visibility," "LLM optimization," "parasite SEO," "Grokipedia," "optimize for ChatGPT," "AI Overviews," "Perplexity optimization," "GEO strategy," or "AI search optimization."
 metadata:
   version: 1.0.0
 ---

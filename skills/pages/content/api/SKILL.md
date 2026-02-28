@@ -1,6 +1,6 @@
 ---
 name: api-page-generator
-description: When the user wants to create, optimize, or audit the API introduction/overview page. Also use when the user mentions "API page," "API landing page," or "/api page." Note: API documentation (endpoint reference, developer docs) is a separate page type.
+description: When the user wants to create, optimize, or audit the API introduction/overview page. Also use when the user mentions "API page," "API landing page," "/api page," "API overview," "developer landing," "API marketing," or "API for developers." Note: API documentation (endpoint reference, developer docs) is a separate page type.
 metadata:
   version: 1.0.0
 ---

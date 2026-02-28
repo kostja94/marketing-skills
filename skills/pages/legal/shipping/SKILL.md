@@ -1,6 +1,6 @@
 ---
 name: shipping-page-generator
-description: When the user wants to create or optimize a shipping or delivery information page. Also use when the user mentions "shipping," "delivery," "shipping policy," or "delivery times."
+description: When the user wants to create or optimize a shipping or delivery information page. Also use when the user mentions "shipping," "delivery," "shipping policy," "delivery times," "shipping page," "free shipping," "shipping rates," "delivery options," or "shipping info."
 metadata:
   version: 1.0.0
 ---

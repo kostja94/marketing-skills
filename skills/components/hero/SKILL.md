@@ -1,6 +1,6 @@
 ---
 name: hero-generator
-description: When the user wants to design, optimize, or audit hero sections (above-the-fold main visual area). Also use when the user mentions "hero," "hero section," "above the fold," "landing hero," or "main banner."
+description: When the user wants to design, optimize, or audit hero sections (above-the-fold main visual area). Also use when the user mentions "hero," "hero section," "hero area," "above the fold," "above the fold content," "landing hero," "main banner," "banner section," "first fold," "hero section design," or "hero conversion."
 metadata:
   version: 1.0.0
 ---

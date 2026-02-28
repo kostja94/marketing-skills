@@ -1,6 +1,6 @@
 ---
 name: blog-page-generator
-description: When the user wants to create, optimize, or audit blog page structure and content. Also use when the user mentions "blog page," "blog index," "blog layout," or "content hub."
+description: When the user wants to create, optimize, or audit blog page structure and content. Also use when the user mentions "blog page," "blog index," "blog layout," "content hub," "blog homepage," "blog listing," "subdomain vs subdirectory," "blog structure," or "blog SEO."
 metadata:
   version: 1.0.0
 ---

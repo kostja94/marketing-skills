@@ -1,6 +1,6 @@
 ---
 name: link-building
-description: When the user wants to build backlinks, acquire links, or improve off-page SEO. Also use when the user mentions "link building," "backlinks," "off-page SEO," "link acquisition," or "outreach."
+description: When the user wants to build backlinks, acquire links, or improve off-page SEO. Also use when the user mentions "link building," "backlinks," "off-page SEO," "link acquisition," "outreach," "guest posting," "broken link building," "link outreach," "acquire backlinks," "how to build backlinks," or "link building strategy."
 metadata:
   version: 1.0.0
 ---

@@ -102,7 +102,7 @@ description: A description of what this skill does and when to use it.
 
 ### 3.3 description Field Rules
 
-Full specification: [docs/description-rules.md](docs/description-rules.md). Optimization suggestions: [docs/description-optimization-suggestions.md](docs/description-optimization-suggestions.md).
+Full specification: [docs/description-rules.md](docs/description-rules.md).
 
 **Must include**:
 1. **WHAT**: What the skill does (specific capabilities)

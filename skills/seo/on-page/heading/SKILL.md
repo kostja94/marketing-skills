@@ -1,6 +1,6 @@
 ---
 name: heading-structure
-description: When the user wants to optimize heading structure (H1-H6), fix heading hierarchy, or improve content structure. Also use when the user mentions "H1," "heading," "heading hierarchy," or "content structure."
+description: When the user wants to optimize heading structure (H1-H6), fix heading hierarchy, or improve content structure. Also use when the user mentions "H1," "heading," "heading hierarchy," "content structure," "H2," "H3," "heading tags," "heading SEO," "multiple H1," or "heading structure."
 metadata:
   version: 1.0.0
 ---

@@ -74,7 +74,7 @@
 
 ## 5. Pages
 
-Add rows for pages that exist or need creation. See [page-types-taxonomy](https://github.com/kostja94/marketing-skills/blob/main/docs/page-types-taxonomy.md) for full taxonomy.
+Add rows for pages that exist or need creation. See [skills-list §Pages](https://github.com/kostja94/marketing-skills/blob/main/docs/skills-list.md#pages) for page taxonomy.
 
 | Page | Skill | Status | Priority | Notes | Updated |
 |------|-------|--------|----------|-------|---------|

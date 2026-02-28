@@ -1,6 +1,6 @@
 ---
 name: keyword-research
-description: When the user wants to research keywords, find target keywords, or analyze search intent. Also use when the user mentions "keyword research," "target keywords," "search volume," "search intent," or "keyword difficulty."
+description: When the user wants to research keywords, find target keywords, or analyze search intent. Also use when the user mentions "keyword research," "keyword tool," "target keywords," "search volume," "search intent," or "keyword difficulty."
 metadata:
   version: 1.0.0
 ---

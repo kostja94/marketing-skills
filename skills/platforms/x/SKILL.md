@@ -1,6 +1,6 @@
 ---
 name: twitter-x-posts
-description: When the user wants to create X (Twitter) post copy, threads, or optimize for X platform. Also use when the user mentions "X post," "Twitter post," "tweet," "thread," "X marketing," or "post to X."
+description: When the user wants to create X (Twitter) post copy, threads, or optimize for X platform. Also use when the user mentions "X post," "X thread," "Twitter post," "Twitter thread," "tweet," "tweet copy," "thread," "X marketing," "X content," "post to X," "create X post," or "X post copy."
 metadata:
   version: 1.0.0
 ---

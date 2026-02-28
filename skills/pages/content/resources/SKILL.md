@@ -1,6 +1,6 @@
 ---
 name: resources-page-generator
-description: When the user wants to create, optimize, or audit resources page or content hub. Also use when the user mentions "resources page," "resource center," "content hub," or "learning center."
+description: When the user wants to create, optimize, or audit resources page or content hub. Also use when the user mentions "resources page," "resource center," "content hub," "learning center," "resource library," "downloads," "templates," "guides," or "resource hub."
 metadata:
   version: 1.0.0
 ---

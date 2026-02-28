@@ -1,6 +1,6 @@
 ---
 name: brand-visual-generator
-description: When the user wants to define, audit, or apply visual identity (typography, colors, spacing). Also use when the user mentions "brand style guide," "visual identity," "design system," "typography," "color palette," "brand guidelines," or "AI brand aesthetics."
+description: When the user wants to define, audit, or apply visual identity (typography, colors, spacing). Also use when the user mentions "brand style guide," "visual identity," "design system," "typography," "color palette," "brand guidelines," "AI brand aesthetics," "brand colors," "font choices," "spacing system," or "design tokens."
 metadata:
   version: 1.0.0
 ---

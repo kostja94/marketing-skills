@@ -1,6 +1,6 @@
 ---
 name: employee-generated-content
-description: When the user wants to plan, implement, or optimize employee-generated content (EGC) or employee advocacy. Also use when the user mentions "EGC," "employee advocacy," "employee content," "internal brand ambassadors," or "employee social media."
+description: When the user wants to plan, implement, or optimize employee-generated content (EGC) or employee advocacy. Also use when the user mentions "EGC," "employee advocacy," "employee content," "internal brand ambassadors," "employee social media," "employee advocacy program," "staff advocacy," "LinkedIn employee posts," or "brand ambassador program."
 metadata:
   version: 1.0.0
 ---

@@ -1,6 +1,6 @@
 ---
 name: article-page-generator
-description: When the user wants to create, optimize, or audit a single article/post page (not the blog index). Also use when the user mentions "article page," "blog post page," "single post," "post template," "individual article," "competitor article analysis," "optimize based on top-ranking articles," or "analyze ranking articles."
+description: When the user wants to create, optimize, or audit a single article/post page (not the blog index). Also use when the user mentions "article page," "blog post," "blog post page," "long-form content," "single post," "post template," "individual article," "article structure," "post optimization," "competitor article analysis," "optimize based on top-ranking articles," "analyze ranking articles," "optimize article for SEO," or "article schema."
 metadata:
   version: 1.0.0
 ---

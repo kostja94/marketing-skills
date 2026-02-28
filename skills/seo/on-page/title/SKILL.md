@@ -1,6 +1,6 @@
 ---
 name: title-tag
-description: When the user wants to optimize the title tag, page title, or SEO title. Also use when the user mentions "title tag," "page title," "SEO title," "title optimization," or "headline for search."
+description: When the user wants to optimize the title tag, page title, or SERP title. Also use when the user mentions "title tag," "meta title," "page title," "SEO title," "SERP title," "browser tab title," "title optimization," "headline for search," "title too long," "title tag length," "duplicate title tags," or "optimize title for CTR."
 metadata:
   version: 1.0.0
 ---

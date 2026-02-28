@@ -1,6 +1,6 @@
 ---
 name: cta-generator
-description: When the user wants to design, optimize, or audit call-to-action (CTA) buttons. Also use when the user mentions "CTA," "call to action," "button design," "conversion button," or "primary action."
+description: When the user wants to design, optimize, or audit call-to-action (CTA) buttons. Also use when the user mentions "CTA," "call to action," "button design," "conversion button," "primary action," "CTA copy," "button text," "CTA placement," "conversion CTA," or "action button."
 metadata:
   version: 1.0.0
 ---

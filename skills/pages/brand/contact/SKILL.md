@@ -71,4 +71,4 @@ Identify:
 
 - **pages-about**: Contact often linked from About
 - **pages-legal**: Privacy policy link near form
-- **seo-on-page-metadata**: Contact page metadata
+- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: Contact page metadata

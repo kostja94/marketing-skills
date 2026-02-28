@@ -75,4 +75,4 @@ Identify:
 - **pages-pricing**: FAQ often addresses pricing objections
 - **pages-contact**: FAQ reduces contact form volume
 - **seo-on-page-schema**: FAQPage schema
-- **seo-on-page-metadata**: FAQ page metadata
+- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: FAQ page metadata

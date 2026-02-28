@@ -14,7 +14,7 @@ Guides internal linking strategy for SEO: crawlability, link equity distribution
 ## Scope (On-Page SEO)
 
 - **Internal links**: Contextual links; descriptive anchor text; related posts; hub pages
-- **Breadcrumbs**: Implement for large sites (e.g. ecommerce)
+- **Breadcrumbs**: Implement for large sites (e.g. ecommerce); see components-breadcrumb
 
 ## Initial Assessment
 
@@ -33,7 +33,7 @@ Identify:
 |-----------|-----------|
 | **Depth** | Important pages within 3 clicks from homepage |
 | **Orphan pages** | Avoid; ensure every page has at least one internal link |
-| **Hub-to-spoke** | Link from hub/pillar pages to supporting content |
+| **Hub-to-spoke** | Link from hub/pillar pages to cluster articles; topic cluster structure |
 | **Contextual** | Place links in relevant body content, not just footers |
 
 ### Anchor Text
@@ -71,6 +71,8 @@ Identify:
 
 ## Related Skills
 
+- **pages-article**: Related posts, contextual links, end-of-article recommendations
 - **seo-technical-crawlability**: Internal links enable crawling
 - **seo-on-page-url-structure**: URL structure affects link patterns
-- **seo-content-content-strategy**: Content clusters inform link structure
+- **seo-content-content-strategy**: Topic clusters inform link structure; pillar <-> cluster; cluster <-> cluster
+- **components-breadcrumb**: Breadcrumbs are internal links; category hierarchy

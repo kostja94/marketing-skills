@@ -57,4 +57,4 @@ Identify:
 
 - **pages-about**: Culture and team overlap
 - **seo-on-page-schema**: JobPosting schema
-- **seo-on-page-metadata**: Careers page metadata
+- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: Careers page metadata

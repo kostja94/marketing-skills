@@ -61,4 +61,4 @@ Identify:
 - **pages-home**: About often linked from homepage
 - **pages-contact**: Contact info on About
 - **pages-customer-stories**: Social proof complements About
-- **seo-on-page-metadata**: About page metadata
+- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: About page metadata

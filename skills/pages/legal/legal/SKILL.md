@@ -71,5 +71,5 @@ Identify:
 - **pages-privacy**: Privacy Policy page
 - **pages-terms**: Terms of Service page
 - **seo-technical-indexing**: noindex for legal pages
-- **seo-on-page-metadata**: Legal page metadata
+- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: Legal page metadata
 - **pages-home**: Footer links to legal

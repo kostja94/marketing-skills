@@ -58,4 +58,4 @@ Identify:
 
 - **pages-home**: Link to API page for developers
 - **seo-on-page-schema**: WebPage or SoftwareApplication schema
-- **seo-on-page-metadata**: API page metadata
+- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: API page metadata

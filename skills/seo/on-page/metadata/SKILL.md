@@ -1,72 +1,102 @@
 ---
 name: seo-on-page-metadata
-description: When the user wants to optimize meta tags, title, description, or hreflang. Also use when the user mentions "meta tags," "title tag," "meta description," or "hreflang."
+description: When the user wants to optimize meta tags other than title, description, Open Graph, or Twitter Cards. Also use when the user mentions "hreflang," "meta robots," "viewport," "charset," "canonical meta," or "other meta tags."
 metadata:
   version: 1.0.0
 ---
 
-# SEO On-Page: Metadata
+# SEO On-Page: Metadata (Other Meta Tags)
 
-Guides optimization of meta tags, title, description, hreflang, Open Graph, and Twitter Card.
+Guides optimization of meta tags beyond title, description, Open Graph, and Twitter Cards. Covers hreflang, robots, viewport, charset, and metadata completeness.
 
-**When invoking**: On **first use**, if helpful, open with 1×? sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Scope (On-Page SEO)
 
-- **Title tag**: ~55 chars; primary keyword near start; clear, compelling
-- **Meta description**: ~105 chars; CTA; unique value; target keyword
 - **Hreflang**: Language/region targeting for multilingual sites
-- **Metadata completeness**: All pages have title + meta description
+- **Meta robots**: index/noindex, follow/nofollow (page-level)
+- **Viewport**: Mobile responsiveness
+- **Charset**: Character encoding
+- **Metadata completeness**: All pages have title + meta description (see seo-on-page-title, seo-on-page-description)
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for brand voice and target keywords.
+**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for language/locale and indexing goals.
 
 Identify:
-1. **Page type**: Homepage, landing, blog, product, etc.
-2. **Primary keyword**: Target search query
-3. **Multi-language**: zh, en, x-default if applicable
+1. **Multi-language**: zh, en, x-default if applicable
+2. **Indexing**: Full index, noindex for specific pages
+3. **Tech stack**: Next.js, HTML, etc.
 
-## Best Practices
-
-### Title Tag
-
-| Item | Guideline |
-|------|-----------|
-| **Length** | ~55 characters (Google truncates beyond that) |
-| **Keyword** | Include primary keyword near the start |
-| **Unique** | One unique title per page |
-| **Brand** | Optional: append brand at end |
-
-### Meta Description
-
-| Item | Guideline |
-|------|-----------|
-| **Length** | ~105 characters (truncates on mobile/desktop beyond that) |
-| **Unique** | One per page |
-| **CTA** | Include clear call-to-action when relevant |
-| **Keyword** | Naturally include target keyword |
-
-### hreflang (Multi-language)
+## hreflang (Multi-language)
 
 - Use `alternates.languages` in Next.js metadata
 - Include `x-default` for default language
 - Each language version should reference all others
 - **References**: [Google hreflang](https://developers.google.com/search/docs/specialty/international/localized-versions)
 
+### Next.js (App Router)
+
+```tsx
+export const metadata = {
+  alternates: {
+    languages: {
+      'en-US': '/en/page',
+      'zh-CN': '/zh/page',
+      'x-default': '/en/page',
+    },
+  },
+};
+```
+
+### HTML (generic)
+
+```html
+<link rel="alternate" hreflang="en" href="https://example.com/en/page" />
+<link rel="alternate" hreflang="zh" href="https://example.com/zh/page" />
+<link rel="alternate" hreflang="x-default" href="https://example.com/en/page" />
+```
+
+## Meta Robots (Page-level)
+
+For pages that should not be indexed:
+
+```html
+<meta name="robots" content="noindex, nofollow">
+```
+
+Or in Next.js: `metadata.robots = { index: false }`. See seo-technical-indexing for full indexing control.
+
+## Viewport
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
+
+Required for mobile-friendly pages; affects Core Web Vitals and mobile search.
+
+## Charset
+
+```html
+<meta charset="UTF-8">
+```
+
+Place in `<head>`; first child of `<head>` recommended.
+
 ## Output Format
 
-- **Recommended title** (with character count)
-- **Recommended meta description** (with character count)
 - **hreflang** setup if multi-language
-
-## GSC-Driven Optimization
-
-For pages with low CTR despite good position, use analytics-google-search-console to identify opportunities. Compare actual CTR vs expected by position; optimize title/meta for pages with CTR gap.
+- **Meta robots** if noindex needed
+- **Viewport** / **charset** if missing
 
 ## Related Skills
 
-- **analytics-google-search-console**: CTR analysis, identify low-CTR pages for title/meta optimization
+- **seo-on-page-title**: Title tag
+- **seo-on-page-description**: Meta description
+- **seo-on-page-open-graph**: Open Graph for social sharing
+- **seo-on-page-twitter-cards**: Twitter Cards for X previews
 - **seo-technical-canonical**: Canonical + hreflang for multi-language
+- **seo-technical-indexing**: noindex, Search Console
 - **seo-on-page-schema**: Structured data complements metadata
 - **seo-on-page-heading**: H1 should align with title
+- **strategies-localization**: Hreflang implementation

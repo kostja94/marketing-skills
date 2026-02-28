@@ -107,6 +107,41 @@ Example: For marketing managers at SMBs who need to run SEO audits without hirin
 
 ---
 
+## 11. Content / Blog / Article Strategy
+
+Articles must connect to the product and be keyword-driven. Use this section so the agent can create or optimize content that supports conversion.
+
+**Optimization foundation** (pages-article): **Product** + **Keywords** + **Article intent** + **Competitor articles** — these four inputs drive tailored analysis and recommendations.
+
+**Article orientations** (not all articles are SEO-driven):
+- **SEO-driven**: How-to guides, comparisons, pillar content — target keywords, optimize for search
+- **Non-SEO-driven**: Funding announcements, product updates, company news — brand/PR focus, don't expect rankings
+- **Evergreen vs timely**: Evergreen (70–75%) for long-term traffic; timely (25–30%) for trends, news, seasonal — see pages-article for mix and structure
+
+**Product connection**:
+- **How articles support product**: [e.g. Educate on problem product solves; introduce features; nurture leads]
+- **Natural product mentions**: [Where to link — e.g. CTA in conclusion, in-paragraph when relevant]
+- **Avoid**: [e.g. Purely generic content with no product tie-in]
+
+**Keyword basis**:
+- Use **Section 6 (Keywords)** for article topics and target terms
+- Run keyword research (seo-content-keyword-research) before drafting
+- Map primary/secondary/long-tail to article types (pillar vs cluster)
+
+**Competitor articles for optimization**:
+- **URLs to analyze**: [Optional — paste 3–5 high-ranking competitor URLs for a target keyword]
+- **Or**: Ask the agent to search for top-ranking articles for a keyword; agent fetches and analyzes them
+- **Output**: Optimization suggestions (content gaps, structure, length, H2s, keywords, CTA placement)
+
+```
+Example URLs to analyze (for "SEO audit tool"):
+- https://competitor1.com/best-seo-audit-tools
+- https://competitor2.com/seo-audit-guide
+- https://competitor3.com/how-to-audit-website-seo
+```
+
+---
+
 ## Quick Reference
 
 | Section | Used by |
@@ -117,6 +152,7 @@ Example: For marketing managers at SMBs who need to run SEO audits without hirin
 | 7 | Competitive positioning, content strategy |
 | 8 | Copy, tone, testimonials, CTAs; directory descriptions |
 | 9–10 | Features, API docs, content strategy; directory features, pros/cons |
+| 11 | Article creation, optimization; competitor analysis; product-linked content |
 
 **Directory submission** (channels-directories): When submitting to Taaft, Product Hunt, etc., the agent reads this file and generates ready-to-paste content (tagline, description, pros/cons, tags) per platform. Fill 1–4, 5, 6, 8, 9 for best results.
 

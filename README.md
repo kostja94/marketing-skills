@@ -2,23 +2,24 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-65 specialized skills for Claude Code, Cursor, and other AI agents — SEO, 24 page types, channels, platforms, strategies, components, and analytics.
+73 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 25 page types, channels, platforms, strategies, components, and analytics.
 
 **By [kostja](https://github.com/kostja94)** — I add new skills daily; please download the latest version. Questions or feedback? zyjstc@gmail.com
 
-> **README** = overview & quick start. For rules, specs, and skill authoring → [SKILLS_GUIDE](SKILLS_GUIDE.md).
+**Works beyond Cursor/Claude**: Lovable, ChatGPT, Gemini, and any AI that reads markdown — see [Using Beyond Cursor](docs/using-beyond-cursor.md).
+
+> **README** = overview & quick start. For rules, specs, and skill authoring → [SKILLS_GUIDE](SKILLS_GUIDE.md). For updates → [CHANGELOG](CHANGELOG.md).
 
 ## Table of Contents
 
 - [What are Skills?](#what-are-skills)
 - [Project Structure](#project-structure)
-- [Installation](#installation) — Full or selective; delete what you don't need
-- [Linking to Your Project](#linking-to-your-project) — Connect skills with your project
+- [Installation](#installation)
+- [Using Beyond Cursor & Claude](#using-beyond-cursor--claude)
+- [Linking to Your Project](#linking-to-your-project)
+- [Project Context](#project-context)
 - [Usage](#usage)
-- [Project Context](#project-context) — Add context for tailored results
 - [How Skills Work Together](#how-skills-work-together)
-- [Skill Uniqueness and Cross-References](#skill-uniqueness-and-cross-references)
-- [Output Structure: Context First, Then Action](#output-structure-context-first-then-action)
 - [Tips & Rules](#tips--rules)
 - [Available Skills](#available-skills)
 - [Contributing](#contributing)
@@ -27,7 +28,7 @@
 
 ## What are Skills?
 
-Skills are markdown files that give AI agents focused knowledge and workflows for specific tasks. Add them to your project, and your agent can handle SEO and page optimization with the right frameworks and best practices.
+Skills are **markdown files** that give AI agents focused knowledge and workflows for specific tasks. Add them to your project, and your agent can handle SEO and page optimization with the right frameworks and best practices.
 
 **Skills = for agents.** For human-readable SEO guides and growth strategies, see [Alignify](https://alignify.co/).
 
@@ -37,30 +38,30 @@ Skills are markdown files that give AI agents focused knowledge and workflows fo
 
 ```
 marketing-skills/
-├── skills/           # 65 skills (core) — seo/, pages/, components/, channels/, platforms/, strategies/, analytics/
-├── docs/             # Documentation — skills-list.md, page-types-taxonomy.md
-├── templates/        # User-copyable — product-marketing-context.md, skills-task-progress.md, report templates
-├── tools/            # Report generation — generate-report.py, *-guide.md, data/
-├── README.md         # Overview & quick start
+├── skills/           # 73 skills — seo/, pages/, components/, channels/, platforms/, strategies/, analytics/
+├── docs/             # using-beyond-cursor.md, skills-list.md, page-types-taxonomy.md
+├── templates/        # product-marketing-context.md, skills-task-progress.md, report templates
+├── tools/            # Report generation — generate-report.py, *-guide.md
+├── README.md
 ├── SKILLS_GUIDE.md   # Rules, specs, skill authoring
-├── CHANGELOG.md      # Skill updates — what changed, when
-└── CONTRIBUTING.md   # How to add or improve skills
+├── CHANGELOG.md      # What changed, when
+└── CONTRIBUTING.md
 ```
 
 ## Installation
 
-**Full or selective.** Install all 65 skills, or only the ones you need. You can also delete unwanted skills after install — skills are independent.
+**Full or selective.** Install all 73 skills, or only the ones you need. Skills are independent — delete unwanted ones after install.
 
 ### CLI (Recommended)
 
 ```bash
-# Install all skills
+# Install all
 npx skills add kostja94/marketing-skills
 
 # Install specific skills only
-npx skills add kostja94/marketing-skills --skill seo-technical-robots seo-on-page-metadata pages-pricing
+npx skills add kostja94/marketing-skills --skill seo-technical-robots seo-on-page-title seo-on-page-description pages-pricing
 
-# List available skills
+# List available
 npx skills add kostja94/marketing-skills --list
 ```
 
@@ -72,30 +73,50 @@ cp -r marketing-skills/skills/* .cursor/skills/
 cp -r marketing-skills/templates .cursor/
 cp -r marketing-skills/tools .cursor/
 # For Claude Code: use .claude/ instead of .cursor/
-# To keep only some skills: copy selectively, or delete unwanted folders from .cursor/skills/
 ```
 
 ### Git Submodule
 
 ```bash
 git submodule add https://github.com/kostja94/marketing-skills.git .cursor/marketing-skills
-# Reference skills from .cursor/marketing-skills/skills/
-# To use fewer skills: symlink or copy only the skill folders you need into .cursor/skills/
+# Symlink or copy only the skill folders you need into .cursor/skills/
 ```
+
+## Using Beyond Cursor & Claude
+
+**Skills are markdown.** They work anywhere an AI can read text — no native skill support required.
+
+| Platform | How |
+|----------|-----|
+| **Lovable, Bolt, v0** | Copy skills to `.lovable/skills/` (or equivalent); adapt context path to `.lovable/product-marketing-context.md` |
+| **ChatGPT, Gemini, Claude Web** | Paste a skill's markdown as context, then ask your question |
+| **Any AI with file access** | Place skills in project root; reference in prompts |
+
+**Full tutorial**: [Using Beyond Cursor](docs/using-beyond-cursor.md) — Lovable setup, chat-model usage, path adaptation.
 
 ## Linking to Your Project
 
-Marketing skills are generic. To get tailored output, connect them with your project:
+Marketing skills are generic. Connect them with your project for tailored output:
 
 | Method | Purpose |
 |--------|---------|
-| **[Product Context](#project-context)** | Product, audience, brand — skills read this automatically |
-| **[Skills Task Progress](#project-context)** | Track task status (pending/done), priority — agent reads to suggest next steps |
-| **Project Rules** (`.cursor/rules/`) | Code style, architecture, conventions — applied alongside skills |
-| **AGENTS.md** | Simple project instructions — alternative to rules |
-| **@file references** | In chat: `@package.json` `@README.md` — agent includes them when relevant |
+| **[Product Context](#project-context)** | Product, audience, brand — skills read automatically |
+| **[Skills Task Progress](#project-context)** | Task status (pending/done), priority — agent suggests next steps |
+| **Project Rules** (`.cursor/rules/`) | Code style, architecture, conventions |
+| **AGENTS.md** | Simple project instructions |
+| **@file references** | In chat: `@package.json` `@README.md` — agent includes when relevant |
 
-**Recommended**: Start with [Product Context](#project-context). Add rules or AGENTS.md for project-specific patterns. See [SKILLS_GUIDE §10 Customization](SKILLS_GUIDE.md#10-customization) for details.
+**Recommended**: Start with [Product Context](#project-context). See [SKILLS_GUIDE §10 Customization](SKILLS_GUIDE.md#10-customization) for details.
+
+## Project Context
+
+**Without context, outputs stay generic.** Add `product-marketing-context.md` so the agent delivers tailored copy and strategy. Place in `.cursor/`, `.claude/`, `.lovable/`, or your platform's config directory.
+
+**Templates**:
+- **Product context**: [product-marketing-context.md](templates/product-marketing-context.md) · [download](https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/product-marketing-context.md)
+- **Task progress**: [skills-task-progress.md](templates/skills-task-progress.md) · [download](https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/skills-task-progress.md) — track status, priority; agent avoids redundant work
+
+**Start with**: Product Overview, Positioning, Target Audience, Brand & Voice. Add Keywords, Competitors, Website as you have them. Update regularly — stale context degrades quality.
 
 ## Usage
 
@@ -104,84 +125,67 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 | You say | Skill |
 |---------|-------|
 | "Configure robots.txt" / "Audit sitemap" / "Fix canonical URLs" | seo-technical-* |
-| "Optimize meta tags" / "Add schema markup" / "Fix heading structure" | seo-on-page-* |
+| "Optimize title tag" / "Meta description" / "Open Graph" / "Twitter Cards" / "Add schema markup" / "Fix heading structure" | seo-on-page-* |
 | "Keyword research" / "Content strategy" / "Link building" | seo-content-* / seo-off-page-* |
 | "Create pricing page" / "Optimize homepage" / "Create FAQ" | pages-* |
 | "Submit to Taaft, Product Hunt" / "Directory submission" | channels-directories |
 | "Add to Grokipedia" / "GEO for AI search" | platforms-grokipedia / strategies-geo |
 | "GA4 tracking" / "Search Console" / "AI traffic" | analytics-* |
 
-See [Tips & Rules](#tips--rules) for best practices.
-
-## Project Context
-
-**Without context, outputs stay generic.** Add `.cursor/product-marketing-context.md` (or `.claude/`) so the agent delivers tailored copy and strategy. Skills read it automatically.
-
-**Get templates**:
-- **Product context**: `cp marketing-skills/templates/product-marketing-context.md .cursor/` or [download](https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/product-marketing-context.md)
-- **Task progress**: `cp marketing-skills/templates/skills-task-progress.md .cursor/` or [download](https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/skills-task-progress.md) — track which skills need work, done, priority; agent reads it to avoid redundant work
-
-**Start with**: Product Overview, Positioning, Target Audience, Brand & Voice. Add Keywords, Competitors, Website as you have them. Update regularly — stale context degrades quality.
-
 ## How Skills Work Together
 
-Recommended workflow: **Technical** → **On-Page** → **Content** → **Off-Page**. Page skills apply SEO when optimizing specific page types. See each skill's **Related Skills** for the full dependency map.
+**Workflow order**: Technical → On-Page → Content → Off-Page. Page skills apply SEO when optimizing specific page types. See each skill's **Related Skills** for the dependency map.
 
 ```
                     ┌─────────────────────────────────────────────────────────┐
-                    │              Technical SEO (Foundation)                  │
-                    │  robots · sitemap · canonical · indexing · crawlability  │
+                    │              Technical SEO (Foundation)                 │
+                    │  robots · sitemap · canonical · indexing · crawlability │
                     │  indexnow                                              │
                     └──────────────────────────┬──────────────────────────────┘
                                                │
          ┌─────────────────────────────────────┼─────────────────────────────────────┐
          ▼                                     ▼                                     ▼
 ┌─────────────────────┐           ┌─────────────────────┐           ┌─────────────────────┐
-│      On-Page        │           │       Content         │           │      Off-Page        │
-│  metadata · schema  │◄─────────►│ keyword-research    │           │  link-building      │
-│  internal-links     │           │ content-strategy     │           │  backlink-analysis   │
+│      On-Page        │           │       Content       │           │      Off-Page       │
+│  metadata · schema  │◄─────────►│ keyword-research   │           │  link-building      │
+│  internal-links     │           │ content-strategy    │           │  backlink-analysis  │
 │  url-structure      │           └─────────────────────┘           └─────────────────────┘
 │  heading           │
 └─────────┬───────────┘
          │
          ▼
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                    Pages (by purpose: brand · SEO · marketing · legal · utility)         │
-│  home · about · contact | features · glossary · blog · resources · faq · api |          │
-│  pricing · products · services · category-pages · customer-stories · affiliate ·       │
-│  media-kit | privacy · terms · cookie-policy · legal · refund · shipping | 404 · careers  │
+│  Pages: home · about · contact | features · glossary · blog · resources · faq · api |   │
+│  pricing · products · services · category-pages · customer-stories · affiliate ·     │
+│  media-kit | privacy · terms · cookie-policy · legal · refund · shipping | 404 · careers│
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│  Channels: affiliate · influencer · referral · creator-program · directories             │
+│  Channels: affiliate · influencer · referral · creator-program · directories           │
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│  Platforms: x · reddit · linkedin · tiktok · grokipedia  |  Strategies: geo · localization          │
+│  Platforms: x · reddit · linkedin · tiktok · grokipedia  |  Strategies: geo · localization│
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
 │  Components: nav · footer · hero · toc · logo · trust-badges · testimonials · cta ·     │
-│  newsletter-signup  |  Analytics: traffic · tracking · ai-traffic · google-search-console │
+│  newsletter-signup  |  Analytics: traffic · tracking · ai-traffic · google-search-console│
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 
 Cross-references: metadata ↔ schema ↔ heading  |  sitemap ↔ indexnow
                 internal-links ↔ crawlability  |  link-building ↔ backlink-analysis
 ```
 
-### Skill Uniqueness and Cross-References
+**Skill uniqueness**: Each skill keeps only topic-relevant content. Overlapping topics use **Related Skills** references. See [SKILLS_GUIDE §4.2](SKILLS_GUIDE.md#42-skill-uniqueness-and-cross-references).
 
-Each skill keeps only topic-relevant content. Overlapping topics use **Related Skills** references instead of duplication. See [SKILLS_GUIDE §4.2](SKILLS_GUIDE.md#42-skill-uniqueness-and-cross-references) for rules.
-
-### Output Structure: Context First, Then Action
-
-Platform skills (directories, Grokipedia) use full structure (Introduction → Importance → Methods → Rules → Avoid → Action); others use brief context + main output. Say "skip intro" or "just do it" for repeat tasks. See [SKILLS_GUIDE §4.4](SKILLS_GUIDE.md#44-output-structure-context-first-then-action) for spec.
+**Output structure**: Platform skills (directories, Grokipedia) use full structure (Introduction → Importance → Methods → Rules → Avoid → Action); others use brief context + main output. Say "skip intro" or "just do it" for repeat tasks. See [SKILLS_GUIDE §4.4](SKILLS_GUIDE.md#44-output-structure-context-first-then-action).
 
 ## Tips & Rules
 
 | Tip | Description |
 |-----|-------------|
-| **Project Context** | Add `.cursor/product-marketing-context.md` for tailored output |
+| **Project Context** | Add `product-marketing-context.md` to `.cursor/`, `.claude/`, or `.lovable/` for tailored output |
 | **Skip intro** | "skip intro" or "just do it" → go straight to Action |
 | **Workflow order** | Technical → On-Page → Content → Off-Page |
 | **Related Skills** | Use each skill's Related Skills for dependencies |
@@ -189,21 +193,21 @@ Platform skills (directories, Grokipedia) use full structure (Introduction → I
 
 ## Available Skills
 
-65 skills in 7 categories. [Full list with descriptions](docs/skills-list.md) · Run `npx skills add kostja94/marketing-skills --list` to discover all.
+73 skills in 7 categories. [Full list](docs/skills-list.md) · `npx skills add kostja94/marketing-skills --list` (73 skills)
 
 | Category | Skills |
 |----------|--------|
-| **SEO** (15) | [Technical](skills/seo/technical/): robots, sitemap, canonical, indexing, indexnow, crawlability · [On-Page](skills/seo/on-page/): metadata, schema, internal-links, url-structure, heading · [Off-Page](skills/seo/off-page/): link-building, backlink-analysis · [Content](skills/seo/content/): keyword-research, content-strategy |
-| **Pages** (24) | [page-types-taxonomy](docs/page-types-taxonomy.md) — brand (home, about, contact), content (features, blog, faq, api…), marketing (pricing, products, services…), legal (privacy, terms…), utility (404, careers) |
-| **Components** (9) | [nav](skills/components/navigation-menu/), [footer](skills/components/footer/), [hero](skills/components/hero/), [toc](skills/components/toc/), [logo](skills/components/logo/), [trust-badges](skills/components/trust-badges/), [testimonials](skills/components/testimonials/), [cta](skills/components/cta/), [newsletter-signup](skills/components/newsletter-signup/) |
-| **Channels** (5) | [affiliate](skills/channels/affiliate/), [influencer](skills/channels/influencer/), [referral](skills/channels/referral/), [creator-program](skills/channels/creator-program/), [directories](skills/channels/directories/) |
-| **Platforms** (5) | [x](skills/platforms/x/), [reddit](skills/platforms/reddit/), [linkedin](skills/platforms/linkedin/), [tiktok](skills/platforms/tiktok/), [grokipedia](skills/platforms/grokipedia/) |
-| **Strategies** (2) | [geo](skills/strategies/geo/), [localization](skills/strategies/localization/) |
-| **Analytics** (4) | [traffic](skills/analytics/traffic/), [tracking](skills/analytics/tracking/), [ai-traffic](skills/analytics/ai-traffic/), [google-search-console](skills/analytics/google-search-console/) |
+| **SEO** (19) | [Technical](skills/seo/technical/): robots, sitemap, canonical, indexing, indexnow, crawlability · [On-Page](skills/seo/on-page/): title, description, metadata, open-graph, twitter-cards, schema, internal-links, url-structure, heading · [Off-Page](skills/seo/off-page/): link-building, backlink-analysis · [Content](skills/seo/content/): keyword-research, content-strategy |
+| **Pages** (24) | [page-types-taxonomy](docs/page-types-taxonomy.md) — brand, content, marketing, legal, utility |
+| **Components** (10) | nav, breadcrumb, footer, hero, toc, logo, trust-badges, testimonials, cta, newsletter-signup |
+| **Channels** (5) | affiliate, influencer, referral, creator-program, directories |
+| **Platforms** (5) | x, reddit, linkedin, tiktok, grokipedia |
+| **Strategies** (2) | geo, localization |
+| **Analytics** (4) | traffic, tracking, ai-traffic, google-search-console |
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add or improve skills. Rules and specs → [SKILLS_GUIDE](SKILLS_GUIDE.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [SKILLS_GUIDE](SKILLS_GUIDE.md).
 
 ## References
 
@@ -211,19 +215,20 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add or improve skills. Rules a
 
 | Resource | Purpose |
 |----------|---------|
-| [Alignify](https://alignify.co/) | SEO guides, growth strategies, AI tools — for human reading |
+| [Alignify](https://alignify.co/) | SEO guides, growth strategies — for human reading |
 | [skills.sh](https://skills.sh) | Skill directory and discovery |
 
 **Internal**
 
 | Resource | Purpose |
 |----------|---------|
-| [product-marketing-context](templates/product-marketing-context.md) | Context template (copy to `.cursor/`) |
-| [skills-task-progress](templates/skills-task-progress.md) | Task tracker — status, priority; copy to `.cursor/` |
-| [page-types-taxonomy](docs/page-types-taxonomy.md) | Page classification (brand, SEO, marketing, legal, utility) |
-| [skills-list](docs/skills-list.md) | Full list of all 65 skills with descriptions |
-| [SKILLS_GUIDE](SKILLS_GUIDE.md) | Rules, specs, skill authoring, quality checklist |
-| [CHANGELOG](CHANGELOG.md) | Skill updates — what changed, when |
+| [product-marketing-context](templates/product-marketing-context.md) | Context template |
+| [skills-task-progress](templates/skills-task-progress.md) | Task tracker — status, priority |
+| [using-beyond-cursor](docs/using-beyond-cursor.md) | Lovable, ChatGPT, Gemini — no native support needed |
+| [page-types-taxonomy](docs/page-types-taxonomy.md) | Page classification |
+| [skills-list](docs/skills-list.md) | Full list of all 73 skills |
+| [SKILLS_GUIDE](SKILLS_GUIDE.md) | Rules, specs, skill authoring |
+| [CHANGELOG](CHANGELOG.md) | What changed, when |
 | [tools/](tools/README.md) | Report generation (keyword, competitor) |
 
 ## License

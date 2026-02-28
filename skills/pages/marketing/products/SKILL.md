@@ -57,3 +57,4 @@ Identify:
 - **pages-features**: For SaaS feature pages
 - **seo-on-page-schema**: Product, ItemList schema
 - **seo-on-page-internal-links**: Category linking
+- **components-breadcrumb**: Breadcrumb trail for product hierarchy

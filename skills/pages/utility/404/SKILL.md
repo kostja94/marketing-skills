@@ -69,4 +69,4 @@ Identify:
 
 - **pages-home**: Primary escape route
 - **seo-technical-indexing**: noindex for 404 if desired
-- **seo-on-page-metadata**: 404 page metadata
+- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: 404 page metadata

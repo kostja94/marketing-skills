@@ -296,7 +296,7 @@ date, query, page, country, device. Search appearance (AMP, blue link, rich resu
 
 ## Related Skills
 
-- **seo-on-page-metadata**: Title, meta description, hreflang implementation
+- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: Title, meta description, hreflang implementation
 - **seo-technical-sitemap**: Fix sitemap errors
 - **seo-technical-indexing**: Resolve indexing issues (fix actions)
 - **seo-on-page-schema**: Fix structured data / rich results

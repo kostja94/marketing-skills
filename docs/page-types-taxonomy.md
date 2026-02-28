@@ -56,7 +56,8 @@ Focused on organic traffic, educating users, and topical authority. Goals: long-
 |------|-------|--------|--------|-------|
 | **Features** | pages-features | Commercial | Consideration | Product value, benefit comparison, SEO keywords |
 | **Glossary** | pages-glossary | Informational | Awareness | Definitions, internal linking, long-tail traffic |
-| **Blog** | pages-blog | Informational | Awareness | Articles, guides, topic clusters |
+| **Blog** | pages-blog | Informational | Awareness | Blog index; articles, guides, topic clusters |
+| **Article** | pages-article | Informational | Awareness | Single post page; structure, schema, internal links |
 | **Resources** | pages-resources | Informational | Awareness | Content hub, guides, templates, tools |
 | **FAQ** | pages-faq | Informational | Consideration | Common questions, Q&A, Featured Snippet |
 | **API** | pages-api | Informational | Consideration | API introduction page (typically /api); overview, links to docs; docs are separate |
@@ -145,7 +146,7 @@ Support navigation, error handling, system functions. Not optimized for rankings
 ## Quick Reference
 
 - **Brand**: home, about, contact → `skills/pages/brand/`
-- **SEO / Content**: features, glossary, blog, resources, faq, api → `skills/pages/content/`
+- **SEO / Content**: features, glossary, blog, article, resources, faq, api → `skills/pages/content/`
 - **Marketing**: pricing, products, services, category-pages, customer-stories, affiliate-program, media-kit → `skills/pages/marketing/`
 - **Legal**: privacy, terms, cookie-policy, legal, refund, shipping → `skills/pages/legal/`
 - **Utility**: 404, careers → `skills/pages/utility/`

@@ -66,5 +66,5 @@ Identify:
 
 - **pages-pricing**: Homepage often links to pricing
 - **pages-features**: Features section or link to features page
-- **seo-on-page-metadata**: Homepage metadata
+- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata, seo-on-page-open-graph, seo-on-page-twitter-cards**: Homepage metadata and social previews
 - **seo-on-page-heading**: Homepage heading structure

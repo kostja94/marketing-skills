@@ -1,6 +1,6 @@
 ---
 name: components-navigation-menu
-description: When the user wants to design, optimize, or audit site navigation menus. Also use when the user mentions "navigation," "nav menu," "header menu," "site structure," "menu design," or "breadcrumbs."
+description: When the user wants to design, optimize, or audit site navigation menus. Also use when the user mentions "navigation," "nav menu," "header menu," "site structure," or "menu design." For breadcrumbs, use components-breadcrumb.
 metadata:
   version: 1.0.0
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Guides navigation menu design for SEO, UX, and accessibility. Navigation helps users find content and signals site structure to search engines.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -24,7 +24,7 @@ Identify:
 
 ### Menu Size
 
-- **Primary nav**: → items; avoid overwhelming users
+- **Primary nav**: ? items; avoid overwhelming users
 - **Sub-navigation**: Up to 2 levels; deeper topics in sub-menus
 - **Pattern**: Horizontal top nav or vertical side nav; avoid novel patterns
 
@@ -48,7 +48,7 @@ Identify:
 
 - Sub-menus: Ensure HTML is in DOM (e.g., CSS-hidden, not JS-injected)
 - Footer nav: Include secondary links
-- Breadcrumbs: Help users and crawlers; add BreadcrumbList schema
+- Breadcrumbs: See components-breadcrumb for implementation
 
 ## UX Guidelines
 
@@ -63,8 +63,8 @@ Identify:
 | Requirement | Practice |
 |-------------|----------|
 | **Labels** | Clear, intuitive wording |
-| **Contrast** | →.5:1 for link text |
-| **Touch targets** | ≥44×44px; adequate spacing |
+| **Contrast** | ?.5:1 for link text |
+| **Touch targets** | ?44?44px; adequate spacing |
 | **Keyboard** | Full keyboard navigation; focus visible |
 | **Screen readers** | Proper ARIA; skip links for long menus |
 
@@ -90,3 +90,4 @@ Identify:
 - **pages-category-pages**: Category hierarchy in nav
 - **components-footer**: Footer nav complements header nav
 - **components-logo**: Logo typically sits in header with nav
+- **components-breadcrumb**: Breadcrumb navigation; BreadcrumbList schema

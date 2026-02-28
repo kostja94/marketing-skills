@@ -80,6 +80,7 @@ ChatGPT traffic converts ~6x higher than Google search. AI tool users often have
 - **platforms-grokipedia**: Add recommendations/links to Grokipedia; parasite SEO + GEO
 - **platforms-reddit**: High-authority community for GEO
 - **channels-directories**: Directory and curated list submission for backlinks and discovery; complements GEO (different placement: human discovery vs AI citation)
-- **seo-on-page-metadata**: Foundation for discoverability
+- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: Foundation for discoverability
 - **analytics-ai-traffic**: Track AI traffic in GA4
 - **channels-affiliate**: GEO complements other growth channels
+- **pages-article**: TL;DR, Key Takeaways, QAE pattern for article-level GEO

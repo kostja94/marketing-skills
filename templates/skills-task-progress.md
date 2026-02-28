@@ -42,7 +42,11 @@
 
 | Task | Skill | Status | Priority | Notes | Updated |
 |------|-------|--------|----------|-------|---------|
-| Meta tags (title, description, hreflang) | seo-on-page-metadata | Pending | P1 | | |
+| Title tag | seo-on-page-title | Pending | P1 | | |
+| Meta description | seo-on-page-description | Pending | P1 | | |
+| Hreflang, meta robots, viewport | seo-on-page-metadata | Pending | P1 | | |
+| Open Graph | seo-on-page-open-graph | Pending | P2 | | |
+| Twitter Cards | seo-on-page-twitter-cards | Pending | P2 | | |
 | Schema / structured data | seo-on-page-schema | Pending | P1 | | |
 | Internal linking | seo-on-page-internal-links | Pending | P1 | | |
 | URL structure | seo-on-page-url-structure | Pending | P2 | | |
@@ -91,6 +95,7 @@ Add rows for pages that exist or need creation. See [page-types-taxonomy](https:
 | Task | Skill | Status | Priority | Notes | Updated |
 |------|-------|--------|----------|-------|---------|
 | Navigation | components-navigation-menu | Pending | P1 | | |
+| Breadcrumbs | components-breadcrumb | Pending | P1 | | |
 | Footer | components-footer | Pending | P1 | | |
 | Hero | components-hero | Pending | P1 | | |
 | CTAs | components-cta | Pending | P1 | | |

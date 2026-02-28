@@ -285,7 +285,7 @@ The CLI recursively searches for `SKILL.md` in:
 
 | Option | How |
 |--------|-----|
-| **Full install** | `npx skills add kostja94/marketing-skills` — all 65 skills |
+| **Full install** | `npx skills add kostja94/marketing-skills` — all 70 skills |
 | **Selective install** | `npx skills add kostja94/marketing-skills --skill seo-technical-robots pages-pricing` — only specified skills |
 | **Delete after install** | Remove unwanted folders from `.cursor/skills/` — skills are independent, no cross-dependencies |
 
@@ -335,8 +335,8 @@ Marketing skills are generic. Users must connect them with project-specific cont
 
 | Method | File/Location | Purpose |
 |--------|---------------|---------|
-| **Product Context** | `.cursor/product-marketing-context.md` (or `.claude/`) | Product, audience, brand, keywords — skills read this automatically when executing |
-| **Skills Task Progress** | `.cursor/skills-task-progress.md` (or `.claude/`) | Track task status (pending/in progress/done), priority — agent reads to avoid redundant work and suggest next steps |
+| **Product Context** | `.cursor/product-marketing-context.md` (or `.claude/`, `.lovable/`, etc.) | Product, audience, brand, keywords — skills read this automatically when executing |
+| **Skills Task Progress** | `.cursor/skills-task-progress.md` (or `.claude/`, `.lovable/`) | Track task status (pending/in progress/done), priority — agent reads to avoid redundant work and suggest next steps |
 | **Project Rules** | `.cursor/rules/*.md` | Code style, architecture, conventions — Cursor applies alongside skills |
 | **AGENTS.md** | Project root or subdirs | Simple instructions — alternative to rules |
 | **@file in chat** | User mentions `@package.json` `@README.md` | Agent includes files when relevant |
@@ -348,7 +348,11 @@ Marketing skills are generic. Users must connect them with project-specific cont
 3. **Add rules if needed** — For project-specific patterns (e.g., "Use our design system", "Follow API conventions"), add `.cursor/rules/` files.
 4. **@mention files** — When asking for copy or SEO for a specific page, include `@path/to/page.tsx` or `@content.md` so the agent has the actual content.
 
-### 10.3 Customizing Skills Themselves
+### 10.3 Using Beyond Cursor & Claude
+
+Skills are **markdown files** — they work anywhere an AI can read text. Products without native skill support (Lovable, Bolt, v0, ChatGPT, Gemini) can use them by copying skills to a project directory and adapting path references. **Full tutorial**: [Using Beyond Cursor](docs/using-beyond-cursor.md).
+
+### 10.4 Customizing Skills Themselves
 
 Advanced users can fork skills and edit `SKILL.md` to add project-specific instructions. Keep a reference to the original skill for updates. See [README](README.md) for install options.
 
@@ -359,6 +363,7 @@ Advanced users can fork skills and edit `SKILL.md` to add project-specific instr
 | Resource | URL |
 |----------|-----|
 | [README](README.md) | Overview, installation, usage, available skills |
+| [Using Beyond Cursor](docs/using-beyond-cursor.md) | Lovable, ChatGPT, Gemini — use skills without native support |
 | Agent Skills Specification | https://agentskills.io/specification |
 | Agent Skills Homepage | https://agentskills.io |
 | skills.sh Directory | https://skills.sh |

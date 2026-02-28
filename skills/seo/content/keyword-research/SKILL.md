@@ -9,7 +9,7 @@ metadata:
 
 Guides keyword research for SEO: finding target keywords, assessing difficulty, and understanding search intent.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1?2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -70,6 +70,7 @@ Identify:
 ## Related Skills
 
 - **seo-content-content-strategy**: Keywords inform content plan
-- **seo-on-page-metadata**: Keywords in title, description
+- **seo-content-optimization**: Keyword placement, density vs stuffing, H2 keywords
+- **seo-on-page-title, seo-on-page-description**: Keywords in title, description
 - **seo-on-page-heading**: Keywords in H1, H2
 - **seo-off-page-link-building**: Keywords inform link targets

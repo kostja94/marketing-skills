@@ -22,6 +22,15 @@ Identify:
 
 ## Best Practices
 
+### Blog Placement: Subdomain vs Subdirectory
+
+| Option | Example | SEO / Use |
+|--------|---------|-----------|
+| **Subdirectory** | `example.com/blog` | SEO weight flows to main domain; recommended for product blogs |
+| **Subdomain** | `blog.example.com` | Treated as separate entity; consider for distinct brands or technical isolation |
+
+Choose based on SEO weight distribution, brand consistency, and technical architecture. See [Alignify subdomain vs subdirectory guide](https://alignify.co/zh/seo/create-blog) for details.
+
 ### Blog Index Page Structure
 
 | Section | Purpose |
@@ -34,9 +43,13 @@ Identify:
 
 ### Content Strategy
 
-- **Topical authority**: Pillar page per core topic + 6-10 cluster articles
+- **Topical authority**: Topic clusters ? pillar page per core topic + 6-12 cluster articles
 - **Intent mapping**: Transactional, problem-aware, informational
 - **EEAT signals**: Author bios, Organization schema, citations, changelog
+- **Refresh > new**: For established sites, updating existing content often outperforms publishing new posts; avoid changing only the date without substantive edits
+- **Quality > quantity**: Fewer high-quality posts beat many mediocre ones; consider deleting, merging, or refreshing underperformers
+- **Topic focus**: Avoid blindly expanding topics; dilution can hurt authority on core topics
+- **Conversion as north star**: SEO KPIs should tie to leads, signups, or sales ? not just traffic
 
 ### SEO
 
@@ -56,8 +69,11 @@ Identify:
 ### Design
 
 - **Scannable**: Preview copy, thumbnails, hero images
-- **Social sharing**: Share buttons
+- **Social sharing**: Share buttons on article pages ? see **components-social-share**
 - **Quick answers**: Definition boxes, mini-FAQs for AEO
+- **TOC**: Table of contents for Featured Snippets; jump links in long articles
+- **CTA placement**: Sidebar CTA or in-paragraph CTA at key conversion points
+- **Related/Recent posts**: Manual curation or plugin; same topic cluster
 
 ## Output Format
 
@@ -68,8 +84,9 @@ Identify:
 
 ## Related Skills
 
+- **pages-article**: Single article/post page structure, SEO, schema ? use for individual post templates
 - **seo-content-content-strategy**: Content clusters, editorial calendar
 - **seo-content-keyword-research**: Keywords for blog topics
-- **seo-on-page-metadata**: Blog metadata
+- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata, seo-on-page-open-graph, seo-on-page-twitter-cards**: Blog metadata and social previews
 - **seo-on-page-schema**: Article schema
 - **pages-resources**: Blog may be part of resources hub

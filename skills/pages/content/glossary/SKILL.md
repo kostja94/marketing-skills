@@ -49,7 +49,7 @@ Identify:
 
 ### SEO Benefits
 
-- **Topic clusters**: Glossary as hub; links to and from pillar content
+- **Topic clusters**: Glossary as hub; links to and from pillar content; see seo-content-content-strategy
 - **Long-tail**: Definition queries, "what is X"
 - **Crawlability**: Reduces depth; distributes authority
 - **User engagement**: Helps users understand; keeps them on site
@@ -73,4 +73,4 @@ Identify:
 - **seo-on-page-internal-links**: Glossary is internal linking hub
 - **seo-content-content-strategy**: Glossary supports content clusters
 - **pages-blog**: Link between glossary and blog
-- **seo-on-page-metadata**: Glossary page metadata
+- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: Glossary page metadata

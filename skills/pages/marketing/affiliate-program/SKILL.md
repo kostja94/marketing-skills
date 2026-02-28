@@ -75,4 +75,4 @@ Affiliates stake their reputation; convince them it's worth promoting:
 - **pages-pricing**: Commission structure clarity
 - **pages-customer-stories**: Social proof for product
 - **pages-home**: Link from homepage
-- **seo-on-page-metadata**: Affiliate page metadata
+- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: Affiliate page metadata

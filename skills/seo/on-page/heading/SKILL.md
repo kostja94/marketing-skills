@@ -75,6 +75,8 @@ H1 (page title)
 
 ## Related Skills
 
-- **seo-on-page-metadata**: H1 should align with title tag
+- **seo-content-optimization**: H2 keyword placement, quantity, tables, lists; complements heading structure
+- **pages-article**: Article page H1?H3 structure, intro/body/conclusion
+- **seo-on-page-title**: H1 should align with title tag
 - **seo-on-page-schema**: Article schema uses headline (often H1)
 - **seo-content-content-strategy**: Content outline informs headings

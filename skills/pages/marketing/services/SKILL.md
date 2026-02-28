@@ -64,4 +64,4 @@ Identify:
 - **pages-features**: For SaaS; services for service businesses
 - **pages-pricing**: Service pricing
 - **pages-customer-stories**: Proof for services
-- **seo-on-page-metadata**: Services page metadata
+- **seo-on-page-title, seo-on-page-description, seo-on-page-metadata**: Services page metadata

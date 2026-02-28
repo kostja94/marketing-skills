@@ -1,6 +1,6 @@
 # Full Skills List
 
-Complete list of all 65 skills with descriptions. See [README](../README.md) for overview.
+Complete list of all 70 skills with descriptions. See [README](../README.md) for overview.
 
 ## SEO
 
@@ -19,7 +19,11 @@ Complete list of all 65 skills with descriptions. See [README](../README.md) for
 
 | Skill | Description |
 |-------|-------------|
-| [seo-on-page-metadata](../skills/seo/on-page/metadata/) | Meta tags, title, description, hreflang |
+| [seo-on-page-title](../skills/seo/on-page/title/) | Title tag optimization for SERP |
+| [seo-on-page-description](../skills/seo/on-page/description/) | Meta description optimization for SERP |
+| [seo-on-page-metadata](../skills/seo/on-page/metadata/) | Hreflang, meta robots, viewport, charset |
+| [seo-on-page-open-graph](../skills/seo/on-page/open-graph/) | Open Graph tags for social sharing |
+| [seo-on-page-twitter-cards](../skills/seo/on-page/twitter-cards/) | Twitter Card tags for X previews |
 | [seo-on-page-schema](../skills/seo/on-page/schema/) | Structured data (Schema.org, JSON-LD) |
 | [seo-on-page-internal-links](../skills/seo/on-page/internal-links/) | Internal linking, link equity, orphan pages |
 | [seo-on-page-url-structure](../skills/seo/on-page/url-structure/) | URL optimization, hierarchy, slugs |
@@ -38,6 +42,7 @@ Complete list of all 65 skills with descriptions. See [README](../README.md) for
 |-------|-------------|
 | [seo-content-keyword-research](../skills/seo/content/keyword-research/) | Keyword research, search intent, difficulty |
 | [seo-content-content-strategy](../skills/seo/content/content-strategy/) | Content clusters, pillar pages, editorial calendar |
+| [seo-content-optimization](../skills/seo/content/content-optimization/) | Word count, H2 keywords, keyword density, tables, lists, multimedia |
 
 ## Pages
 
@@ -50,7 +55,8 @@ See [page-types-taxonomy.md](page-types-taxonomy.md) for full taxonomy.
 | Brand | [pages-contact](../skills/pages/brand/contact/) | Contact page, form optimization |
 | SEO | [pages-features](../skills/pages/content/features/) | Features page, benefit-first copy |
 | SEO | [pages-glossary](../skills/pages/content/glossary/) | Glossary, definitions, internal linking |
-| SEO | [pages-blog](../skills/pages/content/blog/) | Blog page, SEO, content strategy |
+| SEO | [pages-blog](../skills/pages/content/blog/) | Blog index page, SEO, content strategy |
+| SEO | [pages-article](../skills/pages/content/article/) | Single article/post page, structure, SEO |
 | SEO | [pages-resources](../skills/pages/content/resources/) | Resources page, content hub |
 | SEO | [pages-faq](../skills/pages/content/faq/) | FAQ page, SEO, conversion |
 | SEO | [pages-api](../skills/pages/content/api/) | API introduction page |
@@ -75,6 +81,8 @@ See [page-types-taxonomy.md](page-types-taxonomy.md) for full taxonomy.
 | Skill | Description |
 |-------|-------------|
 | [components-navigation-menu](../skills/components/navigation-menu/) | Navigation menu design, SEO, UX, accessibility |
+| [components-breadcrumb](../skills/components/breadcrumb/) | Breadcrumb navigation, BreadcrumbList schema |
+| [components-social-share](../skills/components/social-share/) | Share buttons (X, LinkedIn, Facebook), placement, intent URLs |
 | [components-footer](../skills/components/footer/) | Footer design, links, SEO, newsletter placement |
 | [components-toc](../skills/components/toc/) | Table of contents for long-form content |
 | [components-hero](../skills/components/hero/) | Hero section design, conversion |

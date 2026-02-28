@@ -92,5 +92,6 @@ Filters create many URL combinations (size + color + price). Manage to avoid dup
 - **pages-products**: Product cards, grid layout
 - **seo-technical-canonical**: Faceted URL canonicalization
 - **seo-on-page-schema**: ItemList, Product, FAQ schema
-- **seo-on-page-internal-links**: Category linking, breadcrumbs
+- **seo-on-page-internal-links**: Category linking
+- **components-breadcrumb**: Breadcrumb trail for category hierarchy
 - **seo-on-page-url-structure**: URL hierarchy

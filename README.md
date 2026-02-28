@@ -4,7 +4,7 @@
 
 65 specialized skills for Claude Code, Cursor, and other AI agents — SEO, 24 page types, channels, platforms, strategies, components, and analytics.
 
-By [kostja94](https://github.com/kostja94)
+**By [kostja](https://github.com/kostja94)** — I add new skills daily; please download the latest version. Questions or feedback? zyjstc@gmail.com
 
 > **README** = overview & quick start. For rules, specs, and skill authoring → [SKILLS_GUIDE](SKILLS_GUIDE.md).
 
@@ -39,10 +39,11 @@ Skills are markdown files that give AI agents focused knowledge and workflows fo
 marketing-skills/
 ├── skills/           # 65 skills (core) — seo/, pages/, components/, channels/, platforms/, strategies/, analytics/
 ├── docs/             # Documentation — skills-list.md, page-types-taxonomy.md
-├── templates/        # User-copyable templates — product-marketing-context.md, report templates
+├── templates/        # User-copyable — product-marketing-context.md, skills-task-progress.md, report templates
 ├── tools/            # Report generation — generate-report.py, *-guide.md, data/
 ├── README.md         # Overview & quick start
 ├── SKILLS_GUIDE.md   # Rules, specs, skill authoring
+├── CHANGELOG.md      # Skill updates — what changed, when
 └── CONTRIBUTING.md   # How to add or improve skills
 ```
 
@@ -89,6 +90,7 @@ Marketing skills are generic. To get tailored output, connect them with your pro
 | Method | Purpose |
 |--------|---------|
 | **[Product Context](#project-context)** | Product, audience, brand — skills read this automatically |
+| **[Skills Task Progress](#project-context)** | Track task status (pending/done), priority — agent reads to suggest next steps |
 | **Project Rules** (`.cursor/rules/`) | Code style, architecture, conventions — applied alongside skills |
 | **AGENTS.md** | Simple project instructions — alternative to rules |
 | **@file references** | In chat: `@package.json` `@README.md` — agent includes them when relevant |
@@ -115,7 +117,9 @@ See [Tips & Rules](#tips--rules) for best practices.
 
 **Without context, outputs stay generic.** Add `.cursor/product-marketing-context.md` (or `.claude/`) so the agent delivers tailored copy and strategy. Skills read it automatically.
 
-**Get template**: `cp marketing-skills/templates/product-marketing-context.md .cursor/` or [download](https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/product-marketing-context.md).
+**Get templates**:
+- **Product context**: `cp marketing-skills/templates/product-marketing-context.md .cursor/` or [download](https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/product-marketing-context.md)
+- **Task progress**: `cp marketing-skills/templates/skills-task-progress.md .cursor/` or [download](https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/skills-task-progress.md) — track which skills need work, done, priority; agent reads it to avoid redundant work
 
 **Start with**: Product Overview, Positioning, Target Audience, Brand & Voice. Add Keywords, Competitors, Website as you have them. Update regularly — stale context degrades quality.
 
@@ -215,9 +219,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add or improve skills. Rules a
 | Resource | Purpose |
 |----------|---------|
 | [product-marketing-context](templates/product-marketing-context.md) | Context template (copy to `.cursor/`) |
+| [skills-task-progress](templates/skills-task-progress.md) | Task tracker — status, priority; copy to `.cursor/` |
 | [page-types-taxonomy](docs/page-types-taxonomy.md) | Page classification (brand, SEO, marketing, legal, utility) |
 | [skills-list](docs/skills-list.md) | Full list of all 65 skills with descriptions |
 | [SKILLS_GUIDE](SKILLS_GUIDE.md) | Rules, specs, skill authoring, quality checklist |
+| [CHANGELOG](CHANGELOG.md) | Skill updates — what changed, when |
 | [tools/](tools/README.md) | Report generation (keyword, competitor) |
 
 ## License

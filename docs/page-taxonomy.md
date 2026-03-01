@@ -80,7 +80,7 @@ Build brand identity, trust, and E-E-A-T signals. Core goal: help users and sear
 
 ### SEO / Content (Informational)
 
-Focused on organic traffic, educating users, and topical authority. Goals: long-tail keywords, featured snippets, AI answer citations.
+Focused on organic traffic, educating users, and topical authority. Goals: long-tail keywords, featured snippets, AI answer citations. See **featured-snippet**, **serp-features**.
 
 | Page | Skill | Intent | Funnel | Notes |
 |------|-------|--------|--------|-------|
@@ -88,7 +88,7 @@ Focused on organic traffic, educating users, and topical authority. Goals: long-
 | **Glossary** | glossary-page-generator | Informational | Awareness | Definitions, internal linking, long-tail traffic |
 | **Blog** | blog-page-generator | Informational | Awareness | Articles, guides, topic clusters |
 | **Resources** | resources-page-generator | Informational | Awareness | Content hub, guides, templates, tools |
-| **FAQ** | faq-page-generator | Informational | Consideration | Common questions, Q&A, Featured Snippet |
+| **FAQ** | faq-page-generator | Informational | Consideration | Common questions, Q&A, Featured Snippet; see **featured-snippet** |
 | **API** | api-page-generator | Informational | Consideration | API introduction page (typically /api); overview, links to docs; docs are separate |
 | **Docs** | docs-page-generator | Informational | Awareness | Documentation site (docs.*); Getting Started, guides, tutorials, **API Reference** (endpoint docs), troubleshooting |
 | **Changelog** | changelog-page-generator | Informational | Support | Release notes, updates; often changelog.* or /changelog |
@@ -108,11 +108,17 @@ Focused on conversion, acquisition, and partnership recruitment. Goals: signups,
 | **Category pages** | category-page-generator | Commercial | Consideration | E-commerce categories, faceted navigation |
 | **Customer stories** | customer-stories-page-generator | Commercial | Consideration | Case studies, social proof |
 | **Affiliate program** | affiliate-page-generator | Transactional | Decision | Commission, recruitment, partnership signup |
-| **Landing page** | landing-page-generator | Transactional | Decision | Single-goal campaign pages: lead capture, webinar, product launch; apply to affiliate/creator signup |
+| **Landing page** | landing-page-generator | Transactional | Decision | Single-goal pages; **typically for paid ads (PPC/SEM)**; lead capture, webinar, product launch; affiliate/creator signup |
 | **Download** | download-page-generator | Transactional | Decision | Guide users to install desktop or mobile app; App Store / Play Store links; direct download |
 | **Media kit** | media-kit-page-generator | Commercial | Consideration | Press assets, brand materials, PR |
 | **Use cases** | use-cases-page-generator | Commercial | Consideration | Bridge features → real problems; by ICP, industry, role; BOFU; SaaS/B2B |
 | **Solutions** | solutions-page-generator | Commercial | Consideration | Outcome-focused; "how does this solve my problem?"; by industry, team, outcome |
+| **Alternatives** | alternatives-page-generator | Commercial | Consideration | "X alternatives," "X vs Y"; standalone page or blog listicle; high SEO for SaaS |
+| **Integrations** | integrations-page-generator | Commercial | Consideration | Plugins, extensions, API integrations; connect with Slack, Notion, etc. |
+| **Migration** | migration-page-generator | Transactional | Decision | Migrate from competitor; step-by-step; link from alternatives |
+| **Showcase** | showcase-page-generator | Commercial | Consideration | UGC gallery; "made with [product]"; creator community |
+| **Contest** | contest-page-generator | Transactional | Decision | Giveaway, sweepstakes; Gleam, Woobox; promo campaigns |
+| **Startups** | startups-page-generator | Transactional | Decision | Startups/education program; special pricing; /startups, /education |
 
 > **Creator Program page**: If you create a standalone Creator Program landing page, place it under marketing, similar to affiliate-program. Apply landing-page-generator principles.
 
@@ -152,6 +158,8 @@ Support navigation, error handling, system functions. Not optimized for rankings
 |------|-------|--------|--------|-------|
 | **404** | 404-page-generator | — | — | Error page, recovery path, UX |
 | **Careers** | careers-page-generator | Commercial | Consideration | Jobs, employer branding |
+| **Feedback** | feedback-page-generator | — | Support | Feedback form, roadmap; Canny, FeatureBase |
+| **Disclosure** | disclosure-page-generator | — | Support | Affiliate/sponsor disclosure; FTC compliance |
 
 ---
 
@@ -250,6 +258,14 @@ Different website types need different page sets. Use this mapping to plan sitem
 | Refund / Shipping | — | — | ✓ | — | — | — |
 | 404 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Careers | ✓ | ✓ | — | ✓ | — | — |
+| Alternatives | ✓ | ✓ | — | — | — | — |
+| Integrations | ✓ | ✓ | — | — | — | — |
+| Migration | ✓ | ✓ | — | — | — | — |
+| Showcase | ✓ | — | — | ✓ | — | — |
+| Contest | ✓ | — | ✓ | — | — | — |
+| Startups | ✓ | ✓ | — | — | — | — |
+| Feedback | ✓ | ✓ | — | — | — | — |
+| Disclosure | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 ---
 
@@ -257,7 +273,7 @@ Different website types need different page sets. Use this mapping to plan sitem
 
 - **Brand**: home, about, contact → `skills/pages/brand/`
 - **SEO / Content**: features, glossary, blog, resources, faq, api, docs → `skills/pages/content/`
-- **Marketing**: pricing, products, services, category-pages, customer-stories, affiliate-program, media-kit, landing-page, **download**, use-cases, solutions → `skills/pages/marketing/`
+- **Marketing**: pricing, products, services, category-pages, customer-stories, affiliate-program, media-kit, landing-page, download, use-cases, solutions, **alternatives**, **integrations**, **migration**, **showcase**, **contest**, **startups** → `skills/pages/marketing/`
 - **Functional** (in-product): dashboard, SPA — no standalone page skills; part of product UI
 - **Legal**: privacy, terms, cookie-policy, legal, refund, shipping → `skills/pages/legal/`
-- **Utility**: 404, careers, changelog, status → `skills/pages/utility/`
+- **Utility**: 404, careers, changelog, status, **feedback**, **disclosure** → `skills/pages/utility/`

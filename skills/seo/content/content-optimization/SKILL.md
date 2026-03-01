@@ -16,7 +16,7 @@ Guides on-page content optimization: word count, heading keywords, keyword densi
 - **Word count**: Length by content type; quality over length
 - **H2 keywords**: Placement, quantity, variation
 - **Keyword density vs stuffing**: Natural use; avoid manipulation
-- **Multimedia**: Images, tables, lists for structure and Featured Snippets
+- **Multimedia**: Images, tables, lists for structure and Featured Snippets. See **featured-snippet** for snippet-specific optimization.
 
 ## Initial Assessment
 
@@ -71,7 +71,7 @@ Identify:
 | Practice | Purpose |
 |----------|---------|
 | **Descriptive H2s** | Search engines understand context; users scan |
-| **Answer-first** | Place direct answer in first 40–50 words after H2 for Featured Snippets |
+| **Answer-first** | Place direct answer in first 40–50 words after H2 for Featured Snippets; see **featured-snippet** |
 | **Keyword variation** | Use related terms; avoid repeating exact phrase in every H2 |
 | **Logical flow** | H2s outline the article; support topical authority |
 
@@ -111,14 +111,14 @@ Identify:
 | **Alt text** | Descriptive; include keyword when natural; accessibility |
 | **File names** | Descriptive (e.g. `seo-checklist-2025.jpg`) |
 | **Compression** | WebP; optimize for LCP |
-| **Captions** | Relevant to topic; can support Featured Snippets |
+| **Captions** | Relevant to topic; can support Featured Snippets; see **featured-snippet** |
 | **Original over stock** | Unique images signal E-E-A-T |
 
 ### Tables
 
 - **Use for**: Comparisons, stats, specs, "X vs Y"
 - **Semantic HTML**: `<table>`, `<thead>`, `<tbody>`, clear column headers
-- **Featured Snippets**: ~6% of snippets are tables; optimize headers with target keywords
+- **Featured Snippets**: ~6% of snippets are tables; optimize headers with target keywords. See **featured-snippet**
 - **Mobile**: Responsive; avoid horizontal scroll when possible
 - **Data quality**: No empty cells; consistent units; accurate, current data
 
@@ -126,7 +126,7 @@ Identify:
 
 | Type | Use case | SEO / Snippet |
 |------|----------|---------------|
-| **Ordered (`<ol>`)** | Steps, rankings, sequences, "Top 10" | List snippets (~19% of Featured Snippets); how-to |
+| **Ordered (`<ol>`)** | Steps, rankings, sequences, "Top 10" | List snippets (~19% of Featured Snippets); how-to; see **featured-snippet** |
 | **Unordered (`<ul>`)** | Non-sequential items, features, options | Bullet snippets; definitions, options |
 
 **Best practices**:
@@ -137,15 +137,7 @@ Identify:
 
 ### GEO / AI Citation
 
-**Answer-first** (direct answer in first 40–60 words after H2) supports both Featured Snippets and GEO. For article-level GEO (TL;DR, Key Takeaways, QAE pattern), see **article-page-generator** and **generative-engine-optimization**.
-
-### Featured Snippet Formats
-
-| Format | Share | Use |
-|--------|-------|-----|
-| **Paragraph** | ~70% | 40–50 words; direct answer after H2 |
-| **List** | ~19% | `<ol>` or `<ul>`; how-to, steps, options |
-| **Table** | ~6% | Comparisons, stats, specs |
+**Answer-first** (direct answer in first 40–60 words after H2) supports both Featured Snippets and GEO. For article-level GEO (TL;DR, Key Takeaways, QAE pattern), see **article-page-generator** and **generative-engine-optimization**. For Featured Snippet formats and optimization, see **featured-snippet**.
 
 ---
 
@@ -154,7 +146,7 @@ Identify:
 - **Word count** recommendation by content type
 - **H2 outline** with keyword placement
 - **Keyword density** check (avoid stuffing)
-- **Structure** (tables, lists) for Featured Snippet opportunity
+- **Structure** (tables, lists) for Featured Snippet opportunity; see **featured-snippet**
 - **Multimedia** checklist (images, alt, captions)
 
 ## Related Skills
@@ -164,4 +156,6 @@ Identify:
 - **keyword-research**: Target keywords inform placement
 - **article-page-generator**: Article structure, GEO (TL;DR, key takeaways, QAE)
 - **generative-engine-optimization**: GEO strategy; AI citation optimization
+- **featured-snippet**: Featured Snippet / Position Zero optimization; formats, structure
+- **serp-features**: SERP features overview; Featured Snippet in context
 - **toc-generator**: TOC built from H2–H3; supports snippet structure

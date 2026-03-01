@@ -1,15 +1,28 @@
 ---
 name: landing-page-generator
-description: When the user wants to create, optimize, or audit campaign landing pages. Also use when the user mentions "landing page," "landing page design," "conversion page," "campaign page," "lead capture page," "landing page optimization," "LP conversion," "single-page funnel," or "squeeze page."
+description: When the user wants to create, optimize, or audit campaign landing pages for paid ads or other traffic. Also use when the user mentions "landing page," "PPC landing page," "SEM landing page," "conversion page," "campaign page," "lead capture page," "landing page optimization," "LP conversion," "single-page funnel," or "squeeze page."
 metadata:
   version: 1.0.0
 ---
 
 # Pages: Landing Page
 
-Guides campaign landing page structure, conversion flow, and optimization. Applies to affiliate signup, product launch, lead capture, webinar registration, and other single-goal conversion pages. Differs from homepage (multi-purpose) and product pages (catalog).
+Guides campaign landing page structure, conversion flow, and optimization. **Primary use**: **Paid ads (PPC/SEM)** — landing pages are typically built to receive paid traffic; ad-to-page alignment is critical for conversion. Also applies to affiliate signup, product launch, lead capture, webinar registration, and other single-goal conversion pages. Differs from homepage (multi-purpose) and product pages (catalog).
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
+## Landing Pages for Paid Ads (PPC/SEM)
+
+When the landing page receives **paid traffic** (Google Ads, Meta, etc.):
+
+| Principle | Practice |
+|-----------|----------|
+| **Ad-to-page alignment** | Ad promise (e.g. "15% off") must appear immediately on the page; mismatch increases bounce |
+| **Post-click experience** | Ads drive traffic; landing pages drive conversions; optimize the full funnel |
+| **Quality Score** | Well-optimized LPs improve Google Ads Quality Score → lower CPC, better ad rank |
+| **Mobile-first** | 78% B2C e-commerce traffic on mobile; CTA above fold, thumb-reachable, fast load |
+| **Minimal form** | Fewer fields; only necessary fields; long forms cause ~81% abandonment |
+| **Trust above fold** | Reviews, accreditations, media logos visible before the ask |
 
 ## Initial Assessment
 

@@ -27,7 +27,7 @@ Identify:
 | **Indie Hacker** | Indie makers, founders | Sustained engagement; authentic journey posts; ~23% conversion vs PH 3% |
 | **Hacker News** | Tech, startups | Show HN launch; ~1,300 posts/day; front page = luck + timing |
 | **Hackernoon** | Dev, tech readers | Content distribution |
-| **Industry forums** | Niche verticals | Discount codes, leads; search "[industry] forum" |
+| **Industry forums** | Niche verticals | Discount codes, leads; search "[industry] forum"; see **discount-marketing-strategy** for code strategy |
 | **Reddit** | Subreddit-specific | See reddit-posts; 90/10 rule; 29+ posts for traction |
 
 ## Hacker News Launch

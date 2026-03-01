@@ -60,6 +60,7 @@ Identify:
 
 ## Related Skills
 
+- **discount-marketing-strategy**: Promo/discount strategy; banner displays discount code; 30–50% redemption lift
 - **cta-generator**: Banner CTA design
 - **newsletter-signup-generator**: Lead capture in banner
 - **brand-visual-generator**: Colors, typography for banner

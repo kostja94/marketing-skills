@@ -69,7 +69,7 @@ Filters create many URL combinations (size + color + price). Manage to avoid dup
 
 ### Trust & Conversion
 
-- **Reviews**: Star ratings in SERPs; 99.9% of users read reviews
+- **Reviews**: Star ratings in SERPs; 99.9% of users read reviews; see **serp-features** for review rich results
 - **FAQ**: Answer materials, quality, recommendations; +157% conversion when used
 - **Guides**: Link to product guides; internal linking for SEO
 

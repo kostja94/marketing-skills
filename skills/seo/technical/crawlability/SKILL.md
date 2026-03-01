@@ -71,6 +71,7 @@ Identify:
 
 ## Related Skills
 
+- **website-structure**: Plan which pages to build, page priority, structure planning; use before or alongside crawlability audit
 - **robots-txt**: robots.txt configuration
 - **xml-sitemap**: URL discovery
 - **google-search-console**: Index status, Coverage report

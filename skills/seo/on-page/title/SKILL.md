@@ -47,6 +47,7 @@ For pages with low CTR despite good position, use google-search-console to ident
 
 - **google-search-console**: CTR analysis, identify low-CTR pages for title optimization
 - **meta-description**: Meta description pairs with title in SERP
+- **serp-features**: SERP features; standard result appearance in context
 - **heading-structure**: H1 should align with title tag
 - **open-graph**: og:title for social sharing (often mirrors title)
 - **schema-markup**: Structured data complements metadata

@@ -64,6 +64,8 @@ Identify:
 
 ## Related Skills
 
+- **pricing-strategy**: Base price structure, tier design, anchoring; pricing-page is execution
+- **discount-marketing-strategy**: Promotional pricing, annual discount, seasonal campaigns
 - **landing-page-generator**: Click-through landing pages often send to pricing; LP CTA destination
 - **homepage-generator**: Homepage links to pricing
 - **features-page-generator**: Features inform plan differentiation

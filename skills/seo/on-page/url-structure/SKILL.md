@@ -107,6 +107,8 @@ Identify:
 
 ## Related Skills
 
+- **website-structure**: Plan structure and URL paths; apply url-structure rules after structure is defined
+
 - **canonical-tag**: HTTPS, www, trailing slash — handles duplicate URL variants
 - **url-slug-generator**: Slug creation for content pages; length, keywords, format
 - **category-page-generator**: E-commerce category URL hierarchy, faceted URLs

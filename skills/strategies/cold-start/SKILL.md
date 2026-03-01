@@ -26,7 +26,7 @@ Identify:
 | Channel | Audience | Use | Notes |
 |---------|----------|-----|-------|
 | **Product Hunt** | Indie makers, early adopters | Launch-day buzz; community upvotes | ~3% conversion; traffic spike; see directory-submission |
-| **AppSumo / LTD** | Deal seekers, early adopters | Lifetime deal for fast revenue, validation | Quick cash; price-sensitive users |
+| **AppSumo / LTD** | Deal seekers, early adopters | Lifetime deal for fast revenue, validation | Quick cash; price-sensitive users; see **discount-marketing-strategy** for LTD structure, trade-offs |
 | **Reddit** | Subreddit-specific | r/AlphaAndBetaUsers, r/roastmystartup, r/devops, r/SaaS | 80/20 rule; 5+ months for traction; lead with story |
 | **Indie Hackers** | Indie makers, founders | Sustained engagement; authentic journey | ~23% conversion; 4–6 months; not one-time launch |
 | **Hacker News** | Tech, startups | Show HN launch | Luck + timing; front page = traffic spike |
@@ -71,6 +71,7 @@ Coordinated launch across channels yields 5–6× more users than single-channel
 
 ## Related Skills
 
+- **discount-marketing-strategy**: LTD structure, pricing, trade-offs; cold start uses LTD as channel
 - **directory-submission**: Product Hunt, Taaft, G2—directory listings as cold-start channel
 - **community-forum**: Indie Hackers, HN, Reddit—forum/community as cold-start channel
 - **reddit-posts**: Reddit post copy for cold-start posts

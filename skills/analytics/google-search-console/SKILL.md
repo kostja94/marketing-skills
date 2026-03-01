@@ -59,7 +59,7 @@ Guides analysis of Google Search Console (GSC) data: performance metrics, indexi
 
 #### CTR Benchmarks by Position
 
-Use to compare actual CTR vs expected. Benchmarks vary by SERP features (AI Overviews, featured snippets); clean SERPs:
+Use to compare actual CTR vs expected. Benchmarks vary by SERP features (AI Overviews, featured snippets). **Zero-click**: When SERP features satisfy intent without a click, organic CTR drops; factor into expectations. See **serp-features** (Zero-Click section), **featured-snippet**. Clean SERPs:
 
 | Position | Expected CTR (baseline) | With AI Overviews (lower) |
 |----------|-------------------------|---------------------------|
@@ -305,3 +305,5 @@ date, query, page, country, device. Search appearance (AMP, blue link, rich resu
 - **analytics-tracking**: GA4 events (correlate with GSC)
 - **ai-traffic-tracking**: GA4 AI traffic tracking
 - **seo-monitoring**: Full SEO data analysis system, benchmark, article database
+- **serp-features**: SERP features; CTR benchmarks by feature type
+- **featured-snippet**: Featured Snippet optimization; snippet performance

@@ -28,6 +28,42 @@ Guides implementation of Schema.org structured data (JSON-LD) for rich snippets,
 
 **Practical implication**: Implement Schema.org markup for your content type. If Google doesn't show rich results for that type, Bing or AI systems may still use it. Always verify against [Google's developer docs](https://developers.google.com/search/docs) for Google-specific rich result eligibility.
 
+## Rich Results: Google Support (2025)
+
+**High-impact types**: Product, Review snippets, HowTo (desktop), Article/News, Video, Recipe, LocalBusiness, Event, Breadcrumb, Sitelinks searchbox, JobPosting.
+
+**Limited or context-dependent**: HowTo (mobile), FAQ (government/health sites for many queries), Education Q&A, Course, SoftwareApplication, Speakable (news), DiscussionForumPosting.
+
+**Deprecated**: COVID data panels, some AMP-only formats, data-vocabulary.org.
+
+**Implementation**: JSON-LD preferred; include `@context`, `@type`, stable `@id`; ISO 8601 dates; match structured data to visible content. Validate with [Rich Results Test](https://search.google.com/test/rich-results). Rich results can increase CTR up to ~35% and improve AI citation. [AISO Hub](https://aiso-hub.com/insights/google-rich-results-types/), [Digital Applied](https://www.digitalapplied.com/blog/structured-data-seo-2026-rich-results-guide)
+
+## Schema ↔ SERP Features ↔ Rich Results (Strongly Related)
+
+**Schema, SERP features, and rich results are strongly related.** Schema is the **necessary condition** for most rich results. When targeting a SERP feature, implement the corresponding schema type. See **serp-features** for the full SERP feature list and optimization.
+
+### Rich Results vs Featured Snippets
+
+- **Rich results**: Schema-powered enhancements to standard listings (stars, breadcrumbs, FAQ dropdowns, product info). Appear within organic positions; do not require top-10 rank.
+- **Featured snippets**: Google-extracted answer boxes at position zero. No schema required; content structure matters. Schema (FAQPage, HowTo, Article) can support extraction.
+
+| Schema Type | SERP Feature / Rich Result | Notes |
+|-------------|----------------------------|-------|
+| **FAQPage** | PAA, Featured Snippet | FAQ dropdown; Q&A-style snippet. Eligibility restricted for many sites (e.g. government/health) |
+| **BreadcrumbList** | Breadcrumbs | Path display in result |
+| **AggregateRating, Review** | Reviews / Stars | Star ratings |
+| **HowTo** | Featured Snippet (list) | Step-based snippet; desktop support; mobile may be limited |
+| **Article** | In-Depth Articles, Snippet | Article rich result |
+| **VideoObject** | Video | Video thumbnail |
+| **Product, Offer** | Shopping, Product | Product/shopping results |
+| **Recipe** | Recipe | Recipe rich result |
+| **JobPosting** | Google Jobs | Job listings |
+| **Event** | Event | Event rich result |
+| **WebSite + SearchAction** | Sitelinks searchbox | Site links for brand queries |
+| **Organization, Person** | Knowledge Panel | Entity info (requires authoritative sources) |
+
+**Workflow**: 1) Use **serp-features** to identify target SERP feature; 2) Look up schema type in this table; 3) Implement and validate with Rich Results Test.
+
 ## Generative Engine Optimization (GEO)
 
 **GEO** = optimizing content so AI systems (Google AI Overviews, Perplexity, ChatGPT, Gemini) choose, cite, and quote your content in generated answers. Structured data makes content machine-readable; AI engines extract and cite more accurately. Key schema types for GEO: Organization, Person/Author, WebSite, WebPage, FAQPage, HowTo, Article, Product, AggregateRating. See **generative-engine-optimization** for full GEO strategy.
@@ -202,8 +238,11 @@ export const metadata = {
 ## Related Skills
 
 - **article-page-generator**: Article page structure; Article/BlogPosting/NewsArticle schema implementation
+- **faq-page-generator**: FAQPage schema; FAQ content structure
 - **title-tag, meta-description, page-metadata**: Metadata complements schema
 - **heading-structure**: Article schema uses headline (often H1)
 - **indexing**: Google Indexing API for JobPosting, BroadcastEvent
 - **generative-engine-optimization**: GEO strategy and AI search visibility
 - **breadcrumb-generator**: BreadcrumbList schema implementation
+- **serp-features**: **Strongly related**—schema maps to SERP features; use with schema-markup when targeting rich results
+- **featured-snippet**: Featured Snippet optimization; FAQPage, HowTo for snippets

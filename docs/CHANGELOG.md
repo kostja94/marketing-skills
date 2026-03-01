@@ -9,9 +9,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Changed
 
 - **docs/** — SKILLS_GUIDE.md and CHANGELOG.md moved from root to docs/; all references updated.
+- **alternatives-page-generator** — Content format: standalone page or blog listicle; quick verdict, comparison table, pros/cons; article-page-generator reference.
+- **landing-page-generator** — Primary use for paid ads (PPC/SEM); ad-to-page alignment, post-click experience, Quality Score, mobile-first.
+- **page-taxonomy** — Added Alternatives, Integrations, Migration, Showcase, Contest, Startups (Marketing); Feedback, Disclosure (Utility).
+- **website-structure** — Growth mapping updated with new page skills.
 
 ### Added
 
+- **discount-marketing-strategy** — Discount structures (annual, volume, first-time, LTD); LTD/AppSumo; redeem code/coupon; BFCM; migrated from cold-start (LTD), referral, top-banner, contest, community-forum, affiliate.
+- **pricing-strategy** — Pricing model, tier design, anchoring; base price structure; cross-references discount-marketing-strategy.
+- **alternatives-page-generator** — Alternatives/comparison pages; "X alternatives," "X vs Y"; high SEO for SaaS.
+- **integrations-page-generator** — Integrations, plugins, extensions; connect with Slack, Notion, etc.
+- **migration-page-generator** — Migration guides; switch from competitor; step-by-step.
+- **feedback-page-generator** — Feedback and roadmap pages; Canny, FeatureBase.
+- **showcase-page-generator** — UGC gallery; "made with [product]"; creator community.
+- **contest-page-generator** — Giveaway, contest, sweepstakes; Gleam, Woobox.
+- **disclosure-page-generator** — Affiliate/sponsor disclosure; FTC compliance.
+- **startups-page-generator** — Startups/education program; special pricing.
 - **download-page-generator** — Download page for desktop/mobile app; platform selection, trust signals, CTA.
 - **page-taxonomy** — Page purpose reference (Brand, SEO, SEM, Functional, Download); website-type dimension; page applicability matrix; subdomain conventions.
 - **docs-page-generator** — Documentation site (docs.*): Getting Started, guides, API Reference, troubleshooting.

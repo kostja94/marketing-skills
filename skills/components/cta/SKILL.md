@@ -43,7 +43,7 @@ Identify:
 ## Copy Best Practices
 
 - **Action-oriented**: "Buy," "Sign up," "Subscribe," "Get started"
-- **Loss aversion**: "Claim Your Discount Before It's Gone" vs "Get 10% Off"
+- **Loss aversion**: "Claim Your Discount Before It's Gone" vs "Get 10% Off"; see **discount-marketing-strategy** for discount campaign design
 - **Clear, no ambiguity**: User knows exactly what happens
 - **Scarcity/urgency**: When appropriate; avoid overuse
 

@@ -87,9 +87,12 @@ When selecting channels, evaluate across:
 ## Related Skills
 
 - **cold-start-strategy**: Cold start for early-stage; first users, launch channels
+- **discount-marketing-strategy**: Promotional pricing; LTV (discount) in channel testing
+- **pricing-strategy**: Base price structure; pricing-strategy + discount-marketing = full pricing approach
 - **parasite-seo, programmatic-seo**: Parasite SEO (high-authority platforms), programmatic SEO (pages at scale)
 - **affiliate-marketing, community-forum, creator-program, directory-submission, employee-generated-content, email-marketing, influencer-marketing, referral-program**: Specific channel tactics
 - **generative-engine-optimization**: GEO as channel for AI search visibility
+- **ai-traffic-tracking**: Track AI channel traffic in GA4; measure GEO impact
 - **traffic-analysis**: Attribution, UTM, multi-channel reporting
 - **analytics-tracking**: GA4, event tracking across channels
 - **content-strategy**: Content as owned media pillar

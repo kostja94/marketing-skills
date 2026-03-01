@@ -84,6 +84,7 @@ Identify:
 
 ## Related Skills
 
+- **website-structure**: Plan structure and nav hierarchy; nav reflects planned sections
 - **xml-sitemap**: Nav should reflect discoverable pages
 - **internal-links**: Nav is primary internal linking
 - **site-crawlability**: Nav affects crawl paths

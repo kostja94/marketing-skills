@@ -86,6 +86,7 @@ chatgpt\.com|openai\.com|openai|perplexity\.ai|perplexity|doubao\.com|chat\.qwen
 
 ## Related Skills
 
+- **generative-engine-optimization**: GEO strategy; AI traffic tracking measures GEO impact
 - **traffic-analysis**: Traffic sources, attribution, UTM
 - **analytics-tracking**: GA4 events and conversions
 - **google-search-console**: GSC AI traffic analysis

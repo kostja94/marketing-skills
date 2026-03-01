@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-94 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 31 page types, channels, platforms, strategies, components, and analytics. Works with Lovable, ChatGPT, Gemini, and any AI that reads markdown ([Using Beyond Cursor](docs/using-beyond-cursor.md)).
+104 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 39 page types, channels, platforms, strategies, components, and analytics. Works with Lovable, ChatGPT, Gemini, and any AI that reads markdown ([Using Beyond Cursor](docs/using-beyond-cursor.md)).
 
 **By [kostja](https://github.com/kostja94)** · I add new skills daily · [SKILLS_GUIDE](docs/SKILLS_GUIDE.md) · [CHANGELOG](docs/CHANGELOG.md) · zyjstc@gmail.com
 
@@ -123,44 +123,27 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 
 **Workflow order**: Technical → On-Page → Content → Off-Page. Page skills apply SEO when optimizing specific page types. See each skill's **Related Skills** for the dependency map.
 
-```
-                         ┌──────────────────────────────────────────┐
-                         │         Technical SEO (Foundation)        │
-                         │  robots · sitemap · canonical · indexing │
-                         │  indexnow · crawlability                  │
-                         └─────────────────────┬────────────────────┘
-                                               │
-                    ┌──────────────────────────┼──────────────────────────┐
-                    ▼                          ▼                          ▼
-         ┌──────────────────┐      ┌──────────────────┐      ┌──────────────────┐
-         │     On-Page       │      │     Content      │      │    Off-Page       │
-         │ metadata · schema │◄────►│ keyword-research │      │  link-building   │
-         │ internal-links    │      │ content-strategy │      │ backlink-analysis│
-         │ url-structure ·   │      └──────────────────┘      └──────────────────┘
-         │ heading           │
-         └─────────┬──────────┘
-                   │
-                   ▼
-         ┌─────────────────────────────────────────────────────────────────────┐
-         │  Pages: home · about · contact │ features · glossary · blog · faq   │
-         │  pricing · products · services · affiliate · landing-page · media-kit│
-         │  privacy · terms · cookie-policy · legal · refund · shipping │ 404 │
-         └─────────────────────────────────────────────────────────────────────┘
-         ┌─────────────────────────────────────────────────────────────────────┐
-         │  Channels: affiliate · email · egc · influencer · referral · creator │
-         │  community-forum · directories                                       │
-         └─────────────────────────────────────────────────────────────────────┘
-         ┌─────────────────────────────────────────────────────────────────────┐
-         │  Platforms: x · reddit · linkedin · tiktok · github · grokipedia     │
-         │  Strategies: cold-start · geo · integrated-marketing · localization  │
-         │  parasite-seo · programmatic-seo                                     │
-         └─────────────────────────────────────────────────────────────────────┘
-         ┌─────────────────────────────────────────────────────────────────────┐
-         │  Components: nav · footer · hero · toc · logo · trust-badges · cta    │
-         │  Analytics: traffic · tracking · seo-monitoring · ai-traffic · GSC    │
-         └─────────────────────────────────────────────────────────────────────┘
+**[Full dependency maps →](docs/skills-relationships.md)** — 5 ASCII trees: SEO Foundation | SERP & Rich Results | Pages | Growth (Channels/Platforms/Strategies) | Components & Analytics
 
-         Cross-refs: metadata ↔ schema ↔ heading │ internal-links ↔ crawlability
+```
+┌──────────────────────────────────────────┐
+│       Technical SEO (Foundation)         │
+│  robots · sitemap · canonical · indexing  │
+│  indexnow · crawlability                 │
+└─────────────────────┬────────────────────┘
+                      │
+    ┌─────────────────┼─────────────────┐
+    ▼                 ▼                 ▼
+┌─────────┐    ┌─────────────┐    ┌─────────────┐
+│ On-Page │◄──►│    Content  │    │  Off-Page   │
+│ metadata│    │ keyword ·  │    │ link-build  │
+│ schema  │    │ content-*  │    │ backlink    │
+└────┬────┘    └─────────────┘    └─────────────┘
+     │
+     ▼
+┌──────────────────────────────────────────┐
+│  Pages → Channels → Platforms → Analytics │
+└──────────────────────────────────────────┘
 ```
 
 **Skill uniqueness**: Each skill keeps only topic-relevant content. Overlapping topics use **Related Skills** references. See [SKILLS_GUIDE §4.2](docs/SKILLS_GUIDE.md#42-skill-uniqueness-and-cross-references).
@@ -178,7 +161,7 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 
 ## Available Skills
 
-94 skills in 7 categories. [Full list](docs/skills-list.md) · `npx skills add kostja94/marketing-skills --list`
+104 skills in 7 categories. [Full list](docs/skills-list.md) · `npx skills add kostja94/marketing-skills --list`
 
 | Category | Skills |
 |----------|--------|

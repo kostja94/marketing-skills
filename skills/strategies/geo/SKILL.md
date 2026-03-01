@@ -1,13 +1,13 @@
 ---
 name: generative-engine-optimization
-description: When the user wants to optimize for AI search visibility (ChatGPT, Claude, Perplexity). Also use when the user mentions "GEO," "AEO," "generative engine optimization," "AI search visibility," "LLM optimization," "GitHub GEO," "Grokipedia," "optimize for ChatGPT," "AI Overviews," "Perplexity optimization," "GEO strategy," or "AI search optimization." For parasite SEO strategy, use parasite-seo. For GitHub, use github-seo.
+description: When the user wants to optimize for AI search visibility (ChatGPT, Claude, Perplexity). Also use when the user mentions "GEO," "AEO," "generative engine optimization," "AI search visibility," "LLM optimization," "GitHub GEO," "Grokipedia," "optimize for ChatGPT," "AI Overviews," "Bing Copilot," "Yandex AI," "Perplexity optimization," "GEO strategy," or "AI search optimization." For parasite SEO strategy, use parasite-seo. For GitHub, use github-seo.
 metadata:
   version: 1.0.0
 ---
 
 # Strategies: GEO (Generative Engine Optimization)
 
-Guides GEO/AEO strategy for AI search visibility. GEO optimizes content for ChatGPT, Claude, Perplexity, and Google AI Mode--getting cited in AI-generated answers rather than ranking in traditional SERPs.
+Guides GEO/AEO strategy for AI search visibility. GEO optimizes content for ChatGPT, Claude, Perplexity, and AI search summaries (Google AI Overviews, Bing Copilot, Yandex Search with AI)—getting cited in AI-generated answers rather than ranking in traditional SERPs. See **serp-features** for AI search as SERP features; **featured-snippet** for snippet optimization that overlaps with AI Overviews.
 
 **When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -25,12 +25,24 @@ All refer to the same goal: visibility in AI assistant responses.
 | Dimension | SEO | GEO |
 |-----------|-----|-----|
 | **Goal** | Rankings in search results | Citations in AI answers |
-| **User path** | Click ? visit ? convert | Answer in-place; may not visit |
+| **User path** | Click → visit → convert | Answer in-place; may not visit |
 | **Content** | Full page optimization | Clear, citable paragraphs |
 | **Metrics** | Clicks, traffic | Citations, brand mentions |
-| **Platforms** | Google, Bing | ChatGPT, Claude, Perplexity |
+| **Platforms** | Google, Bing, Yandex (organic) | AI Overviews, Copilot, Yandex AI, ChatGPT, Perplexity |
 
-**Both matter**: Create content that ranks and gets cited.
+**Both matter**: Create content that ranks and gets cited. AI search summaries (AI Overviews, Copilot, Yandex AI) are **SERP features**—see **serp-features**. When SERP features cause **zero-click** (user gets answer without clicking), citation becomes the primary value; optimize for being cited, not just ranked.
+
+## AI Search Platforms (SERP Features + Standalone)
+
+| Platform | Type | Source Selection | Optimization Focus |
+|----------|------|------------------|---------------------|
+| **Google AI Overviews** | SERP feature | Top 10–12 organic; Gemini; favors older domains (49% over 15 yrs) | Traditional SEO; structured data; citable blocks |
+| **Bing Copilot Search** | SERP feature | Bing index; GPT-4; 9.81% domain overlap with Google; favors younger domains (18.85%); LinkedIn signals for B2B | Bing optimization; LinkedIn presence; structured content |
+| **Yandex Search with AI / Neuro** | SERP feature | Real-time Yandex search; YandexGPT; Russia-focused | Yandex indexing; Russian content; cited sources |
+| **Perplexity** | Standalone | 200B+ URL index; independent crawl; favors recency, semantic alignment | Content freshness; semantic markup; mid-tier site opportunity |
+| **ChatGPT (web search)** | Standalone | GPTbot; high-authority, frequently updated, LLM-friendly; favors older domains (45.8%) | Backlinks; structured data; authority signals |
+
+**Citation behavior**: AI Overview citations 20–35% higher CTR than equivalent organic. Copilot: shortest responses, fewest links (~3.13/response). Perplexity: prominent URL citations, high trackability. [Geneo](https://geneo.app/blog/chatgpt-vs-perplexity-vs-google-ai-overview-geo-comparison/), [GEO AIO](https://geoaiomarketing.com/how-bing-copilot-selects-sources-compared-to-perplexity/)
 
 ## How GEO Works
 
@@ -81,4 +93,6 @@ ChatGPT traffic converts ~6x higher than Google search. AI tool users often have
 - **ai-traffic-tracking**: Track AI traffic in GA4
 - **affiliate-marketing**: GEO complements other growth channels
 - **integrated-marketing**: GEO as channel in IMC/PESO framework
+- **serp-features**: **Strongly related**—AI Overviews, Bing Copilot, Yandex AI are SERP features; platform comparison table
+- **featured-snippet**: Snippet optimization; overlaps with AI Overviews
 - **article-page-generator**: TL;DR, Key Takeaways, QAE pattern for article-level GEO

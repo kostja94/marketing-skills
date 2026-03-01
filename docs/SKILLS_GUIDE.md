@@ -289,7 +289,7 @@ The CLI recursively searches for `SKILL.md` in:
 
 | Option | How |
 |--------|-----|
-| **Full install** | `npx skills add kostja94/marketing-skills` — all 88 skills |
+| **Full install** | `npx skills add kostja94/marketing-skills` — all 104 skills |
 | **Selective install** | `npx skills add kostja94/marketing-skills --skill robots-txt pricing-page-generator` — only specified skills |
 | **Delete after install** | Remove unwanted folders from `.cursor/skills/` — skills are independent, no cross-dependencies |
 

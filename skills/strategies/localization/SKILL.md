@@ -132,6 +132,7 @@ Consider: Cultural expressions, search habits, competition, long-tail in small m
 
 ## Related Skills
 
+- **pricing-strategy**: Base price structure; localization-strategy covers pricing by market
 - **page-metadata**: Hreflang implementation
 - **url-structure**: URL hierarchy for i18n (subdirectories, subdomains)
 - **content-strategy**: Multilingual content planning; avoid thin translations

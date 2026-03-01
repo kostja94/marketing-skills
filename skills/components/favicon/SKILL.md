@@ -44,6 +44,8 @@ Identify:
 
 ## Google Search (SERP Display)
 
+See **serp-features** for SERP feature types and optimization.
+
 Favicons can appear in Google Search results next to your site's listings. [Google Search Central](https://developers.google.com/search/docs/appearance/favicon-in-search) requirements:
 
 | Requirement | Guideline |

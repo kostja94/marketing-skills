@@ -80,7 +80,7 @@ Identify:
 - **Internal linking**: Breadcrumbs distribute link equity
 - **Crawlability**: Helps crawlers understand taxonomy
 - **GEO**: BreadcrumbList appears frequently on pages cited by Google AI Mode
-- **Note**: Google removed visual breadcrumbs from mobile SERPs (Jan 2025) to save space, but schema and algorithmic value remain important for crawlers and AI
+- **Note**: Google removed visual breadcrumbs from mobile SERPs (Jan 2025) to save space, but schema and algorithmic value remain important for crawlers and AI. See **serp-features** for breadcrumb SERP display.
 
 ## Implementation
 
@@ -192,7 +192,7 @@ When a page is reachable via multiple paths (e.g., product in multiple categorie
 | Last item linked | Current page typically not a link |
 | Too many levels | Limit to 5–7; omit middle levels for deep paths |
 | Inaccurate path | Breadcrumb must reflect actual site structure |
-| No schema | Add BreadcrumbList; otherwise no SERP breadcrumbs |
+| No schema | Add BreadcrumbList; otherwise no SERP breadcrumbs; see **serp-features** |
 
 ## Output Format
 
@@ -211,3 +211,4 @@ When a page is reachable via multiple paths (e.g., product in multiple categorie
 - **site-crawlability**: Breadcrumbs help crawlers understand structure
 - **category-page-generator**: Category hierarchy in breadcrumbs
 - **products-page-generator**: Product pages often need breadcrumbs (Category > Product)
+- **serp-features**: Breadcrumb SERP display; rich results

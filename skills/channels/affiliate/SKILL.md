@@ -44,7 +44,7 @@ For SaaS: Prefer pay-per-sale or pay-per-lead. Recurring commissions for subscri
 
 - **Content creators**: Bloggers, YouTubers, podcasters, social influencers
 - **Publishers**: Media, niche sites, email newsletters
-- **Coupon/cashback**: Price-sensitive users
+- **Coupon/cashback**: Price-sensitive users; see **discount-marketing-strategy** for code strategy
 - **Professional affiliates**: Agencies managing multiple programs
 - **Communities**: Facebook Groups, Discord, Reddit, forums
 - **Existing customers**: Word-of-mouth via referral rewards
@@ -104,6 +104,7 @@ Expect a small fraction of partners to drive most sales—quality over vanity me
 
 ## Related Skills
 
+- **discount-marketing-strategy**: Affiliate-specific promo codes; coupon sites; code strategy
 - **affiliate-page-generator**: Landing page for affiliate signup; apply landing-page-generator principles
 - **landing-page-generator**: Generic landing page structure, CTA, conversion; applies to affiliate signup pages
 - **influencer-marketing**: Often paired; influencers can be affiliates

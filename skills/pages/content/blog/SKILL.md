@@ -71,7 +71,7 @@ Choose based on SEO weight distribution, brand consistency, and technical archit
 - **Scannable**: Preview copy, thumbnails, hero images
 - **Social sharing**: Share buttons on article pages -> see **social-share-generator**
 - **Quick answers**: Definition boxes, mini-FAQs for AEO
-- **TOC**: Table of contents for Featured Snippets; jump links in long articles
+- **TOC**: Table of contents for Featured Snippets; jump links in long articles; see **featured-snippet**, **toc-generator**
 - **CTA placement**: Sidebar CTA or in-paragraph CTA at key conversion points
 - **Related/Recent posts**: Manual curation or plugin; same topic cluster
 
@@ -85,6 +85,7 @@ Choose based on SEO weight distribution, brand consistency, and technical archit
 ## Related Skills
 
 - **article-page-generator**: Single article/post page structure, SEO, schema -> use for individual post templates
+- **featured-snippet**: TOC, answer-first format for snippet opportunities
 - **url-slug-generator**: URL slug for blog posts; 3-5 words, primary keyword
 - **content-strategy**: Content clusters, editorial calendar
 - **keyword-research**: Keywords for blog topics

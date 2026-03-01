@@ -135,6 +135,7 @@ Cluster 6-12 (subtopics)
 
 ## Related Skills
 
+- **website-structure**: Plan which pages to build; structure informs content clusters and pillar placement
 - **keyword-research**: Keywords drive content plan
 - **programmatic-seo**: Programmatic SEO for scaling pages with template + data; complements topic clusters
 - **content-optimization**: Word count, H2 keywords, keyword density, multimedia, lists -> on-page content optimization

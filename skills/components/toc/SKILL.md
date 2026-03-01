@@ -61,7 +61,7 @@ Identify:
 |----------|---------|
 | **Schema.org TableOfContents** | Help search engines understand structure |
 | **Keywords in headings** | Natural integration; avoid stuffing |
-| **Jump links in SERP** | Google may feature TOC links; increases CTR |
+| **Jump links in SERP** | Google may feature TOC links; increases CTR; see **serp-features** |
 
 ## UX Guidelines
 
@@ -96,4 +96,6 @@ Identify:
 
 - **heading-structure**: TOC built from heading structure
 - **content-optimization**: H2 structure, lists, tables for Featured Snippets
+- **featured-snippet**: Featured Snippet optimization; TOC supports snippet structure
+- **serp-features**: SERP features; jump links in results
 - **article-page-generator**: TOC common in long-form article pages

@@ -212,6 +212,7 @@ With multiple sitemaps, only declare the main index.
 
 ## Related Skills
 
+- **website-structure**: Plan page structure and URL list; sitemap reflects planned/indexable pages
 - **google-search-console**: Sitemap status, indexed URL count, Coverage
 - **robots-txt**: Reference sitemap in robots.txt
 - **indexnow**: Share same URL list from config

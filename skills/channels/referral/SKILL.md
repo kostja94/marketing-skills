@@ -123,6 +123,7 @@ Referral rate, conversion, CAC, LTV of referred users, referred-user retention.
 
 ## Related Skills
 
+- **discount-marketing-strategy**: Referral rewards (discounts, credits); 10–30% benchmark; campaign design
 - **affiliate-marketing**: Different audience; can run both
 - **influencer-marketing**: Brand building vs. user-driven growth
 - **directory-submission**: Directory submission for discovery; referral for user-driven growth

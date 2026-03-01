@@ -57,7 +57,7 @@ Identify:
 | Transactional | "buy," "price," "cheap," "coupon," "free shipping" |
 | Local | Location names |
 
-**SERP check**: Search the term—knowledge cards/Wiki → informational; product lists/reviews → commercial; brand sites → navigational. Broader terms often show mixed SERP.
+**SERP check**: Search the term—knowledge cards/Wiki → informational; product lists/reviews → commercial; brand sites → navigational. Broader terms often show mixed SERP. See **serp-features** for feature types.
 
 ## Long-Tail Expansion
 
@@ -87,7 +87,7 @@ Identify:
 | **Search volume** | Monthly searches; ~100+/month typical floor; niche can relax |
 | **Keyword difficulty (KD)** | New sites target lower KD |
 | **CPC** | Higher CPC often = stronger commercial intent |
-| **SERP features** | Featured Snippet, PAA, zero-click; affects real traffic |
+| **SERP features** | Featured Snippet, PAA, zero-click; SERP features can satisfy intent without click—affects real traffic; see **serp-features** (Zero-Click section), **featured-snippet** |
 | **Screening order** | 1) Remove irrelevant 2) Filter very low volume 3) Assess achievability 4) Prioritize commercial/transactional |
 
 ## Product Positioning Test (SEO Fit)
@@ -120,3 +120,5 @@ Test if positioning is clear enough for search:
 - **title-tag, meta-description**: Keywords in title, description
 - **heading-structure**: Keywords in H1, H2
 - **link-building**: Keywords inform link targets
+- **serp-features**: SERP features in keyword screening; PAA, Featured Snippet
+- **featured-snippet**: Snippet-worthy query targeting

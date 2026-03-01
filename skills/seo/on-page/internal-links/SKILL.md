@@ -72,6 +72,7 @@ Identify:
 ## Related Skills
 
 - **article-page-generator**: Related posts, contextual links, end-of-article recommendations
+- **website-structure**: Plan page structure and hierarchy; informs internal linking
 - **site-crawlability**: Internal links enable crawling
 - **url-structure**: URL structure affects link patterns
 - **content-strategy**: Topic clusters inform link structure; pillar <-> cluster; cluster <-> cluster

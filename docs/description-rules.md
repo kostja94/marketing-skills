@@ -126,7 +126,7 @@ When the user wants to [primary actions]. Also use when the user mentions "[keyw
 
 | Anti-pattern | Fix |
 |-------------|-----|
-| Too generic | "Helps with SEO" → specify: "optimize title tag, meta description, SERP snippet" |
+| Too generic | "Helps with SEO" → specify: "optimize title tag, meta description, SERP snippet"; see **serp-features**, **featured-snippet** |
 | Missing triggers | Add 5+ keyword variants users might say |
 | Jargon-only | Add user-friendly terms: "structured data" + "schema," "rich snippets" |
 | First/second person | Use third person: "When the user wants to..." |

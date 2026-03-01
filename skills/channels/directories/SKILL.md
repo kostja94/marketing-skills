@@ -21,7 +21,7 @@ Directory submission is a core channel for cold start—see **cold-start-strateg
 |---------|--------------|
 | **Backlinks** | Quality directories pass link equity; improve domain authority and rankings. Focus on high-authority directories (DA 50+); avoid low-quality link farms. |
 | **Real traffic & conversion** | Referral traffic from directories converts. ~42% of businesses report increased referral traffic after submission; referral conversion ~1.8% (B2C), 1.1% (B2B), 1.3% (SaaS). Use UTM to track; proper attribution can improve measured conversion by ~23%. |
-| **Social proof for brand search** | When users search your brand name, directory listings (e.g. Product Hunt, G2, Taaft) often dominate SERP. Third-party presence signals legitimacy; consumers check 5-7 sources before deciding. Verified badges and consistent NAP across directories boost trust. |
+| **Social proof for brand search** | When users search your brand name, directory listings (e.g. Product Hunt, G2, Taaft) often dominate SERP. Third-party presence signals legitimacy; consumers check 5-7 sources before deciding. Verified badges and consistent NAP across directories boost trust. See **serp-features** for SERP feature types. |
 
 ## Current Best Practices (2024-2026)
 
@@ -277,7 +277,7 @@ Directories typically offer multiple touchpoints--not just inclusion in the cata
 
 ### Review Platforms (G2, Capterra)
 
-- **Type**: B2B software review platform (vendor-submitted, review-driven); rich snippets (stars, ratings) in SERP
+- **Type**: B2B software review platform (vendor-submitted, review-driven); rich snippets (stars, ratings) in SERP; see **serp-features**
 - **vs directories**: More complex submission (domain email verification, more fields, features, FAQ); commercialized (membership, paid placement); lower risk than PH ranking--reviews drive priority; higher-paying B2B users
 - **Use when**: B2B SaaS; want review-rich SERP presence and enterprise buyers
 
@@ -375,3 +375,4 @@ Before submitting to any directory:
 - **cold-start-strategy**: Cold start orchestrates directory-submission, Product Hunt, Reddit, Indie Hackers; this skill handles directory submission workflow
 - **community-forum**: Forum promotion (HN, Indie Hacker); community invitation; different from directory listing
 - **analytics-tracking**: UTM for directory traffic attribution
+- **serp-features**: SERP features; directory listings in brand search SERP

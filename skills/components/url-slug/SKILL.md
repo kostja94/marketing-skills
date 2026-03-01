@@ -24,7 +24,7 @@ Guides creation of SEO-friendly URL slugs for blog posts, articles, and content 
 |-----------|--------|
 | **Slug length** | Under 60 characters total (including path prefix) |
 | **Word count** | 3–5 words |
-| **Principle** | Shorter = easier to read, share, remember; less truncation in SERPs |
+| **Principle** | Shorter = easier to read, share, remember; less truncation in SERPs; see **serp-features** |
 
 **Example**: "The Complete Guide to AI Search Engine for Finding People" → `ai-people-search` (3 words) or `ai-search-finding-people` (4 words), not `ai-search-engine-finding-people-speed-discovery-outreach` (9 words, 51 chars).
 

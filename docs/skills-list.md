@@ -1,6 +1,6 @@
 # Full Skills List
 
-Complete list of all 94 skills with descriptions. See [README](../README.md) for overview.
+Complete list of all 104 skills with descriptions. See [README](../README.md) for overview.
 
 ## SEO
 
@@ -21,6 +21,8 @@ Complete list of all 94 skills with descriptions. See [README](../README.md) for
 |-------|-------------|
 | [title-tag](../skills/seo/on-page/title/) | Title tag optimization for SERP |
 | [meta-description](../skills/seo/on-page/description/) | Meta description optimization for SERP |
+| [featured-snippet](../skills/seo/on-page/featured-snippet/) | Featured Snippet / Position Zero optimization |
+| [serp-features](../skills/seo/on-page/serp-features/) | SERP features types, obtainability, optimization |
 | [page-metadata](../skills/seo/on-page/metadata/) | Hreflang, meta robots, viewport, charset |
 | [open-graph](../skills/seo/on-page/open-graph/) | Open Graph tags for social sharing |
 | [twitter-cards](../skills/seo/on-page/twitter-cards/) | Twitter Card tags for X previews |
@@ -91,6 +93,12 @@ Page classification framework for navigation design, sitemaps, content strategy,
 | Marketing | Landing page | [landing-page-generator](../skills/pages/marketing/landing-page/) | Transactional | Decision |
 | Marketing | Download | [download-page-generator](../skills/pages/marketing/download/) | Transactional | Decision |
 | Marketing | Media kit | [media-kit-page-generator](../skills/pages/marketing/media-kit/) | Commercial | Consideration |
+| Marketing | Alternatives | [alternatives-page-generator](../skills/pages/marketing/alternatives/) | Commercial | Consideration |
+| Marketing | Integrations | [integrations-page-generator](../skills/pages/marketing/integrations/) | Commercial | Consideration |
+| Marketing | Migration | [migration-page-generator](../skills/pages/marketing/migration/) | Transactional | Decision |
+| Marketing | Showcase | [showcase-page-generator](../skills/pages/marketing/showcase/) | Commercial | Consideration |
+| Marketing | Contest | [contest-page-generator](../skills/pages/marketing/contest/) | Transactional | Decision |
+| Marketing | Startups | [startups-page-generator](../skills/pages/marketing/startups/) | Transactional | Decision |
 | Legal | Privacy | [privacy-page-generator](../skills/pages/legal/privacy/) | — | Support |
 | Legal | Terms | [terms-page-generator](../skills/pages/legal/terms/) | — | Support |
 | Legal | Cookie policy | [cookie-policy-page-generator](../skills/pages/legal/cookie-policy/) | — | Support |
@@ -101,6 +109,8 @@ Page classification framework for navigation design, sitemaps, content strategy,
 | Utility | Careers | [careers-page-generator](../skills/pages/utility/careers/) | Commercial | Consideration |
 | Utility | Changelog | [changelog-page-generator](../skills/pages/utility/changelog/) | Informational | Support |
 | Utility | Status | [status-page-generator](../skills/pages/utility/status/) | — | Support |
+| Utility | Feedback | [feedback-page-generator](../skills/pages/utility/feedback/) | — | Support |
+| Utility | Disclosure | [disclosure-page-generator](../skills/pages/utility/disclosure/) | — | Support |
 
 ### Website Types & Page Applicability
 
@@ -175,6 +185,8 @@ Different website types need different pages. See [page-taxonomy.md § Website T
 |-------|-------------|
 | [website-structure](../skills/strategies/website-structure/) | Plan which pages to build, page priority (Must Have/Great to Have/Optional), structure for UX/SEO/growth |
 | [cold-start-strategy](../skills/strategies/cold-start/) | Cold start, first users, launch channels (Product Hunt, Reddit, AppSumo) |
+| [discount-marketing-strategy](../skills/strategies/discount-marketing/) | Discount strategy, LTD, redeem code, BFCM, promo campaigns |
+| [pricing-strategy](../skills/strategies/pricing-strategy/) | Pricing model, tier design, anchoring; base price structure |
 | [generative-engine-optimization](../skills/strategies/geo/) | GEO/AEO for AI search visibility |
 | [integrated-marketing](../skills/strategies/integrated-marketing/) | IMC, PESO, program vs channel vs campaign |
 | [localization-strategy](../skills/strategies/localization/) | Localization strategy, i18n, multilingual |

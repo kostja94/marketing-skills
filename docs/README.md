@@ -6,7 +6,8 @@ Reference docs for marketing-skills. For overview, installation, and usage → [
 
 | Doc | Purpose |
 |-----|---------|
-| [skills-list.md](skills-list.md) | Full list of 88 skills; page taxonomy (classification, intent, best practices) |
+| [skills-list.md](skills-list.md) | Full list of 104 skills; page taxonomy (classification, intent, best practices) |
+| [skills-relationships.md](skills-relationships.md) | How skills work together — 5 ASCII trees (SEO, SERP, Pages, Growth, Analytics) |
 | [page-taxonomy.md](page-taxonomy.md) | Expanded page taxonomy with Notes and Best Practices — use for navigation design, sitemaps |
 | [using-beyond-cursor.md](using-beyond-cursor.md) | Use skills in Lovable, Bolt, v0, ChatGPT, Gemini — no native support needed |
 | [CHANGELOG.md](CHANGELOG.md) | What changed, when |

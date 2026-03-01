@@ -36,7 +36,7 @@ Use available context to give **tailored** analysis:
 |--------|---------|
 | **product-marketing-context.md** | Keywords (Section 6), competitors (Section 7), content strategy (Section 11), product connection |
 | **Article content** | Extract product name, features, URLs; infer target keyword and audience |
-| **Web search** | When analyzing a known brand (e.g. Lessie AI): search for "[product] features", "[product] vs competitors", company positioning — use to validate product connection, suggest missing features/use cases, and improve competitor gap analysis |
+| **Web search** | When analyzing a known brand: search for "[product] features", "[product] vs competitors", company positioning — use to validate product connection, suggest missing features/use cases, and improve competitor gap analysis |
 
 If no product-marketing-context exists, infer from the article and optionally search for company/product info to enrich recommendations.
 
@@ -62,7 +62,7 @@ When **analyzing or auditing** an article, perform the following searches and **
   - **Commercial**: Comparison, best, review → comparison pages, product pages
   - **Transactional**: Buy, pricing, sign up → product, pricing, CTA
   - **Navigational**: Brand name, login → brand pages
-- **Search the web** if needed: `"[keyword]"` to see SERP result types (blogs, product pages, etc.) and infer intent.
+- **Search the web** if needed: `"[keyword]"` to see SERP result types (blogs, product pages, etc.) and infer intent. See **serp-features** for SERP feature types.
 - **Output**: Intent for primary keyword, intent for top 2–3 secondary keywords, whether article matches intent.
 
 ### 3. Competitor Article Search
@@ -191,7 +191,7 @@ See **generative-engine-optimization** for full GEO strategy.
 | **Paragraph length** | 2–4 sentences; 40–80 words per paragraph; avoid walls of text |
 | **Break long blocks** | Use lists, subheadings (H3), images, callout boxes every 2–3 paragraphs |
 | **Answer blocks** | 100–200 words per H2 section; direct answer + context + evidence |
-| **Scannability** | Short sentences; one idea per paragraph; **front-load** key info (F-pattern: readers scan top, then left); **bold** key phrases for Featured Snippets |
+| **Scannability** | Short sentences; one idea per paragraph; **front-load** key info (F-pattern: readers scan top, then left); **bold** key phrases for Featured Snippets; see **featured-snippet** |
 
 ### Long-Form (1,000+ words)
 

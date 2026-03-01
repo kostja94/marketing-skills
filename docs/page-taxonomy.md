@@ -2,17 +2,47 @@
 
 > Expanded page classification for navigation design, sitemaps, content strategy, and SEO. For the full skills list including pages, see [skills-list.md](skills-list.md).
 
+## Core vs Extended Pages
+
+Page skills cover **standalone page types** — the most important, reusable templates. Sub-pages or sections within a larger site (e.g. API Reference within docs) are not separate page types.
+
+| Tier | Scope | Examples |
+|------|-------|----------|
+| **Core** | Essential for most sites | Home, About, Contact, Privacy, Terms, 404 |
+| **Content** | Informational, SEO | Features, Blog, Article, FAQ, Resources, Glossary, API (intro), Docs |
+| **Marketing** | Conversion | Pricing, Products, Services, Landing page, Customer stories, Use cases, Solutions |
+| **Extended** | Situational | Category pages, Affiliate, Media kit; Legal (Cookie, Refund, Shipping); Careers, Changelog, Status |
+
+---
+
+## Page Purpose Reference
+
+Quick reference for what each page type is used for:
+
+| Purpose | Description | Examples |
+|---------|-------------|----------|
+| **品牌 (Brand)** | 建立品牌认知、信任与身份认同 | 首页、关于我们、联系我们 |
+| **营销 - SEO** | 获取有机搜索流量，教育用户，建立主题权威 | 博客、文章、词汇表、FAQ、资源中心、文档 |
+| **营销 - SEM** | 承接付费广告流量，广告与落地页信息一致 | 落地页、定价页、产品页（作为 PPC 目标页） |
+| **功能使用 (Functional)** | 产品使用、任务完成、应用内体验 | Dashboard（仪表盘）、SPA（单页应用界面） |
+| **引导下载 (Download)** | 引导用户下载桌面端或移动端应用 | 下载页（desktop app、mobile app） |
+
+---
+
 ## Classification Dimensions
 
 ### 1. By Purpose
 
-| Purpose | Goal | Key Metrics |
-|---------|------|-------------|
-| **Brand** | Build awareness, trust, identity | Brand search, dwell time, trust signals |
-| **SEO** | Organic traffic, educate users, topical authority | Organic rankings, traffic, backlinks |
-| **Marketing** | Conversion, acquisition, partnership recruitment | Conversion rate, CAC, signups/purchases |
-| **Legal** | Compliance, transparency, risk control | Compliance, accessibility |
-| **Utility** | Navigation support, UX, system functions | Usability, error recovery |
+| Purpose | Goal | Key Metrics | Typical Pages |
+|---------|------|-------------|---------------|
+| **Brand** | Build awareness, trust, identity | Brand search, dwell time, trust signals | Home, About, Contact |
+| **SEO** | Organic traffic, educate users, topical authority | Organic rankings, traffic, backlinks | Blog, Article, Glossary, FAQ, Resources, Docs |
+| **SEM** | Paid traffic conversion, ad-to-page alignment | CTR, conversion rate, ROAS | Landing page, Pricing, Products (PPC destination) |
+| **Marketing** | Conversion, acquisition, partnership recruitment | Conversion rate, CAC, signups/purchases | Landing page, Pricing, Use cases, Solutions, Affiliate |
+| **Functional** | Product use, task completion, in-app experience | Engagement, retention, task completion | Dashboard, SPA (app UI), Docs (usage) |
+| **Download** | Guide users to install desktop or mobile app | Download rate, store visits, install conversion | Download page (desktop app, mobile app) |
+| **Legal** | Compliance, transparency, risk control | Compliance, accessibility | Privacy, Terms, Cookie policy |
+| **Utility** | Navigation support, UX, system functions | Usability, error recovery | 404, Careers, Changelog, Status |
 
 ### 2. By Search Intent
 
@@ -60,6 +90,9 @@ Focused on organic traffic, educating users, and topical authority. Goals: long-
 | **Resources** | resources-page-generator | Informational | Awareness | Content hub, guides, templates, tools |
 | **FAQ** | faq-page-generator | Informational | Consideration | Common questions, Q&A, Featured Snippet |
 | **API** | api-page-generator | Informational | Consideration | API introduction page (typically /api); overview, links to docs; docs are separate |
+| **Docs** | docs-page-generator | Informational | Awareness | Documentation site (docs.*); Getting Started, guides, tutorials, **API Reference** (endpoint docs), troubleshooting |
+| **Changelog** | changelog-page-generator | Informational | Support | Release notes, updates; often changelog.* or /changelog |
+| **Status** | status-page-generator | — | Support | Service health, uptime, incidents; status.* subdomain |
 
 ---
 
@@ -76,9 +109,23 @@ Focused on conversion, acquisition, and partnership recruitment. Goals: signups,
 | **Customer stories** | customer-stories-page-generator | Commercial | Consideration | Case studies, social proof |
 | **Affiliate program** | affiliate-page-generator | Transactional | Decision | Commission, recruitment, partnership signup |
 | **Landing page** | landing-page-generator | Transactional | Decision | Single-goal campaign pages: lead capture, webinar, product launch; apply to affiliate/creator signup |
+| **Download** | download-page-generator | Transactional | Decision | Guide users to install desktop or mobile app; App Store / Play Store links; direct download |
 | **Media kit** | media-kit-page-generator | Commercial | Consideration | Press assets, brand materials, PR |
+| **Use cases** | use-cases-page-generator | Commercial | Consideration | Bridge features → real problems; by ICP, industry, role; BOFU; SaaS/B2B |
+| **Solutions** | solutions-page-generator | Commercial | Consideration | Outcome-focused; "how does this solve my problem?"; by industry, team, outcome |
 
 > **Creator Program page**: If you create a standalone Creator Program landing page, place it under marketing, similar to affiliate-program. Apply landing-page-generator principles.
+
+---
+
+### Functional (Product Use)
+
+Focused on product use, task completion, and in-app experience. Goals: engagement, retention, task completion. Typically not standalone marketing pages—part of the product itself.
+
+| Page | Skill | Intent | Funnel | Notes |
+|------|-------|--------|--------|-------|
+| **Dashboard** | — | Transactional | Decision | In-app dashboard; metrics, widgets, quick actions; functional UI, not marketing |
+| **SPA** | — | Transactional | Decision | Single-page application UI; app shell, routing, state; functional use |
 
 ---
 
@@ -143,10 +190,74 @@ Support navigation, error handling, system functions. Not optimized for rankings
 
 ---
 
+## Website Types & Page Applicability
+
+Different website types need different page sets. Use this mapping to plan sitemaps and prioritize pages.
+
+### By Website Type
+
+| Website Type | Description | Core Pages | Extended Pages |
+|--------------|-------------|------------|----------------|
+| **Product / SaaS** | Software product, subscription | Home, About, Features, Pricing, Contact, Blog | Docs (incl. API Reference), API, Changelog, Status, Use cases, Solutions, FAQ, Resources, Customer stories |
+| **B2B** | Business-to-business, enterprise | Home, Product/Service, Demo/Contact CTA | Use cases, Solutions, Customer stories, Case studies, Pricing (or "Contact sales"), FAQ |
+| **E-commerce** | Online store, B2C | Home, Products, Category pages, Cart/Checkout, Contact | FAQ, Refund, Shipping, Customer reviews, Affiliate program |
+| **Portfolio** | Freelancer, creative, agency | Home, About, Portfolio/Work, Contact | Services, Testimonials, Blog (optional) |
+| **Forum / Community** | Discussion, Q&A | Home, Categories, Threads, Member profiles | About, Rules, Contact, Search |
+| **Directory / Navigation** | Listings, curated links | Home, Categories, Search, Listing pages | About, Submit listing, Contact, FAQ |
+
+### By Business Model
+
+| Model | Primary Pages | Conversion Focus |
+|-------|---------------|-------------------|
+| **B2B SaaS** | Use cases, Solutions, Pricing, Demo | Book demo, Start trial, Contact sales |
+| **B2C E-commerce** | Products, Category pages, Cart | Add to cart, Checkout |
+| **Freelance / Agency** | Portfolio, Services, Contact | Hire me, Get quote |
+| **Developer Product** | Docs (incl. API Reference), Changelog, Status | Sign up, API key |
+| **Content / Media** | Blog, Resources, Glossary | Newsletter, Subscribe |
+
+### Subdomain Conventions (Software Products)
+
+| Subdomain | Purpose | Typical Content |
+|-----------|---------|-----------------|
+| `docs.*` | Documentation | Getting Started, guides, tutorials, API Reference (endpoint docs) |
+| `changelog.*` | Release notes | Version history, updates, deprecations |
+| `status.*` | Service health | Uptime, incidents, maintenance |
+| `developer.*` | Developer portal | Hub linking docs, API, changelog, SDKs |
+| `help.*` | Help center | Knowledge base, FAQs (may overlap with docs) |
+
+### Page → Website Type Matrix
+
+| Page | Product/SaaS | B2B | E-commerce | Portfolio | Forum | Directory |
+|------|:------------:|:---:|:----------:|:---------:|:-----:|:---------:|
+| Home | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| About | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Contact | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Features | ✓ | ✓ | — | — | — | — |
+| Use cases | ✓ | ✓ | — | — | — | — |
+| Solutions | ✓ | ✓ | — | ✓ | — | — |
+| Pricing | ✓ | ✓ | — | ✓ | — | — |
+| Products | ✓ | ✓ | ✓ | — | — | — |
+| Category pages | — | — | ✓ | — | ✓ | ✓ |
+| Customer stories | ✓ | ✓ | — | ✓ | — | — |
+| Blog | ✓ | ✓ | ✓ | ✓ | — | — |
+| Docs (incl. API Reference) | ✓ | — | — | — | — | — |
+| Changelog | ✓ | — | — | — | — | — |
+| Status | ✓ | ✓ | — | — | — | — |
+| FAQ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Resources | ✓ | ✓ | — | ✓ | — | — |
+| Glossary | ✓ | ✓ | — | — | — | — |
+| Privacy / Terms | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Refund / Shipping | — | — | ✓ | — | — | — |
+| 404 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Careers | ✓ | ✓ | — | ✓ | — | — |
+
+---
+
 ## Quick Reference
 
 - **Brand**: home, about, contact → `skills/pages/brand/`
-- **SEO / Content**: features, glossary, blog, resources, faq, api → `skills/pages/content/`
-- **Marketing**: pricing, products, services, category-pages, customer-stories, affiliate-program, media-kit → `skills/pages/marketing/`
+- **SEO / Content**: features, glossary, blog, resources, faq, api, docs → `skills/pages/content/`
+- **Marketing**: pricing, products, services, category-pages, customer-stories, affiliate-program, media-kit, landing-page, **download**, use-cases, solutions → `skills/pages/marketing/`
+- **Functional** (in-product): dashboard, SPA — no standalone page skills; part of product UI
 - **Legal**: privacy, terms, cookie-policy, legal, refund, shipping → `skills/pages/legal/`
-- **Utility**: 404, careers → `skills/pages/utility/`
+- **Utility**: 404, careers, changelog, status → `skills/pages/utility/`

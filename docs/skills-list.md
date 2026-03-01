@@ -1,6 +1,6 @@
 # Full Skills List
 
-Complete list of all 88 skills with descriptions. See [README](../README.md) for overview.
+Complete list of all 94 skills with descriptions. See [README](../README.md) for overview.
 
 ## SEO
 
@@ -79,6 +79,9 @@ Page classification framework for navigation design, sitemaps, content strategy,
 | SEO | Resources | [resources-page-generator](../skills/pages/content/resources/) | Informational | Awareness |
 | SEO | FAQ | [faq-page-generator](../skills/pages/content/faq/) | Informational | Consideration |
 | SEO | API | [api-page-generator](../skills/pages/content/api/) | Informational | Consideration |
+| SEO | Docs | [docs-page-generator](../skills/pages/content/docs/) | Informational | Awareness |
+| Marketing | Use cases | [use-cases-page-generator](../skills/pages/marketing/use-cases/) | Commercial | Consideration |
+| Marketing | Solutions | [solutions-page-generator](../skills/pages/marketing/solutions/) | Commercial | Consideration |
 | Marketing | Pricing | [pricing-page-generator](../skills/pages/marketing/pricing/) | Transactional | Decision |
 | Marketing | Products | [products-page-generator](../skills/pages/marketing/products/) | Transactional | Decision |
 | Marketing | Services | [services-page-generator](../skills/pages/marketing/services/) | Commercial | Consideration |
@@ -86,6 +89,7 @@ Page classification framework for navigation design, sitemaps, content strategy,
 | Marketing | Customer stories | [customer-stories-page-generator](../skills/pages/marketing/customer-stories/) | Commercial | Consideration |
 | Marketing | Affiliate program | [affiliate-page-generator](../skills/pages/marketing/affiliate-program/) | Transactional | Decision |
 | Marketing | Landing page | [landing-page-generator](../skills/pages/marketing/landing-page/) | Transactional | Decision |
+| Marketing | Download | [download-page-generator](../skills/pages/marketing/download/) | Transactional | Decision |
 | Marketing | Media kit | [media-kit-page-generator](../skills/pages/marketing/media-kit/) | Commercial | Consideration |
 | Legal | Privacy | [privacy-page-generator](../skills/pages/legal/privacy/) | — | Support |
 | Legal | Terms | [terms-page-generator](../skills/pages/legal/terms/) | — | Support |
@@ -95,6 +99,21 @@ Page classification framework for navigation design, sitemaps, content strategy,
 | Legal | Shipping | [shipping-page-generator](../skills/pages/legal/shipping/) | — | Support |
 | Utility | 404 | [404-page-generator](../skills/pages/utility/404/) | — | — |
 | Utility | Careers | [careers-page-generator](../skills/pages/utility/careers/) | Commercial | Consideration |
+| Utility | Changelog | [changelog-page-generator](../skills/pages/utility/changelog/) | Informational | Support |
+| Utility | Status | [status-page-generator](../skills/pages/utility/status/) | — | Support |
+
+### Website Types & Page Applicability
+
+Different website types need different pages. See [page-taxonomy.md § Website Types](page-taxonomy.md#website-types--page-applicability) for full mapping.
+
+| Website Type | Core Pages |
+|--------------|------------|
+| **Product / SaaS** | Home, Features, Pricing, Docs (incl. API Reference), API, Changelog, Status, Use cases, Solutions |
+| **B2B** | Home, Use cases, Solutions, Customer stories, Demo CTA |
+| **E-commerce** | Home, Products, Category pages, Cart, Refund, Shipping |
+| **Portfolio** | Home, About, Portfolio/Work, Services, Contact |
+| **Forum** | Home, Categories, Threads, Member profiles |
+| **Directory** | Home, Categories, Search, Listing pages |
 
 ### Best Practices
 
@@ -154,6 +173,7 @@ Page classification framework for navigation design, sitemaps, content strategy,
 
 | Skill | Description |
 |-------|-------------|
+| [website-structure](../skills/strategies/website-structure/) | Plan which pages to build, page priority (Must Have/Great to Have/Optional), structure for UX/SEO/growth |
 | [cold-start-strategy](../skills/strategies/cold-start/) | Cold start, first users, launch channels (Product Hunt, Reddit, AppSumo) |
 | [generative-engine-optimization](../skills/strategies/geo/) | GEO/AEO for AI search visibility |
 | [integrated-marketing](../skills/strategies/integrated-marketing/) | IMC, PESO, program vs channel vs campaign |

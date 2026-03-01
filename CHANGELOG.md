@@ -8,14 +8,28 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Added
 
+- **download-page-generator** — Download page for desktop and mobile app: value proposition, platform selection (OS detection, App Store/Play Store), trust signals, CTA; optimization best practices (performance, conversion, trust) in skill.
+- **page-taxonomy** — Page purpose reference: 品牌 (Brand), 营销-SEO/SEM, 功能使用 (Functional: Dashboard, SPA), 引导下载 (Download); SEM, Functional, Download dimensions; Download page in Marketing mapping.
+- **docs-page-generator** — Documentation site structure (docs.* subdomain): Getting Started, guides, tutorials, API Reference (endpoint docs), knowledge base; sidebar, search, versioning.
+- **changelog-page-generator** — Changelog/release notes: version history, updates; changelog.* or /changelog; trust, support reduction, feature adoption.
+- **status-page-generator** — Status page for service health, uptime, incidents; status.* subdomain; reduces support during outages.
+- **use-cases-page-generator** — Use case pages: bridge features → real problems; by ICP, industry, role; BOFU for SaaS/B2B.
+- **solutions-page-generator** — Solutions pages: outcome-focused; "how does this solve my problem?"; by industry, team, outcome.
+- **page-taxonomy** — Website-type dimension: Product/SaaS, B2B, E-commerce, Portfolio, Forum, Directory; page applicability matrix; subdomain conventions (docs, changelog, status, developer); Core vs Extended distinction.
+- **website-structure** — Plan which pages to build, page priority (Must Have/Great to Have/Optional), generic template, growth→structure mapping; Alignify website structure guide.
 - **github-seo** — GitHub for parasite SEO, GEO, and curated lists: repos, README, GitHub Pages, gists; Awesome-style navigation lists (awesome-*); Tier 2 technical authority; very high AI citation.
 - **parasite-seo** — Parasite SEO strategy: high-authority platforms (Medium, Reddit, LinkedIn, Grokipedia); platform tiers; Site Reputation Abuse compliance. Moved parasite SEO content from grokipedia and geo. **Optimized**: barnacle SEO alias; tiered platform framework (Tier 1–6); keyword targeting, on-page optimization; tier-2 backlinks; content clustering; YouTube, Quora, Google Sites; common mistakes.
 - **programmatic-seo** — Programmatic SEO strategy: template + data pages at scale; use cases (location, comparison, integration); pitfalls (thin content, index bloat); 300+ words, internal linking. **Optimized**: template structure (Intro, Evidence, Decision, FAQ, CTA); evidence block; data freshness rules, provenance; selective indexation; step-by-step workflow; best practices; common pitfalls.
 - **cold-start-strategy** — Cold start strategy for first users: Product Hunt, AppSumo, Reddit, Indie Hackers, directories; multi-channel launch; pre-launch validation. Moved cold-start content from directory-submission and community-forum.
 - **landing-page-generator** — Generic landing page structure (5-step flow), CTA, conversion; Landing Page ↔ Page Types mapping (content pull, CTA destination, internal linking); expanded Related Skills across pages.
 
+### Removed
+
+- **api-reference-generator** — API Reference is a section within docs, not a standalone page type; merged into docs-page-generator.
+
 ### Changed
 
+- **docs-page-generator** — API Reference (endpoint docs) is now part of docs; no separate api-reference skill.
 - **docs/** — Skills count 83→88 in docs/README, SKILLS_GUIDE; reference-rules §7+§8 merged into "Validation Checklist & Migration"; reference-rules Quick reference added; Contributor Docs usage hints.
 - **Root/templates/tools** — page-types-taxonomy moved to docs/page-taxonomy.md (resolves duplication with skills-list); templates/README added; tools/README product refs simplified; README Project Structure updated; CONTRIBUTING links to description-rules.
 - **README** — Hero merged to 2 paragraphs; Linking + Project Context merged; deduplication (88, generic, workflow); Using Beyond Cursor compressed; Tips simplified; References table consolidated; ASCII diagram rebuilt for clarity.

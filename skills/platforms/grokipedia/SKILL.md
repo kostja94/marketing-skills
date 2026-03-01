@@ -29,12 +29,12 @@ Guides adding recommendations, links, or content to Grokipedia. Grokipedia is a 
 
 ### Why It Matters (Citation Data)
 
-| Metric | Source | Note |
-|--------|--------|------|
-| ChatGPT citations | Ahrefs (Jan 2026) | ~263K responses cited Grokipedia from 13.6M prompts; ~95K individual pages. Wikipedia: 2.9M responses—quite a way off, but impressive for how new they are" |
-| Citation share trend | Profound | ~0.01–0.02% of ChatGPT citations/day; steadily increasing since mid-Nov 2025 |
-| AI product adoption | Semrush, Ahrefs | Spike in Google AI (Gemini, AI Overviews, AI Mode) and Copilot in Dec 2025; ChatGPT cites Grokipedia most |
-| Use case | BrightEdge | Niche, obscure, highly specific factual queries; ChatGPT often features Grokipedia as one of the first sources cited |
+| Metric | Note |
+|--------|------|
+| ChatGPT citations | ~263K responses cited Grokipedia from 13.6M prompts; ~95K individual pages. Wikipedia: 2.9M responses—quite a way off, but impressive for how new they are. (Source: SEO tools, Jan 2026) |
+| Citation share trend | ~0.01–0.02% of ChatGPT citations/day; steadily increasing since mid-Nov 2025 |
+| AI product adoption | Spike in Google AI (Gemini, AI Overviews, AI Mode) and Copilot in Dec 2025; ChatGPT cites Grokipedia most |
+| Use case | Niche, obscure, highly specific factual queries; ChatGPT often features Grokipedia as one of the first sources cited |
 
 **Bottom line**: Grokipedia is still secondary to Wikipedia but growing. Early participation can capture future authority as AI citation becomes more central—similar to Wikipedia's dominance in traditional search.
 
@@ -251,7 +251,7 @@ Field-tested examples: a marketer's site was successfully cited as a source via 
 ## References
 
 - [Grokipedia article suggestions](https://grokipedia.com/page/grokipedia-article-suggestions) —Official guidelines: be specific about topics, explain article value, highlight areas of interest; examples for Suggest Article and Suggest Edit.
-- [ChatGPT isn't the only chatbot pulling answers from Elon Musk's Grokipedia](https://www.theverge.com/report/870910/ai-chatbots-citing-grokipedia) —The Verge, Jan 31 2026. ChatGPT, Gemini, AI Overviews, Perplexity, Copilot citing Grokipedia; Ahrefs/Semrush/Profound citation data.
+- [ChatGPT isn't the only chatbot pulling answers from Elon Musk's Grokipedia](https://www.theverge.com/report/870910/ai-chatbots-citing-grokipedia) —The Verge, Jan 31 2026. ChatGPT, Gemini, AI Overviews, Perplexity, Copilot citing Grokipedia.
 
 ## Related Skills
 

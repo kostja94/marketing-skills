@@ -25,7 +25,7 @@ Contributions are welcome! Here's how to add or improve skills.
 - Platforms: add suffix (e.g. `twitter-x-posts`, `reddit-posts`)
 - No abbreviations: `employee-generated-content` not `egc`; `generative-engine-optimization` not `geo`
 
-**Full rules**: [SKILLS_GUIDE §7](SKILLS_GUIDE.md#7-naming-and-categorization) | [docs/naming-rules.md](docs/naming-rules.md)
+**Full rules**: [SKILLS_GUIDE §7](SKILLS_GUIDE.md#7-naming-and-categorization) | [docs/naming-rules.md](docs/naming-rules.md) | [docs/reference-rules.md](docs/reference-rules.md) (references)
 
 ## Language
 
@@ -37,6 +37,8 @@ Contributions are welcome! Here's how to add or improve skills.
 - Include trigger terms (when users say X, Y, Z)
 - Be specific about what the skill does
 - Mention when to use vs. when to use related skills
+
+**Full specification**: [docs/description-rules.md](docs/description-rules.md)
 
 ## Full Specification
 

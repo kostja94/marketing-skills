@@ -16,7 +16,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Changed
 
-- **affiliate-marketing** — Pitfalls (fraud, brand bidding), recruitment strategies, implementation flow, tools (Lasso, Post Affiliate Pro, Affiliate.Watch).
+- **docs/** — Skills count 83→88 in docs/README, SKILLS_GUIDE; reference-rules §7+§8 merged into "Validation Checklist & Migration"; reference-rules Quick reference added; Contributor Docs usage hints.
+- **Root/templates/tools** — page-types-taxonomy moved to docs/page-taxonomy.md (resolves duplication with skills-list); templates/README added; tools/README product refs simplified; README Project Structure updated; CONTRIBUTING links to description-rules.
+- **README** — Hero merged to 2 paragraphs; Linking + Project Context merged; deduplication (88, generic, workflow); Using Beyond Cursor compressed; Tips simplified; References table consolidated; ASCII diagram rebuilt for clarity.
+- **Product/website references** — Per reference-rules §6: reduced product examples to essential only; added no-endorsement disclosure where 3+ examples; prefer generic terms (e.g. "SEO tools", "affiliate tracking platforms"); affiliate, creator-program, directories, geo, grokipedia, keyword-research, parasite-seo, logo, programmatic-seo, seo-monitoring, article, localization, backlink-analysis, affiliate-program.
+- **affiliate-marketing** — Pitfalls (fraud, brand bidding), recruitment strategies, implementation flow; tools simplified to generic (affiliate tracking platforms).
 - **affiliate-page-generator** — Landing page best practices, post-launch (Affiliate.Watch), cross-reference landing-page-generator.
 - **keyword-research** — Intent identification (modifiers, SERP), discovery methods (base + incremental), long-tail expansion, clustering (SERP/semantic/intent), pillar–cluster, screening order, principles. Product positioning test (XXX + function words, Input + to + Output); Agent/Copilot products. Multi-platform search: English platforms (Reddit, Quora, X, Hacker News).
 - **localization-strategy** — Subdirectories over subdomains for i18n; multilingual risks (batch publishing, de-index). i18n SEO principles, URL structure options, hreflang checklist.
@@ -46,6 +50,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - **site-crawlability** — Orphan pages reference internal-links for link strategy.
 - **content-strategy** — Initial Assessment references keyword-research for discovery.
 - **creator-program, influencer-marketing** — Rebuilt from scratch to fix encoding (1â2 → 1–2, etc.).
+- **docs/reference-rules.md** — Reference standardization: internal (**skill-name**), external (descriptive link text), References section, Alignify/Google conventions; **§6 Product and Website Examples**: quantity limit (≤5 per category), no-promotional-intent disclosure, neutral language.
 - **brand-visual-generator** — Two-font system, industry color mapping, anti-patterns, accessibility checklist.
 - **hero-generator** — Four essentials, 3-second rule, emotional intent.
 - **logo-generator** — Brand guidelines linkage, clear space, responsive breakpoints.

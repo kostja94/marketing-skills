@@ -46,7 +46,7 @@ Complete list of all 88 skills with descriptions. See [README](../README.md) for
 
 ## Pages
 
-Page classification framework for navigation design, sitemaps, content strategy, and SEO. Paths: `skills/pages/{brand,content,marketing,legal,utility}/`.
+Page classification framework for navigation design, sitemaps, content strategy, and SEO. Paths: `skills/pages/{brand,content,marketing,legal,utility}/`. **Expanded taxonomy** (Notes per page, Best Practices): [page-taxonomy.md](page-taxonomy.md).
 
 ### Classification Dimensions
 

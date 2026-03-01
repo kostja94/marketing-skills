@@ -11,15 +11,17 @@ Guides submitting products, tools, or apps to directories and launch platforms.
 
 **On each invocation**: On **first use** in the conversation, output the complete response (Introduction, Importance, Methods, Collaboration Channels, Rules, Avoid, Action). On **subsequent use** or when the user asks to skip (e.g., "just do it", "skip intro", "I already know"), go directly to Action.
 
-Directory submission is a core channel for cold start—see **cold-start-strategy** for full launch planning. Directories offer more than listings: free/paid listings, ad placements, newsletter features, social promotion, and marketing campaigns. Examples: Taaft (AI tools), Product Hunt (product launch), G2/Capterra (review platforms), Shopify App Store, Chrome Web Store, niche directories.
+Directory submission is a core channel for cold start—see **cold-start-strategy** for full launch planning. Directories offer more than listings: free/paid listings, ad placements, newsletter features, social promotion, and marketing campaigns. Platform types: AI tools (e.g. Taaft), product launch (e.g. Product Hunt), review platforms (e.g. G2), app stores, niche directories.
 
 ## Why Directory Submission Matters
+
+*Platform examples are illustrative only. No affiliation, partnership, or endorsement implied.*
 
 | Benefit | Description |
 |---------|--------------|
 | **Backlinks** | Quality directories pass link equity; improve domain authority and rankings. Focus on high-authority directories (DA 50+); avoid low-quality link farms. |
 | **Real traffic & conversion** | Referral traffic from directories converts. ~42% of businesses report increased referral traffic after submission; referral conversion ~1.8% (B2C), 1.1% (B2B), 1.3% (SaaS). Use UTM to track; proper attribution can improve measured conversion by ~23%. |
-| **Social proof for brand search** | When users search your brand name, directory listings (Product Hunt, G2, Taaft, Future Tools, SaaSHub, etc.) often dominate SERP. Third-party presence signals legitimacy; consumers check 5-7 sources before deciding. Verified badges and consistent NAP across directories boost trust. |
+| **Social proof for brand search** | When users search your brand name, directory listings (e.g. Product Hunt, G2, Taaft) often dominate SERP. Third-party presence signals legitimacy; consumers check 5-7 sources before deciding. Verified badges and consistent NAP across directories boost trust. |
 
 ## Current Best Practices (2024-2026)
 
@@ -102,7 +104,7 @@ Even if a directory form does not require it, build a full reference so you can 
 | **Features** | Core capabilities; technical specs; integrations | Taaft, G2, comparison sites |
 | **Use cases** | Who uses it; workflows; outcomes | Taaft tasks, niche directories |
 | **Solutions** | Problems solved; before/after | Product Hunt, curated lists |
-| **Competitors** | Alternatives (ElevenLabs, X, Y); how this differs | AlternativeTo, G2, comparison roundups |
+| **Competitors** | Alternatives (e.g. Competitor A, B); how this differs | Comparison sites, G2 |
 | **Pricing** | Plans, credits, free tier | G2, Capterra, budget-focused lists |
 | **Rules / Avoid** | What to emphasize; what to avoid per platform | Quality control |
 
@@ -152,7 +154,7 @@ Directories typically offer multiple touchpoints--not just inclusion in the cata
 |----------|-------------|----------|
 | **Listing** | Free or paid inclusion in directory catalog | Baseline visibility, backlinks, evergreen traffic |
 | **Ad placements** | Sponsored slots, banners, featured placement | Need boosted visibility; budget for paid promotion |
-| **Newsletter** | Featured in directory's email to subscribers | Taaft (2.8M+ subs), Product Hunt Daily; high-intent audience |
+| **Newsletter** | Featured in directory's email to subscribers | Product Hunt, Taaft; high-intent audience |
 | **Social promotion** | Directory shares your product on X, LinkedIn, etc. | Launch day amplification; viral potential |
 | **Marketing campaigns** | Bundled packages: listing + newsletter + ads + social | Full-funnel campaign; product launch or relaunch |
 
@@ -166,7 +168,7 @@ Directories typically offer multiple touchpoints--not just inclusion in the cata
 
 | Channel | Platform Examples | Scale / Notes |
 |---------|-------------------|---------------|
-| **Newsletter** | Taaft (2.8M+ subs), Product Hunt Daily, Future Tools weekly | High-intent; paid or bundled; best for launches |
+| **Newsletter** | Product Hunt, Taaft | High-intent; paid or bundled; best for launches |
 | **Ad placements** | Taaft banners, Product Hunt Featured, G2/Capterra sponsored | Use UTM (e.g. utm_medium=paid); test after organic listing |
 | **Social promotion** | Taaft, Product Hunt share on X, LinkedIn | Launch-day amplification; @ platform accounts when posting |
 | **Marketing campaigns** | Taaft: listing + newsletter + ads + social | Full-funnel; product launch or relaunch; budget-dependent |
@@ -183,7 +185,7 @@ Directories typically offer multiple touchpoints--not just inclusion in the cata
 | **Product launch** | Product Hunt | New products, features | Community exposure, press, early adopters |
 | **App stores** | Shopify App Store, Chrome Web Store | Apps, extensions | Merchant/developer discovery |
 | **Niche directories** | Industry-specific lists | Vertical SaaS, tools | Targeted backlinks, SEO |
-| **Review platforms** | G2, Capterra, TrustRadius, SaaSHub | B2B SaaS, commercial software | Rich snippets (reviews, ratings); higher-intent buyers; vendor verification required |
+| **Review platforms** | G2, Capterra | B2B SaaS, commercial software | Rich snippets (reviews, ratings); higher-intent buyers; vendor verification required |
 | **Curated lists** | Best-of roundups, Awesome lists, niche blog posts | Any product | Editorial backlinks; outreach to list authors; same prep as directories |
 
 **Dimension diversity**: Your product has multiple dimensions--AI tool, productivity tool, SaaS, industry-specific. After AI directories, submit to vertical niches (e.g., e-commerce tools, marketing tools, cross-border commerce tools). Smaller traffic but higher intent and conversion.
@@ -231,8 +233,8 @@ Directories typically offer multiple touchpoints--not just inclusion in the cata
 | | Demo video | Optional; no captions (Taaft auto-generates for all languages) |
 | **Features** | Supported features | Check: Agents, API, MCP, Run locally, Open source, No signup, Supports TAAFT code |
 | | Other features | Ordered list by importance; add keywords (e.g., ai voice, text to voice, voice cloning) |
-| **Tech** | Search models | Add AI models used (e.g., GPT-4, Claude, ElevenLabs) |
-| | Built with | Select: Cursor, Windsurf, Lovable, v0.dev, Bolt.new, Replit, GitHub Copilot, etc. |
+| **Tech** | Search models | Add AI models used (e.g., GPT-4, Claude) |
+| | Built with | Select from platform options (e.g. Cursor, Lovable, v0.dev) |
 | | Modalities | Supported Inputs/Outputs: Text, Image, Audio, Video, 3D, API, Code, etc. |
 | **Pricing** | Pricing model | Freemium, Free trial, Paid, etc. |
 | | Paid starting price (USD) | If paid |
@@ -273,11 +275,10 @@ Directories typically offer multiple touchpoints--not just inclusion in the cata
 - **Requirements**: Partner account; session tokens (no third-party cookies); Shopify checkout; app icon 1200x1200; factual listing
 - **Use when**: Building Shopify apps; need merchant discovery and optional paid promotion
 
-### Review Platforms (G2, Capterra, SaaSHub, TrustRadius)
+### Review Platforms (G2, Capterra)
 
 - **Type**: B2B software review platform (vendor-submitted, review-driven); rich snippets (stars, ratings) in SERP
 - **vs directories**: More complex submission (domain email verification, more fields, features, FAQ); commercialized (membership, paid placement); lower risk than PH ranking--reviews drive priority; higher-paying B2B users
-- **Examples**: G2 (3.2M), Capterra (3M), Software Advice (832K), TrustRadius (583K), SaaSHub (392K, dofollow, PA 90+), Crozdesk (109K), Trustpilot (58.3M)
 - **Use when**: B2B SaaS; want review-rich SERP presence and enterprise buyers
 
 ### Chrome Web Store
@@ -356,7 +357,7 @@ Before submitting to any directory:
 
 **Manual**: Prepare info once; submit to directories in priority order. Major directories first--smaller ones often crawl or republish.
 
-**Outsourced**: Fiverr, Upwork--e.g., ~$200 for 200+ directory submissions. Use when budget allows and speed matters.
+**Outsourced**: Freelance platforms; use when budget allows and speed matters.
 
 ## Related Resources
 

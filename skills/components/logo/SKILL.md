@@ -65,16 +65,18 @@ Identify:
 
 ## AI Product Logo Design (Optional)
 
-For AI/SaaS products, [Alignify AI Logo Guide](https://alignify.co/insights/ai-logo-design) and [Aesthetics of AI](https://www.acolorbright.com/en/insights/aesthetics-of-ai) offer industry-specific guidance.
+For AI/SaaS products, [Alignify AI Logo Guide](https://alignify.co/insights/ai-logo-design) offers industry-specific guidance.
 
 ### Design Trends
 
+*Examples are illustrative; no endorsement implied.*
+
 | Style | Use Case | Examples |
 |-------|----------|----------|
-| **Hexagon** | Technical platforms, enterprise AI | OpenAI; 4.6x more common in AI vs general logos |
-| **Rotation/swirl** | Generative AI, creative tools | DeepMind, Stability AI, Synthesia |
-| **Minimalist robot** | Assistants, chatbots | Jasper, Hour One, Replika |
-| **Emoji/symbol** | Consumer, friendly AI | Hugging Face, Spotify AI, Zoom AI |
+| **Hexagon** | Technical platforms, enterprise AI | Common in AI logos (e.g. OpenAI) |
+| **Rotation/swirl** | Generative AI, creative tools | E.g. DeepMind, Stability AI |
+| **Minimalist robot** | Assistants, chatbots | E.g. Jasper, Replika |
+| **Emoji/symbol** | Consumer, friendly AI | E.g. Hugging Face, Zoom AI |
 
 ### Design Process
 
@@ -82,7 +84,7 @@ For AI/SaaS products, [Alignify AI Logo Guide](https://alignify.co/insights/ai-l
 2. **Core element**: Choose hexagon, rotation, robot, or emoji per product type
 3. **Color**: Tech blue, blue-to-purple gradients, monochrome; consider dark mode
 4. **Test sizes**: Favicon, mobile, header; ensure recognition at small sizes
-5. **Trademark check**: Avoid conflicts (e.g. Dreamina/Tiamat case)
+5. **Trademark check**: Avoid conflicts with existing marks
 
 ### Avoid
 

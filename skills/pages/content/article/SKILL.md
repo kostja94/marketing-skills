@@ -316,7 +316,7 @@ Use `og:type: article` for article pages (not `website`):
 |---------|-----------|
 | **Volume** | 2–5 external links per article; cite authoritative sources |
 | **When to use** | Statistics, research, definitions, tool comparisons, expert quotes |
-| **Anchor text** | Descriptive (e.g. "Google's Search Quality Guidelines", "Semrush study"); link to source |
+| **Anchor text** | Descriptive (e.g. "Google's Search Quality Guidelines", "SEO study"); link to source |
 | **Same URL** | Counts once per page for link equity; no need to repeat |
 | **E-E-A-T** | External links to reputable sources signal trust; avoid linking to low-quality sites |
 
@@ -324,7 +324,7 @@ Use `og:type: article` for article pages (not `website`):
 
 | Scenario | Recommendation |
 |----------|----------------|
-| **Data or statistics** | Cite source inline (e.g. "According to [Semrush](url), 72% of…") or in a References section |
+| **Data or statistics** | Cite source inline (e.g. "According to [Source](url), 72% of…") or in a References section |
 | **Expert quotes** | Attribute; link to source or profile |
 | **Reference section** | For pillar/evergreen content with 5+ citations; list at end before Related posts |
 | **Format** | Inline links preferred; numbered refs (e.g. [1], [2]) for academic-style pieces |

@@ -62,15 +62,15 @@ Guides programmatic SEO—creating large numbers of SEO-optimized pages automati
 
 ## Real-World Examples
 
+*Examples are illustrative; no endorsement implied.*
+
 | Company | Scale | Pattern |
 |---------|-------|---------|
 | **Zapier** | 50,000+ pages | "[App A] + [App B]" integration |
 | **Airbnb** | — | Location search; destination × property |
-| **G2** | — | User reviews + automated comparison pages |
-| **TripAdvisor / Expedia** | — | Destination, hotel, flight, activity pages |
+| **Review platforms** | — | User reviews + automated comparison pages |
+| **Travel sites** | — | Destination, hotel, flight, activity pages |
 | **NomadList** | 2,000+ city pages | Cost-of-living, internet speed (dynamic data) |
-| **Semrush** | 28,000+ pages | Website statistics data |
-| **Canva** | — | Template / use-case landing pages |
 
 ## Content Requirements
 
@@ -106,7 +106,7 @@ Pages with only a title, one paragraph, and swapped city names will not rank and
 
 ## Step-by-Step Workflow
 
-1. **Research** — Niche, intent; include low-volume keywords; Semrush/Ahrefs/AlsoAsked
+1. **Research** — Niche, intent; include low-volume keywords; SEO tools, question databases
 2. **Collect data** — Provenance log, freshness rules; first-party/licensed; define template fields
 3. **Choose stack** — Next.js + DB, Webflow CMS, WordPress, headless; API + template reuse
 4. **Design template** — Intro, Evidence, Decision, FAQ, CTA; schema; conditional logic

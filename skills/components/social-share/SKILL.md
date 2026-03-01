@@ -18,7 +18,7 @@ Guides implementation of **share buttons** that let users share the current page
 
 ## Why It Matters
 
-- Websites with visible social share icons see **~158% increase in social engagement** ([NiftyButtons](https://www.niftybuttons.com/blog/ultimate-guide-adding-social-media-icons-website-2025))
+- Websites with visible social share icons tend to see higher social engagement
 - Share buttons amplify reach; Open Graph and Twitter Cards control preview — see **open-graph**, **twitter-cards**
 
 ## Placement (Article Pages)

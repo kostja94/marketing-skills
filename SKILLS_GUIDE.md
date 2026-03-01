@@ -165,6 +165,8 @@ Each skill must keep **only topic-relevant content** and remain distinct. Use **
 | **Reference, don't repeat** | When another skill covers related work, link in Related Skills (e.g., "see directory-submission for directory submission") |
 | **Clear boundaries** | Avoid overlap: directory submission → directory-submission; link-building outreach → link-building |
 
+**Reference format**: Internal refs use `**skill-name**`; external refs use descriptive link text. Full rules → [docs/reference-rules.md](docs/reference-rules.md).
+
 ### 4.3 Progressive Disclosure
 
 | Level | Content | Suggested Tokens |
@@ -287,7 +289,7 @@ The CLI recursively searches for `SKILL.md` in:
 
 | Option | How |
 |--------|-----|
-| **Full install** | `npx skills add kostja94/marketing-skills` — all 83 skills |
+| **Full install** | `npx skills add kostja94/marketing-skills` — all 88 skills |
 | **Selective install** | `npx skills add kostja94/marketing-skills --skill robots-txt pricing-page-generator` — only specified skills |
 | **Delete after install** | Remove unwanted folders from `.cursor/skills/` — skills are independent, no cross-dependencies |
 
@@ -344,6 +346,7 @@ Before creating or modifying a skill, verify:
 - [ ] Reference depth ≤ 1 level
 - [ ] Consistent terminology
 - [ ] No time-sensitive info (e.g. "before August 2025")
+- [ ] References follow [reference-rules](docs/reference-rules.md) (internal: **skill-name**; external: descriptive link text)
 
 ---
 

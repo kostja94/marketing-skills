@@ -66,7 +66,7 @@ Affiliates stake their reputation; convince them it's worth promoting:
 
 ### Post-Launch
 
-- Submit to **Affiliate.Watch** and similar affiliate program directories for discoverability
+- Submit to affiliate program directories for discoverability
 - Add affiliate page link to main nav or footer
 
 ## Output Format

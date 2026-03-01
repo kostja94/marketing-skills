@@ -74,7 +74,7 @@ Choose one; be consistent:
 |--------|------|
 | **Russia** | Yandex Wordstat |
 | **Korea** | Naver DataLab |
-| **Global** | Google Keyword Planner, Semrush |
+| **Global** | Google Keyword Planner, SEO tools |
 
 Consider: Cultural expressions, search habits, competition, long-tail in small markets.
 

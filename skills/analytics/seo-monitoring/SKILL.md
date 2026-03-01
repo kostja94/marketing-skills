@@ -16,7 +16,7 @@ Guides building a holistic SEO data analysis system. Covers four core metrics (i
 - **Core metrics**: Indexing, traffic, keywords, backlinks
 - **Benchmark**: Natural traffic baseline; trend comparison
 - **Article database**: Per-article performance tracking
-- **Tool selection**: GA4, GSC, Semrush, Umami, PostHog, etc.
+- **Tool selection**: GA4, GSC, SEO tools, analytics platforms
 - **Traffic diversification**: Healthy source mix
 - **Penalty recovery**: Algorithm impact, fix workflow
 - **Work documents**: Monthly records, responsibility tracking
@@ -27,8 +27,8 @@ Guides building a holistic SEO data analysis system. Covers four core metrics (i
 
 | Metric | Purpose | Data Source |
 |--------|---------|-------------|
-| **Pages indexed / not indexed** | Coverage; early focus: all target pages indexed | GSC, site: command, Semrush (Organic Research > Pages) |
-| **Keyword count per page** | More keywords = more potential traffic | Semrush |
+| **Pages indexed / not indexed** | Coverage; early focus: all target pages indexed | GSC, site: command, SEO tools |
+| **Keyword count per page** | More keywords = more potential traffic | SEO tools |
 | **Index coverage** | Target pages indexed; functional pages findable | GSC, site: command |
 
 **Early priority**: Ensure all pages that need to rank are indexed.
@@ -37,24 +37,24 @@ Guides building a holistic SEO data analysis system. Covers four core metrics (i
 
 | Metric | Purpose | Data Source |
 |--------|---------|-------------|
-| **Total traffic** | Growth; keyword relevance (irrelevant traffic has little value) | GA4, Semrush |
-| **Subdirectory traffic** | Per-section performance; concentration vs dispersion | Semrush, GA4 |
-| **Competitive comparison** | Organic, keyword traffic, total clicks vs competitors | Semrush, Similarweb |
+| **Total traffic** | Growth; keyword relevance (irrelevant traffic has little value) | GA4, SEO tools |
+| **Subdirectory traffic** | Per-section performance; concentration vs dispersion | SEO tools, GA4 |
+| **Competitive comparison** | Organic, keyword traffic, total clicks vs competitors | SEO tools |
 | **Organic by page / country** | Granular breakdown | GA4, GSC |
 
 ### 3. Keywords
 
 | Metric | Purpose | Data Source |
 |--------|---------|-------------|
-| **Rank changes** | Target keyword movement | GSC, Semrush |
-| **Keyword count** | New gains / losses per page | Semrush, GSC |
+| **Rank changes** | Target keyword movement | GSC, SEO tools |
+| **Keyword count** | New gains / losses per page | SEO tools, GSC |
 
 ### 4. Backlinks
 
 | Metric | Purpose | Data Source |
 |--------|---------|-------------|
-| **Referring domains vs backlinks** | Ratio; directory links can be high volume but low value | Semrush, Ahrefs, Moz |
-| **Backlink quality** | Do links drive traffic? Low ROI = deprioritize | Semrush, GA4 (referral) |
+| **Referring domains vs backlinks** | Ratio; directory links can be high volume but low value | SEO tools |
+| **Backlink quality** | Do links drive traffic? Low ROI = deprioritize | SEO tools, GA4 (referral) |
 
 ## Natural Traffic Benchmark
 
@@ -80,13 +80,14 @@ Use to guide topic selection, optimization, and resource allocation.
 
 ## Tool Selection
 
+*Tool examples are illustrative; no endorsement implied.*
+
 | Use | Tools |
 |-----|-------|
 | **Precise attribution** | GA4, GSC, Bing Webmaster, Yandex Webmaster |
-| **Visit analytics** | Umami, Plausible, Clarity (Microsoft), Superset |
-| **Third-party estimates** | Semrush, Similarweb |
-| **Open-source GA alternative** | PostHog |
-| **SEO data** | Semrush, Ahrefs, Moz |
+| **Visit analytics** | Analytics platforms (e.g. Umami, Plausible) |
+| **Third-party estimates** | SEO tools |
+| **SEO data** | SEO tools |
 
 **Attribution config**:
 - **User ID**: Cross-device, cross-session identification; send to GA4
@@ -127,7 +128,7 @@ Choose by privacy, cost, and team workflow.
 | Channel share | GA4 | |
 | Channel absolute | GA4 | |
 | Country % and absolute | GA4 | |
-| Top pages | Semrush | Compare with competitors |
+| Top pages | SEO tools | Compare with competitors |
 | Key page traffic | GA4 | Define "key pages" first |
 
 ### Engagement
@@ -142,20 +143,20 @@ Choose by privacy, cost, and team workflow.
 
 | Metric | Source | Notes |
 |--------|--------|------|
-| Domain authority | Semrush, Moz, Ahrefs | |
-| Backlinks, referring domains | Semrush | |
-| Top referring domains by authority | Semrush | |
+| Domain authority | SEO tools | |
+| Backlinks, referring domains | SEO tools | |
+| Top referring domains by authority | SEO tools | |
 | Important links | Manual log | Track loss |
-| Link graph | Semrush | Health check |
-| New quality links (self + competitors) | Semrush | Outreach |
-| Indexed pages | Semrush | High-authority pages; internal linking |
-| Outbound domains | Semrush | Partnership opportunities |
+| Link graph | SEO tools | Health check |
+| New quality links (self + competitors) | SEO tools | Outreach |
+| Indexed pages | SEO tools | High-authority pages; internal linking |
+| Outbound domains | SEO tools | Partnership opportunities |
 
 ### Keywords
 
 | Metric | Source | Notes |
 |--------|--------|------|
-| Keyword count | Semrush | How many keywords rank |
+| Keyword count | SEO tools | How many keywords rank |
 
 ### Content Output
 
@@ -172,7 +173,7 @@ Choose by privacy, cost, and team workflow.
 | Traffic | Total sessions | GA4 | | | |
 | Traffic | Channel share | GA4 | | | |
 | Engagement | Pages per session | GA4 | | | |
-| Backlinks | Referring domains | Semrush | | | |
+| Backlinks | Referring domains | SEO tools | | | |
 | Content | Articles published | Manual | | | |
 
 Adjust rows as needed.

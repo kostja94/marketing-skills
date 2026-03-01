@@ -33,10 +33,10 @@ Identify:
 
 | Model | Use | Examples |
 |-------|-----|----------|
-| **Credits** | AI tools; cost control | getimg.ai, Leonardo.ai, BasedLabs |
-| **Payment** | High-quality content; budget available | Runway ML, CivitAI |
+| **Credits** | AI tools; cost control | Credit-based AI tools |
+| **Payment** | High-quality content; budget available | Paid creator programs |
 | **Hybrid** | Credits + commission, brand partnership | Common for SaaS |
-| **Marketplace** | Template/plugin sales; revenue share | Canva, Notion, Framer, Webflow |
+| **Marketplace** | Template/plugin sales; revenue share | Design tools, CMS marketplaces |
 
 ## Implementation Phases
 
@@ -53,7 +53,7 @@ Identify:
 - **Showcase creator work**: Dedicated page; recognize top creators
 - **Quality over quantity**: 1K+ followers + high content quality for AI tools
 - **Clear terms**: Content policy, NSFW rules, brand guidelines
-- **Communication**: Discord, Slack, email; regular updates
+- **Communication**: Community chat, email; regular updates
 - **Timeline**: 3–6 months to see results; patience required
 
 ## Common Challenges

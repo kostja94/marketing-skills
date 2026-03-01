@@ -51,12 +51,14 @@ For SaaS: Prefer pay-per-sale or pay-per-lead. Recurring commissions for subscri
 
 ## Setup Options
 
+*Product and website examples are illustrative only. No affiliation, partnership, or endorsement implied.*
+
 | Approach | Use |
 |----------|-----|
-| **Self-build** | Typeform, Google Forms; quick, low budget |
-| **Third-party** | Rewardful, Tolt, Tapfiliate, Lasso, Post Affiliate Pro (recommended for AI/SaaS) |
+| **Self-build** | Forms (e.g. Google Forms); quick, low budget |
+| **Third-party** | Affiliate tracking platforms (e.g. Rewardful, Tapfiliate) for AI/SaaS |
 
-Submit program to **Affiliate.Watch** and similar directories after launch for discoverability.
+Submit program to affiliate program directories after launch for discoverability.
 
 ## Recruitment Strategies
 
@@ -73,7 +75,7 @@ Expect a small fraction of partners to drive most sales—quality over vanity me
 1. **Assess product fit**: Target audience size, product complexity, commission margin, tracking feasibility. SaaS subscriptions suit recurring commissions.
 2. **Design commission structure**: 20%–40% typical; cookie 60–90 days; payment cycle (e.g., 15th of month); minimum payout (e.g., $50).
 3. **Create marketing materials**: Banners, social posts, email templates; landing page with commission details and signup flow.
-4. **Recruit partners**: Publish to Affiliate.Watch; outreach to creators and influencers.
+4. **Recruit partners**: Publish to affiliate program directories; outreach to creators and influencers.
 5. **Monitor and optimize**: Track conversion rate, ROI, AOV; review affiliate performance; detect fraud.
 
 ## Pitfalls and Prevention
@@ -81,7 +83,7 @@ Expect a small fraction of partners to drive most sales—quality over vanity me
 | Risk | Prevention |
 |------|------------|
 | **Affiliate fraud** | Fake clicks, self-referrals, fake conversions. Use platform fraud tools; vet affiliates; avoid auto-approve. |
-| **Brand bidding** | Affiliates bid on your brand terms in Google Ads; you pay commission for traffic you already own. Prohibit in terms; monitor paid search; use BrandVerity or similar. |
+| **Brand bidding** | Affiliates bid on your brand terms in Google Ads; you pay commission for traffic you already own. Prohibit in terms; monitor paid search; use brand monitoring tools. |
 | **Program terms** | Cookie length, performance bonus, sub-affiliate rules, payment threshold—set clearly in terms before launch. |
 
 ## Best Practices

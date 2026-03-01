@@ -57,7 +57,7 @@ All refer to the same goal: visibility in AI assistant responses.
 
 ## Tools
 
-- **Profound**, **Amplift**, **Daydream** for GEO tracking and optimization
+- GEO tracking and optimization tools for measuring AI citation and visibility
 
 ## Key Insight
 

@@ -154,6 +154,4 @@ Before publishing a description:
 
 - [SKILLS_GUIDE §3.3](../SKILLS_GUIDE.md#33-description-field-rules) — description field rules
 - [naming-rules.md](naming-rules.md) — name optimization (description should align)
-- [8 Tips for Effective Skill Description](https://developer.amazon.com/en-IN/blogs/alexa/alexa-skills-kit/2020/05/8-tip-for-effective-skill-description-and-metadata-writing) — Amazon Alexa
-- [The SKILL.md Pattern](https://bibek-poudel.medium.com/the-skill-md-pattern-how-to-write-ai-agent-skills-that-actually-work-72a3169dd7ee) — AI agent skills
 - Create-skill (Cursor): "Include both WHAT and WHEN; be specific and include trigger terms"

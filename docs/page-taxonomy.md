@@ -1,6 +1,6 @@
 # Page Types Taxonomy
 
-> A website page classification framework based on industry best practices. Use for navigation design, sitemaps, content strategy, and SEO optimization.
+> Expanded page classification for navigation design, sitemaps, content strategy, and SEO. For the full skills list including pages, see [skills-list.md](skills-list.md).
 
 ## Classification Dimensions
 

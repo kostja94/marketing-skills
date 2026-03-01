@@ -7,7 +7,7 @@ Generate keyword and competitor reports from uploaded Excel/CSV, enriched by web
 
 ## Workflow
 
-1. **User uploads Excel** — Ahrefs, SimilarWeb, SEMrush, GA, GSC, PostHog, etc.
+1. **User uploads Excel** — SEO tools, GA, GSC, analytics platforms, etc.
 2. **Agent parses** — Reads sheets/columns, infers structure
 3. **Agent enriches** — Web search, visit competitor sites
 4. **Agent generates** — Fills template, writes output
@@ -16,7 +16,7 @@ Generate keyword and competitor reports from uploaded Excel/CSV, enriched by web
 
 | Keyword Report | Competitor Report |
 |----------------|-------------------|
-| Ahrefs, SEMrush, GSC, GA, PostHog | SimilarWeb, Ahrefs, SEMrush, GA, PostHog |
+| SEO tools, GSC, GA | SEO tools, GA |
 
 ## Optional: generate-report.py
 

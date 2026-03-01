@@ -19,7 +19,7 @@ Identify:
 1. **Product/service**: What you offer
 2. **Audience**: Who searches for it
 3. **Goals**: Traffic, conversions, brand
-4. **Tool access**: Ahrefs, Semrush, Google Keyword Planner, Google Trends, AnswerThePublic, or free tools
+4. **Tool access**: Google Keyword Planner, Google Trends, or SEO tools
 
 ## Discovery Methods
 

@@ -31,11 +31,13 @@ Instead of waiting months for your own domain to gain trust, you publish on esta
 
 ## Platform Tiers
 
+*Platform examples are illustrative only. No endorsement implied.*
+
 | Tier | Platform type | Examples | GEO / AI citation |
 |------|---------------|----------|-------------------|
-| **Tier 1** | GEO authority | Medium, Reddit, LinkedIn Articles, Quora, Substack | Very high |
-| **Tier 2** | Technical authority | Dev.to, Hashnode, GitHub, Stack Overflow | High; expertise signals |
-| **Tier 3–6** | Controlled / entity / wiki | WordPress.com, Blogger, LinkedIn, Crunchbase, HN, Flipboard, Grokipedia | Varies |
+| **Tier 1** | GEO authority | Medium, Reddit, LinkedIn Articles, Quora | Very high |
+| **Tier 2** | Technical authority | GitHub, Stack Overflow, Dev.to | High; expertise signals |
+| **Tier 3–6** | Controlled / entity / wiki | WordPress.com, Blogger, HN, Grokipedia | Varies |
 
 ### Platform Notes
 
@@ -48,7 +50,7 @@ Instead of waiting months for your own domain to gain trust, you publish on esta
 | **YouTube** | Video search, how-to, reviews | Titles, descriptions, tags; watch time matters |
 | **GitHub** | Repos, README, Pages, gists, awesome lists | Tier 2 technical authority; very high AI citation; see github-seo |
 | **Grokipedia** | AI encyclopedia | See grokipedia-recommendations for contribution flow |
-| **Google Sites, WordPress.com, Wix** | Free web builders | Indexable content; lower authority than above |
+| **Free web builders** | WordPress.com, Wix | Indexable content; lower authority than above |
 
 ## Keyword & Content Strategy
 

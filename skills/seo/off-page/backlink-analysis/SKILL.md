@@ -20,7 +20,7 @@ Guides backlink profile analysis: assessing quality, identifying issues, and pla
 
 Identify:
 1. **Domain**: Site to analyze
-2. **Tool access**: Ahrefs, Moz, Semrush, or free alternatives
+2. **Tool access**: SEO tools (e.g. Ahrefs, Semrush) or free alternatives
 3. **Goals**: Audit for issues, competitive analysis, or growth planning
 
 ## Key Metrics

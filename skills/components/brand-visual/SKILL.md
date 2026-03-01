@@ -70,7 +70,7 @@ Identify:
 
 ## AI Brand Aesthetics (Optional)
 
-For AI/SaaS products, [Aesthetics of AI](https://www.acolorbright.com/en/insights/aesthetics-of-ai) identifies 14 visual trends and 5 brand archetypes. Adopt, ignore, or counter trends consciously to avoid sameness.
+For AI/SaaS products, consider these visual trends and brand archetypes; adopt, ignore, or counter consciously to avoid sameness.
 
 ### Visual Trends
 

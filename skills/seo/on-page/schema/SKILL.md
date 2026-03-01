@@ -30,16 +30,7 @@ Guides implementation of Schema.org structured data (JSON-LD) for rich snippets,
 
 ## Generative Engine Optimization (GEO)
 
-**GEO** = optimizing content so AI systems (Google AI Overviews, Perplexity, ChatGPT, Gemini) choose, cite, and quote your content in generated answers.
-
-**Why Schema matters for GEO:**
-- Structured data makes content **machine-readable**; AI engines extract and cite information more accurately
-- Without schema, AI must infer context; with it, you guide extraction directly
-- [Search Engine Land study](https://searchengineland.com/schema-ai-overviews-structured-data-visibility-462353): In controlled tests, **only pages with well-implemented schema appeared in AI Overviews** and achieved best organic ranking. Schema quality—not just presence—matters
-- [SEMrush analysis](https://www.semrush.com/blog/technical-seo-impact-on-ai-search-study/) of 5M cited URLs: **Organization, Article, BreadcrumbList** appear most frequently on pages cited by Google AI Mode
-- Pages with schema show ~40% higher CTR; GEO tactics can increase AI visibility by up to 40%
-
-**Key Schema types for GEO:** Organization, Person/Author, WebSite, WebPage, FAQPage, HowTo, Article, Product, AggregateRating. Focus on authority (Organization, Person), content structure (Article, FAQPage), and completeness (required properties, correct format).
+**GEO** = optimizing content so AI systems (Google AI Overviews, Perplexity, ChatGPT, Gemini) choose, cite, and quote your content in generated answers. Structured data makes content machine-readable; AI engines extract and cite more accurately. Key schema types for GEO: Organization, Person/Author, WebSite, WebPage, FAQPage, HowTo, Article, Product, AggregateRating. See **generative-engine-optimization** for full GEO strategy.
 
 ## Initial Assessment
 

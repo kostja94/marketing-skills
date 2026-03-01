@@ -75,6 +75,8 @@ When generating Reddit copy, provide:
 ## Related Skills
 
 - **twitter-x-posts**: Alternative platform
+- **cold-start-strategy**: Cold start; Reddit as launch channel
+- **parasite-seo**: Parasite SEO strategy; Reddit as high-authority platform
 - **grokipedia-recommendations**: Wiki/encyclopedia platform for GEO and parasite SEO
 - **community-forum**: Forum and community promotion; HN, Indie Hacker; community invitation tactics
 - **influencer-marketing**: Reddit can complement influencer outreach

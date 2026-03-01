@@ -75,6 +75,7 @@ Identify:
 ## Related Skills
 
 - **hero-generator**: Hero typically contains primary CTA
+- **landing-page-generator**: CTA is step 5 of landing page flow; single-goal pages
 - **testimonials-generator**: Testimonials near CTAs boost conversion
 - **trust-badges-generator**: Badges near CTAs increase trust
 - **pricing-page-generator**: CTA on pricing pages (e.g., "Start free trial")

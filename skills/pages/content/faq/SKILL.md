@@ -72,6 +72,7 @@ Identify:
 
 ## Related Skills
 
+- **landing-page-generator**: FAQ section for LP objection handling (step 4); reuse conversion Q&A
 - **pricing-page-generator**: FAQ often addresses pricing objections
 - **contact-page-generator**: FAQ reduces contact form volume
 - **schema-markup**: FAQPage schema

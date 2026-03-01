@@ -175,6 +175,8 @@ Use when components-brand-visual, components-logo, or pages-media-kit need visua
 | 11 | Article creation, optimization; competitor analysis; product-linked content |
 | 12 | Logo, favicon, brand visual, media kit; typography, colors, spacing |
 
+**Cold start** (cold-start-strategy): For first users, Product Hunt, AppSumo, directories, etc. — agent plans multi-channel launch and generates platform-specific content. Fill 1–4, 5, 6, 8, 9 for best results.
+
 **Directory submission** (directory-submission): When submitting to Taaft, Product Hunt, etc., the agent reads this file and generates ready-to-paste content (tagline, description, pros/cons, tags) per platform. Fill 1–4, 5, 6, 8, 9 for best results.
 
 **Tip**: Start with 1–4 and 8. Add 5–7 as you have them. Update regularly — context degrades when stale.

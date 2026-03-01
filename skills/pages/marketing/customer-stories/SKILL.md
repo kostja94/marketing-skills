@@ -71,6 +71,7 @@ Identify:
 
 ## Related Skills
 
+- **landing-page-generator**: Case studies and testimonials for LP social proof (step 2)
 - **url-slug-generator**: URL slug for case study pages (e.g. /customers/case-slug); 3-5 words
 - **about-page-generator**: Social proof complements About
 - **pricing-page-generator**: Case studies support pricing justification

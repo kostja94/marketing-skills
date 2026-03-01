@@ -61,6 +61,8 @@ Identify:
 
 ## Related Skills
 
+- **landing-page-generator**: Service landing page; CTA to contact, quote, or booking
+- **contact-page-generator**: Services CTA often goes to contact form
 - **url-structure**: Service URL hierarchy (e.g. /services/web-development)
 - **features-page-generator**: For SaaS; services for service businesses
 - **pricing-page-generator**: Service pricing

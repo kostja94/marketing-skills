@@ -1,15 +1,15 @@
 ---
 name: keyword-research
-description: When the user wants to research keywords, find target keywords, or analyze search intent. Also use when the user mentions "keyword research," "keyword tool," "target keywords," "search volume," "search intent," or "keyword difficulty."
+description: When the user wants to research keywords, find target keywords, or analyze search intent. Also use when the user mentions "keyword research," "keyword tool," "target keywords," "search volume," "search intent," "keyword difficulty," "topical map," "keyword clustering," or "People Also Ask."
 metadata:
   version: 1.0.0
 ---
 
 # SEO Content: Keyword Research
 
-Guides keyword research for SEO: finding target keywords, assessing difficulty, and understanding search intent.
+Guides keyword research for SEO: finding target keywords, assessing difficulty, understanding search intent, and building topical maps. ~95% of keywords get fewer than 10 searches/month; low-volume, high-intent terms often yield faster rankings and conversion.
 
-**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
 ## Initial Assessment
 
@@ -19,37 +19,23 @@ Identify:
 1. **Product/service**: What you offer
 2. **Audience**: Who searches for it
 3. **Goals**: Traffic, conversions, brand
-4. **Tool access**: Ahrefs, Semrush, Google Keyword Planner, or free tools
+4. **Tool access**: Ahrefs, Semrush, Google Keyword Planner, Google Trends, AnswerThePublic, or free tools
 
-## Keyword Research Process
+## Discovery Methods
 
-### 1. Seed Keywords
+### Base Discovery
 
-- Product names, category terms, pain points
-- Customer language from product context
-- Competitor keywords
+| Method | Purpose |
+|--------|---------|
+| **User perspective** | What pain points? What would they search? Customer language from product context |
+| **Tool expansion** | Related keywords, questions, suggestions; Google autocomplete, PAA, Related Searches |
+| **Competitor reverse** | Analyze competitor titles, H1, URL; identify topics they rank for; find gaps (#4–10 = opportunity) |
+| **Google PAA** | People Also Ask and Related Searches; high-value signals from real user behavior |
 
-### 2. Expand
+### Incremental Discovery
 
-- Keyword tools: related keywords, questions, suggestions
-- Search suggestions (Google autocomplete)
-- "People also ask" and "Related searches"
-- Competitor analysis
-
-### 3. Evaluate
-
-| Factor | Consider |
-|--------|----------|
-| **Search volume** | Monthly searches; balance volume vs. competition |
-| **Keyword difficulty (KD)** | Ease of ranking; new sites target lower KD |
-| **Search intent** | Informational, navigational, transactional |
-| **Commercial value** | High-intent keywords for conversion pages |
-
-### 4. Categorize
-
-- **Head terms**: High volume, high competition (e.g., "SEO")
-- **Long-tail**: Lower volume, lower competition (e.g., "SEO for small business 2024")
-- **Question keywords**: "how to," "what is," "why" (good for content)
+- **User feedback**: Support, community, reviews, NPS—high-frequency questions = unmet search demand
+- **Multi-platform search**: Reddit, Quora, X (Twitter), Hacker News—real questions and discussions
 
 ## Search Intent
 
@@ -57,19 +43,79 @@ Identify:
 |--------|--------------|---------|
 | **Informational** | Blog, guide, FAQ | "how to optimize sitemap" |
 | **Navigational** | Brand page | "alignify login" |
-| **Transactional** | Product, pricing | "best SEO tool pricing" |
 | **Commercial** | Comparison, review | "SEO tools comparison" |
+| **Transactional** | Product, pricing | "best SEO tool pricing" |
+
+### Intent Identification
+
+**Modifier words** (often signal intent):
+
+| Intent | Modifiers |
+|--------|-----------|
+| Informational | "how," "what," "why," "guide," "tutorial" |
+| Commercial | "best," "compare," "vs," "review," "top" |
+| Transactional | "buy," "price," "cheap," "coupon," "free shipping" |
+| Local | Location names |
+
+**SERP check**: Search the term—knowledge cards/Wiki → informational; product lists/reviews → commercial; brand sites → navigational. Broader terms often show mixed SERP.
+
+## Long-Tail Expansion
+
+- **Intent modifiers**: Core + "how," "best," "vs," "compare," "price"
+- **Question words**: "how to," "what is," "why," "when"
+- **Functional modifiers**: Core + "-er/-or" (e.g., "image optimizer" for tool-type queries); often higher conversion
+- **Clustering**: Group by SERP overlap (same top pages), semantic similarity, or intent.
+
+## Keyword Clustering & Topical Map
+
+| Method | Use |
+|--------|-----|
+| **SERP overlap** | Keywords with overlapping top-ranking pages → same cluster |
+| **Semantic** | Group by meaning, LSI, related concepts |
+| **Intent-based** | Group by intent; separate pages if intent differs within cluster |
+
+**Pillar–cluster** (map keywords to structure):
+- **Pillar** (Hub): Broad topic page; links to clusters
+- **Cluster** (Spoke): Focused subtopic; links back to pillar
+- Target long-tail first; then pillar. Interlink clusters within topic.
+- See **content-strategy** for full pillar-cluster planning and implementation.
+
+## Evaluate & Screen
+
+| Factor | Consider |
+|--------|----------|
+| **Search volume** | Monthly searches; ~100+/month typical floor; niche can relax |
+| **Keyword difficulty (KD)** | New sites target lower KD |
+| **CPC** | Higher CPC often = stronger commercial intent |
+| **SERP features** | Featured Snippet, PAA, zero-click; affects real traffic |
+| **Screening order** | 1) Remove irrelevant 2) Filter very low volume 3) Assess achievability 4) Prioritize commercial/transactional |
+
+## Product Positioning Test (SEO Fit)
+
+Test if positioning is clear enough for search:
+
+- **XXX + Function words**: Generator, Creator, Maker, Builder, Changer, Shortener, Scraper, Converter, Downloader, Translator, Extender, Summarizer, Resizer, Remover, Extractor, Recorder, Rewriter, Solver, Calculator; or Platform, Tool, Software, App, Provider, Assistant, Copilot
+- **Input + to + Output**: e.g., "image to video," "text to speech"—clear input/output signals intent
+
+**Agent/Copilot products**: Pure native Agent hard to grow via SEO; users rarely search "agent." Release related features first (e.g., CRM, sales bot for sales agent) to build traffic, then funnel to Agent product.
+
+## Principles
+
+- **Core rule**: Someone must search it—validate with tools; avoid inventing terms
+- **Functional keywords**: Tool-type (-er/-or) often convert better; users are closer to action
+- **Multi-language**: Re-research in target language; don't translate existing lists
 
 ## Output Format
 
 - **Keyword list** with volume, KD, intent
 - **Keyword mapping** to pages/content
-- **Content gaps** (keywords competitors rank for, you don't)
+- **Content gaps** (competitors rank, you don't)
 - **Priority** ranking for implementation
+- **Topical map** (cluster → pillar → page mapping)
 
 ## Related Skills
 
-- **content-strategy**: Keywords inform content plan
+- **content-strategy**: Keywords inform content plan; topic clusters
 - **content-optimization**: Keyword placement, density vs stuffing, H2 keywords
 - **title-tag, meta-description**: Keywords in title, description
 - **heading-structure**: Keywords in H1, H2

@@ -75,9 +75,10 @@ Focused on conversion, acquisition, and partnership recruitment. Goals: signups,
 | **Category pages** | category-page-generator | Commercial | Consideration | E-commerce categories, faceted navigation |
 | **Customer stories** | customer-stories-page-generator | Commercial | Consideration | Case studies, social proof |
 | **Affiliate program** | affiliate-page-generator | Transactional | Decision | Commission, recruitment, partnership signup |
+| **Landing page** | landing-page-generator | Transactional | Decision | Single-goal campaign pages: lead capture, webinar, product launch; apply to affiliate/creator signup |
 | **Media kit** | media-kit-page-generator | Commercial | Consideration | Press assets, brand materials, PR |
 
-> **Creator Program page**: If you create a standalone Creator Program landing page, place it under marketing, similar to affiliate-program.
+> **Creator Program page**: If you create a standalone Creator Program landing page, place it under marketing, similar to affiliate-program. Apply landing-page-generator principles.
 
 ---
 

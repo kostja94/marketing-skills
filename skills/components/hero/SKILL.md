@@ -99,3 +99,4 @@ The hero must answer three questions within 3 seconds: **What is this?** **Why s
 - **logo-generator**: Logo appears in hero context
 - **brand-visual-generator**: Typography, colors, spacing for hero design
 - **homepage-generator**: Hero is central to homepage design
+- **landing-page-generator**: Hero is step 1 of landing page flow; campaign pages

@@ -1,6 +1,6 @@
 # Full Skills List
 
-Complete list of all 83 skills with descriptions. See [README](../README.md) for overview.
+Complete list of all 88 skills with descriptions. See [README](../README.md) for overview.
 
 ## SEO
 
@@ -85,6 +85,7 @@ Page classification framework for navigation design, sitemaps, content strategy,
 | Marketing | Category pages | [category-page-generator](../skills/pages/marketing/category-pages/) | Commercial | Consideration |
 | Marketing | Customer stories | [customer-stories-page-generator](../skills/pages/marketing/customer-stories/) | Commercial | Consideration |
 | Marketing | Affiliate program | [affiliate-page-generator](../skills/pages/marketing/affiliate-program/) | Transactional | Decision |
+| Marketing | Landing page | [landing-page-generator](../skills/pages/marketing/landing-page/) | Transactional | Decision |
 | Marketing | Media kit | [media-kit-page-generator](../skills/pages/marketing/media-kit/) | Commercial | Consideration |
 | Legal | Privacy | [privacy-page-generator](../skills/pages/legal/privacy/) | — | Support |
 | Legal | Terms | [terms-page-generator](../skills/pages/legal/terms/) | — | Support |
@@ -146,15 +147,19 @@ Page classification framework for navigation design, sitemaps, content strategy,
 | [reddit-posts](../skills/platforms/reddit/) | Reddit post copy, subreddit rules |
 | [linkedin-posts](../skills/platforms/linkedin/) | LinkedIn post copy, professional content |
 | [tiktok-captions](../skills/platforms/tiktok/) | TikTok caption, video specs, script |
-| [grokipedia-recommendations](../skills/platforms/grokipedia/) | Grokipedia recommendations, parasite SEO, GEO |
+| [github-seo](../skills/platforms/github/) | GitHub for parasite SEO, GEO (repos, README, Pages, awesome lists) |
+| [grokipedia-recommendations](../skills/platforms/grokipedia/) | Grokipedia recommendations, GEO; parasite SEO strategy in parasite-seo |
 
 ## Strategies
 
 | Skill | Description |
 |-------|-------------|
+| [cold-start-strategy](../skills/strategies/cold-start/) | Cold start, first users, launch channels (Product Hunt, Reddit, AppSumo) |
 | [generative-engine-optimization](../skills/strategies/geo/) | GEO/AEO for AI search visibility |
 | [integrated-marketing](../skills/strategies/integrated-marketing/) | IMC, PESO, program vs channel vs campaign |
 | [localization-strategy](../skills/strategies/localization/) | Localization strategy, i18n, multilingual |
+| [parasite-seo](../skills/strategies/parasite-seo/) | Parasite SEO: high-authority platforms (Medium, Reddit, Grokipedia) |
+| [programmatic-seo](../skills/strategies/programmatic-seo/) | Programmatic SEO: template + data pages at scale |
 
 ## Analytics
 

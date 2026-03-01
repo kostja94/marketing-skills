@@ -1,13 +1,13 @@
 ---
 name: grokipedia-recommendations
-description: When the user wants to add recommendations, links, or content to Grokipedia. Also use when the user mentions "Grokipedia," "parasite SEO," "GEO wiki," "AI encyclopedia," "suggest Grokipedia article," "Grokipedia citation," "Grokipedia listing," "AI search citation," "GEO visibility," or "Grokipedia optimization."
+description: When the user wants to add recommendations, links, or content to Grokipedia. Also use when the user mentions "Grokipedia," "GEO wiki," "AI encyclopedia," "suggest Grokipedia article," "Grokipedia citation," "Grokipedia listing," "AI search citation," "GEO visibility," or "Grokipedia optimization." For parasite SEO strategy, use parasite-seo.
 metadata:
   version: 1.0.0
 ---
 
 # Platforms: Grokipedia
 
-Guides adding recommendations, links, or content to Grokipedia. Part of parasite SEO (leveraging high-authority platforms) and GEO (AI citation visibility). Grokipedia is xAI's AI-generated encyclopedia; ChatGPT, Perplexity, and other AI tools cite it.
+Guides adding recommendations, links, or content to Grokipedia. Grokipedia is a high-authority platform for parasite SEO and GEO (AI citation visibility). See parasite-seo for parasite SEO strategy. Grokipedia is xAI's AI-generated encyclopedia; ChatGPT, Perplexity, and other AI tools cite it.
 
 **On each invocation**: On **first use** in the conversation, output the complete response (Introduction, Importance, Methods, Rules, Avoid, Action). On **subsequent use** or when the user asks to skip (e.g., "just do it", "skip intro", "I already know"), go directly to Action.
 
@@ -18,14 +18,14 @@ Guides adding recommendations, links, or content to Grokipedia. Part of parasite
 - **Suggest Article**: Request new topics; Grok AI reviews and may create
 - **Suggest Edit**: Propose corrections or additions to existing articles
 - **Report Error**: Flag factual inaccuracies, outdated info, citation errors
-- **Parasite SEO / GEO**: Use Grokipedia's authority for backlinks and AI citation
+- **Parasite SEO / GEO**: Use Grokipedia's authority for backlinks and AI citation (see parasite-seo for strategy)
 
 ## What Is Grokipedia
 
 - **Platform**: AI-generated online encyclopedia by xAI (Grok); launched October 2025
 - **Content**: ~6M+ articles; AI-generated, fact-checked by Grok; users cannot edit directly
 - **GEO relevance**: ChatGPT, Perplexity, Google AI Mode, AI Overviews, Gemini, Copilot cite Grokipedia for factual queries
-- **Parasite SEO**: High-authority domain; links from Grokipedia pass authority; content placement for distributed visibility
+- **Parasite SEO**: High-authority domain; links from Grokipedia pass authority; content placement for distributed visibility (see parasite-seo)
 
 ### Why It Matters (Citation Data)
 
@@ -171,7 +171,7 @@ Field-tested examples: a marketer's site was successfully cited as a source via 
 
 ## Parasite SEO & GEO Context
 
-- **Parasite SEO**: Placing content on high-authority platforms (Medium, Reddit, wikis) to leverage their domain strength. Grokipedia fits Tier 6 (Wiki & Structured Knowledge) in distributed authority frameworks.
+- **Parasite SEO**: See parasite-seo for full strategy. Grokipedia fits Tier 6 (Wiki & Structured Knowledge) in distributed authority frameworks.
 - **GEO**: AI tools cite Grokipedia; having your brand, product, or expertise represented can influence AI-generated answers.
 - **Risk**: Google's Site Reputation Abuse policy (2024) targets manipulative third-party content. Ensure contributions are genuinely useful, not purely for link/mention manipulation.
 
@@ -185,7 +185,7 @@ Field-tested examples: a marketer's site was successfully cited as a source via 
 
 2. **Foundation** —Prerequisite: an article published online that includes the product and can be crawled by Grok; higher SEO ranking helps but is not required.
 
-3. **Importance** —Why it matters for GEO and parasite SEO: high-authority domain; backlinks pass authority; AI tools cite Grokipedia for factual queries; citation share rising; positioned as potential future Wikipedia; early participation captures future authority.
+3. **Importance** —Why it matters for GEO and parasite SEO (see parasite-seo): high-authority domain; backlinks pass authority; AI tools cite Grokipedia for factual queries; citation share rising; positioned as potential future Wikipedia; early participation captures future authority.
 
 4. **Methods** —Two ways to get cited:
    - **Suggest Article**: Propose new topic; Grok creates article and searches for sources; your page may be cited if it matches.
@@ -255,6 +255,8 @@ Field-tested examples: a marketer's site was successfully cited as a source via 
 
 ## Related Skills
 
+- **parasite-seo**: Parasite SEO strategy; Grokipedia as high-authority platform
+- **github-seo**: GitHub as alternative high-authority platform; repos, awesome lists
 - **generative-engine-optimization**: GEO strategy, AI citation, distributed authority
 - **link-building**: Link acquisition; Grokipedia as potential citation source
 - **directory-submission**: Same output pattern—platform context first (Introduction, Importance, Methods, Rules, Avoid), then Action; directory submission for backlinks and human discovery; Grokipedia for AI citation—different placement, complementary

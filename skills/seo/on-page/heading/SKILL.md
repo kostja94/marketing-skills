@@ -75,6 +75,7 @@ H1 (page title)
 
 ## Related Skills
 
+- **page-metadata**: Hreflang, meta robots; metadata complements heading structure
 - **content-optimization**: H2 keyword placement, quantity, tables, lists; complements heading structure
 - **article-page-generator**: Article page H1-H3 structure, intro/body/conclusion
 - **title-tag**: H1 should align with title tag

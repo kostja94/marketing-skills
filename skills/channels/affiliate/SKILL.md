@@ -37,6 +37,7 @@ For SaaS: Prefer pay-per-sale or pay-per-lead. Recurring commissions for subscri
 | **Cookie duration** | Attribution window (typically 30–90 days) |
 | **Recurring commission** | Ongoing % from subscription renewals |
 | **Sub-affiliate** | Affiliates who recruit other affiliates |
+| **Performance bonus** | Extra reward when affiliate hits sales targets |
 | **Attribution** | Linking sale to correct affiliate |
 
 ## Promotion Channels
@@ -44,6 +45,7 @@ For SaaS: Prefer pay-per-sale or pay-per-lead. Recurring commissions for subscri
 - **Content creators**: Bloggers, YouTubers, podcasters, social influencers
 - **Publishers**: Media, niche sites, email newsletters
 - **Coupon/cashback**: Price-sensitive users
+- **Professional affiliates**: Agencies managing multiple programs
 - **Communities**: Facebook Groups, Discord, Reddit, forums
 - **Existing customers**: Word-of-mouth via referral rewards
 
@@ -52,7 +54,35 @@ For SaaS: Prefer pay-per-sale or pay-per-lead. Recurring commissions for subscri
 | Approach | Use |
 |----------|-----|
 | **Self-build** | Typeform, Google Forms; quick, low budget |
-| **Third-party** | Rewardful, Tolt, Tapfiliate (recommended for AI/SaaS) |
+| **Third-party** | Rewardful, Tolt, Tapfiliate, Lasso, Post Affiliate Pro (recommended for AI/SaaS) |
+
+Submit program to **Affiliate.Watch** and similar directories after launch for discoverability.
+
+## Recruitment Strategies
+
+1. **Dedicated landing page**: Clear commission, payout terms, cookie duration, signup flow; link in nav/footer.
+2. **Partner personas**: Define 5+ personas (bloggers, YouTubers, newsletter owners, community admins); list audience fit and motivations.
+3. **Target high-influence types**: SEO content owners ranking for your keywords; reviewers/listicle sites; media buyers.
+4. **Reverse research**: Find affiliates promoting competitors; they may promote you too.
+5. **Unconventional outreach**: Competitor backlink analysis; creative outreach beyond cold email and networks.
+
+Expect a small fraction of partners to drive most sales—quality over vanity metrics.
+
+## Implementation Flow
+
+1. **Assess product fit**: Target audience size, product complexity, commission margin, tracking feasibility. SaaS subscriptions suit recurring commissions.
+2. **Design commission structure**: 20%–40% typical; cookie 60–90 days; payment cycle (e.g., 15th of month); minimum payout (e.g., $50).
+3. **Create marketing materials**: Banners, social posts, email templates; landing page with commission details and signup flow.
+4. **Recruit partners**: Publish to Affiliate.Watch; outreach to creators and influencers.
+5. **Monitor and optimize**: Track conversion rate, ROI, AOV; review affiliate performance; detect fraud.
+
+## Pitfalls and Prevention
+
+| Risk | Prevention |
+|------|------------|
+| **Affiliate fraud** | Fake clicks, self-referrals, fake conversions. Use platform fraud tools; vet affiliates; avoid auto-approve. |
+| **Brand bidding** | Affiliates bid on your brand terms in Google Ads; you pay commission for traffic you already own. Prohibit in terms; monitor paid search; use BrandVerity or similar. |
+| **Program terms** | Cookie length, performance bonus, sub-affiliate rules, payment threshold—set clearly in terms before launch. |
 
 ## Best Practices
 
@@ -72,7 +102,8 @@ For SaaS: Prefer pay-per-sale or pay-per-lead. Recurring commissions for subscri
 
 ## Related Skills
 
-- **affiliate-page-generator**: Landing page for affiliate signup
+- **affiliate-page-generator**: Landing page for affiliate signup; apply landing-page-generator principles
+- **landing-page-generator**: Generic landing page structure, CTA, conversion; applies to affiliate signup pages
 - **influencer-marketing**: Often paired; influencers can be affiliates
 - **referral-program**: User-driven referral vs. affiliate-driven
 - **directory-submission**: Directory submission complements affiliate; both drive backlinks and traffic

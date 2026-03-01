@@ -34,6 +34,17 @@ Organize communications into four integrated categories:
 
 **Best practice**: Owned media as anchor; sequence PESO intentionally. Integration over silos--all four work together for synergy.
 
+## Growth Metrics by Stage
+
+| Stage | Focus metrics |
+|-------|----------------|
+| **Early (traffic)** | Website traffic; organic traffic; keyword rankings |
+| **Channel testing** | ROI (influencer), LTV (discount), ROAS (paid) |
+| **Monetization** | CAC, conversion rate |
+| **Scale** | MRR, ARR |
+
+**Principle**: Growth is a means, not an end—it serves conversion and monetization. Don't pursue traffic at the cost of user precision or long-term brand health.
+
 ## Channel Evaluation Framework
 
 When selecting channels, evaluate across:
@@ -75,6 +86,8 @@ When selecting channels, evaluate across:
 
 ## Related Skills
 
+- **cold-start-strategy**: Cold start for early-stage; first users, launch channels
+- **parasite-seo, programmatic-seo**: Parasite SEO (high-authority platforms), programmatic SEO (pages at scale)
 - **affiliate-marketing, community-forum, creator-program, directory-submission, employee-generated-content, email-marketing, influencer-marketing, referral-program**: Specific channel tactics
 - **generative-engine-optimization**: GEO as channel for AI search visibility
 - **traffic-analysis**: Attribution, UTM, multi-channel reporting

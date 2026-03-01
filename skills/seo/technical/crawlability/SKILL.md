@@ -45,7 +45,7 @@ Identify:
 | Principle | Guideline |
 |-----------|-----------|
 | **Depth** | Important pages within 3–4 clicks from homepage |
-| **Orphan pages** | Add internal links to pages with no incoming links |
+| **Orphan pages** | Add internal links to pages with no incoming links; see **internal-links** for link strategy |
 | **Hierarchy** | Logical structure; hub pages link to content |
 
 ### Pagination
@@ -59,7 +59,7 @@ Identify:
 |-------|-------|
 | Redirect chains | Update links to point directly to final URL |
 | Broken links | 301 or remove; audit internal and external |
-| Orphan pages | Add internal links from hub or navigation |
+| Orphan pages | Add internal links from hub or navigation; see **internal-links** for strategy |
 | Infinite scroll | Replace with pagination for key content |
 
 ## Output Format

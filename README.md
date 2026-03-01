@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-83 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 25 page types, channels, platforms, strategies, components, and analytics.
+88 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 26 page types, channels, platforms, strategies, components, and analytics.
 
 **By [kostja](https://github.com/kostja94)** — I add new skills daily; please download the latest version. Questions or feedback? zyjstc@gmail.com
 
@@ -38,7 +38,7 @@ Skills are **markdown files** that give AI agents focused knowledge and workflow
 
 ```
 marketing-skills/
-├── skills/           # 83 skills — seo/, pages/, components/, channels/, platforms/, strategies/, analytics/
+├── skills/           # 88 skills — seo/, pages/, components/, channels/, platforms/, strategies/, analytics/
 ├── docs/             # skills-list (incl. page taxonomy), using-beyond-cursor, naming-rules, description-rules
 ├── templates/        # product-marketing-context.md, skills-task-progress.md, report templates
 ├── tools/            # Report generation — generate-report.py, *-guide.md
@@ -50,7 +50,7 @@ marketing-skills/
 
 ## Installation
 
-**Full or selective.** Install all 83 skills, or only the ones you need. Skills are independent — delete unwanted ones after install.
+**Full or selective.** Install all 88 skills, or only the ones you need. Skills are independent — delete unwanted ones after install.
 
 ### CLI (Recommended)
 
@@ -127,9 +127,11 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 | "Configure robots.txt" / "Audit sitemap" / "Fix canonical URLs" | robots-txt, xml-sitemap, canonical-tag |
 | "Optimize title tag" / "Meta description" / "Open Graph" / "Twitter Cards" / "Add schema markup" / "Fix heading structure" | title-tag, meta-description, open-graph, twitter-cards, schema-markup, heading-structure |
 | "Keyword research" / "Content strategy" / "Link building" | keyword-research, content-strategy, link-building |
-| "Create pricing page" / "Optimize homepage" / "Create FAQ" | pricing-page-generator, homepage-generator, faq-page-generator |
-| "Submit to Taaft, Product Hunt" / "Directory submission" | directory-submission |
+| "Create pricing page" / "Optimize homepage" / "Create landing page" / "Create FAQ" | pricing-page-generator, homepage-generator, landing-page-generator, faq-page-generator |
+| "Cold start" / "First users" / "Submit to Product Hunt" / "Directory submission" | cold-start-strategy, directory-submission |
 | "Add to Grokipedia" / "GEO for AI search" | grokipedia-recommendations, generative-engine-optimization |
+| "Parasite SEO" / "High-authority platforms" / "Programmatic SEO" / "Pages at scale" | parasite-seo, programmatic-seo |
+| "GitHub SEO" / "Awesome list" / "GitHub 清单" / "资源导航" | github-seo |
 | "GA4 tracking" / "Search Console" / "AI traffic" | analytics-tracking, google-search-console, ai-traffic-tracking |
 
 ## How Skills Work Together
@@ -156,7 +158,7 @@ Ask your agent — it picks the right skill from your prompt. Examples:
          ▼
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
 │  Pages: home · about · contact | features · glossary · blog · resources · faq · api |   │
-│  pricing · products · services · category-pages · customer-stories · affiliate ·     │
+│  pricing · products · services · category-pages · customer-stories · affiliate · landing-page ·     │
 │  media-kit | privacy · terms · cookie-policy · legal · refund · shipping | 404 · careers│
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 
@@ -165,7 +167,7 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│  Platforms: x · reddit · linkedin · tiktok · grokipedia  |  Strategies: geo · integrated-marketing · localization│
+│  Platforms: x · reddit · linkedin · tiktok · github · grokipedia  |  Strategies: cold-start · geo · integrated-marketing · localization · parasite-seo · programmatic-seo│
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
@@ -193,16 +195,16 @@ Cross-references: metadata ↔ schema ↔ heading  |  sitemap ↔ indexnow
 
 ## Available Skills
 
-83 skills in 7 categories. [Full list](docs/skills-list.md) · `npx skills add kostja94/marketing-skills --list` (83 skills)
+88 skills in 7 categories. [Full list](docs/skills-list.md) · `npx skills add kostja94/marketing-skills --list` (88 skills)
 
 | Category | Skills |
 |----------|--------|
 | **SEO** (19) | [Technical](skills/seo/technical/): robots, sitemap, canonical, indexing, indexnow, crawlability · [On-Page](skills/seo/on-page/): title, description, metadata, open-graph, twitter-cards, schema, internal-links, url-structure, heading · [Off-Page](skills/seo/off-page/): link-building, backlink-analysis · [Content](skills/seo/content/): keyword-research, content-strategy |
-| **Pages** (24) | [skills-list](docs/skills-list.md#pages) — brand, content, marketing, legal, utility |
+| **Pages** (26) | [skills-list](docs/skills-list.md#pages) — brand, content, marketing, legal, utility |
 | **Components** (11) | nav, breadcrumb, footer, hero, toc, logo, trust-badges, testimonials, cta, newsletter-signup, url-slug |
 | **Channels** (8) | affiliate, email-marketing, egc, influencer, referral, creator-program, community-forum, directories |
-| **Platforms** (5) | x, reddit, linkedin, tiktok, grokipedia |
-| **Strategies** (3) | geo, integrated-marketing, localization |
+| **Platforms** (6) | x, reddit, linkedin, tiktok, github, grokipedia |
+| **Strategies** (6) | cold-start, geo, integrated-marketing, localization, parasite-seo, programmatic-seo |
 | **Analytics** (5) | traffic, tracking, seo-monitoring, ai-traffic, google-search-console |
 
 ## Contributing
@@ -226,7 +228,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [SKILLS_GUIDE](SKILL
 | [skills-task-progress](templates/skills-task-progress.md) | Task tracker — status, priority |
 | [docs/](docs/README.md) | Documentation index |
 | [using-beyond-cursor](docs/using-beyond-cursor.md) | Lovable, ChatGPT, Gemini — no native support needed |
-| [skills-list](docs/skills-list.md) | Full list of all 83 skills |
+| [skills-list](docs/skills-list.md) | Full list of all 88 skills |
 | [SKILLS_GUIDE](SKILLS_GUIDE.md) | Rules, specs, skill authoring |
 | [CHANGELOG](CHANGELOG.md) | What changed, when |
 | [tools/](tools/README.md) | Report generation (keyword, competitor) |

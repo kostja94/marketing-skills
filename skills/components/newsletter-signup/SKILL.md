@@ -79,6 +79,7 @@ Identify:
 
 ## Related Skills
 
+- **landing-page-generator**: Lead capture landing page contains signup form; LP exchanges value for email
 - **email-marketing**: Full email marketing strategy; EDM, newsletter, deliverability, content types
 - **footer-generator**: Footer often hosts signup forms
 - **cta-generator**: Submit button is a CTA

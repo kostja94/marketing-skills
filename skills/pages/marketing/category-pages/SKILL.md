@@ -89,6 +89,7 @@ Filters create many URL combinations (size + color + price). Manage to avoid dup
 
 ## Related Skills
 
+- **programmatic-seo**: Programmatic SEO strategy; category pages as template-based scale
 - **products-page-generator**: Product cards, grid layout
 - **canonical-tag**: Faceted URL canonicalization
 - **schema-markup**: ItemList, Product, FAQ schema

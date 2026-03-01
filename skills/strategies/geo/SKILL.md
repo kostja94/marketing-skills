@@ -1,6 +1,6 @@
 ---
 name: generative-engine-optimization
-description: When the user wants to optimize for AI search visibility (ChatGPT, Claude, Perplexity). Also use when the user mentions "GEO," "AEO," "generative engine optimization," "AI search visibility," "LLM optimization," "parasite SEO," "Grokipedia," "optimize for ChatGPT," "AI Overviews," "Perplexity optimization," "GEO strategy," or "AI search optimization."
+description: When the user wants to optimize for AI search visibility (ChatGPT, Claude, Perplexity). Also use when the user mentions "GEO," "AEO," "generative engine optimization," "AI search visibility," "LLM optimization," "GitHub GEO," "Grokipedia," "optimize for ChatGPT," "AI Overviews," "Perplexity optimization," "GEO strategy," or "AI search optimization." For parasite SEO strategy, use parasite-seo. For GitHub, use github-seo.
 metadata:
   version: 1.0.0
 ---
@@ -49,14 +49,9 @@ All refer to the same goal: visibility in AI assistant responses.
 
 ## Parasite SEO & High-Authority Platforms
 
-**Parasite SEO** = Placing content on high-authority platforms to leverage their domain strength for rankings and AI citation. Part of "Distributed Authority Engineering."
+**Parasite SEO** = Placing content on high-authority platforms to leverage their domain strength for rankings and AI citation. See **parasite-seo** for full strategy.
 
-| Platform type | Examples | GEO relevance |
-|---------------|----------|---------------|
-| **Wiki / structured knowledge** | Wikipedia, Grokipedia, Wikihow | Very high AI citation; long-term authority |
-| **Community** | Reddit, Quora | High; conversational, experience-based |
-| **Publishing** | Medium, LinkedIn, Substack | High; thought leadership |
-| **Technical** | GitHub, Stack Overflow | Very high; expertise signals |
+**GitHub**: Tier 2 technical authority; very high AI citation. See github-seo for repos, README, Pages, gists, awesome lists.
 
 **Grokipedia**: xAI's AI encyclopedia; ChatGPT, Perplexity, Copilot cite it. See grokipedia-recommendations for adding recommendations or links. Contribute genuinely useful content; avoid manipulative placement (Google Site Reputation Abuse policy).
 
@@ -77,6 +72,8 @@ ChatGPT traffic converts ~6x higher than Google search. AI tool users often have
 
 ## Related Skills
 
+- **parasite-seo**: Parasite SEO strategy; high-authority platforms for GEO
+- **github-seo**: GitHub for GEO; repos, README, awesome lists; Tier 2 technical authority
 - **grokipedia-recommendations**: Add recommendations/links to Grokipedia; parasite SEO + GEO
 - **reddit-posts**: High-authority community for GEO
 - **directory-submission**: Directory and curated list submission for backlinks and discovery; complements GEO (different placement: human discovery vs AI citation)

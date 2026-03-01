@@ -60,6 +60,7 @@
 |------|-------|--------|----------|-------|---------|
 | Keyword research | keyword-research | Pending | P1 | | |
 | Content strategy (clusters, pillar) | content-strategy | Pending | P2 | | |
+| Programmatic SEO (template + data pages) | programmatic-seo | Pending | P2 | | |
 
 ---
 
@@ -108,6 +109,8 @@ Add rows for pages that exist or need creation. See [skills-list §Pages](https:
 
 | Task | Skill | Status | Priority | Notes | Updated |
 |------|-------|--------|----------|-------|---------|
+| Cold start (Product Hunt, AppSumo, directories, etc.) | cold-start-strategy | Pending | P2 | | |
+| Parasite SEO (Medium, Reddit, GitHub, Grokipedia) | parasite-seo, github-seo | Pending | P2 | | |
 | Directory submission (Taaft, Product Hunt) | directory-submission | Pending | P2 | | |
 | Affiliate / Influencer / Referral | affiliate-marketing, etc. | Pending | P2 | | |
 | X / LinkedIn / Reddit / TikTok | twitter-x-posts, linkedin-posts, etc. | Pending | P2 | | |

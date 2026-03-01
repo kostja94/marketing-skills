@@ -11,7 +11,7 @@ Guides submitting products, tools, or apps to directories and launch platforms.
 
 **On each invocation**: On **first use** in the conversation, output the complete response (Introduction, Importance, Methods, Collaboration Channels, Rules, Avoid, Action). On **subsequent use** or when the user asks to skip (e.g., "just do it", "skip intro", "I already know"), go directly to Action.
 
-Directory submission + Product Hunt are common cold-start strategies for AI/SaaS: validate PMF, get seed users, iterate from feedback. Directories offer more than listings: free/paid listings, ad placements, newsletter features, social promotion, and marketing campaigns. Examples: Taaft (AI tools), Product Hunt (product launch), G2/Capterra (review platforms), Shopify App Store, Chrome Web Store, niche directories.
+Directory submission is a core channel for cold start—see **cold-start-strategy** for full launch planning. Directories offer more than listings: free/paid listings, ad placements, newsletter features, social promotion, and marketing campaigns. Examples: Taaft (AI tools), Product Hunt (product launch), G2/Capterra (review platforms), Shopify App Store, Chrome Web Store, niche directories.
 
 ## Why Directory Submission Matters
 
@@ -197,7 +197,7 @@ Directories typically offer multiple touchpoints--not just inclusion in the cata
 | Type | Examples | How to get listed |
 |------|----------|-------------------|
 | **Best-of / Top N** | "Best SEO tools," "Top 10 AI writing tools" | Outreach to list authors; provide product info, use case, differentiator |
-| **Awesome lists** | GitHub Awesome-*, Awesome Tools | Submit PR or contact maintainer; follow list format |
+| **Awesome lists** | GitHub Awesome-*, Awesome Tools | Submit PR or contact maintainer; follow list format. See github-seo for creating or optimizing awesome-style curated lists. |
 | **Comparison / alternatives** | AlternativeTo, G2 alternatives | Submit as alternative to X; comparison-focused copy |
 | **Niche roundups** | Industry blogs, newsletters | Pitch for inclusion; offer quote, case study, or exclusive angle |
 
@@ -324,7 +324,7 @@ Before submitting to any directory:
 
 ### Required Output Structure (in order)
 
-1. **Introduction** --What directory submission is: Taaft, Product Hunt, G2, curated lists, app stores; cold-start strategy for AI/SaaS; listings, ads, newsletter features, campaigns.
+1. **Introduction** --What directory submission is: Taaft, Product Hunt, G2, curated lists, app stores; listings, ads, newsletter features, campaigns. Part of cold-start strategy—see cold-start-strategy for full launch plan.
 
 2. **Importance** --Why directory submission matters: backlinks and domain authority; referral traffic and conversion (~42% report increased traffic); social proof for brand search (directory listings dominate SERP); third-party presence signals legitimacy.
 
@@ -367,8 +367,10 @@ Before submitting to any directory:
 
 - **media-kit-page-generator**: Press kit, screenshots, assets for launch; required for Product Hunt and directory submissions
 - **link-building**: Directory and curated list backlinks contribute to link profile; this skill handles the submission workflow--see link-building for broader outreach, guest posting, broken link building
+- **github-seo**: GitHub awesome lists as curated lists; create or submit to awesome-* repos
 - **grokipedia-recommendations**: Same output pattern--platform context first (Introduction, Importance, Methods, Rules, Avoid), then Action; high-authority placement for GEO; directories for human discovery--complementary
 - **generative-engine-optimization**: GEO strategy; varied directory copy improves AI citation diversity; directory submission complements AI search visibility
 - **affiliate-marketing**: Different channel; directories complement affiliate
+- **cold-start-strategy**: Cold start orchestrates directory-submission, Product Hunt, Reddit, Indie Hackers; this skill handles directory submission workflow
 - **community-forum**: Forum promotion (HN, Indie Hacker); community invitation; different from directory listing
 - **analytics-tracking**: UTM for directory traffic attribution

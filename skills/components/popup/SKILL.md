@@ -67,6 +67,7 @@ Identify:
 
 ## Related Skills
 
+- **landing-page-generator**: Lead capture popups on landing pages; popup as alternative to full-page form
 - **newsletter-signup-generator**: Popup often contains signup form
 - **cta-generator**: Popup CTA design
 - **top-banner-generator**: Alternative to popup; less intrusive for announcements

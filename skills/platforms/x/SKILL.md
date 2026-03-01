@@ -115,7 +115,7 @@ Premium ~10x reach vs Regular. If X is core channel, Premium helps.
 
 ## Twitter Cards + SEO
 
-Cards (og:image, title, description) boost CTR ~64%, engagement ~26%. Use for Social SEO and Programmatic SEO; X traffic can accelerate Google indexing.
+Cards (og:image, title, description) boost CTR ~64%, engagement ~26%. Use for Social SEO; X traffic can accelerate Google indexing. For programmatic SEO (template + data pages at scale), use programmatic-seo.
 
 ## Image Specs (for Design Agents)
 
@@ -140,4 +140,5 @@ When generating X copy, provide:
 
 - **influencer-marketing**: X is key influencer platform
 - **reddit-posts**: Alternative community channel
+- **programmatic-seo**: Programmatic SEO (template + data pages); X traffic can accelerate indexing
 - **open-graph, twitter-cards**: OG and Twitter Card tags for X link previews

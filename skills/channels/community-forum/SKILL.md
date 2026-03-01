@@ -7,7 +7,7 @@ metadata:
 
 # Channels: Community & Forum Promotion
 
-Guides forum promotion, community invitation, and vertical community marketing. Community-led growth (CLG) costs ~90% less than paid acquisition with ~3.2x higher customer LTV. Indie Hackers delivers ~23% conversion vs Product Hunt ~3%; HN and Reddit require sustained engagement.
+Guides forum promotion, community invitation, and vertical community marketing. Community-led growth (CLG) costs ~90% less than paid acquisition with ~3.2x higher customer LTV. Indie Hackers delivers ~23% conversion vs Product Hunt ~3%; HN and Reddit require sustained engagement. For cold start planning (first users, launch channels), see **cold-start-strategy**.
 
 **When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -70,7 +70,7 @@ Identify:
 | **Target** | Find channels where target audience gathers |
 | **Niche over broad** | Industry-specific subgroups; avoid mass posting |
 | **Caution** | Mass posting risks removal; match community tone |
-| **Examples** | Reddit subreddits, Discord servers, Quora, Stack Overflow, niche B2B communities; regional: Zhihu, Douban, Tieba (China) |
+| **Examples** | Reddit subreddits, Discord servers, Quora, X, Hacker News, Stack Overflow, niche B2B communities |
 
 **Community-led growth**: Engage before promoting; build trust; contribute value first.
 
@@ -104,11 +104,12 @@ Identify:
 ## Related Skills
 
 - **reddit-posts**: Reddit post copy, subreddit rules
+- **cold-start-strategy**: Cold start orchestrates Product Hunt, Reddit, Indie Hackers, directories; this skill handles forum/community tactics
 - **directory-submission**: Product Hunt, Taaft; different from forum community
 - **affiliate-marketing**: Communities as recruitment channel
 - **top-banner-generator, popup-generator**: Homepage CTA, banner
 - **newsletter-signup-generator**: EDM, welcome email
-- **localization-strategy**: Regional markets (Baidu Baike, Zhihu, etc.)
+- **localization-strategy**: Regional markets (local platforms by locale)
 
 ## References
 

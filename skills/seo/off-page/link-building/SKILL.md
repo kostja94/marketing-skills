@@ -39,7 +39,7 @@ Identify:
 | **Broken link building** | Find broken links, suggest your content as replacement |
 | **Unlinked brand mentions** | Turn mentions into links via outreach |
 | **Journalist requests** | Respond to #JournoRequest; provide quotes/assets |
-| **Directory and curated list submission** | Get listed on directories (Taaft, Product Hunt, G2) and curated "best-of" lists--see **directory-submission** for full guidance |
+| **Directory and curated list submission** | Get listed on directories (Taaft, Product Hunt, G2) and curated "best-of" lists; cold-start channel—see **directory-submission** for submission workflow, **cold-start-strategy** for launch plan |
 | **Digital PR** | Press releases, news, expert quotes; earn authoritative links at scale |
 | **Partnerships** | Partner links, co-marketing |
 
@@ -71,4 +71,7 @@ Identify:
 - **backlink-analysis**: Analyze current backlink profile
 - **content-strategy**: Content strategy supports link building
 - **keyword-research**: Target keywords inform link targets
+- **cold-start-strategy**: Cold start and first-user acquisition; directory submission as part of launch
+- **parasite-seo**: Parasite SEO; high-authority platforms for backlinks
+- **github-seo**: GitHub repos, gists, awesome lists for backlinks
 - **directory-submission**: Directory and curated list submission--preparation, platform-specific copy, Taaft/Product Hunt/G2; use when user wants to submit product to directories or get listed on best-of roundups

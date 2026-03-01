@@ -32,7 +32,7 @@ Identify:
 | Principle | Guideline |
 |-----------|-----------|
 | **Depth** | Important pages within 3 clicks from homepage |
-| **Orphan pages** | Avoid; ensure every page has at least one internal link |
+| **Orphan pages** | Avoid; ensure every page has at least one internal link; see **site-crawlability** for technical detection and crawl issues |
 | **Hub-to-spoke** | Link from hub/pillar pages to cluster articles; topic cluster structure |
 | **Contextual** | Place links in relevant body content, not just footers |
 
@@ -57,10 +57,10 @@ Identify:
 
 | Issue | Fix |
 |-------|-----|
-| Orphan pages | Add internal links from hub pages or navigation |
+| Orphan pages | Add internal links from hub pages or navigation; **site-crawlability** for technical audit |
 | Too many links | Focus on most important; avoid link stuffing |
 | Generic anchors | Use descriptive "learn more about X" instead of "click here" |
-| Broken links | Audit and fix 404s |
+| Broken links | Audit and fix 404s; see **site-crawlability** for technical audit |
 
 ## Output Format
 

@@ -72,6 +72,7 @@ Identify:
 
 ## Related Skills
 
+- **landing-page-generator**: Trust signals as step 2 (earn trust) in landing page flow
 - **hero-generator**: "Trusted by" often in hero
 - **testimonials-generator**: Complementary social proof
 - **cta-generator**: Badges near CTAs increase conversion

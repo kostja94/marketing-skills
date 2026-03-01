@@ -55,7 +55,7 @@ Products like **Lovable**, **Bolt**, **v0**, and similar vibe-coding tools often
 
 **What this enables:** When you ask the AI to optimize SEO, redesign components, or improve copy, it can reference these skill files for structured, best-practice-driven outputs tailored to your project.
 
-**Excluded by default** (add later if needed): channels (affiliate, influencer), platforms (X, Reddit, LinkedIn, TikTok, Grokipedia), strategies (GEO, localization), analytics, page-type skills.
+**Excluded by default** (add later if needed): channels (affiliate, influencer), platforms (X, Reddit, LinkedIn, TikTok, GitHub, Grokipedia), strategies (cold-start, GEO, localization, parasite-seo, programmatic-seo), analytics, page-type skills.
 
 ---
 

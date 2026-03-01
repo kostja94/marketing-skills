@@ -54,6 +54,8 @@ Identify:
 
 ## Related Skills
 
+- **landing-page-generator**: Product-focused landing pages send to products; product launch LP destination
+- **pricing-page-generator**: Product cards link to pricing
 - **url-slug-generator**: URL slug for product pages; 3-5 words, primary keyword
 - **url-structure**: Product URL hierarchy (e.g. /products/category/product)
 - **features-page-generator**: For SaaS feature pages

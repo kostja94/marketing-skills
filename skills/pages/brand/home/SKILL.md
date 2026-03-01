@@ -39,6 +39,7 @@ Identify:
 - **Specificity**: Concrete benefit, not vague
 - **Differentiation**: Why you, not alternatives
 - **Customer language**: Their words, not jargon
+- **Avoid "not speaking human"**: Don't over-emphasize brand with vague definitions; communicate in user-friendly ways—if someone searches "AI presentation maker," the answer should be obvious from your headline
 
 ### CTA
 
@@ -64,6 +65,7 @@ Identify:
 
 ## Related Skills
 
+- **landing-page-generator**: For single-goal campaign pages (affiliate signup, lead capture); homepage is multi-purpose
 - **pricing-page-generator**: Homepage often links to pricing
 - **features-page-generator**: Features section or link to features page
 - **title-tag, meta-description, page-metadata, open-graph, twitter-cards**: Homepage metadata and social previews

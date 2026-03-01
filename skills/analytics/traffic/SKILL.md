@@ -17,6 +17,19 @@ Guides website traffic analysis across all channels (organic, paid, social, refe
 - **Dark traffic**: Unattributed visits labeled as "Direct / None"
 - **Attribution**: UTM tagging, segmenting, reporting accuracy
 
+## Branded vs. Non-Branded Traffic (Organic)
+
+| Type | Characteristics |
+|------|-----------------|
+| **Branded** | Higher CTR, conversion, purchase intent; users closer to funnel bottom |
+| **Non-branded** | Touchpoint with future users; most sites get more non-brand traffic; competition fiercer |
+
+Brand traffic grows over time as brand awareness increases.
+
+## Bot Traffic
+
+A large share of traffic can be **bot traffic**—RPA, search crawlers, spiders, scrapers. Exclude or segment when evaluating real user behavior; use GA4 filters or segments to isolate human traffic.
+
 ## Traffic Channels
 
 | Channel | Typical Sources | Attribution |

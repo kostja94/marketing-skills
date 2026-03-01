@@ -137,10 +137,7 @@ Identify:
 
 ### GEO / AI Citation
 
-- **Answer-first**: Direct answer in first 40–60 words after H2; increases AI citation ~35%
-- **TL;DR or Key Takeaways**: Choose one — 50–100 word summary *or* 5–7 bullet points; supports GEO
-- **QAE pattern**: Question (H2) → Answer (2 sentences) → Evidence (data, lists, examples)
-- See **article-page-generator** for full GEO section; **generative-engine-optimization** for GEO strategy
+**Answer-first** (direct answer in first 40–60 words after H2) supports both Featured Snippets and GEO. For article-level GEO (TL;DR, Key Takeaways, QAE pattern), see **article-page-generator** and **generative-engine-optimization**.
 
 ### Featured Snippet Formats
 

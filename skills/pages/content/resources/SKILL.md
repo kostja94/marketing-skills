@@ -53,6 +53,7 @@ Identify:
 ### Integration
 
 - **Product pages**: Embed relevant resources (streams, tiles)
+- **Landing pages**: Lead magnet (ebook, template) or webinar as resource; LP exchanges value for email
 - **Blog**: Part of resources or separate with cross-links
 - **Glossary**: Link from resources
 
@@ -66,6 +67,7 @@ Identify:
 
 ## Related Skills
 
+- **landing-page-generator**: Lead magnet (ebook, webinar) as LP offer; LP exchanges resource for email
 - **url-slug-generator**: URL slug for resource pages (e.g. /resources/guide-slug); 3-5 words
 - **blog-page-generator**: Blog may be part of resources
 - **glossary-page-generator**: Glossary as resource

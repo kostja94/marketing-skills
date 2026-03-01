@@ -62,7 +62,7 @@ skills/
 ├── components/           # UI components (navigation, etc.)
 ├── channels/             # Acquisition channels (affiliate, email-marketing, egc, influencer, referral, creator-program, community-forum, directories)
 ├── platforms/            # Publishing platforms (x, reddit, linkedin, tiktok)
-├── strategies/           # Cross-cutting strategies (geo, integrated-marketing, localization)
+├── strategies/           # Cross-cutting strategies (cold-start, geo, integrated-marketing, localization, parasite-seo, programmatic-seo)
 ├── analytics/            # Traffic, tracking, seo-monitoring
 └── ...
 ```

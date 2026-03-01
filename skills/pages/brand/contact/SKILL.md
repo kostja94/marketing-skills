@@ -69,6 +69,7 @@ Identify:
 
 ## Related Skills
 
+- **landing-page-generator**: Lead capture LP contains contact form; demo request CTA destination
 - **about-page-generator**: Contact often linked from About
 - **legal-page-generator**: Privacy policy link near form
 - **title-tag, meta-description, page-metadata**: Contact page metadata

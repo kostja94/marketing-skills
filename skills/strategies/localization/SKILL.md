@@ -40,6 +40,7 @@ Choose one; be consistent:
 | **Subdomains** | `de.example.com` | Separate hosting; less authority transfer |
 | **ccTLD** | `example.de` | Strongest geo signal; costly |
 
+- **Use subdirectories, not subdomains** for i18n; subdomains transfer less authority.
 - **Default locale**: Root path for default (e.g. `/` for English); prefix for others (`/zh/`, `/de/`).
 - **IETF BCP 47**: Use valid codes (`en`, `en-US`, `zh-CN`, `pt-BR`). Same language, different country (e.g. `de-DE` vs `de-AT`) needs ≥20% content difference for Google to differentiate.
 
@@ -108,6 +109,11 @@ Consider: Cultural expressions, search habits, competition, long-tail in small m
 3. Add OpenGraph `locale` and `alternateLocale`.
 4. Ensure all alternates are symmetric (every page lists all versions).
 
+### Multilingual Risks
+
+- **Batch publishing**: Too many translated pages at once can trigger de-indexing or thin-content penalties.
+- **Mitigation**: Roll out slowly; ensure content is product/industry relevant; avoid Wikipedia-like breadth; monitor indexing in GSC.
+
 ### Avoid
 
 - IP-based redirects that override user preferences.
@@ -127,5 +133,7 @@ Consider: Cultural expressions, search habits, competition, long-tail in small m
 ## Related Skills
 
 - **page-metadata**: Hreflang implementation
+- **url-structure**: URL hierarchy for i18n (subdirectories, subdomains)
+- **content-strategy**: Multilingual content planning; avoid thin translations
 - **navigation-menu-generator**: Language switcher SEO
 - **affiliate-marketing**: Local affiliates for target markets

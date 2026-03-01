@@ -16,10 +16,23 @@ Guides content strategy for SEO: topic clusters, pillar pages, cluster articles,
 **Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, audience, and proof points.
 
 Identify:
-1. **Keywords**: From keyword research
+1. **Keywords**: From keyword research — see **keyword-research** for discovery and clustering
 2. **Existing content**: What already exists
 3. **Resources**: Content capacity, tools
 4. **Goals**: Traffic, conversions, authority
+
+## On-Page SEO Essence
+
+SEO leverages content you already have—brand, features, scenarios, input, output, prompt, processes, knowledge, etc., published in a structured way. Even without SEO, you'd showcase product features; SEO makes that content benefit you in traffic. **Product-Led SEO**: Do SEO around product/users, not around industry/search engines.
+
+### Products Suited for SEO
+
+| Type | Suited because |
+|------|-----------------|
+| **Tool** | Users have clear use cases and needs |
+| **Content** | Users have clear information needs |
+| **E-commerce** | Users have clear purchase needs |
+| **Service** | Users have clear service needs |
 
 ## Topic Clusters
 
@@ -123,6 +136,7 @@ Cluster 6-12 (subtopics)
 ## Related Skills
 
 - **keyword-research**: Keywords drive content plan
+- **programmatic-seo**: Programmatic SEO for scaling pages with template + data; complements topic clusters
 - **content-optimization**: Word count, H2 keywords, keyword density, multimedia, lists -> on-page content optimization
 - **internal-links**: Clusters need internal linking
 - **link-building**: Content strategy creates linkable assets

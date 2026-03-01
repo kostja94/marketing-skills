@@ -64,6 +64,7 @@ Identify:
 
 ## Related Skills
 
+- **landing-page-generator**: Click-through landing pages often send to pricing; LP CTA destination
 - **homepage-generator**: Homepage links to pricing
 - **features-page-generator**: Features inform plan differentiation
 - **schema-markup**: Product/Offer schema for pricing

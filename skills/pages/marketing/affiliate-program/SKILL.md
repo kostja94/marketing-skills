@@ -57,8 +57,17 @@ Affiliates stake their reputation; convince them it's worth promoting:
 
 ### Design
 
-- Treat like a product landing page--professional, engaging
-- Same quality as main marketing pages
+- Treat like a product landing page—professional, engaging; same quality as main marketing pages
+- **Single-focused offer**: One primary goal (signup); pages with multiple offers get ~266% fewer leads
+- **Minimal navigation**: Remove or reduce nav links; can increase conversion 2–28%
+- **Mobile-first**: Thumb-reachable CTA above fold; ~70% of users consider page speed
+- **Hero image/video**: Visuals can improve conversion up to 80%
+- **FTC-compliant disclosure**: Affiliate relationship disclosure required
+
+### Post-Launch
+
+- Submit to **Affiliate.Watch** and similar affiliate program directories for discoverability
+- Add affiliate page link to main nav or footer
 
 ## Output Format
 
@@ -72,7 +81,9 @@ Affiliates stake their reputation; convince them it's worth promoting:
 ## Related Skills
 
 - **affiliate-marketing**: Affiliate marketing strategy, recruitment, channels
+- **landing-page-generator**: Generic landing page structure, CTA, conversion flow; apply to affiliate signup
 - **pricing-page-generator**: Commission structure clarity
 - **customer-stories-page-generator**: Social proof for product
 - **homepage-generator**: Link from homepage
+- **hero-generator, cta-generator**: Hero and CTA design for affiliate page
 - **title-tag, meta-description, page-metadata**: Affiliate page metadata

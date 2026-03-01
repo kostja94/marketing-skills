@@ -42,6 +42,8 @@ If no product-marketing-context exists, infer from the article and optionally se
 
 ## Research Phase: Keyword, Search Intent, Competitor (Required for Article Analysis)
 
+**Lightweight** research for article analysis—keyword extraction, intent check, competitor structure. For deep keyword research, topical mapping, or content planning, use **keyword-research** and **content-strategy**.
+
 When **analyzing or auditing** an article, perform the following searches and **output the results** in the analysis. Skip only if user explicitly asks to skip (e.g. "skip search").
 
 ### 1. Keyword Search

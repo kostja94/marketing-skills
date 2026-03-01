@@ -68,6 +68,7 @@ Identify:
 
 ## Related Skills
 
+- **landing-page-generator**: Features content for product LP "Explain value" step; product LP links to features
 - **url-slug-generator**: URL slug for per-feature pages (e.g. /features/feature-name); 3-5 words
 - **homepage-generator**: Homepage links to features
 - **pricing-page-generator**: Features inform plan tiers

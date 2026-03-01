@@ -80,7 +80,8 @@ Video: 95% message retention vs 10% for text.
 
 ## Related Skills
 
-- **trust-badges-generator**: Complementary trust signals
+- **landing-page-generator**: Testimonials as step 2 (earn trust) in landing page flow
+- **trust-badges-generator**: Complementary trust signals; logos and badges
 - **hero-generator**: Testimonials in hero for social proof
-- **cta-generator**: Testimonials near CTAs boost conversion
+- **cta-generator**: Place testimonials near CTAs; boost conversion
 - **pricing-page-generator**: Testimonials on pricing pages

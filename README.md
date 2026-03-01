@@ -9,14 +9,15 @@
 ## Table of Contents
 
 - [What are Skills?](#what-are-skills)
-- [Project Structure](#project-structure)
+- [Use Cases](#use-cases)
 - [Installation](#installation)
 - [Where to Use Skills](#where-to-use-skills)
-- [Project Context & Linking](#project-context--linking)
+- [Project Structure](#project-structure)
 - [Usage](#usage)
+- [Project Context & Linking](#project-context--linking)
+- [Available Skills](#available-skills)
 - [How Skills Work Together](#how-skills-work-together)
 - [Tips & Rules](#tips--rules)
-- [Available Skills](#available-skills)
 - [Contributing](#contributing)
 - [References](#references)
 - [License](#license)
@@ -27,17 +28,18 @@ Skills are **markdown files** that give AI agents focused knowledge and workflow
 
 **Skills = for agents.** For human-readable SEO guides and growth strategies, see [Alignify](https://alignify.co/). For best results, add [Project Context](#project-context--linking).
 
-## Project Structure
+## Use Cases
 
-```
-marketing-skills/
-├── skills/           # seo/, pages/, components/, channels/, platforms/, strategies/, analytics/
-├── docs/             # skills-list, page-taxonomy, SKILLS_GUIDE, CHANGELOG, naming-rules, description-rules, reference-rules
-├── templates/       # product-marketing-context.md, skills-task-progress.md, report templates
-├── tools/            # Report generation — generate-report.py, *-guide.md
-├── README.md
-└── CONTRIBUTING.md
-```
+| Scenario | How |
+|----------|-----|
+| **Personal developer** — SEO-friendly personal site | Quick install, build portfolio/blog/landing with SEO built in. [Guide →](docs/use-cases-and-roadmap.md#11-personal-developer--seo-friendly-personal-site) |
+| **Product website** — SEO growth | Frontend: optimization tech. Ops: build marketing pages via rewrite, no engineering dependency. [Playbook →](docs/use-cases-and-roadmap.md#12-product-website--seo-growth-with-frontend--ops-split) |
+| **Vibe coding beginner** — Learn SEO | Install skills standalone; use ChatGPT/Claude/Gemini to paste and learn. No project required. [Learning path →](docs/use-cases-and-roadmap.md#13-vibe-coding-beginner--learn-seo--website-building-standalone) |
+| **Vibe coding product** — Built-in skills | Ship SEO-friendly outputs by default. Skills as templates = better user-generated projects. [Partnership →](docs/use-cases-and-roadmap.md#14-vibe-coding-product--built-in-skills-as-templates) |
+| **Build your own skills** — Fork & adapt | Don't know where to start? Fork the repo, modify and adapt on top of 100+ working examples. [Guide →](docs/use-cases-and-roadmap.md#15-want-to-build-your-own-skills--fork--adapt) |
+| **Future** — Non-website agents | Image/video, influencer marketing, paid ads, analytics — skills reusable across agents. [Roadmap →](docs/use-cases-and-roadmap.md#16-future--non-website-agents) |
+
+**Partnership**: Building a vibe coding product or AI marketing agent? [Contact me](mailto:zyjstc@gmail.com) to integrate these skills.
 
 ## Installation
 
@@ -102,23 +104,17 @@ Skills are markdown — they work anywhere an AI can read text. No native skill 
 
 **Full guide**: [where-to-use-skills.md](docs/where-to-use-skills.md) — all platforms, install commands, path reference, Lovable example
 
-## Project Context & Linking
+## Project Structure
 
-**Without context, outputs stay generic.** Add `product-marketing-context.md` so the agent delivers tailored copy and strategy. Place in `.cursor/`, `.claude/`, `.lovable/`, or your platform's config directory.
-
-| Method | Purpose |
-|--------|---------|
-| **Product Context** | Product, audience, brand — skills read automatically |
-| **Skills Task Progress** | Task status (pending/done), priority — agent suggests next steps |
-| **Project Rules** (`.cursor/rules/`) | Code style, architecture, conventions |
-| **AGENTS.md** | Simple project instructions |
-| **@file references** | In chat: `@package.json` `@README.md` — agent includes when relevant |
-
-**Templates**:
-- [product-marketing-context.md](templates/product-marketing-context.md) · [download](https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/product-marketing-context.md)
-- [skills-task-progress.md](templates/skills-task-progress.md) · [download](https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/skills-task-progress.md)
-
-**Start with**: Product Overview, Positioning, Target Audience, Brand & Voice. Add Keywords, Competitors, Website as you have them. Update regularly — stale context degrades quality. See [SKILLS_GUIDE §10 Customization](docs/SKILLS_GUIDE.md#10-customization).
+```
+marketing-skills/
+├── skills/           # seo/, pages/, components/, channels/, platforms/, strategies/, analytics/
+├── docs/             # skills-list, page-taxonomy, SKILLS_GUIDE, CHANGELOG, naming-rules, description-rules, reference-rules
+├── templates/       # product-marketing-context.md, skills-task-progress.md, report templates
+├── tools/            # Report generation — generate-report.py, *-guide.md
+├── README.md
+└── CONTRIBUTING.md
+```
 
 ## Usage
 
@@ -137,6 +133,38 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 | "Parasite SEO" / "High-authority platforms" / "Programmatic SEO" / "Pages at scale" | parasite-seo, programmatic-seo |
 | "GitHub SEO" / "Awesome list" / "curated list" | github-seo |
 | "GA4 tracking" / "Search Console" / "AI traffic" | analytics-tracking, google-search-console, ai-traffic-tracking |
+
+## Project Context & Linking
+
+**Without context, outputs stay generic.** Add `product-marketing-context.md` so the agent delivers tailored copy and strategy. Place in `.cursor/`, `.claude/`, `.lovable/`, or your platform's config directory.
+
+| Method | Purpose |
+|--------|---------|
+| **Product Context** | Product, audience, brand — skills read automatically |
+| **Skills Task Progress** | Task status (pending/done), priority — agent suggests next steps |
+| **Project Rules** (`.cursor/rules/`) | Code style, architecture, conventions |
+| **AGENTS.md** | Simple project instructions |
+| **@file references** | In chat: `@package.json` `@README.md` — agent includes when relevant |
+
+**Templates**:
+- [product-marketing-context.md](templates/product-marketing-context.md) · [download](https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/product-marketing-context.md)
+- [skills-task-progress.md](templates/skills-task-progress.md) · [download](https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/skills-task-progress.md)
+
+**Start with**: Product Overview, Positioning, Target Audience, Brand & Voice. Add Keywords, Competitors, Website as you have them. Update regularly — stale context degrades quality. See [SKILLS_GUIDE §10 Customization](docs/SKILLS_GUIDE.md#10-customization).
+
+## Available Skills
+
+104 skills in 7 categories. [Full list](docs/skills-list.md) · `npx skills add kostja94/marketing-skills --list`
+
+| Category | Skills |
+|----------|--------|
+| **SEO** (19) | [Technical](skills/seo/technical/): robots, sitemap, canonical, indexing, indexnow, crawlability · [On-Page](skills/seo/on-page/): title, description, metadata, open-graph, twitter-cards, schema, internal-links, url-structure, heading · [Off-Page](skills/seo/off-page/): link-building, backlink-analysis · [Content](skills/seo/content/): keyword-research, content-strategy |
+| **Pages** (31) | [skills-list](docs/skills-list.md#pages) — brand, content, marketing, legal, utility; [page-taxonomy](docs/page-taxonomy.md) — core vs extended, website types |
+| **Components** (11) | nav, breadcrumb, footer, hero, toc, logo, trust-badges, testimonials, cta, newsletter-signup, url-slug |
+| **Channels** (8) | affiliate, email-marketing, egc, influencer, referral, creator-program, community-forum, directories |
+| **Platforms** (6) | x, reddit, linkedin, tiktok, github, grokipedia |
+| **Strategies** (9) | seo-strategy, paid-ads-strategy, website-structure, cold-start, geo, integrated-marketing, localization, parasite-seo, programmatic-seo |
+| **Analytics** (5) | traffic, tracking, seo-monitoring, ai-traffic, google-search-console |
 
 ## How Skills Work Together
 
@@ -178,20 +206,6 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 | **Related Skills** | Use each skill's Related Skills for dependencies |
 | **Rules & specs** | See [SKILLS_GUIDE](docs/SKILLS_GUIDE.md) for output structure, skill authoring, quality checklist |
 
-## Available Skills
-
-104 skills in 7 categories. [Full list](docs/skills-list.md) · `npx skills add kostja94/marketing-skills --list`
-
-| Category | Skills |
-|----------|--------|
-| **SEO** (19) | [Technical](skills/seo/technical/): robots, sitemap, canonical, indexing, indexnow, crawlability · [On-Page](skills/seo/on-page/): title, description, metadata, open-graph, twitter-cards, schema, internal-links, url-structure, heading · [Off-Page](skills/seo/off-page/): link-building, backlink-analysis · [Content](skills/seo/content/): keyword-research, content-strategy |
-| **Pages** (31) | [skills-list](docs/skills-list.md#pages) — brand, content, marketing, legal, utility; [page-taxonomy](docs/page-taxonomy.md) — core vs extended, website types |
-| **Components** (11) | nav, breadcrumb, footer, hero, toc, logo, trust-badges, testimonials, cta, newsletter-signup, url-slug |
-| **Channels** (8) | affiliate, email-marketing, egc, influencer, referral, creator-program, community-forum, directories |
-| **Platforms** (6) | x, reddit, linkedin, tiktok, github, grokipedia |
-| **Strategies** (9) | seo-strategy, paid-ads-strategy, website-structure, cold-start, geo, integrated-marketing, localization, parasite-seo, programmatic-seo |
-| **Analytics** (5) | traffic, tracking, seo-monitoring, ai-traffic, google-search-console |
-
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [SKILLS_GUIDE](docs/SKILLS_GUIDE.md).
@@ -203,8 +217,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [SKILLS_GUIDE](docs/
 | Resource | Purpose |
 |----------|---------|
 | [Alignify](https://alignify.co/) | SEO guides, growth strategies — for human reading |
-| [skills.sh](https://skills.sh) | Skill directory; 20+ platforms; `npx skills add` |
+| [skills.sh](https://skills.sh) | Skill directory; 40+ agents; `npx skills add` |
 | [where-to-use-skills.md](docs/where-to-use-skills.md) | Where to use skills — all platforms (native, AGENTS.md, paste), install, path reference |
+| [use-cases-and-roadmap.md](docs/use-cases-and-roadmap.md) | Use cases, content roadmap, partnership |
 | [docs/](docs/README.md) | Documentation index · skills-list · page-taxonomy · where-to-use-skills |
 | [templates/](templates/README.md) | product-marketing-context · skills-task-progress · report templates |
 | [SKILLS_GUIDE](docs/SKILLS_GUIDE.md) | Rules, specs, skill authoring |

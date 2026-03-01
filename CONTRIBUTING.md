@@ -2,6 +2,8 @@
 
 Contributions are welcome! Here's how to add or improve skills.
 
+**Want to build your own skills from scratch?** Fork this repo — you get 100+ working examples to modify and adapt. See [use-cases-and-roadmap § Fork & Adapt](docs/use-cases-and-roadmap.md#15-want-to-build-your-own-skills--fork--adapt).
+
 ## Adding a New Skill
 
 1. Create a new directory under the appropriate category:

@@ -1,4 +1,4 @@
-# EditorConfig: 确保所有文件使用 UTF-8 编码，避免乱码
+# EditorConfig: Ensure UTF-8 encoding for all files
 # https://editorconfig.org
 
 root = true

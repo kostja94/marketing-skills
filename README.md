@@ -118,7 +118,7 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 | "Cold start" / "First users" / "Submit to Product Hunt" / "Directory submission" | cold-start-strategy, directory-submission |
 | "Add to Grokipedia" / "GEO for AI search" | grokipedia-recommendations, generative-engine-optimization |
 | "Parasite SEO" / "High-authority platforms" / "Programmatic SEO" / "Pages at scale" | parasite-seo, programmatic-seo |
-| "GitHub SEO" / "Awesome list" / "GitHub 清单" / "资源导航" | github-seo |
+| "GitHub SEO" / "Awesome list" / "curated list" | github-seo |
 | "GA4 tracking" / "Search Console" / "AI traffic" | analytics-tracking, google-search-console, ai-traffic-tracking |
 
 ## How Skills Work Together

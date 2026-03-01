@@ -1,6 +1,6 @@
 ---
 name: cold-start-strategy
-description: When the user wants to plan cold start, get first users, or launch a new product with zero traction. Also use when the user mentions "cold start," "cold start problem," "冷启动," "first users," "seed users," "product launch strategy," "0 to 1 growth," "early-stage acquisition," "launch channels," "get first customers," "Product Hunt launch," "AppSumo," or "LTD."
+description: When the user wants to plan cold start, get first users, or launch a new product with zero traction. Also use when the user mentions "cold start," "cold start problem," "first users," "seed users," "product launch strategy," "0 to 1 growth," "early-stage acquisition," "launch channels," "get first customers," "Product Hunt launch," "AppSumo," or "LTD."
 metadata:
   version: 1.0.0
 ---

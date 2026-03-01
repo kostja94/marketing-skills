@@ -1,6 +1,6 @@
 ---
 name: github-seo
-description: When the user wants to use GitHub for SEO, parasite SEO, GEO, or create curated lists. Also use when the user mentions "GitHub SEO," "GitHub parasite SEO," "GitHub GEO," "awesome list," "awesome list GitHub," "awesome-seo," "awesome-tools," "GitHub Pages," "GitHub README," "GitHub gist," "curated list GitHub," "navigation list," "资源导航," or "GitHub 清单."
+description: When the user wants to use GitHub for SEO, parasite SEO, GEO, or create curated lists. Also use when the user mentions "GitHub SEO," "GitHub parasite SEO," "GitHub GEO," "awesome list," "awesome list GitHub," "awesome-seo," "awesome-tools," "GitHub Pages," "GitHub README," "GitHub gist," "curated list GitHub," "navigation list," "curated list," or "navigation list."
 metadata:
   version: 1.0.0
 ---

@@ -58,7 +58,11 @@ npx skills add kostja94/marketing-skills --skill robots-txt title-tag meta-descr
 npx skills add kostja94/marketing-skills --list
 ```
 
+**CLI behavior**: The skills CLI installs only **skill folders** (directories with `SKILL.md`). It does **not** download `templates/`, `docs/`, or `tools/`. Skills are placed in a **flat structure** (e.g. `.cursor/skills/robots-txt/`, `.cursor/skills/title-tag/`) — the source repo's hierarchy (`skills/seo/technical/`, `skills/pages/brand/`) is flattened to match agent expectations. Need templates or full structure? Use [Clone and Copy](#clone-and-copy) below.
+
 ### Clone and Copy
+
+Use this when you need **templates**, **tools**, or the **full repo structure** (the CLI installs skills only, in flat layout).
 
 ```bash
 git clone https://github.com/kostja94/marketing-skills.git

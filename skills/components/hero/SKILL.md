@@ -20,27 +20,30 @@ Identify:
 2. **Primary goal**: Signup, trial, purchase, learn more
 3. **Platform**: Web, mobile, both
 
-## Core Components
+## Core Components (Four Essentials)
 
-### Required
-
-- **Headline**: Clear value proposition; answer "What's in it for me?" within seconds
-- **Subheading**: Concise supporting context
-- **Primary CTA**: Single, obvious button or link guiding to next step
-- **Visual**: Image, video, or animation that supports the message
+- **Headline (H1)**: 6–10 words max; instantly communicate core value and benefit. Answer "What's in it for me?" within seconds.
+- **Subheading**: Clear, concise explanation reinforcing why the product/service is valuable.
+- **Primary CTA**: Single, prominent action button visible without scrolling. One per hero to avoid choice overload.
+- **Visual**: High-quality image, video, or animation that amplifies the message.
 
 ### Optional but Effective
 
-- **Trust cues**: 1-3 elements (reviews, logos, statistics)
+- **Trust cues**: 1–3 elements (reviews, logos, statistics)
 - **Secondary CTA**: For users not ready for primary action
 
 ## Best Practices
 
+### 3-Second Rule
+
+The hero must answer three questions within 3 seconds: **What is this?** **Why should I care?** **What should I do next?** ~80% of users never scroll beyond the hero; make an immediate impact.
+
 ### Messaging
 
-- No guessing required; message must be instantly clear
-- Single primary CTA to avoid choice overload
-- Action-oriented, benefit-focused copy
+- No guessing required; message must be instantly clear.
+- Single primary CTA to avoid choice overload.
+- Action-oriented, benefit-focused copy.
+- **Emotional intent first**: Evoke emotion (trust, excitement, confidence) before users read the headline. Avoid generic phrases ("Welcome to Our Website") or overly clever wordplay.
 
 ### Visuals
 
@@ -71,10 +74,11 @@ Identify:
 
 | Requirement | Practice |
 |-------------|----------|
-| **Contrast** | Text over images: sufficient contrast or overlay |
+| **Contrast** | Text over images: >=4.5:1; use overlay if needed |
 | **Touch targets** | CTA >=44x44px |
-| **Keyboard** | CTA keyboard-accessible |
+| **Keyboard** | CTA keyboard-accessible; visible focus indicator |
 | **Screen readers** | Proper heading order; image alt text |
+| **Reduced motion** | Respect `prefers-reduced-motion` for animations |
 
 ## Testing
 

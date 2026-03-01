@@ -6,41 +6,38 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### Changed
+
+- **brand-visual-generator** — Two-font system, industry color mapping, anti-patterns, accessibility checklist.
+- **hero-generator** — Four essentials, 3-second rule, emotional intent.
+- **logo-generator** — Brand guidelines linkage, clear space, responsive breakpoints.
+- **localization-strategy** — i18n SEO principles, URL structure options, hreflang checklist.
+- **page-metadata** — hreflang rules (self-reference, symmetric, x-default), common mistakes.
+- **xml-sitemap** — Multi-language sitemap with hreflang per URL.
+- **schema-markup** — inLanguage for multilingual sites.
+
 ## [2.1.0] - 2025-02-28
 
 ### Changed
 
-- **Description optimization** — 83 skills: expanded keywords for discoverability (skills.sh, Cursor).
-- **docs/skills-list.md** — Merged page-types-taxonomy (classification, intent, best practices).
-
-### Removed
-
-- **docs/description-optimization-suggestions.md** — One-time; applied.
-- **docs/compliance-audit-report.md** — One-time audit.
-- **docs/page-types-taxonomy.md** — Merged into skills-list §Pages.
+- **Description optimization** — 83 skills: expanded keywords for discoverability.
+- **docs/skills-list.md** — Page taxonomy (classification, intent, best practices) merged in.
 
 ## [2.0.0] - 2025-02-28
 
 ### Changed
 
-- **Skill naming (v4)** — 83 skills renamed. SEO: industry terms; Pages: `[type]-page-generator`; Components: `[component]-generator`; Channels/Platforms: descriptive. See `docs/naming-rules.md`.
-- **Related Skills** — All references updated to new names.
+- **Skill naming (v4)** — 83 skills renamed. SEO: industry terms; Pages: `[type]-page-generator`; Components: `[component]-generator`. See `docs/naming-rules.md`.
 - **Content updates** — 18+ skills (platforms, channels, analytics, components, pages).
 
 ### Added
 
-- **docs/description-rules.md** — Description guidelines.
-- **docs/README.md** — Docs index.
+- **docs/description-rules.md** — Description guidelines for contributors.
+- **docs/README.md** — Documentation index.
 
 ### Fixed
 
-- **integrated-marketing** — Chinese → English.
-- **Related Skills** — 22 incorrect references.
-- **Encoding** — components-logo, hero, pages-404.
-
-### Removed
-
-- **Temporary docs** — skill-naming-optimization-plan, skill-naming-compliance-audit.
+- **integrated-marketing** — Description language correction.
 
 ## [2025-02-28]
 
@@ -51,7 +48,3 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Changed
 
 - seo-on-page-metadata split; seo-on-page-schema; product-marketing-context; pages-article; pages-blog; seo-content-content-strategy.
-
-### Fixed
-
-- Encoding (Unicode → ASCII) in 12 skills.

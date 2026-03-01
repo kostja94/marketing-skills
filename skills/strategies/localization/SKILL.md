@@ -32,9 +32,24 @@ Localization includes:
 
 ### URL Structure
 
-- **Subdirectories**: `/zh`, `/de`, `/es`, `/ru`
-- **Default**: Root path for English; prefix for others
-- **Hreflang**: Add to all multilingual pages
+Choose one; be consistent:
+
+| Option | Example | Pros / Cons |
+|--------|---------|-------------|
+| **Subdirectories** | `/en/`, `/de/`, `/zh/` | Recommended; maintains domain authority |
+| **Subdomains** | `de.example.com` | Separate hosting; less authority transfer |
+| **ccTLD** | `example.de` | Strongest geo signal; costly |
+
+- **Default locale**: Root path for default (e.g. `/` for English); prefix for others (`/zh/`, `/de/`).
+- **IETF BCP 47**: Use valid codes (`en`, `en-US`, `zh-CN`, `pt-BR`). Same language, different country (e.g. `de-DE` vs `de-AT`) needs ≥20% content difference for Google to differentiate.
+
+### i18n SEO Principles
+
+- **No hardcoded strings**: All user-facing text via translation dictionary.
+- **Symmetric alternates**: Every locale page lists ALL other versions (including self-reference). ~75% of international sites have hreflang errors; missing reciprocal links is the most common.
+- **x-default**: Always include for fallback when user language/location doesn't match any version.
+- **Canonical alignment**: Canonical must match the same regional version hreflang refers to; misalignment causes Google to ignore hreflang.
+- **Full SEO coverage**: Metadata, OpenGraph, JSON-LD (`inLanguage`), and sitemap all locale-aware.
 
 ### Common Issues (Next.js + next-intl)
 
@@ -47,9 +62,10 @@ Localization includes:
 
 ### SEO
 
-- **Hreflang** on all language versions
-- **Language switcher**: Use `<a>` not `<button>`; links in initial HTML
-- **Canonical**: Handle multi-domain if using local TLDs
+- **Hreflang** on all language versions; self-reference + symmetric annotations.
+- **Language switcher**: Use `<a>` not `<button>`; links in initial HTML.
+- **Canonical**: Handle multi-domain if using local TLDs; align with hreflang.
+- **SPAs**: Use sitemap-based hreflang as backup when HTML head is JS-rendered.
 
 ## Keyword Research by Market
 
@@ -75,6 +91,30 @@ Consider: Cultural expressions, search habits, competition, long-tail in small m
 | **Cosmetic** | Display currency only; same price |
 | **Tools** | Parity Deals, Chargebee |
 
+## i18n SEO Checklist (New Feature / New Locale)
+
+### New feature with i18n
+
+1. Add translation keys to all locale JSON files.
+2. Add `generateMetadata()` with alternates (hreflang) per page.
+3. Add JSON-LD with `inLanguage` and translated fields.
+4. Add page to sitemap with hreflang annotations.
+5. Set `lang` attribute on `<html>`; UTF-8 encoding.
+
+### New locale
+
+1. Add locale code to config; create `{code}.json` dictionary.
+2. Register in sitemap locale list; regenerate.
+3. Add OpenGraph `locale` and `alternateLocale`.
+4. Ensure all alternates are symmetric (every page lists all versions).
+
+### Avoid
+
+- IP-based redirects that override user preferences.
+- Machine translation without localization for product/marketing.
+- Missing reciprocal hreflang between language versions.
+- Canonical tags that conflict with hreflang.
+
 ## Output Format
 
 - **Market** priority
@@ -82,6 +122,7 @@ Consider: Cultural expressions, search habits, competition, long-tail in small m
 - **Keyword** strategy per market
 - **Pricing** recommendation
 - **Technical** checklist
+- **i18n SEO** checklist (if applicable)
 
 ## Related Skills
 

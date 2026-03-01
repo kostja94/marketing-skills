@@ -24,17 +24,19 @@ Identify:
 
 ### Typography
 
-- **Font families**: Primary (headings), secondary (body); specify weights (Regular, Semi Bold, Bold)
-- **Hierarchy**: Hero, section, subheading, body, caption; limit to 3-4 styles per block
-- **Sizes**: Use scale (e.g. 120pt, 60pt, 28pt, 16pt); responsive scaling
-- **Line length**: Max 120 chars for body; generous line-height for readability
-- **Color**: HEX codes for text (e.g. #191919 headings, #666666 body)
+- **Two-font system**: One display font for headlines, one body font for text. Contrast + harmony: different enough for distinct roles, similar enough to feel cohesive.
+- **Body font**: Prioritize legibility—large x-height, open counters. Recommended: Inter, Source Sans 3, Poppins. Neutral personality; supports content without competing.
+- **Headline font**: Communicates brand voice; must be readable in under one second. Carries personality while body handles infrastructure.
+- **Type scale**: Use ratios 1.25–1.5 (Major Third or Perfect Fifth) for hierarchy. Limit to 3–4 styles per block.
+- **Pairing rule**: Decorative fonts only with neutral typefaces. Assign distinct roles; avoid mixing more than two families.
+- **Sizes**: Hero, section, subheading, body, caption; responsive scaling. Line length max 120 chars; generous line-height.
 
 ### Color Palette
 
-- **Primary, secondary, accent**: HEX, RGB, CMYK for reproduction
-- **Backgrounds**: Light, dark, gradient; specify opacity when layered
-- **Accessibility**: Contrast ratio >=4.5:1 for text; don't rely on color alone
+- **Structure**: Primary, secondary, CTA, background, text. Use flexible systems (core hero color + complementary shades), not single rigid colors.
+- **Industry mapping**: Finance → blue, gray, navy (stability); Luxury → rose gold, burgundy, black (exclusivity); Tech → teal, neon accents, charcoal (innovation); Wellness → lavender, peach, mint (calm); Sustainability → sage green, earthy tones.
+- **Reproduction**: HEX, RGB, CMYK for print and digital.
+- **Accessibility**: Contrast >=4.5:1 for normal text, >=3:1 for large text (18px+ or 14px+ bold). Don't rely on color alone for information.
 
 ### Spacing
 
@@ -47,6 +49,24 @@ Identify:
 - **Variants**: Primary, secondary, monogram; light/dark backgrounds
 - **Minimum size**: Prevent illegibility
 - **Don't**: Stretch, recolor, add effects without approval
+
+### Anti-Patterns (Avoid)
+
+- **Aesthetics over functionality**: Don't sacrifice usability for visual appeal.
+- **Unclear CTAs**: Limit primary CTA to one per section; visually differentiate primary vs secondary.
+- **Inconsistent elements**: Pixelated icons, mismatched spacing/typography/color reduce trust.
+- **Poor text hierarchy**: Disordered, cluttered text confuses users.
+- **Overusing effects**: Drop shadows, pop-ups, crowded UI distract from content.
+- **Chasing trends blindly**: Adopt trends only when they fit project needs.
+- **Ignoring performance**: Heavy assets and complex layouts hurt load times.
+
+### Accessibility Checklist
+
+- **Contrast**: Normal text >=4.5:1; large text >=3:1; interactive elements >=3:1.
+- **Focus**: Visible focus indicator (>=2px solid, 3:1 contrast); logical Tab order; no keyboard traps.
+- **Color**: Never use color alone to convey information; add text or icons for states (error, success).
+- **Keyboard**: All interactive elements reachable via Tab, Enter, Spacebar.
+- **Reduced motion**: Respect `prefers-reduced-motion` for animations.
 
 ## AI Brand Aesthetics (Optional)
 
@@ -95,12 +115,23 @@ When creating or updating `.cursor/product-marketing-context.md`, add:
 **Layout**: Viewport, top bar, footer heights if fixed
 ```
 
+## Brand Guidelines Structure (Single Source of Truth)
+
+Ensure consistency across touchpoints. Include:
+
+- **Logo**: Usage rules, clear space, minimum sizes, variants (light/dark)
+- **Colors**: Primary, secondary, CTA, background, text (HEX, RGB, CMYK)
+- **Typography**: Font families, hierarchy, sizing, spacing
+- **Imagery**: Photography tone, subject matter, visual mood
+- **Iconography**: Style, stroke weight, usage rules
+
 ## Output Format
 
 - **Typography** spec (fonts, weights, sizes, colors)
-- **Color** palette (HEX, usage rules)
+- **Color** palette (HEX, usage rules, industry mapping)
 - **Spacing** scale
 - **Logo** clear space and variants
+- **Anti-patterns** and accessibility checklist
 - **AI products** (optional): Visual trend and archetype alignment
 - **Context template** for product-marketing-context Section 12
 

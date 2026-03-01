@@ -30,10 +30,13 @@ Identify:
 
 ## hreflang (Multi-language)
 
-- Use `alternates.languages` in Next.js metadata
-- Include `x-default` for default language
-- Each language version should reference all others
-- **References**: [Google hreflang](https://developers.google.com/search/docs/specialty/international/localized-versions)
+**Three non-negotiables**: (1) Self-referencing tags (each page links to itself), (2) Symmetric annotations (every version lists ALL others), (3) Valid ISO 639-1 or language-region codes (`en`, `en-US`, `zh-CN`).
+
+**Implementation methods**: HTML `<link>` in head, XML sitemap (`xhtml:link`), or HTTP headers. For SPAs/JS-rendered pages, use sitemap-based hreflang as backup.
+
+**Canonical alignment**: Canonical URL must match the same regional version hreflang refers to. Misalignment causes Google to ignore hreflang.
+
+**x-default**: Fallback for users whose language/location doesn't match any version. Point to default locale or language-selector page.
 
 ### Next.js (App Router)
 
@@ -56,6 +59,14 @@ export const metadata = {
 <link rel="alternate" hreflang="zh" href="https://example.com/zh/page" />
 <link rel="alternate" hreflang="x-default" href="https://example.com/en/page" />
 ```
+
+### Common Mistakes (Avoid)
+
+- Missing reciprocal references between language versions.
+- Canonical tag conflicting with hreflang.
+- Relying solely on machine translation without localization.
+- Ignoring mobile—hreflang must appear on both desktop and mobile.
+- Forgetting to update hreflang when page structure changes.
 
 ## Meta Robots (Page-level)
 

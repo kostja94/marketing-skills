@@ -15,6 +15,8 @@ Guides logo placement and implementation for brand recall and navigation. Logo p
 
 **Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for brand guidelines and visual identity.
 
+**Brand guidelines source**: Logo usage rules (clear space, minimum sizes, variants) come from **brand-visual-generator** or media kit. Ensure alignment before implementation.
+
 Identify:
 1. **Context**: Header, footer, standalone
 2. **Platform**: Web, mobile, both
@@ -56,9 +58,10 @@ Identify:
 
 ### Size & Clear Space
 
-- Adequate size for recognition; not competing with nav or CTA
-- Maintain clear space around logo per brand guidelines (brand-visual-generator)
-- Responsive: ensure readability on mobile
+- **Minimum size**: Document in brand guide; prevent illegibility at small sizes (favicon, mobile header).
+- **Clear space**: Minimum space around logo; no text or graphics within this zone. Defined in brand-visual-generator.
+- **Responsive**: Ensure readability on mobile; test at 375px, 768px, 1024px.
+- **Variants**: Primary, secondary, monogram; light/dark backgrounds per brand guidelines.
 
 ## AI Product Logo Design (Optional)
 

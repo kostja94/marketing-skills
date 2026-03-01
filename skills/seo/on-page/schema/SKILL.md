@@ -124,6 +124,15 @@ Identify:
 | **@id for entities** | Use @id for Organization, Person to enable entity linking across pages |
 | **Phased implementation** | Add required properties first; then optional for optimization |
 | **Validation** | Test with Rich Results Test and Schema Markup Validator |
+| **inLanguage (multilingual)** | Add `"inLanguage": "en-US"` (IETF BCP 47) to match hreflang; localize names, descriptions, FAQs for rich snippets per locale |
+
+### Multilingual Schema (inLanguage)
+
+For multilingual sites, add `inLanguage` to JSON-LD to reinforce language targeting. Align with hreflang values (e.g. `"inLanguage": "zh-CN"` with `hreflang="zh-CN"`).
+
+**Localize schema data**: Translate structured data fields (name, description, FAQ acceptedAnswer, etc.) for each locale to improve rich snippet CTR in that language.
+
+**Types that support inLanguage**: Article, BlogPosting, WebApplication, FAQPage, HowTo, Product, Organization.
 
 ## Implementation Workflow
 
@@ -155,6 +164,7 @@ export const metadata = {
       "@type": "Article",
       "headline": "...",
       "description": "...",
+      "inLanguage": "en-US",
       "image": "https://example.com/image.jpg",
       "datePublished": "2024-01-01T00:00:00Z",
       "dateModified": "2024-01-15T00:00:00Z",
@@ -174,6 +184,7 @@ export const metadata = {
   "@type": "Article",
   "headline": "...",
   "description": "...",
+  "inLanguage": "en-US",
   "author": { "@type": "Person", "name": "..." },
   "publisher": { "@type": "Organization", "name": "...", "logo": { "@type": "ImageObject", "url": "..." } }
 }

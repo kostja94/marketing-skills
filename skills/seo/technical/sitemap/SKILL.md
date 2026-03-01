@@ -78,6 +78,31 @@ Identify:
 - Split by locale: `/sitemap/zh.xml`, `/sitemap/en.xml`.
 - Or by content type + language: `/sitemap/zh-posts.xml`, `/sitemap/en-posts.xml`.
 
+### Multi-Language Sitemap (hreflang in Sitemap)
+
+For multilingual sites, add `xhtml:link` hreflang alternates inside each `<url>` entry. **Recommended for large sites** (100+ multilingual pages); centralizes hreflang management.
+
+**Rules**:
+- Every language version must link to ALL others, including itself (self-reference).
+- Include `x-default` pointing to default locale.
+- Use `xmlns:xhtml="http://www.w3.org/1999/xhtml"` namespace.
+- `<loc>` typically uses default-locale (clean) URL; `x-default` points there too.
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://example.com/page</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/page" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://example.com/zh/page" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/page" />
+  </url>
+</urlset>
+```
+
+List all language sitemaps in sitemap index; include in robots.txt.
+
 ## 4. Implementation
 
 | Tech Stack | Implementation |

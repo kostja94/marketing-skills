@@ -21,11 +21,11 @@ Quick reference for what each page type is used for:
 
 | Purpose | Description | Examples |
 |---------|-------------|----------|
-| **品牌 (Brand)** | 建立品牌认知、信任与身份认同 | 首页、关于我们、联系我们 |
-| **营销 - SEO** | 获取有机搜索流量，教育用户，建立主题权威 | 博客、文章、词汇表、FAQ、资源中心、文档 |
-| **营销 - SEM** | 承接付费广告流量，广告与落地页信息一致 | 落地页、定价页、产品页（作为 PPC 目标页） |
-| **功能使用 (Functional)** | 产品使用、任务完成、应用内体验 | Dashboard（仪表盘）、SPA（单页应用界面） |
-| **引导下载 (Download)** | 引导用户下载桌面端或移动端应用 | 下载页（desktop app、mobile app） |
+| **Brand** | Build awareness, trust, identity | Home, About, Contact |
+| **SEO** | Organic traffic, educate users, topical authority | Blog, Article, Glossary, FAQ, Resources, Docs |
+| **SEM** | Paid traffic conversion, ad-to-page alignment | Landing page, Pricing, Products (PPC destination) |
+| **Functional** | Product use, task completion, in-app experience | Dashboard, SPA |
+| **Download** | Guide users to install desktop or mobile app | Download page |
 
 ---
 

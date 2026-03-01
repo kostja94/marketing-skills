@@ -24,7 +24,7 @@ Identify:
 
 | Purpose | Goal |
 |---------|------|
-| **引导下载** | Guide users to install desktop or mobile app |
+| **Download** | Guide users to install desktop or mobile app |
 | **Trust** | Build confidence before download (security, privacy, reviews) |
 | **Conversion** | Maximize download rate, store visits, install conversion |
 

@@ -1,6 +1,6 @@
 # Agent Skills Writing Guide
 
-> **SKILLS_GUIDE** = rules, specs, skill authoring. For overview, installation, usage → [README](README.md).
+> **SKILLS_GUIDE** = rules, specs, skill authoring. For overview, installation, usage → [README](../README.md).
 
 Based on [Agent Skills Specification](https://agentskills.io/specification), [skills.sh Documentation](https://skills.sh/docs), and [Vercel skills CLI](https://github.com/vercel-labs/skills).
 
@@ -102,7 +102,7 @@ description: A description of what this skill does and when to use it.
 
 ### 3.3 description Field Rules
 
-Full specification: [docs/description-rules.md](docs/description-rules.md).
+Full specification: [description-rules.md](description-rules.md).
 
 **Must include**:
 1. **WHAT**: What the skill does (specific capabilities)
@@ -165,7 +165,7 @@ Each skill must keep **only topic-relevant content** and remain distinct. Use **
 | **Reference, don't repeat** | When another skill covers related work, link in Related Skills (e.g., "see directory-submission for directory submission") |
 | **Clear boundaries** | Avoid overlap: directory submission → directory-submission; link-building outreach → link-building |
 
-**Reference format**: Internal refs use `**skill-name**`; external refs use descriptive link text. Full rules → [docs/reference-rules.md](docs/reference-rules.md).
+**Reference format**: Internal refs use `**skill-name**`; external refs use descriptive link text. Full rules → [reference-rules.md](reference-rules.md).
 
 ### 4.3 Progressive Disclosure
 
@@ -299,7 +299,7 @@ Skills are self-contained. Removing unused skills reduces context load and keeps
 
 ## 7. Naming and Categorization
 
-**Full specification**: [docs/naming-rules.md](docs/naming-rules.md)
+**Full specification**: [naming-rules.md](naming-rules.md)
 
 ### 7.0 Core Principles (Highest Priority)
 
@@ -346,7 +346,7 @@ Before creating or modifying a skill, verify:
 - [ ] Reference depth ≤ 1 level
 - [ ] Consistent terminology
 - [ ] No time-sensitive info (e.g. "before August 2025")
-- [ ] References follow [reference-rules](docs/reference-rules.md) (internal: **skill-name**; external: descriptive link text)
+- [ ] References follow [reference-rules](reference-rules.md) (internal: **skill-name**; external: descriptive link text)
 
 ---
 
@@ -373,11 +373,11 @@ Marketing skills are generic. Users must connect them with project-specific cont
 
 ### 10.3 Using Beyond Cursor & Claude
 
-Skills are **markdown files** — they work anywhere an AI can read text. Products without native skill support (Lovable, Bolt, v0, ChatGPT, Gemini) can use them by copying skills to a project directory and adapting path references. **Full tutorial**: [Using Beyond Cursor](docs/using-beyond-cursor.md).
+Skills are **markdown files** — they work anywhere an AI can read text. Products without native skill support (Lovable, Bolt, v0, ChatGPT, Gemini) can use them by copying skills to a project directory and adapting path references. **Full tutorial**: [Using Beyond Cursor](using-beyond-cursor.md).
 
 ### 10.4 Customizing Skills Themselves
 
-Advanced users can fork skills and edit `SKILL.md` to add project-specific instructions. Keep a reference to the original skill for updates. See [README](README.md) for install options.
+Advanced users can fork skills and edit `SKILL.md` to add project-specific instructions. Keep a reference to the original skill for updates. See [README](../README.md) for install options.
 
 ---
 
@@ -385,8 +385,8 @@ Advanced users can fork skills and edit `SKILL.md` to add project-specific instr
 
 | Resource | URL |
 |----------|-----|
-| [README](README.md) | Overview, installation, usage, available skills |
-| [Using Beyond Cursor](docs/using-beyond-cursor.md) | Lovable, ChatGPT, Gemini — use skills without native support |
+| [README](../README.md) | Overview, installation, usage, available skills |
+| [Using Beyond Cursor](using-beyond-cursor.md) | Lovable, ChatGPT, Gemini — use skills without native support |
 | Agent Skills Specification | https://agentskills.io/specification |
 | Agent Skills Homepage | https://agentskills.io |
 | skills.sh Directory | https://skills.sh |

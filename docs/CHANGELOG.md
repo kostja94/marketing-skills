@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### Changed
+
+- **docs/** — SKILLS_GUIDE.md and CHANGELOG.md moved from root to docs/; all references updated.
+
 ### Added
 
 - **download-page-generator** — Download page for desktop/mobile app; platform selection, trust signals, CTA.
@@ -31,7 +35,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - **docs-page-generator** — API Reference now part of docs.
 - **docs/** — Skills count 83→88; reference-rules merged.
 - **Root/templates/tools** — page-taxonomy moved to docs/; templates/README.
-- **README** — Hero merged to 2 paragraphs; Linking + Project Context merged; deduplication (88, generic, workflow); Using Beyond Cursor compressed; Tips simplified; References table consolidated; ASCII diagram rebuilt for clarity.
+- **README** — Hero merged to 2 paragraphs; Linking + Product Context merged; deduplication (88, generic, workflow); Using Beyond Cursor compressed; Tips simplified; References table consolidated; ASCII diagram rebuilt for clarity.
 - **Product/website references** — Reduced examples; no-endorsement disclosure.
 - **affiliate-marketing** — Pitfalls, recruitment; tools simplified.
 - **affiliate-page-generator** — LP best practices; landing-page-generator reference.

@@ -1,6 +1,6 @@
 # Skill Naming Rules
 
-Full naming specification for marketing skills. See [SKILLS_GUIDE §7](../SKILLS_GUIDE.md#7-naming-and-categorization) for the summary.
+Full naming specification for marketing skills. See [SKILLS_GUIDE §7](SKILLS_GUIDE.md#7-naming-and-categorization) for the summary.
 
 ---
 

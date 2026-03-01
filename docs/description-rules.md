@@ -1,6 +1,6 @@
 # Skill Description Rules
 
-Optimization guidelines for `description` field in SKILL.md. Aligns with [naming-rules.md](naming-rules.md) and [SKILLS_GUIDE §3.3](../SKILLS_GUIDE.md#33-description-field-rules).
+Optimization guidelines for `description` field in SKILL.md. Aligns with [naming-rules.md](naming-rules.md) and [SKILLS_GUIDE §3.3](SKILLS_GUIDE.md#33-description-field-rules).
 
 ---
 
@@ -152,6 +152,6 @@ Before publishing a description:
 
 ## References
 
-- [SKILLS_GUIDE §3.3](../SKILLS_GUIDE.md#33-description-field-rules) — description field rules
+- [SKILLS_GUIDE §3.3](SKILLS_GUIDE.md#33-description-field-rules) — description field rules
 - [naming-rules.md](naming-rules.md) — name optimization (description should align)
 - Create-skill (Cursor): "Include both WHAT and WHEN; be specific and include trigger terms"

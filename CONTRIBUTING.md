@@ -25,7 +25,7 @@ Contributions are welcome! Here's how to add or improve skills.
 - Platforms: add suffix (e.g. `twitter-x-posts`, `reddit-posts`)
 - No abbreviations: `employee-generated-content` not `egc`; `generative-engine-optimization` not `geo`
 
-**Full rules**: [SKILLS_GUIDE §7](SKILLS_GUIDE.md#7-naming-and-categorization) | [docs/naming-rules.md](docs/naming-rules.md) | [docs/reference-rules.md](docs/reference-rules.md) (references)
+**Full rules**: [SKILLS_GUIDE §7](docs/SKILLS_GUIDE.md#7-naming-and-categorization) | [docs/naming-rules.md](docs/naming-rules.md) | [docs/reference-rules.md](docs/reference-rules.md) (references)
 
 ## Language
 
@@ -42,7 +42,7 @@ Contributions are welcome! Here's how to add or improve skills.
 
 ## Full Specification
 
-See [SKILLS_GUIDE.md](SKILLS_GUIDE.md) for the complete specification, frontmatter rules, and quality checklist.
+See [SKILLS_GUIDE.md](docs/SKILLS_GUIDE.md) for the complete specification, frontmatter rules, and quality checklist.
 
 ## Testing
 

@@ -2,9 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-88 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 26 page types, channels, platforms, strategies, components, and analytics. Works with Lovable, ChatGPT, Gemini, and any AI that reads markdown ([Using Beyond Cursor](docs/using-beyond-cursor.md)).
+94 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 31 page types, channels, platforms, strategies, components, and analytics. Works with Lovable, ChatGPT, Gemini, and any AI that reads markdown ([Using Beyond Cursor](docs/using-beyond-cursor.md)).
 
-**By [kostja](https://github.com/kostja94)** · I add new skills daily · [SKILLS_GUIDE](SKILLS_GUIDE.md) · [CHANGELOG](CHANGELOG.md) · zyjstc@gmail.com
+**By [kostja](https://github.com/kostja94)** · I add new skills daily · [SKILLS_GUIDE](docs/SKILLS_GUIDE.md) · [CHANGELOG](docs/CHANGELOG.md) · zyjstc@gmail.com
 
 ## Table of Contents
 
@@ -32,12 +32,10 @@ Skills are **markdown files** that give AI agents focused knowledge and workflow
 ```
 marketing-skills/
 ├── skills/           # seo/, pages/, components/, channels/, platforms/, strategies/, analytics/
-├── docs/             # skills-list, page-taxonomy, using-beyond-cursor, naming-rules, description-rules, reference-rules
+├── docs/             # skills-list, page-taxonomy, SKILLS_GUIDE, CHANGELOG, naming-rules, description-rules, reference-rules
 ├── templates/       # product-marketing-context.md, skills-task-progress.md, report templates
 ├── tools/            # Report generation — generate-report.py, *-guide.md
 ├── README.md
-├── SKILLS_GUIDE.md   # Rules, specs, skill authoring
-├── CHANGELOG.md      # What changed, when
 └── CONTRIBUTING.md
 ```
 
@@ -103,7 +101,7 @@ Skills are markdown — they work anywhere an AI can read text. No native skill 
 - [product-marketing-context.md](templates/product-marketing-context.md) · [download](https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/product-marketing-context.md)
 - [skills-task-progress.md](templates/skills-task-progress.md) · [download](https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/skills-task-progress.md)
 
-**Start with**: Product Overview, Positioning, Target Audience, Brand & Voice. Add Keywords, Competitors, Website as you have them. Update regularly — stale context degrades quality. See [SKILLS_GUIDE §10 Customization](SKILLS_GUIDE.md#10-customization).
+**Start with**: Product Overview, Positioning, Target Audience, Brand & Voice. Add Keywords, Competitors, Website as you have them. Update regularly — stale context degrades quality. See [SKILLS_GUIDE §10 Customization](docs/SKILLS_GUIDE.md#10-customization).
 
 ## Usage
 
@@ -165,9 +163,9 @@ Ask your agent — it picks the right skill from your prompt. Examples:
          Cross-refs: metadata ↔ schema ↔ heading │ internal-links ↔ crawlability
 ```
 
-**Skill uniqueness**: Each skill keeps only topic-relevant content. Overlapping topics use **Related Skills** references. See [SKILLS_GUIDE §4.2](SKILLS_GUIDE.md#42-skill-uniqueness-and-cross-references).
+**Skill uniqueness**: Each skill keeps only topic-relevant content. Overlapping topics use **Related Skills** references. See [SKILLS_GUIDE §4.2](docs/SKILLS_GUIDE.md#42-skill-uniqueness-and-cross-references).
 
-**Output structure**: Platform skills use full structure (Introduction → Importance → Methods → Rules → Avoid → Action); others use brief context + main output. Say "skip intro" or "just do it" for repeat tasks. See [SKILLS_GUIDE §4.4](SKILLS_GUIDE.md#44-output-structure-context-first-then-action).
+**Output structure**: Platform skills use full structure (Introduction → Importance → Methods → Rules → Avoid → Action); others use brief context + main output. Say "skip intro" or "just do it" for repeat tasks. See [SKILLS_GUIDE §4.4](docs/SKILLS_GUIDE.md#44-output-structure-context-first-then-action).
 
 ## Tips & Rules
 
@@ -176,25 +174,25 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 | **Project Context** | Add `product-marketing-context.md` to `.cursor/`, `.claude/`, or `.lovable/` for tailored output |
 | **Skip intro** | "skip intro" or "just do it" → go straight to Action |
 | **Related Skills** | Use each skill's Related Skills for dependencies |
-| **Rules & specs** | See [SKILLS_GUIDE](SKILLS_GUIDE.md) for output structure, skill authoring, quality checklist |
+| **Rules & specs** | See [SKILLS_GUIDE](docs/SKILLS_GUIDE.md) for output structure, skill authoring, quality checklist |
 
 ## Available Skills
 
-88 skills in 7 categories. [Full list](docs/skills-list.md) · `npx skills add kostja94/marketing-skills --list`
+94 skills in 7 categories. [Full list](docs/skills-list.md) · `npx skills add kostja94/marketing-skills --list`
 
 | Category | Skills |
 |----------|--------|
 | **SEO** (19) | [Technical](skills/seo/technical/): robots, sitemap, canonical, indexing, indexnow, crawlability · [On-Page](skills/seo/on-page/): title, description, metadata, open-graph, twitter-cards, schema, internal-links, url-structure, heading · [Off-Page](skills/seo/off-page/): link-building, backlink-analysis · [Content](skills/seo/content/): keyword-research, content-strategy |
-| **Pages** (26) | [skills-list](docs/skills-list.md#pages) — brand, content, marketing, legal, utility |
+| **Pages** (31) | [skills-list](docs/skills-list.md#pages) — brand, content, marketing, legal, utility; [page-taxonomy](docs/page-taxonomy.md) — core vs extended, website types |
 | **Components** (11) | nav, breadcrumb, footer, hero, toc, logo, trust-badges, testimonials, cta, newsletter-signup, url-slug |
 | **Channels** (8) | affiliate, email-marketing, egc, influencer, referral, creator-program, community-forum, directories |
 | **Platforms** (6) | x, reddit, linkedin, tiktok, github, grokipedia |
-| **Strategies** (6) | cold-start, geo, integrated-marketing, localization, parasite-seo, programmatic-seo |
+| **Strategies** (7) | website-structure, cold-start, geo, integrated-marketing, localization, parasite-seo, programmatic-seo |
 | **Analytics** (5) | traffic, tracking, seo-monitoring, ai-traffic, google-search-console |
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [SKILLS_GUIDE](SKILLS_GUIDE.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [SKILLS_GUIDE](docs/SKILLS_GUIDE.md).
 
 ## References
 
@@ -206,8 +204,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [SKILLS_GUIDE](SKILL
 | [skills.sh](https://skills.sh) | Skill directory and discovery |
 | [docs/](docs/README.md) | Documentation index · skills-list · page-taxonomy · using-beyond-cursor |
 | [templates/](templates/README.md) | product-marketing-context · skills-task-progress · report templates |
-| [SKILLS_GUIDE](SKILLS_GUIDE.md) | Rules, specs, skill authoring |
-| [CHANGELOG](CHANGELOG.md) | What changed, when |
+| [SKILLS_GUIDE](docs/SKILLS_GUIDE.md) | Rules, specs, skill authoring |
+| [CHANGELOG](docs/CHANGELOG.md) | What changed, when |
 | [tools/](tools/README.md) | Report generation (keyword, competitor) |
 
 ## License

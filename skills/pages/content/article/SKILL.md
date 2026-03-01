@@ -146,7 +146,7 @@ Performed as part of **Research Phase** (see above). When competitor articles ar
 | **Body** | H2–H3 hierarchy; QAE pattern (see GEO below); scannable (lists, short paragraphs 40–80 words, visuals) |
 | **Conclusion** | Summary, CTA (newsletter, related content, **product** — link to product/feature when relevant) |
 | **Related posts** | 3–6 contextual links; end-of-article recommendations |
-| **Author bio** | E-E-A-T; credentials, photo, link to author page |
+| **Author bio** | E-E-A-T; credentials, photo, link to author page — see **eeat-signals** |
 
 ### Featured Image
 
@@ -221,7 +221,7 @@ See **generative-engine-optimization** for full GEO strategy.
 - **Readability**: Grade 8–10 (Flesch-Kincaid); short sentences, clear language
 - **Depth**: 2,500+ words for pillar content; 1,000+ for cluster articles
 - **Originality**: Unique angle, data, examples; avoid thin or rehashed content
-- **E-E-A-T**: Author bio, citations, changelog, expert quotes; **Experience** (first-hand, case studies, original research) strengthens trust; **YMYL** (health, finance, legal) requires higher E-E-A-T
+- **E-E-A-T**: Author bio, citations, changelog, expert quotes — see **eeat-signals** for full guidance
 
 ### Common Mistakes to Avoid
 
@@ -318,7 +318,7 @@ Use `og:type: article` for article pages (not `website`):
 | **When to use** | Statistics, research, definitions, tool comparisons, expert quotes |
 | **Anchor text** | Descriptive (e.g. "Google's Search Quality Guidelines", "SEO study"); link to source |
 | **Same URL** | Counts once per page for link equity; no need to repeat |
-| **E-E-A-T** | External links to reputable sources signal trust; avoid linking to low-quality sites |
+| **E-E-A-T** | External links to reputable sources signal trust — see **eeat-signals** |
 
 ## References / Citations
 
@@ -328,11 +328,11 @@ Use `og:type: article` for article pages (not `website`):
 | **Expert quotes** | Attribute; link to source or profile |
 | **Reference section** | For pillar/evergreen content with 5+ citations; list at end before Related posts |
 | **Format** | Inline links preferred; numbered refs (e.g. [1], [2]) for academic-style pieces |
-| **When to include** | Any claim that benefits from authority (stats, studies, definitions); strengthens E-E-A-T |
+| **When to include** | Any claim that benefits from authority (stats, studies, definitions); strengthens E-E-A-T — see **eeat-signals** |
 
 ## AI-Assisted Content
 
-When content is AI-assisted: **human review** before publish; **verify facts** and add citations; **original insights** or data; avoid generic phrasing. Google may label AI content; transparency and human refinement support E-E-A-T.
+When content is AI-assisted: **human review** before publish; **verify facts** and add citations; **original insights** or data; avoid generic phrasing. See **eeat-signals** for E-E-A-T and AI content guidance.
 
 ## Technical
 
@@ -377,7 +377,7 @@ When analyzing or auditing an article, output this section **before** Intent Ana
 |--------|--------|
 | **Keyword Search** | Primary keyword (from article or search), secondary keywords, keyword opportunities (from SERP/competitor analysis). If search was performed: query used, top results observed. |
 | **Search Intent** | Intent for primary keyword (Informational/Commercial/Transactional/Navigational), intent for 2–3 secondary keywords, whether article content matches intent. If search was performed: SERP snippet types observed. |
-| **Competitor Articles** | If searched: 2–3 URLs, brief structure (word count, H2s), content gaps, length target. If user provided URLs: same. If skipped: "Competitor analysis skipped." |
+| **Competitor Articles** | If searched: 2–3 URLs, brief structure (word count, H2s), content gaps, length target. If user provided URLs: same. See **competitor-research** for full methodology. If skipped: "Competitor analysis skipped." |
 
 ### 1. Intent Analysis (output second)
 
@@ -419,10 +419,13 @@ Example: `[P0] Add TL;DR or Key Takeaways — GEO, AI citation`
 - **Internal links** (3–5 in body + 3–6 Related; anchor text suggestions; avoid "click here")
 - **Outbound links** (2–5 external; cite stats, research; anchor text for each)
 - **References** (inline citations vs Reference section; when to add for E-E-A-T)
-- **Competitor analysis** (when URLs provided or searched): content gaps vs top rankers, structure to adopt, length target, keyword opportunities — see **Before Analysis** to prompt user or search
+- **Competitor analysis** (when URLs provided or searched): content gaps vs top rankers, structure to adopt, length target, keyword opportunities — see **competitor-research** for methodology; **Before Analysis** to prompt user or search
 
 ## Related Skills
 
+- **content-marketing-strategy**: Content types, formats, repurposing; articles as one format
+- **eeat-signals**: E-E-A-T implementation; author bio, citations, YMYL, AI content
+- **competitor-research**: Competitor content analysis; content gaps, structure, length target
 - **blog-page-generator**: Blog index/listing page; article pages live within blog
 - **keyword-research**: Keyword basis for articles; run before drafting
 - **title-tag, meta-description**: Article metadata

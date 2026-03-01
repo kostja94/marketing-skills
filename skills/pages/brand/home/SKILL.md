@@ -13,7 +13,7 @@ Guides homepage content, structure, and conversion optimization.
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, audience, and value proposition.
+**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, audience, and value proposition. See **branding** for brand strategy, positioning, differentiation.
 
 Identify:
 1. **Primary goal**: Sign up, demo, purchase, learn more
@@ -37,7 +37,7 @@ Identify:
 
 - **Clarity**: Visitor understands in 5 seconds
 - **Specificity**: Concrete benefit, not vague
-- **Differentiation**: Why you, not alternatives
+- **Differentiation**: Why you, not alternatives — see **branding** for positioning framework
 - **Customer language**: Their words, not jargon
 - **Avoid "not speaking human"**: Don't over-emphasize brand with vague definitions; communicate in user-friendly ways—if someone searches "AI presentation maker," the answer should be obvious from your headline
 
@@ -65,6 +65,7 @@ Identify:
 
 ## Related Skills
 
+- **branding**: Brand strategy, value prop, differentiation; homepage implements brand voice
 - **landing-page-generator**: For single-goal campaign pages (affiliate signup, lead capture); homepage is multi-purpose
 - **pricing-page-generator**: Homepage often links to pricing
 - **features-page-generator**: Features section or link to features page

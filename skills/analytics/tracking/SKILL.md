@@ -27,7 +27,7 @@ Track CTA clicks on key articles to measure content ROI:
 | **Conversion** | Mark as conversion in GA4 for attribution |
 | **Use** | Compare high vs low performers; optimize CTA placement and copy |
 
-See seo-monitoring for article database and benchmark context.
+See **seo-monitoring** for article database and benchmark context.
 
 ## Scope
 

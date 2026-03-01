@@ -71,6 +71,7 @@ Identify:
 
 ## Related Skills
 
+- **seo-strategy**: SEO workflow; crawlability is Technical phase (P0)
 - **website-structure**: Plan which pages to build, page priority, structure planning; use before or alongside crawlability audit
 - **robots-txt**: robots.txt configuration
 - **xml-sitemap**: URL discovery

@@ -25,7 +25,7 @@ Guides on-page content optimization: word count, heading keywords, keyword densi
 Identify:
 1. **Content type**: Article, guide, listicle, pillar, news
 2. **Target keyword**: Primary and secondary
-3. **Competitors**: Top 10 average length and structure
+3. **Competitors**: Top 10 average length and structure — see **competitor-research**
 
 ---
 
@@ -112,7 +112,7 @@ Identify:
 | **File names** | Descriptive (e.g. `seo-checklist-2025.jpg`) |
 | **Compression** | WebP; optimize for LCP |
 | **Captions** | Relevant to topic; can support Featured Snippets; see **featured-snippet** |
-| **Original over stock** | Unique images signal E-E-A-T |
+| **Original over stock** | Unique images signal E-E-A-T — see **eeat-signals** |
 
 ### Tables
 
@@ -159,3 +159,5 @@ Identify:
 - **featured-snippet**: Featured Snippet / Position Zero optimization; formats, structure
 - **serp-features**: SERP features overview; Featured Snippet in context
 - **toc-generator**: TOC built from H2–H3; supports snippet structure
+- **eeat-signals**: E-E-A-T signals; original images, trust
+- **competitor-research**: Competitor length and structure as reference

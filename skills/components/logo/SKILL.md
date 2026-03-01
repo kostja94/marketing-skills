@@ -15,7 +15,7 @@ Guides logo placement and implementation for brand recall and navigation. Logo p
 
 **Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for brand guidelines and visual identity.
 
-**Brand guidelines source**: Logo usage rules (clear space, minimum sizes, variants) come from **brand-visual-generator** or media kit. Ensure alignment before implementation.
+**Brand guidelines source**: Logo usage rules (clear space, minimum sizes, variants) come from **branding** (strategy), **brand-visual-generator** (visual specs), or media kit. Ensure alignment before implementation.
 
 Identify:
 1. **Context**: Header, footer, standalone
@@ -117,6 +117,7 @@ For AI/SaaS products, [Alignify AI Logo Guide](https://alignify.co/insights/ai-l
 
 ## Related Skills
 
+- **branding**: Brand strategy; logo rules defined in brand guidelines
 - **navigation-menu-generator**: Logo typically sits in header with nav
 - **hero-generator**: Logo appears in hero context on landing pages
 - **media-kit-page-generator**: Logo assets, brand guidelines, usage rules

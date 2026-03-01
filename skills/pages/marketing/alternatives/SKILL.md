@@ -78,7 +78,8 @@ Identify:
 
 - **article-page-generator**: Alternatives as blog listicle; same structure, different path
 - **migration-page-generator**: Migration guides for switchers; link from alternatives
-- **landing-page-generator**: When alternatives page is used for **paid ads** (PPC), apply LP principles; ad-to-page alignment critical
+- **landing-page-generator**: When alternatives page is used for paid ads (PPC), apply LP principles
+- **paid-ads-strategy**: When to use paid ads; ad-to-page alignment; channel selection
 - **features-page-generator**: Feature comparison content
 - **pricing-page-generator**: Pricing comparison
 - **customer-stories-page-generator**: Switcher testimonials

@@ -13,7 +13,7 @@ Guides About page content, structure, and trust-building for company websites.
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for company story, values, and differentiation.
+**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for company story, values, and differentiation. See **branding** for full brand strategy framework (purpose, values, storytelling).
 
 Identify:
 1. **Audience**: Job seekers, buyers, partners, press
@@ -36,7 +36,7 @@ Identify:
 
 ### Strategic Approach
 
-- **Tell a story**: Convey who you are and why you're different--not just facts
+- **Tell a story**: Convey who you are and why you're different—not just facts. See **branding** for origin story, hero's journey, narrative arc.
 - **Customer-focused**: Frame around what you solve for customers, not self-promotion
 - **Build trust**: Social links, testimonials, contact details, certifications
 - **Visible placement**: About in main nav, not buried in footer
@@ -58,6 +58,7 @@ Identify:
 
 ## Related Skills
 
+- **branding**: Brand strategy, storytelling, purpose, values; About page implements brand story
 - **homepage-generator**: About often linked from homepage
 - **contact-page-generator**: Contact info on About
 - **customer-stories-page-generator**: Social proof complements About

@@ -6,6 +6,8 @@ Skill dependency maps as ASCII trees. Workflow order: Technical → On-Page → 
 
 ## 1. SEO Foundation (Technical → On-Page → Content → Off-Page)
 
+**Orchestration**: See **seo-strategy** for workflow order, prioritization, Product-Led SEO, and audit approach.
+
 ```
                     ┌──────────────────────────────────────────┐
                     │       Technical SEO (Foundation)         │
@@ -20,9 +22,9 @@ Skill dependency maps as ASCII trees. Workflow order: Technical → On-Page → 
 │ title · meta-desc │◄──────────►│ keyword-research    │           │  link-building   │
 │ metadata · schema │           │ content-strategy    │           │ backlink-analysis │
 │ internal-links    │           │ content-optimization │           └──────────────────┘
-│ url-structure ·   │           └──────────────────────┘
-│ heading          │
-└──────────────────┘
+│ url-structure ·   │           │ eeat-signals ·      │
+│ heading          │           │ competitor-research │
+└──────────────────┘           └──────────────────────┘
 
 Cross-refs: metadata ↔ schema ↔ heading │ internal-links ↔ crawlability
 ```
@@ -87,8 +89,8 @@ See [page-taxonomy](page-taxonomy.md) for full classification.
                                         │
 ┌───────────────────────────────────────┼───────────────────────────────────────┐
 │  Platforms                             │  Strategies                          │
-│  x · reddit · linkedin · tiktok         │  cold-start · geo · integrated-mktg   │
-│  github · grokipedia                    │  parasite-seo · programmatic-seo    │
+│  x · reddit · linkedin · tiktok         │  branding · content-mktg · seo-strategy · paid-ads │
+│  github · grokipedia                    │  cold-start · geo · integrated-mktg · parasite · programmatic│
 └────────────────────────────────────────┼──────────────────────────────────────┘
                                          │
                     ┌────────────────────┴────────────────────┐
@@ -129,7 +131,7 @@ See [page-taxonomy](page-taxonomy.md) for full classification.
 
 | Tree | Focus |
 |------|-------|
-| 1 | SEO workflow: technical foundation → on-page → content → off-page |
+| 1 | SEO workflow: technical foundation → on-page → content → off-page; **seo-strategy** for orchestration |
 | 2 | SERP enhancements: schema, rich results, featured snippets, FAQ |
 | 3 | Page types by purpose (brand, content, marketing, legal, utility) |
 | 4 | Growth channels, platforms, GEO, parasite SEO |

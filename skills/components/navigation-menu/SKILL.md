@@ -48,7 +48,7 @@ Identify:
 
 - Sub-menus: Ensure HTML is in DOM (e.g., CSS-hidden, not JS-injected)
 - Footer nav: Include secondary links
-- Breadcrumbs: See breadcrumb-generator for implementation
+- Breadcrumbs: See **breadcrumb-generator** for implementation
 
 ## UX Guidelines
 

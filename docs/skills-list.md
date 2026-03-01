@@ -1,6 +1,6 @@
 # Full Skills List
 
-Complete list of all 104 skills with descriptions. See [README](../README.md) for overview.
+Complete list of all 109 skills with descriptions. See [README](../README.md) for overview.
 
 ## SEO
 
@@ -45,6 +45,8 @@ Complete list of all 104 skills with descriptions. See [README](../README.md) fo
 | [keyword-research](../skills/seo/content/keyword-research/) | Keyword research, search intent, difficulty |
 | [content-strategy](../skills/seo/content/content-strategy/) | Content clusters, pillar pages, editorial calendar |
 | [content-optimization](../skills/seo/content/content-optimization/) | Word count, H2 keywords, keyword density, tables, lists, multimedia |
+| [eeat-signals](../skills/seo/content/eeat-signals/) | E-E-A-T signals, author bio, citations, YMYL, trust |
+| [competitor-research](../skills/seo/content/competitor-research/) | Competitor analysis for SEO, content, backlinks, positioning |
 
 ## Pages
 
@@ -183,6 +185,10 @@ Different website types need different pages. See [page-taxonomy.md § Website T
 
 | Skill | Description |
 |-------|-------------|
+| [branding](../skills/strategies/branding/) | Brand strategy, storytelling, voice, visual identity; purpose, values, positioning |
+| [content-marketing-strategy](../skills/strategies/content-marketing-strategy/) | Content types, formats, channels, repurposing; blog, email, social, video |
+| [seo-strategy](../skills/strategies/seo/) | SEO workflow order, prioritization, Product-Led SEO, audit approach |
+| [paid-ads-strategy](../skills/strategies/paid-ads/) | Paid ads (Google, Meta, LinkedIn); when to use; ROAS; ad-to-page alignment |
 | [website-structure](../skills/strategies/website-structure/) | Plan which pages to build, page priority (Must Have/Great to Have/Optional), structure for UX/SEO/growth |
 | [cold-start-strategy](../skills/strategies/cold-start/) | Cold start, first users, launch channels (Product Hunt, Reddit, AppSumo) |
 | [discount-marketing-strategy](../skills/strategies/discount-marketing/) | Discount strategy, LTD, redeem code, BFCM, promo campaigns |

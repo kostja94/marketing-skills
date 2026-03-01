@@ -63,9 +63,9 @@ All refer to the same goal: visibility in AI assistant responses.
 
 **Parasite SEO** = Placing content on high-authority platforms to leverage their domain strength for rankings and AI citation. See **parasite-seo** for full strategy.
 
-**GitHub**: Tier 2 technical authority; very high AI citation. See github-seo for repos, README, Pages, gists, awesome lists.
+**GitHub**: Tier 2 technical authority; very high AI citation. See **github-seo** for repos, README, Pages, gists, awesome lists.
 
-**Grokipedia**: xAI's AI encyclopedia; ChatGPT, Perplexity, Copilot cite it. See grokipedia-recommendations for adding recommendations or links. Contribute genuinely useful content; avoid manipulative placement (Google Site Reputation Abuse policy).
+**Grokipedia**: xAI's AI encyclopedia; ChatGPT, Perplexity, Copilot cite it. See **grokipedia-recommendations** for adding recommendations or links. Contribute genuinely useful content; avoid manipulative placement (Google Site Reputation Abuse policy).
 
 ## Tools
 

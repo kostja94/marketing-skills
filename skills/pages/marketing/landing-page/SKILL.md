@@ -7,22 +7,13 @@ metadata:
 
 # Pages: Landing Page
 
-Guides campaign landing page structure, conversion flow, and optimization. **Primary use**: **Paid ads (PPC/SEM)** — landing pages are typically built to receive paid traffic; ad-to-page alignment is critical for conversion. Also applies to affiliate signup, product launch, lead capture, webinar registration, and other single-goal conversion pages. Differs from homepage (multi-purpose) and product pages (catalog).
+Guides campaign landing page structure, conversion flow, and optimization. **Primary use**: **Paid ads (PPC/SEM)** — landing pages are typically built to receive paid traffic; ad-to-page alignment is critical for conversion. See **paid-ads-strategy** for when to use paid ads and ad-to-page alignment principles. Also applies to affiliate signup, product launch, lead capture, webinar registration, and other single-goal conversion pages. Differs from homepage (multi-purpose) and product pages (catalog).
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
-## Landing Pages for Paid Ads (PPC/SEM)
+## Paid Ads: LP Requirements
 
-When the landing page receives **paid traffic** (Google Ads, Meta, etc.):
-
-| Principle | Practice |
-|-----------|----------|
-| **Ad-to-page alignment** | Ad promise (e.g. "15% off") must appear immediately on the page; mismatch increases bounce |
-| **Post-click experience** | Ads drive traffic; landing pages drive conversions; optimize the full funnel |
-| **Quality Score** | Well-optimized LPs improve Google Ads Quality Score → lower CPC, better ad rank |
-| **Mobile-first** | 78% B2C e-commerce traffic on mobile; CTA above fold, thumb-reachable, fast load |
-| **Minimal form** | Fewer fields; only necessary fields; long forms cause ~81% abandonment |
-| **Trust above fold** | Reviews, accreditations, media logos visible before the ask |
+When LP receives paid traffic: ad promise on page immediately; mobile-first (CTA above fold, fast load); minimal form (fewer fields); trust above fold. See **paid-ads-strategy** for full ad-to-page alignment and Quality Score.
 
 ## Initial Assessment
 
@@ -134,6 +125,7 @@ Every element should serve one of these five functions. Pages with multiple comp
 - **newsletter-signup-generator**: Lead capture form on LP
 - **popup-generator**: Lead capture popup alternative to full-page form
 
-### SEO
+### Strategy & SEO
 
+- **paid-ads-strategy**: When to use paid ads; ad-to-page alignment; channel selection
 - **title-tag, meta-description, page-metadata**: Landing page metadata

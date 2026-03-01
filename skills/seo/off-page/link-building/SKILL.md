@@ -18,8 +18,7 @@ Guides link building strategy: acquiring quality backlinks to improve domain aut
 - **Unlinked brand mentions**: Turn mentions into links via outreach
 - **Guest posting**: Contribute to relevant publications; earn links
 - **Journalist requests**: Respond to #JournoRequest; provide quotes/assets
-- **Digital PR**: PR campaigns for backlinks and E-E-A-T
-- **E-E-A-T**: Experience, Expertise, Authoritativeness, Trustworthiness
+- **Digital PR**: PR campaigns for backlinks and E-E-A-T — see **eeat-signals**
 
 ## Initial Assessment
 
@@ -68,6 +67,7 @@ Identify:
 
 ## Related Skills
 
+- **seo-strategy**: SEO workflow; link building is Off-Page phase
 - **backlink-analysis**: Analyze current backlink profile
 - **content-strategy**: Content strategy supports link building
 - **keyword-research**: Target keywords inform link targets
@@ -75,3 +75,4 @@ Identify:
 - **parasite-seo**: Parasite SEO; high-authority platforms for backlinks
 - **github-seo**: GitHub repos, gists, awesome lists for backlinks
 - **directory-submission**: Directory and curated list submission--preparation, platform-specific copy, Taaft/Product Hunt/G2; use when user wants to submit product to directories or get listed on best-of roundups
+- **eeat-signals**: E-E-A-T implementation; Digital PR supports authority

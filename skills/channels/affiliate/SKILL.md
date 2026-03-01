@@ -83,7 +83,7 @@ Expect a small fraction of partners to drive most sales—quality over vanity me
 | Risk | Prevention |
 |------|------------|
 | **Affiliate fraud** | Fake clicks, self-referrals, fake conversions. Use platform fraud tools; vet affiliates; avoid auto-approve. |
-| **Brand bidding** | Affiliates bid on your brand terms in Google Ads; you pay commission for traffic you already own. Prohibit in terms; monitor paid search; use brand monitoring tools. |
+| **Brand bidding** | Affiliates bid on your brand terms in Google Ads; you pay commission for traffic you already own. Prohibit in terms; monitor paid search; use brand monitoring tools. See **paid-ads-strategy** for paid ads context. |
 | **Program terms** | Cookie length, performance bonus, sub-affiliate rules, payment threshold—set clearly in terms before launch. |
 
 ## Best Practices
@@ -104,6 +104,7 @@ Expect a small fraction of partners to drive most sales—quality over vanity me
 
 ## Related Skills
 
+- **paid-ads-strategy**: Paid ads context; brand bidding monitoring; when affiliates bid on brand terms
 - **discount-marketing-strategy**: Affiliate-specific promo codes; coupon sites; code strategy
 - **affiliate-page-generator**: Landing page for affiliate signup; apply landing-page-generator principles
 - **landing-page-generator**: Generic landing page structure, CTA, conversion; applies to affiliate signup pages

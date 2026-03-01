@@ -14,7 +14,7 @@ Guides internal linking strategy for SEO: crawlability, link equity distribution
 ## Scope (On-Page SEO)
 
 - **Internal links**: Contextual links; descriptive anchor text; related posts; hub pages
-- **Breadcrumbs**: Implement for large sites (e.g. ecommerce); see breadcrumb-generator
+- **Breadcrumbs**: Implement for large sites (e.g. ecommerce); see **breadcrumb-generator**
 
 ## Initial Assessment
 

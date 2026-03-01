@@ -100,7 +100,7 @@ When traffic was sent from known sources, analytics often misattributed:
 | **Brand sites** | Diversified traffic is common for strong brands |
 | **Engagement** | Content, email, social, free tools drive return visits |
 
-See seo-monitoring for full SEO data analysis framework.
+See **seo-monitoring** for full SEO data analysis framework.
 
 ## Natural Traffic Benchmark
 

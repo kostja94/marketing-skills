@@ -17,7 +17,7 @@ Guides optimization of meta tags beyond title, description, Open Graph, and Twit
 - **Meta robots**: index/noindex, follow/nofollow (page-level)
 - **Viewport**: Mobile responsiveness
 - **Charset**: Character encoding
-- **Metadata completeness**: All pages have title + meta description (see title-tag, meta-description)
+- **Metadata completeness**: All pages have title + meta description (see **title-tag**, **meta-description**)
 
 ## Initial Assessment
 

@@ -82,7 +82,7 @@ Identify:
 
 ### Alignment with Traffic
 
-- **Ads**: If from PPC, ensure message matches ad (offer, platform)
+- **Ads**: If from PPC, ensure message matches ad (offer, platform); see **paid-ads-strategy**
 - **Email**: Match campaign message and CTA
 
 ## Output Format

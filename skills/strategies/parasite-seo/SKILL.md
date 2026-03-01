@@ -48,8 +48,8 @@ Instead of waiting months for your own domain to gain trust, you publish on esta
 | **Reddit** | Product reviews, alternatives, discussions | Comprehensive guides; upvoted threads rank well |
 | **Quora** | Q&A, long-tail informational | Answer industry questions; link to resources naturally |
 | **YouTube** | Video search, how-to, reviews | Titles, descriptions, tags; watch time matters |
-| **GitHub** | Repos, README, Pages, gists, awesome lists | Tier 2 technical authority; very high AI citation; see github-seo |
-| **Grokipedia** | AI encyclopedia | See grokipedia-recommendations for contribution flow |
+| **GitHub** | Repos, README, Pages, gists, awesome lists | Tier 2 technical authority; very high AI citation; see **github-seo** |
+| **Grokipedia** | AI encyclopedia | See **grokipedia-recommendations** for contribution flow |
 | **Free web builders** | WordPress.com, Wix | Indexable content; lower authority than above |
 
 ## Keyword & Content Strategy

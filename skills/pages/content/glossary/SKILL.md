@@ -49,7 +49,7 @@ Identify:
 
 ### SEO Benefits
 
-- **Topic clusters**: Glossary as hub; links to and from pillar content; see content-strategy
+- **Topic clusters**: Glossary as hub; links to and from pillar content; see **content-strategy**
 - **Long-tail**: Definition queries, "what is X"
 - **Crawlability**: Reduces depth; distributes authority
 - **User engagement**: Helps users understand; keeps them on site

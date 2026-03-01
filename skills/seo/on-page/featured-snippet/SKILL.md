@@ -83,7 +83,7 @@ Guides optimization for Featured Snippets (Position Zero)—direct answers displ
 
 - **Foundation**: Core algorithm ranks blue links; Q&A/Featured Snippet is a modular layer on top—same ranking foundation
 - **Process**: 1) Take top blue link results; 2) Extract or create summary; 3) Identify implicit question each document answers; 4) Match user's question to best implicit question; 5) Feature that answer
-- **E-A-T**: Snippets are E-A-T–based (Bing: "Relevancy" = accuracy/expertise). Correctness first—conforms to accepted opinion, document quality. Then authority and trust (document, author, publisher)
+- **E-A-T**: Snippets are E-A-T–based (Bing: "Relevancy" = accuracy/expertise). Correctness first—conforms to accepted opinion, document quality. Then authority and trust (document, author, publisher). See **eeat-signals** for E-E-A-T implementation.
 - **Meta descriptions**: Do not affect ranking; engines generate descriptions on the fly. Over-optimized or missing meta descriptions lead engines to extract their own—structure helps them choose well. [SEJ](https://www.searchenginejournal.com/how-bing-q-and-a-featured-snippet-algorithm-works/362716/)
 
 ## GEO / AI Overviews
@@ -122,6 +122,7 @@ Guides optimization for Featured Snippets (Position Zero)—direct answers displ
 - **schema-markup**: FAQPage, HowTo for rich results
 - **heading-structure**: H2–H3 hierarchy
 - **generative-engine-optimization**: AI citation; GEO strategy
+- **eeat-signals**: E-E-A-T implementation; authority, trust, author
 
 ## References
 

@@ -88,7 +88,7 @@ Guides programmatic SEO—creating large numbers of SEO-optimized pages automati
 |-------|----------|
 | **Selective indexation** | Don't index all pages; use noindex rules for low-value pages |
 | **Sitemap segmentation** | By country, language, division; manage crawl budget |
-| **URL structure** | Descriptive URLs; clean hierarchy; see url-structure |
+| **URL structure** | Descriptive URLs; clean hierarchy; see **url-structure** |
 | **Schema** | JSON-LD: Product, Place, FAQ, ItemList per page type |
 | **Performance** | Caching, static generation; Core Web Vitals |
 

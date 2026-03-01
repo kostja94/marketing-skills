@@ -85,6 +85,8 @@ Example: For marketing managers at SMBs who need to run SEO audits without hirin
 
 ## 8. Brand & Voice
 
+Voice and tone for copy across touchpoints. See **branding** for full brand strategy (purpose, values, storytelling, archetypes).
+
 - **Voice**: [e.g. Professional / Friendly / Technical / Bold]
 - **Tone**: [e.g. Confident but not arrogant, helpful, concise]
 - **Avoid**: [Buzzwords to never use — e.g. "streamline", "revolutionize", "synergy"]
@@ -109,7 +111,7 @@ Example: For marketing managers at SMBs who need to run SEO audits without hirin
 
 ## 11. Content / Blog / Article Strategy
 
-Articles must connect to the product and be keyword-driven. Use this section so the agent can create or optimize content that supports conversion.
+Articles must connect to the product and be keyword-driven. Use this section so the agent can create or optimize content that supports conversion. See **content-marketing-strategy** for content types, formats, and repurposing across channels.
 
 **Optimization foundation** (pages-article): **Product** + **Keywords** + **Article intent** + **Competitor articles** — these four inputs drive tailored analysis and recommendations.
 
@@ -170,9 +172,9 @@ Use when components-brand-visual, components-logo, or pages-media-kit need visua
 | 5 | Technical SEO, sitemap, crawlability; directory submission (URL) |
 | 6 | On-page SEO, metadata, keyword research; directory tags, Primary Task |
 | 7 | Competitive positioning, content strategy |
-| 8 | Copy, tone, testimonials, CTAs; directory descriptions |
+| 8 | Copy, tone, testimonials, CTAs; directory descriptions; see **branding** for brand strategy |
 | 9-10 | Features, API docs, content strategy; directory features, pros/cons |
-| 11 | Article creation, optimization; competitor analysis; product-linked content |
+| 11 | Article creation, optimization; competitor analysis; product-linked content; see **content-marketing-strategy** for full content plan |
 | 12 | Logo, favicon, brand visual, media kit; typography, colors, spacing |
 
 **Cold start** (cold-start-strategy): For first users, Product Hunt, AppSumo, directories, etc. — agent plans multi-channel launch and generates platform-specific content. Fill 1–4, 5, 6, 8, 9 for best results.

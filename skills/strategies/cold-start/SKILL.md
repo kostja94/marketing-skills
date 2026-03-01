@@ -25,12 +25,12 @@ Identify:
 
 | Channel | Audience | Use | Notes |
 |---------|----------|-----|-------|
-| **Product Hunt** | Indie makers, early adopters | Launch-day buzz; community upvotes | ~3% conversion; traffic spike; see directory-submission |
+| **Product Hunt** | Indie makers, early adopters | Launch-day buzz; community upvotes | ~3% conversion; traffic spike; see **directory-submission** |
 | **AppSumo / LTD** | Deal seekers, early adopters | Lifetime deal for fast revenue, validation | Quick cash; price-sensitive users; see **discount-marketing-strategy** for LTD structure, trade-offs |
 | **Reddit** | Subreddit-specific | r/AlphaAndBetaUsers, r/roastmystartup, r/devops, r/SaaS | 80/20 rule; 5+ months for traction; lead with story |
 | **Indie Hackers** | Indie makers, founders | Sustained engagement; authentic journey | ~23% conversion; 4–6 months; not one-time launch |
 | **Hacker News** | Tech, startups | Show HN launch | Luck + timing; front page = traffic spike |
-| **Directory submission** | AI tools, product launch | Taaft, G2, niche directories | Validate PMF; seed users; see directory-submission |
+| **Directory submission** | AI tools, product launch | Taaft, G2, niche directories | Validate PMF; seed users; see **directory-submission** |
 | **Founder-led outbound** | B2B, high ACV | Cold email, LinkedIn; 10–15 personalized outreaches/day | Pre-$5K MRR; only reliable path when ACV >$500/mo |
 | **Community engagement** | Target users | Forums, LinkedIn groups, Discord | 45–90 days; contribute value first |
 
@@ -53,12 +53,12 @@ Coordinated launch across channels yields 5–6× more users than single-channel
 - **Validate demand**: 10–15 target user conversations; 20–30 before launch
 - **Waitlist**: 8–12 weeks before launch; target 200–1,000 signups
 - **Landing page**: Ready; screenshots, description, media kit
-- **Avoid**: Perfectionism; paid ads before PMF validation
+- **Avoid**: Perfectionism; paid ads before PMF validation—see **paid-ads-strategy**
 
 ## What Doesn't Work Early
 
 - Hiring SDRs before founder has closed 10 customers
-- Paid ads before product-market fit
+- Paid ads before product-market fit—see **paid-ads-strategy**
 - Sporadic execution; "spray and pray" targeting
 - Mass submission to low-quality directories
 
@@ -71,6 +71,7 @@ Coordinated launch across channels yields 5–6× more users than single-channel
 
 ## Related Skills
 
+- **paid-ads-strategy**: When NOT to use paid ads (pre-PMF); when to add paid after cold start
 - **discount-marketing-strategy**: LTD structure, pricing, trade-offs; cold start uses LTD as channel
 - **directory-submission**: Product Hunt, Taaft, G2—directory listings as cold-start channel
 - **community-forum**: Indie Hackers, HN, Reddit—forum/community as cold-start channel

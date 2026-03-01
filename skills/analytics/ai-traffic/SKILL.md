@@ -68,7 +68,7 @@ chatgpt\.com|openai\.com|openai|perplexity\.ai|perplexity|doubao\.com|chat\.qwen
 ## Google AI Overviews
 
 - **GA4 + URL fragment**: Some AI Overview clicks add URL fragments; can use GTM (partial coverage)
-- **GSC**: For AI Overviews analysis in GSC (filter, limitations), see google-search-console
+- **GSC**: For AI Overviews analysis in GSC (filter, limitations), see **google-search-console**
 
 ## Checklist
 
@@ -77,7 +77,7 @@ chatgpt\.com|openai\.com|openai|perplexity\.ai|perplexity|doubao\.com|chat\.qwen
 - [ ] Channel group updated with AI above Referral (if used)
 - [ ] Custom report added to Library (optional)
 - [ ] GTM + URL fragment for AI Overviews (optional)
-- [ ] GSC AI-oriented query filter (optional; see google-search-console)
+- [ ] GSC AI-oriented query filter (optional; see **google-search-console**)
 
 ## Output Format
 

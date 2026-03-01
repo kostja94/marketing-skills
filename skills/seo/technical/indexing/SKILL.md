@@ -7,7 +7,7 @@ metadata:
 
 # SEO Technical: Indexing
 
-Guides indexing troubleshooting and fix actions. For how to find and diagnose issues in GSC, see google-search-console.
+Guides indexing troubleshooting and fix actions. For how to find and diagnose issues in GSC, see **google-search-console**.
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -20,7 +20,7 @@ Guides indexing troubleshooting and fix actions. For how to find and diagnose is
 
 **Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for site URL and indexing goals.
 
-Identify issue from GSC (see google-search-console for Coverage report, issue types, diagnosis workflow). Then apply fix below.
+Identify issue from GSC (see **google-search-console** for Coverage report, issue types, diagnosis workflow). Then apply fix below.
 
 ## Crawled - Currently Not Indexed
 
@@ -57,7 +57,7 @@ Static assets in "Crawled - currently not indexed" is **normal and expected**.
 - **How**: `metadata.robots = { index: false }` or X-Robots-Tag
 - **Rationale**: Not all site content should be indexed; noindex is a valid choice for many pages
 - **Caution**: Avoid noindex on important content pages
-- **With robots.txt**: robots.txt controls crawl access; noindex controls indexing. Use both: robots for paths (e.g. /admin/), noindex for specific pages. See robots-txt
+- **With robots.txt**: robots.txt controls crawl access; noindex controls indexing. Use both: robots for paths (e.g. /admin/), noindex for specific pages. See **robots-txt**
 
 ## Google Indexing API
 

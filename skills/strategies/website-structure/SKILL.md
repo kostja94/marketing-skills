@@ -98,6 +98,7 @@ Common modules to combine: Headline, Subheadline, Primary CTA, Supporting Image/
 
 ## Related Skills
 
+- **seo-strategy**: SEO workflow order, prioritization; structure planning fits before Technical phase
 - **page-taxonomy**: Full page types, website-type matrix, core vs extended; use for page selection
 - **url-structure**: URL optimization, hierarchy, slugs; apply after structure is defined
 - **site-crawlability**: Crawlability, orphan pages, redirects; audit existing structure

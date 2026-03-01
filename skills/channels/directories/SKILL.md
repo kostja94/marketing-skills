@@ -49,7 +49,7 @@ Directory submission is a core channel for cold start—see **cold-start-strateg
 | 4. Target Audience | Description tone, use cases |
 | 5. Existing Website | URL, key pages |
 | 6. Keywords | Tags, negative keywords, Primary Task |
-| 8. Brand & Voice | Tone, avoid terms, preferred wording |
+| 8. Brand & Voice | Tone, avoid terms, preferred wording — see **branding** for full brand strategy |
 | 9. Product Documentation | Features, capabilities -> Other features |
 
 **When context exists**: Generate ready-to-paste submission copy (tagline, short/long description, pros/cons, tags) tailored per platform. Output copy the user can paste into Taaft, Product Hunt, etc.
@@ -199,7 +199,7 @@ Directories typically offer multiple touchpoints--not just inclusion in the cata
 | Type | Examples | How to get listed |
 |------|----------|-------------------|
 | **Best-of / Top N** | "Best SEO tools," "Top 10 AI writing tools" | Outreach to list authors; provide product info, use case, differentiator |
-| **Awesome lists** | GitHub Awesome-*, Awesome Tools | Submit PR or contact maintainer; follow list format. See github-seo for creating or optimizing awesome-style curated lists. |
+| **Awesome lists** | GitHub Awesome-*, Awesome Tools | Submit PR or contact maintainer; follow list format. See **github-seo** for creating or optimizing awesome-style curated lists. |
 | **Comparison / alternatives** | AlternativeTo, G2 alternatives | Submit as alternative to X; comparison-focused copy |
 | **Niche roundups** | Industry blogs, newsletters | Pitch for inclusion; offer quote, case study, or exclusive angle |
 
@@ -301,7 +301,7 @@ Before submitting to any directory:
 - [ ] **Logo / icon** per platform specs
 - [ ] **Category** selected correctly per directory taxonomy
 - [ ] **URL** correct and working
-- [ ] **Media kit** (for Product Hunt, press outreach) --see media-kit-page-generator
+- [ ] **Media kit** (for Product Hunt, press outreach) —see **media-kit-page-generator**
 - [ ] **Platform-specific copy** drafted (do not reuse identical text across directories)
 - [ ] **Taaft** (if applicable): Full field set--icon, main image, demo video, Primary/Secondary Tasks, features, models, built-with, modalities, pricing, legal URLs, pros/cons, socials, tracking links
 
@@ -314,7 +314,7 @@ Before submitting to any directory:
 | **Prioritize quality** | Rejected or low-quality listings waste effort |
 | **Match category** | Wrong category = poor visibility |
 | **Unique descriptions** | Avoid duplicate content; improves approval and conversion |
-| **Track with UTM** | analytics-tracking for attribution |
+| **Track with UTM** | **analytics-tracking** for attribution |
 | **Batch submissions** | Prepare once, adapt copy per platform, submit to multiple directories |
 | **Update listings** | Keep descriptions and screenshots current |
 | **Submit small directories too** | Major directories get crawled by smaller ones; but small directories can still drive high-value conversions (e.g., three-figure annual subscription from one 10-min submission) |
@@ -325,7 +325,7 @@ Before submitting to any directory:
 
 ### Required Output Structure (in order)
 
-1. **Introduction** --What directory submission is: Taaft, Product Hunt, G2, curated lists, app stores; listings, ads, newsletter features, campaigns. Part of cold-start strategy—see cold-start-strategy for full launch plan.
+1. **Introduction** --What directory submission is: Taaft, Product Hunt, G2, curated lists, app stores; listings, ads, newsletter features, campaigns. Part of cold-start strategy—see **cold-start-strategy** for full launch plan.
 
 2. **Importance** --Why directory submission matters: backlinks and domain authority; referral traffic and conversion (~42% report increased traffic); social proof for brand search (directory listings dominate SERP); third-party presence signals legitimacy.
 
@@ -366,8 +366,9 @@ Before submitting to any directory:
 
 ## Related Skills
 
+- **branding**: Brand strategy, voice, tone; Section 8 Brand & Voice in product-marketing-context
 - **media-kit-page-generator**: Press kit, screenshots, assets for launch; required for Product Hunt and directory submissions
-- **link-building**: Directory and curated list backlinks contribute to link profile; this skill handles the submission workflow--see link-building for broader outreach, guest posting, broken link building
+- **link-building**: Directory and curated list backlinks contribute to link profile; this skill handles the submission workflow—see **link-building** for broader outreach, guest posting, broken link building
 - **github-seo**: GitHub awesome lists as curated lists; create or submit to awesome-* repos
 - **grokipedia-recommendations**: Same output pattern--platform context first (Introduction, Importance, Methods, Rules, Avoid), then Action; high-authority placement for GEO; directories for human discovery--complementary
 - **generative-engine-optimization**: GEO strategy; varied directory copy improves AI citation diversity; directory submission complements AI search visibility

@@ -28,7 +28,7 @@ Identify:
 | **Hacker News** | Tech, startups | Show HN launch; ~1,300 posts/day; front page = luck + timing |
 | **Hackernoon** | Dev, tech readers | Content distribution |
 | **Industry forums** | Niche verticals | Discount codes, leads; search "[industry] forum"; see **discount-marketing-strategy** for code strategy |
-| **Reddit** | Subreddit-specific | See reddit-posts; 90/10 rule; 29+ posts for traction |
+| **Reddit** | Subreddit-specific | See **reddit-posts**; 90/10 rule; 29+ posts for traction |
 
 ## Hacker News Launch
 
@@ -89,7 +89,7 @@ Identify:
 | **Wikipedia** | Global; neutral, cited content; brand credibility |
 | **Quora** | Q&A; brand discussion, thought leadership, long-term SEO |
 | **Stack Overflow** | Tech/dev; expertise signals, backlinks |
-| **Regional** | Baidu Baike, Sogou (China); see localization-strategy |
+| **Regional** | Baidu Baike, Sogou (China); see **localization-strategy** |
 
 **Wikipedia**: Neutral language, credible references, no promotional content. Regional encyclopedias (e.g. Baidu Baike in China) require verified credentials; prioritize local search share. Free and sustainable; supports long-term conversion while search habits persist.
 

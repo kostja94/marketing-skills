@@ -7,7 +7,7 @@ metadata:
 
 # SEO Content: Content Strategy
 
-Guides content strategy for SEO: topic clusters, pillar pages, cluster articles, and editorial planning.
+Guides content strategy for SEO: topic clusters, pillar pages, cluster articles, and editorial planning. For content marketing across all channels (blog, email, social, video), see **content-marketing-strategy**.
 
 **When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -21,18 +21,7 @@ Identify:
 3. **Resources**: Content capacity, tools
 4. **Goals**: Traffic, conversions, authority
 
-## On-Page SEO Essence
-
-SEO leverages content you already have—brand, features, scenarios, input, output, prompt, processes, knowledge, etc., published in a structured way. Even without SEO, you'd showcase product features; SEO makes that content benefit you in traffic. **Product-Led SEO**: Do SEO around product/users, not around industry/search engines.
-
-### Products Suited for SEO
-
-| Type | Suited because |
-|------|-----------------|
-| **Tool** | Users have clear use cases and needs |
-| **Content** | Users have clear information needs |
-| **E-commerce** | Users have clear purchase needs |
-| **Service** | Users have clear service needs |
+**Product-Led SEO**: Do SEO around product/users, not around industry/search engines. See **seo-strategy** for Product-Led SEO principle, products suited for SEO, and workflow order.
 
 ## Topic Clusters
 
@@ -135,6 +124,8 @@ Cluster 6-12 (subtopics)
 
 ## Related Skills
 
+- **content-marketing-strategy**: Content types, formats, channels, repurposing; SEO content is one channel
+- **seo-strategy**: SEO workflow order, Product-Led SEO, audit approach; use when planning SEO from scratch
 - **website-structure**: Plan which pages to build; structure informs content clusters and pillar placement
 - **keyword-research**: Keywords drive content plan
 - **programmatic-seo**: Programmatic SEO for scaling pages with template + data; complements topic clusters

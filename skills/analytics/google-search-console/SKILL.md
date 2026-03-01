@@ -102,7 +102,7 @@ Google may rewrite titles if they mismatch content or intent. H1 should align wi
 
 #### Rich Results & CTR
 
-Pages with review stars, FAQ schema, or other rich snippets see 10-20% more clicks. See schema-markup.
+Pages with review stars, FAQ schema, or other rich snippets see 10-20% more clicks. See **schema-markup**.
 
 ### 2. Insights Report
 
@@ -161,7 +161,7 @@ Simplified overview; replaces standalone Search Console Insights. Data from GSC 
 |-------|---------|-----------|
 | Crawled - currently not indexed | Crawled but not indexed | See indexing |
 | Excluded by "noindex" tag | Intentionally excluded; often valid (login, admin, legal, etc.) | Ignore if expected; verify important pages not accidentally noindexed |
-| Blocked by robots.txt | Crawl blocked | See robots-txt; may be intentional |
+| Blocked by robots.txt | Crawl blocked | See **robots-txt**; may be intentional |
 | Redirect / 404 | Redirect or missing | Fix URL or redirect |
 | Duplicate / Canonical | Duplicate content | Usually OK; keep canonical |
 
@@ -235,14 +235,14 @@ Enterprise: Glitches can block new URL crawling, cause hreflang confusion, delay
 (?i)^(who|what|where|when|why|how|which|is|are|can|does|should)|\b(vs|versus|compare|difference|pros and cons|guide|tutorial|best|top|list)\b
 ```
 
-For GA4 AI traffic tracking, see ai-traffic-tracking.
+For GA4 AI traffic tracking, see **ai-traffic-tracking**.
 
 ### 9. Links & Disavow
 
 **Location**: Links (inbound links), Security & Manual Actions
 
 - **Links report**: View links to site and pages; anchor text distribution.
-- **Disavow file**: Submit via GSC when necessary (manual penalty, toxic links). Use sparingly; over-disavowing can harm. See backlink-analysis for when to disavow.
+- **Disavow file**: Submit via GSC when necessary (manual penalty, toxic links). Use sparingly; over-disavowing can harm. See **backlink-analysis** for when to disavow.
 
 ## Search Console API
 
@@ -279,7 +279,7 @@ date, query, page, country, device. Search appearance (AMP, blue link, rich resu
 - [ ] Sitemaps: All "Success"; indexed URL counts stable
 - [ ] Core Web Vitals: Mobile good/needs improvement/poor
 - [ ] Enhancements: No new invalid items (critical issues)
-- [ ] Links: No manual actions; disavow only if needed (see backlink-analysis)
+- [ ] Links: No manual actions; disavow only if needed (see **backlink-analysis**)
 - [ ] Data exported to spreadsheet (month-end snapshot)
 - [ ] Charts screenshotted for history
 - [ ] Release notes reviewed for correlation

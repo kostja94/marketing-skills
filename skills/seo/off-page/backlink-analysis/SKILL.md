@@ -56,11 +56,12 @@ Identify:
 - Compare backlink profile to competitors
 - Identify link gaps (sites linking to competitors but not you)
 - Find link opportunities from competitor backlinks
+- See **competitor-research** for full methodology
 
 ## Disavow File
 
 - Use only when necessary (manual penalty, toxic links)
-- Submit via Google Search Console (see google-search-console for Links report and disavow submission)
+- Submit via Google Search Console (see **google-search-console** for Links report and disavow submission)
 - **Caution**: Over-disavowing can harm; use sparingly
 - **References**: [Google Disavow](https://developers.google.com/search/docs/crawling-indexing/block-indexing#disavow-links)
 
@@ -77,3 +78,4 @@ Identify:
 - **google-search-console**: Links report, disavow file submission
 - **seo-monitoring**: Backlink metrics in full SEO monitoring; quality vs quantity, referral ROI
 - **link-building**: Use analysis to plan link building
+- **competitor-research**: Competitor backlink analysis; link gap methodology

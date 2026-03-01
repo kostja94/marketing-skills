@@ -8,14 +8,36 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Changed
 
+- **about-page-generator** — Brand story, mission, values now reference branding.
+- **homepage-generator** — Value prop, differentiation now reference branding.
+- **logo-generator** — Brand guidelines source now references branding.
+- **brand-visual-generator** — Visual identity strategy now references branding.
+- **directory-submission** — Section 8 Brand & Voice now references branding.
+- **product-marketing-context** — Section 8 and Quick Reference now reference branding.
+- **content-strategy** — Now references content-marketing-strategy for cross-channel content planning.
+- **integrated-marketing** — Content marketing now references content-marketing-strategy.
+- **email-marketing** — Now references content-marketing-strategy for content types and formats.
+- **article-page-generator** — Now references content-marketing-strategy; E-E-A-T and competitor analysis reference eeat-signals and competitor-research.
+- **product-marketing-context** — Section 11 now references content-marketing-strategy.
+- **link-building** — E-E-A-T now references eeat-signals.
+- **content-optimization** — Competitors and E-E-A-T now reference competitor-research and eeat-signals.
+- **keyword-research** — Competitor reverse now references competitor-research.
+- **backlink-analysis** — Competitive comparison now references competitor-research.
+- **featured-snippet** — E-A-T now references eeat-signals.
 - **docs/** — SKILLS_GUIDE.md and CHANGELOG.md moved from root to docs/; all references updated.
 - **alternatives-page-generator** — Content format: standalone page or blog listicle; quick verdict, comparison table, pros/cons; article-page-generator reference.
-- **landing-page-generator** — Primary use for paid ads (PPC/SEM); ad-to-page alignment, post-click experience, Quality Score, mobile-first.
+- **landing-page-generator** — Primary use for paid ads (PPC/SEM); LP requirements condensed; ad-to-page alignment moved to paid-ads-strategy.
 - **page-taxonomy** — Added Alternatives, Integrations, Migration, Showcase, Contest, Startups (Marketing); Feedback, Disclosure (Utility).
 - **website-structure** — Growth mapping updated with new page skills.
 
 ### Added
 
+- **branding** — Brand strategy: purpose, values, positioning, storytelling (origin story, hero's journey, archetypes), voice & tone, visual identity strategy; consolidated from about, homepage, directories, product-marketing-context; logo and brand-visual remain as implementation components.
+- **content-marketing-strategy** — Content types, formats, channels, repurposing matrix; funnel mapping; blog, email, social, video; consolidated from content-strategy, integrated-marketing, email-marketing, article; content-strategy remains SEO-focused.
+- **eeat-signals** — E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness); author bio, citations, references, YMYL, AI content; consolidated from article, link-building, featured-snippet, content-optimization.
+- **competitor-research** — Competitor analysis for SEO, content, backlinks, pricing; keyword/topic reverse, content gaps, link gap; consolidated from article, keyword-research, content-strategy, backlink-analysis, alternatives, migration, pricing-strategy, seo-monitoring.
+- **seo-strategy** — SEO workflow order (Technical → On-Page → Content → Off-Page), Product-Led SEO, audit approach, prioritization; migrated Product-Led SEO and Products Suited for SEO from content-strategy.
+- **paid-ads-strategy** — Paid ads (Google, Meta, LinkedIn); when to use/not use; ROAS; ad-to-page alignment; channel selection; migrated from cold-start (when NOT to use), landing-page (ad-to-page principles).
 - **discount-marketing-strategy** — Discount structures (annual, volume, first-time, LTD); LTD/AppSumo; redeem code/coupon; BFCM; migrated from cold-start (LTD), referral, top-banner, contest, community-forum, affiliate.
 - **pricing-strategy** — Pricing model, tier design, anchoring; base price structure; cross-references discount-marketing-strategy.
 - **alternatives-page-generator** — Alternatives/comparison pages; "X alternatives," "X vs Y"; high SEO for SaaS.

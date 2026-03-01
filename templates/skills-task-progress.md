@@ -21,7 +21,7 @@
 | **P2** | Medium — important but not urgent |
 | **P3** | Low — nice to have |
 
-**Workflow order**: Technical SEO → On-Page → Content → Off-Page. Fix foundation before optimizing pages.
+**Workflow order**: Technical SEO → On-Page → Content → Off-Page. Fix foundation before optimizing pages. See **seo-strategy** for full workflow, prioritization, and Product-Led SEO.
 
 ---
 

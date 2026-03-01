@@ -64,7 +64,7 @@ Guides building a holistic SEO data analysis system. Covers four core metrics (i
 2. Record baseline (e.g., monthly total)
 3. Compare periodically to detect growth or decline
 
-**Tip**: Add CTA events on key articles to track content ROI (see analytics-tracking).
+**Tip**: Add CTA events on key articles to track content ROI (see **analytics-tracking**).
 
 ## Article Database
 

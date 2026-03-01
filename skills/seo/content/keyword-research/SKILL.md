@@ -29,7 +29,7 @@ Identify:
 |--------|---------|
 | **User perspective** | What pain points? What would they search? Customer language from product context |
 | **Tool expansion** | Related keywords, questions, suggestions; Google autocomplete, PAA, Related Searches |
-| **Competitor reverse** | Analyze competitor titles, H1, URL; identify topics they rank for; find gaps (#4–10 = opportunity) |
+| **Competitor reverse** | Analyze competitor titles, H1, URL; identify topics they rank for; find gaps (#4–10 = opportunity) — see **competitor-research** |
 | **Google PAA** | People Also Ask and Related Searches; high-value signals from real user behavior |
 
 ### Incremental Discovery
@@ -115,6 +115,7 @@ Test if positioning is clear enough for search:
 
 ## Related Skills
 
+- **seo-strategy**: SEO workflow, Product-Led SEO, audit approach; keyword research is Content phase
 - **content-strategy**: Keywords inform content plan; topic clusters
 - **content-optimization**: Keyword placement, density vs stuffing, H2 keywords
 - **title-tag, meta-description**: Keywords in title, description
@@ -122,3 +123,4 @@ Test if positioning is clear enough for search:
 - **link-building**: Keywords inform link targets
 - **serp-features**: SERP features in keyword screening; PAA, Featured Snippet
 - **featured-snippet**: Snippet-worthy query targeting
+- **competitor-research**: Competitor keyword/topic analysis; reverse engineering

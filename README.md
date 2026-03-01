@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-104 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 39 page types, channels, platforms, strategies, components, and analytics. Works with Lovable, ChatGPT, Gemini, and any AI that reads markdown ([Using Beyond Cursor](docs/using-beyond-cursor.md)).
+109 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 39 page types, channels, platforms, strategies, components, and analytics. Works with Lovable, ChatGPT, Gemini, and any AI that reads markdown ([Using Beyond Cursor](docs/using-beyond-cursor.md)).
 
 **By [kostja](https://github.com/kostja94)** · I add new skills daily · [SKILLS_GUIDE](docs/SKILLS_GUIDE.md) · [CHANGELOG](docs/CHANGELOG.md) · zyjstc@gmail.com
 
@@ -109,6 +109,8 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 
 | You say | Skill |
 |---------|-------|
+| "SEO strategy" / "SEO plan" / "Where to start SEO" / "SEO audit" | seo-strategy |
+| "Paid ads" / "PPC" / "Google Ads" / "ad budget" / "ROAS" | paid-ads-strategy |
 | "Configure robots.txt" / "Audit sitemap" / "Fix canonical URLs" | robots-txt, xml-sitemap, canonical-tag |
 | "Optimize title tag" / "Meta description" / "Open Graph" / "Twitter Cards" / "Add schema markup" / "Fix heading structure" | title-tag, meta-description, open-graph, twitter-cards, schema-markup, heading-structure |
 | "Keyword research" / "Content strategy" / "Link building" | keyword-research, content-strategy, link-building |
@@ -123,7 +125,7 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 
 **Workflow order**: Technical → On-Page → Content → Off-Page. Page skills apply SEO when optimizing specific page types. See each skill's **Related Skills** for the dependency map.
 
-**[Full dependency maps →](docs/skills-relationships.md)** — 5 ASCII trees: SEO Foundation | SERP & Rich Results | Pages | Growth (Channels/Platforms/Strategies) | Components & Analytics
+**[Full dependency maps →](docs/skills-relationships.md)** — 5 ASCII trees: SEO Foundation | SERP & Rich Results | Pages | Growth (Channels/Platforms/Strategies) | Components & Analytics. **seo-strategy** orchestrates the SEO workflow.
 
 ```
 ┌──────────────────────────────────────────┐
@@ -170,7 +172,7 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 | **Components** (11) | nav, breadcrumb, footer, hero, toc, logo, trust-badges, testimonials, cta, newsletter-signup, url-slug |
 | **Channels** (8) | affiliate, email-marketing, egc, influencer, referral, creator-program, community-forum, directories |
 | **Platforms** (6) | x, reddit, linkedin, tiktok, github, grokipedia |
-| **Strategies** (7) | website-structure, cold-start, geo, integrated-marketing, localization, parasite-seo, programmatic-seo |
+| **Strategies** (9) | seo-strategy, paid-ads-strategy, website-structure, cold-start, geo, integrated-marketing, localization, parasite-seo, programmatic-seo |
 | **Analytics** (5) | traffic, tracking, seo-monitoring, ai-traffic, google-search-console |
 
 ## Contributing

@@ -68,6 +68,8 @@ When selecting channels, evaluate across:
 | **Loyalty** | Email campaigns, promotions, personalized offers | Retention |
 | **Brand awareness** | Content marketing, influencer partnerships, PR | Reach |
 
+**Content marketing**: See **content-marketing-strategy** for content types, formats, repurposing across channels.
+
 ## IMC Best Practices
 
 - **Message consistency**: Same core message across channels; adapt for each medium
@@ -89,10 +91,13 @@ When selecting channels, evaluate across:
 - **cold-start-strategy**: Cold start for early-stage; first users, launch channels
 - **discount-marketing-strategy**: Promotional pricing; LTV (discount) in channel testing
 - **pricing-strategy**: Base price structure; pricing-strategy + discount-marketing = full pricing approach
+- **seo-strategy**: SEO workflow, prioritization; SEO as owned/organic channel
+- **paid-ads-strategy**: Paid ads (Google, Meta, LinkedIn); when to use; ROAS; PESO Paid channel
 - **parasite-seo, programmatic-seo**: Parasite SEO (high-authority platforms), programmatic SEO (pages at scale)
 - **affiliate-marketing, community-forum, creator-program, directory-submission, employee-generated-content, email-marketing, influencer-marketing, referral-program**: Specific channel tactics
 - **generative-engine-optimization**: GEO as channel for AI search visibility
 - **ai-traffic-tracking**: Track AI channel traffic in GA4; measure GEO impact
 - **traffic-analysis**: Attribution, UTM, multi-channel reporting
 - **analytics-tracking**: GA4, event tracking across channels
-- **content-strategy**: Content as owned media pillar
+- **content-strategy**: SEO content (topic clusters); owned media pillar
+- **content-marketing-strategy**: Content types, formats, channels, repurposing; full content marketing plan

@@ -13,7 +13,7 @@ Guides visual identity for consistent brand presentation. Companies with consist
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read Section 12 (Visual Identity) for colors, typography, spacing.
+**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read Section 12 (Visual Identity) for colors, typography, spacing. See **branding** for brand strategy and visual identity strategy layer.
 
 Identify:
 1. **Scope**: New brand, audit, or component design
@@ -137,6 +137,7 @@ Ensure consistency across touchpoints. Include:
 
 ## Related Skills
 
+- **branding**: Brand strategy; visual identity strategy; this skill implements typography, colors, spacing
 - **logo-generator**: Logo placement, clear space; brand visual defines logo rules
 - **favicon-generator**: Favicon aligns with brand mark and colors
 - **media-kit-page-generator**: Media kit hosts brand guidelines document; links to logo, favicon

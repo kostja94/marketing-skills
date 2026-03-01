@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-109 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 39 page types, channels, platforms, strategies, components, and analytics. Works with Lovable, ChatGPT, Gemini, and any AI that reads markdown ([Using Beyond Cursor](docs/using-beyond-cursor.md)).
+109 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 39 page types, channels, platforms, strategies, components, and analytics. Works with Lovable, ChatGPT, Gemini, and any AI that reads markdown ([Where to Use](docs/where-to-use-skills.md)).
 
 **By [kostja](https://github.com/kostja94)** · I add new skills daily · [SKILLS_GUIDE](docs/SKILLS_GUIDE.md) · [CHANGELOG](docs/CHANGELOG.md) · zyjstc@gmail.com
 
@@ -11,7 +11,7 @@
 - [What are Skills?](#what-are-skills)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
-- [Using Beyond Cursor](#using-beyond-cursor)
+- [Where to Use Skills](#where-to-use-skills)
 - [Project Context & Linking](#project-context--linking)
 - [Usage](#usage)
 - [How Skills Work Together](#how-skills-work-together)
@@ -66,6 +66,22 @@ cp -r marketing-skills/tools .cursor/
 # For Claude Code: use .claude/ instead of .cursor/
 ```
 
+### Agent Skills Standard — Skill Directories
+
+Skills are loaded from these locations per the [Agent Skills specification](https://agentskills.io/specification) and [Cursor docs](https://cursor.com/docs/context/skills):
+
+| Location | Scope |
+|----------|-------|
+| `.agents/skills/` | Project-level |
+| `.cursor/skills/` | Project-level |
+| `~/.cursor/skills/` | User-level (global) |
+| `.claude/skills/` | Project-level (compatibility) |
+| `.codex/skills/` | Project-level (compatibility) |
+| `~/.claude/skills/` | User-level (compatibility) |
+| `~/.codex/skills/` | User-level (compatibility) |
+
+Each skill is a folder with a `SKILL.md` file. **Platforms with native support**: Cursor, Claude Code, Codex, OpenCode, Gemini CLI, GitHub Copilot, Windsurf, Cline, Base44, Trae. [Full guide →](docs/where-to-use-skills.md)
+
 ### Git Submodule
 
 ```bash
@@ -73,17 +89,18 @@ git submodule add https://github.com/kostja94/marketing-skills.git .cursor/marke
 # Symlink or copy only the skill folders you need into .cursor/skills/
 ```
 
-## Using Beyond Cursor
+## Where to Use Skills
 
 Skills are markdown — they work anywhere an AI can read text. No native skill support required.
 
 | Platform | How |
 |----------|-----|
-| **Lovable, Bolt, v0** | Copy skills to `.lovable/skills/` (or equivalent); adapt context path to `.lovable/product-marketing-context.md` |
+| **Cursor, Claude Code, Codex, OpenCode, Gemini CLI, GitHub Copilot, Windsurf, Cline, Base44, Trae** | Native: use `.agents/skills/`, `.cursor/skills/`, `.claude/skills/`, or platform dir |
+| **Lovable, v0, Bolt, Replit** | AGENTS.md or platform-specific dir; copy skills, adapt context path |
 | **ChatGPT, Gemini, Claude Web** | Paste a skill's markdown as context, then ask your question |
 | **Any AI with file access** | Place skills in project root; reference in prompts |
 
-**Full tutorial**: [Using Beyond Cursor](docs/using-beyond-cursor.md)
+**Full guide**: [where-to-use-skills.md](docs/where-to-use-skills.md) — all platforms, install commands, path reference, Lovable example
 
 ## Project Context & Linking
 
@@ -186,8 +203,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [SKILLS_GUIDE](docs/
 | Resource | Purpose |
 |----------|---------|
 | [Alignify](https://alignify.co/) | SEO guides, growth strategies — for human reading |
-| [skills.sh](https://skills.sh) | Skill directory and discovery |
-| [docs/](docs/README.md) | Documentation index · skills-list · page-taxonomy · using-beyond-cursor |
+| [skills.sh](https://skills.sh) | Skill directory; 20+ platforms; `npx skills add` |
+| [where-to-use-skills.md](docs/where-to-use-skills.md) | Where to use skills — all platforms (native, AGENTS.md, paste), install, path reference |
+| [docs/](docs/README.md) | Documentation index · skills-list · page-taxonomy · where-to-use-skills |
 | [templates/](templates/README.md) | product-marketing-context · skills-task-progress · report templates |
 | [SKILLS_GUIDE](docs/SKILLS_GUIDE.md) | Rules, specs, skill authoring |
 | [CHANGELOG](docs/CHANGELOG.md) | What changed, when |

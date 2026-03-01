@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### Added
+
+- **where-to-use-skills.md** — New merged doc: combines platforms-with-skills and using-beyond-cursor; all platforms (native, AGENTS.md, paste, CLI); full platform table; vibe coding; Lovable example; path reference; ChatGPT/Gemini usage.
+- **README** — Section renamed to "Where to Use Skills"; links to where-to-use-skills.md.
+- **docs/README.md** — Single entry for where-to-use-skills.md.
+- **SKILLS_GUIDE.md** — References updated to where-to-use-skills.md.
+- **Removed** — using-beyond-cursor.md, platforms-with-skills.md (content merged into where-to-use-skills.md).
+
 ### Changed
 
 - **about-page-generator** — Brand story, mission, values now reference branding.

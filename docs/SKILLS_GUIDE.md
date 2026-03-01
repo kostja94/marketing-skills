@@ -373,7 +373,7 @@ Marketing skills are generic. Users must connect them with project-specific cont
 
 ### 10.3 Using Beyond Cursor & Claude
 
-Skills are **markdown files** — they work anywhere an AI can read text. Products without native skill support (Lovable, Bolt, v0, ChatGPT, Gemini) can use them by copying skills to a project directory and adapting path references. **Full tutorial**: [Using Beyond Cursor](using-beyond-cursor.md).
+Skills are **markdown files** — they work anywhere an AI can read text. Products without native skill support (Lovable, Bolt, v0, ChatGPT, Gemini) can use them by copying skills to a project directory and adapting path references. **Full guide**: [Where to Use Skills](where-to-use-skills.md).
 
 ### 10.4 Customizing Skills Themselves
 
@@ -386,7 +386,7 @@ Advanced users can fork skills and edit `SKILL.md` to add project-specific instr
 | Resource | URL |
 |----------|-----|
 | [README](../README.md) | Overview, installation, usage, available skills |
-| [Using Beyond Cursor](using-beyond-cursor.md) | Lovable, ChatGPT, Gemini — use skills without native support |
+| [Where to Use Skills](where-to-use-skills.md) | All platforms — native, AGENTS.md, paste; Lovable, ChatGPT, Gemini |
 | Agent Skills Specification | https://agentskills.io/specification |
 | Agent Skills Homepage | https://agentskills.io |
 | skills.sh Directory | https://skills.sh |

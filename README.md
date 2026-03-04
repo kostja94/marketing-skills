@@ -1,6 +1,6 @@
 # Marketing & SEO Skills for AI Agents
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/kostja94/marketing-skills?style=social)](https://github.com/kostja94/marketing-skills) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 144 specialized skills for Cursor, Claude Code, and other AI agents — SEO, content, 42 page types, channels, platforms, strategies, components, and analytics. Works with Lovable, ChatGPT, Gemini, OpenClaw, and any AI that reads markdown ([Where to Use](docs/where-to-use-skills.md)).
 

@@ -67,6 +67,7 @@ SEO leverages content you already have—brand, features, scenarios, input, outp
 | **Parasite SEO** | Leverage high-authority platforms | parasite-seo |
 | **GEO** | AI search visibility, citations | generative-engine-optimization |
 | **Localization** | Multi-language, international | localization-strategy |
+| **Multi-domain brand SEO** | Multiple domains; brand query control | multi-domain-brand-seo |
 
 ## Output Format
 
@@ -84,4 +85,7 @@ SEO leverages content you already have—brand, features, scenarios, input, outp
 - **parasite-seo**: High-authority platforms; alternative to owned-site SEO
 - **generative-engine-optimization**: AI search visibility; complements traditional SEO
 - **localization-strategy**: Multi-language SEO
+- **domain-architecture**: Domain structure (subfolder/subdomain/independent); do before or with website-structure when multiple products
+- **rebranding-strategy**: Domain change, 301 redirects; use when rebranding
+- **multi-domain-brand-seo**: Brand search control when Hub and Spoke domains coexist
 - **skills-task-progress**: Task tracking template; references this workflow

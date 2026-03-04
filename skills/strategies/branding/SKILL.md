@@ -136,3 +136,5 @@ Single source of truth. Include:
 - **directory-submission**: Directory copy uses brand voice; Section 8 Brand & Voice
 - **title-tag, meta-description**: Metadata uses brand voice
 - **integrated-marketing**: Brand awareness across PESO
+- **domain-architecture**: Domain structure implements brand architecture (Branded House vs House of Brands)
+- **rebranding-strategy**: Rebrand execution; domain change, 301, announcement

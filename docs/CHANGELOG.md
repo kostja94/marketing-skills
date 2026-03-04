@@ -26,6 +26,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - **page-taxonomy, skills-list** — Tools page; Tools vs Features; Product/SaaS extended pages.
 - **programmatic-seo** — Free tools as use case; Semrush/Ahrefs examples.
 - **website-structure, landing-page, resources-page-generator, features-page-generator** — Tools integration.
+- **domain-architecture** (new) — Subfolder vs subdomain vs independent domain; brand architecture (Branded House / House of Brands); Hub-Spoke principles.
+- **rebranding-strategy** (new) — Rebranding: domain change, 301 redirects, migration checklist, social media announcement, internal communication.
+- **multi-domain-brand-seo** (new) — Multi-domain brand search: Hub ranks first for brand queries; Hub-Spoke differentiation; Schema Organization subOrganization.
+- **skills-list** — Added domain-architecture, rebranding-strategy, multi-domain-brand-seo.
+- **seo-strategy** — Alternative SEO Strategies: multi-domain-brand-seo; Related Skills: domain-architecture, rebranding-strategy, multi-domain-brand-seo.
+- **website-structure** — Domain structure section; cross-ref to domain-architecture.
+- **branding** — Related Skills: domain-architecture, rebranding-strategy.
+- **alternatives-page-generator** (v1.1.0) — Purpose, keywords, competitor types (Direct/Bundlers/Indirect); URL structure; problem-focused intro; HTML table for AEO/GEO; brand keyword ads + PPC landing page; programmatic SEO; measurement metrics.
 
 ### Removed
 

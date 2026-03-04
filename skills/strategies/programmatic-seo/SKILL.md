@@ -52,6 +52,7 @@ Guides programmatic SEO—creating large numbers of SEO-optimized pages automati
 |----------|---------|
 | **Location-specific pages** | "Plumber in [city]," "Best restaurants in [neighborhood]" with real local data |
 | **Product comparison** | "[Product A] vs [Product B]" with structured specs |
+| **Alternatives pages** | "[Competitor] alternatives" at scale; 50+ competitors; see **alternatives-page-generator** |
 | **Software integration** | "[App A] + [App B]" integration pages (e.g., Zapier 50K+ pages) |
 | **Free tools** | "[X] checker," "[Y] calculator," "[Z] generator" — standalone tool pages; toolkit hub; same ICP as main product; lead gen |
 | **Travel / destination** | City + attraction combinations with reviews, photos |
@@ -144,6 +145,7 @@ Pages with only a title, one paragraph, and swapped city names will not rank and
 ## Related Skills
 
 - **tools-page-generator**: Free tools pages; toolkit hub; programmatic tool pages; lead gen
+- **alternatives-page-generator**: Alternatives/comparison pages at scale; competitor brand traffic
 - **category-page-generator**: Category pages; template-based structure; faceted navigation
 - **content-strategy**: Content clusters, pillar pages; programmatic pages as cluster nodes
 - **url-structure**: URL hierarchy for programmatic pages

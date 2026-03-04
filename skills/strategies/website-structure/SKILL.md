@@ -62,6 +62,10 @@ Structure reflects growth strategy. Subdirectories signal channels:
 | Plugins/Integrations | /integrations, /plugins | integrations-page-generator, category-page-generator |
 | Giveaway/Contest | /giveaway | contest-page-generator |
 
+## Domain Structure (Multiple Products)
+
+When planning for multiple products or brands, see **domain-architecture** for subfolder vs subdomain vs independent domain. This skill covers page structure within a single domain.
+
 ## Planning Workflow
 
 1. **Choose template**: Start from generic structure; map to [page-taxonomy](../../../docs/page-taxonomy.md) website types
@@ -101,6 +105,7 @@ Common modules to combine: Headline, Subheadline, Primary CTA, Supporting Image/
 ## Related Skills
 
 - **seo-strategy**: SEO workflow order, prioritization; structure planning fits before Technical phase
+- **domain-architecture**: Subfolder vs subdomain vs independent when multiple products; do before structure if domain decision pending
 - **page-taxonomy**: Full page types, website-type matrix, core vs extended; use for page selection
 - **url-structure**: URL optimization, hierarchy, slugs; apply after structure is defined
 - **site-crawlability**: Crawlability, orphan pages, redirects; audit existing structure

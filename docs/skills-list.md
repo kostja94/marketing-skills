@@ -203,6 +203,9 @@ Different website types need different pages. See [page-taxonomy.md § Website T
 | [localization-strategy](../skills/strategies/localization/) | Localization strategy, i18n, multilingual |
 | [parasite-seo](../skills/strategies/parasite-seo/) | Parasite SEO: high-authority platforms (Medium, Reddit, Grokipedia) |
 | [programmatic-seo](../skills/strategies/programmatic-seo/) | Programmatic SEO: template + data pages at scale |
+| [domain-architecture](../skills/strategies/domain-architecture/) | Subfolder vs subdomain vs independent domain; brand architecture; Hub-Spoke |
+| [rebranding-strategy](../skills/strategies/rebranding/) | Rebranding: domain change, 301 redirects, migration, social announcement |
+| [multi-domain-brand-seo](../skills/strategies/multi-domain-brand-seo/) | Multi-domain brand search: Hub ranks first for brand queries |
 
 ## Analytics
 

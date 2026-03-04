@@ -18,6 +18,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - **README** — Replaced using-beyond-cursor with where-to-use-skills; skills.sh 20+ → 40+ agents; Medo (replaces Miaoda).
 - **docs/README** — Added use-cases-and-roadmap, where-to-use-skills.
 - **Skills** — Cross-references: branding, content-marketing-strategy, eeat-signals, competitor-research; page taxonomy updates.
+- **solutions-page-generator, use-cases-page-generator** — Clearer distinction: Solutions = industry-first (by industry, company size, team); Use cases = scenario-first (by scenario, persona, business goal). Common industries, company size segments, decision table. Use cases as sub-pages under solutions.
 
 ### Removed
 

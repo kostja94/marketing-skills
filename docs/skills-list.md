@@ -114,6 +114,8 @@ Page classification framework for navigation design, sitemaps, content strategy,
 | Utility | Feedback | [feedback-page-generator](../skills/pages/utility/feedback/) | — | Support |
 | Utility | Disclosure | [disclosure-page-generator](../skills/pages/utility/disclosure/) | — | Support |
 
+**Solutions vs Use cases**: Solutions = industry-first (by industry, company size, team); Use cases = scenario-first (by scenario, persona, business goal). Use cases can be sub-pages under solutions. See [page-taxonomy](page-taxonomy.md) and the skills for details.
+
 ### Website Types & Page Applicability
 
 Different website types need different pages. See [page-taxonomy.md § Website Types](page-taxonomy.md#website-types--page-applicability) for full mapping.

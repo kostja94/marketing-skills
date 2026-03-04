@@ -55,7 +55,7 @@ Structure reflects growth strategy. Subdirectories signal channels:
 | Education/student plan | /education, /startups | startups-page-generator |
 | Multi-language | /zh-CN, /ja | localization-strategy |
 | Community | /ambassadors, /showcase | creator-program, landing-page-generator |
-| B2B / Enterprise | Customer stories, Use cases, Solutions | use-cases-page-generator, solutions-page-generator, customer-stories-page-generator |
+| B2B / Enterprise | Solutions (industry-first), Use cases (scenario-first; can be sub-pages), Customer stories | solutions-page-generator, use-cases-page-generator, customer-stories-page-generator |
 | Developer product | /api, /docs, /status | api-page-generator, docs-page-generator, status-page-generator |
 | User feedback | Feedback, Roadmap | feedback-page-generator; External (Canny, FeatureBase) |
 | Plugins/Integrations | /integrations, /plugins | integrations-page-generator, category-page-generator |

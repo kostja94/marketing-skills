@@ -111,8 +111,8 @@ Focused on conversion, acquisition, and partnership recruitment. Goals: signups,
 | **Landing page** | landing-page-generator | Transactional | Decision | Single-goal pages; **typically for paid ads (PPC/SEM)**; lead capture, webinar, product launch; affiliate/creator signup |
 | **Download** | download-page-generator | Transactional | Decision | Guide users to install desktop or mobile app; App Store / Play Store links; direct download |
 | **Media kit** | media-kit-page-generator | Commercial | Consideration | Press assets, brand materials, PR |
-| **Use cases** | use-cases-page-generator | Commercial | Consideration | Bridge features → real problems; by ICP, industry, role; BOFU; SaaS/B2B |
-| **Solutions** | solutions-page-generator | Commercial | Consideration | Outcome-focused; "how does this solve my problem?"; by industry, team, outcome |
+| **Use cases** | use-cases-page-generator | Commercial | Consideration | Scenario-first; by scenario, persona, business goal; can be sub-pages under solutions; BOFU; SaaS/B2B |
+| **Solutions** | solutions-page-generator | Commercial | Consideration | Industry-first (B2B norm); by industry, company size, team, outcome; use cases as sub-applications |
 | **Alternatives** | alternatives-page-generator | Commercial | Consideration | "X alternatives," "X vs Y"; standalone page or blog listicle; high SEO for SaaS |
 | **Integrations** | integrations-page-generator | Commercial | Consideration | Plugins, extensions, API integrations; connect with Slack, Notion, etc. |
 | **Migration** | migration-page-generator | Transactional | Decision | Migrate from competitor; step-by-step; link from alternatives |

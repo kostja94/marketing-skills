@@ -163,7 +163,7 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 | Category | Skills |
 |----------|--------|
 | **SEO** (19) | [Technical](skills/seo/technical/): robots, sitemap, canonical, indexing, indexnow, crawlability · [On-Page](skills/seo/on-page/): title, description, metadata, open-graph, twitter-cards, schema, internal-links, url-structure, heading · [Off-Page](skills/seo/off-page/): link-building, backlink-analysis · [Content](skills/seo/content/): keyword-research, content-strategy |
-| **Pages** (31) | [skills-list](docs/skills-list.md#pages) — brand, content, marketing, legal, utility; [page-taxonomy](docs/page-taxonomy.md) — core vs extended, website types |
+| **Pages** (31) | [skills-list](docs/skills-list.md#pages) — brand, content, marketing, legal, utility; Solutions (industry-first) vs Use cases (scenario-first); [page-taxonomy](docs/page-taxonomy.md) |
 | **Components** (11) | nav, breadcrumb, footer, hero, toc, logo, trust-badges, testimonials, cta, newsletter-signup, url-slug |
 | **Channels** (8) | affiliate, email-marketing, egc, influencer, referral, creator-program, community-forum, directories |
 | **Platforms** (6) | x, reddit, linkedin, tiktok, github, grokipedia |

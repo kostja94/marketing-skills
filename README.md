@@ -1,6 +1,6 @@
 # Marketing & SEO Skills for AI Agents
 
-[![Star History Chart](https://api.star-history.com/image?repos=kostja94/marketing-skills&type=Date)](https://star-history.com/#kostja94/marketing-skills) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 144 specialized skills for Cursor, Claude Code, and other AI agents — SEO, content, 42 page types, channels, platforms, strategies, components, and analytics. Works with Lovable, ChatGPT, Gemini, OpenClaw, and any AI that reads markdown ([Where to Use](docs/where-to-use-skills.md)).
 
@@ -40,6 +40,10 @@ Skills are **markdown files** that give AI agents focused knowledge and workflow
 | **Future** — Non-website agents | Image/video, influencer marketing, paid ads, analytics — skills reusable across agents. [Roadmap →](docs/use-cases-and-roadmap.md#16-future--non-website-agents) |
 
 **Partnership**: Building a vibe coding product or AI marketing agent? [Contact me](mailto:zyjstc@gmail.com) to integrate these skills.
+
+[![Star History Chart](https://api.star-history.com/image?repos=kostja94/marketing-skills&type=Date)](https://star-history.com/#kostja94/marketing-skills)
+
+**⭐ If this helps you, consider giving it a star — it motivates me to add more skills daily.**
 
 ## Installation
 

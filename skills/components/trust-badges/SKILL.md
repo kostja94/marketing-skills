@@ -30,7 +30,7 @@ Identify:
 | **Reviews/ratings** (Trustpilot, BBB) | Product, hero | +12→8% |
 | **Privacy/compliance** (GDPR, CCPA) | Forms, checkout | Data-sensitive transactions |
 
-**"Trusted by" logos**: Client/customer logos in hero or footer; social proof for B2B.
+**"Trusted by" logos**: Client/customer logos in hero or footer; social proof for B2B. **"As Seen In"** (press coverage): Publication logos; see **press-coverage-page-generator** for media mentions aggregation.
 
 ## Best Practices
 
@@ -77,3 +77,4 @@ Identify:
 - **testimonials-generator**: Complementary social proof
 - **cta-generator**: Badges near CTAs increase conversion
 - **pricing-page-generator**: Trust badges on pricing pages
+- **press-coverage-page-generator**: "As Seen In" publication logos; similar visual treatment; distinct (press = media coverage; trust-badges = security, payment, reviews)

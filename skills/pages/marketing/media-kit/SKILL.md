@@ -7,7 +7,7 @@ metadata:
 
 # Pages: Media Kit
 
-Guides media kit and press page content, structure, and accessibility for journalists. Media kits provide self-service brand assets; consistent presentation builds trust (companies with strong guidelines are 20% more valuable).
+Guides media kit and press page content, structure, and accessibility for journalists. Media kits provide self-service brand assets; consistent presentation builds trust (companies with strong guidelines are 20% more valuable). **Distinct from press-coverage-page-generator**: Media kit = assets for journalists; press coverage = aggregation of third-party mentions for visitor trust.
 
 **When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -34,8 +34,10 @@ Identify:
 **Regularly updated:**
 - Recent press releases
 - Product photos and video clips
-- Press coverage and media mentions
+- Link to press coverage page (or "As Seen In" section) for media mentions
 - Contact for press inquiries
+
+**Note**: Press coverage (third-party mentions) is often a separate page or section. See **press-coverage-page-generator** for aggregating "As Seen In" / "In the News" content.
 
 ### Logo Assets (per Alignify-style media kit)
 
@@ -89,6 +91,7 @@ Identify:
 
 ## Related Skills
 
+- **press-coverage-page-generator**: Aggregation of third-party coverage ("As Seen In"); media kit can link to it; distinct (media kit = assets for journalists; press coverage = social proof for visitors)
 - **about-page-generator**: Media kit extends About for press
 - **contact-page-generator**: Press contact info
 - **customer-stories-page-generator**: Press may reference case studies

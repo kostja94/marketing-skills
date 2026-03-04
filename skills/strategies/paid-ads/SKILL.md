@@ -169,6 +169,7 @@ When running affiliate programs: prohibit affiliates from bidding on your brand 
 - **directory-listing-ads**: Taaft, Shopify App Store, G2, Capterra paid placements
 - **landing-page-generator**: LP structure for paid traffic; ad-to-page alignment
 - **cold-start-strategy**: When NOT to use paid ads
+- **pmf-strategy**: PMF validation; when to use PMF testing vs conversion-driven mode
 - **seo-strategy**: Organic vs paid
 - **integrated-marketing**: PESO model; paid as one channel
 - **keyword-research**: Keywords inform paid search targeting

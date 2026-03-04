@@ -91,6 +91,7 @@ When you rank organically (position 4+) for a keyword and also run PPC, paid ads
 
 ## Related Skills
 
+- **pmf-strategy**: PMF validation framework; when to use PMF testing vs conversion-driven
 - **paid-ads-strategy**: Channel selection; budget allocation; ad-to-page alignment
 - **keyword-research**: Keyword list, clusters, intent; support terms for negative keywords; PPC data feeds back SEO priority
 - **traffic-analysis**: UTM for attribution; paid–organic cannibalization audit

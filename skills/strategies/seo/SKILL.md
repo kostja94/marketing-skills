@@ -1,8 +1,8 @@
 ---
 name: seo-strategy
-description: When the user wants to plan SEO strategy, prioritize SEO work, or understand the SEO workflow. Also use when the user mentions "SEO strategy," "SEO plan," "SEO roadmap," "SEO priority," "SEO audit," "SEO workflow," "where to start SEO," "SEO approach," "organic growth strategy," or "search strategy."
+description: When the user wants to plan SEO strategy, prioritize SEO work, or understand the SEO workflow. Also use when the user mentions "SEO strategy," "SEO plan," "SEO roadmap," "SEO priority," "SEO audit," "SEO workflow," "where to start SEO," "SEO approach," "organic growth strategy," "why SEO," "SEO value," or "search strategy."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Strategies: SEO
@@ -10,6 +10,39 @@ metadata:
 Guides SEO strategy: workflow order, prioritization, Product-Led SEO, and when to use which skills. Use this skill when planning SEO from scratch, auditing an existing site, or deciding what to do next.
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+
+## Strategic Context: Why SEO
+
+| Value | Rationale |
+|-------|------------|
+| **Traffic control** | ~68% of initial web traffic from search; search aggregates most user intent |
+| **Growth channel** | ~87% of consumers prefer Google when discovering new categories; 43% of conversions from organic (vs ~11% social) |
+| **Cost efficiency** | SEO user LTV 3–5× paid ads; rank #1 CTR ~27.6% vs #10 ~2.4% |
+| **Long-term asset** | Quality SEO assets yield 3–5 years of traffic; Core Web Vitals correlate with conversion (e.g., +8% per 0.1s faster) |
+
+**SEO = Google optimization**: Google holds ~91% global search share; B2B buyers use search as research starting point. Optimize for Google first; see **localization-strategy** for non-Google markets.
+
+**Reference**: [Alignify – SEO Core Value and Challenges in AI Search Era](https://alignify.co/zh/insights/reasons-you-need-seo)
+
+## When to Invest in SEO
+
+| Stage | Recommendation |
+|-------|----------------|
+| **Cold start** | Use email, ads, or influencers for first users; SEO takes time (sandbox, 6+ months) |
+| **Post-PMF** | SEO scales; combine with paid for faster feedback; see **pmf-strategy**, **paid-ads-strategy** |
+| **Team** | Many SMBs use contractors; SEO spans content, links, tech, UX—full-time team when scaling |
+
+**Principle**: Don't do SEO for SEO's sake; don't fight Google rules; prioritize real user experience.
+
+## AI Search Era & Channel Integration
+
+| Challenge | Response |
+|-----------|----------|
+| **Zero-click, AI Overviews** | ~30% clicks go to Google-owned properties; AI Overviews ~12–15% SERP share; TOFU (what/why/how) CTR declining |
+| **Algorithm volatility** | 5000+ updates/year; traffic swings common; focus on helpful content, E-E-A-T |
+| **Response** | Elevate SEO to **search experience optimization**—user-centric, not rank-centric; see **generative-engine-optimization** for AI visibility |
+
+**Channel integration**: SEO + ads (validate keywords, retarget); SEO + influencers (backlinks, mentions); SEO + social (UGC, embeddable content). Plugins/apps: functional links back to site.
 
 ## Workflow Order
 
@@ -89,7 +122,8 @@ SEO and PPC share the same SERP—ads, AI overviews, videos, organic links. With
 - **domain-selection**: Initial domain choice (Brand/PMD/EMD, TLD); do before website-structure for new sites
 - **website-structure**: Plan which pages to build; do before or alongside Technical phase
 - **keyword-research**: Discovery; informs content-strategy, content-optimization, and google-ads
-- **google-ads**: Paid–organic synergy; shared keyword strategy; PPC data for SEO priority
+- **google-ads, paid-ads-strategy**: Paid–organic synergy; cold start; PPC data for SEO priority
+- **pmf-strategy**: Validate PMF before scaling SEO; cold start uses other channels
 - **content-strategy**: Topic clusters, pillar pages; content planning
 - **programmatic-seo**: Template-based scale; alternative to manual content
 - **parasite-seo**: High-authority platforms; alternative to owned-site SEO

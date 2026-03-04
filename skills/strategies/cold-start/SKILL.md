@@ -1,13 +1,13 @@
 ---
 name: cold-start-strategy
-description: When the user wants to plan cold start, get first users, or launch a new product with zero traction. Also use when the user mentions "cold start," "cold start problem," "first users," "seed users," "product launch strategy," "0 to 1 growth," "early-stage acquisition," "launch channels," "get first customers," "Product Hunt launch," "AppSumo," or "LTD."
+description: When the user wants to plan cold start, get first users, or launch a new product with zero traction. Also use when the user mentions "cold start," "cold start problem," "first users," "seed users," "product launch strategy," "0 to 1 growth," "early-stage acquisition," "launch channels," "get first customers," "Product Hunt launch," "AppSumo," "LTD," "indie hacker," "bootstrapping," or "solo founder."
 metadata:
   version: 1.1.0
 ---
 
 # Strategies: Cold Start
 
-Guides cold start strategy for AI/SaaS products: getting first users and traction when you have zero. The cold start problem is overcoming the chicken-and-egg barrier; most startups fail due to poor distribution, not product quality.
+Guides cold start strategy for AI/SaaS products: getting first users and traction when you have zero. The cold start problem is overcoming the chicken-and-egg barrier; most startups fail due to poor distribution, not product quality. For **indie hacker** context (first 100 users, Build in Public, Pieter Levels tactics), see **indie-hacker-strategy**.
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -28,7 +28,7 @@ Identify:
 | **Product Hunt** | Indie makers, early adopters | Launch-day buzz; community upvotes | ~3% conversion; traffic spike; see **directory-submission** |
 | **AppSumo / LTD** | Deal seekers, early adopters | Lifetime deal for fast revenue, validation | Quick cash; price-sensitive users; see **discount-marketing-strategy** for LTD structure, trade-offs |
 | **Reddit** | Subreddit-specific | r/AlphaAndBetaUsers, r/roastmystartup, r/devops, r/SaaS | 80/20 rule; 5+ months for traction; lead with story |
-| **Indie Hackers** | Indie makers, founders | Sustained engagement; authentic journey | ~23% conversion; 4–6 months; not one-time launch |
+| **Indie Hackers** | Indie makers, founders | Sustained engagement; authentic journey | ~23% conversion; 4–6 months; see **indie-hacker-strategy** for tactics |
 | **Hacker News** | Tech, startups | Show HN launch | Luck + timing; front page = traffic spike |
 | **Directory submission** | AI tools, product launch | Taaft, G2, niche directories | Validate PMF; seed users; see **directory-submission** |
 | **Founder-led outbound** | B2B, high ACV | Cold email, LinkedIn; 10–15 personalized outreaches/day | Pre-$5K MRR; only reliable path when ACV >$500/mo |
@@ -46,7 +46,7 @@ Coordinated launch across channels yields 5–6× more users than single-channel
 | 6 | Product Hunt + Reddit/Indie Hackers |
 | 7 | Post-launch follow-up |
 
-**Build in public** before launch—share progress, validate ideas, create invested audience.
+**Build in public** before launch—share progress, validate ideas, create invested audience. For indie hacker first 100 users, Build in Public content framework (40/30/20/10), Pieter Levels tactics → **indie-hacker-strategy**.
 
 ## Pre-Launch
 
@@ -71,6 +71,8 @@ Coordinated launch across channels yields 5–6× more users than single-channel
 
 ## Related Skills
 
+- **pmf-strategy**: Product-market fit validation; when to scale; avoid large-scale paid before PMF
+- **gtm-strategy**: Full GTM framework; cold start differs (0→1 vs commercialization)
 - **paid-ads-strategy**: Two modes—PMF testing (small budget) vs conversion-driven (post-PMF); when to add paid after cold start
 - **google-ads**: PMF testing setup; small-budget validation
 - **discount-marketing-strategy**: LTD structure, pricing, trade-offs; cold start uses LTD as channel
@@ -79,3 +81,4 @@ Coordinated launch across channels yields 5–6× more users than single-channel
 - **reddit-posts**: Reddit post copy for cold-start posts
 - **integrated-marketing**: Channel mix; cold start is early-stage channel strategy
 - **media-kit-page-generator**: Assets required for Product Hunt and directory submissions
+- **indie-hacker-strategy**: Indie hacker first 100 users; Build in Public; Pieter Levels tactics; channel fit; this skill = generic cold start; indie-hacker = indie-specific

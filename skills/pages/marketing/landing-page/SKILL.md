@@ -7,7 +7,7 @@ metadata:
 
 # Pages: Landing Page
 
-Guides campaign landing page structure, conversion flow, and optimization. **Primary use**: **Paid ads (PPC/SEM)** — landing pages are typically built to receive paid traffic; ad-to-page alignment is critical for conversion. See **paid-ads-strategy** for when to use paid ads and ad-to-page alignment principles. Also applies to affiliate signup, product launch, lead capture, webinar registration, and other single-goal conversion pages. Differs from homepage (multi-purpose) and product pages (catalog).
+Guides campaign landing page structure, conversion flow, and optimization. **Primary use**: **Paid ads (PPC/SEM)** — landing pages are typically built to receive paid traffic; ad-to-page alignment is critical for conversion. See **paid-ads-strategy** for when to use paid ads and ad-to-page alignment principles. Also applies to affiliate signup, product launch, lead capture, webinar registration, and other single-goal conversion pages. **Scale**: When building many landing pages (city-specific, product-specific, integration-specific), use **programmatic-seo** (template + data) and **template-page-generator** for template design. Differs from homepage (multi-purpose) and product pages (catalog).
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -50,6 +50,10 @@ Every element should serve one of these five functions. Pages with multiple comp
 - **Value-focused copy**: "Start Free Trial" not "Submit"
 - **Pair with trust signals**: Customer count, logos, or stats next to the button
 - **Remove or minimize navigation**: Can increase conversion 2–28%
+
+## Programmatic Landing Pages (Scale)
+
+When you need **many landing pages** (e.g., city-specific, product-specific, integration-specific), use **programmatic-seo**: one template + data = hundreds or thousands of LPs. Apply landing page structure (5-step flow, CTA, trust) to the template; see **template-page-generator** for template design. Example: "[Product] for [City]" LPs with local data; "[App A] + [App B]" integration signup pages.
 
 ## Page Types
 
@@ -129,4 +133,6 @@ Every element should serve one of these five functions. Pages with multiple comp
 ### Strategy & SEO
 
 - **paid-ads-strategy**: When to use paid ads; ad-to-page alignment; channel selection
+- **programmatic-seo**: Scale landing pages via template + data; programmatic landing pages (city, product, integration-specific)
+- **template-page-generator**: Template structure for programmatic LPs; sections, data slots, conversion elements
 - **title-tag, meta-description, page-metadata**: Landing page metadata

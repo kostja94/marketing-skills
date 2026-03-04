@@ -86,6 +86,7 @@ Focused on organic traffic, educating users, and topical authority. Goals: long-
 |------|-------|--------|--------|-------|
 | **Features** | features-page-generator | Commercial | Consideration | Product value, benefit comparison, SEO keywords; capability-first (not scenario); see Features vs Use cases vs Solutions |
 | **Tools** | tools-page-generator | Informational | Awareness | Free tools; lead gen for main product; same ICP; often SPA; toolkit hub; programmatic SEO; see Tools vs Features |
+| **Template page** | template-page-generator | Commercial | Consideration | **Aggregation** (gallery, hub) + **Detail** (individual template); users browse → use → customize; CMS, design, vibe coding (Canva, Figma, VibeCatalog, uitovibe); programmatic SEO; see programmatic-seo |
 | **Glossary** | glossary-page-generator | Informational | Awareness | Definitions, internal linking, long-tail traffic |
 | **Blog** | blog-page-generator | Informational | Awareness | Articles, guides, topic clusters |
 | **Resources** | resources-page-generator | Informational | Awareness | Content hub, guides, templates, tools |
@@ -109,9 +110,10 @@ Focused on conversion, acquisition, and partnership recruitment. Goals: signups,
 | **Category pages** | category-page-generator | Commercial | Consideration | E-commerce categories, faceted navigation |
 | **Customer stories** | customer-stories-page-generator | Commercial | Consideration | Case studies, social proof |
 | **Affiliate program** | affiliate-page-generator | Transactional | Decision | Commission, recruitment, partnership signup |
-| **Landing page** | landing-page-generator | Transactional | Decision | Single-goal pages; **typically for paid ads (PPC/SEM)**; lead capture, webinar, product launch; affiliate/creator signup |
+| **Landing page** | landing-page-generator | Transactional | Decision | Single-goal pages; **typically for paid ads (PPC/SEM)**; lead capture, webinar, product launch; affiliate/creator signup; **programmatic LPs** at scale → programmatic-seo, template-page-generator |
 | **Download** | download-page-generator | Transactional | Decision | Guide users to install desktop or mobile app; App Store / Play Store links; direct download |
-| **Media kit** | media-kit-page-generator | Commercial | Consideration | Press assets, brand materials, PR |
+| **Media kit** | media-kit-page-generator | Commercial | Consideration | Press assets, brand materials, PR; for journalists |
+| **Press coverage** | press-coverage-page-generator | Commercial | Consideration | Third-party mentions aggregation; "As Seen In"; optional; section when sparse |
 | **Use cases** | use-cases-page-generator | Commercial | Consideration | Scenario-first; by scenario, persona, business goal; can be sub-pages under solutions; BOFU; SaaS/B2B |
 | **Solutions** | solutions-page-generator | Commercial | Consideration | Industry-first (B2B norm); by industry, company size, team, outcome; use cases as sub-applications |
 
@@ -279,7 +281,7 @@ Different website types need different page sets. Use this mapping to plan sitem
 
 - **Brand**: home, about, contact → `skills/pages/brand/`
 - **SEO / Content**: features, tools, glossary, blog, resources, faq, api, docs → `skills/pages/content/`
-- **Marketing**: pricing, products, services, category-pages, customer-stories, affiliate-program, media-kit, landing-page, download, use-cases, solutions, **alternatives**, **integrations**, **migration**, **showcase**, **contest**, **startups** → `skills/pages/marketing/`
+- **Marketing**: pricing, products, services, category-pages, customer-stories, affiliate-program, media-kit, press-coverage, landing-page, download, use-cases, solutions, **alternatives**, **integrations**, **migration**, **showcase**, **contest**, **startups** → `skills/pages/marketing/`
 - **Functional** (in-product): dashboard, SPA — no standalone page skills; part of product UI
 - **Legal**: privacy, terms, cookie-policy, legal, refund, shipping → `skills/pages/legal/`
 - **Utility**: 404, careers, changelog, status, **feedback**, **disclosure** → `skills/pages/utility/`

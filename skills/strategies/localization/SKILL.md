@@ -138,3 +138,4 @@ Consider: Cultural expressions, search habits, competition, long-tail in small m
 - **content-strategy**: Multilingual content planning; avoid thin translations
 - **navigation-menu-generator**: Language switcher SEO
 - **affiliate-marketing**: Local affiliates for target markets
+- **gtm-strategy**: New market entry; localization as GTM for new geography

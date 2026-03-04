@@ -57,7 +57,13 @@ skills/
 │   ├── technical/        # Technical SEO
 │   ├── on-page/          # On-page SEO
 │   ├── off-page/         # Off-page SEO
-│   └── content/          # Content SEO
+│   ├── content/          # Content SEO
+│   ├── local/            # Local SEO (GBP, NAP, citations)
+│   ├── parasite-seo/     # Parasite SEO (high-authority platforms)
+│   └── programmatic-seo/ # Programmatic SEO (template + data at scale)
+├── content/               # Cross-channel content (copywriting, video)
+│   ├── copywriting/      # Headlines, CTAs, ad copy
+│   └── video/            # Video marketing, scripts
 ├── paid-ads/              # Paid advertising (by platform/medium)
 │   ├── google-ads/       # Google Ads (Search, Display, PMax)
 │   ├── meta-ads/         # Meta (Facebook/Instagram) Ads
@@ -67,15 +73,22 @@ skills/
 │   ├── app-ads/          # App install, UA (Google App, Apple Search Ads)
 │   ├── ctv-ads/          # CTV, OTT, streaming TV ads
 │   ├── display-ads/      # Ad networks, banner ads, programmatic display
-│   └── directory-listing-ads/  # Taaft, Shopify App Store, G2, Capterra paid placements
+│   ├── directory-listing-ads/  # Taaft, Shopify App Store, G2, Capterra paid placements
+│   ├── youtube-ads/      # TrueView, Bumper, Discovery
+│   └── native-ads/       # Taboola, Outbrain
 ├── pages/                # Page types
 ├── components/           # UI components (navigation, etc.)
-├── channels/             # Acquisition channels (affiliate, email-marketing, egc, influencer, referral, creator-program, community-forum, directories)
-├── platforms/            # Publishing platforms (x, reddit, linkedin, tiktok)
+├── channels/             # Acquisition channels (affiliate, email-marketing, egc, influencer, referral, creator-program, community-forum, directories, pr)
+├── platforms/            # Publishing platforms (x, reddit, linkedin, tiktok, youtube, pinterest, medium, github, grokipedia)
 ├── strategies/           # Cross-cutting strategies
 │   ├── domain/           # domain-selection, domain-architecture, multi-domain-brand-seo
 │   ├── pricing/          # pricing-strategy, discount-marketing
-│   └── ...               # seo-strategy, branding, cold-start, geo, parasite-seo, programmatic-seo, rebranding, etc.
+│   ├── conversion/       # conversion-optimization (CRO, A/B testing)
+│   ├── gtm/              # gtm-strategy (PLG/SLG/MLG, 90-day, ICP, new market, repositioning)
+│   ├── product-launch/   # Launch execution; GTM framework → gtm-strategy
+│   ├── retention/        # retention-strategy, churn prevention
+│   ├── pmf/              # pmf-strategy (product-market fit)
+│   └── ...               # seo-strategy, branding, cold-start, indie-hacker, geo, rebranding, etc.
 ├── analytics/            # Traffic, tracking, seo-monitoring
 └── ...
 ```

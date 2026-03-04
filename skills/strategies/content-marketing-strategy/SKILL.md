@@ -54,7 +54,7 @@ Identify:
 | **Articles** | Blog posts, guides, listicles | article-page-generator, blog-page-generator |
 | **Email** | EDM, newsletter, sequences | email-marketing |
 | **Social posts** | X, LinkedIn, Reddit, TikTok | twitter-x-posts, linkedin-posts, reddit-posts, tiktok-captions |
-| **Video** | Short-form, long-form, webinar | — |
+| **Video** | Short-form, long-form, webinar | video-marketing |
 | **Infographics** | Visual summaries | — |
 | **Slides / PDF** | Decks, whitepapers, eBooks | — |
 | **Podcast** | Audio episodes | — |

@@ -89,6 +89,7 @@ When selecting channels, evaluate across:
 ## Related Skills
 
 - **cold-start-strategy**: Cold start for early-stage; first users, launch channels
+- **indie-hacker-strategy**: Indie hacker channel mix; Build in Public; first 100 users
 - **discount-marketing-strategy**: Promotional pricing; LTV (discount) in channel testing
 - **pricing-strategy**: Base price structure; pricing-strategy + discount-marketing = full pricing approach
 - **seo-strategy**: SEO workflow, prioritization; SEO as owned/organic channel

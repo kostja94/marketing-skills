@@ -7,7 +7,7 @@ metadata:
 
 # Channels: Community & Forum Promotion
 
-Guides forum promotion, community invitation, and vertical community marketing. Community-led growth (CLG) costs ~90% less than paid acquisition with ~3.2x higher customer LTV. Indie Hackers delivers ~23% conversion vs Product Hunt ~3%; HN and Reddit require sustained engagement. For cold start planning (first users, launch channels), see **cold-start-strategy**.
+Guides forum promotion, community invitation, and vertical community marketing. Community-led growth (CLG) costs ~90% less than paid acquisition with ~3.2x higher customer LTV. Indie Hackers delivers ~23% conversion vs Product Hunt ~3%; HN and Reddit require sustained engagement. For cold start planning (first users, launch channels), see **cold-start-strategy**. For indie hacker strategy (first 100 users, Build in Public content framework, Indie Hackers tactics), see **indie-hacker-strategy**.
 
 **When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -42,10 +42,11 @@ Identify:
 
 ## Indie Hackers Best Practices
 
-- **Sustained engagement**: 4-6 months; not a one-time launch
-- **Content**: Authentic journey posts, small wins, lessons learned, relatable struggles
-- **Promotion**: Product "sprinkled within" content; avoid heavy promotion
-- **Result**: Organic traffic; documented 12.5% conversion from authentic sharing
+- **Sustained engagement**: 4–6 months; not a one-time launch
+- **Content**: Authentic journey posts; product "sprinkled within"; avoid heavy promotion
+- **Result**: ~23% conversion vs Product Hunt ~3%; organic traffic from authentic sharing
+
+For full Indie Hackers tactics, Build in Public content framework (40/30/20/10), first 100 users → **indie-hacker-strategy**.
 
 ## Community Invitation Tactics
 
@@ -105,6 +106,7 @@ Identify:
 
 - **reddit-posts**: Reddit post copy, subreddit rules
 - **cold-start-strategy**: Cold start orchestrates Product Hunt, Reddit, Indie Hackers, directories; this skill handles forum/community tactics
+- **indie-hacker-strategy**: Indie hacker first 100 users; Build in Public; Indie Hackers tactics; this skill = forum/community tactics; indie-hacker = strategy + context
 - **directory-submission**: Product Hunt, Taaft; different from forum community
 - **affiliate-marketing**: Communities as recruitment channel
 - **top-banner-generator, popup-generator**: Homepage CTA, banner

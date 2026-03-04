@@ -25,7 +25,7 @@ Identify:
 | Section | Purpose |
 |---------|---------|
 | **Hero** | Value proposition, primary CTA, above the fold |
-| **Social proof** | Logos, testimonials, metrics |
+| **Social proof** | Logos, testimonials, metrics; "As Seen In" (press coverage) when applicable |
 | **Features/Benefits** | What it does, why it matters |
 | **Use cases** | Who it's for, how they use it |
 | **Objection handling** | FAQ, guarantees, comparisons |
@@ -69,5 +69,6 @@ Identify:
 - **landing-page-generator**: For single-goal campaign pages (affiliate signup, lead capture); homepage is multi-purpose
 - **pricing-page-generator**: Homepage often links to pricing
 - **features-page-generator**: Features section or link to features page
+- **press-coverage-page-generator**: "As Seen In" section (logo strip) when coverage exists; full page links from homepage
 - **title-tag, meta-description, page-metadata, open-graph, twitter-cards**: Homepage metadata and social previews
 - **heading-structure**: Homepage heading structure

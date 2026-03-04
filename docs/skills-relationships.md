@@ -84,14 +84,14 @@ See [page-taxonomy](page-taxonomy.md) for full classification.
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │  Channels                                                                    │
-│  affiliate · email · egc · influencer · referral · creator · community · dirs│
+│  affiliate · email · egc · influencer · referral · creator · community · dirs · pr│
 └─────────────────────────────────────────────────────────────────────────────┘
                                         │
 ┌───────────────────────────────────────┼───────────────────────────────────────┐
 │  Platforms                             │  Strategies                          │
-│  x · reddit · linkedin · tiktok         │  branding · content-mktg · seo-strategy · paid-ads │
-│  github · grokipedia                    │  cold-start · geo · integrated-mktg · parasite · programmatic│
-│                                        │  domain/* · pricing/* · rebranding · localization · website-structure        │
+│  x · reddit · linkedin · tiktok ·       │  branding · content-mktg · seo-strategy · paid-ads │
+│  youtube · pinterest · medium ·         │  cold-start · indie-hacker · geo · integrated-mktg · pmf · gtm · parasite · programmatic│
+│  github · grokipedia                    │  conversion · product-launch · retention · domain/* · pricing/* · rebranding · localization · website-structure        │
 └────────────────────────────────────────┼──────────────────────────────────────┘
                                          │
                     ┌────────────────────┴────────────────────┐
@@ -99,7 +99,7 @@ See [page-taxonomy](page-taxonomy.md) for full classification.
          ┌──────────────────────┐                 ┌──────────────────────┐
          │  GEO (AI search)     │                 │  Parasite SEO         │
          │  generative-engine-  │                 │  github · grokipedia  │
-         │  optimization        │                 │  reddit · directories  │
+         │  optimization        │                 │  medium · reddit · directories  │
          └──────────────────────┘                 └──────────────────────┘
 ```
 

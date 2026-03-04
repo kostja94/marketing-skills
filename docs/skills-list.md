@@ -1,6 +1,6 @@
 # Full Skills List
 
-Complete list of all 127 skills with descriptions. See [README](../README.md) for overview.
+Complete list of all 144 skills with descriptions. See [README](../README.md) for overview.
 
 ## SEO
 
@@ -48,6 +48,26 @@ Complete list of all 127 skills with descriptions. See [README](../README.md) fo
 | [eeat-signals](../skills/seo/content/eeat-signals/) | E-E-A-T signals, author bio, citations, YMYL, trust |
 | [competitor-research](../skills/seo/content/competitor-research/) | Competitor analysis for SEO, content, backlinks, positioning |
 
+### Local
+
+| Skill | Description |
+|-------|-------------|
+| [local-seo](../skills/seo/local/) | Google Business Profile, NAP consistency, local citations |
+
+### Tactics
+
+| Skill | Description |
+|-------|-------------|
+| [parasite-seo](../skills/seo/parasite-seo/) | Parasite SEO: high-authority platforms (Medium, Reddit, Grokipedia) |
+| [programmatic-seo](../skills/seo/programmatic-seo/) | Programmatic SEO: template + data pages at scale |
+
+## Content
+
+| Skill | Description |
+|-------|-------------|
+| [copywriting](../skills/content/copywriting/) | Headlines, CTAs, ad copy, landing page copy; PAS, AIDA, BAB frameworks |
+| [video-marketing](../skills/content/video/) | Short-form and long-form video scripts; hooks; platform optimization |
+
 ## Paid Ads
 
 Platform-specific setup and optimization. Strategy (when to use, channel selection, budget) → [paid-ads-strategy](../skills/strategies/paid-ads/).
@@ -63,6 +83,8 @@ Platform-specific setup and optimization. Strategy (when to use, channel selecti
 | [ctv-ads](../skills/paid-ads/ctv-ads/) | CTV/OTT/streaming TV ads: Hulu, Roku; 95% completion; brand awareness |
 | [display-ads](../skills/paid-ads/display-ads/) | Ad networks, banner ads, programmatic display; IAB sizes; CPM/CPC |
 | [directory-listing-ads](../skills/paid-ads/directory-listing-ads/) | Taaft, Shopify App Store, G2, Capterra paid placements; CPC, sponsored |
+| [youtube-ads](../skills/paid-ads/youtube-ads/) | TrueView, Bumper, Discovery; video ad campaigns |
+| [native-ads](../skills/paid-ads/native-ads/) | Taboola, Outbrain; content recommendation; native ad creative |
 
 ## Pages
 
@@ -94,6 +116,7 @@ Page classification framework for navigation design, sitemaps, content strategy,
 | Brand | Contact | [contact-page-generator](../skills/pages/brand/contact/) | Navigational | Support |
 | SEO | Features | [features-page-generator](../skills/pages/content/features/) | Commercial | Consideration |
 | SEO | Tools | [tools-page-generator](../skills/pages/content/tools/) | Informational | Awareness |
+| SEO | Template page | [template-page-generator](../skills/pages/content/template-page/) | Commercial | Consideration |
 | SEO | Glossary | [glossary-page-generator](../skills/pages/content/glossary/) | Informational | Awareness |
 | SEO | Blog | [blog-page-generator](../skills/pages/content/blog/) | Informational | Awareness |
 | SEO | Article | [article-page-generator](../skills/pages/content/article/) | Informational | Awareness |
@@ -112,6 +135,7 @@ Page classification framework for navigation design, sitemaps, content strategy,
 | Marketing | Landing page | [landing-page-generator](../skills/pages/marketing/landing-page/) | Transactional | Decision |
 | Marketing | Download | [download-page-generator](../skills/pages/marketing/download/) | Transactional | Decision |
 | Marketing | Media kit | [media-kit-page-generator](../skills/pages/marketing/media-kit/) | Commercial | Consideration |
+| Marketing | Press coverage | [press-coverage-page-generator](../skills/pages/marketing/press-coverage/) | Commercial | Consideration |
 | Marketing | Alternatives | [alternatives-page-generator](../skills/pages/marketing/alternatives/) | Commercial | Consideration |
 | Marketing | Integrations | [integrations-page-generator](../skills/pages/marketing/integrations/) | Commercial | Consideration |
 | Marketing | Migration | [migration-page-generator](../skills/pages/marketing/migration/) | Transactional | Decision |
@@ -190,6 +214,7 @@ Different website types need different pages. See [page-taxonomy.md § Website T
 | [creator-program](../skills/channels/creator-program/) | Creator program strategy |
 | [community-forum](../skills/channels/community-forum/) | Forum promotion, community invitation, Indie Hacker, HN |
 | [directory-submission](../skills/channels/directories/) | Directory submission (Taaft, Product Hunt, etc.) |
+| [pr-marketing](../skills/channels/pr/) | Press release, media relations, product announcement |
 
 ## Platforms
 
@@ -201,6 +226,9 @@ Different website types need different pages. See [page-taxonomy.md § Website T
 | [tiktok-captions](../skills/platforms/tiktok/) | TikTok caption, video specs, script |
 | [github-seo](../skills/platforms/github/) | GitHub for parasite SEO, GEO (repos, README, Pages, awesome lists) |
 | [grokipedia-recommendations](../skills/platforms/grokipedia/) | Grokipedia recommendations, GEO; parasite SEO strategy in parasite-seo |
+| [youtube-seo](../skills/platforms/youtube/) | YouTube titles, descriptions, thumbnails; video SEO |
+| [pinterest-posts](../skills/platforms/pinterest/) | Pin descriptions, board SEO; Pinterest content |
+| [medium-posts](../skills/platforms/medium/) | Medium publishing; parasite SEO; canonical setup |
 
 ## Strategies
 
@@ -212,17 +240,21 @@ Different website types need different pages. See [page-taxonomy.md § Website T
 | [paid-ads-strategy](../skills/strategies/paid-ads/) | Paid ads strategy: when to use; channel selection; budget; ad-to-page alignment; cross-platform frameworks. Platform execution → google-ads, meta-ads, linkedin-ads, reddit-ads, tiktok-ads |
 | [website-structure](../skills/strategies/website-structure/) | Plan which pages to build, page priority (Must Have/Great to Have/Optional), structure for UX/SEO/growth |
 | [cold-start-strategy](../skills/strategies/cold-start/) | Cold start, first users, launch channels (Product Hunt, Reddit, AppSumo) |
+| [indie-hacker-strategy](../skills/strategies/indie-hacker/) | Indie hacker growth: Bootstrapping, Build in Public, channels; solo founder tactics |
 | [discount-marketing-strategy](../skills/strategies/pricing/discount-marketing/) | Discount strategy, LTD, redeem code, BFCM, promo campaigns |
 | [pricing-strategy](../skills/strategies/pricing/pricing-strategy/) | Pricing model, tier design, anchoring; base price structure |
 | [generative-engine-optimization](../skills/strategies/geo/) | GEO/AEO for AI search visibility |
 | [integrated-marketing](../skills/strategies/integrated-marketing/) | IMC, PESO, program vs channel vs campaign |
 | [localization-strategy](../skills/strategies/localization/) | Localization strategy, i18n, multilingual |
-| [parasite-seo](../skills/strategies/parasite-seo/) | Parasite SEO: high-authority platforms (Medium, Reddit, Grokipedia) |
-| [programmatic-seo](../skills/strategies/programmatic-seo/) | Programmatic SEO: template + data pages at scale |
+| [pmf-strategy](../skills/strategies/pmf/) | Product-market fit validation; Sean Ellis 40% test; vitamin vs painkiller |
+| [gtm-strategy](../skills/strategies/gtm/) | GTM strategy: PLG/SLG/MLG modes; 90-day framework; ICP; new market entry; repositioning |
 | [domain-selection](../skills/strategies/domain/domain-selection/) | Domain choice: Brand vs PMD vs EMD, TLD (.ai, .com, .io), length, history, defensive registration |
 | [domain-architecture](../skills/strategies/domain/domain-architecture/) | Subfolder vs subdomain vs independent domain; brand architecture; Hub-Spoke |
 | [multi-domain-brand-seo](../skills/strategies/domain/multi-domain-brand-seo/) | Multi-domain brand search: Hub ranks first for brand queries |
 | [rebranding-strategy](../skills/strategies/rebranding/) | Rebranding: domain change, 301 redirects, migration, social announcement |
+| [conversion-optimization](../skills/strategies/conversion/) | CRO, A/B testing, funnel optimization, PIE prioritization |
+| [product-launch](../skills/strategies/product-launch/) | Product launch execution: channels, timeline, checklist; GTM framework → gtm-strategy |
+| [retention-strategy](../skills/strategies/retention/) | Churn prevention, lifecycle marketing, health scoring |
 
 ## Analytics
 

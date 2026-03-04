@@ -11,7 +11,7 @@ Guides initial domain choice for a single site: Brand vs Partial Match vs Exact 
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
-**Reference**: [Alignify: 域名SEO：如何选择SEO友好域名](https://alignify.co/zh/seo/domain) — detailed guide, AI brand naming, TLD recommendations, rebrand cases.
+**Reference**: [Alignify: Domain SEO – How to Choose SEO-Friendly Domains](https://alignify.co/zh/seo/domain) — detailed guide, AI brand naming, TLD recommendations, rebrand cases.
 
 ## Initial Assessment
 

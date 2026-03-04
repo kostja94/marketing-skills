@@ -1,11 +1,11 @@
 ---
 name: programmatic-seo
-description: When the user wants to create SEO pages at scale using templates and data. Also use when the user mentions "programmatic SEO," "programmatic SEO pages," "template pages," "scale content," "location pages," "city pages," "comparison pages at scale," "X vs Y pages," "integration pages," "pages from data," or "automated landing pages."
+description: When the user wants to create SEO pages at scale using templates and data. Also use when the user mentions "programmatic SEO," "programmatic SEO pages," "template pages," "scale content," "location pages," "city pages," "comparison pages at scale," "X vs Y pages," "integration pages," "pages from data," "automated landing pages," or "programmatic landing pages."
 metadata:
   version: 1.0.0
 ---
 
-# Strategies: Programmatic SEO
+# SEO: Programmatic SEO
 
 Guides programmatic SEO—creating large numbers of SEO-optimized pages automatically using templates and structured data, rather than writing each page manually. Works like a mail merge for web pages: one template + data yields hundreds or thousands of unique pages targeting long-tail keyword patterns.
 
@@ -144,6 +144,8 @@ Pages with only a title, one paragraph, and swapped city names will not rank and
 
 ## Related Skills
 
+- **template-page-generator**: Template structure; aggregation (gallery) + detail pages; programmatic template design; user-facing templates (CMS, design, vibe coding)
+- **landing-page-generator**: Conversion-focused programmatic pages; programmatic landing pages; LP structure for template CTA
 - **tools-page-generator**: Free tools pages; toolkit hub; programmatic tool pages; lead gen
 - **alternatives-page-generator**: Alternatives/comparison pages at scale; competitor brand traffic
 - **category-page-generator**: Category pages; template-based structure; faceted navigation
@@ -153,3 +155,4 @@ Pages with only a title, one paragraph, and swapped city names will not rank and
 - **internal-links**: Linking programmatic pages
 - **xml-sitemap**: Sitemap segmentation for large programmatic sites
 - **canonical-tag**: Duplicate/thin content handling
+- **seo-strategy**: SEO workflow; programmatic SEO as alternative strategy

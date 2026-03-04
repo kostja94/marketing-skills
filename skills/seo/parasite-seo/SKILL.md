@@ -5,7 +5,7 @@ metadata:
   version: 1.0.0
 ---
 
-# Strategies: Parasite SEO
+# SEO: Parasite SEO
 
 Guides parasite SEO (also "barnacle SEO")—publishing optimized content on high-authority third-party platforms (Medium, Reddit, LinkedIn, Grokipedia, etc.) to leverage their domain strength for rankings and backlinks, bypassing the need to build your own site's authority from scratch.
 
@@ -118,7 +118,10 @@ Instead of waiting months for your own domain to gain trust, you publish on esta
 - **github-seo**: GitHub for parasite SEO; repos, README, Pages, gists, awesome lists
 - **grokipedia-recommendations**: Add recommendations/links to Grokipedia; parasite SEO + GEO
 - **reddit-posts**: Reddit post copy; high-authority community for parasite SEO
+- **medium-posts**: Medium publishing; parasite SEO; canonical setup
 - **generative-engine-optimization**: GEO strategy; parasite SEO complements AI citation
 - **link-building**: Parasite SEO as link acquisition tactic; tier-2 backlinks
 - **directory-submission**: Directory and curated list submission; similar placement logic
 - **community-forum**: Forum and community promotion; HN, Indie Hacker
+- **indie-hacker-strategy**: Indie hacker growth; Indie Hackers, Reddit as channels
+- **seo-strategy**: SEO workflow; parasite SEO as alternative strategy

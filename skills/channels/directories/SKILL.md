@@ -374,6 +374,7 @@ Before submitting to any directory:
 - **generative-engine-optimization**: GEO strategy; varied directory copy improves AI citation diversity; directory submission complements AI search visibility
 - **affiliate-marketing**: Different channel; directories complement affiliate
 - **cold-start-strategy**: Cold start orchestrates directory-submission, Product Hunt, Reddit, Indie Hackers; this skill handles directory submission workflow
+- **indie-hacker-strategy**: Indie hacker Product Hunt, first 100 users; Build in Public
 - **directory-listing-ads**: Paid promotions within Taaft, Shopify App Store, G2, Capterra; use after listing is live
 - **community-forum**: Forum promotion (HN, Indie Hacker); community invitation; different from directory listing
 - **analytics-tracking**: UTM for directory traffic attribution

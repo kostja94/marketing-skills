@@ -139,6 +139,7 @@ LTD = one-time payment for lifelong access instead of recurring subscription. Co
 - **pricing-strategy**: Base price structure; pricing-strategy defines when discounts fit; discount-marketing-strategy defines how to execute
 - **pricing-page-generator**: Pricing page display; anchoring, annual discount presentation
 - **cold-start-strategy**: LTD as cold-start channel; full launch planning
+- **indie-hacker-strategy**: Indie hacker LTD use; monetize day one; cold start revenue
 - **referral-program**: Referral rewards (discounts, credits); 10–30% of price
 - **contest-page-generator**: Giveaway/contest; prize = discount
 - **startups-page-generator**: Startups/education discount programs

@@ -62,6 +62,66 @@ npx skills add kostja94/marketing-skills -a cursor -a claude-code -a codex -a op
 
 ---
 
+## OpenClaw
+
+[OpenClaw](https://openclaw.ai/) is an open-source personal AI assistant that runs on your machine (Mac, Windows, Linux). It uses **AgentSkills-compatible** skill folders — the same `SKILL.md` format as this repo. Your OpenClaw agent can use marketing skills for SEO, page optimization, content strategy, and growth tasks.
+
+### Skill locations (precedence)
+
+OpenClaw loads skills from three places, in order of priority:
+
+| Location | Scope |
+|----------|-------|
+| `./skills` (workspace) | Per-agent; highest priority |
+| `~/.openclaw/skills/` | Shared across all agents on your machine |
+| Bundled skills | Shipped with OpenClaw (lowest) |
+
+If the same skill exists in multiple places, the higher-priority location wins.
+
+### How to install marketing skills in OpenClaw
+
+**Option 1: CLI (recommended)**
+
+```bash
+# Install all marketing skills to OpenClaw
+npx skills add kostja94/marketing-skills -a openclaw
+
+# Install specific skills only
+npx skills add kostja94/marketing-skills -a openclaw --skill robots-txt title-tag meta-description pricing-page-generator
+```
+
+**Option 2: Manual copy**
+
+```bash
+# Clone the repo
+git clone https://github.com/kostja94/marketing-skills.git
+
+# Copy to workspace skills (per-agent)
+cp -r marketing-skills/skills/* /path/to/your/openclaw-workspace/skills/
+
+# Or copy to managed skills (shared across agents)
+cp -r marketing-skills/skills/* ~/.openclaw/skills/
+```
+
+**Option 3: ClawHub** (if marketing skills are published there)
+
+```bash
+clawhub install <skill-slug>
+```
+
+Browse [ClawHub](https://clawhub.com/) for community skills. Marketing skills may be available via the CLI above if not yet on ClawHub.
+
+### Product context
+
+For tailored output, add `product-marketing-context.md` to your OpenClaw workspace. Skills read it automatically when executing. See [README § Project Context](../README.md#project-context--linking).
+
+### References
+
+- [OpenClaw Skills docs](https://docs.openclaw.ai/tools/skills) — format, locations, config
+- [OpenClaw homepage](https://openclaw.ai/) — install, features, integrations
+
+---
+
 ## 2. Other Platforms (skills.sh / SkillsLM CLI)
 
 [skills.sh](https://skills.sh) and [SkillsLM](https://www.sddts.cn/index.php/archives/2618/) support cross-platform installation. The following 6 CLI platforms are officially supported by [vercel-labs/skills](https://github.com/vercel-labs/skills):
@@ -73,7 +133,7 @@ npx skills add kostja94/marketing-skills -a cursor -a claude-code -a codex -a op
 | **Roo** | `~/.roo/skills/` | [Roo docs](https://docs.roocode.com/features/skills) |
 | **Goose** | `~/.config/goose/skills/` | [Goose docs](https://block.github.io/goose/docs/guides/context-engineering/using-skills/) |
 | **Kiro** | `~/.kiro/skills/` (add to agent config `resources` after install) | [Kiro docs](https://kiro.dev/docs/cli/skills/) |
-| **OpenClaw** | ClawHub (clawhub.com); `~/.openclaw/skills/` | [OpenClaw docs](https://docs.clawd.bot/skills) |
+| **OpenClaw** | `./skills` (workspace) or `~/.openclaw/skills/`; `npx skills add ... -a openclaw` | [OpenClaw Skills docs](https://docs.openclaw.ai/tools/skills) |
 
 ---
 
@@ -172,7 +232,7 @@ When adapting skills for non-Cursor/Claude environments:
 | `.cursor/product-marketing-context.md` | `.lovable/product-marketing-context.md` (or your path) |
 | `.claude/product-marketing-context.md` | Same as above |
 | `.cursor/skills-task-progress.md` | `.lovable/skills-task-progress.md` (optional) |
-| `.cursor/skills/` | `.agents/skills/`, `.claude/skills/`, `.codex/skills/`, or platform-specific dir |
+| `.cursor/skills/` | `.agents/skills/`, `.claude/skills/`, `.codex/skills/`, `./skills` (OpenClaw), `~/.openclaw/skills/`, or platform-specific dir |
 
 ---
 
@@ -181,6 +241,7 @@ When adapting skills for non-Cursor/Claude environments:
 | Use case | How |
 |----------|-----|
 | **Cursor, Claude Code, Codex, OpenCode, Gemini CLI, GitHub Copilot, Windsurf, Cline, Base44, Trae** | Native: `npx skills add kostja94/marketing-skills` or copy to `.agents/skills/`, `.cursor/skills/`, or platform dir |
+| **OpenClaw** | `npx skills add kostja94/marketing-skills -a openclaw` or copy to `./skills` or `~/.openclaw/skills/` · [OpenClaw section above](#openclaw) |
 | **Lovable, Replit** | AGENTS.md in project root; OpenSkills (`openskills sync`); or copy to `.lovable/skills/` and adapt paths |
 | **v0, Bolt.new, Medo** | Copy skills to project root and reference in prompts, or paste skill markdown as context |
 | **ChatGPT, Gemini, Claude Web** | Paste skill markdown as context, then ask your question |

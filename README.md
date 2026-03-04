@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-109 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 39 page types, channels, platforms, strategies, components, and analytics. Works with Lovable, ChatGPT, Gemini, and any AI that reads markdown ([Where to Use](docs/where-to-use-skills.md)).
+109 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 39 page types, channels, platforms, strategies, components, and analytics. Works with Lovable, ChatGPT, Gemini, OpenClaw, and any AI that reads markdown ([Where to Use](docs/where-to-use-skills.md)).
 
 **By [kostja](https://github.com/kostja94)** · I add new skills daily · [SKILLS_GUIDE](docs/SKILLS_GUIDE.md) · [CHANGELOG](docs/CHANGELOG.md) · zyjstc@gmail.com
 
@@ -86,7 +86,7 @@ Skills are loaded from these locations per the [Agent Skills specification](http
 | `~/.claude/skills/` | User-level (compatibility) |
 | `~/.codex/skills/` | User-level (compatibility) |
 
-Each skill is a folder with a `SKILL.md` file. **Platforms with native support**: Cursor, Claude Code, Codex, OpenCode, Gemini CLI, GitHub Copilot, Windsurf, Cline, Base44, Trae. [Full guide →](docs/where-to-use-skills.md)
+Each skill is a folder with a `SKILL.md` file. **Platforms with native support**: Cursor, Claude Code, Codex, OpenCode, Gemini CLI, GitHub Copilot, Windsurf, Cline, Base44, Trae, **OpenClaw**. [Full guide →](docs/where-to-use-skills.md)
 
 ### Git Submodule
 
@@ -102,6 +102,7 @@ Skills are markdown — they work anywhere an AI can read text. No native skill 
 | Platform | How |
 |----------|-----|
 | **Cursor, Claude Code, Codex, OpenCode, Gemini CLI, GitHub Copilot, Windsurf, Cline, Base44, Trae** | Native: use `.agents/skills/`, `.cursor/skills/`, `.claude/skills/`, or platform dir |
+| **OpenClaw** | Copy to `./skills` (workspace) or `~/.openclaw/skills`; or `npx skills add kostja94/marketing-skills -a openclaw`. [OpenClaw guide →](docs/where-to-use-skills.md#openclaw) |
 | **Lovable, v0, Bolt, Replit** | AGENTS.md or platform-specific dir; copy skills, adapt context path |
 | **ChatGPT, Gemini, Claude Web** | Paste a skill's markdown as context, then ask your question |
 | **Any AI with file access** | Place skills in project root; reference in prompts |
@@ -222,6 +223,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [SKILLS_GUIDE](docs/
 |----------|---------|
 | [Alignify](https://alignify.co/) | SEO guides, growth strategies — for human reading |
 | [skills.sh](https://skills.sh) | Skill directory; 40+ agents; `npx skills add` |
+| [OpenClaw](https://openclaw.ai/) | Personal AI assistant; AgentSkills-compatible; [skills docs](https://docs.openclaw.ai/tools/skills) |
 | [where-to-use-skills.md](docs/where-to-use-skills.md) | Where to use skills — all platforms (native, AGENTS.md, paste), install, path reference |
 | [use-cases-and-roadmap.md](docs/use-cases-and-roadmap.md) | Use cases, content roadmap, partnership |
 | [docs/](docs/README.md) | Documentation index · skills-list · page-taxonomy · where-to-use-skills |

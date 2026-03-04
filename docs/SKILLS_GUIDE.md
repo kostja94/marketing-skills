@@ -373,7 +373,7 @@ Marketing skills are generic. Users must connect them with project-specific cont
 
 ### 10.3 Using Beyond Cursor & Claude
 
-Skills are **markdown files** — they work anywhere an AI can read text. Products without native skill support (Lovable, Bolt, v0, ChatGPT, Gemini) can use them by copying skills to a project directory and adapting path references. **Full guide**: [Where to Use Skills](where-to-use-skills.md).
+Skills are **markdown files** — they work anywhere an AI can read text. Products without native skill support (Lovable, Bolt, v0, ChatGPT, Gemini) can use them by copying skills to a project directory and adapting path references. **OpenClaw** supports AgentSkills natively: copy to `./skills` or `~/.openclaw/skills/`, or use `npx skills add kostja94/marketing-skills -a openclaw`. **Full guide**: [Where to Use Skills](where-to-use-skills.md).
 
 ### 10.4 Customizing Skills Themselves
 

@@ -91,6 +91,7 @@ See [page-taxonomy](page-taxonomy.md) for full classification.
 │  Platforms                             │  Strategies                          │
 │  x · reddit · linkedin · tiktok         │  branding · content-mktg · seo-strategy · paid-ads │
 │  github · grokipedia                    │  cold-start · geo · integrated-mktg · parasite · programmatic│
+│                                        │  domain/* · pricing/* · rebranding · localization · website-structure        │
 └────────────────────────────────────────┼──────────────────────────────────────┘
                                          │
                     ┌────────────────────┴────────────────────┐
@@ -137,4 +138,4 @@ See [page-taxonomy](page-taxonomy.md) for full classification.
 | 4 | Growth channels, platforms, GEO, parasite SEO |
 | 5 | UI components and analytics |
 
-**Skill uniqueness**: Each skill keeps only topic-relevant content. Overlapping topics use **Related Skills** references. See [SKILLS_GUIDE §4.2](SKILLS_GUIDE.md#42-skill-uniqueness-and-cross-references).
+**Skill uniqueness**: Each skill keeps only topic-relevant content. Overlapping topics use **Related Skills** references. See [skills-guide §4.2](skills-guide.md#42-skill-uniqueness-and-cross-references).

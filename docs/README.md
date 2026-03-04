@@ -17,9 +17,10 @@ Reference docs for marketing-skills. For overview, installation, and usage → [
 
 | Doc | Purpose |
 |-----|---------|
-| [SKILLS_GUIDE.md](SKILLS_GUIDE.md) | Rules, specs, skill authoring — output structure, quality checklist |
+| [skills-guide.md](skills-guide.md) | Rules, specs, skill authoring — output structure, quality checklist |
 | [naming-rules.md](naming-rules.md) | Skill naming specification (patterns, spec compliance) — use when creating or renaming skills |
 | [description-rules.md](description-rules.md) | Description optimization guidelines (keywords, structure) — use when writing `description` field |
 | [reference-rules.md](reference-rules.md) | Internal/external references; product/website examples (quantity, disclosure, neutral language) — use when adding links or product examples |
+| [file-naming.md](file-naming.md) | File and folder naming conventions; why README, SKILL, LICENSE use uppercase |
 
-Referenced by [SKILLS_GUIDE](SKILLS_GUIDE.md) and [CONTRIBUTING](../CONTRIBUTING.md).
+Referenced by [skills-guide](skills-guide.md) and [CONTRIBUTING](../CONTRIBUTING.md).

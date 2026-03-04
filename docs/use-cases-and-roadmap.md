@@ -55,7 +55,7 @@ This document describes target use cases for marketing-skills, content creation 
 **Recommended approach**:
 - Start with `seo-strategy` for workflow overview
 - Then technical: `robots-txt`, `xml-sitemap`, `title-tag`, `meta-description`
-- Use [SKILLS_GUIDE](SKILLS_GUIDE.md) and [page-taxonomy](page-taxonomy.md) for structure
+- Use [skills-guide](skills-guide.md) and [page-taxonomy](page-taxonomy.md) for structure
 
 **Content creation**: [§ Vibe Coding SEO Learning Path](#content-recommendation-3-vibe-coding-seo-learning-path)
 
@@ -88,7 +88,7 @@ This document describes target use cases for marketing-skills, content creation 
 
 **How to start**:
 1. Fork [kostja94/marketing-skills](https://github.com/kostja94/marketing-skills)
-2. Read [SKILLS_GUIDE](SKILLS_GUIDE.md) for format and authoring rules
+2. Read [skills-guide](skills-guide.md) for format and authoring rules
 3. Pick a skill similar to what you want (e.g. `pricing-page-generator` → your `custom-page-generator`)
 4. Copy, rename, edit — then install with `npx skills add your-username/your-fork`
 
@@ -194,7 +194,7 @@ Based on analysis of existing skills and market trends (agentic SEO, AI website 
 **Content**:
 - Why fork: complete reference, proven structure, 100+ examples
 - Step-by-step: fork → pick template skill → copy & rename → edit SKILL.md → test locally → publish
-- Links to SKILLS_GUIDE, naming-rules, description-rules
+- Links to skills-guide, naming-rules, description-rules
 - How to publish: GitHub repo + `npx skills add owner/repo`
 
 **Placement**: `docs/skill-authoring-from-fork.md` or section in CONTRIBUTING.md.

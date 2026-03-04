@@ -45,7 +45,7 @@ SEO leverages content you already have—brand, features, scenarios, input, outp
 
 | Scenario | Order | Focus |
 |----------|-------|-------|
-| **New site** | website-structure → Technical → On-Page → Content | Plan pages first; build foundation; add content |
+| **New site** | domain-selection → website-structure → Technical → On-Page → Content | Choose domain first (if needed); plan pages; build foundation; add content |
 | **Existing site** | Technical audit → On-Page audit → Content gap → Off-Page | Fix crawl/index first; then metadata, schema; then content gaps; then links |
 | **Low traffic** | keyword-research → content-strategy → content-optimization | Often content or intent mismatch |
 | **Not indexing** | indexing, robots-txt, site-crawlability | Technical blockers |
@@ -78,6 +78,7 @@ SEO leverages content you already have—brand, features, scenarios, input, outp
 
 ## Related Skills
 
+- **domain-selection**: Initial domain choice (Brand/PMD/EMD, TLD); do before website-structure for new sites
 - **website-structure**: Plan which pages to build; do before or alongside Technical phase
 - **keyword-research**: Discovery; informs content-strategy and content-optimization
 - **content-strategy**: Topic clusters, pillar pages; content planning

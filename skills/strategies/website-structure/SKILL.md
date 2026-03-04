@@ -64,7 +64,7 @@ Structure reflects growth strategy. Subdirectories signal channels:
 
 ## Domain Structure (Multiple Products)
 
-When planning for multiple products or brands, see **domain-architecture** for subfolder vs subdomain vs independent domain. This skill covers page structure within a single domain.
+When planning for multiple products or brands, see **domain-architecture** for subfolder vs subdomain vs independent domain. This skill covers page structure within a single domain. For initial domain choice (Brand vs PMD vs EMD, TLD), see **domain-selection**.
 
 ## Planning Workflow
 
@@ -105,6 +105,7 @@ Common modules to combine: Headline, Subheadline, Primary CTA, Supporting Image/
 ## Related Skills
 
 - **seo-strategy**: SEO workflow order, prioritization; structure planning fits before Technical phase
+- **domain-selection**: Initial domain choice (Brand/PMD/EMD, TLD); do before structure when choosing domain
 - **domain-architecture**: Subfolder vs subdomain vs independent when multiple products; do before structure if domain decision pending
 - **page-taxonomy**: Full page types, website-type matrix, core vs extended; use for page selection
 - **url-structure**: URL optimization, hierarchy, slugs; apply after structure is defined

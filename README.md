@@ -4,7 +4,7 @@
 
 109 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 39 page types, channels, platforms, strategies, components, and analytics. Works with Lovable, ChatGPT, Gemini, OpenClaw, and any AI that reads markdown ([Where to Use](docs/where-to-use-skills.md)).
 
-**By [kostja](https://github.com/kostja94)** · I add new skills daily · [SKILLS_GUIDE](docs/SKILLS_GUIDE.md) · [CHANGELOG](docs/CHANGELOG.md) · zyjstc@gmail.com
+**By [kostja](https://github.com/kostja94)** · I add new skills daily · [skills-guide](docs/skills-guide.md) · [CHANGELOG](docs/CHANGELOG.md) · zyjstc@gmail.com
 
 ## Table of Contents
 
@@ -114,7 +114,7 @@ Skills are markdown — they work anywhere an AI can read text. No native skill 
 ```
 marketing-skills/
 ├── skills/           # seo/, pages/, components/, channels/, platforms/, strategies/, analytics/
-├── docs/             # skills-list, page-taxonomy, SKILLS_GUIDE, CHANGELOG, naming-rules, description-rules, reference-rules
+├── docs/             # skills-list, page-taxonomy, skills-guide, CHANGELOG, naming-rules, description-rules, reference-rules
 ├── templates/       # product-marketing-context.md, skills-task-progress.md, report templates
 ├── tools/            # Report generation — generate-report.py, *-guide.md
 ├── README.md
@@ -155,7 +155,7 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 - [product-marketing-context.md](templates/product-marketing-context.md) · [download](https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/product-marketing-context.md)
 - [skills-task-progress.md](templates/skills-task-progress.md) · [download](https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/skills-task-progress.md)
 
-**Start with**: Product Overview, Positioning, Target Audience, Brand & Voice. Add Keywords, Competitors, Website as you have them. Update regularly — stale context degrades quality. See [SKILLS_GUIDE §10 Customization](docs/SKILLS_GUIDE.md#10-customization).
+**Start with**: Product Overview, Positioning, Target Audience, Brand & Voice. Add Keywords, Competitors, Website as you have them. Update regularly — stale context degrades quality. See [skills-guide §10 Customization](docs/skills-guide.md#10-customization).
 
 ## Available Skills
 
@@ -198,9 +198,9 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 └──────────────────────────────────────────┘
 ```
 
-**Skill uniqueness**: Each skill keeps only topic-relevant content. Overlapping topics use **Related Skills** references. See [SKILLS_GUIDE §4.2](docs/SKILLS_GUIDE.md#42-skill-uniqueness-and-cross-references).
+**Skill uniqueness**: Each skill keeps only topic-relevant content. Overlapping topics use **Related Skills** references. See [skills-guide §4.2](docs/skills-guide.md#42-skill-uniqueness-and-cross-references).
 
-**Output structure**: Platform skills use full structure (Introduction → Importance → Methods → Rules → Avoid → Action); others use brief context + main output. Say "skip intro" or "just do it" for repeat tasks. See [SKILLS_GUIDE §4.4](docs/SKILLS_GUIDE.md#44-output-structure-context-first-then-action).
+**Output structure**: Platform skills use full structure (Introduction → Importance → Methods → Rules → Avoid → Action); others use brief context + main output. Say "skip intro" or "just do it" for repeat tasks. See [skills-guide §4.4](docs/skills-guide.md#44-output-structure-context-first-then-action).
 
 ## Tips & Rules
 
@@ -209,11 +209,11 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 | **Project Context** | Add `product-marketing-context.md` to `.cursor/`, `.claude/`, or `.lovable/` for tailored output |
 | **Skip intro** | "skip intro" or "just do it" → go straight to Action |
 | **Related Skills** | Use each skill's Related Skills for dependencies |
-| **Rules & specs** | See [SKILLS_GUIDE](docs/SKILLS_GUIDE.md) for output structure, skill authoring, quality checklist |
+| **Rules & specs** | See [skills-guide](docs/skills-guide.md) for output structure, skill authoring, quality checklist |
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [SKILLS_GUIDE](docs/SKILLS_GUIDE.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [skills-guide](docs/skills-guide.md).
 
 ## References
 
@@ -228,7 +228,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [SKILLS_GUIDE](docs/
 | [use-cases-and-roadmap.md](docs/use-cases-and-roadmap.md) | Use cases, content roadmap, partnership |
 | [docs/](docs/README.md) | Documentation index · skills-list · page-taxonomy · where-to-use-skills |
 | [templates/](templates/README.md) | product-marketing-context · skills-task-progress · report templates |
-| [SKILLS_GUIDE](docs/SKILLS_GUIDE.md) | Rules, specs, skill authoring |
+| [skills-guide](docs/skills-guide.md) | Rules, specs, skill authoring |
 | [CHANGELOG](docs/CHANGELOG.md) | What changed, when |
 | [tools/](tools/README.md) | Report generation (keyword, competitor) |
 

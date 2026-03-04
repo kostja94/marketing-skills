@@ -196,16 +196,17 @@ Different website types need different pages. See [page-taxonomy.md § Website T
 | [paid-ads-strategy](../skills/strategies/paid-ads/) | Paid ads (Google, Meta, LinkedIn); when to use; ROAS; ad-to-page alignment |
 | [website-structure](../skills/strategies/website-structure/) | Plan which pages to build, page priority (Must Have/Great to Have/Optional), structure for UX/SEO/growth |
 | [cold-start-strategy](../skills/strategies/cold-start/) | Cold start, first users, launch channels (Product Hunt, Reddit, AppSumo) |
-| [discount-marketing-strategy](../skills/strategies/discount-marketing/) | Discount strategy, LTD, redeem code, BFCM, promo campaigns |
-| [pricing-strategy](../skills/strategies/pricing-strategy/) | Pricing model, tier design, anchoring; base price structure |
+| [discount-marketing-strategy](../skills/strategies/pricing/discount-marketing/) | Discount strategy, LTD, redeem code, BFCM, promo campaigns |
+| [pricing-strategy](../skills/strategies/pricing/pricing-strategy/) | Pricing model, tier design, anchoring; base price structure |
 | [generative-engine-optimization](../skills/strategies/geo/) | GEO/AEO for AI search visibility |
 | [integrated-marketing](../skills/strategies/integrated-marketing/) | IMC, PESO, program vs channel vs campaign |
 | [localization-strategy](../skills/strategies/localization/) | Localization strategy, i18n, multilingual |
 | [parasite-seo](../skills/strategies/parasite-seo/) | Parasite SEO: high-authority platforms (Medium, Reddit, Grokipedia) |
 | [programmatic-seo](../skills/strategies/programmatic-seo/) | Programmatic SEO: template + data pages at scale |
-| [domain-architecture](../skills/strategies/domain-architecture/) | Subfolder vs subdomain vs independent domain; brand architecture; Hub-Spoke |
+| [domain-selection](../skills/strategies/domain/domain-selection/) | Domain choice: Brand vs PMD vs EMD, TLD (.ai, .com, .io), length, history, defensive registration |
+| [domain-architecture](../skills/strategies/domain/domain-architecture/) | Subfolder vs subdomain vs independent domain; brand architecture; Hub-Spoke |
+| [multi-domain-brand-seo](../skills/strategies/domain/multi-domain-brand-seo/) | Multi-domain brand search: Hub ranks first for brand queries |
 | [rebranding-strategy](../skills/strategies/rebranding/) | Rebranding: domain change, 301 redirects, migration, social announcement |
-| [multi-domain-brand-seo](../skills/strategies/multi-domain-brand-seo/) | Multi-domain brand search: Hub ranks first for brand queries |
 
 ## Analytics
 

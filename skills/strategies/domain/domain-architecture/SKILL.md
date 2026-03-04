@@ -7,7 +7,7 @@ metadata:
 
 # Strategy: Domain Architecture
 
-Guides domain structure decisions for multiple products or brands: subfolder (subdirectory), subdomain, or independent domain. Covers brand architecture (Branded House vs House of Brands) and Hub-Spoke principles when multiple domains coexist. See **website-structure** for single-domain page planning; **rebranding-strategy** for domain change and migration; **multi-domain-brand-seo** for brand search optimization.
+Guides domain structure decisions for multiple products or brands: subfolder (subdirectory), subdomain, or independent domain. Covers brand architecture (Branded House vs House of Brands) and Hub-Spoke principles when multiple domains coexist. See **domain-selection** for initial domain choice (Brand/PMD/EMD, TLD); **website-structure** for single-domain page planning; **rebranding-strategy** for domain change and migration; **multi-domain-brand-seo** for brand search optimization.
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -73,6 +73,7 @@ When company main site (company.com) and product site (product.ai) both exist:
 
 ## Related Skills
 
+- **domain-selection**: Initial domain choice (Brand/PMD/EMD, TLD); single-site use case
 - **website-structure**: Plan pages within a domain; single-domain structure
 - **rebranding-strategy**: Domain change, 301 redirects, migration
 - **multi-domain-brand-seo**: Brand search control when Hub and Spoke coexist

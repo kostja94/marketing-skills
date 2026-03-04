@@ -1,6 +1,6 @@
 # Skill Description Rules
 
-Optimization guidelines for `description` field in SKILL.md. Aligns with [naming-rules.md](naming-rules.md) and [SKILLS_GUIDE §3.3](SKILLS_GUIDE.md#33-description-field-rules).
+Optimization guidelines for `description` field in SKILL.md. Aligns with [naming-rules.md](naming-rules.md) and [skills-guide §3.3](skills-guide.md#33-description-field-rules).
 
 ---
 
@@ -58,7 +58,7 @@ When the user wants to [primary actions]. Also use when the user mentions "[keyw
 
 ### 3. Length
 
-- **Max 1024 chars** (SKILLS_GUIDE)
+- **Max 1024 chars** (skills-guide)
 - Aim for **150–300 chars** for readability; extend with keywords only when needed
 - Every phrase should add unique trigger value
 
@@ -152,6 +152,6 @@ Before publishing a description:
 
 ## References
 
-- [SKILLS_GUIDE §3.3](SKILLS_GUIDE.md#33-description-field-rules) — description field rules
+- [skills-guide §3.3](skills-guide.md#33-description-field-rules) — description field rules
 - [naming-rules.md](naming-rules.md) — name optimization (description should align)
 - Create-skill (Cursor): "Include both WHAT and WHEN; be specific and include trigger terms"

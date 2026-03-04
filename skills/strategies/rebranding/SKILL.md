@@ -7,7 +7,7 @@ metadata:
 
 # Strategy: Rebranding
 
-Guides rebranding execution: domain change, 301 redirects, migration checklist, and communication (social media, internal). Plan for months, not days or weeks. See **domain-architecture** for domain structure decisions; **multi-domain-brand-seo** when multiple domains coexist.
+Guides rebranding execution: domain change, 301 redirects, migration checklist, and communication (social media, internal). Plan for months, not days or weeks. See **domain-selection** for initial domain choice; **domain-architecture** for domain structure decisions; **multi-domain-brand-seo** when multiple domains coexist.
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -118,6 +118,7 @@ Identify:
 
 ## Related Skills
 
+- **domain-selection**: Domain choice (Brand/PMD/EMD, TLD); informs new domain choice when rebranding
 - **domain-architecture**: Domain structure before/after rebrand
 - **website-structure**: New site structure after migration
 - **schema-markup**: Update Organization schema on new domain

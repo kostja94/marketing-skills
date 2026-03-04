@@ -33,7 +33,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - **seo-strategy** — Alternative SEO Strategies: multi-domain-brand-seo; Related Skills: domain-architecture, rebranding-strategy, multi-domain-brand-seo.
 - **website-structure** — Domain structure section; cross-ref to domain-architecture.
 - **branding** — Related Skills: domain-architecture, rebranding-strategy.
+- **domain-selection** (new) — Initial domain choice: Brand vs PMD vs EMD, TLD (.ai, .com, .io), length, readability, history check, defensive registration; .ai domain natural backlinks. Reference: [Alignify 域名SEO](https://alignify.co/zh/seo/domain).
+- **skills-list** — Added domain-selection.
+- **seo-strategy** — New site workflow: domain-selection → website-structure; Related Skills: domain-selection.
+- **website-structure** — Domain structure section: cross-ref to domain-selection; Related Skills: domain-selection.
+- **domain-architecture** — Related Skills: domain-selection; intro cross-ref to domain-selection.
+- **rebranding-strategy** — Related Skills: domain-selection; intro cross-ref to domain-selection.
 - **alternatives-page-generator** (v1.1.0) — Purpose, keywords, competitor types (Direct/Bundlers/Indirect); URL structure; problem-focused intro; HTML table for AEO/GEO; brand keyword ads + PPC landing page; programmatic SEO; measurement metrics.
+- **strategies/** — Reorganized by theme: `domain/` (domain-selection, domain-architecture, multi-domain-brand-seo), `pricing/` (pricing-strategy, discount-marketing). Improves granularity consistency.
+- **skills-list, CONTRIBUTING, skills-guide, skills-relationships** — Updated paths for strategies/domain/* and strategies/pricing/*.
+- **SKILLS_GUIDE.md** → **skills-guide.md** — Lowercase for cross-platform compatibility; docs use lowercase per [Google style](https://developers.google.com/style/filenames).
+- **file-naming.md** (new) — Documents why README, CONTRIBUTING, CHANGELOG, SKILL, LICENSE use uppercase (tool/spec conventions).
 
 ### Removed
 

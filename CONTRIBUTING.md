@@ -9,6 +9,7 @@ Contributions are welcome! Here's how to add or improve skills.
 1. Create a new directory under the appropriate category:
    - SEO: `skills/seo/{technical,on-page,off-page,content}/skill-name/`
    - Pages: `skills/pages/{brand,content,marketing,legal,utility}/skill-name/` (see [skills-list §Pages](docs/skills-list.md#pages))
+   - Strategies: `skills/strategies/skill-name/` or `skills/strategies/{domain,pricing}/skill-name/` for domain/pricing topics (see [skills-list §Strategies](docs/skills-list.md#strategies))
 2. Add `SKILL.md` with:
    - YAML frontmatter: `name`, `description`, `metadata.version`
    - Scope section (what the skill covers)
@@ -27,7 +28,7 @@ Contributions are welcome! Here's how to add or improve skills.
 - Platforms: add suffix (e.g. `twitter-x-posts`, `reddit-posts`)
 - No abbreviations: `employee-generated-content` not `egc`; `generative-engine-optimization` not `geo`
 
-**Full rules**: [SKILLS_GUIDE §7](docs/SKILLS_GUIDE.md#7-naming-and-categorization) | [docs/naming-rules.md](docs/naming-rules.md) | [docs/reference-rules.md](docs/reference-rules.md) (references)
+**Full rules**: [skills-guide §7](docs/skills-guide.md#7-naming-and-categorization) | [docs/naming-rules.md](docs/naming-rules.md) | [docs/reference-rules.md](docs/reference-rules.md) (references)
 
 ## Language
 
@@ -44,7 +45,7 @@ Contributions are welcome! Here's how to add or improve skills.
 
 ## Full Specification
 
-See [SKILLS_GUIDE.md](docs/SKILLS_GUIDE.md) for the complete specification, frontmatter rules, and quality checklist.
+See [skills-guide.md](docs/skills-guide.md) for the complete specification, frontmatter rules, and quality checklist.
 
 ## Testing
 

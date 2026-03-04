@@ -1,6 +1,6 @@
 # Reference Rules for Marketing Skills
 
-Standardization for internal (skill-to-skill) and external (standalone sites) references. Aligns with [Google developer documentation style](https://developers.google.com/style/cross-references), [MDN Markdown guidelines](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN), and [SKILLS_GUIDE §4.2](SKILLS_GUIDE.md#42-skill-uniqueness-and-cross-references).
+Standardization for internal (skill-to-skill) and external (standalone sites) references. Aligns with [Google developer documentation style](https://developers.google.com/style/cross-references), [MDN Markdown guidelines](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN), and [skills-guide §4.2](skills-guide.md#42-skill-uniqueness-and-cross-references).
 
 **Quick reference**: Internal → `see **skill-name**` (bold, lowercase). External → `[Descriptive text](URL)`; no "click here." Product examples → ≤5 per category; add disclosure when 3+; prefer generic terms. Section order → content → References → Related Skills.
 
@@ -209,7 +209,7 @@ Skills are educational; product mentions are illustrative, not endorsements. Inc
 ```
 
 - Place once per skill, near the first product-example block
-- Optional in README, SKILLS_GUIDE, or project-level docs as a general note
+- Optional in README, skills-guide, or project-level docs as a general note
 
 ### 6.3 Neutral, Factual Language
 

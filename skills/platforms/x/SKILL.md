@@ -138,6 +138,7 @@ When generating X copy, provide:
 
 ## Related Skills
 
+- **paid-ads-strategy**: X (Twitter) Ads for paid promotion; tech audiences, timely content; see Platform Selection
 - **influencer-marketing**: X is key influencer platform
 - **reddit-posts**: Alternative community channel
 - **programmatic-seo**: Programmatic SEO (template + data pages); X traffic can accelerate indexing

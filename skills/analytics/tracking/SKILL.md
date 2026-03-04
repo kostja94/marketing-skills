@@ -1,8 +1,8 @@
 ---
 name: analytics-tracking
-description: When the user wants to set up, audit, or optimize analytics tracking (GA4, events, conversions). Also use when the user mentions "Google Analytics," "GA4," "event tracking," "conversions," "gtag," "data layer," "GA4 setup," "conversion tracking," "event setup," "User ID tracking," or "CTA attribution."
+description: When the user wants to set up, audit, or optimize analytics tracking (GA4, events, conversions). Also use when the user mentions "Google Analytics," "GA4," "event tracking," "conversions," "attribution model," "gtag," "data layer," "GA4 setup," "conversion tracking," "event setup," "User ID tracking," or "CTA attribution."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Analytics: Tracking
@@ -106,6 +106,19 @@ Place below the Google tag snippet. Events fire on page load or user action (e.g
 - Use for attribution, audiences, and reporting
 - Typical: purchase, sign_up, lead, contact
 
+## Attribution & Conversion Optimization
+
+Attribution models determine how conversion credit is assigned across touchpoints. Use attribution data to optimize ads and growth channels.
+
+| Model | Use |
+|-------|-----|
+| **Data-driven** (GA4 default) | ML assigns credit by actual contribution; best for multi-touch journeys |
+| **Last-click** | 100% to final touchpoint; simple but undervalues awareness/consideration |
+
+**Optimization flow**: Clean UTM (source, medium, campaign) + conversion events → GA4 attribution reports → compare channels by attributed conversions → reallocate budget to ads/channels that drive results. Inconsistent UTM fragments data; multi-touch attribution requires reliable touchpoint data.
+
+**Reference**: [UTM.io – UTMs for Marketing Attribution](https://web.utm.io/blog/utms-for-marketing-attribution/), [GA4 – Get started with attribution](https://support.google.com/analytics/answer/10596866)
+
 ## Testing & Validation
 
 | Tool | Use |
@@ -126,7 +139,7 @@ Place below the Google tag snippet. Events fire on page load or user action (e.g
 
 ## Related Skills
 
-- **traffic-analysis**: UTM and source attribution
+- **traffic-analysis**: UTM, source attribution; attribution for channel optimization
 - **ai-traffic-tracking**: AI traffic in GA4
 - **google-search-console**: GSC analysis (correlate with GA4)
 - **seo-monitoring**: Article database, benchmark, full SEO monitoring framework

@@ -169,7 +169,7 @@ Directories typically offer multiple touchpoints--not just inclusion in the cata
 | Channel | Platform Examples | Scale / Notes |
 |---------|-------------------|---------------|
 | **Newsletter** | Product Hunt, Taaft | High-intent; paid or bundled; best for launches |
-| **Ad placements** | Taaft banners, Product Hunt Featured, G2/Capterra sponsored | Use UTM (e.g. utm_medium=paid); test after organic listing |
+| **Ad placements** | Taaft banners, Product Hunt Featured, G2/Capterra sponsored | Use UTM (e.g. utm_medium=paid); test after organic listing. See **directory-listing-ads** for Taaft, Shopify App Store, G2, Capterra paid campaign setup |
 | **Social promotion** | Taaft, Product Hunt share on X, LinkedIn | Launch-day amplification; @ platform accounts when posting |
 | **Marketing campaigns** | Taaft: listing + newsletter + ads + social | Full-funnel; product launch or relaunch; budget-dependent |
 
@@ -374,6 +374,7 @@ Before submitting to any directory:
 - **generative-engine-optimization**: GEO strategy; varied directory copy improves AI citation diversity; directory submission complements AI search visibility
 - **affiliate-marketing**: Different channel; directories complement affiliate
 - **cold-start-strategy**: Cold start orchestrates directory-submission, Product Hunt, Reddit, Indie Hackers; this skill handles directory submission workflow
+- **directory-listing-ads**: Paid promotions within Taaft, Shopify App Store, G2, Capterra; use after listing is live
 - **community-forum**: Forum promotion (HN, Indie Hacker); community invitation; different from directory listing
 - **analytics-tracking**: UTM for directory traffic attribution
 - **serp-features**: SERP features; directory listings in brand search SERP

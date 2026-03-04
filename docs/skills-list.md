@@ -1,6 +1,6 @@
 # Full Skills List
 
-Complete list of all 109 skills with descriptions. See [README](../README.md) for overview.
+Complete list of all 127 skills with descriptions. See [README](../README.md) for overview.
 
 ## SEO
 
@@ -47,6 +47,22 @@ Complete list of all 109 skills with descriptions. See [README](../README.md) fo
 | [content-optimization](../skills/seo/content/content-optimization/) | Word count, H2 keywords, keyword density, tables, lists, multimedia |
 | [eeat-signals](../skills/seo/content/eeat-signals/) | E-E-A-T signals, author bio, citations, YMYL, trust |
 | [competitor-research](../skills/seo/content/competitor-research/) | Competitor analysis for SEO, content, backlinks, positioning |
+
+## Paid Ads
+
+Platform-specific setup and optimization. Strategy (when to use, channel selection, budget) → [paid-ads-strategy](../skills/strategies/paid-ads/).
+
+| Skill | Description |
+|-------|-------------|
+| [google-ads](../skills/paid-ads/google-ads/) | Google Ads: Search, Display, Performance Max; Quality Score; keyword bidding |
+| [meta-ads](../skills/paid-ads/meta-ads/) | Meta (Facebook/Instagram) Ads: campaign structure, lookalike, creative |
+| [linkedin-ads](../skills/paid-ads/linkedin-ads/) | LinkedIn Ads: B2B targeting, Lead Gen Forms, job title/company |
+| [reddit-ads](../skills/paid-ads/reddit-ads/) | Reddit Ads: subreddit targeting, Promoted Posts, native creative |
+| [tiktok-ads](../skills/paid-ads/tiktok-ads/) | TikTok Ads: video creative, Spark Ads, younger demographics |
+| [app-ads](../skills/paid-ads/app-ads/) | App install ads: Google App Campaigns, Apple Search Ads; UA, CPI |
+| [ctv-ads](../skills/paid-ads/ctv-ads/) | CTV/OTT/streaming TV ads: Hulu, Roku; 95% completion; brand awareness |
+| [display-ads](../skills/paid-ads/display-ads/) | Ad networks, banner ads, programmatic display; IAB sizes; CPM/CPC |
+| [directory-listing-ads](../skills/paid-ads/directory-listing-ads/) | Taaft, Shopify App Store, G2, Capterra paid placements; CPC, sponsored |
 
 ## Pages
 
@@ -193,7 +209,7 @@ Different website types need different pages. See [page-taxonomy.md § Website T
 | [branding](../skills/strategies/branding/) | Brand strategy, storytelling, voice, visual identity; purpose, values, positioning |
 | [content-marketing-strategy](../skills/strategies/content-marketing-strategy/) | Content types, formats, channels, repurposing; blog, email, social, video |
 | [seo-strategy](../skills/strategies/seo/) | SEO workflow order, prioritization, Product-Led SEO, audit approach |
-| [paid-ads-strategy](../skills/strategies/paid-ads/) | Paid ads (Google, Meta, LinkedIn); when to use; ROAS; ad-to-page alignment |
+| [paid-ads-strategy](../skills/strategies/paid-ads/) | Paid ads strategy: when to use; channel selection; budget; ad-to-page alignment; cross-platform frameworks. Platform execution → google-ads, meta-ads, linkedin-ads, reddit-ads, tiktok-ads |
 | [website-structure](../skills/strategies/website-structure/) | Plan which pages to build, page priority (Must Have/Great to Have/Optional), structure for UX/SEO/growth |
 | [cold-start-strategy](../skills/strategies/cold-start/) | Cold start, first users, launch channels (Product Hunt, Reddit, AppSumo) |
 | [discount-marketing-strategy](../skills/strategies/pricing/discount-marketing/) | Discount strategy, LTD, redeem code, BFCM, promo campaigns |

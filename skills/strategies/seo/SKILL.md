@@ -2,7 +2,7 @@
 name: seo-strategy
 description: When the user wants to plan SEO strategy, prioritize SEO work, or understand the SEO workflow. Also use when the user mentions "SEO strategy," "SEO plan," "SEO roadmap," "SEO priority," "SEO audit," "SEO workflow," "where to start SEO," "SEO approach," "organic growth strategy," or "search strategy."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Strategies: SEO
@@ -59,6 +59,12 @@ SEO leverages content you already have—brand, features, scenarios, input, outp
 | **P2** | Important—not urgent | Open Graph, Twitter Cards, IndexNow |
 | **P3** | Nice to have | Rich results, sitelinks optimization |
 
+## Paid–Organic Alignment
+
+SEO and PPC share the same SERP—ads, AI overviews, videos, organic links. Without alignment, you risk duplication, cannibalization, and wasted spend. **Shared keyword data**: Use **keyword-research** for both; **google-ads** for Search targeting. PPC conversion data can prioritize SEO keywords; organic rank 4+ may reduce need for PPC on those terms.
+
+**Reference**: [Backlinko – SEO and PPC: 8 Smart Ways to Align](https://backlinko.com/seo-and-ppc)
+
 ## Alternative SEO Strategies
 
 | Strategy | When | Skill |
@@ -76,11 +82,14 @@ SEO leverages content you already have—brand, features, scenarios, input, outp
 - **Skill mapping** (which skill for each task)
 - **Recommendation** (start with X; then Y)
 
+**Task tracking**: Use templates/skills-task-progress.md to track task status; references this workflow.
+
 ## Related Skills
 
 - **domain-selection**: Initial domain choice (Brand/PMD/EMD, TLD); do before website-structure for new sites
 - **website-structure**: Plan which pages to build; do before or alongside Technical phase
-- **keyword-research**: Discovery; informs content-strategy and content-optimization
+- **keyword-research**: Discovery; informs content-strategy, content-optimization, and google-ads
+- **google-ads**: Paid–organic synergy; shared keyword strategy; PPC data for SEO priority
 - **content-strategy**: Topic clusters, pillar pages; content planning
 - **programmatic-seo**: Template-based scale; alternative to manual content
 - **parasite-seo**: High-authority platforms; alternative to owned-site SEO
@@ -89,4 +98,3 @@ SEO leverages content you already have—brand, features, scenarios, input, outp
 - **domain-architecture**: Domain structure (subfolder/subdomain/independent); do before or with website-structure when multiple products
 - **rebranding-strategy**: Domain change, 301 redirects; use when rebranding
 - **multi-domain-brand-seo**: Brand search control when Hub and Spoke domains coexist
-- **skills-task-progress**: Task tracking template; references this workflow

@@ -67,5 +67,6 @@ When generating LinkedIn copy, provide:
 
 ## Related Skills
 
+- **linkedin-ads**: Paid promotion on LinkedIn; Sponsored Content, Lead Gen Forms; professional tone aligns with organic posts
 - **influencer-marketing**: LinkedIn influencers for B2B
 - **about-page-generator**: Professional brand alignment

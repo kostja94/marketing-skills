@@ -74,6 +74,7 @@ When generating Reddit copy, provide:
 
 ## Related Skills
 
+- **reddit-ads**: Paid promotion on Reddit; Promoted Posts, subreddit targeting; native creative aligns with organic post style
 - **twitter-x-posts**: Alternative platform
 - **cold-start-strategy**: Cold start; Reddit as launch channel
 - **parasite-seo**: Parasite SEO strategy; Reddit as high-authority platform

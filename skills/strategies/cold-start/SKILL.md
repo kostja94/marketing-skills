@@ -2,7 +2,7 @@
 name: cold-start-strategy
 description: When the user wants to plan cold start, get first users, or launch a new product with zero traction. Also use when the user mentions "cold start," "cold start problem," "first users," "seed users," "product launch strategy," "0 to 1 growth," "early-stage acquisition," "launch channels," "get first customers," "Product Hunt launch," "AppSumo," or "LTD."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Strategies: Cold Start
@@ -53,12 +53,12 @@ Coordinated launch across channels yields 5–6× more users than single-channel
 - **Validate demand**: 10–15 target user conversations; 20–30 before launch
 - **Waitlist**: 8–12 weeks before launch; target 200–1,000 signups
 - **Landing page**: Ready; screenshots, description, media kit
-- **Avoid**: Perfectionism; paid ads before PMF validation—see **paid-ads-strategy**
+- **Avoid**: Perfectionism; large-scale paid ads before PMF—see **paid-ads-strategy**. Small-budget Google Ads for PMF testing is valid.
 
 ## What Doesn't Work Early
 
 - Hiring SDRs before founder has closed 10 customers
-- Paid ads before product-market fit—see **paid-ads-strategy**
+- Large-scale paid ads before product-market fit—see **paid-ads-strategy**. Small-budget PMF testing (e.g., $47–500 Google Ads + landing page) is valid.
 - Sporadic execution; "spray and pray" targeting
 - Mass submission to low-quality directories
 
@@ -71,7 +71,8 @@ Coordinated launch across channels yields 5–6× more users than single-channel
 
 ## Related Skills
 
-- **paid-ads-strategy**: When NOT to use paid ads (pre-PMF); when to add paid after cold start
+- **paid-ads-strategy**: Two modes—PMF testing (small budget) vs conversion-driven (post-PMF); when to add paid after cold start
+- **google-ads**: PMF testing setup; small-budget validation
 - **discount-marketing-strategy**: LTD structure, pricing, trade-offs; cold start uses LTD as channel
 - **directory-submission**: Product Hunt, Taaft, G2—directory listings as cold-start channel
 - **community-forum**: Indie Hackers, HN, Reddit—forum/community as cold-start channel

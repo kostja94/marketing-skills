@@ -1,8 +1,8 @@
 ---
 name: traffic-analysis
-description: When the user wants to analyze website traffic sources, attribution, or dark traffic. Also use when the user mentions "traffic sources," "dark traffic," "direct traffic," "UTM parameters," "traffic attribution," "channel analysis," "traffic analysis," "traffic diversification," "natural traffic benchmark," or "organic vs paid traffic."
+description: When the user wants to analyze website traffic sources, attribution, or dark traffic. Also use when the user mentions "traffic sources," "dark traffic," "direct traffic," "UTM parameters," "traffic attribution," "channel attribution," "attribution optimization," "channel analysis," "traffic analysis," "traffic diversification," "natural traffic benchmark," or "organic vs paid traffic."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Analytics: Traffic
@@ -35,7 +35,9 @@ A large share of traffic can be **bot traffic**—RPA, search crawlers, spiders,
 | Channel | Typical Sources | Attribution |
 |---------|-----------------|-------------|
 | **Organic** | Google, Bing, other search | Referrer preserved |
-| **Paid** | Google Ads, Meta Ads, etc. | UTM required |
+| **Paid (web)** | Google Ads, Meta Ads, etc. | UTM required |
+| **Paid (app)** | App install ads; Google App Campaigns, Apple Search Ads | UTM; in-app events |
+| **Paid (TV/CTV)** | Streaming ads; Hulu, Roku, YouTube TV | UTM for QR/URL; brand lift |
 | **Social** | Public posts (Facebook, LinkedIn, etc.) | Often preserved |
 | **Referral** | External sites, backlinks | Referrer preserved |
 | **Direct** | Typed URL, bookmarks | No referrer |
@@ -77,6 +79,20 @@ When traffic was sent from known sources, analytics often misattributed:
 2. **Unexpected direct**: Long URLs, deep pages, product pages--likely dark traffic
 3. **Report separately**: Use segments in GA4/analytics to avoid overcounting direct
 
+## Attribution for Channel Optimization
+
+Ads, growth channels, and medium can be optimized by viewing **attribution data**. Clean UTM + conversion tracking feeds attribution models; reliable attribution drives budget allocation and channel decisions.
+
+| Use | Action |
+|-----|--------|
+| **Optimize ads** | Compare paid channels (Google, Meta, LinkedIn) by attributed conversions; reallocate budget to winners |
+| **Optimize growth channels** | Identify which medium (cpc, email, social, referral) drives conversions; scale what works |
+| **Multi-touch attribution** | Requires clean UTM data; inconsistent tagging (e.g., `facebook` vs `Facebook`) fragments reports and misattributes |
+
+**GA4 Default Channel Grouping**: Align `utm_medium` and `utm_source` with [GA4's rules](https://support.google.com/analytics/answer/9756891) to avoid "Unassigned" traffic. ~30% of campaigns lack proper UTM markup, leading to wasted ad spend; teams standardizing UTM see 29% improvement in attribution accuracy.
+
+**Reference**: [UTM.io – utm_medium, utm_campaign & utm_source Optimization](https://web.utm.io/blog/utm_medium-utm_campaign-utm_source/), [UTMs for Marketing Attribution](https://web.utm.io/blog/utms-for-marketing-attribution/)
+
 ## UTM Best Practices
 
 | Parameter | Use | Example |
@@ -87,7 +103,20 @@ When traffic was sent from known sources, analytics often misattributed:
 | `utm_content` | Variant (optional) | `banner_a`, `cta_button` |
 | `utm_term` | Paid keyword (optional) | `running_shoes` |
 
-- **Consistent naming**: Lowercase, underscores; document conventions
+**GA4 alignment** (avoid Unassigned):
+
+| Channel | utm_medium | utm_source |
+|---------|------------|------------|
+| Paid Search | `cpc` | `google`, `bing` |
+| Paid Social | `paid-social`, `cpc` | `facebook`, `instagram` |
+| Email | `email` | `newsletter`, `mailchimp` |
+| Organic Social | `social` | `twitter`, `linkedin` |
+| App install | `cpc`, `app` | `google`, `facebook`, `apple` |
+| CTV / Streaming | `video`, `ctv` | `hulu`, `roku`, `youtube` |
+| Display / Banner | `display`, `cpc` | Publisher or network name |
+| Directory ads | `paid`, `cpc` | `taaft`, `shopify`, `g2`, `capterra` |
+
+- **Consistent naming**: Lowercase, hyphens; document conventions; never tag internal links (overwrites session attribution)
 - **Apply everywhere**: Every link in emails, social posts, ads
 - **Avoid**: Typos, inconsistent values; causes fragmentation
 
@@ -119,7 +148,8 @@ See **seo-monitoring** for full SEO data analysis framework.
 
 ## Related Skills
 
-- **analytics-tracking**: Implement UTM and event tracking
+- **analytics-tracking**: Implement UTM, events, conversions; attribution models
+- **google-ads, paid-ads-strategy**: Paid channels; attribution informs budget allocation
 - **ai-traffic-tracking**: AI search traffic
 - **google-search-console**: GSC performance and indexing analysis
 - **seo-monitoring**: Full SEO data analysis system, benchmark, article database

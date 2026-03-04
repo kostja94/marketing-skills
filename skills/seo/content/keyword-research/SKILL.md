@@ -2,7 +2,7 @@
 name: keyword-research
 description: When the user wants to research keywords, find target keywords, or analyze search intent. Also use when the user mentions "keyword research," "keyword tool," "target keywords," "search volume," "search intent," "keyword difficulty," "topical map," "keyword clustering," or "People Also Ask."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # SEO Content: Keyword Research
@@ -105,6 +105,21 @@ Test if positioning is clear enough for search:
 - **Functional keywords**: Tool-type (-er/-or) often convert better; users are closer to action
 - **Multi-language**: Re-research in target language; don't translate existing lists
 
+## SEO–PPC Keyword Synergy
+
+Keyword research serves both SEO and Google Ads. Align both channels to avoid duplication, cannibalization, and wasted spend.
+
+| Data flow | Use |
+|-----------|-----|
+| **keyword-research → google-ads** | Keyword list, clusters, intent; support terms (login, forum, pricing) → negative keywords for PPC |
+| **google-ads → keyword-research** | PPC conversion rate, Search Terms report → SEO priority; high-converting PPC terms = worth ranking organically |
+| **keyword-research → landing-page** | Clusters → dedicated LP per intent; PAA questions → FAQ sections |
+| **GSC organic rank 4+** | If you rank well organically, consider reducing/pausing PPC on those terms to avoid cannibalization |
+
+**PPC data for SEO priority**: `SEO ROI ≈ (Organic clicks × PPC conversion rate × Customer value) − SEO cost`. Use PPC conversion data to validate which keywords to pursue in organic.
+
+**Reference**: [Backlinko – SEO and PPC: 8 Smart Ways to Align](https://backlinko.com/seo-and-ppc)
+
 ## Output Format
 
 - **Keyword list** with volume, KD, intent
@@ -116,6 +131,8 @@ Test if positioning is clear enough for search:
 ## Related Skills
 
 - **seo-strategy**: SEO workflow, Product-Led SEO, audit approach; keyword research is Content phase
+- **google-ads**: Keywords inform Search targeting; PPC data feeds back into SEO priority
+- **paid-ads-strategy**: When to use paid vs organic; channel selection
 - **content-strategy**: Keywords inform content plan; topic clusters
 - **content-optimization**: Keyword placement, density vs stuffing, H2 keywords
 - **title-tag, meta-description**: Keywords in title, description

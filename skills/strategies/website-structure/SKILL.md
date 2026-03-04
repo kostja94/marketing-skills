@@ -101,13 +101,13 @@ Common modules to combine: Headline, Subheadline, Primary CTA, Supporting Image/
 ## References
 
 - [Website structure SEO guide](https://alignify.co/zh/seo/website-structure) — Alignify: structure importance, page priority, generic template, planning workflow, growth mapping, homepage modules
+- **page-taxonomy** (docs/page-taxonomy.md) — Full page types, website-type matrix, core vs extended; use for page selection
 
 ## Related Skills
 
 - **seo-strategy**: SEO workflow order, prioritization; structure planning fits before Technical phase
 - **domain-selection**: Initial domain choice (Brand/PMD/EMD, TLD); do before structure when choosing domain
 - **domain-architecture**: Subfolder vs subdomain vs independent when multiple products; do before structure if domain decision pending
-- **page-taxonomy**: Full page types, website-type matrix, core vs extended; use for page selection
 - **url-structure**: URL optimization, hierarchy, slugs; apply after structure is defined
 - **site-crawlability**: Crawlability, orphan pages, redirects; audit existing structure
 - **internal-links**: Link strategy, hub-spoke; implement after pages exist

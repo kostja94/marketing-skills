@@ -58,6 +58,16 @@ skills/
 │   ├── on-page/          # On-page SEO
 │   ├── off-page/         # Off-page SEO
 │   └── content/          # Content SEO
+├── paid-ads/              # Paid advertising (by platform/medium)
+│   ├── google-ads/       # Google Ads (Search, Display, PMax)
+│   ├── meta-ads/         # Meta (Facebook/Instagram) Ads
+│   ├── linkedin-ads/     # LinkedIn Ads
+│   ├── reddit-ads/       # Reddit Ads
+│   ├── tiktok-ads/       # TikTok Ads
+│   ├── app-ads/          # App install, UA (Google App, Apple Search Ads)
+│   ├── ctv-ads/          # CTV, OTT, streaming TV ads
+│   ├── display-ads/      # Ad networks, banner ads, programmatic display
+│   └── directory-listing-ads/  # Taaft, Shopify App Store, G2, Capterra paid placements
 ├── pages/                # Page types
 ├── components/           # UI components (navigation, etc.)
 ├── channels/             # Acquisition channels (affiliate, email-marketing, egc, influencer, referral, creator-program, community-forum, directories)

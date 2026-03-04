@@ -61,5 +61,6 @@ When generating TikTok content, provide:
 
 ## Related Skills
 
+- **tiktok-ads**: Paid promotion on TikTok; In-Feed, Spark Ads (boost organic); video specs and captions align with organic content
 - **influencer-marketing**: TikTok is key influencer platform
 - **twitter-x-posts**: Cross-posting short-form video

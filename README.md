@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-109 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 39 page types, channels, platforms, strategies, components, and analytics. Works with Lovable, ChatGPT, Gemini, OpenClaw, and any AI that reads markdown ([Where to Use](docs/where-to-use-skills.md)).
+127 specialized skills for Cursor, Claude Code, and other AI agents — SEO, 41 page types, channels, platforms, strategies, components, and analytics. Works with Lovable, ChatGPT, Gemini, OpenClaw, and any AI that reads markdown ([Where to Use](docs/where-to-use-skills.md)).
 
 **By [kostja](https://github.com/kostja94)** · I add new skills daily · [skills-guide](docs/skills-guide.md) · [CHANGELOG](docs/CHANGELOG.md) · zyjstc@gmail.com
 
@@ -36,7 +36,7 @@ Skills are **markdown files** that give AI agents focused knowledge and workflow
 | **Product website** — SEO growth | Frontend: optimization tech. Ops: build marketing pages via rewrite, no engineering dependency. [Playbook →](docs/use-cases-and-roadmap.md#12-product-website--seo-growth-with-frontend--ops-split) |
 | **Vibe coding beginner** — Learn SEO | Install skills standalone; use ChatGPT/Claude/Gemini to paste and learn. No project required. [Learning path →](docs/use-cases-and-roadmap.md#13-vibe-coding-beginner--learn-seo--website-building-standalone) |
 | **Vibe coding product** — Built-in skills | Ship SEO-friendly outputs by default. Skills as templates = better user-generated projects. [Partnership →](docs/use-cases-and-roadmap.md#14-vibe-coding-product--built-in-skills-as-templates) |
-| **Build your own skills** — Fork & adapt | Don't know where to start? Fork the repo, modify and adapt on top of 100+ working examples. [Guide →](docs/use-cases-and-roadmap.md#15-want-to-build-your-own-skills--fork--adapt) |
+| **Build your own skills** — Fork & adapt | Don't know where to start? Fork the repo, modify and adapt on top of 127 working examples. [Guide →](docs/use-cases-and-roadmap.md#15-want-to-build-your-own-skills--fork--adapt) |
 | **Future** — Non-website agents | Image/video, influencer marketing, paid ads, analytics — skills reusable across agents. [Roadmap →](docs/use-cases-and-roadmap.md#16-future--non-website-agents) |
 
 **Partnership**: Building a vibe coding product or AI marketing agent? [Contact me](mailto:zyjstc@gmail.com) to integrate these skills.
@@ -128,7 +128,8 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 | You say | Skill |
 |---------|-------|
 | "SEO strategy" / "SEO plan" / "Where to start SEO" / "SEO audit" | seo-strategy |
-| "Paid ads" / "PPC" / "Google Ads" / "ad budget" / "ROAS" | paid-ads-strategy |
+| "Paid ads" / "PPC" / "Google Ads" / "Meta Ads" / "ad budget" / "ROAS" | paid-ads-strategy |
+| "Google Ads setup" / "App install ads" / "Banner ads" / "Taaft ads" / "Shopify App Store ads" | google-ads, app-ads, display-ads, directory-listing-ads |
 | "Configure robots.txt" / "Audit sitemap" / "Fix canonical URLs" | robots-txt, xml-sitemap, canonical-tag |
 | "Optimize title tag" / "Meta description" / "Open Graph" / "Twitter Cards" / "Add schema markup" / "Fix heading structure" | title-tag, meta-description, open-graph, twitter-cards, schema-markup, heading-structure |
 | "Keyword research" / "Content strategy" / "Link building" | keyword-research, content-strategy, link-building |
@@ -159,16 +160,17 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 
 ## Available Skills
 
-104 skills in 7 categories. [Full list](docs/skills-list.md) · `npx skills add kostja94/marketing-skills --list`
+127 skills in 8 categories. [Full list](docs/skills-list.md) · `npx skills add kostja94/marketing-skills --list`
 
 | Category | Skills |
 |----------|--------|
-| **SEO** (19) | [Technical](skills/seo/technical/): robots, sitemap, canonical, indexing, indexnow, crawlability · [On-Page](skills/seo/on-page/): title, description, metadata, open-graph, twitter-cards, schema, internal-links, url-structure, heading · [Off-Page](skills/seo/off-page/): link-building, backlink-analysis · [Content](skills/seo/content/): keyword-research, content-strategy |
-| **Pages** (31) | [skills-list](docs/skills-list.md#pages) — brand, content, marketing, legal, utility; Solutions (industry-first) vs Use cases (scenario-first); [page-taxonomy](docs/page-taxonomy.md) |
-| **Components** (11) | nav, breadcrumb, footer, hero, toc, logo, trust-badges, testimonials, cta, newsletter-signup, url-slug |
+| **SEO** (24) | [Technical](skills/seo/technical/): robots, sitemap, canonical, indexing, indexnow, crawlability · [On-Page](skills/seo/on-page/): title, description, metadata, open-graph, twitter-cards, schema, internal-links, url-structure, heading · [Off-Page](skills/seo/off-page/): link-building, backlink-analysis · [Content](skills/seo/content/): keyword-research, content-strategy, content-optimization, eeat-signals, competitor-research |
+| **Paid Ads** (10) | [Strategy](skills/strategies/paid-ads/): when to use, ad formats (web/app/TV/display/directory) · [Platforms](skills/paid-ads/): google-ads, meta-ads, linkedin-ads, reddit-ads, tiktok-ads, app-ads, ctv-ads, display-ads, directory-listing-ads |
+| **Pages** (41) | [skills-list](docs/skills-list.md#pages) — brand, content, marketing, legal, utility; Solutions (industry-first) vs Use cases (scenario-first); [page-taxonomy](docs/page-taxonomy.md) |
+| **Components** (17) | nav, breadcrumb, footer, hero, toc, logo, trust-badges, testimonials, cta, newsletter-signup, url-slug, top-banner, sidebar, popup, social-share, favicon, brand-visual |
 | **Channels** (8) | affiliate, email-marketing, egc, influencer, referral, creator-program, community-forum, directories |
 | **Platforms** (6) | x, reddit, linkedin, tiktok, github, grokipedia |
-| **Strategies** (9) | seo-strategy, paid-ads-strategy, website-structure, cold-start, geo, integrated-marketing, localization, parasite-seo, programmatic-seo |
+| **Strategies** (17) | seo-strategy, paid-ads-strategy, website-structure, cold-start, geo, integrated-marketing, localization, parasite-seo, programmatic-seo, branding, content-marketing-strategy, domain-selection, domain-architecture, multi-domain-brand-seo, rebranding, pricing-strategy, discount-marketing |
 | **Analytics** (5) | traffic, tracking, seo-monitoring, ai-traffic, google-search-console |
 
 ## How Skills Work Together

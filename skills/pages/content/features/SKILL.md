@@ -2,7 +2,7 @@
 name: features-page-generator
 description: When the user wants to create, optimize, or audit features page content. Also use when the user mentions "features page," "product features," "capabilities," "what it does," "feature list," "feature comparison," "product capabilities," or "features section."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Pages: Features
@@ -41,7 +41,7 @@ Identify:
 
 ### Organization
 
-- **By use case**: Group by job-to-be-done
+- **By capability**: Group by product area or capability (e.g., Analytics, Automation, Integrations) — avoid organizing by use case to prevent overlap with use cases pages
 - **By priority**: Most important/differentiating first
 - **By journey**: Discovery -> evaluation -> decision
 
@@ -58,6 +58,12 @@ Identify:
 - Schema: SoftwareApplication if applicable
 - Internal links: To pricing, use cases, blog
 
+### Avoid Overlap with Use Cases
+
+- **Features = What**: Capability + benefit; no scenario narratives. Do not write "When you need to X..." — that belongs on use cases pages.
+- **Link, don't duplicate**: Use "Use case links" (e.g., "For marketers," "For developers") to send users to use cases pages; do not replicate scenario content.
+- **Content cannibalization**: Both target Commercial/Consideration; differentiate by angle (capability vs scenario) so each page serves unique intent.
+
 ## Output Format
 
 - **Feature list** with benefit-first copy
@@ -66,8 +72,19 @@ Identify:
 - **Per-feature** content (if separate pages)
 - **SEO** metadata and schema
 
+### vs. Tools
+
+| Page | Purpose | Monetization |
+|------|---------|--------------|
+| **Features** | Paid product capabilities; conversion | Primary revenue |
+| **Tools** | Free utilities; lead gen; excerpt from product | Not primary; drives signups |
+
+See **tools-page-generator** for free tools pages.
+
 ## Related Skills
 
+- **tools-page-generator**: Tools = free lead gen; features = paid capabilities; link from tools to product/features
+- **use-cases-page-generator**: Features = what it does; use cases = when/how to use it; link between; avoid duplicating scenario content on features page
 - **landing-page-generator**: Features content for product LP "Explain value" step; product LP links to features
 - **url-slug-generator**: URL slug for per-feature pages (e.g. /features/feature-name); 3-5 words
 - **homepage-generator**: Homepage links to features

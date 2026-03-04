@@ -53,6 +53,7 @@ Guides programmatic SEO—creating large numbers of SEO-optimized pages automati
 | **Location-specific pages** | "Plumber in [city]," "Best restaurants in [neighborhood]" with real local data |
 | **Product comparison** | "[Product A] vs [Product B]" with structured specs |
 | **Software integration** | "[App A] + [App B]" integration pages (e.g., Zapier 50K+ pages) |
+| **Free tools** | "[X] checker," "[Y] calculator," "[Z] generator" — standalone tool pages; toolkit hub; same ICP as main product; lead gen |
 | **Travel / destination** | City + attraction combinations with reviews, photos |
 | **E-commerce** | Category pages, product variations (size, color, material) |
 | **FAQ / Q&A** | Pages powered by user question databases |
@@ -71,6 +72,7 @@ Guides programmatic SEO—creating large numbers of SEO-optimized pages automati
 | **Review platforms** | — | User reviews + automated comparison pages |
 | **Travel sites** | — | Destination, hotel, flight, activity pages |
 | **NomadList** | 2,000+ city pages | Cost-of-living, internet speed (dynamic data) |
+| **Semrush, Ahrefs** | 50+ free tools | SEO checker, keyword tool, backlink checker; toolkit hub + per-tool pages |
 
 ## Content Requirements
 
@@ -141,6 +143,7 @@ Pages with only a title, one paragraph, and swapped city names will not rank and
 
 ## Related Skills
 
+- **tools-page-generator**: Free tools pages; toolkit hub; programmatic tool pages; lead gen
 - **category-page-generator**: Category pages; template-based structure; faceted navigation
 - **content-strategy**: Content clusters, pillar pages; programmatic pages as cluster nodes
 - **url-structure**: URL hierarchy for programmatic pages

@@ -19,6 +19,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - **docs/README** — Added use-cases-and-roadmap, where-to-use-skills.
 - **Skills** — Cross-references: branding, content-marketing-strategy, eeat-signals, competitor-research; page taxonomy updates.
 - **solutions-page-generator, use-cases-page-generator** — Clearer distinction: Solutions = industry-first (by industry, company size, team); Use cases = scenario-first (by scenario, persona, business goal). Common industries, company size segments, decision table. Use cases as sub-pages under solutions.
+- **features-page-generator** (v1.1.0), **use-cases-page-generator** (v1.2.0) — Features vs Use cases differentiation: avoid overlap and content cannibalization. Features = What (capability-first, no scenario narratives); Use cases = When/How (scenario-first, link to features, don't duplicate). Organization: features by capability (not by use case); use cases: Content Differentiation section.
+- **page-taxonomy, skills-list** — Features vs Use cases vs Solutions triad; content angle differentiation to avoid cannibalization.
+- **website-structure** — Structure Principles: Features vs Use cases linking and content division.
+- **tools-page-generator** (new) — Free tools pages: lead gen, not primary monetization; same ICP; toolkit hub; programmatic SEO; Tools vs Features distinction. Tool types (calculators, checkers, converters, generators); gate strategy; SPA-friendly.
+- **page-taxonomy, skills-list** — Tools page; Tools vs Features; Product/SaaS extended pages.
+- **programmatic-seo** — Free tools as use case; Semrush/Ahrefs examples.
+- **website-structure, landing-page, resources-page-generator, features-page-generator** — Tools integration.
 
 ### Removed
 

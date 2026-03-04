@@ -84,7 +84,8 @@ Focused on organic traffic, educating users, and topical authority. Goals: long-
 
 | Page | Skill | Intent | Funnel | Notes |
 |------|-------|--------|--------|-------|
-| **Features** | features-page-generator | Commercial | Consideration | Product value, benefit comparison, SEO keywords |
+| **Features** | features-page-generator | Commercial | Consideration | Product value, benefit comparison, SEO keywords; capability-first (not scenario); see Features vs Use cases vs Solutions |
+| **Tools** | tools-page-generator | Informational | Awareness | Free tools; lead gen for main product; same ICP; often SPA; toolkit hub; programmatic SEO; see Tools vs Features |
 | **Glossary** | glossary-page-generator | Informational | Awareness | Definitions, internal linking, long-tail traffic |
 | **Blog** | blog-page-generator | Informational | Awareness | Articles, guides, topic clusters |
 | **Resources** | resources-page-generator | Informational | Awareness | Content hub, guides, templates, tools |
@@ -113,6 +114,10 @@ Focused on conversion, acquisition, and partnership recruitment. Goals: signups,
 | **Media kit** | media-kit-page-generator | Commercial | Consideration | Press assets, brand materials, PR |
 | **Use cases** | use-cases-page-generator | Commercial | Consideration | Scenario-first; by scenario, persona, business goal; can be sub-pages under solutions; BOFU; SaaS/B2B |
 | **Solutions** | solutions-page-generator | Commercial | Consideration | Industry-first (B2B norm); by industry, company size, team, outcome; use cases as sub-applications |
+
+**Features vs Use cases vs Solutions** (avoid overlap): Features = What (capabilities, benefit-first); Use cases = When/How (scenario, persona, business goal); Solutions = Outcome (industry, company size, team). All target Commercial/Consideration — differentiate by content angle (capability vs scenario vs outcome) to avoid content cannibalization. See features-page-generator, use-cases-page-generator, solutions-page-generator.
+
+**Tools vs Features**: Tools = free, standalone utilities; lead gen; not primary monetization; excerpt from product; same ICP; often many tools + toolkit hub; programmatic keywords. Features = paid product capabilities; conversion focus. See tools-page-generator, features-page-generator.
 | **Alternatives** | alternatives-page-generator | Commercial | Consideration | "X alternatives," "X vs Y"; standalone page or blog listicle; high SEO for SaaS |
 | **Integrations** | integrations-page-generator | Commercial | Consideration | Plugins, extensions, API integrations; connect with Slack, Notion, etc. |
 | **Migration** | migration-page-generator | Transactional | Decision | Migrate from competitor; step-by-step; link from alternatives |
@@ -206,7 +211,7 @@ Different website types need different page sets. Use this mapping to plan sitem
 
 | Website Type | Description | Core Pages | Extended Pages |
 |--------------|-------------|------------|----------------|
-| **Product / SaaS** | Software product, subscription | Home, About, Features, Pricing, Contact, Blog | Docs (incl. API Reference), API, Changelog, Status, Use cases, Solutions, FAQ, Resources, Customer stories |
+| **Product / SaaS** | Software product, subscription | Home, About, Features, Pricing, Contact, Blog | Docs (incl. API Reference), API, Changelog, Status, Use cases, Solutions, Tools (free tools strategy), FAQ, Resources, Customer stories |
 | **B2B** | Business-to-business, enterprise | Home, Product/Service, Demo/Contact CTA | Use cases, Solutions, Customer stories, Case studies, Pricing (or "Contact sales"), FAQ |
 | **E-commerce** | Online store, B2C | Home, Products, Category pages, Cart/Checkout, Contact | FAQ, Refund, Shipping, Customer reviews, Affiliate program |
 | **Portfolio** | Freelancer, creative, agency | Home, About, Portfolio/Work, Contact | Services, Testimonials, Blog (optional) |
@@ -241,6 +246,7 @@ Different website types need different page sets. Use this mapping to plan sitem
 | About | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Contact | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Features | ✓ | ✓ | — | — | — | — |
+| Tools | ✓ | ✓ | — | — | — | — |
 | Use cases | ✓ | ✓ | — | — | — | — |
 | Solutions | ✓ | ✓ | — | ✓ | — | — |
 | Pricing | ✓ | ✓ | — | ✓ | — | — |
@@ -272,7 +278,7 @@ Different website types need different page sets. Use this mapping to plan sitem
 ## Quick Reference
 
 - **Brand**: home, about, contact → `skills/pages/brand/`
-- **SEO / Content**: features, glossary, blog, resources, faq, api, docs → `skills/pages/content/`
+- **SEO / Content**: features, tools, glossary, blog, resources, faq, api, docs → `skills/pages/content/`
 - **Marketing**: pricing, products, services, category-pages, customer-stories, affiliate-program, media-kit, landing-page, download, use-cases, solutions, **alternatives**, **integrations**, **migration**, **showcase**, **contest**, **startups** → `skills/pages/marketing/`
 - **Functional** (in-product): dashboard, SPA — no standalone page skills; part of product UI
 - **Legal**: privacy, terms, cookie-policy, legal, refund, shipping → `skills/pages/legal/`

@@ -60,6 +60,7 @@ Every element should serve one of these five functions. Pages with multiple comp
 | **Product-focused** | Deep-dive features and benefits; product launch | products-page, features-page |
 | **Comparison** | X vs Y; commercial intent | features-page, pricing-page |
 | **Use cases / Solutions** | For integrated products hard to split into tools | features-page, services-page |
+| **Free tools** | Standalone utilities; lead gen; same ICP; excerpt from product | tools-page-generator; tool page as LP when gated |
 | **Bridge/bonus** | Extra incentive to purchase through your link | pricing-page, products-page |
 | **Webinar/event** | Event registration; collect signups before live | resources-page (webinar as resource) |
 

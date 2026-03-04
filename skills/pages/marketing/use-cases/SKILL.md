@@ -2,7 +2,7 @@
 name: use-cases-page-generator
 description: When the user wants to create, optimize, or audit use case pages. Also use when the user mentions "use cases," "use case page," "for [role]," "by persona," "by scenario," "by business goal," "ICP pages," or "audience-specific pages."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Pages: Use Cases
@@ -28,7 +28,7 @@ Identify:
 |---------|---------|
 | **Headline** | "When you need to X, we help you Y" or "For [role]: solve X" |
 | **Problem** | Pain points, day-to-day challenges |
-| **Solution** | How product addresses them; specific features |
+| **Solution** | How product addresses them; link to relevant features (do not duplicate feature copy) |
 | **Proof** | Case study, testimonial, metrics |
 | **CTA** | Try free, book demo, contact |
 | **Related** | Link to other use cases, parent solution |
@@ -40,6 +40,12 @@ Identify:
 - **Concrete situations**: "When you need to run event marketing at scale..."
 - **Before-after**: Show transformation, not just features
 - **One scenario per page**: Don't mix "event marketing" and "lead nurturing"
+
+### Content Differentiation (vs Features)
+
+- **Use case = scenario + problem + outcome**: Write the story (when, who, why, result); reference features via links.
+- **Do not duplicate feature copy**: Avoid repeating capability lists or benefit bullets from the features page; instead, describe how the product solves this scenario and link to /features for details.
+- **Avoid content cannibalization**: Each use case page targets a unique scenario intent; overlap with features (both Commercial/Consideration) dilutes SEO — differentiate by content angle (scenario vs capability).
 
 ### Organization (Primary → Secondary)
 
@@ -101,7 +107,7 @@ Acquisition (signups, trials), Retention (reduce churn, re-engagement), Upsell/C
 
 ## Related Skills
 
-- **features-page-generator**: Features support use cases; link between
+- **features-page-generator**: Features = what it does; use cases = when/how to use it; reference features via links, don't duplicate; see Content Differentiation above
 - **solutions-page-generator**: Solutions are industry/outcome-focused; use cases are scenario-focused; use cases can be sub-pages under solutions
 - **customer-stories-page-generator**: Case studies as proof on use case pages
 - **landing-page-generator**: Use case pages are a type of landing page; apply LP principles

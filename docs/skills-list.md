@@ -77,6 +77,7 @@ Page classification framework for navigation design, sitemaps, content strategy,
 | Brand | About | [about-page-generator](../skills/pages/brand/about/) | Navigational | Awareness |
 | Brand | Contact | [contact-page-generator](../skills/pages/brand/contact/) | Navigational | Support |
 | SEO | Features | [features-page-generator](../skills/pages/content/features/) | Commercial | Consideration |
+| SEO | Tools | [tools-page-generator](../skills/pages/content/tools/) | Informational | Awareness |
 | SEO | Glossary | [glossary-page-generator](../skills/pages/content/glossary/) | Informational | Awareness |
 | SEO | Blog | [blog-page-generator](../skills/pages/content/blog/) | Informational | Awareness |
 | SEO | Article | [article-page-generator](../skills/pages/content/article/) | Informational | Awareness |
@@ -114,7 +115,9 @@ Page classification framework for navigation design, sitemaps, content strategy,
 | Utility | Feedback | [feedback-page-generator](../skills/pages/utility/feedback/) | — | Support |
 | Utility | Disclosure | [disclosure-page-generator](../skills/pages/utility/disclosure/) | — | Support |
 
-**Solutions vs Use cases**: Solutions = industry-first (by industry, company size, team); Use cases = scenario-first (by scenario, persona, business goal). Use cases can be sub-pages under solutions. See [page-taxonomy](page-taxonomy.md) and the skills for details.
+**Features vs Use cases vs Solutions**: Features = What (capabilities); Use cases = When/How (scenario, persona, business goal); Solutions = Outcome (industry, company size, team). Differentiate by content angle to avoid overlap and content cannibalization. See [page-taxonomy](page-taxonomy.md) and the skills for details.
+
+**Tools vs Features**: Tools = free utilities; lead gen; not primary monetization; same ICP; toolkit hub; programmatic SEO. Features = paid capabilities. See [page-taxonomy](page-taxonomy.md), tools-page-generator, features-page-generator.
 
 ### Website Types & Page Applicability
 
@@ -122,7 +125,7 @@ Different website types need different pages. See [page-taxonomy.md § Website T
 
 | Website Type | Core Pages |
 |--------------|------------|
-| **Product / SaaS** | Home, Features, Pricing, Docs (incl. API Reference), API, Changelog, Status, Use cases, Solutions |
+| **Product / SaaS** | Home, Features, Pricing, Docs (incl. API Reference), API, Changelog, Status, Use cases, Solutions, Tools (if free tools strategy) |
 | **B2B** | Home, Use cases, Solutions, Customer stories, Demo CTA |
 | **E-commerce** | Home, Products, Category pages, Cart, Refund, Shipping |
 | **Portfolio** | Home, About, Portfolio/Work, Services, Contact |

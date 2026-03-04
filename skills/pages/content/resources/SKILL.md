@@ -16,7 +16,7 @@ Guides resources page and content hub structure for discovery and SEO.
 **Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for content themes and audience.
 
 Identify:
-1. **Content types**: Blog, guides, webinars, templates, tools
+1. **Content types**: Blog, guides, webinars, templates, tools (or standalone /tools; see **tools-page-generator**)
 2. **Audience**: Buyers, users, both
 3. **Funnel stage**: Top, middle, bottom
 
@@ -57,6 +57,11 @@ Identify:
 - **Blog**: Part of resources or separate with cross-links
 - **Glossary**: Link from resources
 
+## Tools Integration
+
+- **Standalone /tools**: When many free tools; use **tools-page-generator**; toolkit hub + per-tool pages
+- **Resources section**: When few tools; embed tool cards in resources hub
+
 ## Output Format
 
 - **Structure** (categories, filters)
@@ -67,9 +72,12 @@ Identify:
 
 ## Related Skills
 
+- **tools-page-generator**: Standalone /tools when many free tools; toolkit hub
+
 - **landing-page-generator**: Lead magnet (ebook, webinar) as LP offer; LP exchanges resource for email
 - **url-slug-generator**: URL slug for resource pages (e.g. /resources/guide-slug); 3-5 words
 - **blog-page-generator**: Blog may be part of resources
 - **glossary-page-generator**: Glossary as resource
+- **tools-page-generator**: Standalone /tools when many free tools; toolkit hub
 - **content-strategy**: Content hub strategy
 - **internal-links**: Resource page linking

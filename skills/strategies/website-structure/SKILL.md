@@ -2,7 +2,7 @@
 name: website-structure
 description: When the user wants to plan website structure, decide which pages to build, or prioritize pages for a new or existing site. Also use when the user mentions "website structure," "site structure," "which pages do I need," "page planning," "sitemap planning," "Must Have pages," "website architecture," or "site hierarchy."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Strategy: Website Structure
@@ -39,6 +39,7 @@ Applicable to SaaS, tools, and content sites. Adapt by removing unused nodes (e.
 | Section | Typical Paths | Page Skills |
 |---------|---------------|-------------|
 | **Root** | /, /features, /pricing, /demo, /contact | homepage-generator, features-page-generator, pricing-page-generator |
+| **Tools** | /tools, /free-tools; hub + per-tool pages | tools-page-generator; free tools for lead gen; often SPA; programmatic; see **programmatic-seo** |
 | **Resources** | /blog, /changelog, /glossary, /faq, /tutorials | blog-page-generator, changelog-page-generator, glossary-page-generator, faq-page-generator |
 | **Partnership** | /affiliate, /startups, /ambassadors | affiliate-page-generator, landing-page-generator |
 | **Legal** | /terms, /privacy, /careers | terms-page-generator, privacy-page-generator, careers-page-generator |
@@ -79,6 +80,7 @@ Structure reflects growth strategy. Subdirectories signal channels:
 | **Early planning** | Plan structure before growth; can start right after domain purchase |
 | **Sitelinks** | Good structure + TOC + authoritative internal links → natural sitelinks in SERP (cannot be forced via schema); see **serp-features** |
 | **Orphan prevention** | Every page needs internal links; see **site-crawlability** and **internal-links** |
+| **Features vs Use cases** | /features = capability-first; /use-cases = scenario-first; differentiate content angle, link between, avoid overlap; see **features-page-generator**, **use-cases-page-generator** |
 
 ## Homepage Module Reference
 

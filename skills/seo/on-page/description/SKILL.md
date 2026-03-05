@@ -2,7 +2,7 @@
 name: meta-description
 description: When the user wants to optimize the meta description or meta tag description. Also use when the user mentions "meta description," "meta desc," "page description," "SEO description," "search snippet," "SERP description," "description tag," "snippet for search," "meta description length," "rewrite meta description," or "description not showing."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # SEO On-Page: Meta Description
@@ -13,7 +13,20 @@ Guides optimization of the meta description tag for search engines and SERP disp
 
 ## Scope (On-Page SEO)
 
-- **Meta description**: ~105 chars; CTA; unique value; target keyword; unique per page
+- **Meta description**: CTA; unique value; target keyword; unique per page
+
+## Length by Language
+
+Google truncates by **pixel width** (~920px desktop, ~680px mobile). Character counts are approximate:
+
+| Script / Language | Meta description (chars) | Notes |
+|-------------------|--------------------------|-------|
+| **Latin** (English, Spanish, French, etc.) | 150–160 | Desktop ~158; mobile ~120 |
+| **CJK** (Chinese, Japanese, Korean) | 70–80 | Wider pixels per character |
+| **Cyrillic** (Russian, etc.) | 140–155 | Slightly wider than Latin |
+| **Arabic, Hebrew** | 70–90 | RTL; variable width |
+
+**Multilingual**: Use locale-specific limits; localize, don't just translate. See **localization-strategy**, **translation**.
 
 ## Initial Assessment
 
@@ -22,13 +35,14 @@ Guides optimization of the meta description tag for search engines and SERP disp
 Identify:
 1. **Page type**: Homepage, landing, blog, product, etc.
 2. **Primary keyword**: Target search query
-3. **CTA**: Primary action (sign up, learn more, buy, etc.)
+3. **Language / script**: Apply length rule above
+4. **CTA**: Primary action (sign up, learn more, buy, etc.)
 
 ## Best Practices
 
 | Item | Guideline |
 |------|-----------|
-| **Length** | ~105 characters (truncates on mobile/desktop beyond that) |
+| **Length** | Per language (see table above); truncates beyond pixel limit |
 | **Unique** | One per page |
 | **CTA** | Include clear call-to-action when relevant |
 | **Keyword** | Naturally include target keyword |
@@ -36,7 +50,7 @@ Identify:
 
 ## Output Format
 
-- **Recommended meta description** (with character count)
+- **Recommended meta description** (with character count for target language)
 - **Alternatives** (if A/B testing)
 
 ## GSC-Driven Optimization
@@ -47,6 +61,7 @@ For pages with low CTR despite good position, use google-search-console to ident
 
 - **google-search-console**: CTR analysis, identify low-CTR pages for meta optimization
 - **title-tag**: Title pairs with description in SERP
+- **localization-strategy, translation**: Multilingual metadata; locale-specific length
 - **serp-features**: SERP features; standard result appearance in context
 - **heading-structure**: H1 should align with title; description summarizes content
 - **open-graph**: og:description for social sharing (often mirrors or extends meta description)

@@ -2,7 +2,7 @@
 name: title-tag
 description: When the user wants to optimize the title tag, page title, or SERP title. Also use when the user mentions "title tag," "meta title," "page title," "SEO title," "SERP title," "browser tab title," "title optimization," "headline for search," "title too long," "title tag length," "duplicate title tags," or "optimize title for CTR."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # SEO On-Page: Title Tag
@@ -13,7 +13,20 @@ Guides optimization of the HTML title tag for search engines and SERP display.
 
 ## Scope (On-Page SEO)
 
-- **Title tag**: Primary search snippet; ~55 chars; primary keyword near start; unique per page
+- **Title tag**: Primary search snippet; primary keyword near start; unique per page
+
+## Length by Language
+
+Google truncates by **pixel width** (~580–600px desktop). Character counts are approximate:
+
+| Script / Language | Title (chars) | Notes |
+|-------------------|---------------|-------|
+| **Latin** (English, Spanish, French, etc.) | 50–60 | ~55 recommended |
+| **CJK** (Chinese, Japanese, Korean) | 25–30 | Wider pixels per character |
+| **Cyrillic** (Russian, etc.) | 50–55 | Slightly wider than Latin |
+| **Arabic, Hebrew** | 30–40 | RTL; variable width |
+
+**Multilingual**: Use locale-specific limits; don't translate then truncate. See **localization-strategy**, **translation**.
 
 ## Initial Assessment
 
@@ -22,13 +35,14 @@ Guides optimization of the HTML title tag for search engines and SERP display.
 Identify:
 1. **Page type**: Homepage, landing, blog, product, etc.
 2. **Primary keyword**: Target search query
-3. **Brand**: Optional brand append at end
+3. **Language / script**: Apply length rule above
+4. **Brand**: Optional brand append at end
 
 ## Best Practices
 
 | Item | Guideline |
 |------|-----------|
-| **Length** | ~55 characters (Google truncates beyond that) |
+| **Length** | Per language (see table above); Google truncates beyond ~600px |
 | **Keyword** | Include primary keyword near the start |
 | **Unique** | One unique title per page |
 | **Brand** | Optional: append brand at end |
@@ -36,7 +50,7 @@ Identify:
 
 ## Output Format
 
-- **Recommended title** (with character count)
+- **Recommended title** (with character count for target language)
 - **Alternatives** (if A/B testing)
 
 ## GSC-Driven Optimization
@@ -47,6 +61,7 @@ For pages with low CTR despite good position, use google-search-console to ident
 
 - **google-search-console**: CTR analysis, identify low-CTR pages for title optimization
 - **meta-description**: Meta description pairs with title in SERP
+- **localization-strategy, translation**: Multilingual metadata; locale-specific length
 - **serp-features**: SERP features; standard result appearance in context
 - **heading-structure**: H1 should align with title tag
 - **open-graph**: og:title for social sharing (often mirrors title)

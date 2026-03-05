@@ -13,6 +13,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 _None._
 
+## [2026-03-05] v2.3.1
+
+### Changed
+
+- **title-tag** — Length 50–60 chars (Latin); add Length by Language (CJK 25–30, Cyrillic 50–55, Arabic 30–40); pixel-width note.
+- **meta-description** — Length 150–160 chars (Latin); add Length by Language (CJK 70–80, Cyrillic 140–155, Arabic 70–90); localization-strategy, translation refs.
+
 ## [2026-03-05] v2.3.0
 
 ### Added

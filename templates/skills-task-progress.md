@@ -157,6 +157,9 @@ Add rows for pages that exist or need creation. Delete rows for page types you d
 | Task | Skill | Status | Priority | Notes | Updated |
 |------|-------|--------|----------|-------|---------|
 | Cold start (Product Hunt, AppSumo, directories) | cold-start-strategy | Pending | P2 | | |
+| Distribution channels, marketplace listing | distribution-channels | Pending | P2 | | |
+| Growth funnel (AARRR, acquisition flow) | growth-funnel | Pending | P2 | | |
+| Research sources (market, competitor data) | research-sources | Pending | P2 | | |
 | Parasite SEO (Medium, Reddit, GitHub) | parasite-seo, github-seo | Pending | P2 | | |
 | Directory submission (Taaft, Product Hunt) | directory-submission | Pending | P2 | | |
 | Grokipedia / GEO (AI search) | grokipedia-recommendations, generative-engine-optimization | Pending | P2 | | |

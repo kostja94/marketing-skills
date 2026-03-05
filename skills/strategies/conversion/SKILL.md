@@ -2,7 +2,7 @@
 name: conversion-optimization
 description: When the user wants to improve conversion rates, run A/B tests, optimize funnels, or reduce friction. Also use when the user mentions "CRO," "conversion rate optimization," "A/B test," "split test," "funnel optimization," "checkout optimization," "form optimization," or "conversion funnel."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Strategies: Conversion Optimization
@@ -64,6 +64,17 @@ Rank backlog by total score; run highest-impact tests first.
 | **Pricing** | Plan order; anchoring; CTA per tier |
 
 **Personalization**: Personalized experiences generate ~41% more impact than generic ones.
+
+## Commercialization Infrastructure
+
+| Module | Purpose |
+|--------|---------|
+| **Data & BI** | Data warehouse; user behavior events; agile surveys |
+| **A/B testing** | Experiment platform; statistical significance; backend-controlled variants |
+| **User education** | Help docs (multi-language); update notifications; EDM |
+| **Attribution** | Ad pixels; attribution model; impression-to-click-to-sale tracking |
+
+**Avoid**: Intrusive interstitials; popups that block content. Prefer non-intrusive ad formats.
 
 ## Foundational Requirements
 

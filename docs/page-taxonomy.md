@@ -120,6 +120,7 @@ Focused on conversion, acquisition, and partnership recruitment. Goals: signups,
 **Features vs Use cases vs Solutions** (avoid overlap): Features = What (capabilities, benefit-first); Use cases = When/How (scenario, persona, business goal); Solutions = Outcome (industry, company size, team). All target Commercial/Consideration — differentiate by content angle (capability vs scenario vs outcome) to avoid content cannibalization. See features-page-generator, use-cases-page-generator, solutions-page-generator.
 
 **Tools vs Features**: Tools = free, standalone utilities; lead gen; not primary monetization; excerpt from product; same ICP; often many tools + toolkit hub; programmatic keywords. Features = paid product capabilities; conversion focus. See tools-page-generator, features-page-generator.
+
 | **Alternatives** | alternatives-page-generator | Commercial | Consideration | "X alternatives," "X vs Y"; standalone page or blog listicle; high SEO for SaaS |
 | **Integrations** | integrations-page-generator | Commercial | Consideration | Plugins, extensions, API integrations; connect with Slack, Notion, etc. |
 | **Migration** | migration-page-generator | Transactional | Decision | Migrate from competitor; step-by-step; link from alternatives |

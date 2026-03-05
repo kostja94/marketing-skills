@@ -1,6 +1,6 @@
 # Full Skills List
 
-Complete list of all 147 skills with descriptions. See [README](../README.md) for overview.
+Complete list of all 150 skills with descriptions. See [README](../README.md) for overview.
 
 ## SEO
 
@@ -216,6 +216,7 @@ Different website types need different pages. See [page-taxonomy.md § Website T
 | [referral-program](../skills/channels/referral/) | Referral program strategy |
 | [creator-program](../skills/channels/creator-program/) | Creator program strategy |
 | [community-forum](../skills/channels/community-forum/) | Forum promotion, community invitation, Indie Hacker, HN |
+| [distribution-channels](../skills/channels/distribution-channels/) | Distribution channel selection, marketplace listing, channel mix |
 | [directory-submission](../skills/channels/directories/) | Directory submission (Taaft, Product Hunt, etc.) |
 | [pr-marketing](../skills/channels/pr/) | Press release, media relations, product announcement |
 
@@ -243,6 +244,7 @@ Different website types need different pages. See [page-taxonomy.md § Website T
 | [paid-ads-strategy](../skills/strategies/paid-ads/) | Paid ads strategy: when to use; channel selection; budget; ad-to-page alignment; cross-platform frameworks. Platform execution → google-ads, meta-ads, linkedin-ads, reddit-ads, tiktok-ads |
 | [website-structure](../skills/strategies/website-structure/) | Plan which pages to build, page priority (Must Have/Great to Have/Optional), structure for UX/SEO/growth |
 | [cold-start-strategy](../skills/strategies/cold-start/) | Cold start, first users, launch channels (Product Hunt, Reddit, AppSumo) |
+| [growth-funnel](../skills/strategies/growth-funnel/) | AARRR funnel, acquisition flow, activation, retention, referral, revenue |
 | [indie-hacker-strategy](../skills/strategies/indie-hacker/) | Indie hacker growth: Bootstrapping, Build in Public, channels; solo founder tactics |
 | [discount-marketing-strategy](../skills/strategies/pricing/discount-marketing/) | Discount strategy, LTD, redeem code, BFCM, promo campaigns |
 | [pricing-strategy](../skills/strategies/pricing/pricing-strategy/) | Pricing model, tier design, anchoring; base price structure |
@@ -257,6 +259,7 @@ Different website types need different pages. See [page-taxonomy.md § Website T
 | [rebranding-strategy](../skills/strategies/rebranding/) | Rebranding: domain change, 301 redirects, migration, social announcement |
 | [conversion-optimization](../skills/strategies/conversion/) | CRO, A/B testing, funnel optimization, PIE prioritization |
 | [product-launch](../skills/strategies/product-launch/) | Product launch execution: channels, timeline, checklist; GTM framework → gtm-strategy |
+| [research-sources](../skills/strategies/research-sources/) | Information sources for market research, competitor analysis, data collection |
 | [retention-strategy](../skills/strategies/retention/) | Churn prevention, lifecycle marketing, health scoring |
 
 ## Analytics

@@ -2,7 +2,7 @@
 name: retention-strategy
 description: When the user wants to reduce churn, improve customer retention, or plan lifecycle marketing. Also use when the user mentions "retention," "churn," "customer lifecycle," "churn prevention," "at-risk customers," or "loyalty program."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Strategies: Retention
@@ -47,6 +47,16 @@ Move from lagging indicator to early warning systems.
 | **Segmentation** | Predictive modeling for at-risk |
 | **Onboarding** | Prevent low value realization early |
 | **Dunning** | Retry logic; pre-expiry card updates for involuntary |
+
+## User Value & Feedback
+
+| Dimension | Use |
+|-----------|-----|
+| **Product value** | Registration; feature usage; payment |
+| **Marketing value** | Testimonials; customer stories; webinar guests; feedback, bug reports, feature requests |
+| **Feedback analysis** | Email, community, reviews—AI-assisted analysis; prioritize by impact; route to product vs ops |
+
+**Avoid**: Treating users only as MAU/registration denominators. See **creator-program** for creator ecosystem.
 
 ## Lifecycle Integration
 

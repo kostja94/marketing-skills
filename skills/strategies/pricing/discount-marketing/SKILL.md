@@ -2,7 +2,7 @@
 name: discount-marketing-strategy
 description: When the user wants to plan, implement, or optimize discount and promotional pricing strategy. Also use when the user mentions "discount strategy," "promo code," "coupon," "redeem code," "lifetime deal," "LTD," "AppSumo," "Black Friday," "Cyber Monday," "BFCM," "seasonal sale," or "promotional pricing."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Strategies: Discount Marketing
@@ -117,6 +117,18 @@ LTD = one-time payment for lifelong access instead of recurring subscription. Co
 | **Startups / education** | Special pricing for segment | **startups-page-generator** |
 | **Forum / community** | Discount codes in niche forums | **community-forum** |
 | **Affiliate** | Coupon sites; affiliate-specific codes | **affiliate-marketing** |
+
+## Promotional Materials
+
+| Type | Use |
+|------|-----|
+| **Banner / poster** | Website, events; attract attention |
+| **Brochure** | Handout; company overview |
+| **Logo stickers** | Brand exposure |
+| **Website prep** | Promo landing page; banner for BFCM, seasonal; see **top-banner-generator** |
+| **Media kit** | For press, partners; see **media-kit-page-generator** |
+
+**Corporate materials**: Company overview, annual report, product info—for investor/partner meetings; printable for events.
 
 ## Implementation Best Practices
 

@@ -1,8 +1,8 @@
 ---
 name: cold-start-strategy
-description: When the user wants to plan cold start, get first users, or launch a new product with zero traction. Also use when the user mentions "cold start," "cold start problem," "first users," "seed users," "product launch strategy," "0 to 1 growth," "early-stage acquisition," "launch channels," "get first customers," "Product Hunt launch," "AppSumo," "LTD," "indie hacker," "bootstrapping," or "solo founder."
+description: When the user wants to plan cold start, get first users, or launch a new product with zero traction. Also use when the user mentions "cold start," "cold start problem," "first users," "seed users," "finding users," "finding early users," "Fiverr Upwork," "comment outreach," "Twitter search users," "product launch strategy," "0 to 1 growth," "early-stage acquisition," "launch channels," "get first customers," "Product Hunt launch," "AppSumo," "LTD," "indie hacker," "bootstrapping," or "solo founder."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Strategies: Cold Start
@@ -33,6 +33,43 @@ Identify:
 | **Directory submission** | AI tools, product launch | Taaft, G2, niche directories | Validate PMF; seed users; see **directory-submission** |
 | **Founder-led outbound** | B2B, high ACV | Cold email, LinkedIn; 10–15 personalized outreaches/day | Pre-$5K MRR; only reliable path when ACV >$500/mo |
 | **Community engagement** | Target users | Forums, LinkedIn groups, Discord | 45–90 days; contribute value first |
+
+## Finding Users: Demand-Signal Outreach
+
+Low-cost ways to find and reach users who are already expressing need. Use when Product Hunt, directories, or forums are not enough.
+
+### Social Platform Search
+
+Search Twitter/X, LinkedIn, Reddit, and niche communities for demand signals:
+
+| Signal | What to seek |
+|--------|--------------|
+| **Keywords** | Industry terms, category keywords, "looking for [X] tool," "best alternative to [Y]" |
+| **Discussion** | Industry threads, complaints about competitors, "anyone used…" or "recommend…" posts |
+| **Platform** | Choose where your audience spends time (Twitter/X, LinkedIn, Reddit, Discord, vertical forums) |
+
+### Freelance Platforms (Fiverr, Upwork)
+
+| Step | Practice |
+|------|----------|
+| **Search** | Service requests related to your product (e.g. "need logo design," "looking for video editor") |
+| **Identify** | Buyers in job descriptions or comments who have related needs |
+| **Reach** | Offer help or tool recommendation; introduce product politely |
+
+Users often have clear need and budget; high intent.
+
+### Comment Outreach (Twitter/X, etc.)
+
+| Practice | Guideline |
+|----------|-----------|
+| **Search** | Brand, category, "looking for AI tool," "best alternative to…" |
+| **Reply** | Comment on posts where users express need; avoid spam |
+| **Tone** | Sincere; honest that it's your product; invite trial and feedback |
+| **Avoid** | Hard sell; copy-paste; repeated posting |
+
+**Example outreach**: "Hi, I'm building something similar. If you'd like to try it: [link]. Happy to hear any feedback—we're iterating actively."
+
+**Feedback collection**: DM, email, survey, user interview, in-app feedback—choose by channel and context.
 
 ## Multi-Channel Launch (6–7 Week)
 

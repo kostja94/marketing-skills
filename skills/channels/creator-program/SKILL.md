@@ -2,7 +2,7 @@
 name: creator-program
 description: When the user wants to plan, implement, or optimize creator program strategy. Also use when the user mentions "creator program," "creator partnership," "content co-creation," "creator ambassador," "creator economy," "creator collaboration," "UGC program," "creator incentives," or "creator community."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Channels: Creator Program
@@ -55,6 +55,16 @@ Identify:
 - **Clear terms**: Content policy, NSFW rules, brand guidelines
 - **Communication**: Community chat, email; regular updates
 - **Timeline**: 3–6 months to see results; patience required
+
+## Ecosystem Operations
+
+| Principle | Use |
+|-----------|-----|
+| **Value for all** | Each participant (creators, content, integrations) gains value—not just the platform |
+| **Integrations** | Product must integrate with upstream/downstream tools; enables solution bundling |
+| **Multi-product** | Form solution suites; support partners including you in their stacks |
+
+**Creators + community**: Free tools + high-quality creator content; mutual promotion; user-generated quality often exceeds in-house.
 
 ## Common Challenges
 

@@ -2,7 +2,7 @@
 name: integrated-marketing
 description: When the user wants to plan integrated marketing, coordinate channels, or clarify program vs channel vs campaign. Also use when the user mentions "IMC," "integrated marketing," "channel mix," "marketing program," "PESO model," "integrated marketing communications," "omnichannel marketing," "channel strategy," "marketing mix," or "cross-channel campaign."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Strategies: Integrated Marketing (IMC)
@@ -44,6 +44,20 @@ Organize communications into four integrated categories:
 | **Scale** | MRR, ARR |
 
 **Principle**: Growth is a means, not an end—it serves conversion and monetization. Don't pursue traffic at the cost of user precision or long-term brand health.
+
+## Customer Journey by Stage
+
+Map touchpoints across the lifecycle to avoid channel silos:
+
+| Stage | Touchpoints |
+|-------|-------------|
+| **Awareness** | PR, ads, word-of-mouth, email, PPC |
+| **Consideration** | Social ads, reviews, blog, media, direct email |
+| **Purchase** | Website, e-commerce, store |
+| **Retention** | FAQ, knowledge base, community forum |
+| **Advocacy** | Social, blog, promotions, newsletter |
+
+**Use**: Assign channels to stages; ensure handoffs (e.g. awareness → consideration) are intentional. See **growth-funnel** for AARRR framework.
 
 ## Channel Evaluation Framework
 

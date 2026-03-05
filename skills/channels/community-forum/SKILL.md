@@ -2,7 +2,7 @@
 name: community-forum
 description: When the user wants to promote via forums, communities, or invite users to join a community. Also use when the user mentions "forum promotion," "Indie Hacker," "Hacker News," "community growth," "Discord promotion," "vertical community," "brand encyclopedia," "Wikipedia," "Quora," "Reddit community," "community building," "forum marketing," or "community invite."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Channels: Community & Forum Promotion
@@ -27,7 +27,7 @@ Identify:
 | **Indie Hacker** | Indie makers, founders | Sustained engagement; authentic journey posts; ~23% conversion vs PH 3% |
 | **Hacker News** | Tech, startups | Show HN launch; ~1,300 posts/day; front page = luck + timing |
 | **Hackernoon** | Dev, tech readers | Content distribution |
-| **Industry forums** | Niche verticals | Discount codes, leads; search "[industry] forum"; see **discount-marketing-strategy** for code strategy |
+| **Industry forums** | Niche verticals | Discount codes for leads; search "[industry] forum"; post event/activity promotion; see **discount-marketing-strategy** for code strategy |
 | **Reddit** | Subreddit-specific | See **reddit-posts**; 90/10 rule; 29+ posts for traction |
 
 ## Hacker News Launch
@@ -70,8 +70,9 @@ For full Indie Hackers tactics, Build in Public content framework (40/30/20/10),
 |-----------|-----------|
 | **Target** | Find channels where target audience gathers |
 | **Niche over broad** | Industry-specific subgroups; avoid mass posting |
-| **Caution** | Mass posting risks removal; match community tone |
+| **Caution** | Mass posting risks removal; match community tone; choose wording carefully |
 | **Examples** | Reddit subreddits, Discord servers, Quora, X, Hacker News, Stack Overflow, niche B2B communities |
+| **Regional** | Large communities by locale—event/activity promotion; target vertical channels within each; see **localization-strategy** |
 
 **Community-led growth**: Engage before promoting; build trust; contribute value first.
 
@@ -90,9 +91,9 @@ For full Indie Hackers tactics, Build in Public content framework (40/30/20/10),
 | **Wikipedia** | Global; neutral, cited content; brand credibility |
 | **Quora** | Q&A; brand discussion, thought leadership, long-term SEO |
 | **Stack Overflow** | Tech/dev; expertise signals, backlinks |
-| **Regional** | Baidu Baike, Sogou (China); see **localization-strategy** |
+| **Regional** | Local encyclopedias and Q&A by locale; verified credentials; see **localization-strategy** |
 
-**Wikipedia**: Neutral language, credible references, no promotional content. Regional encyclopedias (e.g. Baidu Baike in China) require verified credentials; prioritize local search share. Free and sustainable; supports long-term conversion while search habits persist.
+**Wikipedia**: Neutral language, credible references, no promotional content. Regional platforms require verified credentials; prioritize local search share. Free and sustainable; supports long-term conversion while search habits persist.
 
 ## Output Format
 

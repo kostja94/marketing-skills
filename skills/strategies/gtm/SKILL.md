@@ -2,7 +2,7 @@
 name: gtm-strategy
 description: When the user wants to plan go-to-market strategy, GTM framework, or market entry. Also use when the user mentions "GTM," "go-to-market," "market entry," "new market," "repositioning," "PLG," "sales-led," "product-led," "marketing-led," "ICP," "buyer persona," "GTM motion," or "market expansion."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Strategies: Go-to-Market
@@ -60,6 +60,17 @@ Guides go-to-market (GTM) strategy—the blueprint for launching or repositionin
 | **TAM** | Total addressable market; named account lists; primary TAM, serviceable TAM, accounts with buying signals |
 | **Competitive landscape** | Customer bases, strengths, weaknesses, positioning claims |
 | **Buying patterns** | Replace assumptions with data; customer pain points; decision criteria |
+
+## Enterprise / High-ACV Challenges
+
+| Challenge | Mitigation |
+|-----------|------------|
+| **Customization** | Product modularity; professional services; clear scope |
+| **Data security / private deployment** | On-prem or private cloud; compliance; security certifications |
+| **Procurement cycles** | Multi-stakeholder alignment; champion building; long sales cycles |
+| **Buy vs SaaS** | Total cost of ownership; flexibility; ongoing value |
+
+**Use**: When GTM targets enterprise or high-ACV—expect longer cycles, procurement, and security requirements.
 
 ## New Market Entry
 

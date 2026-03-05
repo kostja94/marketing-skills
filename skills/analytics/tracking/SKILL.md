@@ -2,7 +2,7 @@
 name: analytics-tracking
 description: When the user wants to set up, audit, or optimize analytics tracking (GA4, events, conversions). Also use when the user mentions "Google Analytics," "GA4," "event tracking," "conversions," "attribution model," "gtag," "data layer," "GA4 setup," "conversion tracking," "event setup," "User ID tracking," or "CTA attribution."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Analytics: Tracking
@@ -28,6 +28,16 @@ Track CTA clicks on key articles to measure content ROI:
 | **Use** | Compare high vs low performers; optimize CTA placement and copy |
 
 See **seo-monitoring** for article database and benchmark context.
+
+## Infrastructure Requirements
+
+| Component | Purpose |
+|-----------|---------|
+| **Data warehouse** | Centralized data; BI reporting |
+| **Event tracking** | User behavior; funnel mapping |
+| **Attribution** | Ad pixels; attribution model; impression-to-sale tracking |
+
+**Optimization flow**: Clean UTM + conversion events → attribution reports → optimize channel mix.
 
 ## Scope
 

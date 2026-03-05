@@ -2,7 +2,7 @@
 name: website-structure
 description: When the user wants to plan website structure, decide which pages to build, or prioritize pages for a new or existing site. Also use when the user mentions "website structure," "site structure," "which pages do I need," "page planning," "sitemap planning," "Must Have pages," "website architecture," or "site hierarchy."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Strategy: Website Structure
@@ -85,6 +85,7 @@ When planning for multiple products or brands, see **domain-architecture** for s
 | **Sitelinks** | Good structure + TOC + authoritative internal links → natural sitelinks in SERP (cannot be forced via schema); see **serp-features** |
 | **Orphan prevention** | Every page needs internal links; see **site-crawlability** and **internal-links** |
 | **Features vs Use cases** | /features = capability-first; /use-cases = scenario-first; differentiate content angle, link between, avoid overlap; see **features-page-generator**, **use-cases-page-generator** |
+| **Clear navigation** | Clear hierarchy and nav improve task completion; users find what they need faster; see **navigation-menu-generator** |
 
 ## Homepage Module Reference
 

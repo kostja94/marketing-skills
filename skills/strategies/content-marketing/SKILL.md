@@ -2,7 +2,7 @@
 name: content-marketing
 description: When the user wants to plan content marketing across channels, define content types and formats, or create a content repurposing strategy. Also use when the user mentions "content marketing strategy," "content types," "content formats," "content repurposing," "content calendar," "content mix," "owned content," "content distribution," "content funnel," or "content planning across channels."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Strategies: Content Marketing
@@ -45,6 +45,17 @@ Identify:
 | **Onboarding** | Welcome, first-use guidance | Retention | email-marketing |
 | **Campaign** | Promotions, limited-time | Decision | email-marketing |
 | **Newsletter** | Curated insights; nurture | Retention | email-marketing |
+
+### Product Marketing Content
+
+| Type | Use | Format |
+|------|-----|--------|
+| **QA answers** | Internal reference or customer-facing; product questions | Docs, FAQ, KB |
+| **Use guide** | How to use product; onboarding | Blog, docs, video |
+| **Maintenance guide** | Care, upkeep, best practices | Docs, blog |
+| **Troubleshooting** | Common issues, bugs, fixes | FAQ, docs, KB |
+
+**Use**: Blog, docs, or in-product; supports activation and retention. See **faq-page-generator**, **docs-page-generator**.
 
 ## Content Formats (How It's Delivered)
 

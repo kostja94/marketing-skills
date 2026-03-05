@@ -2,7 +2,7 @@
 name: content-strategy
 description: When the user wants to plan content for SEO, create content calendar, or build topic clusters. Also use when the user mentions "content strategy," "content plan," "topic clusters," "pillar content," "pillar page," "cluster articles," "editorial calendar," "content hub," "content planning," "content clusters," "topic cluster strategy," "content strategy for SEO," or "content calendar."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # SEO Content: Content Strategy
@@ -64,6 +64,10 @@ Cluster 6-12 (subtopics)
 | **Pillar to Cluster** | Hub distributes authority; users discover subtopics |
 | **Cluster to Pillar** | Signals relationship; passes equity to hub |
 | **Cluster to Cluster** | Related subtopics; strengthens topical coverage |
+
+### Structure and Content Equally Important
+
+**Framework and body quality both matter**: TOC, chapter logic, and content depth are all essential for SEO and UX. Weak structure undermines strong writing; weak writing undermines strong structure. Plan both from the start.
 
 ### Why Topic Clusters Work
 

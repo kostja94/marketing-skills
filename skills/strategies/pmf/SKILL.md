@@ -2,7 +2,7 @@
 name: pmf-strategy
 description: When the user wants to validate product-market fit, measure PMF, or plan before scaling. Also use when the user mentions "PMF," "product-market fit," "product market fit," "Sean Ellis test," "very disappointed," "vitamin vs painkiller," "PMF validation," "premature scaling," or "validate before scale."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Strategies: Product-Market Fit
@@ -69,6 +69,17 @@ Guides product-market fit (PMF) validation and measurement. PMF occurs when a pr
 | **Vanity feedback** | Use retention data, not polite opinions |
 | **Premature scaling** | Validate PMF before scaling acquisition |
 | **Misalignment** | Customer-problem fit before product-build |
+
+## Product Research & SaaS Context
+
+| Area | Notes |
+|------|-------|
+| **Product positioning** | Target audience; core value; competitive differentiation |
+| **Market research** | Competitor analysis; surveys; interviews to validate assumptions |
+| **SaaS form** | Cloud delivery; subscription; ease of use; dependency on industry standardization |
+| **Enterprise / ACV** | Customization; data security/private deployment; procurement cycles; buy vs SaaS trade-offs |
+
+**Use**: When discussing PMF for SaaS or enterprise—factor in product research rigor and ACV-specific challenges. See **gtm-strategy** for enterprise GTM.
 
 ## PMF as Continuous Process
 

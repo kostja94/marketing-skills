@@ -2,7 +2,7 @@
 name: meta-description
 description: When the user wants to optimize the meta description or meta tag description. Also use when the user mentions "meta description," "meta desc," "page description," "SEO description," "search snippet," "SERP description," "description tag," "snippet for search," "meta description length," "rewrite meta description," or "description not showing."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # SEO On-Page: Meta Description
@@ -17,14 +17,16 @@ Guides optimization of the meta description tag for search engines and SERP disp
 
 ## Length by Language
 
-Google truncates by **pixel width** (~920px desktop, ~680px mobile). Character counts are approximate:
+Google truncates by **pixel width** (~920px desktop, ~680px mobile), not character count. Character limits are approximate—CJK chars are wider (~2× Latin), so fewer fit in the same pixels.
 
 | Script / Language | Meta description (chars) | Notes |
 |-------------------|--------------------------|-------|
 | **Latin** (English, Spanish, French, etc.) | 150–160 | Desktop ~158; mobile ~120 |
-| **CJK** (Chinese, Japanese, Korean) | 70–80 | Wider pixels per character |
+| **CJK** (Chinese, Japanese, Korean) | 75–100 | Full-width chars; 70–80 conservative; 90–100 on some locales/fonts; use pixel checker when available |
 | **Cyrillic** (Russian, etc.) | 140–155 | Slightly wider than Latin |
 | **Arabic, Hebrew** | 70–90 | RTL; variable width |
+
+**Pixel tools**: Use a pixel-accurate meta tag checker for CJK—font and locale affect display; character counts vary by source (65–80 to 90–120 in practice).
 
 **Multilingual**: Use locale-specific limits; localize, don't just translate. See **localization-strategy**, **translation**.
 

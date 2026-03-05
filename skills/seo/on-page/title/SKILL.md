@@ -2,7 +2,7 @@
 name: title-tag
 description: When the user wants to optimize the title tag, page title, or SERP title. Also use when the user mentions "title tag," "meta title," "page title," "SEO title," "SERP title," "browser tab title," "title optimization," "headline for search," "title too long," "title tag length," "duplicate title tags," or "optimize title for CTR."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # SEO On-Page: Title Tag
@@ -17,14 +17,16 @@ Guides optimization of the HTML title tag for search engines and SERP display.
 
 ## Length by Language
 
-Google truncates by **pixel width** (~580–600px desktop). Character counts are approximate:
+Google truncates by **pixel width** (~580–600px desktop), not character count. Character limits are approximate—CJK chars are wider (~2× Latin), so fewer fit in the same pixels.
 
 | Script / Language | Title (chars) | Notes |
 |-------------------|---------------|-------|
 | **Latin** (English, Spanish, French, etc.) | 50–60 | ~55 recommended |
-| **CJK** (Chinese, Japanese, Korean) | 25–30 | Wider pixels per character |
+| **CJK** (Chinese, Japanese, Korean) | 25–35 | Full-width chars; 25–30 desktop; 20–28 mobile; use pixel checker when available |
 | **Cyrillic** (Russian, etc.) | 50–55 | Slightly wider than Latin |
 | **Arabic, Hebrew** | 30–40 | RTL; variable width |
+
+**Pixel tools**: Use a pixel-accurate checker for CJK—font and locale affect display.
 
 **Multilingual**: Use locale-specific limits; don't translate then truncate. See **localization-strategy**, **translation**.
 

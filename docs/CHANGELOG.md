@@ -13,6 +13,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 _None._
 
+## [2026-03-05] v2.3.3
+
+### Changed
+
+- **title-tag, meta-description** — CJK: title 25–35 (was 25–30); meta description 75–100 (was 70–80). Add pixel-width note; recommend pixel-accurate checker for CJK (font/locale variance).
+
 ## [2026-03-05] v2.3.2
 
 ### Changed

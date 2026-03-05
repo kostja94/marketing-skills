@@ -13,6 +13,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 _None._
 
+## [2026-03-05] v2.3.4
+
+### Changed
+
+- **github-seo** — Add Repository Name, About & README section: name/About/topics best practices; README structure (TOC, installation, usage, screenshots, badges); GEO practices (answer-first, short paragraphs, question headings); 350-char About limit; 6–20 topics; checklist.
+
 ## [2026-03-05] v2.3.3
 
 ### Changed

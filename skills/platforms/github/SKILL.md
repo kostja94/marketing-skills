@@ -1,8 +1,8 @@
 ---
 name: github-seo
-description: When the user wants to use GitHub for SEO, parasite SEO, GEO, or create curated lists. Also use when the user mentions "GitHub SEO," "GitHub parasite SEO," "GitHub GEO," "awesome list," "awesome list GitHub," "awesome-seo," "awesome-tools," "GitHub Pages," "GitHub README," "GitHub gist," "curated list GitHub," "navigation list," "curated list," or "navigation list."
+description: When the user wants to use GitHub for SEO, parasite SEO, GEO, or create curated lists. Also use when the user mentions "GitHub SEO," "GitHub parasite SEO," "GitHub GEO," "awesome list," "GitHub README," "repository name," "About section," "GitHub description," "GitHub topics," "GitHub Pages," "GitHub gist," "curated list," or "navigation list."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Platforms: GitHub
@@ -29,6 +29,78 @@ Guides GitHub for parasite SEO, GEO (AI citation), and curated list creation. Gi
 | **GEO** | Documentation, tutorials, curated lists | AI tools cite GitHub for technical answers |
 | **Curated / navigation lists** | Awesome-style repos | Topic-specific resource directories; backlinks, discovery |
 
+## Repository Name, About & README (SEO/GEO Priority)
+
+**Ranking weight** (GitHub + Google): Repository name & About ≈ highest; Topics ≈ high; README ≈ high.
+
+### Repository Name
+
+| Practice | Guideline |
+|----------|-----------|
+| **Descriptive** | Hint at what the project does |
+| **Keyword-rich** | Include primary keywords (`markdown-editor` not `my-project`) |
+| **Hyphens** | Separate words (`react-component-library`) |
+| **Concise** | Shorter = memorable, shareable |
+
+### About Section (Description)
+
+| Limit | Guideline |
+|-------|-----------|
+| **350 chars** | Hard limit; GitHub enforces |
+| **~128 chars** | Optimal for brevity; often displayed fully |
+| **Content** | Primary keyword + natural variations; what it does, who it's for; link to website or docs if space |
+
+**Example**: "A fast, lightweight markdown editor for React with live preview, syntax highlighting, and export to PDF. Built with TypeScript."
+
+### Topics
+
+| Limit | Guideline |
+|-------|-----------|
+| **6–20 topics** | Max 20; 6–10 recommended |
+| **~50 chars** each | Per topic |
+| **Format** | Lowercase, hyphens, numbers only |
+| **Mix** | Technology (react, python), purpose (cli, library), category (seo, ai-tools), community (hacktoberfest) |
+
+**Underutilized** but highly effective for discoverability and GEO.
+
+### README Structure & Components
+
+| Section | Purpose | SEO/GEO |
+|---------|---------|---------|
+| **Title + tagline** | H1 + 1–2 sentence summary; keywords in first paragraph | Critical; first 100 words weighted |
+| **Table of contents** | Links to H2/H3; for READMEs >500 words | Navigation; crawlability |
+| **Installation / Quick start** | Prerequisites; exact commands; copy-paste ready | Use-case clarity |
+| **Usage examples** | Code blocks; common scenarios | Citable; extractable |
+| **Screenshots / GIFs** | Demo, output; alt text required | Engagement; accessibility |
+| **Badges** | Build, version, license | Trust signals |
+| **Contributing** | Link to CONTRIBUTING.md | Community signal |
+| **License** | Link to LICENSE | Completeness |
+
+**Word count**: No hard limit; 500–1,500 words typical for product repos. Lead with value; expand later.
+
+### README GEO / AI Citation
+
+| Practice | Guideline |
+|----------|-----------|
+| **Answer-first** | Direct answer in first 1–2 sentences (40–60 words) |
+| **Short paragraphs** | 2–3 sentences max; extractable clarity |
+| **Question-style headings** | H2/H3 as questions where relevant |
+| **Data inclusion** | Stats, numbers; cited content ~40% more likely to include data |
+| **Freshness** | Update regularly; ~76% of cited content updated within 30 days |
+
+**Entity signals**: Clear project name, author, maintainer; consistent identity.
+
+### README Checklist
+
+- [ ] Project title with keywords
+- [ ] Concise description in first paragraph
+- [ ] H2/H3 structure; alt text for images
+- [ ] Installation + usage examples
+- [ ] Screenshots or demo
+- [ ] Badges; Contributing; License
+- [ ] Internal links to related docs/repos
+- [ ] 6–20 topics on repo
+
 ## Parasite SEO on GitHub
 
 ### Key Surfaces
@@ -45,10 +117,11 @@ Guides GitHub for parasite SEO, GEO (AI citation), and curated list creation. Gi
 
 | Element | Practice |
 |---------|----------|
-| **Repository title** | Primary keywords |
+| **Repository title** | Primary keywords; descriptive; hyphens |
+| **About** | 350 chars max; keyword-rich; primary keyword + natural variations |
 | **Description** | Secondary keywords; link to website or resources |
 | **README** | Keyword-optimized summary first; headings, bullet points; screenshots; links to docs, tutorials |
-| **Topics / tags** | Relevant topics for discoverability |
+| **Topics / tags** | 6–20 relevant topics; 50 chars each |
 | **GitHub Pages** | Mobile-friendly; metadata; blog/FAQ for extra keywords |
 
 ### Gists for Micro-Content
@@ -133,7 +206,9 @@ Guides GitHub for parasite SEO, GEO (AI citation), and curated list creation. Gi
 ## Output Format
 
 - **Use case** (parasite SEO / GEO / curated list)
+- **Repository name, About, Topics** (if optimizing metadata)
 - **Surface** (README, Pages, gist, awesome repo)
+- **README structure** (sections, word count, GEO practices if applicable)
 - **Optimization** (keywords, structure, links)
 - **Ready-to-use** copy or structure where applicable
 

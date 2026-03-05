@@ -2,7 +2,7 @@
 name: landing-page-generator
 description: When the user wants to create, optimize, or audit campaign landing pages for paid ads or other traffic. Also use when the user mentions "landing page," "PPC landing page," "SEM landing page," "conversion page," "campaign page," "lead capture page," "landing page optimization," "LP conversion," "single-page funnel," or "squeeze page."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Pages: Landing Page
@@ -92,7 +92,21 @@ When you need **many landing pages** (e.g., city-specific, product-specific, int
 - **Load time**: Under 2.5 seconds; each extra second can cost ~7% conversion
 - **Mobile-first**: Responsive; CTA visible without scrolling
 - **Visuals**: Hero image or video can improve conversion up to 80%
+- **Frontend aesthetics**: For distinctive typography, motion, spatial composition, backgrounds—see **brand-visual-generator** Frontend Aesthetics
 - **Disclosure**: FTC-compliant affiliate/paid disclosure when applicable
+
+## Pre-Delivery Checklist
+
+Before shipping a landing page, verify:
+
+| Category | Check |
+|----------|-------|
+| **Visual** | No emojis as icons (use SVG); icons from consistent set (Heroicons/Lucide); hover states don't cause layout shift |
+| **Interaction** | All clickable elements have `cursor-pointer`; hover provides clear feedback; transitions 150–300ms |
+| **Accessibility** | Images have alt text; form inputs have labels; color not sole indicator; `prefers-reduced-motion` respected |
+| **Layout** | No horizontal scroll on mobile; content not hidden behind fixed nav; responsive at 375px, 768px, 1024px |
+| **Performance** | Load time under 2.5s; LCP optimized; images use WebP/lazy loading where appropriate |
+| **Images** | See **image-optimization** for alt, format, responsive, lazy loading |
 
 ## Output Format
 
@@ -125,6 +139,7 @@ When you need **many landing pages** (e.g., city-specific, product-specific, int
 ### Components
 
 - **hero-generator**: Hero section (step 1)
+- **image-optimization**: Image optimization (alt, WebP, LCP, responsive, lazy loading)
 - **cta-generator**: CTA button design and placement
 - **testimonials-generator, trust-badges-generator**: Social proof (step 2)
 - **newsletter-signup-generator**: Lead capture form on LP

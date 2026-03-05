@@ -1,6 +1,6 @@
 ---
 name: localization-strategy
-description: When the user wants to plan or implement localization strategy for multilingual and global growth. Also use when the user mentions "localization," "multilingual," "i18n," "global expansion," "market entry," "localization strategy," "translate content," "hreflang," "multi-language SEO," or "international SEO."
+description: When the user wants to plan or implement localization strategy for multilingual and global growth. Also use when the user mentions "localization," "multilingual," "i18n," "global expansion," "market entry," "localization strategy," "hreflang," "multi-language SEO," or "international SEO." For translation workflow, glossary, and style guide, see **translation**.
 metadata:
   version: 1.0.0
 ---
@@ -78,11 +78,10 @@ Choose one; be consistent:
 
 Consider: Cultural expressions, search habits, competition, long-tail in small markets.
 
-## Terminology
+## Terminology & Translation
 
-- **AIGC vs. GenAI**: Use "AIGC" for China; "Generative AI" for English markets
-- **KOL vs. Influencer**: "Influencer" in English; "KOL" in Chinese
-- **Avoid machine translation** for product/marketing: Terminology, culture, SEO quality
+- **Translation workflow, glossary, style guide**: See **translation** for full workflow
+- **Avoid machine translation** for product/marketing: See **translation** (Human vs MT)
 
 ## Pricing Strategies
 
@@ -96,7 +95,7 @@ Consider: Cultural expressions, search habits, competition, long-tail in small m
 
 ### New feature with i18n
 
-1. Add translation keys to all locale JSON files.
+1. Add translation keys to all locale JSON files. Use **translation** for glossary, style guide, and translation workflow.
 2. Add `generateMetadata()` with alternates (hreflang) per page.
 3. Add JSON-LD with `inLanguage` and translated fields.
 4. Add page to sitemap with hreflang annotations.
@@ -117,7 +116,7 @@ Consider: Cultural expressions, search habits, competition, long-tail in small m
 ### Avoid
 
 - IP-based redirects that override user preferences.
-- Machine translation without localization for product/marketing.
+- Machine translation without localization for product/marketing (see **translation**).
 - Missing reciprocal hreflang between language versions.
 - Canonical tags that conflict with hreflang.
 
@@ -136,6 +135,7 @@ Consider: Cultural expressions, search habits, competition, long-tail in small m
 - **page-metadata**: Hreflang implementation
 - **url-structure**: URL hierarchy for i18n (subdirectories, subdomains)
 - **content-strategy**: Multilingual content planning; avoid thin translations
+- **translation**: Translation workflow, glossary, style guide, human vs MT; produces content for localized pages
 - **navigation-menu-generator**: Language switcher SEO
 - **affiliate-marketing**: Local affiliates for target markets
 - **gtm-strategy**: New market entry; localization as GTM for new geography

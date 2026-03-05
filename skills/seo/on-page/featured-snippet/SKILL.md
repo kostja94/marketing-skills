@@ -66,7 +66,7 @@ Guides optimization for Featured Snippets (Position Zero)—direct answers displ
 ### Visual Elements
 
 - Optimized images near answers can **double CTR** by capturing thumbnail slots
-- Alt text, captions, file names—support image pack and snippet context
+- Alt text, captions, file names—support image pack and snippet context; see **image-optimization** for full image SEO
 
 ## Query Targeting
 
@@ -123,6 +123,7 @@ Guides optimization for Featured Snippets (Position Zero)—direct answers displ
 - **heading-structure**: H2–H3 hierarchy
 - **generative-engine-optimization**: AI citation; GEO strategy
 - **eeat-signals**: E-E-A-T implementation; authority, trust, author
+- **image-optimization**: Image SEO for snippet thumbnails; alt, captions, file names
 
 ## References
 

@@ -7,7 +7,7 @@ metadata:
 
 # SEO Content: Content Strategy
 
-Guides content strategy for SEO: topic clusters, pillar pages, cluster articles, and editorial planning. For content marketing across all channels (blog, email, social, video), see **content-marketing-strategy**.
+Guides content strategy for SEO: topic clusters, pillar pages, cluster articles, and editorial planning. For content marketing across all channels (blog, email, social, video), see **content-marketing**. For translation workflow and multilingual content, see **translation**.
 
 **When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -124,7 +124,8 @@ Cluster 6-12 (subtopics)
 
 ## Related Skills
 
-- **content-marketing-strategy**: Content types, formats, channels, repurposing; SEO content is one channel
+- **content-marketing**: Content types, formats, channels, repurposing; SEO content is one channel
+- **translation**: Multilingual content; translation workflow, glossary; avoid thin translations
 - **seo-strategy**: SEO workflow order, Product-Led SEO, audit approach; use when planning SEO from scratch
 - **website-structure**: Plan which pages to build; structure informs content clusters and pillar placement
 - **keyword-research**: Keywords drive content plan

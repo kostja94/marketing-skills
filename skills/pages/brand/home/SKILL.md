@@ -48,6 +48,10 @@ Identify:
 - Visible without scrolling
 - Repeated at logical points
 
+### Visual & Aesthetics
+
+- **Frontend aesthetics**: For distinctive typography, motion, spatial composition, backgrounds—see **brand-visual-generator** Frontend Aesthetics
+
 ### SEO
 
 - Unique title (50-60 chars) with primary keyword

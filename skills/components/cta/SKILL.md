@@ -2,7 +2,7 @@
 name: cta-generator
 description: When the user wants to design, optimize, or audit call-to-action (CTA) buttons. Also use when the user mentions "CTA," "call to action," "button design," "conversion button," "primary action," "CTA copy," "button text," "CTA placement," "conversion CTA," or "action button."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Components: Call-to-Action (CTA)
@@ -58,7 +58,10 @@ Identify:
 
 - **Semantic HTML**: `<button>` or `<a>` with `role="button"` when needed
 - **Visible focus state** for keyboard users
-- **Loading state** for async actions (don't double-submit)
+- **Loading state** for async actions: disable button during async operations; show spinner or loading text; prevent double-submit
+- **cursor-pointer**: Add `cursor-pointer` to all clickable CTAs; default cursor on interactive elements is poor UX
+- **aria-label**: Use `aria-label` for icon-only buttons (e.g., close, search); screen readers need descriptive labels
+- **Hover stability**: Use color/opacity transitions (150–300ms); avoid scale transforms that shift layout
 
 ## Testing
 
@@ -70,7 +73,7 @@ Identify:
 - **CTA copy** suggestions
 - **Design** notes (color, size, hierarchy)
 - **Placement** recommendations
-- **Accessibility** checklist
+- **Accessibility** checklist (cursor-pointer, aria-label, focus, loading state)
 
 ## Related Skills
 

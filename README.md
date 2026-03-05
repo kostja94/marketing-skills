@@ -62,17 +62,16 @@ npx skills add kostja94/marketing-skills --skill robots-txt title-tag meta-descr
 npx skills add kostja94/marketing-skills --list
 ```
 
-**CLI behavior**: The skills CLI installs only **skill folders** (directories with `SKILL.md`). It does **not** download `templates/`, `docs/`, or `tools/`. Skills are placed in a **flat structure** (e.g. `.cursor/skills/robots-txt/`, `.cursor/skills/title-tag/`) — the source repo's hierarchy (`skills/seo/technical/`, `skills/pages/brand/`) is flattened to match agent expectations. Need templates or full structure? Use [Clone and Copy](#clone-and-copy) below.
+**CLI behavior**: The skills CLI installs only **skill folders** (directories with `SKILL.md`). It does **not** download `templates/` or `docs/`. Skills are placed in a **flat structure** (e.g. `.cursor/skills/robots-txt/`, `.cursor/skills/title-tag/`) — the source repo's hierarchy (`skills/seo/technical/`, `skills/pages/brand/`) is flattened to match agent expectations. Need templates or full structure? Use [Clone and Copy](#clone-and-copy) below.
 
 ### Clone and Copy
 
-Use this when you need **templates**, **tools**, or the **full repo structure** (the CLI installs skills only, in flat layout).
+Use this when you need **templates** or the **full repo structure** (the CLI installs skills only, in flat layout).
 
 ```bash
 git clone https://github.com/kostja94/marketing-skills.git
 cp -r marketing-skills/skills/* .cursor/skills/
 cp -r marketing-skills/templates .cursor/
-cp -r marketing-skills/tools .cursor/
 # For Claude Code: use .claude/ instead of .cursor/
 ```
 
@@ -119,8 +118,7 @@ Skills are markdown — they work anywhere an AI can read text. No native skill 
 marketing-skills/
 ├── skills/           # seo/, pages/, components/, channels/, platforms/, strategies/, analytics/
 ├── docs/             # skills-list, page-taxonomy, skills-guide, CHANGELOG, naming-rules, description-rules, reference-rules
-├── templates/       # product-marketing-context.md, skills-task-progress.md, report templates
-├── tools/            # Report generation — generate-report.py, *-guide.md
+├── templates/        # product-marketing-context.md, skills-task-progress.md
 ├── README.md
 └── CONTRIBUTING.md
 ```
@@ -172,13 +170,13 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 | Category | Skills |
 |----------|--------|
 | **SEO** (27) | [Technical](skills/seo/technical/): robots, sitemap, canonical, indexing, indexnow, crawlability · [On-Page](skills/seo/on-page/): title, description, metadata, open-graph, twitter-cards, schema, internal-links, url-structure, heading · [Off-Page](skills/seo/off-page/): link-building, backlink-analysis · [Content](skills/seo/content/): keyword-research, content-strategy, content-optimization, eeat-signals, competitor-research · [Local](skills/seo/local/): local-seo · [Tactics](skills/seo/): parasite-seo, programmatic-seo |
-| **Content** (2) | [copywriting](skills/content/copywriting/): headlines, CTAs, PAS/AIDA/BAB · [video-marketing](skills/content/video/): video scripts, hooks |
+| **Content** (4) | [copywriting](skills/content/copywriting/): headlines, CTAs, PAS/AIDA/BAB · [video-marketing](skills/content/video/): video scripts, hooks · [visual-content](skills/content/visual-content/): images, infographics, social specs · [translation](skills/content/translation/): workflow, glossary, style guide |
 | **Paid Ads** (12) | [Strategy](skills/strategies/paid-ads/): when to use, ad formats · [Platforms](skills/paid-ads/): google-ads, meta-ads, linkedin-ads, reddit-ads, tiktok-ads, app-ads, ctv-ads, display-ads, directory-listing-ads, youtube-ads, native-ads |
 | **Pages** (43) | [skills-list](docs/skills-list.md#pages) — brand, content, marketing, legal, utility; template-page (programmatic SEO); Solutions (industry-first) vs Use cases (scenario-first); [page-taxonomy](docs/page-taxonomy.md) |
 | **Components** (17) | nav, breadcrumb, footer, hero, toc, logo, trust-badges, testimonials, cta, newsletter-signup, url-slug, top-banner, sidebar, popup, social-share, favicon, brand-visual |
 | **Channels** (9) | affiliate, email-marketing, egc, influencer, referral, creator-program, community-forum, directories, pr |
 | **Platforms** (9) | x, reddit, linkedin, tiktok, youtube, pinterest, medium, github, grokipedia |
-| **Strategies** (21) | seo-strategy, paid-ads-strategy, website-structure, cold-start, indie-hacker-strategy, geo, integrated-marketing, localization, pmf-strategy, gtm-strategy, branding, content-marketing-strategy, domain-selection, domain-architecture, multi-domain-brand-seo, rebranding, pricing-strategy, discount-marketing, conversion-optimization, product-launch, retention-strategy |
+| **Strategies** (21) | seo-strategy, paid-ads-strategy, website-structure, cold-start, indie-hacker-strategy, geo, integrated-marketing, localization, pmf-strategy, gtm-strategy, branding, content-marketing, domain-selection, domain-architecture, multi-domain-brand-seo, rebranding, pricing-strategy, discount-marketing, conversion-optimization, product-launch, retention-strategy |
 | **Analytics** (5) | traffic, tracking, seo-monitoring, ai-traffic, google-search-console |
 
 ## How Skills Work Together
@@ -237,10 +235,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [skills-guide](docs/
 | [where-to-use-skills.md](docs/where-to-use-skills.md) | Where to use skills — all platforms (native, AGENTS.md, paste), install, path reference |
 | [use-cases-and-roadmap.md](docs/use-cases-and-roadmap.md) | Use cases, content roadmap, partnership |
 | [docs/](docs/README.md) | Documentation index · skills-list · page-taxonomy · where-to-use-skills |
-| [templates/](templates/README.md) | product-marketing-context · skills-task-progress · report templates |
+| [templates/](templates/README.md) | product-marketing-context · skills-task-progress |
 | [skills-guide](docs/skills-guide.md) | Rules, specs, skill authoring |
 | [CHANGELOG](docs/CHANGELOG.md) | What changed, when |
-| [tools/](tools/README.md) | Report generation (keyword, competitor) |
 
 ## License
 

@@ -64,7 +64,7 @@ export const metadata = {
 
 - Missing reciprocal references between language versions.
 - Canonical tag conflicting with hreflang.
-- Relying solely on machine translation without localization.
+- Relying solely on machine translation without localization (see **translation**).
 - Ignoring mobile—hreflang must appear on both desktop and mobile.
 - Forgetting to update hreflang when page structure changes.
 

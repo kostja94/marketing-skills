@@ -35,6 +35,7 @@
 | Indexing (noindex, GSC) | indexing | Pending | P1 | | |
 | IndexNow (Bing) | indexnow | Pending | P2 | | |
 | Crawlability (redirects, links, orphans) | site-crawlability | Pending | P0 | | |
+| Hreflang / multi-language | page-metadata | Pending | P2 | | |
 
 ---
 
@@ -51,6 +52,9 @@
 | Internal linking | internal-links | Pending | P1 | | |
 | URL structure | url-structure | Pending | P2 | | |
 | Heading structure (H1–H6) | heading-structure | Pending | P1 | | |
+| Image optimization (alt, WebP, LCP) | image-optimization | Pending | P1 | | |
+| Featured Snippet / Position Zero | featured-snippet | Pending | P2 | | |
+| SERP features (PAA, zero-click) | serp-features | Pending | P2 | | |
 
 ---
 
@@ -60,6 +64,9 @@
 |------|-------|--------|----------|-------|---------|
 | Keyword research | keyword-research | Pending | P1 | | |
 | Content strategy (clusters, pillar) | content-strategy | Pending | P2 | | |
+| Content optimization (length, H2, density) | content-optimization | Pending | P2 | | |
+| E-E-A-T signals | eeat-signals | Pending | P2 | | |
+| Competitor research | competitor-research | Pending | P2 | | |
 | Programmatic SEO (template + data pages) | programmatic-seo | Pending | P2 | | |
 
 ---
@@ -75,19 +82,54 @@
 
 ## 5. Pages
 
-Add rows for pages that exist or need creation. See [skills-list §Pages](https://github.com/kostja94/marketing-skills/blob/main/docs/skills-list.md#pages) for page taxonomy.
+Add rows for pages that exist or need creation. Delete rows for page types you don't need. See [skills-list §Pages](https://github.com/kostja94/marketing-skills/blob/main/docs/skills-list.md#pages) for full taxonomy.
+
+**Brand**
 
 | Page | Skill | Status | Priority | Notes | Updated |
 |------|-------|--------|----------|-------|---------|
 | Homepage | homepage-generator | Pending | P1 | | |
-| Pricing | pricing-page-generator | Pending | P1 | | |
-| Features | features-page-generator | Pending | P1 | | |
-| Blog | blog-page-generator | Pending | P2 | | |
-| FAQ | faq-page-generator | Pending | P2 | | |
 | About | about-page-generator | Pending | P2 | | |
 | Contact | contact-page-generator | Pending | P2 | | |
+
+**SEO / Content**
+
+| Page | Skill | Status | Priority | Notes | Updated |
+|------|-------|--------|----------|-------|---------|
+| Features | features-page-generator | Pending | P1 | | |
+| Tools (free utilities) | tools-page-generator | Pending | P2 | | |
+| Blog | blog-page-generator | Pending | P2 | | |
+| FAQ | faq-page-generator | Pending | P2 | | |
+| Glossary | glossary-page-generator | Pending | P3 | | |
+| Resources | resources-page-generator | Pending | P2 | | |
+| API / Docs | api-page-generator, docs-page-generator | Pending | P2 | | |
+| Template page | template-page-generator | Pending | P2 | | |
+
+**Marketing**
+
+| Page | Skill | Status | Priority | Notes | Updated |
+|------|-------|--------|----------|-------|---------|
+| Pricing | pricing-page-generator | Pending | P1 | | |
+| Use cases | use-cases-page-generator | Pending | P1 | | |
+| Solutions | solutions-page-generator | Pending | P2 | | |
+| Landing page | landing-page-generator | Pending | P1 | | |
+| Customer stories | customer-stories-page-generator | Pending | P2 | | |
+| Alternatives / Comparison | alternatives-page-generator | Pending | P2 | | |
+| Migration | migration-page-generator | Pending | P2 | | |
+| Download | download-page-generator | Pending | P2 | | |
+
+**Legal**
+
+| Page | Skill | Status | Priority | Notes | Updated |
+|------|-------|--------|----------|-------|---------|
 | Privacy / Terms / Legal | privacy-page-generator, terms-page-generator | Pending | P1 | | |
-| *[Add more as needed]* | | | | | |
+
+**Utility**
+
+| Page | Skill | Status | Priority | Notes | Updated |
+|------|-------|--------|----------|-------|---------|
+| 404 | 404-page-generator | Pending | P1 | | |
+| Changelog / Status | changelog-page-generator, status-page-generator | Pending | P2 | | |
 
 ---
 
@@ -100,6 +142,11 @@ Add rows for pages that exist or need creation. See [skills-list §Pages](https:
 | Footer | footer-generator | Pending | P1 | | |
 | Hero | hero-generator | Pending | P1 | | |
 | CTAs | cta-generator | Pending | P1 | | |
+| Top banner / Announcement bar | top-banner-generator | Pending | P2 | | |
+| Sidebar | sidebar-generator | Pending | P2 | | |
+| Popup / Modal | popup-generator | Pending | P2 | | |
+| Table of contents | toc-generator | Pending | P2 | | |
+| Social share | social-share-generator | Pending | P2 | | |
 | Trust badges / Testimonials | trust-badges-generator, testimonials-generator | Pending | P2 | | |
 | Newsletter signup | newsletter-signup-generator | Pending | P2 | | |
 
@@ -109,12 +156,12 @@ Add rows for pages that exist or need creation. See [skills-list §Pages](https:
 
 | Task | Skill | Status | Priority | Notes | Updated |
 |------|-------|--------|----------|-------|---------|
-| Cold start (Product Hunt, AppSumo, directories, etc.) | cold-start-strategy | Pending | P2 | | |
-| Parasite SEO (Medium, Reddit, GitHub, Grokipedia) | parasite-seo, github-seo | Pending | P2 | | |
+| Cold start (Product Hunt, AppSumo, directories) | cold-start-strategy | Pending | P2 | | |
+| Parasite SEO (Medium, Reddit, GitHub) | parasite-seo, github-seo | Pending | P2 | | |
 | Directory submission (Taaft, Product Hunt) | directory-submission | Pending | P2 | | |
-| Affiliate / Influencer / Referral | affiliate-marketing, etc. | Pending | P2 | | |
-| X / LinkedIn / Reddit / TikTok | twitter-x-posts, linkedin-posts, etc. | Pending | P2 | | |
 | Grokipedia / GEO (AI search) | grokipedia-recommendations, generative-engine-optimization | Pending | P2 | | |
+| Affiliate / Influencer / Referral | affiliate-marketing | Pending | P2 | | |
+| X / LinkedIn / Reddit / TikTok | twitter-x-posts, linkedin-posts, etc. | Pending | P2 | | |
 
 ---
 

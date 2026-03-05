@@ -125,7 +125,7 @@ AI-generated answer blocks at the top of search results. These are **SERP featur
 | **Reviews** | AggregateRating schema; **schema-markup** |
 | **Breadcrumbs** | BreadcrumbList schema; **breadcrumb-generator** |
 | **Video** | VideoObject schema; YouTube optimization |
-| **Image Pack** | Alt text, file names, responsive images |
+| **Image Pack** | See **image-optimization** for alt, file names, responsive images |
 | **Local Pack** | Local SEO; GMB; NAP consistency |
 | **AI Overview / Copilot / Yandex AI** | GEO; structured content; citable paragraphs; entity signals; see **generative-engine-optimization** |
 
@@ -196,3 +196,4 @@ Rich results do not directly boost rankings but can increase CTR by up to 35%. T
 - **website-structure**: Sitelinks; site architecture
 - **breadcrumb-generator**: Breadcrumb SERP display
 - **generative-engine-optimization**: AI Overviews, Bing Copilot, Yandex AI; GEO strategy; platform-specific optimization
+- **image-optimization**: Image Pack optimization; alt, file names, responsive images

@@ -2,7 +2,7 @@
 name: hero-generator
 description: When the user wants to design, optimize, or audit hero sections (above-the-fold main visual area). Also use when the user mentions "hero," "hero section," "hero area," "above the fold," "above the fold content," "landing hero," "main banner," "banner section," "first fold," "hero section design," or "hero conversion."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Components: Hero Section
@@ -50,6 +50,7 @@ The hero must answer three questions within 3 seconds: **What is this?** **Why s
 - Fast-loading; avoid heavy assets that delay LCP
 - Brand-aligned; use typography and colors from brand-visual-generator
 - Support the message; don't distract
+- **Frontend aesthetics**: For motion (staggered reveals, hover), spatial composition, and backgrounds—see **brand-visual-generator** Frontend Aesthetics
 
 ### Technical
 
@@ -61,7 +62,7 @@ The hero must answer three questions within 3 seconds: **What is this?** **Why s
 
 - Headline often contains `<h1>`; include primary keyword
 - Hero content in initial HTML; avoid JS-only rendering
-- Alt text for hero images
+- **Image optimization**: Alt text, format (WebP), LCP, responsive—see **image-optimization**
 
 ## UX Guidelines
 
@@ -77,8 +78,9 @@ The hero must answer three questions within 3 seconds: **What is this?** **Why s
 | **Contrast** | Text over images: >=4.5:1; use overlay if needed |
 | **Touch targets** | CTA >=44x44px |
 | **Keyboard** | CTA keyboard-accessible; visible focus indicator |
-| **Screen readers** | Proper heading order; image alt text |
+| **Screen readers** | Proper heading order; image alt text; `aria-label` for icon-only buttons |
 | **Reduced motion** | Respect `prefers-reduced-motion` for animations |
+| **Interaction** | CTA has `cursor-pointer`; hover uses color/opacity (not scale) to avoid layout shift |
 
 ## Testing
 
@@ -89,7 +91,7 @@ The hero must answer three questions within 3 seconds: **What is this?** **Why s
 
 - **Hero structure** (headline, subheading, CTA, visual)
 - **Copy suggestions**
-- **Technical** checklist (LCP, accessibility)
+- **Technical** checklist (LCP, accessibility, image optimization)
 - **Testing** recommendations
 
 ## Related Skills
@@ -100,3 +102,4 @@ The hero must answer three questions within 3 seconds: **What is this?** **Why s
 - **brand-visual-generator**: Typography, colors, spacing for hero design
 - **homepage-generator**: Hero is central to homepage design
 - **landing-page-generator**: Hero is step 1 of landing page flow; campaign pages
+- **image-optimization**: Hero image optimization (alt, WebP, LCP, responsive)

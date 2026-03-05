@@ -58,6 +58,7 @@ Identify:
 
 ## Related Skills
 
-- **content-marketing-strategy**: Pinterest as channel
+- **content-marketing**: Pinterest as channel
 - **display-ads**: Pinterest Ads (if paid)
+- **visual-content**: Cross-channel visual planning; Pinterest Pin specs in context
 - **url-slug-generator**: URL for landing page

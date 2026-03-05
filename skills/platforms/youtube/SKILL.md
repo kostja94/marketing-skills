@@ -69,5 +69,5 @@ Reinforce the same core message across all three; target different algorithm asp
 
 - **video-marketing**: Video script, hook, structure
 - **youtube-ads**: YouTube paid ads (TrueView, Bumper)
-- **content-marketing-strategy**: Video as content format
+- **content-marketing**: Video as content format
 - **parasite-seo**: YouTube as high-authority platform

@@ -2,7 +2,7 @@
 name: keyword-research
 description: When the user wants to research keywords, find target keywords, or analyze search intent. Also use when the user mentions "keyword research," "keyword tool," "target keywords," "search volume," "search intent," "keyword difficulty," "topical map," "keyword clustering," or "People Also Ask."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # SEO Content: Keyword Research
@@ -103,7 +103,7 @@ Test if positioning is clear enough for search:
 
 - **Core rule**: Someone must search it—validate with tools; avoid inventing terms
 - **Functional keywords**: Tool-type (-er/-or) often convert better; users are closer to action
-- **Multi-language**: Re-research in target language; don't translate existing lists
+- **Multi-language**: Re-research in target language; don't translate existing lists. See **translation** for translation workflow.
 
 ## SEO–PPC Keyword Synergy
 
@@ -120,6 +120,23 @@ Keyword research serves both SEO and Google Ads. Align both channels to avoid du
 
 **Reference**: [Backlinko – SEO and PPC: 8 Smart Ways to Align](https://backlinko.com/seo-and-ppc)
 
+## Data Sources
+
+| Source | Use |
+|--------|-----|
+| **Ahrefs** | Keywords Explorer, Site Explorer |
+| **SEMrush** | Keyword Overview, Organic Research |
+| **GSC** | Search queries, impressions, clicks |
+| **GA** | Traffic by landing page |
+| **PostHog** | Feature/search usage |
+
+## Report Workflow
+
+1. **Parse** — Read Excel/CSV, infer keyword, volume, KD, intent, etc. from headers
+2. **Enrich** — Web search, visit competitor/product pages; read `product-marketing-context.md` if present
+3. **Build** — Structure data for report
+4. **Generate** — Output report in chosen format
+
 ## Output Format
 
 - **Keyword list** with volume, KD, intent
@@ -127,6 +144,18 @@ Keyword research serves both SEO and Google Ads. Align both channels to avoid du
 - **Content gaps** (competitors rank, you don't)
 - **Priority** ranking for implementation
 - **Topical map** (cluster → pillar → page mapping)
+
+### Report Structure Reference
+
+| Section | Content |
+|---------|---------|
+| Executive Summary | Priorities (top 3) |
+| Keyword Overview | Total keywords, primary intent, avg KD, content gaps count |
+| Keyword List | Keyword, volume, KD, intent, priority, target page |
+| Keyword Mapping | Page/URL, target keywords, status |
+| Content Gaps | Keywords competitors rank for that you don't |
+| Action Plan | Priority, action, impact, effort |
+| Appendix | Search intent reference (Informational, Commercial, Transactional, Navigational) |
 
 ## Related Skills
 

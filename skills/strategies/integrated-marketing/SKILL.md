@@ -68,7 +68,7 @@ When selecting channels, evaluate across:
 | **Loyalty** | Email campaigns, promotions, personalized offers | Retention |
 | **Brand awareness** | Content marketing, influencer partnerships, PR | Reach |
 
-**Content marketing**: See **content-marketing-strategy** for content types, formats, repurposing across channels.
+**Content marketing**: See **content-marketing** for content types, formats, repurposing across channels.
 
 ## IMC Best Practices
 
@@ -101,4 +101,4 @@ When selecting channels, evaluate across:
 - **traffic-analysis**: Attribution, UTM, multi-channel reporting
 - **analytics-tracking**: GA4, event tracking across channels
 - **content-strategy**: SEO content (topic clusters); owned media pillar
-- **content-marketing-strategy**: Content types, formats, channels, repurposing; full content marketing plan
+- **content-marketing**: Content types, formats, channels, repurposing; full content marketing plan

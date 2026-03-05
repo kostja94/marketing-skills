@@ -423,7 +423,7 @@ Example: `[P0] Add TL;DR or Key Takeaways — GEO, AI citation`
 
 ## Related Skills
 
-- **content-marketing-strategy**: Content types, formats, repurposing; articles as one format
+- **content-marketing**: Content types, formats, repurposing; articles as one format
 - **eeat-signals**: E-E-A-T implementation; author bio, citations, YMYL, AI content
 - **competitor-research**: Competitor content analysis; content gaps, structure, length target
 - **blog-page-generator**: Blog index/listing page; article pages live within blog

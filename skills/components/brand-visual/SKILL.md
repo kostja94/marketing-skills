@@ -1,8 +1,8 @@
 ---
 name: brand-visual-generator
-description: When the user wants to define, audit, or apply visual identity (typography, colors, spacing). Also use when the user mentions "brand style guide," "visual identity," "design system," "typography," "color palette," "brand guidelines," "AI brand aesthetics," "brand colors," "font choices," "spacing system," or "design tokens."
+description: When the user wants to define, audit, or apply visual identity (typography, colors, spacing, frontend aesthetics). Also use when the user mentions "brand style guide," "visual identity," "design system," "typography," "color palette," "brand guidelines," "AI brand aesthetics," "brand colors," "font choices," "spacing system," "design tokens," "motion," "distinctive design," or "frontend aesthetics."
 metadata:
-  version: 1.0.0
+  version: 1.2.0
 ---
 
 # Components: Brand Visual Identity
@@ -25,7 +25,7 @@ Identify:
 ### Typography
 
 - **Two-font system**: One display font for headlines, one body font for text. Contrast + harmony: different enough for distinct roles, similar enough to feel cohesive.
-- **Body font**: Prioritize legibility—large x-height, open counters. Recommended: Inter, Source Sans 3, Poppins. Neutral personality; supports content without competing.
+- **Body font**: Prioritize legibility—large x-height, open counters. For neutral/safe: Source Sans 3, Lora, IBM Plex Sans. **For distinctiveness**: avoid overused AI fonts (Inter, Roboto, Arial, system fonts); prefer characterful choices that elevate the brand. See **Frontend Aesthetics**.
 - **Headline font**: Communicates brand voice; must be readable in under one second. Carries personality while body handles infrastructure.
 - **Type scale**: Use ratios 1.25–1.5 (Major Third or Perfect Fifth) for hierarchy. Limit to 3–4 styles per block.
 - **Pairing rule**: Decorative fonts only with neutral typefaces. Assign distinct roles; avoid mixing more than two families.
@@ -59,6 +59,9 @@ Identify:
 - **Overusing effects**: Drop shadows, pop-ups, crowded UI distract from content.
 - **Chasing trends blindly**: Adopt trends only when they fit project needs.
 - **Ignoring performance**: Heavy assets and complex layouts hurt load times.
+- **Generic AI aesthetics**: Inter, Roboto, Arial, Space Grotesk, and system fonts contribute to cookie-cutter design; avoid clichéd schemes (e.g., purple gradients on white). Prefer distinctive choices when brand differentiation matters.
+- **Emoji as icons**: Use SVG icons (Heroicons, Lucide, Simple Icons)—never emojis (🎨 🚀 ⚙️) as UI icons; emojis look unprofessional and inconsistent.
+- **Unstable hover states**: Use color/opacity transitions on hover; avoid scale transforms that shift layout or cause content jump.
 
 ### Accessibility Checklist
 
@@ -67,6 +70,42 @@ Identify:
 - **Color**: Never use color alone to convey information; add text or icons for states (error, success).
 - **Keyboard**: All interactive elements reachable via Tab, Enter, Spacebar.
 - **Reduced motion**: Respect `prefers-reduced-motion` for animations.
+
+## Frontend Aesthetics
+
+Guides distinctive, production-grade frontend implementation. Components (hero, CTA, footer, etc.) and pages (landing, home, features) should reference these principles for visual differentiation. **Intentionality over intensity**: bold maximalism and refined minimalism both work when executed with precision.
+
+### Typography
+
+- **Avoid generic AI fonts**: Inter, Roboto, Arial, system fonts, Space Grotesk. These create cookie-cutter aesthetics.
+- **Distinctive pairing**: One display font (headlines, personality) + one refined body font (readability). Choose characterful, unexpected fonts that elevate the interface.
+- **Consistency**: Use CSS variables; limit to 3–4 type styles per block.
+
+### Motion
+
+- **High-impact moments**: One well-orchestrated page load with staggered reveals (`animation-delay`) creates more delight than scattered micro-interactions.
+- **Prioritize**: CSS-only for HTML; Motion library for React when available. Scroll-triggering and hover states that surprise.
+- **Accessibility**: Always respect `prefers-reduced-motion`; provide reduced or no-motion alternatives.
+
+### Spatial Composition
+
+- **Unexpected layouts**: Asymmetry, overlap, diagonal flow, grid-breaking elements.
+- **Balance**: Generous negative space OR controlled density—choose intentionally.
+- **Hierarchy**: Clear visual flow; avoid predictable, evenly-distributed layouts.
+
+### Backgrounds & Visual Details
+
+- **Atmosphere over flat**: Create depth rather than defaulting to solid colors.
+- **Techniques**: Gradient meshes, noise textures, geometric patterns, layered transparencies, dramatic shadows, decorative borders, grain overlays.
+- **Context**: Match effects to overall aesthetic; don't distract from content.
+
+### Never
+
+- Overused font families (Inter, Roboto, Arial, system fonts)
+- Clichéd color schemes (e.g., purple gradients on white)
+- Predictable layouts and cookie-cutter component patterns
+- Design that lacks context-specific character
+- Emojis as UI icons (use SVG: Heroicons, Lucide, Simple Icons)
 
 ## AI Brand Aesthetics (Optional)
 
@@ -131,6 +170,7 @@ Ensure consistency across touchpoints. Include:
 - **Color** palette (HEX, usage rules, industry mapping)
 - **Spacing** scale
 - **Logo** clear space and variants
+- **Frontend aesthetics** (optional): Motion, spatial composition, backgrounds—for distinctive implementation
 - **Anti-patterns** and accessibility checklist
 - **AI products** (optional): Visual trend and archetype alignment
 - **Context template** for product-marketing-context Section 12

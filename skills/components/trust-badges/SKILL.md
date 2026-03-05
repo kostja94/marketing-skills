@@ -55,6 +55,7 @@ Identify:
 ## Design Guidelines
 
 - Consistent size and style; don't mix clashing visuals
+- **Image optimization**: Alt text, format—see **image-optimization**
 - Adequate spacing; avoid clutter
 - Grayscale or muted for "Trusted by" logos (don't compete with primary content)
 - Ensure badges are recognizable at display size
@@ -77,4 +78,5 @@ Identify:
 - **testimonials-generator**: Complementary social proof
 - **cta-generator**: Badges near CTAs increase conversion
 - **pricing-page-generator**: Trust badges on pricing pages
+- **image-optimization**: Badge image optimization (alt, format)
 - **press-coverage-page-generator**: "As Seen In" publication logos; similar visual treatment; distinct (press = media coverage; trust-badges = security, payment, reviews)

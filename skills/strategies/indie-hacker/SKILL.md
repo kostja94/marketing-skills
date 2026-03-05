@@ -103,7 +103,7 @@ For HN launch, Reddit post structure, Discord tactics → **community-forum**.
 | **Micro-SaaS** | Nomad List, Tweet Hunter, SiteGPT | SEO, Indie Hackers, Product Hunt |
 | **AI tools** | Photo AI, Interior AI, AutoShorts.ai | Product Hunt, Twitter, LTD |
 | **Digital products** | Templates, plugins, themes | SEO, content |
-| **Content** | Blog, course, tools | SEO, content-marketing-strategy |
+| **Content** | Blog, course, tools | SEO, content-marketing |
 
 ## Monetization & Pricing
 

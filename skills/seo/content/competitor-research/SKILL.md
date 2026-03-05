@@ -2,7 +2,7 @@
 name: competitor-research
 description: When the user wants to analyze competitors for SEO, content, backlinks, or positioning. Also use when the user mentions "competitor analysis," "competitor research," "competitor keywords," "competitor backlinks," "link gap," "content gap," "competitor content," "competitive analysis," or "competitor comparison."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # SEO Content: Competitor Research
@@ -64,12 +64,41 @@ Guides competitor research for SEO, content, backlinks, and positioning. Use whe
 
 See **pricing-strategy**, **alternatives-page-generator**.
 
+## Data Sources
+
+| Source | Use |
+|--------|-----|
+| **SimilarWeb** | Traffic, engagement, traffic sources by domain |
+| **Ahrefs** | Competitor domains, backlinks, DR |
+| **SEMrush** | Organic competitors, traffic share |
+| **GA** | Referral traffic, acquisition by source |
+| **PostHog** | Competitor feature usage (if tracked) |
+
+## Report Workflow
+
+1. **Parse** — Read Excel/CSV, infer domain, visits, traffic sources, etc. from headers
+2. **Enrich** — Web search, visit competitor sites; read `product-marketing-context.md` if present
+3. **Build** — Structure data for report
+4. **Generate** — Output report in chosen format
+
 ## Output Format
 
 - **Competitors** identified
 - **Research type** (keyword, content, backlink, pricing)
 - **Findings** (gaps, opportunities, benchmarks)
 - **Recommendations** (content to create, links to pursue, positioning)
+
+### Report Structure Reference
+
+| Section | Content |
+|---------|---------|
+| Executive Summary | Key findings (top 3), top 3 recommendations |
+| Competitor Overview | Competitor, category, market position, key strength |
+| Product Comparison | Feature/capability vs Us vs Competitors |
+| SWOT Analysis | Our strengths/weaknesses/opportunities/threats; competitor deep dives |
+| Marketing & Messaging | Value prop, target audience, key channels |
+| Gaps & Opportunities | Gap, opportunity, priority |
+| Prioritized Recommendations | Recommendation, impact, effort, owner |
 
 ## Related Skills
 

@@ -143,3 +143,4 @@ When generating X copy, provide:
 - **reddit-posts**: Alternative community channel
 - **programmatic-seo**: Programmatic SEO (template + data pages); X traffic can accelerate indexing
 - **open-graph, twitter-cards**: OG and Twitter Card tags for X link previews
+- **visual-content**: Cross-channel visual planning; X image specs in context

@@ -1,6 +1,6 @@
 # Full Skills List
 
-Complete list of all 144 skills with descriptions. See [README](../README.md) for overview.
+Complete list of all 147 skills with descriptions. See [README](../README.md) for overview.
 
 ## SEO
 
@@ -30,6 +30,7 @@ Complete list of all 144 skills with descriptions. See [README](../README.md) fo
 | [internal-links](../skills/seo/on-page/internal-links/) | Internal linking, link equity, orphan pages |
 | [url-structure](../skills/seo/on-page/url-structure/) | URL optimization, hierarchy, slugs |
 | [heading-structure](../skills/seo/on-page/heading/) | Heading structure (H1–H6), content outline |
+| [image-optimization](../skills/seo/on-page/image-optimization/) | Image SEO: alt text, WebP, LCP, responsive, lazy loading, image sitemap |
 
 ### Off-Page
 
@@ -67,6 +68,8 @@ Complete list of all 144 skills with descriptions. See [README](../README.md) fo
 |-------|-------------|
 | [copywriting](../skills/content/copywriting/) | Headlines, CTAs, ad copy, landing page copy; PAS, AIDA, BAB frameworks |
 | [video-marketing](../skills/content/video/) | Short-form and long-form video scripts; hooks; platform optimization |
+| [visual-content](../skills/content/visual-content/) | Visual content planning; images for social, infographics, repurposing; cross-channel specs |
+| [translation](../skills/content/translation/) | Translation workflow, glossary, style guide; human vs MT; terminology by market |
 
 ## Paid Ads
 
@@ -235,7 +238,7 @@ Different website types need different pages. See [page-taxonomy.md § Website T
 | Skill | Description |
 |-------|-------------|
 | [branding](../skills/strategies/branding/) | Brand strategy, storytelling, voice, visual identity; purpose, values, positioning |
-| [content-marketing-strategy](../skills/strategies/content-marketing-strategy/) | Content types, formats, channels, repurposing; blog, email, social, video |
+| [content-marketing](../skills/strategies/content-marketing/) | Content types, formats, channels, repurposing; blog, email, social, video |
 | [seo-strategy](../skills/strategies/seo/) | SEO workflow order, prioritization, Product-Led SEO, audit approach |
 | [paid-ads-strategy](../skills/strategies/paid-ads/) | Paid ads strategy: when to use; channel selection; budget; ad-to-page alignment; cross-platform frameworks. Platform execution → google-ads, meta-ads, linkedin-ads, reddit-ads, tiktok-ads |
 | [website-structure](../skills/strategies/website-structure/) | Plan which pages to build, page priority (Must Have/Great to Have/Optional), structure for UX/SEO/growth |

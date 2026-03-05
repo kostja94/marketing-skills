@@ -1,5 +1,5 @@
 ---
-name: content-marketing-strategy
+name: content-marketing
 description: When the user wants to plan content marketing across channels, define content types and formats, or create a content repurposing strategy. Also use when the user mentions "content marketing strategy," "content types," "content formats," "content repurposing," "content calendar," "content mix," "owned content," "content distribution," "content funnel," or "content planning across channels."
 metadata:
   version: 1.0.0
@@ -53,9 +53,9 @@ Identify:
 | **Pages** | Homepage, about, features, pricing, landing | homepage-generator, about-page-generator, landing-page-generator |
 | **Articles** | Blog posts, guides, listicles | article-page-generator, blog-page-generator |
 | **Email** | EDM, newsletter, sequences | email-marketing |
-| **Social posts** | X, LinkedIn, Reddit, TikTok | twitter-x-posts, linkedin-posts, reddit-posts, tiktok-captions |
+| **Social posts** | X, LinkedIn, Reddit, TikTok | twitter-x-posts, linkedin-posts, reddit-posts, tiktok-captions; **visual-content** for post images |
 | **Video** | Short-form, long-form, webinar | video-marketing |
-| **Infographics** | Visual summaries | — |
+| **Infographics** | Visual summaries | **visual-content** |
 | **Slides / PDF** | Decks, whitepapers, eBooks | — |
 | **Podcast** | Audio episodes | — |
 
@@ -96,6 +96,7 @@ See **content-strategy** for SEO topic clusters and pillar-cluster structure.
 - Prioritize by opportunity (volume → intent → feasibility)
 - Schedule by capacity; include update schedule for existing content
 - Plan repurposing: which core pieces become formats for which channels
+- **Visual-first**: Plan images in calendar from the start; see **visual-content** for specs and repurposing
 
 ## Output Format
 
@@ -112,6 +113,8 @@ See **content-strategy** for SEO topic clusters and pillar-cluster structure.
 - **article-page-generator**: Article structure, orientations; blog content
 - **email-marketing**: Email content types (onboarding, campaign, newsletter)
 - **twitter-x-posts, linkedin-posts, reddit-posts, tiktok-captions**: Platform-specific post formats
+- **visual-content**: Visual content planning; images for social, infographics, repurposing; cross-channel specs
 - **landing-page-generator**: Landing page copy and structure
 - **customer-stories-page-generator**: Case study content
 - **branding**: Brand voice, storytelling; content consistency
+- **translation**: Translation workflow for multilingual content; glossary, style guide

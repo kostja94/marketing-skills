@@ -114,6 +114,8 @@ Identify:
 | **Captions** | Relevant to topic; can support Featured Snippets; see **featured-snippet** |
 | **Original over stock** | Unique images signal E-E-A-T — see **eeat-signals** |
 
+**Full image optimization** (alt, format, responsive, lazy loading, image sitemap, LCP): see **image-optimization**.
+
 ### Tables
 
 - **Use for**: Comparisons, stats, specs, "X vs Y"
@@ -160,4 +162,5 @@ Identify:
 - **serp-features**: SERP features overview; Featured Snippet in context
 - **toc-generator**: TOC built from H2–H3; supports snippet structure
 - **eeat-signals**: E-E-A-T signals; original images, trust
+- **image-optimization**: Full image SEO (alt, format, LCP, responsive, lazy loading, image sitemap)
 - **competitor-research**: Competitor length and structure as reference

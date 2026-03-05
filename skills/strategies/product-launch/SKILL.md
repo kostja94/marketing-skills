@@ -36,7 +36,7 @@ Identify:
 |---------|-----|--------|
 | **PR** | Press release, media relations | pr-marketing |
 | **Paid ads** | Scale acquisition post-PMF | paid-ads-strategy |
-| **Organic** | SEO, content, community | seo-strategy, content-marketing-strategy |
+| **Organic** | SEO, content, community | seo-strategy, content-marketing |
 | **Email** | Announcement to existing users | email-marketing |
 | **Product Hunt / Directories** | Launch-day buzz; early adopters | cold-start-strategy, directory-submission |
 

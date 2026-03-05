@@ -13,7 +13,7 @@ Guides email marketing strategy for AI/SaaS products. Email ROI ~$36 per dollar 
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for audience and content strategy. See **content-marketing-strategy** for content types and formats across channels.
+**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for audience and content strategy. See **content-marketing** for content types and formats across channels.
 
 Identify:
 1. **Goal**: Retention, conversion, brand reach, or SEO synergy
@@ -115,7 +115,7 @@ Identify:
 
 ## Related Skills
 
-- **content-marketing-strategy**: Content types, formats; email as channel in repurposing matrix
+- **content-marketing**: Content types, formats; email as channel in repurposing matrix
 - **newsletter-signup-generator**: Signup form design
 - **traffic-analysis**: Email source attribution, UTM
 - **analytics-tracking**: Email click tracking

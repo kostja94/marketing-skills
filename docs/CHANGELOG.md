@@ -13,6 +13,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 _None._
 
+## [2026-03-05] v2.3.5
+
+### Changed
+
+- **README** — References: group by Specification & Ecosystem, Platform & Human Guides, Project Docs; add Agent Skills spec, Vercel skills CLI; simplify doc links.
+
 ## [2026-03-05] v2.3.4
 
 ### Changed

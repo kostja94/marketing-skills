@@ -227,16 +227,30 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [skills-guide](docs/
 
 *Product and website examples in skills are illustrative only; no affiliation, partnership, or endorsement implied. See [reference-rules §6](docs/reference-rules.md#6-product-and-website-examples).*
 
+### Specification & Ecosystem
+
 | Resource | Purpose |
 |----------|---------|
-| [Alignify](https://alignify.co/) | SEO guides, growth strategies — for human reading |
+| [Agent Skills Specification](https://agentskills.io/specification) | Skill format, metadata, directory structure |
 | [skills.sh](https://skills.sh) | Skill directory; 40+ agents; `npx skills add` |
+| [Vercel skills CLI](https://github.com/vercel-labs/skills) | `npx skills add` — install skills from GitHub |
+
+### Platform & Human Guides
+
+| Resource | Purpose |
+|----------|---------|
 | [OpenClaw](https://openclaw.ai/) | Personal AI assistant; AgentSkills-compatible; [skills docs](https://docs.openclaw.ai/tools/skills) |
-| [where-to-use-skills.md](docs/where-to-use-skills.md) | Where to use skills — all platforms (native, AGENTS.md, paste), install, path reference |
-| [use-cases-and-roadmap.md](docs/use-cases-and-roadmap.md) | Use cases, content roadmap, partnership |
-| [docs/](docs/README.md) | Documentation index · skills-list · page-taxonomy · where-to-use-skills |
-| [templates/](templates/README.md) | product-marketing-context · skills-task-progress |
+| [Alignify](https://alignify.co/) | SEO guides, growth strategies — for human reading |
+
+### Project Docs
+
+| Doc | Purpose |
+|-----|---------|
+| [where-to-use-skills](docs/where-to-use-skills.md) | Where to use — native platforms, OpenClaw, AGENTS.md, paste; install commands |
+| [use-cases-and-roadmap](docs/use-cases-and-roadmap.md) | Use cases, content roadmap, partnership |
+| [skills-list](docs/skills-list.md) | Full skill list; page taxonomy |
 | [skills-guide](docs/skills-guide.md) | Rules, specs, skill authoring |
+| [templates](templates/README.md) | product-marketing-context · skills-task-progress |
 | [CHANGELOG](docs/CHANGELOG.md) | What changed, when |
 
 ## License

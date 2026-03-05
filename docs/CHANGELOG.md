@@ -13,6 +13,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 _None._
 
+## [2026-03-05] v2.3.2
+
+### Changed
+
+- **analytics-tracking** — GA4 event name: 40 chars (hard limit), not 60.
+- **linkedin-posts** — Fix typos: 100→00 → 100–200; 300→,200 → 300–1,200; 1,300→,600 → 1,300–1,600; →MB → ≤10 MB; →10 → ≤210.
+- **directory-submission** — Short description: 150–300 chars (was 150–255 vs 150–300).
+- **twitter-x-posts** — Link preview: title ≤70 chars, description ≤200 chars (was <60, <100).
+
 ## [2026-03-05] v2.3.1
 
 ### Changed

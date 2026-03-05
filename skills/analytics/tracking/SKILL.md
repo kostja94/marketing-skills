@@ -2,7 +2,7 @@
 name: analytics-tracking
 description: When the user wants to set up, audit, or optimize analytics tracking (GA4, events, conversions). Also use when the user mentions "Google Analytics," "GA4," "event tracking," "conversions," "attribution model," "gtag," "data layer," "GA4 setup," "conversion tracking," "event setup," "User ID tracking," or "CTA attribution."
 metadata:
-  version: 1.2.0
+  version: 1.3.0
 ---
 
 # Analytics: Tracking
@@ -77,7 +77,7 @@ Enable in Admin > Data Streams > Enhanced Measurement for automatic tracking of:
 
 ### Naming Conventions
 
-- **Length**: <=60 characters
+- **Length**: <=40 characters (GA4 hard limit; longer names are not logged)
 - **Format**: `snake_case`, lowercase
 - **Verb first**: `download_pdf`, `submit_form`, `video_play`
 - **Context**: `pricing_page_scroll` vs generic `scroll`

@@ -2,7 +2,7 @@
 name: twitter-x-posts
 description: When the user wants to create X (Twitter) post copy, threads, or optimize for X platform. Also use when the user mentions "X post," "X thread," "Twitter post," "Twitter thread," "tweet," "tweet copy," "thread," "X marketing," "X content," "post to X," "create X post," or "X post copy."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Platforms: X (Twitter)
@@ -87,7 +87,7 @@ Posts tested in small group first; early interaction (first 30 min) decides reac
 | **Placement** | Put link in reply, not main post |
 | **Ratio** | Max 1 link per 5 posts |
 | **Premium** | Premium+ safest for links (~0.25-0.3% engagement) |
-| **Preview** | Title <60 chars, description <100 chars; 1200x628 image |
+| **Preview** | Title ≤70 chars, description ≤200 chars; 1200×628 image |
 
 ## Premium Impact
 

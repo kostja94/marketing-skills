@@ -2,7 +2,7 @@
 name: linkedin-posts
 description: When the user wants to create LinkedIn post copy or optimize for LinkedIn. Also use when the user mentions "LinkedIn post," "LinkedIn article," "professional post," "post to LinkedIn," "LinkedIn content," "LinkedIn copy," "B2B LinkedIn," "LinkedIn engagement," or "LinkedIn marketing."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Platforms: LinkedIn
@@ -19,18 +19,18 @@ This skill enables agents to generate LinkedIn post copy optimized for engagemen
 
 | Type | Limit | Notes |
 |------|-------|-------|
-| **Post** | 3,000 characters | Optimal: 1,300→,600 |
+| **Post** | 3,000 characters | Optimal: 1,300–1,600 |
 | **First line (critical)** | 210–235 chars | Visible before "See more"; 60–80% decide here |
-| **Short posts** | 100→00 chars | Polls, announcements, quotes |
+| **Short posts** | 100–200 chars | Polls, announcements, quotes |
 
 ## Optimal Length by Content Type
 
 | Type | Characters | Use |
 |------|------------|-----|
-| **Short** | 100→00 | Polls, announcements, quotes |
-| **Medium** | 300→,200 | Case studies, tips, BTS |
-| **Long** | 1,200→,000 | Thought leadership, analysis |
-| **Sweet spot** | 1,300→,600 | Highest engagement |
+| **Short** | 100–200 | Polls, announcements, quotes |
+| **Medium** | 300–1,200 | Case studies, tips, BTS |
+| **Long** | 1,200–2,000 | Thought leadership, analysis |
+| **Sweet spot** | 1,300–1,600 | Highest engagement |
 | **Avoid** | >2,000 | ~35% engagement drop |
 
 ## First Line (Hook)
@@ -46,7 +46,7 @@ This skill enables agents to generate LinkedIn post copy optimized for engagemen
 | **Single image** | 1200×627 (1.91:1) | Feed; link previews |
 | **Square** | 1200×1200 | Single image |
 | **Carousel** | Up to 20 images | Multi-image post |
-| **File** | →MB; JPG/PNG | Native uploads perform better |
+| **File** | ≤10 MB; JPG/PNG | Native uploads perform better |
 | **Vertical** | Preferred | 88% browse on mobile |
 
 ## Best Practices
@@ -60,7 +60,7 @@ This skill enables agents to generate LinkedIn post copy optimized for engagemen
 
 When generating LinkedIn copy, provide:
 
-1. **First line** (→10 chars; hook)
+1. **First line** (≤210 chars; hook)
 2. **Full post** with character count
 3. **Hashtags** (3→; end of post)
 4. **Image specs** (if design agent needs dimensions)

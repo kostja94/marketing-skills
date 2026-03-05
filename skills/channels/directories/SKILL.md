@@ -2,7 +2,7 @@
 name: directory-submission
 description: When the user wants to submit a product to directories, launch platforms, curated lists, or app stores. Reads product-marketing-context.md when present and generates ready-to-paste submission content per platform. Also use when the user mentions "directory submission," "get listed," "app store listing," "submit to directories," "curated list," "best tools list," "Taaft," "Product Hunt," "directory ads," "newsletter feature," "directory campaign," "product info for directory," "tailor description per platform," "Shopify App Store," "Chrome Web Store," "submit to directory," "launch on Product Hunt," "navigation site," or "product directory."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Channels: Directory Submission
@@ -72,7 +72,7 @@ Identify:
 | **Product name** | 60-80 chars | Consistent spelling across all listings |
 | **URL** | Working product/landing page | No redirect chains |
 | **Tagline / one-liner** | <=60 chars (Taaft: max 12 words) | Catchy, benefit-focused |
-| **Short description** | 150-255 chars | Used by many directories |
+| **Short description** | 150-300 chars | Used by many directories |
 | **Long description** | 400-600 chars | For platforms that allow more |
 | **Category / Task** | Platform-specific | Match taxonomy (Taaft: Primary + Secondary Tasks) |
 | **Keywords / Tags** | 5-10 terms, comma-separated | Natural, no stuffing |

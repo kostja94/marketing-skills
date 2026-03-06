@@ -2,7 +2,7 @@
 name: meta-ads
 description: When the user wants to set up, optimize, or manage Meta (Facebook/Instagram) Ads. Also use when the user mentions "Meta Ads," "Facebook Ads," "Instagram Ads," "Meta Pixel," "Conversions API," "Advantage+," "lookalike audience," or "Meta retargeting."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Paid Ads: Meta Ads
@@ -15,6 +15,8 @@ Guides Meta (Facebook/Instagram) Ads setup, campaign structure, audience targeti
 
 **Hierarchy**: Campaign → Ad Set → Ad (3 levels)
 
+**Principle**: One objective per campaign. Multiple campaigns for the same objective split budget and data, slowing the algorithm's learning phase. Consolidate by objective; focus on clean structure and data-led decisions.
+
 ```
 Account
 ├── Campaign: Prospecting
@@ -25,6 +27,17 @@ Account
 ```
 
 **Naming**: `META_[Objective]_[Audience]_[Offer]_[Date]` (e.g., `META_Conv_Lookalike-Customers_FreeTrial_2024Q1`)
+
+## Advantage+ & Automation
+
+| Feature | Use |
+|---------|-----|
+| **Advantage+ Shopping Campaigns** | E-commerce; automatic audience discovery |
+| **Dynamic Ads** | Product catalog; auto-generated creative |
+| **Automatic Placements** | Let Meta optimize across Feed, Stories, Reels |
+| **Advantage+ Audience** | Broad targeting; algorithm finds converters |
+
+Provide diverse creative assets to enable multiple ad formats; algorithm performs better with variety.
 
 ## Campaign Objectives
 
@@ -55,9 +68,10 @@ Account
 
 ## Optimization
 
-- **Learning phase**: 50+ conversions per ad set per week to exit
+- **Learning phase**: 50+ conversions per ad set per week to exit; avoid frequent changes during learning
 - **CBO vs ABO**: Campaign Budget Optimization consolidates spend; use when scaling
 - **Frequency**: &lt;3 to avoid fatigue
+- **Creative refresh**: Plan continuous testing; creative fatigue is a main lever—refresh when performance drops
 
 ## Tracking
 

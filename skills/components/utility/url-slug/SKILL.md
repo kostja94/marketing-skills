@@ -16,7 +16,7 @@ Guides creation of SEO-friendly URL slugs for blog posts, articles, and content 
 - **URL slug**: The path segment after the base (e.g., `ai-people-search` in `/blog/ai-people-search`)
 - **Applies to**: Blog posts, articles, guides, category pages, product pages
 
-## Best Practices (2025)
+## Best Practices
 
 ### Length
 

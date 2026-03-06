@@ -2,7 +2,7 @@
 name: google-ads
 description: When the user wants to set up, optimize, or manage Google Ads campaigns. Also use when the user mentions "Google Ads," "Google Search Ads," "PPC," "SEM," "PMF testing with ads," "test product-market fit," "Responsive Search Ads," "RSA," "Performance Max," "Quality Score," "keyword bidding," or "Google Display/YouTube ads."
 metadata:
-  version: 1.2.0
+  version: 1.3.0
 ---
 
 # Paid Ads: Google Ads
@@ -43,6 +43,22 @@ Account
 | **YouTube** | Video; awareness; consideration |
 | **Performance Max** | Automated; cross-channel; feed + search + display |
 
+## Performance Max (PMax) Optimization
+
+**Learning period**: Run at least **6 weeks** for algorithm ramp-up. Works best as complement to Search, not replacement.
+
+**Asset groups**: Organize by *audience intent* (e.g., high-intent searchers, cart abandoners, category researchers), not product category alone. Audience signals improve CPA and ROAS vs. no signals.
+
+**Asset requirements** (per asset group):
+- ≥5 images (include 1200×1200)
+- ≥5 text assets (4 headlines, 5 descriptions)
+- Video when possible
+- Refresh creative regularly to maintain performance
+
+**Signals**: Add remarketing lists and Customer Match to accelerate learning.
+
+**Weekly health check**: Flag if brand terms &gt;30% of conversions; unexpected geo conversions; any placement &gt;15% of total spend; asset group performance below "Good."
+
 ## Keyword Strategy
 
 - **Brand**: Protect brand terms; exclude from non-brand campaigns
@@ -59,15 +75,18 @@ Account
 | Ad relevance | Align ad copy to keyword intent |
 | Landing page | Ad-to-page alignment; fast load; mobile-friendly |
 
-**Target**: Quality Score ≥6; higher = lower CPC, better ad rank.
+**Target**: Quality Score ≥6; higher = lower CPC, better ad rank. **Benchmark**: Improving Quality Score from 5 to 7 can reduce CPC by 30–50%.
 
 ## Bidding Strategy
 
 | Conversions/month | Strategy |
 |-------------------|----------|
-| &lt;50 | Manual CPC |
+| &lt;30 | Manual CPC (smart bidding needs volume to optimize) |
+| 30–50 | Target CPA; minimum for effective smart bidding |
 | 50–100 | Target CPA |
 | 100+ | Target ROAS |
+
+**Smart bidding**: AI-powered bidding (Target CPA, Target ROAS) typically delivers better ROI than manual when conversion volume is sufficient; requires ≥30 conversions in 30 days to work effectively.
 
 ## Tracking
 

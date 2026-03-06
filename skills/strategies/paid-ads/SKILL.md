@@ -2,7 +2,7 @@
 name: paid-ads-strategy
 description: When the user wants to plan paid ads strategy, allocate ad budget, or choose paid channels. Also use when the user mentions "paid ads," "paid media," "PPC," "SEM," "web ads," "app ads," "TV ads," "CTV," "OOH," "banner ads," "ad network," "ad alliance," "Taaft ads," "Shopify App Store ads," "Google Ads," "Meta Ads," "PMF testing," "PMF validation," "test product-market fit with ads," "ad spend," "ad budget," "ROAS," "paid acquisition," "Quality Score," or "ad-to-page alignment."
 metadata:
-  version: 1.4.0
+  version: 1.5.0
 ---
 
 # Strategies: Paid Ads
@@ -86,6 +86,10 @@ Paid ads span multiple media beyond web. Choose by product type and audience.
 
 **Decision tree**: High intent? → Google Search. No? → Awareness: Meta/TikTok/YouTube. B2B: LinkedIn. E-commerce: Meta + Google Shopping. **App?** → app-ads. **Streaming/TV?** → ctv-ads. **Display/banner?** → display-ads. **Directory (Taaft, Shopify, G2)?** → directory-listing-ads.
 
+## Dual-Channel Strategy
+
+Treat Google Ads and Meta Ads as **complementary**, not competing. Google captures high-intent search at moment of need; Meta creates and shapes demand by introducing brands to new audiences. A dual-channel approach often outperforms single-channel; use unified KPIs (prioritize profit over volume). See **google-ads**, **meta-ads** for platform setup.
+
 ## Budget Allocation
 
 | Phase | Approach |
@@ -128,6 +132,20 @@ Paid ads span multiple media beyond web. Choose by product type and audience.
 | **Quality Score** (Google) | Ad relevance, LP experience; higher = lower CPC |
 | **CPC/CPM** | Cost per click/impression; platform-specific |
 
+**Quantified benchmarks**: Quality Score 5→7 can reduce CPC by 30–50%. Smart bidding (Target CPA/ROAS) typically needs ≥30 conversions in 30 days to work effectively. Proper optimization can increase conversion rates 30–150% and reduce CPA 20–50%.
+
+## Attribution & Incrementality
+
+**Incrementality** measures the *additional* value marketing creates beyond what would occur without it—causal impact, not just correlation. Essential in privacy-first environments (cookies limited, third-party data restricted); incrementality testing does not depend on cross-device tracking.
+
+| Approach | Use when |
+|----------|----------|
+| **Incrementality testing** | Holdout experiments (geo, channel); isolate true lift; justify budget |
+| **Attribution** | UTM, last-click, multi-touch; compare channels; see **traffic-analysis** |
+| **Advanced conversion** | Server-side (Enhanced Conversions, CAPI); better accuracy |
+
+**Principle**: Measure incrementality and downstream value, not just cost metrics. Major platforms have lowered experiment thresholds (e.g., Google Ads incrementality experiments from $100K+ to ~$5K minimum spend).
+
 ## Ad-to-Landing-Page Alignment
 
 | Principle | Practice |
@@ -143,9 +161,18 @@ See **landing-page-generator** for LP structure and conversion optimization.
 
 - Launching without conversion tracking
 - Too many campaigns (fragmenting budget)
-- Not giving algorithms learning time (2–4 weeks)
+- Not giving algorithms learning time (2–4 weeks; PMax needs 6+ weeks)
 - Single ad per ad set; not refreshing creative (fatigue)
 - Spreading budget too thin; big budget changes
+
+## Weekly Optimization Cadence
+
+| Check | Action |
+|-------|--------|
+| **Creative fatigue** | Refresh when CTR or conversion rate drops; test new concepts |
+| **Learning phase** | Ensure sufficient volume (e.g., 50+ conv/week Meta; 30+ conv/30d Google for smart bidding) |
+| **Brand term share** | If brand terms &gt;30% of conversions, consider reallocating to non-brand |
+| **Placement/spend** | Flag if any single placement exceeds 15% of total spend |
 
 ## Affiliate Brand Bidding
 
@@ -174,4 +201,4 @@ When running affiliate programs: prohibit affiliates from bidding on your brand 
 - **integrated-marketing**: PESO model; paid as one channel
 - **keyword-research**: Keywords inform paid search targeting
 - **traffic-analysis**: UTM for paid attribution
-- **analytics-tracking**: Conversion tracking; ROAS measurement
+- **analytics-tracking**: Conversion tracking; ROAS measurement; incrementality experiments

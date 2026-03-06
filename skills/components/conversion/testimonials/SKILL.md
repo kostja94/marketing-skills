@@ -58,7 +58,7 @@ Video: 95% message retention vs 10% for text.
 - Clean layouts; readable typography
 - Engaging visuals; avoid clutter
 - Mobile-optimized; fast loading
-- Carousel/slider for multiple testimonials; ensure accessibility
+- Carousel for multiple testimonials; see **carousel** for design and accessibility
 
 ## SEO
 
@@ -67,9 +67,8 @@ Video: 95% message retention vs 10% for text.
 
 ## Accessibility
 
-- Ensure carousels are keyboard-navigable
 - Provide alt text for photos
-- Don't auto-advance too fast; allow user control
+- For carousel design and accessibility (keyboard nav, user control), see **carousel**
 
 ## Output Format
 
@@ -80,6 +79,7 @@ Video: 95% message retention vs 10% for text.
 
 ## Related Skills
 
+- **carousel**: Carousel layout for multiple testimonials; design and accessibility
 - **landing-page-generator**: Testimonials as step 2 (earn trust) in landing page flow
 - **trust-badges-generator**: Complementary trust signals; logos and badges
 - **hero-generator**: Testimonials in hero for social proof

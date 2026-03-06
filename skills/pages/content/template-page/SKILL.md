@@ -48,7 +48,7 @@ Beyond SEO, template pages enable **direct use**: users select a template and ge
 | **Social proof** | "X templates," "Used by Y users," ratings |
 | **CTA** | Primary action (Browse, Get started, Sign up to use) |
 
-**Reference**: Canva organizes by 50+ design types (Docs, Presentations, Logos, Instagram Posts, etc.); Figma offers 300+ templates; VibeCatalog by project type (dashboards, landing pages).
+**Reference**: Canva organizes by 50+ design types (Docs, Presentations, Logos, Instagram Posts, etc.); Figma offers 300+ templates; VibeCatalog by project type (dashboards, landing pages). See **card** for template card structure and grid layout.
 
 ---
 
@@ -114,6 +114,8 @@ When programmatic pages drive signup/lead capture (e.g., "[Product] for [City]" 
 
 ## Related Skills
 
+- **card**: Template card structure; thumbnail, name, description, CTA; grid layout
+- **grid**: Template grid layout; responsive columns
 - **programmatic-seo**: Template + data = scale; use cases, data requirements, pitfalls
 - **landing-page-generator**: Conversion structure; programmatic landing pages
 - **tools-page-generator**: Tool pages at scale; toolkit hub

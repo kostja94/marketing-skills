@@ -110,8 +110,11 @@ See [page-taxonomy](page-taxonomy.md) for full classification.
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │  Components (used in Pages)                                                 │
-│  nav · breadcrumb · footer · hero · toc · logo · trust-badges · cta · popup  │
-│  newsletter-signup · url-slug · favicon · brand-visual · social-share        │
+│  navigation/ (nav, breadcrumb, footer, sidebar, toc)                          │
+│  conversion/ (cta, popup, newsletter-signup, trust-badges, testimonials)       │
+│  branding/ (logo, favicon, brand-visual, hero) · content/ (tab-accordion)     │
+│  layout/ (card, grid, list, masonry)                                           │
+│  utility/ (top-banner, social-share, url-slug)                                │
 └─────────────────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────────────┐

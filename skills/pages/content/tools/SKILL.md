@@ -118,6 +118,8 @@ Identify:
 
 ## Related Skills
 
+- **card**: Tool card structure; name, benefit, CTA; grid layout for toolkit hub
+- **grid**: Toolkit hub grid layout; responsive columns
 - **features-page-generator**: Tools ≠ features; tools are free lead gen; features are paid capabilities; link from tools to product/features
 - **programmatic-seo**: Tools at scale; template + data; keyword patterns
 - **resources-page-generator**: Tools can be a section in resources; or standalone /tools

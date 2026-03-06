@@ -20,7 +20,7 @@ Identify:
 2. **PWA**: Is the site a PWA or planning to be?
 3. **Existing assets**: Logo, icon files
 
-## Required Sizes (Best Practices 2025)
+## Required Sizes
 
 | Size | Use |
 |------|-----|

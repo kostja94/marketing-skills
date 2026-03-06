@@ -185,25 +185,60 @@ Different website types need different pages. See [page-taxonomy.md § Website T
 
 ## Components
 
+UI components used in pages. Paths: `skills/components/{navigation,conversion,branding,content,layout,utility}/`.
+
+### Navigation
+
 | Skill | Description |
 |-------|-------------|
-| [top-banner-generator](../skills/components/top-banner/) | Announcement bar, sticky banner, promo bar |
-| [sidebar-generator](../skills/components/sidebar/) | Sidebar for blogs, docs; nav, CTA, related content |
-| [popup-generator](../skills/components/popup/) | Popup, modal, lightbox; lead capture, offers |
-| [navigation-menu-generator](../skills/components/navigation-menu/) | Navigation menu design, SEO, UX, accessibility |
-| [breadcrumb-generator](../skills/components/breadcrumb/) | Breadcrumb navigation, BreadcrumbList schema |
-| [social-share-generator](../skills/components/social-share/) | Share buttons (X, LinkedIn, Facebook), placement, intent URLs |
-| [footer-generator](../skills/components/footer/) | Footer design, links, SEO, newsletter placement |
-| [toc-generator](../skills/components/toc/) | Table of contents for long-form content |
-| [hero-generator](../skills/components/hero/) | Hero section design, conversion |
-| [logo-generator](../skills/components/logo/) | Logo placement, linking, brand recall |
-| [favicon-generator](../skills/components/favicon/) | Favicon, app icons, PWA icons |
-| [brand-visual-generator](../skills/components/brand-visual/) | Visual identity, typography, colors, spacing |
-| [trust-badges-generator](../skills/components/trust-badges/) | Trust badges, "Trusted by" logos |
-| [testimonials-generator](../skills/components/testimonials/) | Testimonials, reviews, customer quotes |
-| [cta-generator](../skills/components/cta/) | Call-to-action button design |
-| [newsletter-signup-generator](../skills/components/newsletter-signup/) | Newsletter signup form |
-| [url-slug-generator](../skills/components/url-slug/) | URL slug creation for content; 3–5 words, SEO-friendly |
+| [navigation-menu-generator](../skills/components/navigation/navigation-menu/) | Navigation menu design, SEO, UX, accessibility |
+| [breadcrumb-generator](../skills/components/navigation/breadcrumb/) | Breadcrumb navigation, BreadcrumbList schema |
+| [footer-generator](../skills/components/navigation/footer/) | Footer design, links, SEO, newsletter placement |
+| [sidebar-generator](../skills/components/navigation/sidebar/) | Sidebar for blogs, docs; nav, CTA, related content |
+| [toc-generator](../skills/components/navigation/toc/) | Table of contents for long-form content |
+
+### Conversion
+
+| Skill | Description |
+|-------|-------------|
+| [cta-generator](../skills/components/conversion/cta/) | Call-to-action button design |
+| [popup-generator](../skills/components/conversion/popup/) | Popup, modal, lightbox; lead capture, offers |
+| [newsletter-signup-generator](../skills/components/conversion/newsletter-signup/) | Newsletter signup form |
+| [trust-badges-generator](../skills/components/conversion/trust-badges/) | Trust badges, "Trusted by" logos |
+| [testimonials-generator](../skills/components/conversion/testimonials/) | Testimonials, reviews, customer quotes |
+
+### Branding
+
+| Skill | Description |
+|-------|-------------|
+| [logo-generator](../skills/components/branding/logo/) | Logo placement, linking, brand recall |
+| [favicon-generator](../skills/components/branding/favicon/) | Favicon, app icons, PWA icons |
+| [brand-visual-generator](../skills/components/branding/brand-visual/) | Visual identity, typography, colors, spacing |
+| [hero-generator](../skills/components/branding/hero/) | Hero section design, conversion |
+
+### Content
+
+| Skill | Description |
+|-------|-------------|
+| [tab-accordion](../skills/components/content/tab-accordion/) | Tab and accordion components; expandable content; SEO for hidden content |
+
+### Layout
+
+| Skill | Description |
+|-------|-------------|
+| [card](../skills/components/layout/card/) | Card layout; product, template, tool, feature, gallery cards; grid design |
+| [grid](../skills/components/layout/grid/) | Grid layout; equal-hierarchy, multi-column; products, templates, features |
+| [list](../skills/components/layout/list/) | List layout; linear, stacked; blog index, docs, search results |
+| [masonry](../skills/components/layout/masonry/) | Masonry layout; varying heights; gallery, portfolio, Pinterest-style |
+| [carousel](../skills/components/layout/carousel/) | Carousel/slider layout; testimonials, logos, featured rotation; accessibility |
+
+### Utility
+
+| Skill | Description |
+|-------|-------------|
+| [top-banner-generator](../skills/components/utility/top-banner/) | Announcement bar, sticky banner, promo bar |
+| [social-share-generator](../skills/components/utility/social-share/) | Share buttons (X, LinkedIn, Facebook), placement, intent URLs |
+| [url-slug-generator](../skills/components/utility/url-slug/) | URL slug creation for content; 3–5 words, SEO-friendly |
 
 ## Channels
 

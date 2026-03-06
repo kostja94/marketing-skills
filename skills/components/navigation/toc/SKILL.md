@@ -94,6 +94,7 @@ Identify:
 
 ## Related Skills
 
+- **tab-accordion**: Collapsible TOC uses same disclosure pattern; details/summary implementation
 - **heading-structure**: TOC built from heading structure
 - **content-optimization**: H2 structure, lists, tables for Featured Snippets
 - **featured-snippet**: Featured Snippet optimization; TOC supports snippet structure

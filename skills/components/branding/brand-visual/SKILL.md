@@ -20,7 +20,7 @@ Identify:
 2. **Touchpoints**: Web, print, social, product UI
 3. **Existing assets**: Logo, style guide, design files
 
-## Best Practices (2025)
+## Best Practices
 
 ### Typography
 

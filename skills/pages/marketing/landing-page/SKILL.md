@@ -139,6 +139,7 @@ Before shipping a landing page, verify:
 ### Components
 
 - **hero-generator**: Hero section (step 1)
+- **grid, list**: Content layout below hero; sections, features, testimonials
 - **image-optimization**: Image optimization (alt, WebP, LCP, responsive, lazy loading)
 - **cta-generator**: CTA button design and placement
 - **testimonials-generator, trust-badges-generator**: Social proof (step 2)

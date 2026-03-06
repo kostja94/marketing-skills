@@ -54,6 +54,8 @@ Identify:
 
 ## Related Skills
 
+- **card**: Card layout structure; product card anatomy, grid design
+- **grid**: Product grid layout; responsive columns
 - **landing-page-generator**: Product-focused landing pages send to products; product launch LP destination
 - **pricing-page-generator**: Product cards link to pricing
 - **url-slug-generator**: URL slug for product pages; 3-5 words, primary keyword

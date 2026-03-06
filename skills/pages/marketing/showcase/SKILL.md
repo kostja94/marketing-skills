@@ -62,6 +62,8 @@ Identify:
 
 ## Related Skills
 
+- **card**: Gallery card structure; thumbnail, title, creator, link
+- **grid, masonry, carousel**: Grid for uniform; masonry for varying heights (Pinterest-style); carousel for featured rotation
 - **customer-stories-page-generator**: Case studies vs. visual showcase; different formats
 - **testimonials-generator**: Testimonials as component; showcase can include quotes
 - **creator-program**: Creator showcase for program members

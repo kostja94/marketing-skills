@@ -77,7 +77,13 @@ skills/
 │   ├── youtube-ads/      # TrueView, Bumper, Discovery
 │   └── native-ads/       # Taboola, Outbrain
 ├── pages/                # Page types
-├── components/           # UI components (navigation, etc.)
+├── components/           # UI components
+│   ├── navigation/       # navigation-menu, breadcrumb, footer, sidebar, toc
+│   ├── conversion/       # cta, popup, newsletter-signup, trust-badges, testimonials
+│   ├── branding/         # logo, favicon, brand-visual, hero
+│   ├── content/          # tab-accordion
+│   ├── layout/           # card, grid, list, masonry
+│   └── utility/          # top-banner, social-share, url-slug
 ├── channels/             # Acquisition channels (affiliate, email-marketing, egc, influencer, referral, creator-program, community-forum, directories, pr)
 ├── platforms/            # Publishing platforms (x, reddit, linkedin, tiktok, youtube, pinterest, medium, github, grokipedia)
 ├── strategies/           # Cross-cutting strategies

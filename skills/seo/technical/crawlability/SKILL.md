@@ -1,8 +1,8 @@
 ---
 name: site-crawlability
-description: When the user wants to improve crawlability, fix orphan pages, or optimize site structure for search engines. Also use when the user mentions "crawlability," "crawl budget," "orphan pages," "internal links," "site structure," or "site crawlability."
+description: When the user wants to improve crawlability, fix orphan pages, or optimize site structure for search engines. Also use when the user mentions "crawlability," "crawl budget," "orphan pages," "internal links," "site structure," "site crawlability," "infinite scroll," "pagination," "masonry SEO," or "content not indexed."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # SEO Technical: Crawlability
@@ -48,10 +48,27 @@ Identify:
 | **Orphan pages** | Add internal links to pages with no incoming links; see **internal-links** for link strategy |
 | **Hierarchy** | Logical structure; hub pages link to content |
 
-### Pagination
+### Pagination vs Infinite Scroll
 
-- Prefer pagination over infinite scroll for crawlability
-- Reference links to next/previous pages; avoid dynamic-only loading
+**Problem**: With infinite scroll, crawlers cannot emulate user behavior (scroll, click "Load more"); content loaded after initial page load is not discoverable. Same applies to masonry + infinite scroll, lazy-loaded lists, and similar patterns.
+
+**Solution**: Prefer pagination for key content. If keeping infinite scroll, make it search-friendly per [Google's recommendations](https://developers.google.com/search/blog/2014/02/infinite-scroll-search-friendly):
+
+| Requirement | Practice |
+|-------------|----------|
+| **Component pages** | Chunk content into paginated pages accessible without JavaScript |
+| **Full URLs** | Each page has unique URL (e.g. `?page=1`, `?lastid=567`); avoid `#1` |
+| **No overlap** | Each item listed once in series; no duplication across pages |
+| **Direct access** | URL works in new tab; no cookie/history dependency |
+| **pushState/replaceState** | Update URL as user scrolls; enables back/forward, shareable links |
+| **404 for out-of-bounds** | `?page=999` returns 404 when only 998 pages exist |
+
+**Reference**: [Infinite scroll search-friendly recommendations](https://developers.google.com/search/blog/2014/02/infinite-scroll-search-friendly) (Google Search Central, 2014)
+
+### Pagination (Traditional)
+
+- Reference links to next/previous pages; `rel="prev"` / `rel="next"` where applicable
+- Avoid dynamic-only loading; ensure links in HTML
 
 ## Common Issues
 
@@ -60,7 +77,7 @@ Identify:
 | Redirect chains | Update links to point directly to final URL |
 | Broken links | 301 or remove; audit internal and external |
 | Orphan pages | Add internal links from hub or navigation; see **internal-links** for strategy |
-| Infinite scroll | Replace with pagination for key content |
+| Infinite scroll | Provide paginated component pages; or replace with pagination for key content; see above |
 
 ## Output Format
 
@@ -78,3 +95,4 @@ Identify:
 - **google-search-console**: Index status, Coverage report
 - **indexing**: Fix indexing issues
 - **internal-links**: Internal linking best practices
+- **masonry**: Masonry + infinite scroll has same crawl issue; layout skill references this for SEO

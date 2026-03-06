@@ -13,6 +13,41 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 _None._
 
+## [2026-03-06] v2.3.10
+
+### Added
+
+- **layout/carousel** — Carousel/slider layout; when to use vs grid/list/masonry; testimonials, logos, featured rotation; accessibility (keyboard nav, user control); SEO (content in DOM at load).
+
+### Changed
+
+- **testimonials-generator** — Carousel design/accessibility moved to **carousel**; add carousel to Related Skills.
+- **showcase-page-generator** — Add carousel to Related Skills (Format: grid, masonry, carousel).
+- **masonry** — Add Carousel to Masonry vs Grid vs Bento table; add carousel to Related Skills.
+- **grid, card, list** — Add carousel to Related Skills; card adds Carousel to Grid vs List vs Masonry table.
+- **category-pages, integrations, template-page, products, features, tools, resources** — Add grid/list to Related Skills.
+- **landing-page-generator** — Add grid, list to Components Related Skills.
+- **brand-visual, article, url-slug, favicon, directories** — Remove year from Best Practices section titles.
+
+## [2026-03-06] v2.3.9
+
+### Added
+
+- **site-crawlability** — Infinite scroll search-friendly: component pages, full URLs, pushState, no overlap, 404 for out-of-bounds. Reference: [Google infinite scroll](https://developers.google.com/search/blog/2014/02/infinite-scroll-search-friendly).
+- **layout/card** — Card layout component; anatomy, use cases (product, template, tool, feature, gallery, integration), responsive grid, design principles. Page skills (products, template, tools, features, showcase, integrations, category, resources) reference card.
+- **layout/grid** — Grid layout; equal-hierarchy, multi-column; when to use vs list.
+- **layout/list** — List layout; linear, stacked; blog index, docs, F-pattern.
+- **layout/masonry** — Masonry layout; varying heights; gallery, portfolio, Pinterest-style.
+
+### Changed
+
+- **site-crawlability** — Expand Pagination/Infinite scroll with Google recommendations; add triggers: infinite scroll, pagination, masonry SEO.
+- **masonry** — Add SEO Considerations: masonry + infinite scroll = not crawlable; link to site-crawlability.
+- **list** — Add Infinite Scroll section; link to site-crawlability.
+- **grid** — Add Infinite Scroll section; link to site-crawlability.
+- **hero-generator** — Add Layout Types (split 50/50, 75/25, 25/75, centered, full-width image), Alignment (horizontal, vertical), responsive behavior. Add triggers: split layout hero, centered hero, hero alignment.
+- **components** — Restructure to nested folders: `navigation/` (nav, breadcrumb, footer, sidebar, toc), `conversion/` (cta, popup, newsletter-signup, trust-badges, testimonials), `branding/` (logo, favicon, brand-visual, hero), `content/` (tab-accordion), `layout/` (card, grid, list, masonry), `utility/` (top-banner, social-share, url-slug). Aligns with pages/, seo/, paid-ads/ structure. skills-list, skills-guide, skills-relationships updated.
+
 ## [2026-03-05] v2.3.8
 
 ### Changed

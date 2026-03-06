@@ -63,6 +63,8 @@ Identify:
 
 ## Related Skills
 
+- **card**: Integration card structure; logo, name, description, CTA; catalog grid
+- **grid, list**: Catalog layout; grid or list format
 - **api-page-generator**: API overview; link for developer integrations
 - **docs-page-generator**: Integration setup guides in docs
 - **category-page-generator**: Catalog layout for many integrations

@@ -68,7 +68,7 @@ Identify:
 
 - **Categories**: Group by topic (Billing, Features, Support, Compliance)
 - **Hierarchy**: Clear sections, logical order
-- **Navigation**: Table of contents, accordions, jump links, search bar
+- **Navigation**: Table of contents, accordions, jump links, search bar; see **tab-accordion** for accordion SEO and implementation
 - **Maintenance**: Audit quarterly; rewrite underperforming answers
 
 ### SEO & GEO
@@ -97,6 +97,7 @@ Identify:
 
 ## Related Skills
 
+- **tab-accordion**: Accordion implementation, SEO for expandable content, details/summary HTML
 - **landing-page-generator**: FAQ section for LP objection handling (step 4); reuse conversion Q&A
 - **pricing-page-generator**: FAQ often addresses pricing objections
 - **contact-page-generator**: FAQ reduces contact form volume

@@ -83,6 +83,8 @@ See **tools-page-generator** for free tools pages.
 
 ## Related Skills
 
+- **card**: Feature card structure; name, benefit, screenshot; grid/list layout
+- **grid, list**: Feature grid or list layout
 - **tools-page-generator**: Tools = free lead gen; features = paid capabilities; link from tools to product/features
 - **use-cases-page-generator**: Features = what it does; use cases = when/how to use it; link between; avoid duplicating scenario content on features page
 - **landing-page-generator**: Features content for product LP "Explain value" step; product LP links to features

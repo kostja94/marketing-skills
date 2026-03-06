@@ -199,7 +199,7 @@ See **generative-engine-optimization** for full GEO strategy.
 - Use jump links for major sections
 - Break text with images, lists, definition boxes, mini-FAQs
 
-## SEO Best Practices (2025)
+## SEO Best Practices
 
 ### Title & Meta
 

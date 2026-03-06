@@ -72,6 +72,8 @@ Identify:
 
 ## Related Skills
 
+- **card**: Resource card structure; thumbnail, title, format, CTA; tiles in hub
+- **grid**: Resource hub grid layout; tiles
 - **tools-page-generator**: Standalone /tools when many free tools; toolkit hub
 
 - **landing-page-generator**: Lead magnet (ebook, webinar) as LP offer; LP exchanges resource for email

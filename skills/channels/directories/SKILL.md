@@ -23,7 +23,7 @@ Directory submission is a core channel for cold start—see **cold-start-strateg
 | **Real traffic & conversion** | Referral traffic from directories converts. ~42% of businesses report increased referral traffic after submission; referral conversion ~1.8% (B2C), 1.1% (B2B), 1.3% (SaaS). Use UTM to track; proper attribution can improve measured conversion by ~23%. |
 | **Social proof for brand search** | When users search your brand name, directory listings (e.g. Product Hunt, G2, Taaft) often dominate SERP. Third-party presence signals legitimacy; consumers check 5-7 sources before deciding. Verified badges and consistent NAP across directories boost trust. See **serp-features** for SERP feature types. |
 
-## Current Best Practices (2024-2026)
+## Current Best Practices
 
 **Quality over quantity.** Mass submission to hundreds of low-quality directories can harm rankings; strategic placement in 10-15 high-quality directories typically yields 15-25% improvement in indexing speed and branded search visibility.
 

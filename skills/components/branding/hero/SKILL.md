@@ -1,8 +1,8 @@
 ---
 name: hero-generator
-description: When the user wants to design, optimize, or audit hero sections (above-the-fold main visual area). Also use when the user mentions "hero," "hero section," "hero area," "above the fold," "above the fold content," "landing hero," "main banner," "banner section," "first fold," "hero section design," or "hero conversion."
+description: When the user wants to design, optimize, or audit hero sections (above-the-fold main visual area). Also use when the user mentions "hero," "hero section," "hero area," "above the fold," "above the fold content," "landing hero," "main banner," "banner section," "first fold," "hero section design," "hero conversion," "split layout hero," "centered hero," or "hero alignment."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Components: Hero Section
@@ -31,6 +31,27 @@ Identify:
 
 - **Trust cues**: 1–3 elements (reviews, logos, statistics)
 - **Secondary CTA**: For users not ready for primary action
+
+## Layout Types
+
+Hero is a **Spotlight layout**—single focus, primary element with secondary around it. Choose layout by content balance and conversion goal.
+
+| Layout | Structure | Best for |
+|--------|-----------|----------|
+| **Split (50/50)** | Text left, visual right (or vice versa); equal weight | Product, SaaS; clear value + demo |
+| **Split (75/25)** | Text dominant; smaller image column | Copy-heavy; trust-first |
+| **Split (25/75 "Signpost")** | Small image beside primary content | Minimal visual; emphasis on headline |
+| **Centered** | Text + CTA centered; visual full-width or stacked | Brand, landing; single CTA |
+| **Full-width image** | Image background; overlay text | Emotional; lifestyle, brand |
+
+**Responsive**: Split layouts stack vertically on mobile (text above image); centered maintains center. Mobile-first; ensure CTA above fold on small screens.
+
+## Alignment
+
+| Axis | Options | Use |
+|------|---------|-----|
+| **Horizontal** | Left, center, right | Left align for text-heavy; center for minimal |
+| **Vertical** | Top, center, bottom | Center for full-viewport hero; top for short hero |
 
 ## Best Practices
 
@@ -96,6 +117,8 @@ The hero must answer three questions within 3 seconds: **What is this?** **Why s
 
 ## Related Skills
 
+- **card**: Hero vs card—hero is single above-fold; cards are repeated units in grid
+- **grid**: Hero is one section; content below often uses grid (products, features)
 - **cta-generator**: Hero typically contains primary CTA
 - **trust-badges-generator**: Trust cues in hero
 - **logo-generator**: Logo appears in hero context

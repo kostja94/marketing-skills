@@ -13,12 +13,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 _None._
 
+## [2026-03-05] v2.3.7
+
+### Changed
+
+- **brand-protection** — Merge brand-impersonation-response-plan content (implementation checklist, references); remove standalone doc.
+- **press-coverage** — Move press-coverage-page.md from docs/ to skills/pages/marketing/press-coverage/reference.md; add SKILL ref.
+
+### Removed
+
+- docs/brand-impersonation-response-plan.md
+- docs/press-coverage-page.md
+
 ## [2026-03-05] v2.3.6
 
 ### Added
 
-- **brand-protection** — Impersonation response: evidence, reporting, support template, traffic recovery.
-- **brand-impersonation-response-plan** — Framework doc.
+- **brand-protection** — Impersonation response: evidence, reporting, support template, traffic recovery, implementation checklist, references.
 
 ### Changed
 

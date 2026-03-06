@@ -106,12 +106,27 @@ When users report "can't use after payment" but no record exists—likely paid o
 | **Traffic (Week 2+)** | Brand ads; SEO; social announcement |
 | **Ongoing** | Monitoring; defensive registration if feasible |
 
+## Implementation Checklist
+
+**Short-term (1–2 weeks)**: Evidence collection; abuse reports to registrar and host; Google Safe Browsing report; DMCA if applicable; add "Official website" on site.
+
+**Medium-term**: Add impersonation guidance to domain-selection; official verification to trust-badges, about-page.
+
+**Long-term**: Periodic search (brand + variants); brand monitoring (BrandShield, Doppel); defensive registration of variants.
+
 ## Output Format
 
 - **Evidence package** (checklist, evidence list)
 - **Report templates** (registrar, hosting, Google)
 - **Timeline** (immediate vs medium vs long-term actions)
 - **Prevention** (defensive registration, site verification, user education)
+
+## References
+
+- [How to Report and Take Down a Fake Website - LegalClarity](https://legalclarity.org/how-to-report-and-take-down-a-fake-website/)
+- [Website Spoofing: Detection and Take Down - BrandShield](https://www.brandshield.com/blog/website-spoofing-detection-take-down/)
+- [ICANN DNS Abuse Complaints Guide](https://www.icann.org/en/system/files/files/submitting-dns-abuse-complaints-icann-guide-17nov25-en.pdf)
+- [Google Safe Browsing - Report Phishing](https://safebrowsing.google.com/safebrowsing/report_phish/)
 
 ## Related Skills
 

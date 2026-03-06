@@ -7,7 +7,7 @@ metadata:
 
 # Pages: Press Coverage
 
-Guides press coverage and media mentions aggregation—showcasing third-party coverage from authoritative sites to build trust. Optional page; when coverage is sparse, implement as a small "As Seen In" or "As Featured In" section on homepage or elsewhere. Distinct from **media-kit-page-generator** (assets for journalists).
+Guides press coverage and media mentions aggregation—showcasing third-party coverage from authoritative sites to build trust. Optional page; when coverage is sparse, implement as a small "As Seen In" or "As Featured In" section on homepage or elsewhere. Distinct from **media-kit-page-generator** (assets for journalists). For conceptual overview and comparison table, see [reference.md](reference.md).
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 

@@ -1,6 +1,6 @@
-# Press Coverage Page
+# Press Coverage Page — Reference
 
-> Aggregation of third-party media coverage for trust and social proof. Optional page; when coverage is sparse, use as a small "As Seen In" section. See [press-coverage-page-generator](../skills/pages/marketing/press-coverage/) for implementation.
+Aggregation of third-party media coverage for trust and social proof. Optional page; when coverage is sparse, use as a small "As Seen In" section. See **SKILL.md** in this folder for implementation.
 
 ## What It Is
 
@@ -31,6 +31,6 @@ A **press coverage page** (or "As Seen In" / "As Featured In" section) showcases
 
 ## Related
 
-- [media-kit-page-generator](../skills/pages/marketing/media-kit/) — Press assets for journalists
-- [page-taxonomy](page-taxonomy.md) — Page classification
-- [pr-marketing](../skills/channels/pr/) — Press release, media relations
+- **media-kit-page-generator** — Press assets for journalists
+- **page-taxonomy** — Page classification
+- **pr-marketing** — Press release, media relations

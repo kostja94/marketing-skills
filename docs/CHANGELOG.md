@@ -13,6 +13,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 _None._
 
+## [2026-03-05] v2.3.8
+
+### Changed
+
+- **brand-protection** — Expand reporting channels: Google Trademark, Bing Content Removal, payment processors, social platforms; add Cloudflare-specific guidance, hosting detection, reporting best practices; add references.
+
 ## [2026-03-05] v2.3.7
 
 ### Changed

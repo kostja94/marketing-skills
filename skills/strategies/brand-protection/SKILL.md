@@ -38,11 +38,25 @@ Identify:
 | **Domain registrar** | Abuse / Report Misuse on registrar site | Brand impersonation, trademark, fraud |
 | **Hosting provider** | Same; submit abuse form | Hosting infringing content |
 | **Google Safe Browsing** | [Report Phishing](https://safebrowsing.google.com/safebrowsing/report_phish/) | Phishing / impersonation risk |
-| **DMCA** | If fake site copies product images, copy, design | Copyright infringement; request takedown |
-| **ICANN** | If registrar does not respond | [DNS Abuse complaint](https://www.icann.org/en/system/files/files/submitting-dns-abuse-complaints-icann-guide-17nov25-en.pdf) |
-| **Google Ads / Microsoft Ads** | If impersonator runs brand ads | Report trademark infringement via platform forms |
+| **Google Trademark** | [Trademark Complaint](https://services.google.com/inquiry/aw_tmcomplaint) or trademark@google.com | Trademark infringement in search; requires registered trademark |
+| **Bing Content Removal** | [Content Moderation Platform](https://www.bing.com/webmaster/contentremovalform/showanonymouspage) | Copyright/trademark; content removal from Bing |
+| **Payment processors** | PayPal Resolution Center, Stripe support | If fake site accepts payments; report fraud |
+| **Social platforms** | X, Facebook, Instagram abuse forms | If fake site is promoted or linked there |
+| **Google Ads / Microsoft Ads** | Platform trademark complaint forms | If impersonator runs brand ads |
+| **DMCA** | To hosting provider | Copyright infringement; images, copy, design copied |
+| **ICANN** | [DNS Abuse complaint](https://www.icann.org/en/system/files/files/submitting-dns-abuse-complaints-icann-guide-17nov25-en.pdf) | If registrar does not respond within reasonable time |
 
 **Report content**: Include full URL, clear description of fraudulent activity, and all evidence (screenshots, logs).
+
+## Reporting Best Practices
+
+**Registrar vs hosting**: Use [ICANN Lookup](https://lookup.icann.org/) for registrar. For hosting, use IP lookup (HostingCheckerOnline, HostingDetector, ipinfo.io) to find origin server—registrar may be Cloudflare while origin host is elsewhere; report to both.
+
+**Cloudflare as registrar**: Use [abuse.cloudflare.com](https://abuse.cloudflare.com/) or [abuse form](https://abuse.cloudflare.com/phishing); select "Phishing & Malware" for impersonation. Email complaints are generally not processed; use the online form. Provide specific URLs of infringing pages.
+
+**Hosting detection**: Sites behind Cloudflare CDN hide origin IP. Use reverse IP lookup or hosting detection tools to identify underlying host; submit abuse to that provider as well.
+
+**Parallel reporting**: Submit to registrar, host, and Google Safe Browsing simultaneously; do not wait for one before others. Google trademark review takes 1–8 weeks.
 
 ## Legal Options
 
@@ -127,6 +141,9 @@ When users report "can't use after payment" but no record exists—likely paid o
 - [Website Spoofing: Detection and Take Down - BrandShield](https://www.brandshield.com/blog/website-spoofing-detection-take-down/)
 - [ICANN DNS Abuse Complaints Guide](https://www.icann.org/en/system/files/files/submitting-dns-abuse-complaints-icann-guide-17nov25-en.pdf)
 - [Google Safe Browsing - Report Phishing](https://safebrowsing.google.com/safebrowsing/report_phish/)
+- [Cloudflare Abuse Reporting](https://www.cloudflare.com/trust-safety/reporting-abuse/) — use online form; select Phishing & Malware
+- [Google Trademark Complaint](https://services.google.com/inquiry/aw_tmcomplaint)
+- [Bing Content Removal](https://www.bing.com/webmaster/contentremovalform/showanonymouspage)
 
 ## Related Skills
 

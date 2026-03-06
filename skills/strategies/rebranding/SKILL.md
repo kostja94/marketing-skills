@@ -124,4 +124,5 @@ Identify:
 - **schema-markup**: Update Organization schema on new domain
 - **multi-domain-brand-seo**: When old and new domains coexist during transition
 - **branding**: Brand strategy, identity; rebranding implements the change
+- **brand-protection**: Sync impersonation checks when rebranding; update official domain declaration
 - **gtm-strategy**: Repositioning GTM; when repositioning includes rebrand

@@ -63,3 +63,4 @@ Identify:
 - **contact-page-generator**: Contact info on About
 - **customer-stories-page-generator**: Social proof complements About
 - **title-tag, meta-description, page-metadata**: About page metadata
+- **brand-protection**: Official domain and identity declaration; helps users distinguish from impersonation sites

@@ -13,6 +13,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 _None._
 
+## [2026-03-05] v2.3.6
+
+### Added
+
+- **brand-protection** — Impersonation response: evidence, reporting, support template, traffic recovery.
+- **brand-impersonation-response-plan** — Framework doc.
+
+### Changed
+
+- **domain-selection** — Impersonation variants; brand-protection ref.
+- **trust-badges, about-page, homepage, rebranding** — brand-protection in Related Skills.
+
 ## [2026-03-05] v2.3.5
 
 ### Changed

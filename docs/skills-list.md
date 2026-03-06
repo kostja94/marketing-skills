@@ -257,6 +257,7 @@ Different website types need different pages. See [page-taxonomy.md § Website T
 | [domain-architecture](../skills/strategies/domain/domain-architecture/) | Subfolder vs subdomain vs independent domain; brand architecture; Hub-Spoke |
 | [multi-domain-brand-seo](../skills/strategies/domain/multi-domain-brand-seo/) | Multi-domain brand search: Hub ranks first for brand queries |
 | [rebranding-strategy](../skills/strategies/rebranding/) | Rebranding: domain change, 301 redirects, migration, social announcement |
+| [brand-protection](../skills/strategies/brand-protection/) | Brand impersonation, fake sites, phishing; evidence, reporting, prevention; defensive registration |
 | [conversion-optimization](../skills/strategies/conversion/) | CRO, A/B testing, funnel optimization, PIE prioritization |
 | [product-launch](../skills/strategies/product-launch/) | Product launch execution: channels, timeline, checklist; GTM framework → gtm-strategy |
 | [research-sources](../skills/strategies/research-sources/) | Information sources for market research, competitor analysis, data collection |

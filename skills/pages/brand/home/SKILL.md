@@ -70,6 +70,7 @@ Identify:
 ## Related Skills
 
 - **branding**: Brand strategy, value prop, differentiation; homepage implements brand voice
+- **brand-protection**: "Official website" placement when impersonation risk exists
 - **landing-page-generator**: For single-goal campaign pages (affiliate signup, lead capture); homepage is multi-purpose
 - **pricing-page-generator**: Homepage often links to pricing
 - **features-page-generator**: Features section or link to features page

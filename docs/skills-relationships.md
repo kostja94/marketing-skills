@@ -89,9 +89,9 @@ See [page-taxonomy](page-taxonomy.md) for full classification.
                                         │
 ┌───────────────────────────────────────┼───────────────────────────────────────┐
 │  Platforms                             │  Strategies                          │
-│  x · reddit · linkedin · tiktok ·       │  branding · content-mktg · seo-strategy · paid-ads │
+│  x · reddit · linkedin · tiktok ·       │  branding · brand-protection · content-mktg · seo-strategy · paid-ads │
 │  youtube · pinterest · medium ·         │  cold-start · indie-hacker · geo · integrated-mktg · pmf · gtm · parasite · programmatic│
-│  github · grokipedia                    │  conversion · product-launch · retention · domain/* · pricing/* · rebranding · localization · website-structure        │
+│  github · grokipedia                    │  conversion · product-launch · retention · domain/* · pricing/* · rebranding · brand-protection · localization · website-structure        │
 └────────────────────────────────────────┼──────────────────────────────────────┘
                                          │
                     ┌────────────────────┴────────────────────┐
@@ -137,5 +137,34 @@ See [page-taxonomy](page-taxonomy.md) for full classification.
 | 3 | Page types by purpose (brand, content, marketing, legal, utility) |
 | 4 | Growth channels, platforms, GEO, parasite SEO |
 | 5 | UI components and analytics |
+
+---
+
+## 6. Brand Protection (Impersonation Response)
+
+```
+                    ┌─────────────────────────────────────┐
+                    │         brand-protection             │
+                    │  Evidence · Report · Prevent · Educate │
+                    └─────────────────────┬───────────────┘
+                                          │
+         ┌────────────────────────────────┼────────────────────────────────┐
+         ▼                                ▼                                ▼
+┌──────────────────┐           ┌──────────────────────┐           ┌──────────────────┐
+│ domain-selection │           │   trust-badges        │           │  about-page      │
+│ Defensive reg.   │           │ Official site signal │           │ Identity decl.   │
+└──────────────────┘           └──────────────────────┘           └──────────────────┘
+         │                                │                                │
+         └────────────────────────────────┼────────────────────────────────┘
+                                          │
+                              ┌───────────┴───────────┐
+                              ▼                       ▼
+                    ┌──────────────────┐    ┌──────────────────┐
+                    │ rebranding-strategy│    │    branding      │
+                    │ Sync on rebrand   │    │ Asset protection │
+                    └──────────────────┘    └──────────────────┘
+```
+
+---
 
 **Skill uniqueness**: Each skill keeps only topic-relevant content. Overlapping topics use **Related Skills** references. See [skills-guide §4.2](skills-guide.md#42-skill-uniqueness-and-cross-references).

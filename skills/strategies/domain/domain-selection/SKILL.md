@@ -57,6 +57,7 @@ Identify:
 | **Avoid hyphens** | Looks unprofessional; can signal low quality |
 | **Check history** | Use Archive.org; avoid previously penalized domains |
 | **Defensive registration** | Register .net, .org, variants; redirect to main; do not deploy on multiple domains |
+| **Impersonation variants** | For AI products: register brand+ai, brand+app, brand+official; see **brand-protection** for impersonation response |
 | **Accurate WHOIS; renew on time** | Avoid loss or hijacking |
 
 ## .ai Domain Natural Backlinks
@@ -76,4 +77,5 @@ When brand name includes `.ai` (e.g., Character.ai, Leonardo.Ai), the full strin
 - **website-structure**: Plan pages after domain choice; single-domain structure
 - **domain-architecture**: Subfolder vs subdomain vs independent when multiple products
 - **rebranding-strategy**: Domain change, 301 redirects; use when rebranding
+- **brand-protection**: Defensive registration for impersonation prevention; fake site response
 - **link-building**: Build authority after domain is chosen

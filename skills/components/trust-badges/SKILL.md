@@ -80,3 +80,4 @@ Identify:
 - **pricing-page-generator**: Trust badges on pricing pages
 - **image-optimization**: Badge image optimization (alt, format)
 - **press-coverage-page-generator**: "As Seen In" publication logos; similar visual treatment; distinct (press = media coverage; trust-badges = security, payment, reviews)
+- **brand-protection**: "Official website" badges to distinguish from impersonation sites

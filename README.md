@@ -19,6 +19,7 @@
 - [How Skills Work Together](#how-skills-work-together)
 - [Tips & Rules](#tips--rules)
 - [Contributing](#contributing)
+- [Security](#security)
 - [References](#references)
 - [License](#license)
 
@@ -117,7 +118,7 @@ Skills are markdown — they work anywhere an AI can read text. No native skill 
 ```
 marketing-skills/
 ├── skills/           # seo/, pages/, components/, channels/, platforms/, strategies/, analytics/
-├── docs/             # skills-list, page-taxonomy, skills-guide, CHANGELOG, naming-rules, description-rules, reference-rules
+├── docs/             # skills-list, page-taxonomy, skills-guide, CHANGELOG, SECURITY, naming-rules, description-rules, reference-rules
 ├── templates/        # product-marketing-context.md, skills-task-progress.md
 ├── README.md
 └── CONTRIBUTING.md
@@ -223,6 +224,15 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [skills-guide](docs/skills-guide.md).
 
+## Security
+
+- **Content**: All skills are pure Markdown — no executable code, scripts, or binaries.
+- **Scope**: Instructions are limited to SEO, content, and marketing workflows.
+- **No exfiltration**: No instructions to send data externally, access env vars, or bypass safety.
+- **Audit**: Reviewed for prompt injection patterns (hidden instructions, HTML comments, suspicious keywords).
+
+Details → [SECURITY.md](docs/SECURITY.md)
+
 ## References
 
 *Product and website examples in skills are illustrative only; no affiliation, partnership, or endorsement implied. See [reference-rules §6](docs/reference-rules.md#6-product-and-website-examples).*
@@ -251,6 +261,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [skills-guide](docs/
 | [skills-list](docs/skills-list.md) | Full skill list; page taxonomy |
 | [skills-guide](docs/skills-guide.md) | Rules, specs, skill authoring |
 | [templates](templates/README.md) | product-marketing-context · skills-task-progress |
+| [SECURITY](docs/SECURITY.md) | Security audit, prompt injection checks |
 | [CHANGELOG](docs/CHANGELOG.md) | What changed, when |
 
 ## License

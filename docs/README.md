@@ -12,6 +12,7 @@ Reference docs for marketing-skills. For overview, installation, and usage → [
 | [where-to-use-skills.md](where-to-use-skills.md) | Where to use skills — native platforms (Cursor, Claude Code, Codex, OpenCode, Gemini CLI, GitHub Copilot, Windsurf, Cline, Base44, Trae); OpenClaw (dedicated section); AGENTS.md (Lovable, Replit); paste (v0, Bolt, Medo, ChatGPT, Gemini); AMP, KiloCode, Roo, Goose; install commands, path reference, Lovable example |
 | [use-cases-and-roadmap.md](use-cases-and-roadmap.md) | Use cases (personal site, product website, vibe coding, partnership), content roadmap, non-website agent future |
 | [CHANGELOG.md](CHANGELOG.md) | What changed, when |
+| [SECURITY.md](SECURITY.md) | Security audit, prompt injection checks |
 
 ## Contributor Docs
 

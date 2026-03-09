@@ -2,7 +2,7 @@
 name: alternatives-page-generator
 description: When the user wants to create, optimize, or audit alternatives or comparison content (page or blog article). Also use when the user mentions "alternatives page," "alternatives listicle," "X alternatives," "competitor comparison," "vs page," "compare page," "best alternatives to X," "switch from X," "competitor brand traffic," "brand keyword ads," or "intercept competitor search."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Pages: Alternatives / Compare
@@ -35,10 +35,10 @@ Target all three for long-tail growth; don't only target the biggest competitor.
 
 | Format | Path | Use |
 |--------|------|-----|
-| **Standalone page** | /alternatives, /alternatives-to-[competitor] | Dedicated hub; strong for your own product as alternative |
-| **Blog article** | /blog/[product]-alternatives, /blog/best-[x]-alternatives | Listicle format; common for affiliate, challenger brands; builds topical authority |
+| **Standalone page** | /alternatives, /alternatives-to-[competitor] | Dedicated hub; strong for your own product as alternative; **preferred for paid ads** (competitor brand keyword ads) |
+| **Blog article** | /blog/[product]-alternatives, /blog/best-[x]-alternatives | Listicle format; common for affiliate, challenger brands; builds topical authority; **SEO/organic only** |
 
-Both formats use the same structure (quick verdict, comparison table, individual reviews, FAQ). Blog articles often appear as listicles; challenger brands (e.g. ClickUp, CrazyEgg) publish alternatives content in their blog to leverage competitor brand awareness.
+Both formats use the same structure (quick verdict, comparison table, individual reviews, FAQ). **For competitor brand keyword ads (Google Ads, etc.)**: use a **dedicated landing page**, not a blog. Users searching competitor brands expect direct alternatives; a blog increases bounce; a comparison page matches intent and converts better. Blog is for organic traffic and topical authority.
 
 ### URL Structure
 
@@ -102,8 +102,8 @@ Identify:
 ### Brand Keyword Ads (PPC)
 
 - **Use case**: Bid on "[Competitor] alternative," "[Competitor] vs [You]" when allowed by platform
-- **Landing page**: Alternatives page must match ad intent; "You searched for X alternative—here are options"
-- **Ad-to-page alignment**: Ad copy and landing page headline must align; see **landing-page-generator**, **paid-ads-strategy**
+- **Landing page**: Use a **dedicated alternatives/comparison page**, not a blog article. High-intent users expect direct alternatives; blog increases bounce. See **google-ads** Competitor Brand Keywords.
+- **Ad-to-page alignment**: H1 mirrors search intent ("X vs [You]"); comparison table; one-line differentiator; strong CTA; see **landing-page-generator**, **paid-ads-strategy**
 
 ### Programmatic SEO (Scale)
 
@@ -138,6 +138,7 @@ Identify:
 - **article-page-generator**: Alternatives as blog listicle; same structure, different path
 - **migration-page-generator**: Migration guides for switchers; link from alternatives
 - **landing-page-generator**: When alternatives page is used for paid ads (PPC), apply LP principles; ad-to-page alignment
+- **google-ads**: Competitor brand keyword campaigns; LP (not blog) for competitor ads; see Competitor Brand Keywords section
 - **paid-ads-strategy**: When to use paid ads; ad-to-page alignment; channel selection; competitor brand bidding
 - **programmatic-seo**: Scale alternatives pages across 50+ competitors; template + data
 - **features-page-generator**: Feature comparison content

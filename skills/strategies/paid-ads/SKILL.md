@@ -2,7 +2,7 @@
 name: paid-ads-strategy
 description: When the user wants to plan paid ads strategy, allocate ad budget, or choose paid channels. Also use when the user mentions "paid ads," "paid media," "PPC," "SEM," "web ads," "app ads," "TV ads," "CTV," "OOH," "banner ads," "ad network," "ad alliance," "Taaft ads," "Shopify App Store ads," "Google Ads," "Meta Ads," "PMF testing," "PMF validation," "test product-market fit with ads," "ad spend," "ad budget," "ROAS," "paid acquisition," "Quality Score," or "ad-to-page alignment."
 metadata:
-  version: 1.5.0
+  version: 1.6.0
 ---
 
 # Strategies: Paid Ads
@@ -178,6 +178,12 @@ See **landing-page-generator** for LP structure and conversion optimization.
 
 When running affiliate programs: prohibit affiliates from bidding on your brand terms in Google Ads. Monitor paid search; use brand monitoring tools. See **affiliate-page-generator**.
 
+## Competitor Brand Bidding
+
+**When**: Bid on "[Competitor] alternative," "[Competitor] vs [You]" to intercept high-intent traffic. Google allows competitor terms as keywords; ad copy cannot use competitor names without permission.
+
+**Landing page**: Use a **dedicated comparison/alternatives page**, not a blog. Users searching competitor brands expect direct alternatives; blog increases bounce. See **alternatives-page-generator**, **google-ads** Competitor Brand Keywords.
+
 ## Output Format
 
 - **Channel** recommendation (and route to platform skill if needed)
@@ -195,6 +201,7 @@ When running affiliate programs: prohibit affiliates from bidding on your brand 
 - **display-ads**: Ad networks, banner ads, programmatic display
 - **directory-listing-ads**: Taaft, Shopify App Store, G2, Capterra paid placements
 - **landing-page-generator**: LP structure for paid traffic; ad-to-page alignment
+- **alternatives-page-generator**: Competitor brand keyword ads → dedicated LP (not blog); comparison page structure
 - **cold-start-strategy**: When NOT to use paid ads
 - **pmf-strategy**: PMF validation; when to use PMF testing vs conversion-driven mode
 - **seo-strategy**: Organic vs paid

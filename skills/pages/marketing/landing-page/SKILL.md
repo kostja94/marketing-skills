@@ -2,7 +2,7 @@
 name: landing-page-generator
 description: When the user wants to create, optimize, or audit campaign landing pages for paid ads or other traffic. Also use when the user mentions "landing page," "PPC landing page," "SEM landing page," "conversion page," "campaign page," "lead capture page," "landing page optimization," "LP conversion," "single-page funnel," or "squeeze page."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Pages: Landing Page
@@ -62,7 +62,7 @@ When you need **many landing pages** (e.g., city-specific, product-specific, int
 | **Click-through** | Warm audience before sending to offer; best for SaaS, subscriptions | pricing-page, products-page, signup |
 | **Lead capture** | Collect email for nurture; forms 5 fields or fewer (longer forms cause ~81% abandonment) | newsletter-signup, contact-page |
 | **Product-focused** | Deep-dive features and benefits; product launch | products-page, features-page |
-| **Comparison** | X vs Y; commercial intent | features-page, pricing-page |
+| **Comparison** | X vs Y; competitor brand keyword ads; commercial intent | alternatives-page, features-page, pricing-page |
 | **Use cases / Solutions** | For integrated products hard to split into tools | features-page, services-page |
 | **Free tools** | Standalone utilities; lead gen; same ICP; excerpt from product | tools-page-generator; tool page as LP when gated |
 | **Bridge/bonus** | Extra incentive to purchase through your link | pricing-page, products-page |
@@ -148,7 +148,8 @@ Before shipping a landing page, verify:
 
 ### Strategy & SEO
 
-- **paid-ads-strategy**: When to use paid ads; ad-to-page alignment; channel selection
+- **paid-ads-strategy**: When to use paid ads; ad-to-page alignment; channel selection; competitor brand bidding
+- **alternatives-page-generator**: Competitor brand keyword ads → comparison LP (not blog); alternatives/comparison structure
 - **programmatic-seo**: Scale landing pages via template + data; programmatic landing pages (city, product, integration-specific)
 - **template-page-generator**: Template structure for programmatic LPs; sections, data slots, conversion elements
 - **title-tag, meta-description, page-metadata**: Landing page metadata

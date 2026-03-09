@@ -2,7 +2,7 @@
 name: google-ads
 description: When the user wants to set up, optimize, or manage Google Ads campaigns. Also use when the user mentions "Google Ads," "Google Search Ads," "PPC," "SEM," "PMF testing with ads," "test product-market fit," "Responsive Search Ads," "RSA," "Performance Max," "Quality Score," "keyword bidding," or "Google Display/YouTube ads."
 metadata:
-  version: 1.3.0
+  version: 1.4.0
 ---
 
 # Paid Ads: Google Ads
@@ -28,9 +28,22 @@ Guides Google Ads setup, campaign structure, keyword targeting, and optimization
 Account
 ├── Campaign: Brand (Search)
 ├── Campaign: Non-Brand (Search)
+├── Campaign: Competitor (Search) — optional; bid on competitor brand + "alternative"/"vs"
 ├── Campaign: Retargeting (Display)
 └── Campaign: Performance Max
 ```
+
+### Competitor Brand Keywords
+
+**When**: Bid on "[Competitor] alternative," "[Competitor] vs [You]" to intercept high-intent traffic. Google allows competitor terms as keywords; you cannot use competitor names in ad copy without permission.
+
+**Landing page**: Use a **dedicated landing page** (comparison/alternatives page), not a blog article. Users searching competitor brands expect direct alternatives—a blog increases bounce; a comparison page matches intent and converts better. See **alternatives-page-generator** for structure.
+
+**Best practices**:
+- Separate campaign; exact/phrase match; add your brand as negative
+- H1 mirrors search intent (e.g., "[Competitor] vs [You]")
+- Feature comparison table; one-line differentiator; strong CTA
+- Expect lower Quality Score, higher CPC than non-brand; optimize LP relevance
 
 **Naming**: `GOOG_[Objective]_[Audience]_[Offer]_[Date]` (e.g., `GOOG_Search_Brand_Demo_Ongoing`)
 
@@ -111,7 +124,8 @@ When you rank organically (position 4+) for a keyword and also run PPC, paid ads
 ## Related Skills
 
 - **pmf-strategy**: PMF validation framework; when to use PMF testing vs conversion-driven
-- **paid-ads-strategy**: Channel selection; budget allocation; ad-to-page alignment
+- **paid-ads-strategy**: Channel selection; budget allocation; ad-to-page alignment; competitor brand bidding
+- **alternatives-page-generator**: Competitor brand keyword ads → dedicated LP (not blog); comparison page structure
 - **keyword-research**: Keyword list, clusters, intent; support terms for negative keywords; PPC data feeds back SEO priority
 - **traffic-analysis**: UTM for attribution; paid–organic cannibalization audit
 - **landing-page-generator**: LP structure for paid traffic; PAA → FAQ

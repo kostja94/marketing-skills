@@ -6,6 +6,16 @@
 
 ---
 
+## 0. Agent Skills Overview
+
+**What they are**: Agent Skills are a lightweight, open format for extending AI agents with procedural knowledge — the "how to" steps and rules, not static descriptions. Think of them as "skill packs" or "plugins": authors write once; agents load on demand when the task matches. They solve the context gap — packaging organizational knowledge, team workflows, and domain norms into reusable Markdown that agents read at the right moment for more consistent, auditable behavior.
+
+**How they differ**: **Prompt** is one-off, per conversation. **Skill** is reusable, version-controlled, loaded when needed. **Tool** is a single executable (API call, file write). **MCP** connects agents to external services. **RAG** retrieves docs to augment context but doesn't execute. Skills complement all of these.
+
+**Discovering skills**: Browse [skills.sh](https://skills.sh) (All Time, Trending, Hot); search with `npx skills find [keyword]`; or `npx skills add owner/repo --list` to see a repo's skills. Check [skills.sh/kostja94](https://skills.sh/kostja94) for this repo's listing.
+
+---
+
 ## Quick Summary
 
 | Platform Type | Platforms | How |
@@ -47,6 +57,10 @@ npx skills add kostja94/marketing-skills
 # Install to multiple platforms
 npx skills add kostja94/marketing-skills -a cursor -a claude-code -a codex -a opencode
 ```
+
+### Syncing with GitHub
+
+To keep skills updated: **CLI** — re-run `npx skills add kostja94/marketing-skills` (overwrites); **Git submodule** — `git submodule add https://github.com/kostja94/marketing-skills.git .cursor/marketing-skills`, then `cp -r .cursor/marketing-skills/skills/* .cursor/skills/`; update with `cd .cursor/marketing-skills && git pull`.
 
 ---
 

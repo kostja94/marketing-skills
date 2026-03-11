@@ -41,6 +41,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - **geo, schema-markup, serp-features, multi-domain-brand-seo, eeat-signals, faq-page-generator, alternatives-page-generator, github-seo, article-page-generator** — Add entity-seo cross-refs; condense entity content to reference entity-seo.
 - **Related Skills optimization** — Reduce cross-references per [reference-rules §7](reference-rules.md#7-related-skills-optimization): landing-page 31→12; geo 16→10; entity-seo 11→6; image-optimization 13→8; content-optimization 12→8; serp-features, schema-markup, website-structure, article-page, google-search-console, metadata, visual-content, video-optimization streamlined.
 
+## [2025-03-11] v2.3.14
+
+### Added
+
+- **README badges** — GitHub stars, Last commit (shields.io).
+- **docs/usage.md** — §0 Agent Skills Overview (definition, Tool/MCP/RAG/Prompt differences, discovering skills); Syncing with GitHub subsection (CLI, submodule, pull).
+- **docs/skill-authoring.md** — Skills vs plain Markdown in §1 What Are Agent Skills.
+- **docs/SECURITY.md** — Skill Supply Chain & Poisoning section (poisoning risk, mitigation).
+
 ## [2025-03-11] v2.3.13
 
 ### Added

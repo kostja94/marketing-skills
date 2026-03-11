@@ -24,6 +24,8 @@ Agent Skills are reusable capability packages that provide **procedural knowledg
 - **Agents**: Load on demand, extend capabilities
 - **Teams/Enterprises**: Package organizational knowledge into version-controlled bundles
 
+**Skills vs plain Markdown**: Skills add AI-oriented conventions: each skill is a directory with `SKILL.md`, YAML frontmatter (`name`, `description`) required, `description` used for discovery and routing. Agents load metadata at startup, full content on activation. Plain Markdown has no such structure and doesn't participate in agent discovery.
+
 ---
 
 ## 2. Directory Structure

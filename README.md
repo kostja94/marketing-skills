@@ -1,6 +1,8 @@
 # Marketing & SEO Skills for AI Agents
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/kostja94/marketing-skills)](https://github.com/kostja94/marketing-skills/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/kostja94/marketing-skills)](https://github.com/kostja94/marketing-skills/commits/main)
 
 Markdown skill library for AI agents — SEO, content, pages, paid ads, channels, strategies. Add project context + skills; your agent delivers tailored, production-ready output. Works with Cursor, Claude Code, OpenClaw, Lovable, and any AI that reads markdown.
 

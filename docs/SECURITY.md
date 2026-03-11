@@ -43,6 +43,10 @@ To verify skills yourself:
    rg "javascript:|data:" skills/
    ```
 
+## Skill Supply Chain & Poisoning
+
+Skills are trusted context; attackers may embed malicious content ("skill poisoning") — e.g. base64-encoded scripts in Setup code blocks, prompt injection, credential exfiltration. Skills inherit the agent's full permissions (shell, files, env vars). **Mitigation**: Review skills before install; treat skills with scripts like executable code. [skills.sh](https://skills.sh) runs basic audits but cannot guarantee safety. See [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/) for prompt injection patterns.
+
 ## Related
 
 - [OWASP LLM Top 10: Prompt Injection](https://owasp.org/www-project-top-10-for-large-language-model-applications/)

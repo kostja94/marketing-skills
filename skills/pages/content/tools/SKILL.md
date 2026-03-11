@@ -13,7 +13,7 @@ Guides free tools pages that drive traffic and lead generation for the main prod
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, ICP, and conversion goals.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, ICP, and conversion goals.
 
 Identify:
 1. **Tool types**: Calculators, checkers, converters, generators (see Tool Types below)

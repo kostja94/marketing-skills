@@ -13,7 +13,7 @@ Guides content strategy for SEO: topic clusters, pillar pages, cluster articles,
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, audience, and proof points.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, audience, and proof points.
 
 Identify:
 1. **Keywords**: From keyword research — see **keyword-research** for discovery and clustering

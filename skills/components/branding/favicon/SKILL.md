@@ -13,7 +13,7 @@ Guides favicon and app icon implementation for brand consistency across browser 
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for brand and visual identity.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for brand and visual identity.
 
 Identify:
 1. **Tech stack**: Next.js, WordPress, static HTML, etc.

@@ -1,8 +1,28 @@
-# Skills Task Progress
+# Project Task Tracker
 
-> Copy to `.cursor/skills-task-progress.md` or `.claude/skills-task-progress.md`. Track marketing & SEO tasks when skills are installed in your project. The agent reads this to understand what's done and what's next.
+> Copy to `.cursor/project-task-tracker.md` or `.claude/project-task-tracker.md`. Track marketing & SEO tasks when skills are installed. The agent reads this to understand what's done and what's next.
 
 **Last updated**: [YYYY-MM-DD] — Update after each task; stale progress misguides the agent.
+
+---
+
+## Related Documents
+
+Link to your project context and sub-documents. Replace placeholders with your actual paths.
+
+**Related**: [project-context.md] | [project]-features.md | [project]-keywords.md | [project]-competitors.md
+
+---
+
+## Progress Summary
+
+| Status | Count | Share |
+|--------|-------|-------|
+| **Pending / In Progress** | [N] | [X%] |
+| **Done** | [N] | [X%] |
+| **Total** | [N] | — |
+
+**Progress**: [X] / [N] completed
 
 ---
 
@@ -178,6 +198,33 @@ Add rows for pages that exist or need creation. Delete rows for page types you d
 
 ---
 
+## Task Details (Optional)
+
+Expand complex tasks here. Reference project-context and sub-documents for specifics.
+
+### Task: [Task name]
+
+**Problem**: [What's wrong or missing]  
+**Goal**: [Desired outcome]  
+**Actions**: [Steps; link to features/keywords docs]  
+**Reference**: [Related skill or doc]
+
+---
+
+## Page Scope (Optional)
+
+List key pages for your site. Helps the agent understand boundaries.
+
+| Type | Paths |
+|------|-------|
+| Homepage | / |
+| Feature pages | /[feature-1], /[feature-2], … |
+| Use cases | /use-cases/[persona], … |
+| Comparison | /comparison/[slug], … |
+| Other | /blog, /download, … |
+
+---
+
 ## Optional: ICE Score (Advanced)
 
 For nuanced prioritization, use **Impact (1–10) × Confidence (1–10) × Ease (1–10)**. Higher = do first.
@@ -200,4 +247,4 @@ For nuanced prioritization, use **Impact (1–10) × Confidence (1–10) × Ease
 | 7. Channels | When ready for distribution |
 | 8. Analytics | Early — need data to measure |
 
-**Tip**: Delete rows for skills you didn't install. Add custom tasks (e.g. "Migrate to new CMS") as needed. The agent uses this file to avoid redundant work and suggest next steps.
+**Tip**: Delete rows for skills you didn't install. Add custom tasks (e.g. "Migrate to new CMS") as needed. Use Task Details and Page Scope for project-specific context. The agent uses this file to avoid redundant work and suggest next steps.

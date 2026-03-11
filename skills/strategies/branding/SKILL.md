@@ -20,7 +20,7 @@ Guides brand strategy: purpose, values, positioning, storytelling, voice, and vi
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read Sections 2 (Positioning), 3 (Value Proposition), 8 (Brand & Voice), 12 (Visual Identity).
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read Sections 2 (Positioning), 3 (Value Proposition), 8 (Brand & Voice), 12 (Visual Identity).
 
 Identify:
 1. **Scope**: New brand, audit, or alignment
@@ -90,7 +90,7 @@ Align archetype to customer personality; strengthens storytelling.
 | **Avoid** | Buzzwords, terms to never use | "streamline," "revolutionize," "synergy" |
 | **Preferred** | Terms to use consistently | "audit" not "analysis"; "customer" not "user" |
 
-**Product marketing context Section 8**: Document voice, tone, avoid, preferred terms. See **product-marketing-context** template.
+**Product marketing context Section 8**: Document voice, tone, avoid, preferred terms. See **project-context** template.
 
 ## Brand Visual Identity (Strategy Layer)
 
@@ -124,7 +124,7 @@ Single source of truth. Include:
 - **Voice & tone** (voice, tone, avoid, preferred)
 - **Archetype** (if applicable)
 - **Visual** (high-level; defer to brand-visual-generator for specs)
-- **Context template** for product-marketing-context Sections 8, 12
+- **Context template** for project-context Sections 8, 12
 
 ## Related Skills
 

@@ -13,7 +13,7 @@ Guides conversion rate optimization (CRO): increasing the percentage of visitors
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read Sections 4 (Audience), 5 (Website), 6 (Keywords).
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read Sections 4 (Audience), 5 (Website), 6 (Keywords).
 
 Identify:
 1. **Funnel stage**: Awareness, consideration, decision, post-purchase

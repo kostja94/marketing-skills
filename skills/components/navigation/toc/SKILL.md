@@ -13,7 +13,7 @@ Guides TOC implementation for long-form articles, guides, and whitepapers. TOCs 
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for content structure.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for content structure.
 
 Identify:
 1. **Content type**: Blog article, guide, whitepaper, documentation

@@ -21,7 +21,7 @@ Guides content marketing strategy across channels: content types, formats, distr
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read Sections 3 (Value Proposition), 4 (Audience), 11 (Content Strategy).
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read Sections 3 (Value Proposition), 4 (Audience), 11 (Content Strategy).
 
 Identify:
 1. **Goals**: Traffic, conversions, brand, retention

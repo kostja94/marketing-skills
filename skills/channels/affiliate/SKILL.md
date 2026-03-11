@@ -13,7 +13,7 @@ Guides affiliate marketing strategy for AI/SaaS products. Affiliate marketing us
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, audience, and positioning.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, audience, and positioning.
 
 Identify:
 1. **Product type**: SaaS, AI tool, subscription

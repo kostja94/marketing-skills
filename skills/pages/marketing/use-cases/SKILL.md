@@ -13,7 +13,7 @@ Guides use case pages that bridge product features and real-world customer probl
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, ICP, and proof points.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, ICP, and proof points.
 
 Identify:
 1. **Scenarios**: Concrete situations (event marketing, lead nurturing)

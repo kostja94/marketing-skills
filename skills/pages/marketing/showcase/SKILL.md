@@ -13,7 +13,7 @@ Guides showcase and gallery pages that display user-generated work, creator cont
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, audience, and UGC sources.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, audience, and UGC sources.
 
 Identify:
 1. **Content type**: Designs, sites, videos, templates, campaigns

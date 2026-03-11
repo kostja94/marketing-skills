@@ -19,7 +19,7 @@ Guides canonical tag configuration to consolidate duplicate content and declare 
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for site URL and language structure.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for site URL and language structure.
 
 Identify:
 1. **Site URL**: Base domain

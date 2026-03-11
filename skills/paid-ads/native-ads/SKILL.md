@@ -13,7 +13,7 @@ Guides native advertising on Taboola, Outbrain, and content recommendation netwo
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read Sections 3 (Value Proposition), 4 (Audience).
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read Sections 3 (Value Proposition), 4 (Audience).
 
 Identify:
 1. **Goal**: Traffic, leads, brand

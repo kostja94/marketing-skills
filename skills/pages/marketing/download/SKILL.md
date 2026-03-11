@@ -13,7 +13,7 @@ Guides download page structure and optimization for desktop and mobile app downl
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, audience, and value proposition.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, audience, and value proposition.
 
 Identify:
 1. **App type**: Desktop (Windows, macOS, Linux) or mobile (iOS, Android, both)

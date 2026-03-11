@@ -110,7 +110,7 @@ Guides go-to-market (GTM) strategy—the blueprint for launching or repositionin
 - **Scenario** (product launch, new market, repositioning, feature)
 - **GTM mode** (PLG/SLG/MLG/Hybrid) recommendation
 - **90-day** phase plan
-- **ICP** and **persona** (or link to product-marketing-context)
+- **ICP** and **persona** (or link to project-context)
 - **Market analysis** checklist
 - **Launch** execution → see **product-launch**
 

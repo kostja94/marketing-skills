@@ -21,7 +21,7 @@ Guides optimization of meta tags beyond title, description, Open Graph, and Twit
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for language/locale and indexing goals.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for language/locale and indexing goals.
 
 Identify:
 1. **Multi-language**: zh, en, x-default if applicable

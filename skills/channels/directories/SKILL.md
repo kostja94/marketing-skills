@@ -1,6 +1,6 @@
 ---
 name: directory-submission
-description: When the user wants to submit a product to directories, launch platforms, curated lists, or app stores. Reads product-marketing-context.md when present and generates ready-to-paste submission content per platform. Also use when the user mentions "directory submission," "get listed," "app store listing," "submit to directories," "curated list," "best tools list," "Taaft," "Product Hunt," "directory ads," "newsletter feature," "directory campaign," "product info for directory," "tailor description per platform," "Shopify App Store," "Chrome Web Store," "submit to directory," "launch on Product Hunt," "navigation site," or "product directory."
+description: When the user wants to submit a product to directories, launch platforms, curated lists, or app stores. Reads project-context.md when present and generates ready-to-paste submission content per platform. Also use when the user mentions "directory submission," "get listed," "app store listing," "submit to directories," "curated list," "best tools list," "Taaft," "Product Hunt," "directory ads," "newsletter feature," "directory campaign," "product info for directory," "tailor description per platform," "Shopify App Store," "Chrome Web Store," "submit to directory," "launch on Product Hunt," "navigation site," or "product directory."
 metadata:
   version: 1.1.0
 ---
@@ -39,7 +39,7 @@ Directory submission is a core channel for cold start—see **cold-start-strateg
 
 ## Initial Assessment
 
-**Read product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it. Use sections 1-4, 5, 6, 8, 9 to generate submission content directly--no need to ask the user for info already in the context.
+**Read project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it. Use sections 1-4, 5, 6, 8, 9 to generate submission content directly--no need to ask the user for info already in the context.
 
 | Context section | Maps to directory fields |
 |-----------------|---------------------------|
@@ -63,7 +63,7 @@ Identify:
 
 ## Product / Website Info Required
 
-**Source**: Product marketing context (preferred) or user's site. Each directory needs different fields; prepare a base set, then adapt per platform.
+**Source**: Project context (preferred) or user's site. Each directory needs different fields; prepare a base set, then adapt per platform.
 
 ### Standard Fields (Most Directories)
 
@@ -361,12 +361,12 @@ Before submitting to any directory:
 
 ## Related Resources
 
-- **product-marketing-context** (`.cursor/product-marketing-context.md` or `.claude/product-marketing-context.md`): Read when present; use to generate submission content directly. Template: `templates/product-marketing-context.md` in this repo.
+- **project-context** (`.cursor/project-context.md` or `.claude/project-context.md`): Read when present; use to generate submission content directly. Template: `templates/project-context.md` in this repo.
 - **Alignify directory guide**: [alignify.co/zh/insights/directory-submission-sites](https://alignify.co/zh/insights/directory-submission-sites) --Cold-start strategy, preparation checklist, review platforms, vertical directories, bulk submission.
 
 ## Related Skills
 
-- **branding**: Brand strategy, voice, tone; Section 8 Brand & Voice in product-marketing-context
+- **branding**: Brand strategy, voice, tone; Section 8 Brand & Voice in project-context
 - **media-kit-page-generator**: Press kit, screenshots, assets for launch; required for Product Hunt and directory submissions
 - **link-building**: Directory and curated list backlinks contribute to link profile; this skill handles the submission workflow—see **link-building** for broader outreach, guest posting, broken link building
 - **github-seo**: GitHub awesome lists as curated lists; create or submit to awesome-* repos

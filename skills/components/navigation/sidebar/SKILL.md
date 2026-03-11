@@ -13,7 +13,7 @@ Guides sidebar design for content sites (blogs, docs). ~80% of users focus on th
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for content structure and conversion goals.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for content structure and conversion goals.
 
 Identify:
 1. **Content type**: Blog, docs, e-commerce

@@ -13,7 +13,7 @@ Guides pricing page content, structure, and conversion optimization. Covers self
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, audience, and pricing strategy.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, audience, and pricing strategy.
 
 Identify:
 1. **Pricing model**: Subscription, one-time, usage-based, freemium, hybrid

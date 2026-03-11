@@ -31,7 +31,7 @@ Guides video optimization for Google Search (main results, video mode, Google Im
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for brand and page context.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for brand and page context.
 
 Identify:
 1. **Hosting**: Self-hosted vs YouTube/Vimeo embed

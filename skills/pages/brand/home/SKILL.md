@@ -13,7 +13,7 @@ Guides homepage content, structure, and conversion optimization.
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, audience, and value proposition. See **branding** for brand strategy, positioning, differentiation.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, audience, and value proposition. See **branding** for brand strategy, positioning, differentiation.
 
 Identify:
 1. **Primary goal**: Sign up, demo, purchase, learn more

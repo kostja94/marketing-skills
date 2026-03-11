@@ -22,7 +22,7 @@ Guides translation workflow, terminology, style, and quality for multilingual co
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for brand voice, target markets, and product terminology.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for brand voice, target markets, and product terminology.
 
 Identify:
 1. **Content type**: Product UI, marketing copy, blog, landing page, docs

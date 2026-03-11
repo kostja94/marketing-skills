@@ -13,7 +13,7 @@ Guides customer retention and churn prevention. Acquiring new customers costs 5â
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read Sections 4 (Audience), 9 (Documentation).
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read Sections 4 (Audience), 9 (Documentation).
 
 Identify:
 1. **Churn type**: Voluntary (active cancel) vs involuntary (payment failure)

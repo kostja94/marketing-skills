@@ -21,7 +21,7 @@ Guides visual content planning and creation across website, social media, email,
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read Section 12 (Visual Identity) for brand consistency.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read Section 12 (Visual Identity) for brand consistency.
 
 Identify:
 1. **Context**: Article, social post, infographic, email, landing page

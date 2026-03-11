@@ -13,7 +13,7 @@ Guides the API introduction page →typically at `/api` →that overviews the AP
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product and developer use cases.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product and developer use cases.
 
 Identify:
 1. **API type**: REST, GraphQL, etc.

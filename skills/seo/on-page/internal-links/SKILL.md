@@ -18,7 +18,7 @@ Guides internal linking strategy for SEO: crawlability, link equity distribution
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for site structure and key pages.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for site structure and key pages.
 
 Identify:
 1. **Site structure**: Hub pages, pillar content, supporting pages

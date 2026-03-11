@@ -13,7 +13,7 @@ Guides migration pages that help users switch from a competitor to your product.
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, migration capabilities, and source platforms.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, migration capabilities, and source platforms.
 
 Identify:
 1. **Source**: Which competitor(s) to cover (Notion, Trello, etc.)

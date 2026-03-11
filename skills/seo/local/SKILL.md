@@ -13,7 +13,7 @@ Guides local SEO: Google Business Profile, NAP consistency, and citation buildin
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read Sections 4 (Audience), 5 (Website).
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read Sections 4 (Audience), 5 (Website).
 
 Identify:
 1. **Business type**: Storefront vs service-area

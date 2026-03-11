@@ -13,7 +13,7 @@ Guides disclosure pages for affiliate links, sponsored content, and paid partner
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for affiliate/partnership model.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for affiliate/partnership model.
 
 Identify:
 1. **Type**: Affiliate, sponsored, paid partnership, referral

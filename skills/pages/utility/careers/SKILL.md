@@ -13,7 +13,7 @@ Guides careers page content, structure, and employer branding for recruitment.
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for company values, culture, and differentiators.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for company values, culture, and differentiators.
 
 Identify:
 1. **Audience**: Job seekers, passive candidates

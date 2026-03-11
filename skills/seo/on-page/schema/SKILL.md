@@ -70,7 +70,7 @@ Guides implementation of Schema.org structured data (JSON-LD) for rich snippets,
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product type and content.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product type and content.
 
 Identify:
 1. **Page type**: Article, Product, FAQ, Organization, JobPosting, Event, etc.

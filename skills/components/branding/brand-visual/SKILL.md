@@ -13,7 +13,7 @@ Guides visual identity for consistent brand presentation. Companies with consist
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read Section 12 (Visual Identity) for colors, typography, spacing. See **branding** for brand strategy and visual identity strategy layer.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read Section 12 (Visual Identity) for colors, typography, spacing. See **branding** for brand strategy and visual identity strategy layer.
 
 Identify:
 1. **Scope**: New brand, audit, or component design
@@ -142,7 +142,7 @@ For AI/SaaS products, consider these visual trends and brand archetypes; adopt, 
 
 ## Product Marketing Context (Section 12)
 
-When creating or updating `.cursor/product-marketing-context.md`, add:
+When creating or updating `.cursor/project-context.md`, add:
 
 ```markdown
 ## 12. Visual Identity (Optional)
@@ -173,7 +173,7 @@ Ensure consistency across touchpoints. Include:
 - **Frontend aesthetics** (optional): Motion, spatial composition, backgrounds—for distinctive implementation
 - **Anti-patterns** and accessibility checklist
 - **AI products** (optional): Visual trend and archetype alignment
-- **Context template** for product-marketing-context Section 12
+- **Context template** for project-context Section 12
 
 ## Related Skills
 

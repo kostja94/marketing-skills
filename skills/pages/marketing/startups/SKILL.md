@@ -13,7 +13,7 @@ Guides startups and education program pages that offer special pricing or benefi
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, pricing, and eligibility.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, pricing, and eligibility.
 
 Identify:
 1. **Program type**: Startups, education, nonprofit, incubator

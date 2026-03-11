@@ -20,7 +20,7 @@ Guides on-page content optimization: word count, heading keywords, keyword densi
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for target keywords and content type.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for target keywords and content type.
 
 Identify:
 1. **Content type**: Article, guide, listicle, pillar, news

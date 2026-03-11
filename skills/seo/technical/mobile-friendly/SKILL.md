@@ -21,7 +21,7 @@ Guides mobile-first indexing optimization and mobile usability. Google uses the 
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for site URL.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for site URL.
 
 Identify:
 1. **Site type**: Responsive, separate AMP, dynamic serving

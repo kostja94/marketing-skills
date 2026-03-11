@@ -13,7 +13,7 @@ Guides website structure planning: which pages to build, page priority, and how 
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product type, audience, and growth goals.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product type, audience, and growth goals.
 
 Identify:
 1. **Website type**: Product/SaaS, B2B, E-commerce, Portfolio, Forum, Directory

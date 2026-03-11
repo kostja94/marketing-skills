@@ -13,7 +13,7 @@ Guides media kit and press page content, structure, and accessibility for journa
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for company story, metrics, key messages, and Section 12 (Visual Identity).
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for company story, metrics, key messages, and Section 12 (Visual Identity).
 
 Identify:
 1. **Audience**: Journalists, bloggers, analysts

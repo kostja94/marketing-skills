@@ -13,7 +13,7 @@ Guides product launch execution—channels, timeline, checklist, and cross-funct
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read full file.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read full file.
 
 Identify:
 1. **Launch type**: New product, major feature, market expansion

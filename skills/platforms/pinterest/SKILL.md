@@ -13,7 +13,7 @@ Guides Pinterest Pin creation and optimization. Pinterest users search different
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read Sections 6 (Keywords), 11 (Content Strategy).
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read Sections 6 (Keywords), 11 (Content Strategy).
 
 Identify:
 1. **Content type**: Product, recipe, tutorial, inspiration

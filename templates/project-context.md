@@ -1,8 +1,40 @@
-# Product Marketing Context
+# Project Context
 
-> Copy to `.cursor/product-marketing-context.md` or `.claude/product-marketing-context.md`. Fill in sections that apply — the agent reads this to deliver accurate, tailored results. **Without context, AI outputs stay generic.**
+> Copy to `.cursor/project-context.md` or `.claude/project-context.md`. Fill in sections that apply — the agent reads this to deliver accurate, tailored results. **Without context, AI outputs stay generic.**
 
 **Last updated**: [YYYY-MM-DD] — Keep fresh; stale context degrades output quality.
+
+---
+
+## Document System (Optional)
+
+When using multiple context documents, define roles and cross-references. Each document owns its domain; avoid duplication.
+
+| Document | Role | References |
+|----------|------|------------|
+| **project-context.md** (this file) | Product overview, positioning, ICP, brand, keyword summary, competitor summary | Details in sub-documents |
+| **[project]-features.md** | Feature pages, page structure, capability mapping, Title/Meta/content summary | Keywords, use cases, competitors |
+| **[project]-keywords.md** | Keyword-to-page mapping, search intent, URL patterns | Feature URLs |
+| **[project]-use-cases.md** | Personas, scenarios, Use Case page content | Feature internal links |
+| **[project]-competitors.md** | Competitor analysis, differentiation, competitor keywords | Feature structure |
+| **[project]-task-tracker.md** | Project tasks, SEO/marketing backlog, progress | Features, keywords |
+
+**Principle**: One document per domain; cross-reference instead of duplicating. This file is the entry point; sub-documents hold specifics.
+
+---
+
+## Language Strategy (Optional)
+
+Define language usage per context. Adjust to your team's needs.
+
+| Context | Language | Notes |
+|---------|----------|-------|
+| **Website content** | [Primary locale] | Main site, landing pages, product copy |
+| **Documents / reports** | [Your preferred language] | Strategy, analysis, tasks, insights — for internal use |
+| **Product copy** | [Product language] | Positioning, slogan, key messages — keep original for reference |
+| **Technical / SEO** | [Site language] | URLs, keywords, platform names — match the website |
+
+**Rule**: Product names, feature names, URLs, keywords use site language; strategy, tasks, insights use your document language.
 
 ---
 
@@ -12,11 +44,16 @@
 |-------|---------|
 | **Industry** | [e.g. B2B SaaS, e-commerce, AI tools] |
 | **Website** | [e.g. https://example.com] |
-| **Stage** | [Pre-launch / Growth / Mature] |
+| **Stage** | [Pre-launch / Beta / Growth / Mature] |
 | **Core product** | [One-line summary] |
 | **Slogan** | [Optional — product tagline] |
 | **Metrics** | [Optional — users, conversion rate, etc.] |
 | **Company** | [Optional — legal name, region] |
+
+**Product form**:
+- **Platforms**: [e.g. Web only / Web + iOS + Android / Web + desktop app / Hardware]
+- **Entry points**: [e.g. Get Started, Book a Demo, Download, Subscribe]
+- **Data scale** (optional): [e.g. user count, sessions analyzed, funding round]
 
 ---
 
@@ -216,6 +253,8 @@ Use when components-brand-visual, components-logo, or pages-media-kit need visua
 | 12 | Page taxonomy; avoid Features/Use Cases/Solutions overlap |
 | 13 | Prioritization; agent suggests next steps |
 | 14 | Logo, favicon, brand visual, media kit |
+
+**Sub-document pattern**: Use `[project]-features.md`, `[project]-keywords.md`, `[project]-use-cases.md`, `[project]-competitors.md` for details. This file stays as the entry point.
 
 **Cold start** (cold-start-strategy): Fill Overview, 1–4, 5, 6, 8, 9 for Product Hunt, directories, etc.
 

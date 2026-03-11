@@ -18,7 +18,7 @@ Guides heading (H1-H6) optimization for SEO and content structure.
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for target keywords.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for target keywords.
 
 Identify:
 1. **Page type**: Homepage, article, product, etc.

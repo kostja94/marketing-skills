@@ -13,7 +13,7 @@ Guides video marketing strategy and script creation for short-form and long-form
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read Sections 3 (Value Proposition), 4 (Audience), 11 (Content Strategy).
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read Sections 3 (Value Proposition), 4 (Audience), 11 (Content Strategy).
 
 Identify:
 1. **Format**: Short-form (TikTok, Reels, Shorts) vs long-form (YouTube, webinar)

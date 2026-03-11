@@ -13,7 +13,7 @@ Guides resources page and content hub structure for discovery and SEO.
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for content themes and audience.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for content themes and audience.
 
 Identify:
 1. **Content types**: Blog, guides, webinars, templates, tools (or standalone /tools; see **tools-page-generator**)

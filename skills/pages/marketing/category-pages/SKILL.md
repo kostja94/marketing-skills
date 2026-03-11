@@ -13,7 +13,7 @@ Guides e-commerce category page structure, content, and SEO optimization. Catego
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product catalog and site structure.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product catalog and site structure.
 
 Identify:
 1. **Catalog**: Product count, categories, subcategories

@@ -32,7 +32,7 @@ Google truncates by **pixel width** (~920px desktop, ~680px mobile), not charact
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for brand voice and target keywords.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for brand voice and target keywords.
 
 Identify:
 1. **Page type**: Homepage, landing, blog, product, etc.

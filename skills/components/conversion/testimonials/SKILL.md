@@ -13,7 +13,7 @@ Guides testimonial design and placement for conversion. 92% of consumers read re
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for customer personas and industries.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for customer personas and industries.
 
 Identify:
 1. **Content type**: Text quotes, video, case studies

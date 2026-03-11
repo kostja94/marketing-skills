@@ -13,7 +13,7 @@ Guides solutions pages focused on business outcomes. **Industry-first** is the B
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, outcomes, and proof points.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, outcomes, and proof points.
 
 Identify:
 1. **Outcomes**: Revenue growth, cost savings, efficiency, compliance

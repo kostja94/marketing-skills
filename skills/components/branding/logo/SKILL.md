@@ -13,7 +13,7 @@ Guides logo placement and implementation for brand recall and navigation. Logo p
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for brand guidelines and visual identity.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for brand guidelines and visual identity.
 
 **Brand guidelines source**: Logo usage rules (clear space, minimum sizes, variants) come from **branding** (strategy), **brand-visual-generator** (visual specs), or media kit. Ensure alignment before implementation.
 

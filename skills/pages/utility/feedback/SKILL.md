@@ -13,7 +13,7 @@ Guides feedback and roadmap pages that collect user input and communicate produc
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product and roadmap priorities.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product and roadmap priorities.
 
 Identify:
 1. **Tool**: Canny, FeatureBase, UserVoice, custom, or embedded form

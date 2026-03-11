@@ -13,7 +13,7 @@ Guides trust badge design and placement for conversion. Trust badges borrow auth
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for key partners and certifications.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for key partners and certifications.
 
 Identify:
 1. **Site type**: E-commerce, SaaS, lead gen

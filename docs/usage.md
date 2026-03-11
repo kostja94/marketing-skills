@@ -72,7 +72,7 @@ npx skills add kostja94/marketing-skills -a openclaw
 npx skills add kostja94/marketing-skills -a openclaw --skill robots-txt title-tag meta-description pricing-page-generator
 ```
 
-**Product context**: Add `product-marketing-context.md` to your OpenClaw workspace. Skills read it automatically. See [README § Project Context](../README.md#project-context--linking).
+**Product context**: Add `project-context.md` to your OpenClaw workspace. Skills read it automatically. See [README § Project Context](../README.md#project-context--linking).
 
 ---
 
@@ -99,7 +99,7 @@ npx skills add kostja94/marketing-skills -a openclaw --skill robots-txt title-ta
 | **Bolt.new** | Browser-based; no project file structure. Paste skill markdown as context | [Bolt.new](https://bolt.new) |
 | **Medo** | Paste skill content into dialogue | [medo.dev](https://medo.dev) |
 
-**Approach**: Create a product-specific directory (e.g. `.lovable/`); copy [product-marketing-context.md](../templates/product-marketing-context.md) and fill it in; copy skill files from `skills/*/SKILL.md`; adapt path references (e.g. `.cursor/product-marketing-context.md` → `.lovable/product-marketing-context.md`).
+**Approach**: Create a product-specific directory (e.g. `.lovable/`); copy [project-context.md](../templates/project-context.md) and fill it in; copy skill files from `skills/*/SKILL.md`; adapt path references (e.g. `.cursor/project-context.md` → `.lovable/project-context.md`).
 
 ---
 
@@ -113,7 +113,7 @@ Skills are **plain markdown**. Use them with any LLM that accepts text input.
 
 **Example prompt**: Paste title-tag or meta-description skill content, then: "Using these guidelines, optimize the meta title and description for my homepage. Product: [brief description]. Target keyword: [keyword]."
 
-**Tips**: Paste product-marketing-context before the skill for tailored output; paste most relevant sections if token limits apply.
+**Tips**: Paste project-context before the skill for tailored output; paste most relevant sections if token limits apply.
 
 ---
 
@@ -121,9 +121,9 @@ Skills are **plain markdown**. Use them with any LLM that accepts text input.
 
 | Original | Replace with |
 |----------|--------------|
-| `.cursor/product-marketing-context.md` | `.lovable/product-marketing-context.md` (or your path) |
-| `.claude/product-marketing-context.md` | Same as above |
-| `.cursor/skills-task-progress.md` | `.lovable/skills-task-progress.md` (optional) |
+| `.cursor/project-context.md` | `.lovable/project-context.md` (or your path) |
+| `.claude/project-context.md` | Same as above |
+| `.cursor/project-task-tracker.md` | `.lovable/project-task-tracker.md` (optional) |
 | `.cursor/skills/` | `.agents/skills/`, `.claude/skills/`, `./skills` (OpenClaw), `~/.openclaw/skills/`, or platform-specific dir |
 
 ---

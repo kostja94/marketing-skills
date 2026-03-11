@@ -13,7 +13,7 @@ Guides About page content, structure, and trust-building for company websites.
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for company story, values, and differentiation. See **branding** for full brand strategy framework (purpose, values, storytelling).
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for company story, values, and differentiation. See **branding** for full brand strategy framework (purpose, values, storytelling).
 
 Identify:
 1. **Audience**: Job seekers, buyers, partners, press

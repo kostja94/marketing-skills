@@ -22,7 +22,7 @@ Guides link building strategy: acquiring quality backlinks to improve domain aut
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, audience, and proof points.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, audience, and proof points.
 
 Identify:
 1. **Current backlink profile**: Domain authority, referring domains

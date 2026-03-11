@@ -48,7 +48,7 @@ Both formats use the same structure (quick verdict, comparison table, individual
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, competitors, and differentiators.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, competitors, and differentiators.
 
 Identify:
 1. **Format**: Standalone page vs. blog article; single hub vs. per-competitor pages

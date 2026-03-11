@@ -13,7 +13,7 @@ Guides localization strategy for AI/SaaS products expanding into global markets.
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, target markets, and brand.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, target markets, and brand.
 
 Identify:
 1. **Target markets**: Priority languages/regions

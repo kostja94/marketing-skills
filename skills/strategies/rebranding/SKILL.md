@@ -13,7 +13,7 @@ Guides rebranding execution: domain change, 301 redirects, migration checklist, 
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for brand and product info.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for brand and product info.
 
 Identify:
 1. **Scope**: Full rebrand (name, domain, identity) vs partial (logo, messaging only)

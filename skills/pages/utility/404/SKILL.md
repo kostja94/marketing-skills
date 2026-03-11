@@ -13,7 +13,7 @@ Guides 404 error page design for UX, conversion recovery, and brand consistency.
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for brand voice, key pages, and Section 12 (Visual Identity).
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for brand voice, key pages, and Section 12 (Visual Identity).
 
 Identify:
 1. **Site structure**: Key pages to link (homepage, popular pages, search)

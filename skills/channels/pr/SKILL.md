@@ -13,7 +13,7 @@ Guides PR and press release strategy. Journalists use ~3% of releases they recei
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read Sections 2 (Positioning), 3 (Value Proposition), 8 (Brand & Voice).
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read Sections 2 (Positioning), 3 (Value Proposition), 8 (Brand & Voice).
 
 Identify:
 1. **News angle**: Product launch, funding, partnership, milestone

@@ -13,7 +13,7 @@ Guides hero section design for conversion and first impressions. The hero is whe
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for value proposition, audience, and Section 12 (Visual Identity).
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for value proposition, audience, and Section 12 (Visual Identity).
 
 Identify:
 1. **Page type**: Homepage, landing, product, pricing

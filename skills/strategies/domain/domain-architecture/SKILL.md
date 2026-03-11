@@ -13,7 +13,7 @@ Guides domain structure decisions for multiple products or brands: subfolder (su
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product portfolio and growth goals.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product portfolio and growth goals.
 
 Identify:
 1. **Product count**: Single product vs multiple products/brands

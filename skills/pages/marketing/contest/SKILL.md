@@ -13,7 +13,7 @@ Guides giveaway and contest pages for promotional campaigns. Drives signups, eng
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product and campaign goals.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product and campaign goals.
 
 Identify:
 1. **Type**: Giveaway, contest, sweepstakes, referral campaign

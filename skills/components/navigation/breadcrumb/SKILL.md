@@ -29,7 +29,7 @@ Guides breadcrumb implementation for SEO, UX, and GEO. Breadcrumbs show users th
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for site structure and key pages.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for site structure and key pages.
 
 Identify:
 1. **Site structure**: Hierarchy depth (e.g., Home > Category > Subcategory > Product)

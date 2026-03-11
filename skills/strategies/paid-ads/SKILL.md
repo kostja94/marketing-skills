@@ -15,7 +15,7 @@ Guides paid ads strategy: when to use paid acquisition, channel selection, budge
 
 ## Before Starting
 
-**Check for product marketing context first:** If `.agents/product-marketing-context.md` or `.claude/product-marketing-context.md` exists, read it before asking questions.
+**Check for project context first:** If `.agents/project-context.md` or `.claude/project-context.md` exists, read it before asking questions.
 
 Gather this context (ask if not provided):
 

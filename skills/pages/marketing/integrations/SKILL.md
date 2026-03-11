@@ -13,7 +13,7 @@ Guides integrations, plugins, and extensions pages. Shows how the product connec
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, integrations, and target platforms.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, integrations, and target platforms.
 
 Identify:
 1. **Type**: Native integrations, plugins, extensions, API, webhooks

@@ -13,7 +13,7 @@ Guides documentation site structure, navigation, and content organization. Typic
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, audience, and use cases.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, audience, and use cases.
 
 Identify:
 1. **Product type**: Software, API, hardware, service

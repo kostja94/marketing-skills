@@ -15,7 +15,7 @@ Guides initial domain choice for a single site: Brand vs Partial Match vs Exact 
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read Sections 2 (Positioning), 3 (Target Audience), 8 (Brand & Voice).
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read Sections 2 (Positioning), 3 (Target Audience), 8 (Brand & Voice).
 
 Identify:
 1. **Product type**: Tool, content, e-commerce, AI product, etc.

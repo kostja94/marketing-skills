@@ -17,7 +17,7 @@ When LP receives paid traffic: ad promise on page immediately; mobile-first (CTA
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, audience, and value proposition.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, audience, and value proposition.
 
 Identify:
 1. **Page goal**: Signup, purchase, lead capture, webinar, download

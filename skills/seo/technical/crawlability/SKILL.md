@@ -23,7 +23,7 @@ Guides crawlability improvements: robots, X-Robots-Tag, site structure, and inte
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for site structure.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for site structure.
 
 Identify:
 1. **Site structure**: Flat vs. deep hierarchy

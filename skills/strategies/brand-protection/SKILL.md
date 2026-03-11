@@ -13,7 +13,7 @@ Guides discovery, reporting, and prevention of brand impersonation—fake websit
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for brand name, official domain, and key assets.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for brand name, official domain, and key assets.
 
 Identify:
 1. **Impersonation type**: Fake website, phishing, trademark misuse, domain squatting

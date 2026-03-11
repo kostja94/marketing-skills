@@ -13,7 +13,7 @@ Guides services page content and structure for service-based businesses (consult
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for service offerings and differentiation.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for service offerings and differentiation.
 
 Identify:
 1. **Service count**: One overview or multiple service pages

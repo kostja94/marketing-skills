@@ -13,7 +13,7 @@ Guides email marketing strategy for AI/SaaS products. Email ROI ~$36 per dollar 
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for audience and content strategy. See **content-marketing** for content types and formats across channels.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for audience and content strategy. See **content-marketing** for content types and formats across channels.
 
 Identify:
 1. **Goal**: Retention, conversion, brand reach, or SEO synergy

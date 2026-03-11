@@ -13,7 +13,7 @@ Guides discount and promotional pricing strategy for SaaS, e-commerce, and tools
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, pricing, and goals.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, pricing, and goals.
 
 Identify:
 1. **Product type**: SaaS, e-commerce, tool

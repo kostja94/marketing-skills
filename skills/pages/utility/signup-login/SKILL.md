@@ -13,7 +13,7 @@ Guides signup and login page structure, domain choice, modal vs dedicated page, 
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, audience, and offers.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, audience, and offers.
 
 Identify:
 1. **Goal**: Account creation, trial, paid signup

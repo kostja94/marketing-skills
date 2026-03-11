@@ -13,7 +13,7 @@ Guides top announcement bar and sticky banner design for conversion. Top banners
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for offers, messaging, and Section 12 (Visual Identity).
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for offers, messaging, and Section 12 (Visual Identity).
 
 Identify:
 1. **Goal**: Lead capture, promo, urgency, trust, free shipping

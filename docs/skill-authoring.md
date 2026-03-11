@@ -227,9 +227,9 @@ Before creating or modifying a skill, verify:
 
 ## 8. Customization
 
-**Product Context**: `.cursor/product-marketing-context.md` (or `.claude/`, `.lovable/`) — Product, audience, brand, keywords. Skills read this automatically.
+**Project Context**: `.cursor/project-context.md` (or `.claude/`, `.lovable/`) — Product, audience, brand, keywords. Skills read this automatically.
 
-**Skills Task Progress**: `.cursor/skills-task-progress.md` — Track task status; agent suggests next steps.
+**Project Task Tracker**: `.cursor/project-task-tracker.md` — Track task status; agent suggests next steps.
 
 **Using beyond Cursor & Claude**: Skills are markdown — they work anywhere an AI can read text. **OpenClaw** supports AgentSkills natively: `npx skills add kostja94/marketing-skills -a openclaw`. **Full guide**: [usage.md](usage.md).
 

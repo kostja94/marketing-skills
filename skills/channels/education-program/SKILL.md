@@ -13,7 +13,7 @@ Guides student and education discount programs as an acquisition channel. Target
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, audience, and pricing.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, audience, and pricing.
 
 Identify:
 1. **Product type**: SaaS, dev tool, design tool, productivity

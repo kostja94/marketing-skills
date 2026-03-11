@@ -13,7 +13,7 @@ Guides FAQ page content, structure, and optimization for SEO and conversion.
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for objections, product details, and customer language.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for objections, product details, and customer language.
 
 Identify:
 1. **Source of questions**: Support tickets, sales, chat, surveys

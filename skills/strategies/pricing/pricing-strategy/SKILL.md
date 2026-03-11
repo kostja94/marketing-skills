@@ -13,7 +13,7 @@ Guides pricing strategy and structure for SaaS, tools, and products. Covers pric
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, value proposition, and competitors.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, value proposition, and competitors.
 
 Identify:
 1. **Product type**: SaaS, tool, e-commerce

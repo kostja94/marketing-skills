@@ -13,7 +13,7 @@ Guides influencer marketing strategy for AI/SaaS products. Focus on trust and br
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, audience, and brand voice.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, audience, and brand voice.
 
 Identify:
 1. **Goal**: Brand awareness, trust, or direct conversion

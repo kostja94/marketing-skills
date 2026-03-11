@@ -13,7 +13,7 @@ Guides footer design for SEO, UX, and conversion. Footers provide secondary navi
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for key pages and audience.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for key pages and audience.
 
 Identify:
 1. **Site type**: Marketing, e-commerce, SaaS, blog

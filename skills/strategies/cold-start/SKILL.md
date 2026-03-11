@@ -13,7 +13,7 @@ Guides cold start strategy for AI/SaaS products: getting first users and tractio
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, audience, and positioning.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, audience, and positioning.
 
 Identify:
 1. **Product type**: AI tool, SaaS, app, B2B, B2C

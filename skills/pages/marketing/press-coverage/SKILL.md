@@ -13,7 +13,7 @@ Guides press coverage and media mentions aggregation—showcasing third-party co
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read for company story and key messages.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read for company story and key messages.
 
 Identify:
 1. **Coverage volume**: Few mentions vs substantial

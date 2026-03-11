@@ -13,7 +13,7 @@ Guides blog page structure, SEO, and content marketing best practices.
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for topics, audience, and keywords.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for topics, audience, and keywords.
 
 Identify:
 1. **Blog purpose**: SEO traffic, thought leadership, product education

@@ -13,7 +13,7 @@ Guides newsletter signup form design for list growth. Email subscribers spend 13
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for audience and value proposition.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for audience and value proposition.
 
 Identify:
 1. **Placement**: Header, footer, popup, inline, sidebar

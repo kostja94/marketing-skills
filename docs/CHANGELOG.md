@@ -41,6 +41,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - **geo, schema-markup, serp-features, multi-domain-brand-seo, eeat-signals, faq-page-generator, alternatives-page-generator, github-seo, article-page-generator** — Add entity-seo cross-refs; condense entity content to reference entity-seo.
 - **Related Skills optimization** — Reduce cross-references per [reference-rules §7](reference-rules.md#7-related-skills-optimization): landing-page 31→12; geo 16→10; entity-seo 11→6; image-optimization 13→8; content-optimization 12→8; serp-features, schema-markup, website-structure, article-page, google-search-console, metadata, visual-content, video-optimization streamlined.
 
+## [2025-03-11] v2.3.13
+
+### Added
+
+- **project-context.md** — Replaces product-marketing-context.md. Adds Document System (optional), Language Strategy (optional), Product form; sub-document pattern.
+- **project-task-tracker.md** — Replaces skills-task-progress.md. Adds Progress Summary, Related Documents, Task Details (optional), Page Scope (optional).
+
+### Changed
+
+- **Templates renamed** — product-marketing-context → project-context; skills-task-progress → project-task-tracker. All 60+ skills, README, usage.md, skill-authoring.md updated.
+- **README** — Optimized: condensed structure, restored key content (CLI note, platforms, Usage rows, Project Context "Start with", Features vs Use cases vs Solutions, Related Skills/skip intro, Security, Ecosystem refs); ASCII tree updated to reflect current skills.
+
+### Removed
+
+- templates/product-marketing-context.md
+- templates/skills-task-progress.md
+
 ## [2025-03-11] v2.3.12
 
 ### Changed

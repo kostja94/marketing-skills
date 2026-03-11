@@ -13,7 +13,7 @@ Guides popup and modal design for conversion. Well-designed popups can achieve u
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for offers and audience.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for offers and audience.
 
 Identify:
 1. **Goal**: Newsletter, discount, lead magnet, demo

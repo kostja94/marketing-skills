@@ -19,12 +19,12 @@ Article analysis and creation rest on **four inputs**. Gather or infer them befo
 
 | Input | Purpose | Source |
 |-------|---------|--------|
-| **Product** | Product connection, features, use cases, CTA placement | product-marketing-context (Sections 1–4, 9–11); article content; web search |
-| **Keywords** | Target keyword, primary/secondary placement | product-marketing-context Section 6; keyword-research; article |
-| **Article intent** | Informational, commercial, transactional, navigational; drives structure, CTA, SEO depth | product-marketing-context Section 6 (target intent); article orientation; content type |
-| **Competitor articles** | Structure to adopt, content gaps, length target, keyword opportunities | User-provided URLs; product-marketing-context Section 11; web search |
+| **Product** | Product connection, features, use cases, CTA placement | project-context (Sections 1–4, 9–11); article content; web search |
+| **Keywords** | Target keyword, primary/secondary placement | project-context Section 6; keyword-research; article |
+| **Article intent** | Informational, commercial, transactional, navigational; drives structure, CTA, SEO depth | project-context Section 6 (target intent); article orientation; content type |
+| **Competitor articles** | Structure to adopt, content gaps, length target, keyword opportunities | User-provided URLs; project-context Section 11; web search |
 
-**When any input is missing**: Proactively ask or search. For article analysis: perform **Research Phase** (keyword search, search intent, competitor articles) by default — see Research Phase section. For product/keywords/intent, infer from article or prompt user to add product-marketing-context.
+**When any input is missing**: Proactively ask or search. For article analysis: perform **Research Phase** (keyword search, search intent, competitor articles) by default — see Research Phase section. For product/keywords/intent, infer from article or prompt user to add project-context.
 
 ## Before Analysis: Gather Context
 
@@ -34,11 +34,11 @@ Use available context to give **tailored** analysis:
 
 | Source | Use for |
 |--------|---------|
-| **product-marketing-context.md** | Keywords (Section 6), competitors (Section 7), content strategy (Section 11), product connection |
+| **project-context.md** | Keywords (Section 6), competitors (Section 7), content strategy (Section 11), product connection |
 | **Article content** | Extract product name, features, URLs; infer target keyword and audience |
 | **Web search** | When analyzing a known brand: search for "[product] features", "[product] vs competitors", company positioning — use to validate product connection, suggest missing features/use cases, and improve competitor gap analysis |
 
-If no product-marketing-context exists, infer from the article and optionally search for company/product info to enrich recommendations.
+If no project-context exists, infer from the article and optionally search for company/product info to enrich recommendations.
 
 ## Research Phase: Keyword, Search Intent, Competitor (Required for Article Analysis)
 
@@ -82,7 +82,7 @@ When **analyzing or auditing** an article, perform the following searches and **
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for topics, audience, keywords, and Section 11 (Content/Blog/Article Strategy).
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for topics, audience, keywords, and Section 11 (Content/Blog/Article Strategy).
 
 Identify:
 1. **Product connection**: How does this article support the product? (educate on problem, introduce features, nurture leads)

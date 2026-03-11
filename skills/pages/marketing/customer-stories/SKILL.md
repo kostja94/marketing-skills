@@ -13,7 +13,7 @@ Guides customer story and case study page content, structure, and conversion.
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, proof points, and customer language.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, proof points, and customer language.
 
 Identify:
 1. **Story format**: Full case study, quote snippet, video

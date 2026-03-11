@@ -115,7 +115,7 @@ SEO and PPC share the same SERP—ads, AI overviews, videos, organic links. With
 - **Skill mapping** (which skill for each task)
 - **Recommendation** (start with X; then Y)
 
-**Task tracking**: Use templates/skills-task-progress.md to track task status; references this workflow.
+**Task tracking**: Use templates/project-task-tracker.md to track task status; references this workflow.
 
 ## Related Skills
 

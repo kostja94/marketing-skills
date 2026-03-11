@@ -22,7 +22,7 @@ Generate an XML Sitemap that complies with the sitemaps.org protocol from the pr
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for site URL and page structure.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for site URL and page structure.
 
 Identify:
 1. **Site URL**: Base domain (e.g., `https://example.com`)

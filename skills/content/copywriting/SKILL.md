@@ -13,7 +13,7 @@ Guides marketing copy creation and optimization across ads, landing pages, email
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read Sections 2 (Positioning), 3 (Value Proposition), 8 (Brand & Voice).
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read Sections 2 (Positioning), 3 (Value Proposition), 8 (Brand & Voice).
 
 Identify:
 1. **Context**: Ad, landing page, email, CTA, or general

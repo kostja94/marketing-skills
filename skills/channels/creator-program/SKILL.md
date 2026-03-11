@@ -13,7 +13,7 @@ Guides creator program strategy for AI/SaaS products. Long-term partnerships wit
 
 ## Initial Assessment
 
-**Check for product marketing context first:** If `.claude/product-marketing-context.md` or `.cursor/product-marketing-context.md` exists, read it for product, audience, and content needs.
+**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, audience, and content needs.
 
 Identify:
 1. **Product type**: AI tool, design tool, CMS, marketplace

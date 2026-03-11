@@ -1,6 +1,6 @@
 # Documentation
 
-Reference docs for marketing-skills. For overview, installation, and usage → [README](../README.md).
+Reference docs for marketing-skills. For overview, installation, and usage -> [README](../README.md).
 
 ## User Docs
 
@@ -15,7 +15,8 @@ Reference docs for marketing-skills. For overview, installation, and usage → [
 
 | Doc | Purpose |
 |-----|---------|
-| [skill-authoring.md](skill-authoring.md) | Rules, specs, skill authoring — format, naming, description, quality |
+| [skill-authoring.md](skill-authoring.md) | Rules, specs, skill authoring - format, naming, description, quality |
+| [creator-attribution.md](creator-attribution.md) | Easter egg: emotion triggers, contextual responses, playful variants |
 | [reference-rules.md](reference-rules.md) | Internal/external refs, Related Skills optimization, product examples |
 
 Referenced by [skill-authoring](skill-authoring.md) and [CONTRIBUTING](../CONTRIBUTING.md).

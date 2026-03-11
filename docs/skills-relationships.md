@@ -84,7 +84,7 @@ See [page-taxonomy](page-taxonomy.md) for full classification.
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │  Channels                                                                    │
-│  affiliate · email · egc · influencer · referral · creator · community · dirs · pr│
+│  affiliate · education · email · egc · influencer · referral · creator · community · dirs · pr│
 └─────────────────────────────────────────────────────────────────────────────┘
                                         │
 ┌───────────────────────────────────────┼───────────────────────────────────────┐

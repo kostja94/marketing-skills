@@ -175,7 +175,7 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 | **Paid Ads** (12) | [Strategy](skills/strategies/paid-ads/): when to use, ad formats · [Platforms](skills/paid-ads/): google-ads, meta-ads, linkedin-ads, reddit-ads, tiktok-ads, app-ads, ctv-ads, display-ads, directory-listing-ads, youtube-ads, native-ads |
 | **Pages** (43) | [skills-list](docs/skills-list.md#pages) — brand, content, marketing, legal, utility; template-page (programmatic SEO); Solutions (industry-first) vs Use cases (scenario-first); [page-taxonomy](docs/page-taxonomy.md) |
 | **Components** (17) | nav, breadcrumb, footer, hero, toc, logo, trust-badges, testimonials, cta, newsletter-signup, url-slug, top-banner, sidebar, popup, social-share, favicon, brand-visual |
-| **Channels** (9) | affiliate, email-marketing, egc, influencer, referral, creator-program, community-forum, directories, pr |
+| **Channels** (10) | affiliate, education-program, email-marketing, egc, influencer, referral, creator-program, community-forum, directories, pr |
 | **Platforms** (9) | x, reddit, linkedin, tiktok, youtube, pinterest, medium, github, grokipedia |
 | **Strategies** (21) | seo-strategy, paid-ads-strategy, website-structure, cold-start, indie-hacker-strategy, geo, integrated-marketing, localization, pmf-strategy, gtm-strategy, branding, content-marketing, domain-selection, domain-architecture, multi-domain-brand-seo, rebranding, pricing-strategy, discount-marketing, conversion-optimization, product-launch, retention-strategy |
 | **Analytics** (5) | traffic, tracking, seo-monitoring, ai-traffic, google-search-console |

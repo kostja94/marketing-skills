@@ -13,6 +13,24 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 _None._
 
+## [2026-03-07] v2.3.11
+
+### Added
+
+- **education-program** — Student/education discount channel; verification (.edu, SheerID, UNiDAYS); placement priority (registration P0, pricing P1, homepage P1, standalone P2); discount structure (first-time vs renewal); page strategy (embed vs standalone).
+- **SECURITY.md** — Security audit, prompt injection checks, verification steps; moved to docs/.
+- **pricing-page-generator** — Pricing Visibility & Placement: public vs hidden pricing; marketing site vs in-app billing; Enterprise/Contact sales; API/usage pricing; Special programs; conversion psychology; placement for student discount (registration P0, pricing P1).
+- **Competitor brand keyword ads** — google-ads: Competitor Brand Keywords section (LP not blog); alternatives-page-generator: LP preferred for paid ads; paid-ads-strategy: Competitor Brand Bidding; landing-page-generator: Comparison type for competitor ads.
+
+### Changed
+
+- **pricing-page-generator** — Expand structure (pricing model selector, Enterprise, API, Special programs); add Pricing Models, Enterprise & API Pricing, Conversion Psychology; expand Output Format and Related Skills.
+- **startups-page-generator** — Add Placement (embed vs standalone vs registration); education-program in Related Skills.
+- **discount-marketing-strategy** — education-program in Campaign Types and Related Skills.
+- **website-structure** — Pricing placement principle; education-program in Growth Strategy; pricing visibility note in Page Priority.
+- **README** — Security section; SECURITY in Project Docs; Channels 9→10 (education-program).
+- **skills-list, skills-relationships** — education-program; Channels diagram.
+
 ## [2026-03-06] v2.3.10
 
 ### Added

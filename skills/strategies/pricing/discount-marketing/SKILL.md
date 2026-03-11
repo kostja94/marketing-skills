@@ -114,7 +114,7 @@ LTD = one-time payment for lifelong access instead of recurring subscription. Co
 | **LTD** | Cold start; AppSumo | See LTD section |
 | **Referral reward** | Discount/credits for referrer and referee | **referral-program** |
 | **Contest / giveaway** | Prize = product, discount, cash | **contest-page-generator** |
-| **Startups / education** | Special pricing for segment | **startups-page-generator** |
+| **Startups / education** | Special pricing for segment | **education-program**, **startups-page-generator** |
 | **Forum / community** | Discount codes in niche forums | **community-forum** |
 | **Affiliate** | Coupon sites; affiliate-specific codes | **affiliate-marketing** |
 
@@ -154,7 +154,8 @@ LTD = one-time payment for lifelong access instead of recurring subscription. Co
 - **indie-hacker-strategy**: Indie hacker LTD use; monetize day one; cold start revenue
 - **referral-program**: Referral rewards (discounts, credits); 10–30% of price
 - **contest-page-generator**: Giveaway/contest; prize = discount
-- **startups-page-generator**: Startups/education discount programs
+- **education-program**: Student/education discount channel; verification, placement, discount structure
+- **startups-page-generator**: Startups/education program page; when standalone page needed
 - **top-banner-generator**: Promo banner; discount code display; 30–50% redemption lift
 - **community-forum**: Forum promotion; discount codes in industry forums
 - **affiliate-marketing**: Coupon sites; affiliate-specific codes

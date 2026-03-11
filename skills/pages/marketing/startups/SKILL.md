@@ -7,7 +7,7 @@ metadata:
 
 # Pages: Startups / Education
 
-Guides startups and education program pages that offer special pricing or benefits. Targets founders, early-stage teams, students, and educators. Common for SaaS, dev tools, and productivity apps.
+Guides startups and education program pages that offer special pricing or benefits. Targets founders, early-stage teams, students, and educators. Common for SaaS, dev tools, and productivity apps. For **channel strategy** (discount structure, verification, placement), see **education-program**.
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -52,6 +52,14 @@ Identify:
 - **Follow-up**: Email sequence for applicants
 - **Link to pricing**: Full pricing for reference
 
+### Placement: When Standalone vs Embed
+
+| Approach | When |
+|----------|------|
+| **Embed in pricing** | Student as tier or block; no separate page; single decision point |
+| **Registration flow** | When discount applies at signup, registration is P0; pricing page P1 |
+| **Standalone page** | /education, /student-discount; when SEO or ad landing needed; avoid if persona "for students" already exists |
+
 ## Output Format
 
 - **Headline** and value proposition
@@ -63,8 +71,9 @@ Identify:
 
 ## Related Skills
 
+- **education-program**: Student/education discount channel; verification, placement, discount structure
 - **discount-marketing-strategy**: Startups/education discount programs; campaign design
-- **pricing-page-generator**: Link to full pricing; program as special tier
+- **pricing-page-generator**: Link to full pricing; program as special tier; Special programs section
 - **landing-page-generator**: Startups page is a landing page
 - **use-cases-page-generator**: "For startups" use case
 - **customer-stories-page-generator**: Startup case studies

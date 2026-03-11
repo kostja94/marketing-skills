@@ -2,7 +2,7 @@
 name: website-structure
 description: When the user wants to plan website structure, decide which pages to build, or prioritize pages for a new or existing site. Also use when the user mentions "website structure," "site structure," "which pages do I need," "page planning," "sitemap planning," "Must Have pages," "website architecture," or "site hierarchy."
 metadata:
-  version: 1.2.0
+  version: 1.3.0
 ---
 
 # Strategy: Website Structure
@@ -27,7 +27,7 @@ Plan pages by priority for development scheduling. See [page-taxonomy](../../../
 
 | Priority | Pages | Notes |
 |----------|-------|-------|
-| **Must Have** | Home, Product/Features, Pricing, Blog, About, Privacy, Terms, Contact | Essential for trust and conversion |
+| **Must Have** | Home, Product/Features, Pricing, Blog, About, Privacy, Terms, Contact | Essential for trust and conversion; Pricing: public page in nav for self-serve; enterprise-only may use "Contact sales" instead; see **pricing-page-generator** (Visibility & Placement) |
 | **Great to Have** | Testimonials, FAQ, Sitemap (HTML), 404, Refund/Returns | Support UX and SEO |
 | **Optional** | Search Results, News, Careers, Disclosure | Situational |
 | **Traffic-driven** | Category/Collection pages | For content-heavy or e-commerce; needs Category + Tags |
@@ -53,7 +53,7 @@ Structure reflects growth strategy. Subdirectories signal channels:
 | Goal | Path Example | Page/Channel |
 |------|--------------|--------------|
 | Affiliate conversion | /affiliate | affiliate-page-generator |
-| Education/student plan | /education, /startups | startups-page-generator |
+| Education/student plan | /education, /startups, /student-discount | education-program, startups-page-generator |
 | Multi-language | /zh-CN, /ja | localization-strategy |
 | Community | /ambassadors, /showcase | creator-program, landing-page-generator |
 | B2B / Enterprise | Solutions (industry-first), Use cases (scenario-first; can be sub-pages), Customer stories | solutions-page-generator, use-cases-page-generator, customer-stories-page-generator |
@@ -86,6 +86,7 @@ When planning for multiple products or brands, see **domain-architecture** for s
 | **Orphan prevention** | Every page needs internal links; see **site-crawlability** and **internal-links** |
 | **Features vs Use cases** | /features = capability-first; /use-cases = scenario-first; differentiate content angle, link between, avoid overlap; see **features-page-generator**, **use-cases-page-generator** |
 | **Clear navigation** | Clear hierarchy and nav improve task completion; users find what they need faster; see **navigation-menu-generator** |
+| **Pricing placement** | Marketing site: /pricing in main nav for prospects; in-app: Settings → Billing in sidebar for logged-in users (subscription management). Enterprise-only: "Contact sales" may replace public pricing page; see **pricing-page-generator** |
 
 ## Homepage Module Reference
 
@@ -118,4 +119,5 @@ Common modules to combine: Headline, Subheadline, Primary CTA, Supporting Image/
 - **category-page-generator**: Category/hub pages; content-heavy, e-commerce
 - **content-strategy**: Content clusters, pillar pages; complements structure planning
 - **homepage-generator**: Homepage structure and modules
+- **pricing-page-generator**: Pricing visibility (public vs contact-sales); marketing nav vs in-app billing
 - **localization-strategy**: Multi-language structure; subdomain vs subfolder

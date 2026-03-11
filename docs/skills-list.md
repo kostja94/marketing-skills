@@ -245,6 +245,7 @@ UI components used in pages. Paths: `skills/components/{navigation,conversion,br
 | Skill | Description |
 |-------|-------------|
 | [affiliate-marketing](../skills/channels/affiliate/) | Affiliate marketing strategy, CPS model |
+| [education-program](../skills/channels/education-program/) | Student/education discount program; verification, placement, discount structure |
 | [email-marketing](../skills/channels/email-marketing/) | EDM, newsletter, deliverability, SEO synergy |
 | [employee-generated-content](../skills/channels/egc/) | Employee-generated content, employee advocacy |
 | [influencer-marketing](../skills/channels/influencer/) | Influencer marketing, KOL, creator partnership |

@@ -9,7 +9,10 @@ Contributions are welcome! Here's how to add or improve skills.
 1. Create a new directory under the appropriate category:
    - SEO: `skills/seo/{technical,on-page,off-page,content}/skill-name/`
    - Pages: `skills/pages/{brand,content,marketing,legal,utility}/skill-name/` (see [skills-reference §Pages](docs/skills-reference.md#pages--quick-mapping))
-   - Strategies: `skills/strategies/skill-name/` or `skills/strategies/{domain,pricing}/skill-name/` for domain/pricing topics (see [skills-reference §Channels, Platforms, Strategies](docs/skills-reference.md#channels-platforms-strategies-analytics))
+   - Paid Ads: `skills/paid-ads/{platforms,formats}/skill-name/`
+   - Channels: `skills/channels/{partnerships,community,owned,distribution}/skill-name/` (folder name = skill name; see [skill-authoring §2.4](docs/skill-authoring.md#24-folder-name--skill-name))
+   - Analytics: `skills/analytics/{sources,seo,tracking}/skill-name/`
+   - Strategies: `skills/strategies/{launch,brand,commercial,structure}/skill-name/` or `skills/strategies/commercial/{domain,pricing}/skill-name/` for domain/pricing (see [skills-reference §Channels, Platforms, Strategies](docs/skills-reference.md#channels-platforms-strategies-analytics))
 2. Add `SKILL.md` with:
    - YAML frontmatter: `name`, `description`, `metadata.version`
    - Scope section (what the skill covers)

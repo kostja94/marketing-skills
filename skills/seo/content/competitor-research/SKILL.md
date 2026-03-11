@@ -2,7 +2,7 @@
 name: competitor-research
 description: When the user wants to analyze competitors for SEO, content, backlinks, or positioning. Also use when the user mentions "competitor analysis," "competitor research," "competitor keywords," "competitor backlinks," "link gap," "content gap," "competitor content," "competitive analysis," or "competitor comparison."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # SEO Content: Competitor Research
@@ -43,6 +43,17 @@ Guides competitor research for SEO, content, backlinks, and positioning. Use whe
 | **Format** | Lists, tables, FAQ; match or improve |
 
 **Use when**: Auditing or creating articles; see **article-page-generator** for Research Phase integration.
+
+### Competitor Article Fetch Workflow (for Article Analysis)
+
+When analyzing or auditing a single article, use this lightweight workflow to obtain competitor articles:
+
+1. **Obtain URLs**: From user, project-context Section 11, or web search for `"[target keyword]"` to find top-ranking pages
+2. **Fetch content**: Use mcp_web_fetch or WebSearch to fetch 2–3 top-ranking pages
+3. **Analyze**: Word count, H2 structure, keyword placement, content gaps, CTA, schema
+4. **Output**: Competitor URLs, brief structure comparison, content gaps, length target, keyword opportunities
+
+**Output format**: Competitor URLs; word count and H2 structure per URL; content gaps vs your article; recommended length target; keyword opportunities (terms top rankers use that your article misses).
 
 ## Competitor Backlink Analysis
 

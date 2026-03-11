@@ -58,25 +58,29 @@ Complete skill list, page taxonomy, and dependency maps. See [README](../README.
 
 ### Content, Paid Ads
 
+Paths: Content `skills/content/`. Paid Ads `skills/paid-ads/{platforms,formats}/`.
+
 | Skill | Description |
 |-------|-------------|
-| [copywriting](../skills/content/copywriting/) | Headlines, CTAs, ad copy, landing page copy; PAS, AIDA, BAB frameworks |
+| [article-content](../skills/content/article/) | Article body creation; intro, body, conclusion; word count by type; writing frameworks; Content Audit Checklist |
+| [copywriting](../skills/content/copywriting/) | Headlines, CTAs, ad copy, landing page copy; PAS, AIDA, BAB frameworks; short-form conversion copy |
 | [video-marketing](../skills/content/video/) | Short-form and long-form video scripts; hooks; platform optimization |
 | [visual-content](../skills/content/visual-content/) | Visual content planning; images for social, infographics, repurposing; cross-channel specs |
 | [translation](../skills/content/translation/) | Translation workflow, glossary, style guide; human vs MT; terminology by market |
-| [google-ads](../skills/paid-ads/google-ads/) | Google Ads: Search, Display, Performance Max; Quality Score; keyword bidding |
-| [meta-ads](../skills/paid-ads/meta-ads/) | Meta (Facebook/Instagram) Ads: campaign structure, lookalike, creative |
-| [linkedin-ads](../skills/paid-ads/linkedin-ads/) | LinkedIn Ads: B2B targeting, Lead Gen Forms, job title/company |
-| [reddit-ads](../skills/paid-ads/reddit-ads/) | Reddit Ads: subreddit targeting, Promoted Posts, native creative |
-| [tiktok-ads](../skills/paid-ads/tiktok-ads/) | TikTok Ads: video creative, Spark Ads, younger demographics |
-| [app-ads](../skills/paid-ads/app-ads/) | App install ads: Google App Campaigns, Apple Search Ads; UA, CPI |
-| [ctv-ads](../skills/paid-ads/ctv-ads/) | CTV/OTT/streaming TV ads: Hulu, Roku; 95% completion; brand awareness |
-| [display-ads](../skills/paid-ads/display-ads/) | Ad networks, banner ads, programmatic display; IAB sizes; CPM/CPC |
-| [directory-listing-ads](../skills/paid-ads/directory-listing-ads/) | Taaft, Shopify App Store, G2, Capterra paid placements; CPC, sponsored |
-| [youtube-ads](../skills/paid-ads/youtube-ads/) | TrueView, Bumper, Discovery; video ad campaigns |
-| [native-ads](../skills/paid-ads/native-ads/) | Taboola, Outbrain; content recommendation; native ad creative |
+| [podcast-marketing](../skills/content/podcast/) | Podcast strategy, distribution, SEO, repurposing |
+| [google-ads](../skills/paid-ads/platforms/google-ads/) | Google Ads: Search, Display, Performance Max; Quality Score; keyword bidding |
+| [meta-ads](../skills/paid-ads/platforms/meta-ads/) | Meta (Facebook/Instagram) Ads: campaign structure, lookalike, creative |
+| [linkedin-ads](../skills/paid-ads/platforms/linkedin-ads/) | LinkedIn Ads: B2B targeting, Lead Gen Forms, job title/company |
+| [reddit-ads](../skills/paid-ads/platforms/reddit-ads/) | Reddit Ads: subreddit targeting, Promoted Posts, native creative |
+| [tiktok-ads](../skills/paid-ads/platforms/tiktok-ads/) | TikTok Ads: video creative, Spark Ads, younger demographics |
+| [youtube-ads](../skills/paid-ads/platforms/youtube-ads/) | TrueView, Bumper, Discovery; video ad campaigns |
+| [app-ads](../skills/paid-ads/formats/app-ads/) | App install ads: Google App Campaigns, Apple Search Ads; UA, CPI |
+| [ctv-ads](../skills/paid-ads/formats/ctv-ads/) | CTV/OTT/streaming TV ads: Hulu, Roku; 95% completion; brand awareness |
+| [display-ads](../skills/paid-ads/formats/display-ads/) | Ad networks, banner ads, programmatic display; IAB sizes; CPM/CPC |
+| [directory-listing-ads](../skills/paid-ads/formats/directory-listing-ads/) | Taaft, Shopify App Store, G2, Capterra paid placements; CPC, sponsored |
+| [native-ads](../skills/paid-ads/formats/native-ads/) | Taboola, Outbrain; content recommendation; native ad creative |
 
-Strategy (when to use, channel selection, budget) → [paid-ads-strategy](../skills/strategies/paid-ads/).
+Strategy (when to use, channel selection, budget) → [paid-ads-strategy](../skills/strategies/commercial/paid-ads/).
 
 ### Pages — Quick Mapping
 
@@ -92,7 +96,7 @@ Paths: `skills/pages/{brand,content,marketing,legal,utility}/`. **Full taxonomy 
 | SEO | Template page | [template-page-generator](../skills/pages/content/template-page/) | Commercial | Consideration |
 | SEO | Glossary | [glossary-page-generator](../skills/pages/content/glossary/) | Informational | Awareness |
 | SEO | Blog | [blog-page-generator](../skills/pages/content/blog/) | Informational | Awareness |
-| SEO | Article | [article-page-generator](../skills/pages/content/article/) | Informational | Awareness |
+| SEO | Article | [article-content](../skills/content/article/) (body) + [article-page-generator](../skills/pages/content/article/) (page) | Informational | Awareness |
 | SEO | Resources | [resources-page-generator](../skills/pages/content/resources/) | Informational | Awareness |
 | SEO | FAQ | [faq-page-generator](../skills/pages/content/faq/) | Informational | Consideration |
 | SEO | API | [api-page-generator](../skills/pages/content/api/) | Informational | Consideration |
@@ -165,57 +169,63 @@ Paths: `skills/components/{navigation,conversion,branding,content,layout,utility
 
 ### Channels, Platforms, Strategies, Analytics
 
+Paths: Channels `skills/channels/{partnerships,community,owned,distribution}/`. Platforms `skills/platforms/`. Analytics `skills/analytics/{sources,seo,tracking}/`.
+
 | Skill | Description |
 |-------|-------------|
-| [affiliate-marketing](../skills/channels/affiliate/) | Affiliate marketing strategy, CPS model |
-| [education-program](../skills/channels/education-program/) | Student/education discount program |
-| [email-marketing](../skills/channels/email-marketing/) | EDM, newsletter, deliverability, SEO synergy |
-| [employee-generated-content](../skills/channels/egc/) | Employee-generated content, employee advocacy |
-| [influencer-marketing](../skills/channels/influencer/) | Influencer marketing, KOL, creator partnership |
-| [referral-program](../skills/channels/referral/) | Referral program strategy |
-| [creator-program](../skills/channels/creator-program/) | Creator program strategy |
-| [community-forum](../skills/channels/community-forum/) | Forum promotion, community invitation |
-| [distribution-channels](../skills/channels/distribution-channels/) | Distribution channel selection, marketplace listing |
-| [directory-submission](../skills/channels/directories/) | Directory submission (Taaft, Product Hunt, etc.) |
-| [pr-marketing](../skills/channels/pr/) | Press release, media relations, product announcement |
+| [affiliate-marketing](../skills/channels/partnerships/affiliate-marketing/) | Affiliate marketing strategy, CPS model |
+| [education-program](../skills/channels/partnerships/education-program/) | Student/education discount program |
+| [influencer-marketing](../skills/channels/partnerships/influencer-marketing/) | Influencer marketing, KOL, creator partnership |
+| [referral-program](../skills/channels/partnerships/referral-program/) | Referral program strategy |
+| [creator-program](../skills/channels/partnerships/creator-program/) | Creator program strategy |
+| [public-relations](../skills/channels/partnerships/public-relations/) | Press release, media relations, product announcement |
+| [community-forum](../skills/channels/community/community-forum/) | Forum promotion, community invitation |
+| [directory-submission](../skills/channels/community/directory-submission/) | Directory submission (Taaft, G2, curated lists, app stores) |
+| [product-hunt-launch](../skills/channels/community/product-hunt-launch/) | Product Hunt launch preparation and execution |
+| [email-marketing](../skills/channels/owned/email-marketing/) | EDM, newsletter, deliverability, SEO synergy |
+| [employee-generated-content](../skills/channels/owned/employee-generated-content/) | Employee-generated content, employee advocacy |
+| [distribution-channels](../skills/channels/distribution/distribution-channels/) | Distribution channel selection, marketplace listing |
 | [twitter-x-posts](../skills/platforms/x/) | X (Twitter) post copy, threads, image specs |
 | [reddit-posts](../skills/platforms/reddit/) | Reddit post copy, subreddit rules |
 | [linkedin-posts](../skills/platforms/linkedin/) | LinkedIn post copy, professional content |
 | [tiktok-captions](../skills/platforms/tiktok/) | TikTok caption, video specs, script |
-| [github-seo](../skills/platforms/github/) | GitHub for parasite SEO, GEO |
+| [github](../skills/platforms/github/) | GitHub for SEO, GEO, parasite SEO, open source |
 | [grokipedia-recommendations](../skills/platforms/grokipedia/) | Grokipedia recommendations, GEO |
 | [youtube-seo](../skills/platforms/youtube/) | YouTube titles, descriptions, thumbnails; video SEO |
 | [pinterest-posts](../skills/platforms/pinterest/) | Pin descriptions, board SEO |
 | [medium-posts](../skills/platforms/medium/) | Medium publishing; parasite SEO; canonical setup |
-| [branding](../skills/strategies/branding/) | Brand strategy, storytelling, voice, visual identity |
-| [content-marketing](../skills/strategies/content-marketing/) | Content types, formats, channels, repurposing |
-| [seo-strategy](../skills/strategies/seo/) | SEO workflow order, prioritization, Product-Led SEO |
-| [paid-ads-strategy](../skills/strategies/paid-ads/) | Paid ads strategy: when to use; channel selection; budget |
-| [website-structure](../skills/strategies/website-structure/) | Plan which pages to build, page priority |
-| [cold-start-strategy](../skills/strategies/cold-start/) | Cold start, first users, launch channels |
-| [growth-funnel](../skills/strategies/growth-funnel/) | AARRR funnel, acquisition flow |
-| [indie-hacker-strategy](../skills/strategies/indie-hacker/) | Indie hacker growth: Bootstrapping, Build in Public |
-| [discount-marketing-strategy](../skills/strategies/pricing/discount-marketing/) | Discount strategy, LTD, redeem code, BFCM |
-| [pricing-strategy](../skills/strategies/pricing/pricing-strategy/) | Pricing model, tier design, anchoring |
-| [generative-engine-optimization](../skills/strategies/geo/) | GEO/AEO for AI search visibility |
-| [integrated-marketing](../skills/strategies/integrated-marketing/) | IMC, PESO, program vs channel vs campaign |
-| [localization-strategy](../skills/strategies/localization/) | Localization strategy, i18n, multilingual |
-| [pmf-strategy](../skills/strategies/pmf/) | Product-market fit validation; Sean Ellis 40% test |
-| [gtm-strategy](../skills/strategies/gtm/) | GTM strategy: PLG/SLG/MLG modes; 90-day framework |
-| [domain-selection](../skills/strategies/domain/domain-selection/) | Domain choice: Brand vs PMD vs EMD, TLD |
-| [domain-architecture](../skills/strategies/domain/domain-architecture/) | Subfolder vs subdomain vs independent domain |
-| [multi-domain-brand-seo](../skills/strategies/domain/multi-domain-brand-seo/) | Multi-domain brand search |
-| [rebranding-strategy](../skills/strategies/rebranding/) | Rebranding: domain change, 301 redirects, migration |
-| [brand-protection](../skills/strategies/brand-protection/) | Brand impersonation, fake sites, phishing |
-| [conversion-optimization](../skills/strategies/conversion/) | CRO, A/B testing, funnel optimization |
-| [product-launch](../skills/strategies/product-launch/) | Product launch execution |
-| [research-sources](../skills/strategies/research-sources/) | Information sources for market research |
-| [retention-strategy](../skills/strategies/retention/) | Churn prevention, lifecycle marketing |
-| [traffic-analysis](../skills/analytics/traffic/) | Traffic sources, dark traffic, UTM attribution |
+| [branding](../skills/strategies/brand/branding/) | Brand strategy, storytelling, voice, visual identity |
+| [content-marketing](../skills/strategies/brand/content-marketing/) | Content types, formats, channels, repurposing |
+| [seo-strategy](../skills/strategies/structure/seo/) | SEO workflow order, prioritization, Product-Led SEO |
+| [seo-audit](../skills/strategies/structure/seo-audit/) | End-to-end SEO audit: technical, on-page, content, off-page |
+| [paid-ads-strategy](../skills/strategies/commercial/paid-ads/) | Paid ads strategy: when to use; channel selection; budget |
+| [website-structure](../skills/strategies/structure/website-structure/) | Plan which pages to build, page priority |
+| [cold-start-strategy](../skills/strategies/launch/cold-start/) | Cold start, first users, launch channels |
+| [growth-funnel](../skills/strategies/launch/growth-funnel/) | AARRR funnel, acquisition flow |
+| [indie-hacker-strategy](../skills/strategies/launch/indie-hacker/) | Indie hacker growth: Bootstrapping, Build in Public |
+| [discount-marketing-strategy](../skills/strategies/commercial/pricing/discount-marketing/) | Discount strategy, LTD, redeem code, BFCM |
+| [pricing-strategy](../skills/strategies/commercial/pricing/pricing-strategy/) | Pricing model, tier design, anchoring |
+| [generative-engine-optimization](../skills/strategies/commercial/geo/) | GEO/AEO for AI search visibility |
+| [open-source-strategy](../skills/strategies/commercial/open-source/) | Open source commercialization; GitHub, DevHunt, open core |
+| [integrated-marketing](../skills/strategies/brand/integrated-marketing/) | IMC, PESO, program vs channel vs campaign |
+| [localization-strategy](../skills/strategies/commercial/localization/) | Localization strategy, i18n, multilingual |
+| [pmf-strategy](../skills/strategies/launch/pmf/) | Product-market fit validation; Sean Ellis 40% test |
+| [gtm-strategy](../skills/strategies/launch/gtm/) | GTM strategy: PLG/SLG/MLG modes; 90-day framework |
+| [domain-selection](../skills/strategies/commercial/domain/domain-selection/) | Domain choice: Brand vs PMD vs EMD, TLD |
+| [domain-architecture](../skills/strategies/commercial/domain/domain-architecture/) | Subfolder vs subdomain vs independent domain |
+| [multi-domain-brand-seo](../skills/strategies/commercial/domain/multi-domain-brand-seo/) | Multi-domain brand search |
+| [rebranding-strategy](../skills/strategies/brand/rebranding/) | Rebranding: domain change, 301 redirects, migration |
+| [brand-protection](../skills/strategies/brand/brand-protection/) | Brand impersonation, fake sites, phishing |
+| [brand-monitoring](../skills/strategies/brand/brand-monitoring/) | Proactive brand monitoring, trademark watch, tool selection |
+| [conversion-optimization](../skills/strategies/launch/conversion/) | CRO, A/B testing, funnel optimization |
+| [product-launch](../skills/strategies/launch/product-launch/) | Product launch execution |
+| [research-sources](../skills/strategies/launch/research-sources/) | Information sources for market research |
+| [retention-strategy](../skills/strategies/launch/retention/) | Churn prevention, lifecycle marketing |
+| [traffic-analysis](../skills/analytics/sources/traffic/) | Traffic sources, dark traffic, UTM attribution |
+| [ai-traffic-tracking](../skills/analytics/sources/ai-traffic/) | Track AI search traffic in GA4 and GSC |
+| [google-search-console](../skills/analytics/seo/google-search-console/) | GSC analysis, indexing, Core Web Vitals |
+| [seo-monitoring](../skills/analytics/seo/seo-monitoring/) | SEO data analysis, benchmark |
 | [analytics-tracking](../skills/analytics/tracking/) | GA4, event tracking, conversions |
-| [seo-monitoring](../skills/analytics/seo-monitoring/) | SEO data analysis, benchmark |
-| [ai-traffic-tracking](../skills/analytics/ai-traffic/) | Track AI search traffic in GA4 and GSC |
-| [google-search-console](../skills/analytics/google-search-console/) | GSC analysis, indexing, Core Web Vitals |
 
 ---
 

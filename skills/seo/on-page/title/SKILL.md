@@ -2,7 +2,7 @@
 name: title-tag
 description: When the user wants to optimize the title tag, page title, or SERP title. Also use when the user mentions "title tag," "meta title," "page title," "SEO title," "SERP title," "browser tab title," "title optimization," "headline for search," "title too long," "title tag length," "duplicate title tags," or "optimize title for CTR."
 metadata:
-  version: 1.2.0
+  version: 1.3.0
 ---
 
 # SEO On-Page: Title Tag
@@ -45,10 +45,14 @@ Identify:
 | Item | Guideline |
 |------|-----------|
 | **Length** | Per language (see table above); Google truncates beyond ~600px |
+| **Front-load** | Main phrase first; branding at end |
 | **Keyword** | Include primary keyword near the start |
 | **Unique** | One unique title per page |
-| **Brand** | Optional: append brand at end |
-| **Clear** | Compelling; clearly describe page content |
+| **Clarity** | Match search intent; avoid keyword stuffing |
+| **Engagement** | Numbers, power words, questions can boost CTR ~36% |
+| **H1 alignment** | H1 should align with title; Google may rewrite titles if they mismatch content or intent |
+
+**Example**: Bad: "SEO Tips for Small Business" → Better: "11 SEO Tips That Actually Work (2026)"
 
 ## Output Format
 

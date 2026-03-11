@@ -81,4 +81,4 @@ Identify:
 - **about-page-generator**: Press quotes can appear on About
 - **customer-stories-page-generator**: Social proof; different from press (customer success vs media coverage)
 - **trust-badges-generator**: "Trusted by" logos; similar visual treatment
-- **pr-marketing**: Press release creation; coverage is outcome of PR
+- **public-relations**: Press release creation; coverage is outcome of PR

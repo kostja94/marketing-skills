@@ -1,13 +1,13 @@
 ---
 name: copywriting
-description: When the user wants to write or optimize marketing copy—headlines, CTAs, ad copy, landing page copy, email copy. Also use when the user mentions "copywriting," "headline," "CTA copy," "ad copy," "landing page copy," "sales copy," "conversion copy," "PAS," "AIDA," "BAB," or "copy formula."
+description: When the user wants to write or optimize marketing copy—headlines, CTAs, ad copy, landing page copy, email copy. Also use when the user mentions "copywriting," "headline," "CTA copy," "ad copy," "landing page copy," "sales copy," "conversion copy," "PAS," "AIDA," "BAB," or "copy formula." For article body content (long-form blog posts, guides), use article-content.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Content: Copywriting
 
-Guides marketing copy creation and optimization across ads, landing pages, email, and CTAs. Copywriting frameworks provide structure that increases efficiency, eliminates writer's block, ensures consistency, and improves conversion rates. Use this skill when drafting or refining copy for any marketing touchpoint.
+Guides **short-form marketing copy**—ads, landing pages, email, CTAs. Copywriting frameworks (PAS, AIDA, BAB) provide structure for conversion-focused copy. For **article body content** (blog posts, guides, long-form), see **article-content**.
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -70,6 +70,7 @@ Identify:
 | **Landing page** | Headline, value prop, CTA; above fold | landing-page-generator, hero-generator |
 | **Email** | Subject line, preview, body, CTA | email-marketing |
 | **CTA** | Value-focused; action verb; avoid "Submit" | cta-generator |
+| **Article / blog** | Headline formulas, CTA copy; body → **article-content** | article-content, article-page-generator |
 
 ## Ad copy vs Landing page copy
 
@@ -98,6 +99,7 @@ Identify:
 
 ## Related Skills
 
+- **article-content**: Article body creation; applies PAS, AIDA, BAB to long-form; headline formulas for article titles
 - **landing-page-generator**: Landing page copy and structure
 - **hero-generator**: Hero headline, subheadline, CTA
 - **cta-generator**: CTA design and copy

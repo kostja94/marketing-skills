@@ -2,7 +2,7 @@
 name: meta-description
 description: When the user wants to optimize the meta description or meta tag description. Also use when the user mentions "meta description," "meta desc," "page description," "SEO description," "search snippet," "SERP description," "description tag," "snippet for search," "meta description length," "rewrite meta description," or "description not showing."
 metadata:
-  version: 1.2.0
+  version: 1.3.0
 ---
 
 # SEO On-Page: Meta Description
@@ -44,11 +44,13 @@ Identify:
 
 | Item | Guideline |
 |------|-----------|
-| **Length** | Per language (see table above); truncates beyond pixel limit |
-| **Unique** | One per page |
+| **Length** | Per language (see table above); ~150 chars sweet spot for Latin; truncates beyond pixel limit |
+| **Unique** | One per page; no duplicate descriptions |
+| **Intent** | Answer "why should I click?"; match search intent |
 | **CTA** | Include clear call-to-action when relevant |
 | **Keyword** | Naturally include target keyword |
-| **Compelling** | Encourage click; differentiate from competitors |
+| **Content** | Include author, date, price where relevant |
+| **Impact** | Does not affect ranking; well-written descriptions improve CTR 5–10% |
 
 ## Output Format
 

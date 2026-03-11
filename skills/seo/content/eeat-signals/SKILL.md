@@ -76,7 +76,8 @@ When content is AI-assisted: **human review** before publish; **verify facts** a
 
 ## Related Skills
 
-- **article-page-generator**: Article structure; author bio, citations, references
+- **article-page-generator**: Article page structure; author bio placement
+- **article-content**: Article body creation; citations, references format
 - **content-optimization**: Original images, content quality; E-E-A-T complements
 - **link-building**: Digital PR, E-E-A-T; backlinks signal authority
 - **featured-snippet**: E-A-T in snippet algorithm; correctness, authority

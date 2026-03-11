@@ -14,6 +14,8 @@
 
 **Discovering skills**: Browse [skills.sh](https://skills.sh) (All Time, Trending, Hot); search with `npx skills find [keyword]`; or `npx skills add owner/repo --list` to see a repo's skills. Check [skills.sh/kostja94](https://skills.sh/kostja94) for this repo's listing.
 
+**SkillsBench tip** (*for reference only — one paper's findings*): 2–3 relevant skills per task may be a performance sweet spot; 4+ skills can cause context overload. Prefer selective install (`--skill a b c`) when you know the task. See [skill-authoring §9](skill-authoring.md#9-skillsbench-reference-informational).
+
 ---
 
 ## Quick Summary

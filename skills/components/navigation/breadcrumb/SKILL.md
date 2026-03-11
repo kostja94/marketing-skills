@@ -2,7 +2,7 @@
 name: breadcrumb-generator
 description: When the user wants to add, optimize, or audit breadcrumb navigation. Also use when the user mentions "breadcrumbs," "breadcrumb trail," "breadcrumb nav," "breadcrumb links," "path navigation," "site breadcrumb," "BreadcrumbList schema," "location-based breadcrumb," "attribute-based breadcrumb," "site hierarchy display," "add breadcrumbs," or "breadcrumb SEO."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Components: Breadcrumb Navigation
@@ -49,13 +49,7 @@ Identify:
 
 ### Schema (BreadcrumbList)
 
-| Requirement | Guideline |
-|--------------|-----------|
-| **Format** | JSON-LD in `<script type="application/ld+json">` |
-| **URLs** | Absolute URLs with https:// for each item |
-| **Position** | Sequential integers starting from 1 |
-| **Match** | Schema must match visible breadcrumbs exactly |
-| **Order** | ItemListOrderAscending (position 1 first) |
+See **schema-markup** for BreadcrumbList requirements, JSON-LD example, and multiple paths. Schema must match visible breadcrumbs exactly.
 
 ### Placement & Design
 
@@ -105,61 +99,7 @@ Identify:
 </nav>
 ```
 
-### BreadcrumbList JSON-LD
-
-```html
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://example.com/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Category",
-      "item": "https://example.com/category/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Current Page",
-      "item": "https://example.com/category/current-page/"
-    }
-  ]
-}
-</script>
-```
-
-### Next.js (dynamic)
-
-Generate BreadcrumbList from route segments or page metadata. Ensure `item` URLs are absolute. Use `next-seo` BreadcrumbJsonLd or custom component.
-
-### Multiple Breadcrumb Paths
-
-When a page is reachable via multiple paths (e.g., product in multiple categories), Google supports **multiple BreadcrumbList** on the same page. Use an array of BreadcrumbList objects; define a canonical path to avoid diluted link equity when possible.
-
-```html
-<script type="application/ld+json">
-[
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [ /* path A */ ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [ /* path B */ ]
-  }
-]
-</script>
-```
+**Implementation**: Generate BreadcrumbList from route segments or page metadata. Ensure `item` URLs are absolute. Use `next-seo` BreadcrumbJsonLd or custom component. See **schema-markup** for JSON-LD structure.
 
 ## When to Use Breadcrumbs
 
@@ -192,12 +132,12 @@ When a page is reachable via multiple paths (e.g., product in multiple categorie
 | Last item linked | Current page typically not a link |
 | Too many levels | Limit to 5–7; omit middle levels for deep paths |
 | Inaccurate path | Breadcrumb must reflect actual site structure |
-| No schema | Add BreadcrumbList; otherwise no SERP breadcrumbs; see **serp-features** |
+| No schema | Add BreadcrumbList per **schema-markup**; otherwise no SERP breadcrumbs; see **serp-features** |
 
 ## Output Format
 
 - **Structure** recommendation (levels, labels)
-- **BreadcrumbList** JSON-LD (with absolute URLs)
+- **BreadcrumbList** JSON-LD — see **schema-markup** for structure; with absolute URLs
 - **HTML** structure (semantic, accessible)
 - **Placement** (below header, above main)
 - **Validation**: [Rich Results Test](https://search.google.com/test/rich-results), [Schema Markup Validator](https://validator.schema.org/), Search Console enhanced report
@@ -205,7 +145,7 @@ When a page is reachable via multiple paths (e.g., product in multiple categorie
 ## Related Skills
 
 - **article-page-generator**: Article pages use breadcrumbs (Home > Blog > Category > Post)
-- **schema-markup**: BreadcrumbList is a core schema type
+- **schema-markup**: BreadcrumbList schema implementation; JSON-LD structure, requirements
 - **navigation-menu-generator**: Header nav; breadcrumbs complement primary nav
 - **internal-links**: Breadcrumbs are internal links; distribute link equity
 - **site-crawlability**: Breadcrumbs help crawlers understand structure

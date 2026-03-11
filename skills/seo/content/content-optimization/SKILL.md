@@ -2,7 +2,7 @@
 name: content-optimization
 description: When the user wants to optimize content for SEO—word count, H2 keywords, keyword density, multimedia, tables, lists. Also use when the user mentions "content length," "word count," "keyword stuffing," "H2 keywords," "keyword density," "tables," "bullet points," or "content structure."
 metadata:
-  version: 1.0.0
+  version: 1.2.0
 ---
 
 # SEO Content: Content Optimization
@@ -13,7 +13,7 @@ Guides on-page content optimization: word count, heading keywords, keyword densi
 
 ## Scope
 
-- **Word count**: Length by content type; quality over length
+- **Word count**: For articles, see **article-content** (word count by type). This skill covers generic content length strategy.
 - **H2 keywords**: Placement, quantity, variation
 - **Keyword density vs stuffing**: Natural use; avoid manipulation
 - **Multimedia**: Images, tables, lists, video for structure and Featured Snippets. See **featured-snippet** for snippet-specific optimization; **video-optimization** for video SEO.
@@ -35,13 +35,14 @@ Identify:
 
 ### Reference Ranges by Content Type
 
+For **article** word count by type (news, how-to, listicle, pillar, etc.), see **article-content**. Generic ranges:
+
 | Content type | Word count | Notes |
 |--------------|-------------|-------|
 | **News / announcements** | 300–600 | Time-sensitive; concise |
 | **Standard articles / how-tos** | 1,000–1,500 | Single topic; actionable |
 | **Listicles / guides** | 1,200–2,000 | "Top 10," "Best X" |
 | **Pillar / cornerstone** | 2,000–3,500+ | Comprehensive; cluster hub |
-| **Competitive keywords** | 2,000–2,500 | Top 10 avg ~2,400 words |
 
 ### Strategy
 
@@ -144,7 +145,13 @@ Identify:
 
 ### GEO / AI Citation
 
-**Answer-first** (direct answer in first 40–60 words after H2) supports both Featured Snippets and GEO. For article-level GEO (TL;DR, Key Takeaways, QAE pattern), see **article-page-generator** and **generative-engine-optimization**. For Featured Snippet formats and optimization, see **featured-snippet**.
+**Answer-first** (direct answer in first 40–60 words after H2) supports both Featured Snippets and GEO. For article-level GEO (TL;DR, Key Takeaways, QAE pattern), see **article-content** and **generative-engine-optimization**. For Featured Snippet formats and optimization, see **featured-snippet**.
+
+---
+
+## Content Audit Checklist
+
+For **article** content audit (hook, QAE, product connection, CTA, references, gaps), see **article-content**. This skill covers generic content optimization (H2 keywords, multimedia, keyword density).
 
 ---
 
@@ -166,3 +173,4 @@ Identify:
 - **image-optimization**: Alt, captions, format, LCP, responsive, image sitemap
 - **video-optimization**: Video SEO; VideoObject; video sitemap
 - **competitor-research**: Competitor length and structure as reference
+- **article-content**: Article word count by type; Content Audit Checklist; article body creation

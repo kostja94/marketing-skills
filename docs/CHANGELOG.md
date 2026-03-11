@@ -20,8 +20,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - **core-web-vitals** — LCP, INP, CLS optimization; target thresholds; diagnosis tools (GSC, PageSpeed Insights); fixes for each metric.
 - **mobile-friendly** — Mobile-first indexing; mobile usability checklist (viewport, font size, touch targets); content parity; responsive vs separate URLs.
 - **site-crawlability** — AI Crawler Optimization section: GPTBot/ClaudeBot don't execute JS (SSR/SSG for critical content); high 404 (~34%) and redirect (~14%) rates; URL management, sitemap, redirect best practices. Reference: [Vercel/MERJ study](https://vercel.com/blog/the-rise-of-the-ai-crawler) (2024).
+- **open-source-strategy** — New skill (strategies/commercial/open-source): OSS commercialization; business models (open core, managed services); GitHub, DevHunt, Awesome lists; developer-first distribution; licensing (MIT, AGPL, BSL).
 
 ### Changed
+
+- **Folder name = skill name** — All skills: folder name must match skill `name` field. Renamed: partnerships (affiliate→affiliate-marketing, referral→referral-program, influencer→influencer-marketing, pr→public-relations); community (directories→directory-submission, product-hunt→product-hunt-launch); owned (egc→employee-generated-content). pr-marketing → public-relations (full term). Added skill-authoring §2.4, §3.2 Channel naming, CONTRIBUTING link.
+- **Folder vs name rules** — skill-authoring §2.4: Components/Pages/Strategies may have folder ≠ name (folder = base concept; name adds -generator/-strategy). Channels, Platforms (multi-use), Analytics: folder = name.
+- **github-seo → github** — Multi-use platform; covers SEO, GEO, parasite SEO, open source. Name reflects broader scope; folder github already matched.
+
+- **strategies/** — Restructured into 4 categories: launch, brand, commercial, structure. Updated skill-authoring, skills-reference, CONTRIBUTING, README.
+- **product-hunt-launch** — New skill (channels/community/product-hunt-launch); extracted from directory-submission; 30-day plan, launch day, expectations.
+- **podcast-marketing** — New skill (content/podcast); strategy, distribution, SEO, repurposing; scope beyond SEO.
+- **seo-audit** — New skill (strategies/structure); technical → on-page → content → off-page audit flow.
+- **brand-monitoring** — New skill (strategies/brand); proactive monitoring, tool selection; brand-protection = reactive.
+- **directory-submission** — Product Hunt section replaced with reference to product-hunt-launch; added DevHunt (developer tools directory); open-source-strategy in Related Skills.
+- **paid-ads/** — Restructured into platforms/ (6) + formats/ (5).
+- **channels/** — Restructured into partnerships/ (6) + community/ (2) + owned/ (2) + distribution/ (1).
+- **analytics/** — Restructured into sources/ (2) + seo/ (2) + tracking/ (1).
 
 - **mobile-friendly** — Add responsive design & mobile adaptation; viewport meta details (attributes, purpose); AMP section (status 2024–2025: no longer required; CWV alternative).
 - **image-optimization** — Add Captions section (figcaption, Featured Snippet, Image Pack); Data URI note; Preferred Image: thumbnail next to title/description in search results; Google Discover specs (1200px, 16:9); strengthen cross-refs.
@@ -40,6 +55,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - **serp-features, featured-snippet, schema-markup, content-optimization, xml-sitemap, google-search-console** — Add video-optimization cross-refs; Video SERP feature notes YouTube prioritization.
 - **geo, schema-markup, serp-features, multi-domain-brand-seo, eeat-signals, faq-page-generator, alternatives-page-generator, github-seo, article-page-generator** — Add entity-seo cross-refs; condense entity content to reference entity-seo.
 - **Related Skills optimization** — Reduce cross-references per [reference-rules §7](reference-rules.md#7-related-skills-optimization): landing-page 31→12; geo 16→10; entity-seo 11→6; image-optimization 13→8; content-optimization 12→8; serp-features, schema-markup, website-structure, article-page, google-search-console, metadata, visual-content, video-optimization streamlined.
+- **article-page-generator migration** — Moved excess content to other skills: Research Phase workflow → competitor-research (Competitor Article Fetch Workflow), keyword-research (extract from article); Article Orientations → content-marketing; GEO (TL;DR, QAE) → generative-engine-optimization (Article-Level GEO); Schema, Date display, JSON-LD → schema-markup; Content Analysis checklist → content-optimization; Featured Image → image-optimization. article-page-generator streamlined to page structure, output format, and references.
+- **Content deduplication** — title-tag: Added GSC CTR tips (front-load, engagement, example, H1 alignment); meta-description: Added intent, content, impact; google-search-console: Removed duplicate Title Tag and Meta Description sections → references title-tag, meta-description; removed CWV thresholds → references core-web-vitals; schema-markup: Added BreadcrumbList implementation (requirements, JSON-LD, multiple paths); breadcrumb-generator: Removed duplicate schema content → references schema-markup.
+- **article-content** — New skill (content/article): Article body creation; word count by type (2025 data); intro/body/conclusion; TL;DR, QAE, hook; writing frameworks (AIDA, PAS, BAB); Content Audit Checklist; references article-page-generator (page structure), copywriting (frameworks, headlines), eeat-signals (citations).
+- **article-page-generator** — Streamlined to page structure, metadata, schema, technical; content creation → references article-content.
+- **copywriting** — Scope clarified: short-form conversion copy; article body → article-content; added Article/blog to Copy by Context; cross-ref article-content.
+- **content-optimization** — Word count by type, Content Audit Checklist → references article-content; retains H2 keywords, multimedia, keyword density.
 
 ## [2025-03-11] v2.3.14
 

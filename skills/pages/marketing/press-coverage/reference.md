@@ -33,4 +33,4 @@ A **press coverage page** (or "As Seen In" / "As Featured In" section) showcases
 
 - **media-kit-page-generator** — Press assets for journalists
 - **skills-reference §2** — Page taxonomy, classification
-- **pr-marketing** — Press release, media relations
+- **public-relations** — Press release, media relations

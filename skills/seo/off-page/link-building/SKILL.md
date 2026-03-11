@@ -73,6 +73,6 @@ Identify:
 - **keyword-research**: Target keywords inform link targets
 - **cold-start-strategy**: Cold start and first-user acquisition; directory submission as part of launch
 - **parasite-seo**: Parasite SEO; high-authority platforms for backlinks
-- **github-seo**: GitHub repos, gists, awesome lists for backlinks
+- **github**: GitHub repos, gists, awesome lists for backlinks
 - **directory-submission**: Directory and curated list submission--preparation, platform-specific copy, Taaft/Product Hunt/G2; use when user wants to submit product to directories or get listed on best-of roundups
 - **eeat-signals**: E-E-A-T implementation; Digital PR supports authority

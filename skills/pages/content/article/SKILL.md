@@ -1,13 +1,13 @@
 ---
 name: article-page-generator
-description: When the user wants to create, optimize, or audit a single article/post page (not the blog index). Also use when the user mentions "article page," "blog post," "blog post page," "long-form content," "single post," "post template," "individual article," "article structure," "post optimization," "competitor article analysis," "optimize based on top-ranking articles," "analyze ranking articles," "optimize article for SEO," or "article schema."
+description: When the user wants to create, optimize, or audit a single article/post page (not the blog index). Also use when the user mentions "article page," "blog post page," "single post," "post template," "article structure," "post optimization," "competitor article analysis," "optimize based on top-ranking articles," "analyze ranking articles," "optimize article for SEO," or "article schema." For writing article body content (intro, body, conclusion), use article-content.
 metadata:
-  version: 1.0.0
+  version: 1.2.0
 ---
 
 # Pages: Article (Single Post)
 
-Guides structure, SEO, and UX for **individual article pages** — one blog post, one guide, one piece of long-form content. Distinct from **blog-page-generator**, which covers the blog index/listing page.
+Guides **structure, SEO, and UX** for individual article pages — layout, metadata, schema, technical. For **article body content** (intro, body, conclusion, writing), see **article-content**. Distinct from **blog-page-generator**, which covers the blog index/listing page.
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -42,38 +42,13 @@ If no project-context exists, infer from the article and optionally search for c
 
 ## Research Phase: Keyword, Search Intent, Competitor (Required for Article Analysis)
 
-**Lightweight** research for article analysis—keyword extraction, intent check, competitor structure. For deep keyword research, topical mapping, or content planning, use **keyword-research** and **content-strategy**.
+**Lightweight** research for article analysis. When **analyzing or auditing** an article, perform searches and **output the results** in Section 0. Skip only if user explicitly asks to skip (e.g. "skip search").
 
-When **analyzing or auditing** an article, perform the following searches and **output the results** in the analysis. Skip only if user explicitly asks to skip (e.g. "skip search").
+- **Keyword**: Extract from article (title, H1, H2s, first 100 words); search for opportunities — see **keyword-research** (extract from article method)
+- **Search intent**: Informational / Commercial / Transactional / Navigational — see **keyword-research** Search Intent
+- **Competitor articles**: Fetch 2–3 top-ranking pages; analyze structure, gaps, length target — see **competitor-research** (Competitor Article Fetch Workflow)
 
-### 1. Keyword Search
-
-- **Extract seed keywords** from article (title, H1, H2s, meta keywords, first 100 words).
-- **Search the web** for related keywords and opportunity:
-  - `"[primary keyword]"` or `"[primary keyword] related keywords"`
-  - `"[primary keyword]" site:competitor.com` (if competitors known)
-  - Google autocomplete / "People also ask" style queries for the topic
-- **Output**: Primary keyword, secondary keywords, keyword opportunities (terms top rankers use that this article misses).
-
-### 2. Search Intent Analysis
-
-- **Determine intent** for primary and secondary keywords:
-  - **Informational**: How-to, what is, why, guides → blog, FAQ
-  - **Commercial**: Comparison, best, review → comparison pages, product pages
-  - **Transactional**: Buy, pricing, sign up → product, pricing, CTA
-  - **Navigational**: Brand name, login → brand pages
-- **Search the web** if needed: `"[keyword]"` to see SERP result types (blogs, product pages, etc.) and infer intent. See **serp-features** for SERP feature types.
-- **Output**: Intent for primary keyword, intent for top 2–3 secondary keywords, whether article matches intent.
-
-### 3. Competitor Article Search
-
-- **If user provides URLs**: Use them for competitor analysis.
-- **If user does not provide URLs**: **By default, search** for top-ranking articles:
-  - Web search: `"[target keyword]"` or `"[primary keyword]"`
-  - Fetch 2–3 top-ranking pages via mcp_web_fetch or WebSearch
-  - Analyze: word count, H2 structure, keyword placement, content gaps, CTA, schema
-- **If user explicitly asks to skip**: Omit competitor search; note "Competitor analysis skipped" in output.
-- **Output**: Competitor URLs, brief structure comparison, content gaps, length target, keyword opportunities.
+**Output format**: See Output Format Section 0 below.
 
 ## Scope
 
@@ -95,74 +70,25 @@ Identify:
 
 ## Article Orientations
 
-Not all articles share the same goal. Choose structure, SEO depth, and schema based on **orientation** and **primary objective**.
+Choose structure, SEO depth, and schema based on **orientation**. See **content-marketing** for full Article Orientations (Funding/PR, Product update, Guide, News, Evergreen), SEO-driven vs non-SEO-driven, Evergreen vs Timely.
 
-### Article Types by Orientation
-
-| Orientation | Examples | Primary Goal | SEO Priority |
-|-------------|----------|--------------|--------------|
-| **Funding / PR** | Funding rounds, acquisitions, executive hires | Brand awareness, press, investor relations | Low — thin content, few search queries |
-| **Product updates** | Feature launches, release notes, changelogs | User education, product adoption | Low–medium — internal announcements rarely rank |
-| **Guides / How-to** | Tutorials, step-by-step, best practices | Education, lead nurture, authority | High — matches search intent |
-| **News / Trending** | Industry news, hot topics, seasonal | Engagement, social shares, topical relevance | Medium — quick traffic spikes, short shelf life |
-| **Evergreen** | Pillar guides, glossaries, comparisons | Long-term traffic, backlinks, authority | High — compounds over time |
-
-### SEO-Driven vs Non-SEO-Driven
-
-- **SEO-driven**: How-to guides, listicles, comparisons, pillar content. Target keywords, optimize structure, invest in GEO. Goal: organic traffic.
-- **Non-SEO-driven**: Funding announcements, product updates, company news. Goal: brand, PR, existing audience. Don't expect rankings; focus on clarity, shareability, and internal linking to SEO content.
-- **Hybrid**: Product launch posts can include SEO-friendly sections (e.g., "How to use [feature]" with keyword targeting) while the main goal remains announcement.
-
-### Evergreen vs Timely Content
-
-| Attribute | Evergreen | Timely |
-|-----------|-----------|--------|
-| **Relevance** | Year-round; foundational topics | Weeks to months; trends, news, seasonal |
-| **Traffic** | Steady, compounds over time | Spikes then decline |
-| **Examples** | "How to write a business plan," "Best SEO strategies" | Holiday guides, trending microtrends, breaking news |
-| **Maintenance** | Refresh every 6–12 months; update stats | Often one-and-done; may archive or redirect |
-| **Schema** | `Article` or `BlogPosting` | `NewsArticle` for time-sensitive news |
-
-**Recommended mix**: 70/30 or 60/40 **evergreen-to-timely**. Too much evergreen = blog feels outdated; too much timely = irregular traffic, constant churn. Use timely content to link into evergreen pillar articles.
-
-**Date display**: For timely content, `datePublished` matters more; for evergreen, prefer `dateModified` when visible (see Date Display below).
-
-## Competitor Article Analysis
-
-Performed as part of **Research Phase** (see above). When competitor articles are obtained:
-
-1. **Obtain articles**: URLs from user or product context (Section 11), or search web for `"[keyword]"` to find top-ranking pages (default for analysis)
-2. **Fetch content**: mcp_web_fetch, WebSearch, or user-provided text
-3. **Analyze**: Content Analysis dimensions + word count, H2 structure, keyword placement, content gaps, CTA, schema
-4. **Output**: In Research Phase (Section 0) + add to Recommendations — structure to adopt, sections to add, length target, keyword opportunities, content gaps to fill
+**Intent Analysis output**: Orientation, primary goal, SEO vs non-SEO, Evergreen vs timely — see Output Format Section 1.
 
 ## Article Page Structure
 
 | Section | Purpose |
 |---------|---------|
-| **Hero/Header** | Title (H1), author, **single date** (see Date Display below), **reading time** (word count ÷ 200; round up), featured image, **share buttons** |
-| **TL;DR or Key Takeaways** | Choose one: **TL;DR** = 50–100 word bold summary paragraph; **Key Takeaways** = 5–7 bullet points; placed after intro; supports GEO/AI citation |
-| **Introduction** | 40–120 words; hook in first 1–2 sentences (pain point, stat, or question); primary keyword in first 100 words; readers decide in ~8 seconds |
-| **Body** | H2–H3 hierarchy; QAE pattern (see GEO below); scannable (lists, short paragraphs 40–80 words, visuals) |
-| **Conclusion** | Summary, CTA (newsletter, related content, **product** — link to product/feature when relevant) |
+| **Hero/Header** | Title (H1), author, **single date** (see **schema-markup** Date display for CTR), **reading time** (word count ÷ 200; round up), featured image, **share buttons** |
+| **TL;DR or Key Takeaways** | See **article-content** for content; placed after intro; supports GEO/AI citation |
+| **Introduction** | See **article-content** for hook, length, keyword placement |
+| **Body** | See **article-content** for QAE, paragraph length, scannability |
+| **Conclusion** | See **article-content** for summary, CTA, product connection |
 | **Related posts** | 3–6 contextual links; end-of-article recommendations |
 | **Author bio** | E-E-A-T; credentials, photo, link to author page — see **eeat-signals** |
 
 ### Featured Image
 
-The hero image displayed at the top of the article. Same image typically used for Schema, Open Graph, and Twitter Cards.
-
-| Attribute | Guideline |
-|-----------|-----------|
-| **Dimensions** | 1200–1600px wide; proportional height; 1200×630px for social (og:image) |
-| **File size** | Under 200 KB; compress (WebP preferred) |
-| **Format** | WebP, JPEG, PNG; avoid oversized originals |
-| **Alt text** | Descriptive; include keyword when natural; accessibility + Google Images |
-| **File name** | Descriptive (e.g. `seo-checklist-2025.webp`); keyword when natural |
-| **Relevance** | Must align with article topic; articles with relevant images get ~94% more views |
-| **LCP** | Set `width` and `height` attributes to prevent CLS; use `srcset`/`sizes` for responsive |
-
-Schema and Open Graph require the same image (min 1200px wide, absolute URL). See **open-graph**, **twitter-cards**.
+See **image-optimization** (Article / Blog hero). Same image for Schema, Open Graph, Twitter Cards; min 1200px wide, absolute URL. See **open-graph**, **twitter-cards**.
 
 ### Social Sharing
 
@@ -170,28 +96,9 @@ Schema and Open Graph require the same image (min 1200px wide, absolute URL). Se
 - Place after intro and/or end of article; sticky sidebar for long-form
 - Requires **Open Graph** and **Twitter Cards** for rich previews when shared
 
-### GEO / AI Optimization (Generative Engine Optimization)
+### GEO / AI Optimization
 
-Optimize for AI citation (ChatGPT, Perplexity, Google AI Overviews). Content structured for GEO is cited ~35% more frequently.
-
-| Element | Guideline |
-|---------|-----------|
-| **TL;DR or Key Takeaways** | Choose one: **TL;DR** = 50–100 word summary paragraph; **Key Takeaways** = 5–7 bullet points; placed after intro; supports GEO |
-| **QAE pattern** | Question (H2) → Answer (2 sentences) → Evidence (data, examples, lists) |
-| **Answer-first** | Direct answer in first 40–60 words after each H2 |
-| **Answer blocks** | 100–200 words per section; direct answer + context + evidence + nuance |
-| **Structured formats** | Lists, tables, numbered steps increase citation rate |
-
-See **generative-engine-optimization** for full GEO strategy.
-
-### Paragraph Length & Content
-
-| Element | Guideline |
-|---------|-----------|
-| **Paragraph length** | 2–4 sentences; 40–80 words per paragraph; avoid walls of text |
-| **Break long blocks** | Use lists, subheadings (H3), images, callout boxes every 2–3 paragraphs |
-| **Answer blocks** | 100–200 words per H2 section; direct answer + context + evidence |
-| **Scannability** | Short sentences; one idea per paragraph; **front-load** key info (F-pattern: readers scan top, then left); **bold** key phrases for Featured Snippets; see **featured-snippet** |
+See **article-content** for TL;DR, Key Takeaways, QAE pattern, answer-first; **generative-engine-optimization** for full GEO strategy.
 
 ### Long-Form (1,000+ words)
 
@@ -218,10 +125,7 @@ See **generative-engine-optimization** for full GEO strategy.
 
 ### Content Quality
 
-- **Readability**: Grade 8–10 (Flesch-Kincaid); short sentences, clear language
-- **Depth**: 2,500+ words for pillar content; 1,000+ for cluster articles
-- **Originality**: Unique angle, data, examples; avoid thin or rehashed content
-- **E-E-A-T**: Author bio, citations, changelog, expert quotes — see **eeat-signals** for full guidance
+See **article-content** for readability, depth, originality, word count by type. **E-E-A-T**: Author bio, citations, changelog, expert quotes — see **eeat-signals**.
 
 ### Common Mistakes to Avoid
 
@@ -237,55 +141,13 @@ Use **url-slug-generator** for slug creation. Key rules:
 - **Example**: `/blog/ai-people-search` not `/blog/ai-search-engine-finding-people-speed-discovery-outreach`
 - **Avoid**: Date in path (`/blog/2025/01/15/article-title`); copy-pasting full title
 
-### Date Display (Critical for CTR)
+### Date Display
 
-**Google recommends**: Minimize the presence of other dates on the page. If both `datePublished` and `dateModified` are shown, Google may pick the wrong date for SERP display.
+See **schema-markup** (Date display for CTR): show only one visible date; prefer dateModified.
 
-- **Search Engine Land case**: A site showing both dates saw **22% CTR drop** — Google chose the outdated date.
-- **Best practice**: Show **only one date** on the page — prefer `dateModified` if it exists, otherwise `datePublished`.
-- **Schema**: Keep both `datePublished` and `dateModified` in JSON-LD; the rule applies to **visible** date only.
+## Schema & Open Graph
 
-## Schema (Article / BlogPosting / NewsArticle)
-
-Choose the **most specific** type that matches content:
-
-| Type | Use case |
-|------|----------|
-| **BlogPosting** | Informal blog posts; individual authors; regularly updated |
-| **Article** | Formal, evergreen content; tool intros; encyclopedic |
-| **NewsArticle** | Time-sensitive news; recognized publishers |
-
-### Required Properties
-
-- **headline** (max 110 chars; often = H1)
-- **image** (min 1200px wide; absolute URL)
-- **datePublished** (ISO 8601)
-- **author** (Person or Organization)
-- **publisher** (Organization with logo)
-
-### Recommended Properties
-
-- **dateModified** — signals freshness
-- **description** — brief summary
-- **mainEntityOfPage** — canonical URL
-
-### JSON-LD Example
-
-```json
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "The Ultimate SEO Checklist for 2025",
-  "description": "A complete guide to optimizing blog posts for search and AI.",
-  "image": "https://example.com/image.jpg",
-  "datePublished": "2025-01-15T09:00:00Z",
-  "dateModified": "2025-02-01T14:30:00Z",
-  "author": { "@type": "Person", "name": "Jane Doe", "url": "https://example.com/author/jane" },
-  "publisher": { "@type": "Organization", "name": "Example", "logo": { "@type": "ImageObject", "url": "https://example.com/logo.png" } }
-}
-```
-
-Place in `<head>` via `<script type="application/ld+json">`. Validate with [Rich Results Test](https://search.google.com/test/rich-results).
+See **schema-markup** for Article/BlogPosting/NewsArticle type selection, required properties, JSON-LD example, and date display. Validate with [Rich Results Test](https://search.google.com/test/rich-results).
 
 ## Open Graph for Articles
 
@@ -322,17 +184,11 @@ Use `og:type: article` for article pages (not `website`):
 
 ## References / Citations
 
-| Scenario | Recommendation |
-|----------|----------------|
-| **Data or statistics** | Cite source inline (e.g. "According to [Source](url), 72% of…") or in a References section |
-| **Expert quotes** | Attribute; link to source or profile |
-| **Reference section** | For pillar/evergreen content with 5+ citations; list at end before Related posts |
-| **Format** | Inline links preferred; numbered refs (e.g. [1], [2]) for academic-style pieces |
-| **When to include** | Any claim that benefits from authority (stats, studies, definitions); strengthens E-E-A-T — see **eeat-signals** |
+See **article-content** for citation format; **eeat-signals** for E-E-A-T and when to include.
 
 ## AI-Assisted Content
 
-When content is AI-assisted: **human review** before publish; **verify facts** and add citations; **original insights** or data; avoid generic phrasing. See **eeat-signals** for E-E-A-T and AI content guidance.
+See **article-content** for AI-assisted content guidance; **eeat-signals** for E-E-A-T.
 
 ## Technical
 
@@ -349,23 +205,7 @@ When content is AI-assisted: **human review** before publish; **verify facts** a
 
 ## Content Analysis
 
-When auditing or optimizing an article, analyze content (beyond structure):
-
-| Dimension | What to check |
-|-----------|---------------|
-| **Hook** | Intro opens with pain point, stat, or question? |
-| **Keyword in first 100 words** | Primary keyword present? |
-| **QAE pattern** | H2s as questions? Answer-first (40–60 words) in each section? |
-| **Word count** | Matches type? (300–600 news, 1,000–2,500 cluster, 2,500+ pillar) |
-| **Paragraph length** | 40–80 words per paragraph? No walls of text? |
-| **Multimedia** | Images, tables, lists, stats; alt text; scannability |
-| **Product connection** | Ties to product? Natural links to features/pricing? |
-| **CTA** | Placement (conclusion, mid-article); clarity; product link |
-| **Internal links** | 3–5 in body + 3–6 Related? Descriptive anchor text? No "click here"? |
-| **Outbound links** | 2–5 external links? Authoritative sources? Descriptive anchors? |
-| **References** | Data/stats cited? Reference section for 5+ citations? E-E-A-T signal? |
-| **Data/evidence** | Original data, citations, examples; avoid thin content |
-| **Gaps** | What do top-ranking articles cover that this misses? |
+When auditing or optimizing an article, apply the Content Audit Checklist. See **article-content** for full dimensions.
 
 ## Output Format
 
@@ -408,10 +248,9 @@ Assign **priority** to each item: **P0** (critical), **P1** (high), **P2** (medi
 
 Example: `[P0] Add TL;DR or Key Takeaways — GEO, AI citation`
 
-- **Product connection** (how article supports product; where to link)
+- **Product connection** (how article supports product; where to link) — see **article-content**
 - **Keyword** (target from product context or keyword research)
-- **Structure** for article template (hero, TL;DR or Key Takeaways, intro, body, conclusion, related, author)
-- **Paragraph length** (40–80 words; break with lists, H3s; 100–200 words per H2 section)
+- **Structure** for article template (hero, TL;DR or Key Takeaways, intro, body, conclusion, related, author) — content creation: **article-content**
 - **Featured image** (dimensions, alt, file size, og:image alignment)
 - **GEO** elements (TL;DR or Key Takeaways, QAE pattern) — *skip or minimal for non-SEO-driven*
 - **SEO** checklist (title, meta, H1, keyword placement) — *skip or minimal for non-SEO-driven*
@@ -423,14 +262,15 @@ Example: `[P0] Add TL;DR or Key Takeaways — GEO, AI citation`
 
 ## Related Skills
 
-- **content-marketing**: Content types, formats, repurposing; articles as one format
+- **article-content**: Article body creation; intro, body, conclusion; writing frameworks; Content Audit Checklist
 - **eeat-signals**: E-E-A-T; author bio, citations, YMYL
 - **competitor-research**: Content gaps, structure, length target
 - **blog-page-generator**: Blog index/listing; article pages live within blog
 - **keyword-research**: Keyword basis for articles
 - **schema-markup**: Article/BlogPosting/NewsArticle schema
 - **heading-structure**: H1–H6 structure for article body
-- **content-optimization**: Word count, H2 keywords, tables, lists, multimedia
+- **content-optimization**: H2 keywords, tables, lists, multimedia; word count for articles → **article-content**
+- **image-optimization**: Article hero/featured image specs
 - **internal-links**: Related posts, contextual links
 - **open-graph, twitter-cards**: Social previews for articles
 - **generative-engine-optimization**: GEO strategy; AI citation optimization

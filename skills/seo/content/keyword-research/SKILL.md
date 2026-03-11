@@ -2,7 +2,7 @@
 name: keyword-research
 description: When the user wants to research keywords, find target keywords, or analyze search intent. Also use when the user mentions "keyword research," "keyword tool," "target keywords," "search volume," "search intent," "keyword difficulty," "topical map," "keyword clustering," or "People Also Ask."
 metadata:
-  version: 1.2.0
+  version: 1.3.0
 ---
 
 # SEO Content: Keyword Research
@@ -31,6 +31,7 @@ Identify:
 | **Tool expansion** | Related keywords, questions, suggestions; Google autocomplete, PAA, Related Searches |
 | **Competitor reverse** | Analyze competitor titles, H1, URL; identify topics they rank for; find gaps (#4–10 = opportunity) — see **competitor-research** |
 | **Google PAA** | People Also Ask and Related Searches; high-value signals from real user behavior |
+| **Extract from article** | When auditing existing content: extract seed keywords from title, H1, H2s, meta keywords, first 100 words; then search `"[primary keyword]"` or `"[primary keyword] related keywords"` for opportunities; use `"[primary keyword]" site:competitor.com` if competitors known |
 
 ### Incremental Discovery
 

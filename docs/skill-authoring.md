@@ -26,6 +26,8 @@ Agent Skills are reusable capability packages that provide **procedural knowledg
 
 **Skills vs plain Markdown**: Skills add AI-oriented conventions: each skill is a directory with `SKILL.md`, YAML frontmatter (`name`, `description`) required, `description` used for discovery and routing. Agents load metadata at startup, full content on activation. Plain Markdown has no such structure and doesn't participate in agent discovery.
 
+**SkillsBench** ([2025](https://arxiv.org/abs/2602.12670), *for reference only — one paper's findings*): Human-curated skills yield +16.2pp task success; AI-generated skills degrade performance (−1.3pp). Detailed, step-focused format outperforms exhaustive long docs (+18.8pp vs −2.9pp). Vertical domains (e.g. marketing, SEO) benefit most from skills.
+
 ---
 
 ## 2. Directory Structure
@@ -63,17 +65,46 @@ skills/
 │   ├── local/            # Local SEO (GBP, NAP, citations)
 │   ├── parasite-seo/     # Parasite SEO (high-authority platforms)
 │   └── programmatic-seo/ # Programmatic SEO (template + data at scale)
-├── content/               # Cross-channel content (copywriting, video)
-├── paid-ads/              # Paid advertising (by platform/medium)
+├── content/               # Cross-channel content (copywriting, video, podcast)
+├── paid-ads/              # Paid advertising
+│   ├── platforms/        # Google, Meta, LinkedIn, TikTok, Reddit, YouTube
+│   └── formats/          # App, CTV, display, native, directory-listing
 ├── pages/                # Page types
 ├── components/           # UI components
 ├── channels/             # Acquisition channels
+│   ├── partnerships/     # affiliate-marketing, referral-program, influencer-marketing, creator-program, education-program, public-relations
+│   ├── community/        # community-forum, directory-submission, product-hunt-launch
+│   ├── owned/            # employee-generated-content, email-marketing
+│   └── distribution/     # distribution-channels
 ├── platforms/            # Publishing platforms
-├── strategies/           # Cross-cutting strategies
+├── strategies/            # Cross-cutting strategies
+│   ├── launch/           # GTM, cold-start, PMF, indie-hacker, growth, retention, conversion, research
+│   ├── brand/            # Branding, rebranding, brand-protection, content-marketing, integrated
+│   ├── commercial/       # Domain, pricing, GEO, localization, paid-ads
+│   └── structure/        # SEO strategy, seo-audit, website-structure
 └── analytics/            # Traffic, tracking, seo-monitoring
+    ├── sources/          # Traffic, AI traffic
+    ├── seo/              # SEO monitoring, Search Console
+    └── tracking/         # GA4, event tracking
 ```
 
 The CLI supports **recursive discovery**; `SKILL.md` files in nested directories are found automatically.
+
+### 2.4 Folder Name vs Skill Name
+
+**Channels, Platforms (multi-use), Analytics**: Folder name = skill `name` field. Example: `affiliate-marketing/` → `affiliate-marketing`; `github/` → `github`.
+
+**Components, Pages, Strategies**: Folder = base concept; skill name adds suffix for function clarity. Folder and name may differ by design.
+
+| Category | Folder | Skill name | Rationale |
+|----------|--------|------------|-----------|
+| **Components** | Base component (breadcrumb, logo, hero) | `[component]-generator` | `-generator` signals output capability |
+| **Pages** | Page type (home, pricing, landing-page) | `[type]-page-generator` | `-page-generator` signals page output |
+| **Strategies** | Topic (geo, cold-start, indie-hacker) | `[topic]` or `[topic]-strategy` | Folder = subject; name = full strategy identifier |
+| **Channels** | = skill name | = folder | Full consistency |
+| **Platforms** | = skill name | = folder | Multi-use platforms (e.g. github) use platform name only |
+
+**Platforms naming**: Multi-use platforms (GitHub: SEO, GEO, parasite, open source) → `[platform]` (e.g. `github`). Single-primary-use platforms → `[platform]-[use]` (e.g. `youtube-seo`, `linkedin-posts`).
 
 ---
 
@@ -114,6 +145,8 @@ description: A description of what this skill does and when to use it.
 | Analytics | `[metric]-[action]` or tool name | traffic-analysis, google-search-console |
 
 **Names to avoid**: Too generic (`helper`, `utils`, `tools`); vague (`seo` — prefer specific, e.g. `schema-markup`); abbreviations unclear to new users (`egc`, `geo`).
+
+**Channel naming (partnerships)**: Use `-marketing` for disciplines (affiliate-marketing, influencer-marketing, public-relations); use `-program` for run initiatives (referral-program, creator-program, education-program). Prefer full terms over abbreviations (public-relations vs pr).
 
 ### 3.3 description Field Rules
 
@@ -237,7 +270,23 @@ Before creating or modifying a skill, verify:
 
 ---
 
-## 9. Reference Links
+## 9. SkillsBench Reference (Informational)
+
+*For reference only — one paper's findings; not authoritative.*
+
+[SkillsBench](https://skillsbench.ai) ([arXiv:2602.12670](https://arxiv.org/abs/2602.12670), [GitHub](https://github.com/benchflow-ai/skillsbench)) reports:
+
+- **2–3 skills per task** — performance sweet spot; 4+ skills cause context overload.
+- **Detailed > Comprehensive** — step-focused, actionable content outperforms exhaustive long docs.
+- **Human-curated > AI-generated** — avoid AI batch-generation; quality over quantity.
+- **Vertical domains** — marketing, SEO benefit most (weak pretraining coverage).
+- **Small model + Skills** — can outperform large model without skills (cost/quality tradeoff).
+
+Use as heuristics; your mileage may vary.
+
+---
+
+## 10. Reference Links
 
 | Resource | URL |
 |----------|-----|
@@ -246,3 +295,4 @@ Before creating or modifying a skill, verify:
 | Agent Skills Specification | https://agentskills.io/specification |
 | skills.sh | https://skills.sh |
 | Vercel skills CLI | https://github.com/vercel-labs/skills |
+| SkillsBench | [skillsbench.ai](https://skillsbench.ai) · [arXiv:2602.12670](https://arxiv.org/abs/2602.12670) · [GitHub](https://github.com/benchflow-ai/skillsbench) |

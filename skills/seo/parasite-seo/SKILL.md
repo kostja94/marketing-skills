@@ -1,6 +1,6 @@
 ---
 name: parasite-seo
-description: When the user wants to leverage high-authority platforms for rankings or backlinks. Also use when the user mentions "parasite SEO," "parasitic SEO," "barnacle SEO," "hosted content," "third-party publishing," "Medium SEO," "Reddit SEO," "GitHub parasite SEO," "LinkedIn Pulse SEO," "high-authority platforms," "distributed authority," "borrow domain authority," or "rank without own website." For GitHub specifics, use github-seo.
+description: When the user wants to leverage high-authority platforms for rankings or backlinks. Also use when the user mentions "parasite SEO," "parasitic SEO," "barnacle SEO," "hosted content," "third-party publishing," "Medium SEO," "Reddit SEO," "GitHub parasite SEO," "LinkedIn Pulse SEO," "high-authority platforms," "distributed authority," "borrow domain authority," or "rank without own website." For GitHub specifics, use github.
 metadata:
   version: 1.0.0
 ---
@@ -48,7 +48,7 @@ Instead of waiting months for your own domain to gain trust, you publish on esta
 | **Reddit** | Product reviews, alternatives, discussions | Comprehensive guides; upvoted threads rank well |
 | **Quora** | Q&A, long-tail informational | Answer industry questions; link to resources naturally |
 | **YouTube** | Video search, how-to, reviews | Titles, descriptions, tags; watch time matters |
-| **GitHub** | Repos, README, Pages, gists, awesome lists | Tier 2 technical authority; very high AI citation; see **github-seo** |
+| **GitHub** | Repos, README, Pages, gists, awesome lists | Tier 2 technical authority; very high AI citation; see **github** |
 | **Grokipedia** | AI encyclopedia | See **grokipedia-recommendations** for contribution flow |
 | **Free web builders** | WordPress.com, Wix | Indexable content; lower authority than above |
 
@@ -115,7 +115,7 @@ Instead of waiting months for your own domain to gain trust, you publish on esta
 
 ## Related Skills
 
-- **github-seo**: GitHub for parasite SEO; repos, README, Pages, gists, awesome lists
+- **github**: GitHub for parasite SEO; repos, README, Pages, gists, awesome lists
 - **grokipedia-recommendations**: Add recommendations/links to Grokipedia; parasite SEO + GEO
 - **reddit-posts**: Reddit post copy; high-authority community for parasite SEO
 - **medium-posts**: Medium publishing; parasite SEO; canonical setup

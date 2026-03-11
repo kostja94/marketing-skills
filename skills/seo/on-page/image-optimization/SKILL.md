@@ -2,7 +2,7 @@
 name: image-optimization
 description: When the user wants to optimize images for search engines and performance. Also use when the user mentions "image SEO," "alt text," "image captions," "figcaption," "image optimization," "WebP," "lazy loading," "LCP," "image sitemap," "responsive images," "srcset," "image format," or "hero image optimization."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # SEO On-Page: Image Optimization
@@ -224,6 +224,7 @@ Add structured data for rich results in Google Images (badges, extra info). Imag
 | Context | Priority | Notes |
 |---------|----------|-------|
 | **Hero** | LCP, alt, no lazy | See **hero-generator**; above-fold, fast load |
+| **Article / Blog hero** | 1200–1600px wide; proportional height; 1200×630 for og:image | Same image for Schema, Open Graph, Twitter Cards; under 200 KB; WebP preferred; descriptive alt; set width/height to prevent CLS; use srcset/sizes for responsive; articles with relevant images get ~94% more views |
 | **Trust badges** | Alt text | See **trust-badges-generator**; e.g. "Norton Secured" |
 | **Landing page** | All above | See **landing-page-generator** Pre-Delivery Checklist |
 | **OG / Twitter** | 1200×630, 1200×675 | See **open-graph**, **twitter-cards** |

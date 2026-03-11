@@ -256,7 +256,7 @@ Field-tested examples: a marketer's site was successfully cited as a source via 
 ## Related Skills
 
 - **parasite-seo**: Parasite SEO strategy; Grokipedia as high-authority platform
-- **github-seo**: GitHub as alternative high-authority platform; repos, awesome lists
+- **github**: GitHub as alternative high-authority platform; repos, awesome lists
 - **generative-engine-optimization**: GEO strategy, AI citation, distributed authority
 - **link-building**: Link acquisition; Grokipedia as potential citation source
 - **directory-submission**: Same output pattern—platform context first (Introduction, Importance, Methods, Rules, Avoid), then Action; directory submission for backlinks and human discovery; Grokipedia for AI citation—different placement, complementary

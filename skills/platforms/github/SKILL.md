@@ -1,6 +1,6 @@
 ---
-name: github-seo
-description: When the user wants to use GitHub for SEO, parasite SEO, GEO, or create curated lists. Also use when the user mentions "GitHub SEO," "GitHub parasite SEO," "GitHub GEO," "awesome list," "GitHub README," "repository name," "About section," "GitHub description," "GitHub topics," "GitHub Pages," "GitHub gist," "curated list," or "navigation list."
+name: github
+description: When the user wants to use GitHub for SEO, parasite SEO, GEO, open source marketing, or create curated lists. Also use when the user mentions "GitHub," "GitHub SEO," "GitHub parasite SEO," "GitHub GEO," "awesome list," "GitHub README," "repository name," "About section," "GitHub description," "GitHub topics," "GitHub Pages," "GitHub gist," "curated list," or "navigation list."
 metadata:
   version: 1.1.0
 ---
@@ -216,6 +216,7 @@ Guides GitHub for parasite SEO, GEO (AI citation), and curated list creation. Gi
 
 - **parasite-seo**: Parasite SEO strategy; GitHub as Tier 2 technical platform
 - **generative-engine-optimization**: GEO strategy; GitHub for AI citation
+- **open-source-strategy**: Open source commercialization; GitHub as primary distribution
 - **directory-submission**: Directory and curated list submission; awesome lists as curated lists
 - **link-building**: GitHub as link acquisition; repos, gists, awesome lists
 - **entity-seo**: Entity signals (project, author); Organization, Person

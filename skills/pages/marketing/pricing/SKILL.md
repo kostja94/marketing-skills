@@ -83,6 +83,11 @@ Identify:
 - **Price display**: Monthly vs annual; show savings explicitly
 - **Comparison**: Help user choose (quiz, comparison table)
 
+### Usage-Based & Credits
+
+- **Consumption visibility**: Show credits/usage clearly; avoid "bill shock" from opaque consumption
+- **Wording**: Avoid vague "Unlimited" if soft limits exist; use "Extended" or state limits explicitly
+
 ### Enterprise & API Pricing
 
 | Scenario | Use |

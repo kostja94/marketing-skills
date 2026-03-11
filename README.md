@@ -13,11 +13,11 @@ Markdown skill library for AI agents — SEO, content, pages, paid ads, channels
 ## Quick Start
 
 ```bash
+# Install specific skills (recommended — 2–3 per task; SkillsBench ref, one paper)
+npx skills add kostja94/marketing-skills --skill robots-txt title-tag meta-description
+
 # Install all skills
 npx skills add kostja94/marketing-skills
-
-# Install specific skills
-npx skills add kostja94/marketing-skills --skill robots-txt title-tag meta-description pricing-page-generator
 
 # List available
 npx skills add kostja94/marketing-skills --list
@@ -32,6 +32,8 @@ npx skills add kostja94/marketing-skills --list
 ## What are Skills?
 
 Skills are **markdown files** that give AI agents focused knowledge and workflows. Add them to your project; the agent picks the right skill from your prompt and applies SEO, content, and marketing best practices.
+
+**SkillsBench** ([2025](https://arxiv.org/abs/2602.12670), *for reference only — one paper's findings*): Human-curated skills yield +16.2pp task success; vertical domains (e.g. marketing, SEO) benefit most.
 
 **Skills = for agents.** Human guides → [Alignify](https://alignify.co/).
 
@@ -79,7 +81,7 @@ Ask your agent — it picks the right skill. Examples:
 | "Keyword research" / "Content strategy" / "Link building" | keyword-research, content-strategy, link-building |
 | "Create pricing page" / "Homepage" / "Landing page" / "FAQ" | pricing-page-generator, homepage-generator, landing-page-generator, faq-page-generator |
 | "Cold start" / "Product Hunt" / "Directory submission" | cold-start-strategy, directory-submission |
-| "Indie hacker" / "PMF" / "Parasite SEO" / "GitHub SEO" | indie-hacker-strategy, pmf-strategy, parasite-seo, github-seo |
+| "Indie hacker" / "PMF" / "Parasite SEO" / "GitHub SEO" | indie-hacker-strategy, pmf-strategy, parasite-seo, github |
 | "GA4 tracking" / "Search Console" / "AI traffic" | analytics-tracking, google-search-console, ai-traffic-tracking |
 
 [Full prompt → skill mapping](docs/usage.md)
@@ -114,7 +116,7 @@ Ask your agent — it picks the right skill. Examples:
 | **Components** | Nav, breadcrumb, footer, hero, CTA, logo, testimonials, etc. |
 | **Channels** | Affiliate, email, influencer, referral, directories, PR |
 | **Platforms** | X, Reddit, LinkedIn, TikTok, YouTube, Medium, GitHub, Grokipedia |
-| **Strategies** | SEO, cold-start, GEO, branding, content-marketing, GTM, PMF, etc. |
+| **Strategies** | launch · brand · commercial · structure (SEO, cold-start, GEO, branding, GTM, PMF, pricing, domain, etc.) |
 | **Analytics** | Traffic, tracking, Search Console, AI traffic |
 
 **Workflow**: Technical SEO → On-Page → Content → Off-Page. **seo-strategy** orchestrates. Each skill has **Related Skills**; say "skip intro" or "just do it" for repeat tasks. [Dependency maps](docs/skills-reference.md#3-how-skills-work-together)

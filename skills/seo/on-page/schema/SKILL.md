@@ -2,7 +2,7 @@
 name: schema-markup
 description: When the user wants to add or optimize structured data (Schema.org, JSON-LD). Also use when the user mentions "schema," "structured data," "JSON-LD," "rich results," "rich snippets," "Google rich snippets," "featured snippet schema," "add schema to page," "missing structured data," "schema validation error," "Schema Markup Validator," "Google Rich Results Test," "FAQ schema," "Article schema," "Organization schema," "JobPosting," "HowTo," "Event," "SoftwareApplication," "BreadcrumbList," "WebSite," "Recipe," "Product," "Dataset," or "GEO."
 metadata:
-  version: 1.0.0
+  version: 1.2.0
 ---
 
 # SEO On-Page: Schema / Structured Data
@@ -140,6 +140,67 @@ Identify:
 
 **Output**: When recommending schema, state: (1) which exclusive types fit the site/product, (2) which page types get which schema, (3) core types to add site-wide (Organization, WebSite, BreadcrumbList).
 
+### Article / BlogPosting / NewsArticle: Type Selection & Implementation
+
+Choose the **most specific** type that matches content:
+
+| Type | Use case |
+|------|----------|
+| **BlogPosting** | Informal blog posts; individual authors; regularly updated |
+| **Article** | Formal, evergreen content; tool intros; encyclopedic |
+| **NewsArticle** | Time-sensitive news; recognized publishers |
+
+**Required properties**: headline (max 110 chars), image (min 1200px wide; absolute URL), datePublished (ISO 8601), author (Person or Organization), publisher (Organization with logo).
+
+**Recommended**: dateModified, description, mainEntityOfPage (canonical URL).
+
+**Date display for CTR**: Google recommends showing **only one date** on the page. If both datePublished and dateModified are visible, Google may pick the wrong date for SERP display—Search Engine Land saw ~22% CTR drop. Best practice: show dateModified if it exists, otherwise datePublished. Keep both in JSON-LD; the rule applies to **visible** date only.
+
+**JSON-LD example** (BlogPosting):
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The Ultimate SEO Checklist for 2025",
+  "description": "A complete guide to optimizing blog posts for search and AI.",
+  "image": "https://example.com/image.jpg",
+  "datePublished": "2025-01-15T09:00:00Z",
+  "dateModified": "2025-02-01T14:30:00Z",
+  "author": { "@type": "Person", "name": "Jane Doe", "url": "https://example.com/author/jane" },
+  "publisher": { "@type": "Organization", "name": "Example", "logo": { "@type": "ImageObject", "url": "https://example.com/logo.png" } }
+}
+```
+
+Place in `<head>` via `<script type="application/ld+json">`. For article pages, use `og:type: article` with og:article:published_time, og:article:modified_time, og:article:author. See **article-page-generator**, **open-graph**.
+
+### BreadcrumbList
+
+For breadcrumb navigation. Schema must match visible breadcrumbs exactly. See **breadcrumb-generator** for UI, placement, and semantic HTML.
+
+| Requirement | Guideline |
+|-------------|-----------|
+| **Format** | JSON-LD in `<script type="application/ld+json">` |
+| **URLs** | Absolute URLs with https:// for each item |
+| **Position** | Sequential integers starting from 1 |
+| **Match** | Schema must match visible breadcrumbs exactly |
+
+**JSON-LD example**:
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://example.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Category", "item": "https://example.com/category/" },
+    { "@type": "ListItem", "position": 3, "name": "Current Page", "item": "https://example.com/category/current-page/" }
+  ]
+}
+```
+
+**Multiple paths**: Google supports multiple BreadcrumbList objects on the same page when a page is reachable via multiple paths (e.g., product in multiple categories). Use an array of BreadcrumbList objects.
+
 ## Best Practices
 
 | Principle | Guideline |
@@ -237,6 +298,7 @@ export const metadata = {
 
 ## Related Skills
 
+- **article-page-generator**: Article structure; Article/BlogPosting/NewsArticle schema; date display
 - **serp-features**: **Strongly related**—schema maps to SERP features; see mapping table above
 - **faq-page-generator**: FAQPage schema; FAQ content structure
 - **breadcrumb-generator**: BreadcrumbList schema implementation

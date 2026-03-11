@@ -106,12 +106,12 @@ Identify:
 
 - **Text overlay**: Keep minimal; many platforms deprecate text-heavy images
 - **Branding**: Logo in corner; consistent with **brand-visual-generator**
-- **Alt text**: Add for LinkedIn, Pinterest, X (accessibility + Pinterest SEO)
+- **Alt text**: Add for LinkedIn, Pinterest, X (accessibility + Pinterest SEO); see **image-optimization** for alt best practices
 
 ### Article / Blog Images
 
 - **Hero**: Often LCP candidate; optimize per **image-optimization**
-- **In-article**: Support narrative; alt text descriptive
+- **In-article**: Support narrative; alt text, captions per **image-optimization**
 - **Screenshots**: Annotate when helpful; keep file size low
 
 ---
@@ -140,7 +140,7 @@ Identify:
 
 ### Website & SEO
 
-- **image-optimization**: Web images (alt, WebP, LCP, responsive)
+- **image-optimization**: Web images (alt, captions, WebP, LCP, responsive); central skill for image SEO
 - **open-graph, twitter-cards**: Link preview images
 - **hero-generator**: Hero section visuals
 
@@ -148,4 +148,4 @@ Identify:
 
 - **brand-visual-generator**: Typography, colors, imagery tone; visual consistency
 - **video-marketing**: Video thumbnails; video as visual format
-- **customer-stories-page-generator**: Case study visuals
+- **video-optimization**: Video SEO; VideoObject; video sitemap; YouTube prioritization

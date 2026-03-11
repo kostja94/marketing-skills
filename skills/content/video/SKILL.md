@@ -80,4 +80,5 @@ Achieves 70%+ completion for algorithmic boost. Frameworks: Hook-Value-CTA, AIDA
 - **tiktok-captions**: TikTok caption, video specs, script
 - **tiktok-ads**: TikTok ad creative
 - **content-marketing**: Video as content format; repurposing
-- **youtube**: YouTube SEO, description, thumbnail (platform skill)
+- **youtube-seo**: YouTube SEO, description, thumbnail (platform skill)
+- **video-optimization**: Website video SEO; VideoObject; video sitemap; Google prioritizes YouTube

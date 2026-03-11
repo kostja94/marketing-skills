@@ -129,7 +129,7 @@ List all language sitemaps in sitemap index; include in robots.txt.
 ### Exclude
 
 - `/api/*`, `/admin/*`, `/_next/*`
-- Static assets (images, JS, CSS, etc.). For image discovery, use **image sitemap** extension—see **image-optimization**
+- Static assets (images, JS, CSS, etc.). For image discovery, use **image sitemap** extension—see **image-optimization**. For video discovery, use **video sitemap** extension—see **video-optimization**
 - Login, admin, drafts, and other pages not intended for indexing
 
 ## 6. Data Source & Maintenance (Single Source of Truth)
@@ -217,3 +217,4 @@ With multiple sitemaps, only declare the main index.
 - **robots-txt**: Reference sitemap in robots.txt
 - **indexnow**: Share same URL list from config
 - **image-optimization**: Image sitemap extension for image discovery
+- **video-optimization**: Video sitemap extension for video discovery

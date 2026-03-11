@@ -2,14 +2,14 @@
 
 Contributions are welcome! Here's how to add or improve skills.
 
-**Want to build your own skills from scratch?** Fork this repo — you get 100+ working examples to modify and adapt. See [use-cases-and-roadmap § Fork & Adapt](docs/use-cases-and-roadmap.md#15-want-to-build-your-own-skills--fork--adapt).
+**Want to build your own skills from scratch?** Fork this repo — you get 100+ working examples to modify and adapt. See [usage § Fork & Adapt](docs/usage.md#75-want-to-build-your-own-skills--fork--adapt).
 
 ## Adding a New Skill
 
 1. Create a new directory under the appropriate category:
    - SEO: `skills/seo/{technical,on-page,off-page,content}/skill-name/`
-   - Pages: `skills/pages/{brand,content,marketing,legal,utility}/skill-name/` (see [skills-list §Pages](docs/skills-list.md#pages))
-   - Strategies: `skills/strategies/skill-name/` or `skills/strategies/{domain,pricing}/skill-name/` for domain/pricing topics (see [skills-list §Strategies](docs/skills-list.md#strategies))
+   - Pages: `skills/pages/{brand,content,marketing,legal,utility}/skill-name/` (see [skills-reference §Pages](docs/skills-reference.md#pages--quick-mapping))
+   - Strategies: `skills/strategies/skill-name/` or `skills/strategies/{domain,pricing}/skill-name/` for domain/pricing topics (see [skills-reference §Channels, Platforms, Strategies](docs/skills-reference.md#channels-platforms-strategies-analytics))
 2. Add `SKILL.md` with:
    - YAML frontmatter: `name`, `description`, `metadata.version`
    - Scope section (what the skill covers)
@@ -28,7 +28,7 @@ Contributions are welcome! Here's how to add or improve skills.
 - Platforms: add suffix (e.g. `twitter-x-posts`, `reddit-posts`)
 - No abbreviations: `employee-generated-content` not `egc`; `generative-engine-optimization` not `geo`
 
-**Full rules**: [skills-guide §7](docs/skills-guide.md#7-naming-and-categorization) | [docs/naming-rules.md](docs/naming-rules.md) | [docs/reference-rules.md](docs/reference-rules.md) (references)
+**Full rules**: [skill-authoring §3.2](docs/skill-authoring.md#32-name-field-rules) | [reference-rules](docs/reference-rules.md) (references)
 
 ## Language
 
@@ -41,11 +41,11 @@ Contributions are welcome! Here's how to add or improve skills.
 - Be specific about what the skill does
 - Mention when to use vs. when to use related skills
 
-**Full specification**: [docs/description-rules.md](docs/description-rules.md)
+**Full specification**: [skill-authoring §3.3](docs/skill-authoring.md#33-description-field-rules)
 
 ## Full Specification
 
-See [skills-guide.md](docs/skills-guide.md) for the complete specification, frontmatter rules, and quality checklist.
+See [skill-authoring.md](docs/skill-authoring.md) for the complete specification, frontmatter rules, and quality checklist.
 
 ## Testing
 

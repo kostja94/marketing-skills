@@ -37,7 +37,7 @@ Guides optimization for Featured Snippets (Position Zero)—direct answers displ
 | **Paragraph** | ~70% | Definition, "what is," "why" | 40–60 words; direct answer after H2 |
 | **List** | ~19% | How-to, steps, options | `<ol>` or `<ul>`; semantic HTML |
 | **Table** | ~6% | Comparisons, stats, specs | Clear headers; target keywords in column/row headers |
-| **Video** | Rare | Visual how-to | Video schema; timestamps/chapters; optimize title and description |
+| **Video** | Rare | Visual how-to | Video schema; timestamps/chapters; see **video-optimization** |
 
 **45 words** is the most common paragraph length. Answer-first format is critical. On mobile, featured snippets can occupy ~50% of the screen, pushing competitors below the fold. [Semrush](https://www.semrush.com/blog/featured-snippets/)
 
@@ -66,7 +66,7 @@ Guides optimization for Featured Snippets (Position Zero)—direct answers displ
 ### Visual Elements
 
 - Optimized images near answers can **double CTR** by capturing thumbnail slots
-- Alt text, captions, file names—support image pack and snippet context; see **image-optimization** for full image SEO
+- **Alt text, captions, file names** support Image Pack and snippet thumbnails. See **image-optimization** for captions and full image SEO; **serp-features** for Image Pack context.
 
 ## Query Targeting
 
@@ -123,7 +123,8 @@ Guides optimization for Featured Snippets (Position Zero)—direct answers displ
 - **heading-structure**: H2–H3 hierarchy
 - **generative-engine-optimization**: AI citation; GEO strategy
 - **eeat-signals**: E-E-A-T implementation; authority, trust, author
-- **image-optimization**: Image SEO for snippet thumbnails; alt, captions, file names
+- **image-optimization**: Image SEO for snippet thumbnails; alt, captions, file names; captions support snippet context
+- **video-optimization**: Video snippet format; VideoObject; timestamps/chapters
 
 ## References
 

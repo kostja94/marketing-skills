@@ -15,6 +15,7 @@ Guides canonical tag configuration to consolidate duplicate content and declare 
 
 - **Duplicate site versions**: HTTPS vs HTTP; www vs non-www; trailing slash (/page vs /page/) — choose one, 301 redirect others
 - **Duplicate content**: Canonical tags; consolidate and 301 to preferred URL
+- **HTTPS**: SSL/TLS; secure connection; ranking signal since 2014
 
 ## Initial Assessment
 
@@ -34,6 +35,19 @@ Identify:
 | **robots.txt** | Block non-canonical paths | Weak — advisory only |
 
 Use 301 for HTTP→HTTPS, www variants, trailing slash. Use canonical for params, pagination, UTM.
+
+## HTTPS & Security
+
+HTTPS is a ranking signal ([Google, 2014](https://developers.google.com/search/blog/2014/08/https-as-ranking-signal)). Users and crawlers should access only the HTTPS version.
+
+| Requirement | Action |
+|-------------|--------|
+| **SSL/TLS certificate** | Install valid certificate; use Let's Encrypt for free |
+| **301 redirect** | HTTP → HTTPS; all HTTP requests redirect to HTTPS |
+| **Mixed content** | No HTTP resources on HTTPS pages; fix mixed content warnings |
+| **HSTS** | Optional; `Strict-Transport-Security` header for repeat visitors |
+
+**WWW vs non-WWW**: Choose one preferred version; 301 redirect the other. See canonical rules above.
 
 ## When to Use Canonical
 
@@ -107,3 +121,4 @@ return 301 https://$host$request_uri;
 - **indexnow**: Submit canonical URLs
 - **google-search-console**: Find duplicate content in Coverage report
 - **indexing**: Resolve indexing issues
+- **site-crawlability**: Crawl budget; redirect chains; canonical reduces duplicate crawl waste

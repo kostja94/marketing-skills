@@ -62,7 +62,7 @@ Identify:
 - **Self-contained**: Each answer readable alone (GEO: AI cites discrete blocks)
 - **Conversational**: Human-friendly; no jargon
 - **Complete**: No need for follow-up to understand
-- **Entity signals**: Clear brand/product names for GEO citation
+- **Entity signals**: Clear brand/product names for GEO citation; see **entity-seo**
 
 ### Organization
 
@@ -106,3 +106,4 @@ Identify:
 - **generative-engine-optimization**: GEO for AI citation; FAQ content structure for ChatGPT, Perplexity, AI Overviews
 - **featured-snippet**: Featured Snippet optimization; answer length, formats
 - **serp-features**: SERP features; PAA, FAQ display limits
+- **entity-seo**: Entity signals for GEO citation

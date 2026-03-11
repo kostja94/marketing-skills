@@ -96,7 +96,7 @@ Identify:
 ### AEO / GEO (AI Search)
 
 - **HTML tables**: Use plain HTML for comparison tables; AI engines parse structured data; avoid images or fancy JS sliders
-- **Structured data**: Objective entity mappings; bullets over prose for scannability
+- **Structured data**: Objective entity mappings; bullets over prose for scannability; see **entity-seo**
 - **Third-party validation**: G2, niche blogs mentioning you as alternative help AI cite you
 
 ### Brand Keyword Ads (PPC)
@@ -144,3 +144,4 @@ Identify:
 - **features-page-generator**: Feature comparison content
 - **pricing-page-generator**: Pricing comparison
 - **customer-stories-page-generator**: Switcher testimonials
+- **entity-seo**: Entity mappings; Organization, Person; GEO citation

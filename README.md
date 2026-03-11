@@ -2,9 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-144 specialized skills for Cursor, Claude Code, and other AI agents — SEO, content, 42 page types, channels, platforms, strategies, components, and analytics. Works with Lovable, ChatGPT, Gemini, OpenClaw, and any AI that reads markdown ([Where to Use](docs/where-to-use-skills.md)).
+144 specialized skills for Cursor, Claude Code, and other AI agents — SEO, content, 42 page types, channels, platforms, strategies, components, and analytics. Works with Lovable, ChatGPT, Gemini, OpenClaw, and any AI that reads markdown ([Where to Use](docs/usage.md)).
 
-**By [kostja](https://github.com/kostja94)** · I add new skills daily · [skills-guide](docs/skills-guide.md) · [CHANGELOG](docs/CHANGELOG.md) · zyjstc@gmail.com
+**By [kostja](https://github.com/kostja94)** · I add new skills daily · [skill-authoring](docs/skill-authoring.md) · [CHANGELOG](docs/CHANGELOG.md) · zyjstc@gmail.com
 
 ## Table of Contents
 
@@ -33,12 +33,12 @@ Skills are **markdown files** that give AI agents focused knowledge and workflow
 
 | Scenario | How |
 |----------|-----|
-| **Personal developer** — SEO-friendly personal site | Quick install, build portfolio/blog/landing with SEO built in. [Guide →](docs/use-cases-and-roadmap.md#11-personal-developer--seo-friendly-personal-site) |
-| **Product website** — SEO growth | Frontend: optimization tech. Ops: build marketing pages via rewrite, no engineering dependency. [Playbook →](docs/use-cases-and-roadmap.md#12-product-website--seo-growth-with-frontend--ops-split) |
-| **Vibe coding beginner** — Learn SEO | Install skills standalone; use ChatGPT/Claude/Gemini to paste and learn. No project required. [Learning path →](docs/use-cases-and-roadmap.md#13-vibe-coding-beginner--learn-seo--website-building-standalone) |
-| **Vibe coding product** — Built-in skills | Ship SEO-friendly outputs by default. Skills as templates = better user-generated projects. [Partnership →](docs/use-cases-and-roadmap.md#14-vibe-coding-product--built-in-skills-as-templates) |
-| **Build your own skills** — Fork & adapt | Don't know where to start? Fork the repo, modify and adapt on top of 141 working examples. [Guide →](docs/use-cases-and-roadmap.md#15-want-to-build-your-own-skills--fork--adapt) |
-| **Future** — Non-website agents | Image/video, influencer marketing, paid ads, analytics — skills reusable across agents. [Roadmap →](docs/use-cases-and-roadmap.md#16-future--non-website-agents) |
+| **Personal developer** — SEO-friendly personal site | Quick install, build portfolio/blog/landing with SEO built in. [Guide →](docs/usage.md#71-personal-developer--seo-friendly-personal-site) |
+| **Product website** — SEO growth | Frontend: optimization tech. Ops: build marketing pages via rewrite, no engineering dependency. [Playbook →](docs/usage.md#72-product-website--seo-growth-with-frontend--ops-split) |
+| **Vibe coding beginner** — Learn SEO | Install skills standalone; use ChatGPT/Claude/Gemini to paste and learn. No project required. [Learning path →](docs/usage.md#73-vibe-coding-beginner--learn-seo-standalone) |
+| **Vibe coding product** — Built-in skills | Ship SEO-friendly outputs by default. Skills as templates = better user-generated projects. [Partnership →](docs/usage.md#74-vibe-coding-product--built-in-skills-as-templates) |
+| **Build your own skills** — Fork & adapt | Don't know where to start? Fork the repo, modify and adapt on top of 141 working examples. [Guide →](docs/usage.md#75-want-to-build-your-own-skills--fork--adapt) |
+| **Future** — Non-website agents | Image/video, influencer marketing, paid ads, analytics — skills reusable across agents. [Roadmap →](docs/usage.md#76-future--non-website-agents) |
 
 **Partnership**: Building a vibe coding product or AI marketing agent? [Contact me](mailto:zyjstc@gmail.com) to integrate these skills.
 
@@ -90,7 +90,7 @@ Skills are loaded from these locations per the [Agent Skills specification](http
 | `~/.claude/skills/` | User-level (compatibility) |
 | `~/.codex/skills/` | User-level (compatibility) |
 
-Each skill is a folder with a `SKILL.md` file. **Platforms with native support**: Cursor, Claude Code, Codex, OpenCode, Gemini CLI, GitHub Copilot, Windsurf, Cline, Base44, Trae, **OpenClaw**. [Full guide →](docs/where-to-use-skills.md)
+Each skill is a folder with a `SKILL.md` file. **Platforms with native support**: Cursor, Claude Code, Codex, OpenCode, Gemini CLI, GitHub Copilot, Windsurf, Cline, Base44, Trae, **OpenClaw**. [Full guide →](docs/usage.md)
 
 ### Git Submodule
 
@@ -106,19 +106,19 @@ Skills are markdown — they work anywhere an AI can read text. No native skill 
 | Platform | How |
 |----------|-----|
 | **Cursor, Claude Code, Codex, OpenCode, Gemini CLI, GitHub Copilot, Windsurf, Cline, Base44, Trae** | Native: use `.agents/skills/`, `.cursor/skills/`, `.claude/skills/`, or platform dir |
-| **OpenClaw** | Copy to `./skills` (workspace) or `~/.openclaw/skills`; or `npx skills add kostja94/marketing-skills -a openclaw`. [OpenClaw guide →](docs/where-to-use-skills.md#openclaw) |
+| **OpenClaw** | Copy to `./skills` (workspace) or `~/.openclaw/skills`; or `npx skills add kostja94/marketing-skills -a openclaw`. [OpenClaw guide →](docs/usage.md#2-openclaw) |
 | **Lovable, v0, Bolt, Replit** | AGENTS.md or platform-specific dir; copy skills, adapt context path |
 | **ChatGPT, Gemini, Claude Web** | Paste a skill's markdown as context, then ask your question |
 | **Any AI with file access** | Place skills in project root; reference in prompts |
 
-**Full guide**: [where-to-use-skills.md](docs/where-to-use-skills.md) — all platforms, install commands, path reference, Lovable example
+**Full guide**: [usage.md](docs/usage.md) — all platforms, install commands, path reference, Lovable example
 
 ## Project Structure
 
 ```
 marketing-skills/
 ├── skills/           # seo/, pages/, components/, channels/, platforms/, strategies/, analytics/
-├── docs/             # skills-list, page-taxonomy, skills-guide, CHANGELOG, SECURITY, naming-rules, description-rules, reference-rules
+├── docs/             # skill-authoring, skills-reference, usage, reference-rules; see docs/README.md
 ├── templates/        # product-marketing-context.md, skills-task-progress.md
 ├── README.md
 └── CONTRIBUTING.md
@@ -162,18 +162,18 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 - [product-marketing-context.md](templates/product-marketing-context.md) · [download](https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/product-marketing-context.md)
 - [skills-task-progress.md](templates/skills-task-progress.md) · [download](https://raw.githubusercontent.com/kostja94/marketing-skills/main/templates/skills-task-progress.md)
 
-**Start with**: Product Overview, Positioning, Target Audience, Brand & Voice. Add Keywords, Competitors, Website as you have them. Update regularly — stale context degrades quality. See [skills-guide §10 Customization](docs/skills-guide.md#10-customization).
+**Start with**: Product Overview, Positioning, Target Audience, Brand & Voice. Add Keywords, Competitors, Website as you have them. Update regularly — stale context degrades quality. See [skill-authoring §8 Customization](docs/skill-authoring.md#8-customization).
 
 ## Available Skills
 
-143 skills in 9 categories. [Full list](docs/skills-list.md) · `npx skills add kostja94/marketing-skills --list`
+148 skills in 9 categories. [Full list](docs/skills-reference.md) · `npx skills add kostja94/marketing-skills --list`
 
 | Category | Skills |
 |----------|--------|
-| **SEO** (27) | [Technical](skills/seo/technical/): robots, sitemap, canonical, indexing, indexnow, crawlability · [On-Page](skills/seo/on-page/): title, description, metadata, open-graph, twitter-cards, schema, internal-links, url-structure, heading · [Off-Page](skills/seo/off-page/): link-building, backlink-analysis · [Content](skills/seo/content/): keyword-research, content-strategy, content-optimization, eeat-signals, competitor-research · [Local](skills/seo/local/): local-seo · [Tactics](skills/seo/): parasite-seo, programmatic-seo |
+| **SEO** (32) | [Technical](skills/seo/technical/): robots, sitemap, canonical, indexing, indexnow, crawlability, core-web-vitals, mobile-friendly, rendering-strategies · [On-Page](skills/seo/on-page/): title, description, metadata, open-graph, twitter-cards, schema, internal-links, url-structure, heading, image-optimization, video-optimization · [Off-Page](skills/seo/off-page/): link-building, backlink-analysis · [Content](skills/seo/content/): keyword-research, content-strategy, content-optimization, eeat-signals, competitor-research · [Local](skills/seo/local/): local-seo · [Tactics](skills/seo/): parasite-seo, programmatic-seo |
 | **Content** (4) | [copywriting](skills/content/copywriting/): headlines, CTAs, PAS/AIDA/BAB · [video-marketing](skills/content/video/): video scripts, hooks · [visual-content](skills/content/visual-content/): images, infographics, social specs · [translation](skills/content/translation/): workflow, glossary, style guide |
 | **Paid Ads** (12) | [Strategy](skills/strategies/paid-ads/): when to use, ad formats · [Platforms](skills/paid-ads/): google-ads, meta-ads, linkedin-ads, reddit-ads, tiktok-ads, app-ads, ctv-ads, display-ads, directory-listing-ads, youtube-ads, native-ads |
-| **Pages** (43) | [skills-list](docs/skills-list.md#pages) — brand, content, marketing, legal, utility; template-page (programmatic SEO); Solutions (industry-first) vs Use cases (scenario-first); [page-taxonomy](docs/page-taxonomy.md) |
+| **Pages** (43) | [skills-reference §Pages](docs/skills-reference.md#pages--quick-mapping) — brand, content, marketing, legal, utility; template-page (programmatic SEO); Solutions (industry-first) vs Use cases (scenario-first); [§2 Page Taxonomy](docs/skills-reference.md#2-page-taxonomy) |
 | **Components** (17) | nav, breadcrumb, footer, hero, toc, logo, trust-badges, testimonials, cta, newsletter-signup, url-slug, top-banner, sidebar, popup, social-share, favicon, brand-visual |
 | **Channels** (10) | affiliate, education-program, email-marketing, egc, influencer, referral, creator-program, community-forum, directories, pr |
 | **Platforms** (9) | x, reddit, linkedin, tiktok, youtube, pinterest, medium, github, grokipedia |
@@ -184,7 +184,7 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 
 **Workflow order**: Technical → On-Page → Content → Off-Page. Page skills apply SEO when optimizing specific page types. See each skill's **Related Skills** for the dependency map.
 
-**[Full dependency maps →](docs/skills-relationships.md)** — 5 ASCII trees: SEO Foundation | SERP & Rich Results | Pages | Growth (Channels/Platforms/Strategies) | Components & Analytics. **seo-strategy** orchestrates the SEO workflow.
+**[Full dependency maps →](docs/skills-reference.md#3-how-skills-work-together)** — 5 ASCII trees: SEO Foundation | SERP & Rich Results | Pages | Growth (Channels/Platforms/Strategies) | Components & Analytics. **seo-strategy** orchestrates the SEO workflow.
 
 ```
 ┌──────────────────────────────────────────┐
@@ -207,9 +207,9 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 └──────────────────────────────────────────┘
 ```
 
-**Skill uniqueness**: Each skill keeps only topic-relevant content. Overlapping topics use **Related Skills** references. See [skills-guide §4.2](docs/skills-guide.md#42-skill-uniqueness-and-cross-references).
+**Skill uniqueness**: Each skill keeps only topic-relevant content. Overlapping topics use **Related Skills** references. See [skill-authoring §4](docs/skill-authoring.md#4-body-content-markdown-body).
 
-**Output structure**: Platform skills use full structure (Introduction → Importance → Methods → Rules → Avoid → Action); others use brief context + main output. Say "skip intro" or "just do it" for repeat tasks. See [skills-guide §4.4](docs/skills-guide.md#44-output-structure-context-first-then-action).
+**Output structure**: Platform skills use full structure (Introduction → Importance → Methods → Rules → Avoid → Action); others use brief context + main output. Say "skip intro" or "just do it" for repeat tasks. See [skill-authoring §4.1](docs/skill-authoring.md#41-output-structure-context-first-then-action).
 
 ## Tips & Rules
 
@@ -218,11 +218,11 @@ Ask your agent — it picks the right skill from your prompt. Examples:
 | **Project Context** | Add `product-marketing-context.md` to `.cursor/`, `.claude/`, or `.lovable/` for tailored output |
 | **Skip intro** | "skip intro" or "just do it" → go straight to Action |
 | **Related Skills** | Use each skill's Related Skills for dependencies |
-| **Rules & specs** | See [skills-guide](docs/skills-guide.md) for output structure, skill authoring, quality checklist |
+| **Rules & specs** | See [skill-authoring](docs/skill-authoring.md) for output structure, skill authoring, quality checklist |
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [skills-guide](docs/skills-guide.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md). Rules and specs → [skill-authoring](docs/skill-authoring.md).
 
 ## Security
 
@@ -256,10 +256,9 @@ Details → [SECURITY.md](docs/SECURITY.md)
 
 | Doc | Purpose |
 |-----|---------|
-| [where-to-use-skills](docs/where-to-use-skills.md) | Where to use — native platforms, OpenClaw, AGENTS.md, paste; install commands |
-| [use-cases-and-roadmap](docs/use-cases-and-roadmap.md) | Use cases, content roadmap, partnership |
-| [skills-list](docs/skills-list.md) | Full skill list; page taxonomy |
-| [skills-guide](docs/skills-guide.md) | Rules, specs, skill authoring |
+| [usage](docs/usage.md) | Where to use — native platforms, OpenClaw, AGENTS.md, paste; use cases, roadmap |
+| [skills-reference](docs/skills-reference.md) | Full skill list; page taxonomy; dependency trees |
+| [skill-authoring](docs/skill-authoring.md) | Rules, specs, skill authoring |
 | [templates](templates/README.md) | product-marketing-context · skills-task-progress |
 | [SECURITY](docs/SECURITY.md) | Security audit, prompt injection checks |
 | [CHANGELOG](docs/CHANGELOG.md) | What changed, when |

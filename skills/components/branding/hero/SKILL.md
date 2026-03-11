@@ -82,7 +82,7 @@ The hero must answer three questions within 3 seconds: **What is this?** **Why s
 ## SEO Considerations
 
 - Headline often contains `<h1>`; include primary keyword
-- Hero content in initial HTML; avoid JS-only rendering
+- Hero content in initial HTML; avoid JS-only rendering. See **rendering-strategies**
 - **Image optimization**: Alt text, format (WebP), LCP, responsive—see **image-optimization**
 
 ## UX Guidelines
@@ -126,3 +126,4 @@ The hero must answer three questions within 3 seconds: **What is this?** **Why s
 - **homepage-generator**: Hero is central to homepage design
 - **landing-page-generator**: Hero is step 1 of landing page flow; campaign pages
 - **image-optimization**: Hero image optimization (alt, WebP, LCP, responsive)
+- **rendering-strategies**: Content in initial HTML; SSR/SSG for hero

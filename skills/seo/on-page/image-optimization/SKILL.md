@@ -1,8 +1,8 @@
 ---
 name: image-optimization
-description: When the user wants to optimize images for search engines and performance. Also use when the user mentions "image SEO," "alt text," "image optimization," "WebP," "lazy loading," "LCP," "image sitemap," "responsive images," "srcset," "image format," or "hero image optimization."
+description: When the user wants to optimize images for search engines and performance. Also use when the user mentions "image SEO," "alt text," "image captions," "figcaption," "image optimization," "WebP," "lazy loading," "LCP," "image sitemap," "responsive images," "srcset," "image format," or "hero image optimization."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # SEO On-Page: Image Optimization
@@ -14,9 +14,9 @@ Guides image optimization for Google Search (text results, Image Pack, Google Im
 ## Scope
 
 - **Discovery & indexing**: HTML img elements, image sitemap
-- **Format & performance**: WebP, responsive images, lazy loading, LCP
+- **Format & performance**: WebP, responsive images, lazy loading, LCP; full CWV optimization in **core-web-vitals**
 - **Metadata**: Alt text, file names, captions
-- **Preferred image**: primaryImageOfPage, og:image
+- **Preferred image**: primaryImageOfPage, og:image; thumbnail next to title/description in search results
 - **Structured data**: ImageObject, image in Article/Product/etc.
 
 ## Initial Assessment
@@ -99,6 +99,10 @@ Use `<picture>` or `srcset` for different screen sizes. **Always provide fallbac
 </picture>
 ```
 
+### Data URI (Inline Images)
+
+Base64 data URIs (`data:image/...;base64,...`) reduce HTTP requests but increase HTML size. Use sparingly for small icons; avoid for large images. See [web.dev](https://web.dev/articles/embedding-images-and-video#data_uris).
+
 ### Resize & Compress
 
 - **Max width**: Generally ≤2,500px; match container max-width
@@ -136,6 +140,16 @@ Alt text improves **accessibility** (screen readers, low bandwidth) and **SEO** 
 - ✅ Better: `alt="puppy"`
 - ✅ Best: `alt="Dalmatian puppy playing fetch"`
 
+### Captions
+
+Google extracts image context from captions and nearby text. Use `<figcaption>` or descriptive text near the image.
+
+| Use | Purpose |
+|-----|---------|
+| **Topic relevance** | Caption describes image subject; supports indexing |
+| **Featured Snippets** | Images near answers with captions can capture thumbnail slots; see **featured-snippet** |
+| **Image Pack** | Alt + caption + file name help Image Pack display; see **serp-features** |
+
 ### Inline SVG
 
 Use `<title>` inside SVG for accessibility:
@@ -160,9 +174,11 @@ Descriptive filenames give Google light clues about subject matter.
 
 ---
 
-## 5. Preferred Image (SERP / Discover)
+## 5. Preferred Image (SERP Thumbnail & Discover)
 
-Google selects page preview images automatically. Influence selection via:
+When users search for keywords, optimized images can appear as **thumbnails next to the page title and description** in search results—enhancing visibility and CTR. Google also uses these images for Google Discover. [Search Engine Land](https://searchengineland.com/google-uses-both-schema-org-markup-and-ogimage-meta-tag-for-thumbnails-in-google-search-and-discover-470598)
+
+Google selects thumbnails automatically from multiple sources. Influence selection via:
 
 ### Schema: primaryImageOfPage
 
@@ -175,7 +191,7 @@ Google selects page preview images automatically. Influence selection via:
 }
 ```
 
-Or attach `image` to main entity (e.g. BlogPosting, Article).
+Or attach `image` to main entity (e.g. BlogPosting, Article) via `mainEntity` or `mainEntityOfPage`.
 
 ### Open Graph
 
@@ -184,6 +200,8 @@ Or attach `image` to main entity (e.g. BlogPosting, Article).
 ```
 
 **Preferred image rules**: Relevant, representative; avoid generic (e.g. logo) or text-heavy images; avoid extreme aspect ratios; high resolution. See **open-graph**, **twitter-cards** for social specs.
+
+**Google Discover** (if targeting Discover): ≥1200px wide; ≥300KB; 16:9 aspect ratio preferred; important content visible in landscape crop.
 
 ---
 
@@ -223,6 +241,7 @@ Add structured data for rich results in Google Images (badges, extra info). Imag
 ## Output Format
 
 - **Alt text** suggestions per image
+- **Captions** (if applicable; snippet/Image Pack context)
 - **File name** recommendations
 - **Format** (WebP, fallback)
 - **Responsive** (srcset/sizes or picture)
@@ -232,23 +251,11 @@ Add structured data for rich results in Google Images (badges, extra info). Imag
 
 ## Related Skills
 
-### SEO
-
+- **core-web-vitals**: LCP, INP, CLS; image optimization supports LCP
 - **xml-sitemap**: Sitemap structure; image sitemap extension
-- **open-graph**: og:image, social preview
-- **twitter-cards**: twitter:image, X preview
+- **open-graph, twitter-cards**: og:image, twitter:image; social preview
 - **schema-markup**: ImageObject, Article/Product image
-- **content-optimization**: Multimedia (images) in content; see this skill for full image optimization
-- **featured-snippet**: Optimized images near answers can double CTR; alt, captions
-- **serp-features**: Image Pack optimization
-
-### Components & Pages
-
-- **hero-generator**: Hero images; LCP, alt; reference this skill for optimization
-- **trust-badges-generator**: Badge images; alt text
-- **landing-page-generator**: Pre-Delivery Checklist references image optimization
-- **visual-content**: Visual content for social, infographics, repurposing; website images use this skill
-
-### Content
-
-- **eeat-signals**: Original images over stock for E-E-A-T
+- **content-optimization**: Multimedia in content; defers image SEO to this skill
+- **featured-snippet**: Images near answers + captions; snippet thumbnail
+- **serp-features**: Image Pack; alt, captions, file names
+- **visual-content**: Visual content for social, infographics; website images use this skill

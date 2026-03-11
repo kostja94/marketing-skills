@@ -79,6 +79,7 @@ Identify:
 
 ## Related Skills
 
+- **signup-login-page-generator**: Full account signup; form design principles apply
 - **landing-page-generator**: Lead capture landing page contains signup form; LP exchanges value for email
 - **email-marketing**: Full email marketing strategy; EDM, newsletter, deliverability, content types
 - **footer-generator**: Footer often hosts signup forms

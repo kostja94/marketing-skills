@@ -104,4 +104,5 @@ See **startups-page-generator** for page structure when a standalone education p
 - **startups-page-generator**: Standalone education page when needed; same structure for startups + education
 - **top-banner-generator**: Homepage banner "Students: X% off"; placement P1
 - **landing-page-generator**: /student-discount landing page when used for SEO or ads
+- **signup-login-page-generator**: Signup is P0 for student discount; discount block, verification at registration
 - **use-cases-page-generator**: "For students" use case; avoid duplicate "for students" page

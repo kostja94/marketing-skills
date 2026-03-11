@@ -120,36 +120,15 @@ Before shipping a landing page, verify:
 
 ## Related Skills
 
-### Pages (destination & content)
-
-- **affiliate-page-generator**: Affiliate signup; apply landing page principles
-- **pricing-page-generator**: Click-through LP destination; signup CTA
-- **products-page-generator**: Product LP destination; product launch
-- **features-page-generator**: Value/benefits content for product LP
-- **customer-stories-page-generator**: Testimonials, case studies for social proof
-- **faq-page-generator**: Objection-handling FAQ section
-- **resources-page-generator**: Lead magnet, webinar; lead capture LP
-- **services-page-generator**: Service LP; CTA to contact/quote
-- **contact-page-generator**: Lead capture LP form; demo request
-- **homepage-generator**: Multi-purpose home vs single-goal landing; similar structure
-- **about-page-generator**: LP can link to About for trust
-- **privacy-page-generator**: LP form compliance; link near form
-- **creator-program**: Creator signup; similar to affiliate
-
-### Components
-
 - **hero-generator**: Hero section (step 1)
 - **grid, list**: Content layout below hero; sections, features, testimonials
-- **image-optimization**: Image optimization (alt, WebP, LCP, responsive, lazy loading)
 - **cta-generator**: CTA button design and placement
-- **testimonials-generator, trust-badges-generator**: Social proof (step 2)
-- **newsletter-signup-generator**: Lead capture form on LP
-- **popup-generator**: Lead capture popup alternative to full-page form
-
-### Strategy & SEO
-
-- **paid-ads-strategy**: When to use paid ads; ad-to-page alignment; channel selection; competitor brand bidding
-- **alternatives-page-generator**: Competitor brand keyword ads → comparison LP (not blog); alternatives/comparison structure
-- **programmatic-seo**: Scale landing pages via template + data; programmatic landing pages (city, product, integration-specific)
-- **template-page-generator**: Template structure for programmatic LPs; sections, data slots, conversion elements
+- **image-optimization**: Alt, WebP, LCP, responsive, lazy loading
+- **pricing-page-generator**: Click-through LP destination; signup CTA
+- **faq-page-generator**: Objection-handling FAQ section
+- **homepage-generator**: Multi-purpose home vs single-goal landing; similar structure
+- **paid-ads-strategy**: Ad-to-page alignment; when to use paid ads
+- **alternatives-page-generator**: Competitor brand keyword ads → comparison LP (not blog)
+- **programmatic-seo**: Scale landing pages via template + data
+- **template-page-generator**: Template structure for programmatic LPs
 - **title-tag, meta-description, page-metadata**: Landing page metadata

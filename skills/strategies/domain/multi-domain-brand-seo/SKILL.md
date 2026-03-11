@@ -96,10 +96,10 @@ Use Organization schema with `subOrganization` to define product relationships:
 
 ## Entity & Knowledge Panel
 
-- **Consistency**: Same brand name, description, logo across all platforms
+See **entity-seo** for full entity optimization. Key for multi-domain:
+- **Consistency**: Same brand name, description, logo across Hub and Spoke
 - **Entity Home**: Authoritative About page on Hub as primary reference
 - **Knowledge Panel**: Claim via Google; suggest updates when available
-- **WikiData / Wikipedia**: Can support Knowledge Panel generation
 
 ## Output Format
 
@@ -114,4 +114,5 @@ Use Organization schema with `subOrganization` to define product relationships:
 - **domain-architecture**: Hub-Spoke structure; when to use multiple domains
 - **schema-markup**: Organization, SoftwareApplication; subOrganization
 - **serp-features**: Knowledge Panel, Sitelinks; brand SERP
+- **entity-seo**: Entity & Knowledge Panel; Organization schema; consistency
 - **rebranding-strategy**: Domain change; 301 redirects during transition

@@ -41,7 +41,7 @@ Guides tab and accordion implementation for organizing content without excessive
 | All tab content in HTML at load | ✅ Yes |
 | Content loaded via AJAX on tab click | ❌ No |
 
-**Recommendation**: Server-render all tab content in the initial HTML; use CSS/JS only to show/hide. Prefer `<details>`/`<summary>` or equivalent server-rendered markup.
+**Recommendation**: Server-render all tab content in the initial HTML; use CSS/JS only to show/hide. Prefer `<details>`/`<summary>` or equivalent server-rendered markup. See **rendering-strategies** for SSR, SSG, CSR and crawler visibility.
 
 ### Horizontal Tabs: More Tabs, More Content?
 
@@ -79,7 +79,7 @@ Use `<details>` and `<summary>`—no JavaScript required; accessible; crawlable.
 
 ### JavaScript-Dependent Tabs
 
-If using JS-only tabs: **ensure all tab content is in the DOM at page load**, not loaded via AJAX on click. Google does not simulate tab clicks. Prefer `<details>`/`<summary>` or server-rendered HTML.
+If using JS-only tabs: **ensure all tab content is in the DOM at page load**, not loaded via AJAX on click. Google does not simulate tab clicks. Prefer `<details>`/`<summary>` or server-rendered HTML. See **rendering-strategies**.
 
 ### Avoid
 
@@ -138,3 +138,4 @@ If using JS-only tabs: **ensure all tab content is in the DOM at page load**, no
 - **content-strategy**: Pillar/cluster architecture; when to use separate pages vs tabs
 - **toc-generator**: Collapsible TOC; similar disclosure pattern
 - **content-optimization**: Word count, structure, multimedia in expandable sections
+- **rendering-strategies**: SSR, SSG, CSR; content in initial HTML for crawlers

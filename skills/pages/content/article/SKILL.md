@@ -424,18 +424,13 @@ Example: `[P0] Add TL;DR or Key Takeaways — GEO, AI citation`
 ## Related Skills
 
 - **content-marketing**: Content types, formats, repurposing; articles as one format
-- **eeat-signals**: E-E-A-T implementation; author bio, citations, YMYL, AI content
-- **competitor-research**: Competitor content analysis; content gaps, structure, length target
-- **blog-page-generator**: Blog index/listing page; article pages live within blog
-- **keyword-research**: Keyword basis for articles; run before drafting
-- **title-tag, meta-description**: Article metadata
+- **eeat-signals**: E-E-A-T; author bio, citations, YMYL
+- **competitor-research**: Content gaps, structure, length target
+- **blog-page-generator**: Blog index/listing; article pages live within blog
+- **keyword-research**: Keyword basis for articles
 - **schema-markup**: Article/BlogPosting/NewsArticle schema
 - **heading-structure**: H1–H6 structure for article body
-- **content-optimization**: Word count, H2 keywords, keyword density, tables, lists, multimedia
+- **content-optimization**: Word count, H2 keywords, tables, lists, multimedia
 - **internal-links**: Related posts, contextual links
-- **open-graph, twitter-cards**: Social previews for articles (required for share previews)
-- **social-share-generator**: Share buttons placement, platforms, intent URLs
-- **url-slug-generator**: URL slug creation for articles; 3–5 words, primary keyword
-- **toc-generator**: Table of contents for long articles
-- **breadcrumb-generator**: Breadcrumb (e.g. Home > Blog > Category > Post)
+- **open-graph, twitter-cards**: Social previews for articles
 - **generative-engine-optimization**: GEO strategy; AI citation optimization

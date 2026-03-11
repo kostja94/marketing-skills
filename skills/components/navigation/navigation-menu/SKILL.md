@@ -41,7 +41,7 @@ Identify:
 | **Semantic HTML** | `<nav>`, `<ul>`, `<li>`; proper landmark roles |
 | **Descriptive anchor text** | Target keywords; avoid "Click here" |
 | **Text links** | Prefer text over images; crawlers need readable links |
-| **Initial render** | All nav HTML in first paint; no JS-only menus for critical links |
+| **Initial render** | All nav HTML in first paint; no JS-only menus for critical links. See **rendering-strategies** |
 | **Visible links** | Prefer visible over hidden; helps crawlers understand structure |
 
 ### Crawlability
@@ -92,3 +92,4 @@ Identify:
 - **footer-generator**: Footer nav complements header nav
 - **logo-generator**: Logo typically sits in header with nav
 - **breadcrumb-generator**: Breadcrumb navigation; BreadcrumbList schema
+- **rendering-strategies**: Nav in first paint; no JS-only menus

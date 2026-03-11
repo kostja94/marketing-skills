@@ -66,7 +66,7 @@ Choose one; be consistent:
 - **Hreflang** on all language versions; self-reference + symmetric annotations.
 - **Language switcher**: Use `<a>` not `<button>`; links in initial HTML.
 - **Canonical**: Handle multi-domain if using local TLDs; align with hreflang.
-- **SPAs**: Use sitemap-based hreflang as backup when HTML head is JS-rendered.
+- **SPAs**: Use sitemap-based hreflang as backup when HTML head is JS-rendered. See **rendering-strategies**.
 
 ## Keyword Research by Market
 

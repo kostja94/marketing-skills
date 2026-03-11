@@ -1,8 +1,8 @@
 ---
 name: top-banner-generator
-description: When the user wants to add, optimize, or audit a top announcement bar or sticky banner. Also use when the user mentions "announcement bar," "top banner," "sticky bar," "promo banner," "header banner," "announcement bar design," "sticky header," "promo bar," "urgency banner," or "lead capture bar."
+description: When the user wants to add, optimize, or audit a top announcement bar or sticky banner. Also use when the user mentions "announcement bar," "top banner," "sticky bar," "promo banner," "discount banner," "student discount banner," "header banner," "announcement bar design," "sticky header," "promo bar," "urgency banner," or "lead capture bar."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Components: Top Banner (Announcement Bar)
@@ -31,6 +31,19 @@ Identify:
 | **Urgency** | Limited-time offer, countdown |
 | **Trust** | Guarantee, security, shipping info |
 | **Launch** | Product launch, event, cross-sell |
+
+### Discount Banner Types
+
+| Discount Type | Banner Example | Related |
+|---------------|----------------|---------|
+| **Annual discount** | "Save 20% with annual billing" | discount-marketing-strategy |
+| **Student/education** | "Students: 30% off today, 15% off ongoing" | education-program |
+| **Startups/education** | "Startups: Special pricing — Apply now" | startups-page-generator |
+| **BFCM / seasonal** | "Black Friday: 25% off — Use code BF25" | discount-marketing-strategy |
+| **First-time** | "New users: 20% off first year" | discount-marketing-strategy |
+| **Referral code** | "Get $10 off — Refer a friend" | referral-program |
+
+**Placement**: Discount banner is P1 for student/education (homepage); pricing page also shows. See **education-program** for placement priority (registration P0, pricing P1, banner P1).
 
 ### Design
 
@@ -61,6 +74,8 @@ Identify:
 ## Related Skills
 
 - **discount-marketing-strategy**: Promo/discount strategy; banner displays discount code; 30–50% redemption lift
+- **education-program**: Student discount banner (P1 placement); "Students: X% off" copy
+- **pricing-page-generator**: Discount banner supports pricing page; Special programs, promo placement
 - **cta-generator**: Banner CTA design
 - **newsletter-signup-generator**: Lead capture in banner
 - **brand-visual-generator**: Colors, typography for banner

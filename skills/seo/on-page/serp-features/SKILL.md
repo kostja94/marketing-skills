@@ -46,7 +46,7 @@ A **SERP feature** is any result on a search results page that is **not** a trad
 | **Reviews / Stars** | AggregateRating, Review | Required; star display depends on review schema |
 | **Featured Snippet** | FAQPage, HowTo, Article | Supporting; schema helps identify extractable blocks; not required |
 | **Sitelinks** | WebSite + SearchAction | Supporting; SearchAction can enable sitelinks |
-| **Video** | VideoObject | Required; video thumbnail depends on Video schema |
+| **Video** | VideoObject | Required; video thumbnail; Google prioritizes YouTube. See **video-optimization** |
 | **Product** | Product, Offer | Required; shopping results |
 | **Recipe** | Recipe | Required; recipe rich result |
 | **Job** | JobPosting | Required; Google Jobs |
@@ -66,8 +66,8 @@ A **SERP feature** is any result on a search results page that is **not** a trad
 | **Sitelinks** | Additional links below main result (brand queries) | Site structure, internal links, SearchAction schema; mainly branded |
 | **Reviews / Stars** | Star ratings on product/service results | Review schema (AggregateRating); eligibility varies by vertical |
 | **Breadcrumbs** | Path shown in result | BreadcrumbList schema; clear site structure |
-| **Video** | Video thumbnail in results | Video schema; YouTube/common platforms |
-| **Image Pack** | Horizontal row of images | Image optimization: alt, file name, size; image SEO |
+| **Video** | Video thumbnail in results | Video schema; **Google prioritizes YouTube**; see **video-optimization** |
+| **Image Pack** | Horizontal row of images | Alt, captions, file names, responsive; see **image-optimization** |
 
 ### 2. Universal Results
 
@@ -82,7 +82,7 @@ A **SERP feature** is any result on a search results page that is **not** a trad
 
 | Feature | Description | Obtainability |
 |---------|-------------|----------------|
-| **Knowledge Panel** | Entity info (brand, person, place) | WikiData, partnerships; most sites cannot directly obtain |
+| **Knowledge Panel** | Entity info (brand, person, place) | WikiData, partnerships; see **entity-seo** |
 | **Knowledge Card** | Top-of-SERP semantic answer | Same as Knowledge Panel |
 | **Local Pack** | 3 local business results + map | Local SEO; GMB, NAP, reviews |
 | **Local Teaser** | Hotels, restaurants with map/sort | Local SEO |
@@ -124,10 +124,10 @@ AI-generated answer blocks at the top of search results. These are **SERP featur
 | **Sitelinks** | Clear site structure; internal links; SearchAction; **website-structure** |
 | **Reviews** | AggregateRating schema; **schema-markup** |
 | **Breadcrumbs** | BreadcrumbList schema; **breadcrumb-generator** |
-| **Video** | VideoObject schema; YouTube optimization |
-| **Image Pack** | See **image-optimization** for alt, file names, responsive images |
+| **Video** | VideoObject schema; **video-optimization**; Google prioritizes YouTube |
+| **Image Pack** | Alt, captions, file names, responsive; see **image-optimization** |
 | **Local Pack** | Local SEO; GMB; NAP consistency |
-| **AI Overview / Copilot / Yandex AI** | GEO; structured content; citable paragraphs; entity signals; see **generative-engine-optimization** |
+| **AI Overview / Copilot / Yandex AI** | GEO; structured content; citable paragraphs; entity signals; see **generative-engine-optimization**, **entity-seo** |
 
 ## Zero-Click: SERP Features That Satisfy Intent Without a Click
 
@@ -188,12 +188,12 @@ Rich results do not directly boost rankings but can increase CTR by up to 35%. T
 
 ## Related Skills
 
-- **schema-markup**: **Strongly related**—most SERP features depend on schema; schema type maps to SERP feature; see mapping table above
+- **schema-markup**: **Strongly related**—schema type maps to SERP feature; see mapping table above
 - **featured-snippet**: Featured Snippet / Position Zero optimization
 - **faq-page-generator**: PAA optimization; FAQ format
 - **keyword-research**: SERP features in keyword screening
-- **title-tag, meta-description**: Standard result appearance
 - **website-structure**: Sitelinks; site architecture
-- **breadcrumb-generator**: Breadcrumb SERP display
-- **generative-engine-optimization**: AI Overviews, Bing Copilot, Yandex AI; GEO strategy; platform-specific optimization
-- **image-optimization**: Image Pack optimization; alt, file names, responsive images
+- **generative-engine-optimization**: AI Overviews, Bing Copilot, Yandex AI; GEO strategy
+- **image-optimization**: Image Pack; alt, captions, file names
+- **video-optimization**: Video SEO; VideoObject; YouTube prioritization
+- **entity-seo**: Knowledge Panel; Organization, Person schema

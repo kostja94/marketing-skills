@@ -32,7 +32,7 @@ Identify:
 
 **Three non-negotiables**: (1) Self-referencing tags (each page links to itself), (2) Symmetric annotations (every version lists ALL others), (3) Valid ISO 639-1 or language-region codes (`en`, `en-US`, `zh-CN`).
 
-**Implementation methods**: HTML `<link>` in head, XML sitemap (`xhtml:link`), or HTTP headers. For SPAs/JS-rendered pages, use sitemap-based hreflang as backup.
+**Implementation methods**: HTML `<link>` in head, XML sitemap (`xhtml:link`), or HTTP headers. For SPAs/JS-rendered pages, use sitemap-based hreflang as backup. See **rendering-strategies** for SSR/SSG/CSR.
 
 **Canonical alignment**: Canonical URL must match the same regional version hreflang refers to. Misalignment causes Google to ignore hreflang.
 
@@ -70,13 +70,22 @@ export const metadata = {
 
 ## Meta Robots (Page-level)
 
-For pages that should not be indexed:
+Page-level control for indexing and link following. See **indexing** for which page types typically need noindex.
+
+| Directive | Effect |
+|-----------|--------|
+| `noindex` | Exclude page from search results |
+| `nofollow` | Do not pass link equity through links on the page; **does NOT prevent indexing** |
+| `noindex,follow` | Exclude from SERP; allow crawlers to follow links (most common for thank-you, signup, legal) |
+| `noindex,nofollow` | Exclude + block link flow (login, staging, test pages) |
+
+**Crawl vs index vs link equity**: robots.txt = crawl control; noindex = index control; nofollow = link equity only. See **robots-txt**, **indexing**.
 
 ```html
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="noindex, follow">
 ```
 
-Or in Next.js: `metadata.robots = { index: false }`. See indexing for full indexing control.
+Next.js: `metadata.robots = { index: false, follow: true }`. Default is `index: true, follow: true`.
 
 ## Viewport
 
@@ -84,7 +93,7 @@ Or in Next.js: `metadata.robots = { index: false }`. See indexing for full index
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
-Required for mobile-friendly pages; affects Core Web Vitals and mobile search.
+Required for mobile-friendly pages; affects Core Web Vitals and mobile search. For full mobile-first indexing and mobile usability requirements, see **mobile-friendly**.
 
 ## Charset
 
@@ -102,12 +111,10 @@ Place in `<head>`; first child of `<head>` recommended.
 
 ## Related Skills
 
-- **title-tag**: Title tag
-- **meta-description**: Meta description
-- **open-graph**: Open Graph for social sharing
-- **twitter-cards**: Twitter Cards for X previews
+- **title-tag, meta-description**: Title and meta description
+- **open-graph, twitter-cards**: Social sharing; link previews
 - **canonical-tag**: Canonical + hreflang for multi-language
-- **indexing**: noindex, Search Console
-- **schema-markup**: Structured data complements metadata
-- **heading-structure**: H1 should align with title
-- **localization-strategy**: Hreflang implementation
+- **indexing**: noindex page-type list; noindex vs nofollow
+- **robots-txt**: Crawl vs index; robots.txt vs noindex
+- **mobile-friendly**: Mobile-first indexing; viewport required
+- **rendering-strategies**: SSR, SSG, CSR; SPAs need sitemap-based hreflang

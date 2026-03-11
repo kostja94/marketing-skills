@@ -1,8 +1,8 @@
 # Reference Rules for Marketing Skills
 
-Standardization for internal (skill-to-skill) and external (standalone sites) references. Aligns with [Google developer documentation style](https://developers.google.com/style/cross-references), [MDN Markdown guidelines](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN), and [skills-guide §4.2](skills-guide.md#42-skill-uniqueness-and-cross-references).
+Standardization for internal (skill-to-skill) and external (standalone sites) references. Aligns with [Google developer documentation style](https://developers.google.com/style/cross-references), [MDN Markdown guidelines](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN), and [skill-authoring §4](skill-authoring.md#4-body-content-markdown-body).
 
-**Quick reference**: Internal → `see **skill-name**` (bold, lowercase). External → `[Descriptive text](URL)`; no "click here." Product examples → ≤5 per category; add disclosure when 3+; prefer generic terms. Section order → content → References → Related Skills.
+**Quick reference**: Internal → `see **skill-name**` (bold, lowercase). External → `[Descriptive text](URL)`; no "click here." Product examples → ≤5 per category; add disclosure when 3+; prefer generic terms. Section order → content → References → Related Skills. Related Skills optimization → §7 below.
 
 ---
 
@@ -35,6 +35,7 @@ Standardization for internal (skill-to-skill) and external (standalone sites) re
 - One line per skill: `**name**: purpose`
 - Order: Most relevant first; group by category if many
 - Purpose: What the reader gets; when to use vs. current skill
+- **Optimization**: Count limits, avoid cascading, when to include — see §7 below
 
 ---
 
@@ -209,7 +210,7 @@ Skills are educational; product mentions are illustrative, not endorsements. Inc
 ```
 
 - Place once per skill, near the first product-example block
-- Optional in README, skills-guide, or project-level docs as a general note
+- Optional in README, skill-authoring, or project-level docs as a general note
 
 ### 6.3 Neutral, Factual Language
 
@@ -240,7 +241,31 @@ Skills are educational; product mentions are illustrative, not endorsements. Inc
 
 ---
 
-## 7. Validation Checklist & Migration
+## 7. Related Skills Optimization
+
+**Count limits**: Most skills: **6–8** Related Skills; hub skills (e.g. serp-features, schema-markup): **8–10**; page skills with grouped entries: **≤12**.
+
+**Rules**:
+- **Direct dependency only** — Prefer skills the current skill directly depends on; avoid "nice to have"
+- **Reference hierarchy** — A skill does not need to list every skill that references it. If **entity-seo** is referenced by article-page, faq-page, alternatives-page, **entity-seo**'s Related Skills should not list those four
+- **Avoid consumer references** — Do not list skills that consume the current skill (e.g. page skills that use entity-seo)
+- **Prefer in-page context** — When 1–2 sentences suffice, write inline instead of linking
+- **No duplicate references** — Reference each skill once per document; avoid redundant body + Related Skills
+
+**Format** (from §1.3):
+
+```markdown
+## Related Skills
+
+- **skill-name**: Brief purpose; when to use
+- **other-skill**: Alternative or complementary; scope boundary
+```
+
+**Validation**: ≤8 for most; ≤10 for hub; ≤12 for page skills with groups; no consumer refs; each entry has clear purpose.
+
+---
+
+## 8. Validation Checklist & Migration
 
 **Before publishing a skill:**
 
@@ -252,6 +277,7 @@ Skills are educational; product mentions are illustrative, not endorsements. Inc
 - [ ] No duplicate links to same destination (unless long doc)
 - [ ] Related Skills lists purpose for each skill
 - [ ] Section order: content → References → Related Skills
+- [ ] Related Skills: count limits per §7; no consumer refs
 
 **When applying rules to existing skills:**
 
@@ -261,3 +287,4 @@ Skills are educational; product mentions are illustrative, not endorsements. Inc
 4. **Product examples**: Add disclosure when 3+; trim to ≤5 per category; prefer generic terms — see §6
 5. **References block**: Move scattered links into a References section where appropriate
 6. **Alignify**: Use standardized link text per §4
+7. **Related Skills**: Apply count limits; remove consumer references per §7

@@ -50,20 +50,26 @@ All refer to the same goal: visibility in AI assistant responses.
 - **Search APIs**: Bing, Brave, etc. feed AI tools. SEO fundamentals still apply.
 - **Core model training**: Long, costly; not practical for most strategies. Focus on RAG.
 
+## Technical Crawlability (AI Crawlers)
+
+AI crawlers (GPTBot, ClaudeBot, PerplexityBot) do **not** execute JavaScript—critical content must be in initial HTML. See **rendering-strategies** for SSR, SSG, CSR; **site-crawlability** for AI crawler optimization; **robots-txt** for allow/block. [Vercel/MERJ study](https://vercel.com/blog/the-rise-of-the-ai-crawler) (2024)
+
 ## Content Best Practices
 
 | Practice | Purpose |
 |----------|---------|
 | **Direct-answer format** | Answer specific questions in clear paragraphs |
-| **Entity signals** | Clear brand, product, author identity |
+| **Entity signals** | Clear brand, product, author identity; see **entity-seo** |
 | **Citable paragraphs** | Each block understandable on its own |
-| **Distribution** | Website, YouTube, forums, Reddit--thoughtful comments can outrank blog posts |
+| **Distribution** | Website, **YouTube** (Google prioritizes YouTube in search; ~78% of social media citations in AI Overviews come from YouTube + Reddit), forums, Reddit—thoughtful comments can outrank blog posts |
 
 ## Parasite SEO & High-Authority Platforms
 
 **Parasite SEO** = Placing content on high-authority platforms to leverage their domain strength for rankings and AI citation. See **parasite-seo** for full strategy.
 
 **GitHub**: Tier 2 technical authority; very high AI citation. See **github-seo** for repos, README, Pages, gists, awesome lists.
+
+**YouTube**: Google prioritizes YouTube in search; YouTube citations in AI Overviews surged 25.21% (2025). Long-form instructional and visual-demo videos dominate. See **youtube-seo** for channel and video optimization; **video-optimization** for website-embedded video SEO.
 
 **Grokipedia**: xAI's AI encyclopedia; ChatGPT, Perplexity, Copilot cite it. See **grokipedia-recommendations** for adding recommendations or links. Contribute genuinely useful content; avoid manipulative placement (Google Site Reputation Abuse policy).
 
@@ -78,21 +84,19 @@ ChatGPT traffic converts ~6x higher than Google search. AI tool users often have
 ## Output Format
 
 - **Content structure** for AI citation
-- **Entity** optimization
+- **Entity** optimization; see **entity-seo**
 - **Distribution** strategy
 - **Measurement** approach
 
 ## Related Skills
 
+- **site-crawlability**: AI crawler optimization; URL/redirect management
+- **rendering-strategies**: SSR, SSG, CSR; content in initial HTML for AI crawlers
+- **robots-txt**: AI crawler allow/block (GPTBot, ClaudeBot, PerplexityBot)
 - **parasite-seo**: Parasite SEO strategy; high-authority platforms for GEO
-- **github-seo**: GitHub for GEO; repos, README, awesome lists; Tier 2 technical authority
-- **grokipedia-recommendations**: Add recommendations/links to Grokipedia; parasite SEO + GEO
-- **reddit-posts**: High-authority community for GEO
-- **directory-submission**: Directory and curated list submission for backlinks and discovery; complements GEO (different placement: human discovery vs AI citation)
-- **title-tag, meta-description, page-metadata**: Foundation for discoverability
-- **ai-traffic-tracking**: Track AI traffic in GA4
-- **affiliate-marketing**: GEO complements other growth channels
-- **integrated-marketing**: GEO as channel in IMC/PESO framework
-- **serp-features**: **Strongly related**—AI Overviews, Bing Copilot, Yandex AI are SERP features; platform comparison table
+- **github-seo**: GitHub for GEO; repos, README; Tier 2 technical authority
+- **youtube-seo**: YouTube optimization; GEO distribution; Google prioritizes YouTube
+- **serp-features**: **Strongly related**—AI Overviews, Bing Copilot, Yandex AI; platform comparison
 - **featured-snippet**: Snippet optimization; overlaps with AI Overviews
+- **entity-seo**: Entity signals; Organization, Person schema; GEO citation
 - **article-page-generator**: TL;DR, Key Takeaways, QAE pattern for article-level GEO

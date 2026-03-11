@@ -16,7 +16,7 @@ Guides on-page content optimization: word count, heading keywords, keyword densi
 - **Word count**: Length by content type; quality over length
 - **H2 keywords**: Placement, quantity, variation
 - **Keyword density vs stuffing**: Natural use; avoid manipulation
-- **Multimedia**: Images, tables, lists for structure and Featured Snippets. See **featured-snippet** for snippet-specific optimization.
+- **Multimedia**: Images, tables, lists, video for structure and Featured Snippets. See **featured-snippet** for snippet-specific optimization; **video-optimization** for video SEO.
 
 ## Initial Assessment
 
@@ -108,13 +108,18 @@ Identify:
 
 | Practice | Purpose |
 |----------|---------|
-| **Alt text** | Descriptive; include keyword when natural; accessibility |
-| **File names** | Descriptive (e.g. `seo-checklist-2025.jpg`) |
-| **Compression** | WebP; optimize for LCP |
-| **Captions** | Relevant to topic; can support Featured Snippets; see **featured-snippet** |
+| **Alt, file names, captions** | See **image-optimization** for full image SEO (alt, format, responsive, lazy loading, image sitemap, LCP, captions for Featured Snippets) |
 | **Original over stock** | Unique images signal E-E-A-T — see **eeat-signals** |
 
-**Full image optimization** (alt, format, responsive, lazy loading, image sitemap, LCP): see **image-optimization**.
+**Content placement**: Put images near relevant text; captions support snippet thumbnails. See **image-optimization** for captions; **featured-snippet** for snippet context.
+
+### Video
+
+| Practice | Purpose |
+|----------|---------|
+| **Embed + metadata** | VideoObject schema, video sitemap, thumbnail; see **video-optimization** |
+| **YouTube** | Google prioritizes YouTube in search; GEO citation; see **youtube-seo**, **generative-engine-optimization** |
+| **Featured Snippet (video)** | Video schema; timestamps/chapters; see **featured-snippet** |
 
 ### Tables
 
@@ -149,18 +154,15 @@ Identify:
 - **H2 outline** with keyword placement
 - **Keyword density** check (avoid stuffing)
 - **Structure** (tables, lists) for Featured Snippet opportunity; see **featured-snippet**
-- **Multimedia** checklist (images, alt, captions)
+- **Multimedia** checklist (images per **image-optimization**; tables, lists)
 
 ## Related Skills
 
-- **heading-structure**: H1–H6 hierarchy; this skill covers H2 keyword placement and quantity
-- **content-strategy**: Topic clusters, pillar + cluster; this skill covers on-page optimization
+- **heading-structure**: H1–H6 hierarchy; H2 keyword placement
+- **content-strategy**: Topic clusters, pillar + cluster
 - **keyword-research**: Target keywords inform placement
-- **article-page-generator**: Article structure, GEO (TL;DR, key takeaways, QAE)
-- **generative-engine-optimization**: GEO strategy; AI citation optimization
-- **featured-snippet**: Featured Snippet / Position Zero optimization; formats, structure
-- **serp-features**: SERP features overview; Featured Snippet in context
-- **toc-generator**: TOC built from H2–H3; supports snippet structure
-- **eeat-signals**: E-E-A-T signals; original images, trust
-- **image-optimization**: Full image SEO (alt, format, LCP, responsive, lazy loading, image sitemap)
+- **featured-snippet**: Snippet formats, structure; answer-first
+- **eeat-signals**: E-E-A-T; original images, trust
+- **image-optimization**: Alt, captions, format, LCP, responsive, image sitemap
+- **video-optimization**: Video SEO; VideoObject; video sitemap
 - **competitor-research**: Competitor length and structure as reference

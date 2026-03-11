@@ -174,7 +174,7 @@ Simplified overview; replaces standalone Search Console Insights. Data from GSC 
 - **Videos indexed** / **Videos not indexed**: Toggle off the other for clear view
 - **Why videos are not indexed**: Thumbnail blocked, invalid size/format, not in main content, etc.
 
-Skip if video SEO is not in roadmap.
+See **video-optimization** for video SEO; **youtube-seo** for YouTube.
 
 ### 5. XML Sitemaps
 
@@ -220,7 +220,7 @@ Enterprise: Glitches can block new URL crawling, cause hreflang confusion, delay
 
 | Type | Examples |
 |------|----------|
-| Content | Breadcrumbs, FAQ, Events, Videos, Job postings, Review snippets, Q&A, Discussion forums |
+| Content | Breadcrumbs, FAQ, Events, Videos (see **video-optimization**), Job postings, Review snippets, Q&A, Discussion forums |
 | Shopping | Product snippets, Merchant listings |
 | Other | Recipes, Datasets, Hotels, Vacation rentals, Profile pages, Practice problems, Math solvers, Image metadata |
 
@@ -296,14 +296,11 @@ date, query, page, country, device. Search appearance (AMP, blue link, rich resu
 
 ## Related Skills
 
-- **title-tag, meta-description, page-metadata**: Title, meta description, hreflang implementation
+- **title-tag, meta-description, page-metadata**: Title, meta description, hreflang
 - **xml-sitemap**: Fix sitemap errors
-- **indexing**: Resolve indexing issues (fix actions)
+- **indexing**: Resolve indexing issues
+- **core-web-vitals**: CWV optimization; fix LCP, INP, CLS
+- **mobile-friendly**: Mobile Usability report; mobile-first indexing
 - **schema-markup**: Fix structured data / rich results
 - **backlink-analysis**: When to disavow; backlink audit
-- **traffic-analysis**: Traffic sources, attribution
-- **analytics-tracking**: GA4 events (correlate with GSC)
-- **ai-traffic-tracking**: GA4 AI traffic tracking
-- **seo-monitoring**: Full SEO data analysis system, benchmark, article database
-- **serp-features**: SERP features; CTR benchmarks by feature type
-- **featured-snippet**: Featured Snippet optimization; snippet performance
+- **seo-monitoring**: Full SEO data analysis, benchmark

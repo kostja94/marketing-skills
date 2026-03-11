@@ -29,7 +29,7 @@ Guides E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) imple
 | **Placement** | End of article or sidebar; link to author page |
 | **Content** | Name, credentials, photo, brief expertise, link to author page |
 | **Author page** | Dedicated page per author; bio, other articles, social |
-| **Schema** | Person schema; link author to Article schema |
+| **Schema** | Person schema; link author to Article schema; see **entity-seo** |
 
 ## Citations & References
 
@@ -83,3 +83,4 @@ When content is AI-assisted: **human review** before publish; **verify facts** a
 - **backlink-analysis**: Authority assessment; E-E-A-T context
 - **customer-stories-page-generator**: Case studies as experience signal
 - **testimonials-generator**: User quotes as trust signal
+- **entity-seo**: Entity signals; Organization, Person schema; Knowledge Panel; E-E-A-T alignment

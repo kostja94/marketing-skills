@@ -47,8 +47,8 @@ See **grid** for equal-hierarchy display; **list** for text-heavy scan; **masonr
 
 ### SEO
 
-- **Content in DOM**: All carousel content must be in the initial HTML at page load. Google does not simulate clicks; content loaded via AJAX on slide change is not discoverable. Same applies as **tab-accordion**.
-- **Recommendation**: Server-render all slides in HTML; use CSS/JS only to show/hide.
+- **Content in DOM**: All carousel content must be in the initial HTML at page load. Google does not simulate clicks; content loaded via AJAX on slide change is not discoverable. Same as **tab-accordion**.
+- **Recommendation**: Server-render all slides in HTML; use CSS/JS only to show/hide. See **rendering-strategies**.
 
 ## Use Cases
 
@@ -68,3 +68,4 @@ See **grid** for equal-hierarchy display; **list** for text-heavy scan; **masonr
 - **testimonials-generator**: Testimonial carousel; testimonials as content
 - **showcase-page-generator**: Gallery format options (grid, masonry, carousel)
 - **tab-accordion**: Similar SEO requirement—content in DOM at load
+- **rendering-strategies**: SSR, SSG; content in initial HTML for crawlers

@@ -1,8 +1,8 @@
 ---
 name: site-crawlability
-description: When the user wants to improve crawlability, fix orphan pages, or optimize site structure for search engines. Also use when the user mentions "crawlability," "crawl budget," "orphan pages," "internal links," "site structure," "site crawlability," "infinite scroll," "pagination," "masonry SEO," or "content not indexed."
+description: When the user wants to improve crawlability, fix orphan pages, or optimize site structure for search engines. Also use when the user mentions "crawlability," "crawl budget," "orphan pages," "internal links," "site structure," "site crawlability," "infinite scroll," "pagination," "masonry SEO," "AI crawler optimization," "GPTBot crawlability," "ClaudeBot crawlability," or "content not indexed."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # SEO Technical: Crawlability
@@ -18,6 +18,8 @@ Guides crawlability improvements: robots, X-Robots-Tag, site structure, and inte
 - **Site architecture**: Logical hierarchy; pages within 3–4 clicks from homepage
 - **Orphan pages**: Add internal links to pages with no incoming links
 - **Pagination**: Prefer pagination over infinite scroll for crawlability
+- **Crawl budget**: Reduce waste on duplicates, redirects, low-value URLs (see below)
+- **AI crawler optimization**: SSR for critical content; URL management; reduce 404/redirect waste (see below)
 
 ## Initial Assessment
 
@@ -70,6 +72,42 @@ Identify:
 - Reference links to next/previous pages; `rel="prev"` / `rel="next"` where applicable
 - Avoid dynamic-only loading; ensure links in HTML
 
+### Crawl Budget
+
+Crawl budget is the number of URLs Googlebot will crawl on your site in a given period. Large sites (10,000+ pages) may waste up to 30% of crawl budget on duplicates, redirects, and low-value URLs.
+
+| Waste source | Fix |
+|--------------|-----|
+| **Duplicate URLs** | Canonical; consolidate; 301 to preferred |
+| **Redirect chains** | Point directly to final URL |
+| **Parameter proliferation** | Use `rel="canonical"`; consider `Clean-param` (Yandex) |
+| **Low-value pages** | noindex for thin/duplicate; see **indexing** |
+| **Crawl traps** | Avoid infinite URL generation (e.g. faceted filters) |
+
+**Sitemap**: Include only indexable, canonical URLs. See **xml-sitemap**, **canonical-tag**.
+
+### AI Crawler Optimization
+
+AI crawlers (GPTBot, ClaudeBot, PerplexityBot, etc.) now represent ~28% of Googlebot's crawl volume. Their behavior differs from search engines—optimizing for both improves GEO (AI search visibility). See **generative-engine-optimization** for GEO strategy. [Vercel/MERJ study](https://vercel.com/blog/the-rise-of-the-ai-crawler) (Dec 2024):
+
+| Factor | AI Crawlers (GPTBot, Claude) | Googlebot |
+|--------|------------------------------|-----------|
+| **JavaScript** | Do not execute JS; cannot read client-side rendered content | Full JS rendering |
+| **404 rate** | ~34% of fetches hit 404s | ~8% |
+| **Redirects** | ~14% of fetches follow redirects | ~1.5% |
+| **Content in initial HTML** | JSON, RSC in initial response can be indexed | Same |
+
+**Recommendations for AI crawlability:**
+
+| Practice | Action |
+|----------|--------|
+| **Server-side rendering** | Critical content in initial HTML. Use SSR, ISR, or SSG. See **rendering-strategies** for full guide. |
+| **URL management** | Keep sitemaps updated; use consistent URL patterns; avoid outdated /static/ assets that cause 404s. AI crawlers frequently hit outdated URLs. |
+| **Redirects** | Fix redirect chains; point directly to final URL. AI crawlers waste ~14% of fetches on redirects. |
+| **404 handling** | Fix broken links; remove or redirect outdated URLs. High 404 rates suggest AI crawlers may use stale URL lists. |
+
+**Reference**: [The rise of the AI crawler](https://vercel.com/blog/the-rise-of-the-ai-crawler) (Vercel, 2024)
+
 ## Common Issues
 
 | Issue | Check |
@@ -78,6 +116,7 @@ Identify:
 | Broken links | 301 or remove; audit internal and external |
 | Orphan pages | Add internal links from hub or navigation; see **internal-links** for strategy |
 | Infinite scroll | Provide paginated component pages; or replace with pagination for key content; see above |
+| AI crawlers missing content | Ensure critical content in initial HTML; see **rendering-strategies** |
 
 ## Output Format
 
@@ -85,14 +124,18 @@ Identify:
 - **Broken link audit**: 4xx links to fix
 - **Site structure**: Orphan pages, hierarchy
 - **Pagination**: Implementation for crawlable content
+- **AI crawler**: SSR/URL/redirect checks if GEO or AI visibility is a goal
 
 ## Related Skills
 
 - **seo-strategy**: SEO workflow; crawlability is Technical phase (P0)
 - **website-structure**: Plan which pages to build, page priority, structure planning; use before or alongside crawlability audit
-- **robots-txt**: robots.txt configuration
-- **xml-sitemap**: URL discovery
+- **robots-txt**: robots.txt configuration; AI crawler allow/block (GPTBot, ClaudeBot)
+- **xml-sitemap**: URL discovery; keep updated to reduce AI crawler 404s
 - **google-search-console**: Index status, Coverage report
 - **indexing**: Fix indexing issues
 - **internal-links**: Internal linking best practices
 - **masonry**: Masonry + infinite scroll has same crawl issue; layout skill references this for SEO
+- **generative-engine-optimization**: GEO strategy; AI search visibility; crawlability enables AI citation
+- **canonical-tag**: Canonical reduces crawl budget waste on duplicates
+- **rendering-strategies**: SSR, SSG, CSR; content in initial HTML; crawler visibility

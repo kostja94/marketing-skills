@@ -67,6 +67,7 @@ Identify:
 
 ## Related Skills
 
+- **signup-login-page-generator**: Full account signup → dedicated page preferred; popup for lightweight capture
 - **landing-page-generator**: Lead capture popups on landing pages; popup as alternative to full-page form
 - **newsletter-signup-generator**: Popup often contains signup form
 - **cta-generator**: Popup CTA design

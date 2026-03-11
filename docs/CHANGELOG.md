@@ -11,7 +11,41 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
-_None._
+### Added
+
+- **related-skills-rules.md** — General rules for Related Skills optimization (count limits, avoid cascading, when to include); replaces skill-cross-reference-guidelines.md; English; aligns with reference-rules, naming-rules, description-rules format.
+- **entity-seo** — Entity SEO: definition (entity vs keyword); Knowledge Graph; entity signals (brand, product, author); Schema (Organization, Person, @id); Knowledge Panel; GEO citation; multi-domain consistency; consolidates entity content from geo, schema, serp-features, multi-domain-brand-seo.
+- **video-optimization** — Video SEO for Google Search: discovery (HTML embed, video sitemap), indexing (watch page, thumbnail, stable URLs), VideoObject schema, video preview, key moments (Clip, SeekToAction), LIVE badge; YouTube prioritization in search; GEO citation; references Google Video SEO, Semrush YouTube SEO.
+- **rendering-strategies** — SSR, SSG, CSR, ISR, dynamic rendering; when to use each; crawler behavior (Googlebot, AI crawlers); component-level (tabs, carousel, hero, nav) content in initial HTML; consolidates rendering guidance from crawlability, geo, core-web-vitals, tab-accordion, carousel, hero, navigation-menu.
+- **core-web-vitals** — LCP, INP, CLS optimization; target thresholds; diagnosis tools (GSC, PageSpeed Insights); fixes for each metric.
+- **mobile-friendly** — Mobile-first indexing; mobile usability checklist (viewport, font size, touch targets); content parity; responsive vs separate URLs.
+- **site-crawlability** — AI Crawler Optimization section: GPTBot/ClaudeBot don't execute JS (SSR/SSG for critical content); high 404 (~34%) and redirect (~14%) rates; URL management, sitemap, redirect best practices. Reference: [Vercel/MERJ study](https://vercel.com/blog/the-rise-of-the-ai-crawler) (2024).
+
+### Changed
+
+- **mobile-friendly** — Add responsive design & mobile adaptation; viewport meta details (attributes, purpose); AMP section (status 2024–2025: no longer required; CWV alternative).
+- **image-optimization** — Add Captions section (figcaption, Featured Snippet, Image Pack); Data URI note; Preferred Image: thumbnail next to title/description in search results; Google Discover specs (1200px, 16:9); strengthen cross-refs.
+- **content-optimization** — Simplify Images to reference image-optimization; remove duplicate alt/captions; add cross-ref.
+- **featured-snippet, serp-features, visual-content** — Strengthen image-optimization cross-refs; captions for snippet/Image Pack.
+- **site-crawlability** — Add Crawl Budget section: reduce waste on duplicates, redirects, parameter proliferation, crawl traps.
+- **canonical-tag** — Add HTTPS & Security section: SSL/TLS, 301 redirect, mixed content, HSTS.
+- **indexing** — Add Soft-404: page returns 200 but content indicates not found; fix with 404 status or real content.
+- **page-metadata** — Add mobile-friendly cross-ref; viewport required for mobile; rendering-strategies for SPAs.
+- **tab-accordion, carousel, hero, navigation-menu** — Add rendering-strategies cross-ref; content in initial HTML.
+- **site-crawlability, geo, core-web-vitals, robots** — Add rendering-strategies cross-ref; streamline SSR/SSG content.
+- **robots-txt** — Expand AI Crawler Strategy: Bytespider, Meta-ExternalAgent, AppleBot; robots.txt effective for all measured crawlers (Vercel); allow vs disallow guidance; link to site-crawlability for AI optimization.
+- **generative-engine-optimization** — Add Technical Crawlability (AI Crawlers) section: JS rendering, 404/redirect rates; cross-ref site-crawlability, robots-txt.
+- **youtube-seo** — Add YouTube in Google Search & GEO section: Google prioritization, AI Overview citations (+25.21%), long-form dominance; cross-ref video-optimization, generative-engine-optimization.
+- **geo** — Add YouTube as GEO distribution: Google prioritizes YouTube; YouTube + Reddit ~78% of social citations; youtube-seo in Related Skills.
+- **serp-features, featured-snippet, schema-markup, content-optimization, xml-sitemap, google-search-console** — Add video-optimization cross-refs; Video SERP feature notes YouTube prioritization.
+- **geo, schema-markup, serp-features, multi-domain-brand-seo, eeat-signals, faq-page-generator, alternatives-page-generator, github-seo, article-page-generator** — Add entity-seo cross-refs; condense entity content to reference entity-seo.
+- **Related Skills optimization** — Reduce cross-references per [reference-rules §7](reference-rules.md#7-related-skills-optimization): landing-page 31→12; geo 16→10; entity-seo 11→6; image-optimization 13→8; content-optimization 12→8; serp-features, schema-markup, website-structure, article-page, google-search-console, metadata, visual-content, video-optimization streamlined.
+
+## [2025-03-11] v2.3.12
+
+### Changed
+
+- **Docs merge** — Reduced 14 docs to 7: skill-authoring (skills-guide + naming-rules + description-rules + file-naming); reference-rules (+ related-skills-rules §7); skills-reference (skills-list + page-taxonomy + skills-relationships); usage (where-to-use-skills + use-cases-and-roadmap). Deleted docs-optimization-plan, docs-merge-plan. Updated all internal links.
 
 ## [2026-03-07] v2.3.11
 

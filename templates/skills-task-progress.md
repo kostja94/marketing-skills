@@ -82,7 +82,7 @@
 
 ## 5. Pages
 
-Add rows for pages that exist or need creation. Delete rows for page types you don't need. See [skills-list §Pages](https://github.com/kostja94/marketing-skills/blob/main/docs/skills-list.md#pages) for full taxonomy.
+Add rows for pages that exist or need creation. Delete rows for page types you don't need. See [skills-reference §Pages](https://github.com/kostja94/marketing-skills/blob/main/docs/skills-reference.md#pages--quick-mapping) for full taxonomy.
 
 **Brand**
 

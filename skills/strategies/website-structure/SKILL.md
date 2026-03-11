@@ -23,7 +23,7 @@ Identify:
 
 ## Page Priority Framework
 
-Plan pages by priority for development scheduling. See [page-taxonomy](../../../docs/page-taxonomy.md) for full page types and website-type mapping.
+Plan pages by priority for development scheduling. See [skills-reference §2 Page Taxonomy](../../../docs/skills-reference.md#2-page-taxonomy) for full page types and website-type mapping.
 
 | Priority | Pages | Notes |
 |----------|-------|-------|
@@ -44,7 +44,7 @@ Applicable to SaaS, tools, and content sites. Adapt by removing unused nodes (e.
 | **Partnership** | /affiliate, /startups, /ambassadors | affiliate-page-generator, landing-page-generator |
 | **Legal** | /terms, /privacy, /careers | terms-page-generator, privacy-page-generator, careers-page-generator |
 | **Competitor** | /alternatives, /compare, /migrate | alternatives-page-generator, migration-page-generator |
-| **Standalone** | /dashboard, /login, /docs, /api, /status, /support | docs-page-generator, api-page-generator, status-page-generator |
+| **Standalone** | /dashboard, /login, /signup, /docs, /api, /status, /support | signup-login-page-generator, docs-page-generator, api-page-generator, status-page-generator |
 
 ## Growth Strategy → Structure Mapping
 
@@ -68,7 +68,7 @@ When planning for multiple products or brands, see **domain-architecture** for s
 
 ## Planning Workflow
 
-1. **Choose template**: Start from generic structure; map to [page-taxonomy](../../../docs/page-taxonomy.md) website types
+1. **Choose template**: Start from generic structure; map to [skills-reference §2](../../../docs/skills-reference.md#2-page-taxonomy) website types
 2. **Trim modules**: Remove irrelevant nodes (e.g. no API → drop /api, /docs)
 3. **Add specifics**: Industry pages, region, product variants
 4. **Assign URLs**: Per node; follow **url-structure** (lowercase, hyphens, short, keyword-rich)
@@ -96,28 +96,24 @@ Common modules to combine: Headline, Subheadline, Primary CTA, Supporting Image/
 
 - **Page list** with priority (Must Have / Great to Have / Optional)
 - **URL structure** (paths per section)
-- **Website-type fit** (which pages apply per [page-taxonomy](../../../docs/page-taxonomy.md))
+- **Website-type fit** (which pages apply per [skills-reference §2](../../../docs/skills-reference.md#2-page-taxonomy))
 - **Growth mapping** (which paths support which channels)
 - **Next steps**: url-structure for URL rules; xml-sitemap for submission; site-crawlability for audit
 
 ## References
 
 - [Website structure SEO guide](https://alignify.co/zh/seo/website-structure) — Alignify: structure importance, page priority, generic template, planning workflow, growth mapping, homepage modules
-- **page-taxonomy** (docs/page-taxonomy.md) — Full page types, website-type matrix, core vs extended; use for page selection
+- **skills-reference §2** (docs/skills-reference.md#2-page-taxonomy) — Full page types, website-type matrix, core vs extended; use for page selection
 
 ## Related Skills
 
-- **seo-strategy**: SEO workflow order, prioritization; structure planning fits before Technical phase
-- **domain-selection**: Initial domain choice (Brand/PMD/EMD, TLD); do before structure when choosing domain
-- **domain-architecture**: Subfolder vs subdomain vs independent when multiple products; do before structure if domain decision pending
+- **seo-strategy**: SEO workflow order; structure planning fits before Technical phase
+- **domain-selection**: Initial domain choice; do before structure when choosing domain
+- **domain-architecture**: Subfolder vs subdomain vs independent; do before structure if domain decision pending
 - **url-structure**: URL optimization, hierarchy, slugs; apply after structure is defined
 - **site-crawlability**: Crawlability, orphan pages, redirects; audit existing structure
 - **internal-links**: Link strategy, hub-spoke; implement after pages exist
 - **xml-sitemap**: Sitemap creation; include planned URLs
 - **breadcrumb-generator**: Breadcrumb for hierarchy; large sites, e-commerce
 - **navigation-menu-generator**: Nav design; primary, footer, mobile
-- **category-page-generator**: Category/hub pages; content-heavy, e-commerce
 - **content-strategy**: Content clusters, pillar pages; complements structure planning
-- **homepage-generator**: Homepage structure and modules
-- **pricing-page-generator**: Pricing visibility (public vs contact-sales); marketing nav vs in-app billing
-- **localization-strategy**: Multi-language structure; subdomain vs subfolder

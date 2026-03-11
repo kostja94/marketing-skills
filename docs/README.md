@@ -6,11 +6,8 @@ Reference docs for marketing-skills. For overview, installation, and usage → [
 
 | Doc | Purpose |
 |-----|---------|
-| [skills-list.md](skills-list.md) | Full list of 104 skills; page taxonomy (classification, intent, best practices) |
-| [skills-relationships.md](skills-relationships.md) | How skills work together — 5 ASCII trees (SEO, SERP, Pages, Growth, Analytics) |
-| [page-taxonomy.md](page-taxonomy.md) | Expanded page taxonomy with Notes and Best Practices — use for navigation design, sitemaps |
-| [where-to-use-skills.md](where-to-use-skills.md) | Where to use skills — native platforms (Cursor, Claude Code, Codex, OpenCode, Gemini CLI, GitHub Copilot, Windsurf, Cline, Base44, Trae); OpenClaw (dedicated section); AGENTS.md (Lovable, Replit); paste (v0, Bolt, Medo, ChatGPT, Gemini); AMP, KiloCode, Roo, Goose; install commands, path reference, Lovable example |
-| [use-cases-and-roadmap.md](use-cases-and-roadmap.md) | Use cases (personal site, product website, vibe coding, partnership), content roadmap, non-website agent future |
+| [skills-reference.md](skills-reference.md) | Full skill list, page taxonomy, dependency trees |
+| [usage.md](usage.md) | Installation, platforms, use cases, roadmap |
 | [CHANGELOG.md](CHANGELOG.md) | What changed, when |
 | [SECURITY.md](SECURITY.md) | Security audit, prompt injection checks |
 
@@ -18,10 +15,7 @@ Reference docs for marketing-skills. For overview, installation, and usage → [
 
 | Doc | Purpose |
 |-----|---------|
-| [skills-guide.md](skills-guide.md) | Rules, specs, skill authoring — output structure, quality checklist |
-| [naming-rules.md](naming-rules.md) | Skill naming specification (patterns, spec compliance) — use when creating or renaming skills |
-| [description-rules.md](description-rules.md) | Description optimization guidelines (keywords, structure) — use when writing `description` field |
-| [reference-rules.md](reference-rules.md) | Internal/external references; product/website examples (quantity, disclosure, neutral language) — use when adding links or product examples |
-| [file-naming.md](file-naming.md) | File and folder naming conventions; why README, SKILL, LICENSE use uppercase |
+| [skill-authoring.md](skill-authoring.md) | Rules, specs, skill authoring — format, naming, description, quality |
+| [reference-rules.md](reference-rules.md) | Internal/external refs, Related Skills optimization, product examples |
 
-Referenced by [skills-guide](skills-guide.md) and [CONTRIBUTING](../CONTRIBUTING.md).
+Referenced by [skill-authoring](skill-authoring.md) and [CONTRIBUTING](../CONTRIBUTING.md).

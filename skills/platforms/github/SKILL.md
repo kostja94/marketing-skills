@@ -88,7 +88,7 @@ Guides GitHub for parasite SEO, GEO (AI citation), and curated list creation. Gi
 | **Data inclusion** | Stats, numbers; cited content ~40% more likely to include data |
 | **Freshness** | Update regularly; ~76% of cited content updated within 30 days |
 
-**Entity signals**: Clear project name, author, maintainer; consistent identity.
+**Entity signals**: Clear project name, author, maintainer; consistent identity. See **entity-seo**.
 
 ### README Checklist
 
@@ -142,7 +142,7 @@ Guides GitHub for parasite SEO, GEO (AI citation), and curated list creation. Gi
 |--------|----------|
 | **README clarity** | Clear, citable paragraphs; direct answers |
 | **Documentation** | Structured; AI tools parse well |
-| **Entity signals** | Clear project, author identity |
+| **Entity signals** | Clear project, author identity; see **entity-seo** |
 | **Consistency** | Active maintenance; engagement (stars, forks, watchers) |
 
 ## Curated / Navigation Lists (Awesome-Style)
@@ -218,3 +218,4 @@ Guides GitHub for parasite SEO, GEO (AI citation), and curated list creation. Gi
 - **generative-engine-optimization**: GEO strategy; GitHub for AI citation
 - **directory-submission**: Directory and curated list submission; awesome lists as curated lists
 - **link-building**: GitHub as link acquisition; repos, gists, awesome lists
+- **entity-seo**: Entity signals (project, author); Organization, Person

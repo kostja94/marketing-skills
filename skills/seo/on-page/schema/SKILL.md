@@ -54,13 +54,13 @@ Guides implementation of Schema.org structured data (JSON-LD) for rich snippets,
 | **AggregateRating, Review** | Reviews / Stars | Star ratings |
 | **HowTo** | Featured Snippet (list) | Step-based snippet; desktop support; mobile may be limited |
 | **Article** | In-Depth Articles, Snippet | Article rich result |
-| **VideoObject** | Video | Video thumbnail |
+| **VideoObject** | Video | Video thumbnail; see **video-optimization** |
 | **Product, Offer** | Shopping, Product | Product/shopping results |
 | **Recipe** | Recipe | Recipe rich result |
 | **JobPosting** | Google Jobs | Job listings |
 | **Event** | Event | Event rich result |
 | **WebSite + SearchAction** | Sitelinks searchbox | Site links for brand queries |
-| **Organization, Person** | Knowledge Panel | Entity info (requires authoritative sources) |
+| **Organization, Person** | Knowledge Panel | Entity info; see **entity-seo** |
 
 **Workflow**: 1) Use **serp-features** to identify target SERP feature; 2) Look up schema type in this table; 3) Implement and validate with Rich Results Test.
 
@@ -130,7 +130,7 @@ Identify:
 | **FAQ page, product FAQ, support FAQ** | **FAQPage** | Question + acceptedAnswer pairs. Triggers PAA-style results. |
 | **Tutorial, how-to guide, step-by-step** | **HowTo** | Steps, tools, time. Note: Google may have deprecated rich results; Bing/AI may still use. |
 | **News article, press release** | **NewsArticle** | Use instead of Article for news. |
-| **Video page, podcast episode** | **VideoObject** / **PodcastEpisode** | For video/audio content. |
+| **Video page, podcast episode** | **VideoObject** / **PodcastEpisode** | For video/audio content. See **video-optimization** for VideoObject, thumbnail, key moments. |
 
 **Examples:**
 - **AI meal planner** (e.g., generates weekly meal plans with recipes) → Add **Recipe** schema to each recipe/meal page; **Article** or **WebPage** for landing pages
@@ -148,7 +148,7 @@ Identify:
 | **Completeness** | Include all required properties per type |
 | **Most specific type** | Use NewsArticle over Article when applicable |
 | **JSON-LD** | Preferred format; place in `<script type="application/ld+json">` |
-| **@id for entities** | Use @id for Organization, Person to enable entity linking across pages |
+| **@id for entities** | Use @id for Organization, Person to enable entity linking; see **entity-seo** |
 | **Phased implementation** | Add required properties first; then optional for optimization |
 | **Validation** | Test with Rich Results Test and Schema Markup Validator |
 | **inLanguage (multilingual)** | Add `"inLanguage": "en-US"` (IETF BCP 47) to match hreflang; localize names, descriptions, FAQs for rich snippets per locale |
@@ -237,12 +237,10 @@ export const metadata = {
 
 ## Related Skills
 
-- **article-page-generator**: Article page structure; Article/BlogPosting/NewsArticle schema implementation
+- **serp-features**: **Strongly related**—schema maps to SERP features; see mapping table above
 - **faq-page-generator**: FAQPage schema; FAQ content structure
-- **title-tag, meta-description, page-metadata**: Metadata complements schema
-- **heading-structure**: Article schema uses headline (often H1)
-- **indexing**: Google Indexing API for JobPosting, BroadcastEvent
-- **generative-engine-optimization**: GEO strategy and AI search visibility
 - **breadcrumb-generator**: BreadcrumbList schema implementation
-- **serp-features**: **Strongly related**—schema maps to SERP features; use with schema-markup when targeting rich results
-- **featured-snippet**: Featured Snippet optimization; FAQPage, HowTo for snippets
+- **featured-snippet**: FAQPage, HowTo for snippets
+- **video-optimization**: VideoObject, video sitemap, thumbnail, key moments
+- **entity-seo**: Organization, Person for entity recognition; @id; Knowledge Panel
+- **indexing**: Google Indexing API for JobPosting, BroadcastEvent

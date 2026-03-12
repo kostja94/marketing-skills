@@ -114,6 +114,7 @@ AI-generated answer blocks at the top of search results. These are **SERP featur
 | Feature | Description |
 |---------|-------------|
 | **Related Searches** | Alternative queries at bottom |
+| **People Also Search For (PASF)** | Related queries after user bounces from result; 6-8 suggestions; different from PAA; comprehensive content reduces bounce. See **faq-page-generator** |
 
 ## Optimization by Feature
 

@@ -171,3 +171,4 @@ Keyword research serves both SEO and Google Ads. Align both channels to avoid du
 - **serp-features**: SERP features in keyword screening; PAA, Featured Snippet
 - **featured-snippet**: Snippet-worthy query targeting
 - **competitor-research**: Competitor keyword/topic analysis; reverse engineering
+- **faq-page-generator**: PAA questions to FAQ sections; question-based keyword to FAQ content

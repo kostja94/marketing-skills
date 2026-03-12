@@ -152,6 +152,7 @@ Pages with only a title, one paragraph, and swapped city names will not rank and
 - **content-strategy**: Content clusters, pillar pages; programmatic pages as cluster nodes
 - **url-structure**: URL hierarchy for programmatic pages
 - **schema-markup**: Structured data (Product, Place, FAQ, ItemList)
+- **faq-page-generator**: FAQ as programmatic page type; FAQPage schema; Q&A template structure
 - **internal-links**: Linking programmatic pages
 - **xml-sitemap**: Sitemap segmentation for large programmatic sites
 - **canonical-tag**: Duplicate/thin content handling

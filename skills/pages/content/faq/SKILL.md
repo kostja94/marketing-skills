@@ -1,109 +1,149 @@
 ---
 name: faq-page-generator
-description: When the user wants to create, optimize, or audit FAQ page content. Also use when the user mentions "FAQ page," "frequently asked questions," "help page," "Q&A page," "FAQ schema," "FAQ section," "common questions," "FAQ SEO," or "accordion FAQ."
+description: When the user wants to create, optimize, or audit FAQ page content. Also use when the user mentions "FAQ page," "frequently asked questions," "help page," "Q&A page," "FAQ schema," "FAQ section," "common questions," "FAQ SEO," "accordion FAQ," "People Also Ask," "PAA," "People Also Search For," "PASF," "FAQ rich results," or "FAQ for GEO."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Pages: FAQ
 
-Guides FAQ page content, structure, and optimization for SEO and conversion.
+Guides FAQ page content, structure, and optimization for SEO, conversion, and rich results (PAA, Featured Snippet, GEO, PASF). FAQ content from real user questions and rich-result targeting.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
-## Initial Assessment
+## FAQ and Rich Results
 
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for objections, product details, and customer language.
+| Feature | Relationship | Optimization |
+|---------|--------------|---------------|
+| **People Also Ask (PAA)** | FAQ schema triggers PAA-style dropdowns; PAA questions = FAQ source | FAQPage schema; match question phrasing; "how/what/why" format. PAA ~51% of searches. See **serp-features** |
+| **Featured Snippet** | Answers extracted for position zero | 40-60 words; answer-first; H2/H3; paragraph (70%), list (19%), table (6%). See **featured-snippet** |
+| **GEO / AI Overviews** | AI cites FAQ blocks; FAQ most cited content type (3-7x more citations) | Self-contained; 40-80 words; entity signals; content in initial HTML. See **geo** |
+| **People Also Search For (PASF)** | Appears when user bounces; comprehensive FAQ reduces bounce | Match intent; cover related questions. PASF shows 6-8 related queries. |
+| **FAQ rich result** | FAQPage schema; max 2 dropdowns per SERP | Restricted to government/health in many regions; schema still helps PAA, voice, AI |
 
-Identify:
-1. **Source of questions**: Support tickets, sales, chat, surveys
-2. **Conversion focus**: Objection-handling, decision-support
-3. **Placement**: Dedicated page, in-page sections, or both
+**PAA vs PASF**: PAA = expandable question boxes (same SERP). PASF = related queries after bounce. Both benefit from comprehensive, intent-matching content.
+
+## Content Sources
+
+**Real user**: Support tickets, chat logs, sales objections, surveys, reviews.
+
+**Rich-result purpose**: PAA (search keyword, extract questions), AnswerThePublic, AlsoAsked, Featured Snippet queries, competitor FAQ, keyword research, GEO citation data.
+
+**Reverse flow**: Use PAA, Featured Snippet, GSC Search queries to find questions you rank for but don't answer.
+
+## Content Structure
+
+| Approach | When | Example |
+|----------|------|---------|
+| **Page topic** | In-page section | 3-8 questions about that page |
+| **Theme** | Dedicated page | Group by Billing, Features, Support, Compliance |
+| **Logical flow** | Decision funnel | Awareness -> Consideration -> Purchase -> Support |
+| **Objection handling** | Conversion | "Is it worth it?" "Can I cancel?" |
+
+**Page-specific**: LP (objection handling); pricing (billing, plans, enterprise); alternatives (migration, comparison); category (materials, recommendations); tools (what is X, how calculated). See **landing-page-generator**, **pricing-page-generator**, **alternatives-page-generator**, **category-pages**, **tools-page-generator**.
+
+## Dedicated FAQ Page vs In-Page FAQ Section
+
+| Dimension | Dedicated Page | In-Page Section |
+|-----------|----------------|-----------------|
+| **Placement** | /faq, /help, standalone URL | Within LP, pricing, blog, product page |
+| **Count** | 5-30 (5-10 optimal) | 3-8 |
+| **Structure** | Categories, TOC, navigation | Inline; after main content |
+| **Schema** | One FAQPage per page | Same; schema matches visible Q&A |
+| **When to use** | Many questions; support/help hub; central FAQ | Objection handling; page-specific long-tail; conversion |
+| **Related pages** | contact-page, docs-page, website-structure | landing-page, pricing-page, blog, alternatives, category-pages, tools-page |
+
+**Shared rules**: Word count, content rules, format, and schema apply to both. Choose placement based on question volume and page purpose.
+
+## Accordion: Crawlable?
+
+**Yes.** Google indexes accordion content fully; hidden content receives full weight.
+
+**Requirements**: Content in DOM at load (no AJAX on click); use `<details>`/`<summary>` or server-rendered HTML; first item expanded. Avoid `display: none` for primary content. See **tab-accordion**, **rendering-strategies**.
+
+**Nuance**: Some tests suggest visible content outperforms hidden. Use accordion for secondary FAQ; keep primary Q&A visible.
 
 ## Best Practices
 
-### Word Count & Answer Length
+### Word Count
 
-| Context | Recommended | Notes |
-|---------|-------------|-------|
-| **Featured Snippet (paragraph)** | 40–60 words | 45 words most common; ~70% of snippets are paragraphs; see **featured-snippet** |
-| **First sentence** | 40–50 words | Answer immediately; Google pulls from first lines |
-| **Full answer** | 40–100 words | GEO: keep under 100 words per answer for AI citation |
-| **Complex questions** | Flexible | Prioritize clarity over rigid count; some need more |
+| Element | Range | Notes |
+|---------|-------|------|
+| **Answer** | 40-80 words | Sweet spot for AI; under 40 = incomplete; over 80 = cut off |
+| **Featured Snippet** | 40-60 words | 45 words most common |
+| **First sentence** | 40-50 words | Answer immediately |
+| **Sentences** | 2-4 | Standalone, comprehensive |
 
-**Principle**: Start with direct answer in 40–60 words; add brief context. Quality and completeness matter more than strict length.
+### Content Rules
+
+- **Genuine questions**: PAA, AnswerThePublic, support; no invented marketing questions
+- **Standalone answers**: Each answer makes sense alone; AI extracts individual pairs
+- **Content parity**: Schema must exactly match visible content; hidden schema = violation
+- **No duplicates**: Each Q&A on one page; choose most authoritative
+- **Topical focus**: FAQs match page topic
+- **Inverted pyramid**: Most important first; data, numbers, actionable advice
+- **Keywords**: 1-2 times naturally; no stuffing
+- **Quality over quantity**: 5-10 excellent beat 50 thin
+- **Update quarterly**: Add questions from emerging trends
+
+### Format
+
+- **Schema**: JSON-LD; one FAQPage per page
+- **Answer HTML** (in schema `text`): `<a>`, `<strong>`, `<em>`, `<p>`, `<br>`, `<ol>`; use sparingly
+- **Structure**: H2/H3 per question; semantic HTML; answer-first under heading
+- **Validation**: Google Rich Results Test, Schema.org Validator, GSC
 
 ### Number of Questions
 
 | Placement | Count | Notes |
-|-----------|-------|-------|
-| **FAQ section** (in-page) | 3–8 | Small set; directly related to page topic; catches long-tail |
-| **Dedicated FAQ page** | 5–30 | 10–30 genuine questions; group by category |
-| **Schema minimum** | 2+ | Single Q&A technically valid but rarely shown |
-| **Schema per page** | 5–8 optimal | Balance value vs. dilution; quality over quantity |
-| **Google display** | Max 2 per result | Google shows max 2 FAQ dropdowns per SERP snippet (since 2021); see **serp-features** |
+|-----------|-------|------|
+| **In-page section** | 3-8 | Directly related to page |
+| **Dedicated page** | 5-10 optimal | 10-30 if well-crafted; quality over quantity |
+| **Schema minimum** | 2+ | Single Q&A rarely shown |
+| **Google display** | Max 2 per result | See **serp-features** |
 
-**Note**: FAQ rich results are now restricted to well-known government/health sites in many regions. Schema still helps AI Overviews, PAA, and voice search.
+### Question and Answer
 
-### Question Best Practices
+**Question**: Match how users ask ("How do I return?" not "Return Policy"); target "how/what/why"; H2/H3; avoid promotional or invented.
 
-- **Source**: Support tickets, chat logs, sales objections, PAA, AnswerThePublic, Semrush
-- **Phrasing**: Match how users ask—"How do I return an item?" not "Return Policy"
-- **Intent**: Target "how," "what," "why" queries; align with search intent
-- **Structure**: Use H2/H3 for each question; helps extraction
-- **Avoid**: Promotional, irrelevant, or invented questions
-- **Conversion**: Address objections; move toward purchase or next step
-
-### Answer Best Practices
-
-- **Answer-first**: Place direct answer in first 1–2 sentences (40–60 words)
-- **Format**: Paragraph (70%), list (19%), table (6%)—choose by content type
-- **Scannable**: Bullets, numbered lists, bold for key terms
-- **Self-contained**: Each answer readable alone (GEO: AI cites discrete blocks)
-- **Conversational**: Human-friendly; no jargon
-- **Complete**: No need for follow-up to understand
-- **Entity signals**: Clear brand/product names for GEO citation; see **entity-seo**
+**Answer**: Answer-first in 40-60 words; paragraph, list, or table by content type; scannable (bullets, bold); self-contained; entity signals. See **entity-seo**.
 
 ### Organization
 
-- **Categories**: Group by topic (Billing, Features, Support, Compliance)
-- **Hierarchy**: Clear sections, logical order
-- **Navigation**: Table of contents, accordions, jump links, search bar; see **tab-accordion** for accordion SEO and implementation
-- **Maintenance**: Audit quarterly; rewrite underperforming answers
+Group by topic; clear hierarchy; TOC, accordions, jump links; audit quarterly.
 
-### SEO & GEO
+## Initial Assessment
 
-- **Keywords**: Natural inclusion in Q&A
-- **Title/meta**: Optimized for FAQ queries
-- **Schema**: FAQPage JSON-LD; validate with Rich Results Test
-- **Schema = visible**: Markup must match on-page content exactly
-- **GEO**: Atomic answer blocks; definitions, lists, stats; under 100 words per answer
+**Check project context** (`.cursor/project-context.md` or `.claude/project-context.md`) for objections, product details, customer language.
 
-### Why It Matters
+Identify: (1) Source of questions (2) Conversion focus (3) Placement (dedicated vs in-page).
+
+## Why It Matters
 
 - Reduces support load
-- Targets long-tail and voice search
-- Can convert 2×+ higher than standard content
-- Builds trust; creates featured snippet opportunities; see **featured-snippet**, **serp-features**
-- FAQ schema supports AI Overviews, PAA, voice search even when rich results don't display (20–30% CTR lift when they do)
+- Long-tail and voice search
+- Category pages: +157% conversion when FAQ used
+- 20-30% CTR lift when rich results display
+- 3-7x more AI citations with optimized FAQ
 
 ## Output Format
 
-- **Question list** (from research)
-- **Category** structure
-- **Answer** format and tone
-- **Schema** (FAQPage)
-- **SEO** metadata
+- Question list (from research)
+- Category structure
+- Answer format and tone
+- Schema (FAQPage)
+- SEO metadata
 
 ## Related Skills
 
-- **tab-accordion**: Accordion implementation, SEO for expandable content, details/summary HTML
-- **landing-page-generator**: FAQ section for LP objection handling (step 4); reuse conversion Q&A
-- **pricing-page-generator**: FAQ often addresses pricing objections
-- **contact-page-generator**: FAQ reduces contact form volume
-- **schema-markup**: FAQPage schema
-- **title-tag, meta-description, page-metadata**: FAQ page metadata
-- **generative-engine-optimization**: GEO for AI citation; FAQ content structure for ChatGPT, Perplexity, AI Overviews
-- **featured-snippet**: Featured Snippet optimization; answer length, formats
-- **serp-features**: SERP features; PAA, FAQ display limits
-- **entity-seo**: Entity signals for GEO citation
+- **tab-accordion**: Accordion implementation; details/summary
+- **serp-features**: PAA, Featured Snippet, PASF, FAQ limits
+- **featured-snippet**: Answer length, position zero
+- **geo**: GEO strategy; citable blocks; AI crawlers
+- **schema-markup**: FAQPage implementation
+- **keyword-research**: PAA to FAQ; question keywords
+- **landing-page-generator**, **pricing-page-generator**, **alternatives-page-generator**, **category-pages**, **tools-page-generator**: In-page FAQ section
+- **contact-page-generator**, **docs-page-generator**, **website-structure**: Dedicated FAQ page; FAQ reduces contact form volume
+- **title-tag, meta-description, page-metadata**: Metadata
+- **entity-seo**: Entity signals for GEO
+- **rendering-strategies**: Content in initial HTML

@@ -115,3 +115,4 @@ ChatGPT traffic converts ~6x higher than Google search. AI tool users often have
 - **entity-seo**: Entity signals; Organization, Person schema; GEO citation
 - **article-content**: Article body creation; TL;DR, Key Takeaways, QAE pattern
 - **article-page-generator**: Article page structure; schema; layout
+- **faq-page-generator**: FAQ structure for GEO; citable Q&A blocks; content in initial HTML

@@ -1,6 +1,6 @@
 ---
 name: keyword-research
-description: When the user wants to research keywords, find target keywords, or analyze search intent. Also use when the user mentions "keyword research," "keyword tool," "target keywords," "search volume," "search intent," "keyword difficulty," "topical map," "keyword clustering," or "People Also Ask."
+description: When the user wants to research keywords, find target keywords, or analyze search intent. Also use when the user mentions "keyword research," "keyword tool," "target keywords," "search volume," "search intent," "keyword difficulty," "topical map," "keyword clustering," "People Also Ask," "Google autocomplete," "autocomplete keywords," or "alphabet method."
 metadata:
   version: 1.3.0
 ---
@@ -33,6 +33,26 @@ Identify:
 | **Google PAA** | People Also Ask and Related Searches; high-value signals from real user behavior |
 | **Extract from article** | When auditing existing content: extract seed keywords from title, H1, H2s, meta keywords, first 100 words; then search `"[primary keyword]"` or `"[primary keyword] related keywords"` for opportunities; use `"[primary keyword]" site:competitor.com` if competitors known |
 
+### Google Autocomplete (Long-Tail Discovery)
+
+Google autocomplete reflects real user searches; suggestions only appear if queries have actual traffic. Free; often uncovers low-volume long-tail that keyword tools miss. ~70% of search traffic is long-tail; lower competition, higher conversion.
+
+**Alphabet method** (seed + space + letter):
+- Type seed keyword + space + each letter: `keyword a`, `keyword b`, ... `keyword z`
+- Record relevant suggestions; repeat with numbers 0-9
+- Example: `SEO a` -> "SEO audit," "SEO agency"; `SEO b` -> "SEO basics," "SEO best practices"
+
+**Position variants** (seed in different positions):
+- **Prefix**: `a keyword`, `b keyword` (discover what users add before)
+- **Suffix**: `keyword a`, `keyword b` (most common; alphabet method)
+- **Middle**: `how to keyword a`, `best keyword for` (question + modifier combos)
+
+**Question modifiers**:
+- `how to keyword`, `what is keyword`, `why keyword`, `when to keyword`, `keyword vs`
+- `keyword for beginners`, `keyword for small business`, `keyword without`
+
+**Why it works**: Keyword tools filter low-volume terms; autocomplete only shows queries with real traffic. Use with PAA and Related Searches for full coverage. Categorize results by intent (informational, commercial, transactional).
+
 ### Incremental Discovery
 
 - **User feedback**: Support, community, reviews, NPS—high-frequency questions = unmet search demand
@@ -62,6 +82,7 @@ Identify:
 
 ## Long-Tail Expansion
 
+- **Google Autocomplete**: Alphabet method, position variants, question modifiers; see above. Primary source for long-tail.
 - **Intent modifiers**: Core + "how," "best," "vs," "compare," "price"
 - **Question words**: "how to," "what is," "why," "when"
 - **Functional modifiers**: Core + "-er/-or" (e.g., "image optimizer" for tool-type queries); often higher conversion

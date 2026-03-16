@@ -41,6 +41,11 @@ Identify:
 - **Build trust**: Social links, testimonials, contact details, certifications
 - **Visible placement**: About in main nav, not buried in footer
 
+### Schema (AboutPage, Not Organization)
+
+- **AboutPage** schema: Use on About page—describes page content (headline, description, author, about). Helps search engines understand this page's purpose.
+- **Organization** schema: Place on **homepage or root layout**, not About. Organization is entity-level (brand that owns the site); AboutPage is page-level. See **schema-markup** for placement.
+
 ### Why It Matters
 
 - One of the most-visited pages
@@ -63,4 +68,5 @@ Identify:
 - **contact-page-generator**: Contact info on About
 - **customer-stories-page-generator**: Social proof complements About
 - **title-tag, meta-description, page-metadata**: About page metadata
+- **schema-markup**: AboutPage schema for About; Organization goes on homepage/root layout
 - **brand-protection**: Official domain and identity declaration; helps users distinguish from impersonation sites

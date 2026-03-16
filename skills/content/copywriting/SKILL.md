@@ -1,6 +1,6 @@
 ---
 name: copywriting
-description: When the user wants to write or optimize marketing copy—headlines, CTAs, ad copy, landing page copy, email copy. Also use when the user mentions "copywriting," "headline," "CTA copy," "ad copy," "landing page copy," "sales copy," "conversion copy," "PAS," "AIDA," "BAB," or "copy formula." For article body content (long-form blog posts, guides), use article-content.
+description: When the user wants to write or optimize marketing copy—headlines, CTAs, ad copy, landing page copy, email copy. Also use when the user mentions "copywriting," "headline," "CTA copy," "ad copy," "landing page copy," "sales copy," "conversion copy," "PAS," "AIDA," "BAB," "copy formula," or "differentiation." For article body content (long-form blog posts, guides), use article-content.
 metadata:
   version: 1.1.0
 ---
@@ -61,6 +61,8 @@ Identify:
 | **The [adjective] [noun] for [audience]** | "The Ultimate Guide for SaaS Founders" |
 
 **Rules**: Front-load keywords; keep under 60 chars for SERP; avoid clickbait; match ad-to-page alignment.
+
+**Information gain (differentiation)**: Copy that restates what competitors say adds zero value. Lead with unique angle, proprietary data, or contrarian insight. "What does this headline/promise add that others don't?" See **article-content** for full information gain strategy in long-form.
 
 ## Copy by Context
 

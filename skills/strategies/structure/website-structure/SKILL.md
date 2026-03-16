@@ -90,7 +90,7 @@ When planning for multiple products or brands, see **domain-architecture** for s
 
 ## Homepage Module Reference
 
-Common modules to combine: Headline, Subheadline, Primary CTA, Supporting Image/Demo, Benefits Section, Social Proof, Search Box (if applicable), Secondary CTA, Banner. Navigation: Horizontal Bar, Dropdown, Hamburger (mobile), Sidebar, Footer; ensure Desktop + Mobile parity. See **homepage-generator** and **hero-generator**.
+See **homepage-generator** for common modules (Headline, Subheadline, CTA, Benefits, Social Proof, etc.), navigation options, and **hero-generator** for hero design.
 
 ## Output Format
 

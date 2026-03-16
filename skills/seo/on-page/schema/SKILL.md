@@ -2,7 +2,7 @@
 name: schema-markup
 description: When the user wants to add or optimize structured data (Schema.org, JSON-LD). Also use when the user mentions "schema," "structured data," "JSON-LD," "rich results," "rich snippets," "Google rich snippets," "featured snippet schema," "add schema to page," "missing structured data," "schema validation error," "Schema Markup Validator," "Google Rich Results Test," "FAQ schema," "Article schema," "Organization schema," "JobPosting," "HowTo," "Event," "SoftwareApplication," "BreadcrumbList," "WebSite," "Recipe," "Product," "Dataset," or "GEO."
 metadata:
-  version: 1.2.0
+  version: 1.3.0
 ---
 
 # SEO On-Page: Schema / Structured Data
@@ -83,8 +83,8 @@ Identify:
 
 | Type | Use case |
 |------|----------|
-| **Organization** | Site-wide; company info, logo, sameAs |
-| **WebSite** | Site-wide; search action, site name |
+| **Organization** | Site-wide; company info, logo, sameAs; see placement below |
+| **WebSite** | Site-wide; search action, site name; pair with Organization on homepage |
 | **Article** | Blog posts, news, tool intros |
 | **BreadcrumbList** | Breadcrumb navigation |
 | **FAQPage** | FAQ sections; triggers PAA-style results |
@@ -109,6 +109,16 @@ Identify:
 | **Recipe** | Recipes, meal plans, cooking instructions |
 
 **Rule**: Use core types for most sites. Use exclusive types only when page content matches (e.g., don't use Event on a blog; don't use JobPosting on a product page).
+
+### Organization & WebSite Schema Placement
+
+| Where | Organization | WebSite | Notes |
+|-------|--------------|---------|-------|
+| **Homepage** | Minimum | Minimum | Add both Organization and WebSite to homepage at least. Organization describes the entity that owns the site; WebSite enables sitelinks searchbox and site identity. |
+| **Root layout / global** | Optimal | Optimal | Place in site-wide layout (e.g. `layout.tsx`, `_document`, global header/footer) so schema appears on every page. Google uses the first instance found; one instance per site is sufficient. |
+| **About page** | No | No | About page uses **AboutPage** schema (page-specific: headline, description, author, about). Organization is entity-level, not page-level—do not confine it to About. See **about-page-generator**. |
+
+**Implementation**: JSON-LD in `<head>`; use `@id` (e.g. `https://example.com/#organization`) to link Organization ↔ WebSite ↔ WebPage for entity graph. See **entity-seo** for @id and Knowledge Panel.
 
 ## Action: Website/Product Type → Schema Mapping
 
@@ -305,4 +315,5 @@ export const metadata = {
 - **featured-snippet**: FAQPage, HowTo for snippets
 - **video-optimization**: VideoObject, video sitemap, thumbnail, key moments
 - **entity-seo**: Organization, Person for entity recognition; @id; Knowledge Panel
+- **homepage-generator**: Organization + WebSite schema on homepage or root layout
 - **indexing**: Google Indexing API for JobPosting, BroadcastEvent

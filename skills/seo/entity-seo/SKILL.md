@@ -52,11 +52,11 @@ An **entity** is a thing or concept that is singular, unique, well-defined, and 
 
 ### Organization
 
-- **Placement**: Site-wide (footer, JSON-LD) rather than per-page
+- **Placement**: **Minimum**—homepage; **Optimal**—root layout / global component (layout.tsx, _document, global header) so it appears on every page. Do **not** confine to About page; About uses AboutPage schema. See **schema-markup** for full placement table.
 - **Required**: `@id`, `name`, `url`; add `logo`, `sameAs` (social, Wikidata)
 - **Optional**: `description`, `address`, `contactPoint`; use most specific type (LocalBusiness, SoftwareApplication, etc.) when applicable
 
-**@id**: Use stable URL (e.g. `https://example.com/#organization`) for entity linking across pages.
+**@id**: Use stable URL (e.g. `https://example.com/#organization`) for entity linking across pages. Link Organization ↔ WebSite on homepage for sitelinks searchbox.
 
 ### Person
 

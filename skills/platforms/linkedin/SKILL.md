@@ -1,6 +1,6 @@
 ---
 name: linkedin-posts
-description: When the user wants to create LinkedIn post copy or optimize for LinkedIn. Also use when the user mentions "LinkedIn post," "LinkedIn article," "professional post," "post to LinkedIn," "LinkedIn content," "LinkedIn copy," "B2B LinkedIn," "LinkedIn engagement," or "LinkedIn marketing."
+description: "Generate publish-ready LinkedIn post copy optimized for professional engagement. Use when: LinkedIn post, LinkedIn article, post to LinkedIn, LinkedIn content, B2B LinkedIn, LinkedIn engagement, LinkedIn marketing."
 metadata:
   version: 1.1.0
 ---

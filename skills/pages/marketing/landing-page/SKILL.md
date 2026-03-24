@@ -1,6 +1,6 @@
 ---
 name: landing-page-generator
-description: When the user wants to create, optimize, or audit campaign landing pages for paid ads or other traffic. Also use when the user mentions "landing page," "PPC landing page," "SEM landing page," "conversion page," "campaign page," "lead capture page," "landing page optimization," "LP conversion," "single-page funnel," or "squeeze page."
+description: "Creates high-converting campaign landing pages with optimized headline, CTA, social proof, and ad-to-page message match for paid and organic traffic. Use when the user wants to create, optimize, or audit campaign landing pages, or mentions 'landing page,' 'PPC landing page,' 'SEM landing page,' 'conversion page,' 'campaign page,' 'lead capture page,' 'landing page optimization,' 'LP conversion,' 'single-page funnel,' or 'squeeze page.'"
 metadata:
   version: 1.2.0
 ---

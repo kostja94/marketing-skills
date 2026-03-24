@@ -1,6 +1,6 @@
 ---
 name: brand-protection
-description: When the user faces brand impersonation, fake websites, phishing sites, or trademark infringement. Also use when the user mentions "fake site," "impersonation," "phishing site," "trademark infringement," "domain squatting," or "brand abuse."
+description: "Guides discovery, reporting, and prevention of brand impersonation—providing workflows to identify fake websites, phishing sites, and domain squatters, file takedown requests, pursue trademark enforcement, and implement defensive registrations. Use when the user faces brand abuse or mentions 'fake site,' 'impersonation,' 'phishing site,' 'trademark infringement,' 'domain squatting,' or 'brand abuse.'"
 metadata:
   version: 1.0.0
 ---

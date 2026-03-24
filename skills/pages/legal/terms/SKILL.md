@@ -1,6 +1,6 @@
 ---
 name: terms-page-generator
-description: When the user wants to create, optimize, or structure Terms of Service page. Also use when the user mentions "terms of service," "terms and conditions," "terms of use," "user agreement," "ToS," "legal terms," "service agreement," or "terms page."
+description: "Creates and structures a Terms of Service page covering user agreements, acceptable use, liability, and compliance requirements. Use when the user wants to create, optimize, or structure a Terms of Service page, or mentions 'terms of service,' 'terms and conditions,' 'terms of use,' 'user agreement,' 'ToS,' 'legal terms,' 'service agreement,' or 'terms page.'"
 metadata:
   version: 1.0.0
 ---

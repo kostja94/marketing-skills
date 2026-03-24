@@ -1,6 +1,6 @@
 ---
 name: glossary-page-generator
-description: When the user wants to create, optimize, or audit glossary page content and structure. Also use when the user mentions "glossary," "definitions," "terminology," "industry terms," "glossary page," "term definitions," "vocabulary," "glossary SEO," or "definition page."
+description: "Creates SEO-optimized glossary pages with structured term definitions, internal linking, and schema markup to capture definition-intent search traffic. Use when the user wants to create, optimize, or audit glossary page content and structure, or mentions 'glossary,' 'definitions,' 'terminology,' 'industry terms,' 'glossary page,' 'term definitions,' 'vocabulary,' 'glossary SEO,' or 'definition page.'"
 metadata:
   version: 1.0.0
 ---

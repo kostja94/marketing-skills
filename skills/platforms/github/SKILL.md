@@ -1,6 +1,6 @@
 ---
 name: github
-description: When the user wants to use GitHub for SEO, parasite SEO, GEO, open source marketing, or create curated lists. Also use when the user mentions "GitHub," "GitHub SEO," "GitHub parasite SEO," "GitHub GEO," "awesome list," "GitHub README," "repository name," "About section," "GitHub description," "GitHub topics," "GitHub Pages," "GitHub gist," "curated list," or "navigation list."
+description: "Optimizes GitHub repositories, READMEs, GitHub Pages, and gists for SEO and AI citation (GEO), and guides creation of Awesome-style curated lists. Covers repository naming, About section optimization, topic tags, README structure, and parasite SEO strategies leveraging GitHub's high domain authority. Use when the user wants to use GitHub for SEO, parasite SEO, GEO, open source marketing, or create curated lists and mentions 'GitHub,' 'GitHub SEO,' 'GitHub parasite SEO,' 'GitHub GEO,' 'awesome list,' 'GitHub README,' 'repository name,' 'About section,' 'GitHub description,' 'GitHub topics,' 'GitHub Pages,' 'GitHub gist,' 'curated list,' or 'navigation list.'"
 metadata:
   version: 1.1.0
 ---

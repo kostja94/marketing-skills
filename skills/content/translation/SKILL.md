@@ -1,6 +1,6 @@
 ---
 name: translation
-description: When the user wants to translate content, create translation workflows, manage terminology, or optimize translation quality. Also use when the user mentions "translate," "translation," "localization copy," "glossary," "terminology," "style guide translation," "machine translation," "human translation," "TMS," or "multilingual content."
+description: "Translate content and build translation workflows with terminology management for multilingual quality. Use when the user wants to translate or localize copy, or mentions \"translate,\" \"translation,\" \"localization copy,\" \"glossary,\" \"terminology,\" \"style guide translation,\" \"machine translation,\" \"human translation,\" \"TMS,\" or \"multilingual content.\""
 metadata:
   version: 1.0.0
 ---

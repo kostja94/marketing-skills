@@ -1,6 +1,6 @@
 ---
 name: core-web-vitals
-description: When the user wants to optimize Core Web Vitals, fix LCP, INP, or CLS issues. Also use when the user mentions "Core Web Vitals," "CWV," "LCP," "INP," "CLS," "FID," "page speed," "page performance," "Largest Contentful Paint," "Interaction to Next Paint," "Cumulative Layout Shift," or "Page Experience."
+description: "Optimize Core Web Vitals (LCP, INP, CLS) to improve page experience and search ranking. Use when the user wants to fix performance issues, or mentions \"Core Web Vitals,\" \"CWV,\" \"LCP,\" \"INP,\" \"CLS,\" \"FID,\" \"page speed,\" \"page performance,\" \"Largest Contentful Paint,\" \"Interaction to Next Paint,\" \"Cumulative Layout Shift,\" or \"Page Experience.\""
 metadata:
   version: 1.0.0
 ---

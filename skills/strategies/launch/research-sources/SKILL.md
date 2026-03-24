@@ -1,6 +1,6 @@
 ---
 name: research-sources
-description: When the user wants to find information sources for content ideation, competitor monitoring, or industry tracking. Also use when the user mentions "research sources," "information sources," "content ideation," "industry monitoring," "competitor monitoring," "market intelligence," "content research," or "topic research."
+description: "Selects and organizes information sources for marketing research—covering content ideation, competitor monitoring, and industry tracking across source categories (news, blogs, newsletters, events, data, community, archives). Outputs a curated shortlist of 5–15 high-quality sources with cadence recommendations. Use when the user mentions 'research sources,' 'information sources,' 'content ideation,' 'industry monitoring,' 'competitor monitoring,' 'market intelligence,' 'content research,' or 'topic research.'"
 metadata:
   version: 1.1.0
 ---

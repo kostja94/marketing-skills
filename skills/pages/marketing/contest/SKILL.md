@@ -1,6 +1,6 @@
 ---
 name: contest-page-generator
-description: When the user wants to create, optimize, or audit a giveaway, contest, or promotional campaign page. Also use when the user mentions "giveaway," "contest," "sweepstakes," "promo," "Gleam," "Woobox," or "viral campaign."
+description: "Builds giveaway and contest pages with entry mechanics, viral sharing loops, and legal compliance to drive signups and community growth. Use when the user wants to create, optimize, or audit a giveaway, contest, or promotional campaign page, or mentions 'giveaway,' 'contest,' 'sweepstakes,' 'promo,' 'Gleam,' 'Woobox,' or 'viral campaign.'"
 metadata:
   version: 1.0.0
 ---

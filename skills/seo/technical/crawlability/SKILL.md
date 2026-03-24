@@ -1,6 +1,6 @@
 ---
 name: site-crawlability
-description: When the user wants to improve crawlability, fix orphan pages, or optimize site structure for search engines. Also use when the user mentions "crawlability," "crawl budget," "orphan pages," "internal links," "site structure," "site crawlability," "infinite scroll," "pagination," "masonry SEO," "AI crawler optimization," "GPTBot crawlability," "ClaudeBot crawlability," or "content not indexed."
+description: "Guides crawlability improvements for technical SEO—diagnosing and fixing orphan pages, redirect chains, broken links, site architecture depth, pagination issues, and AI crawler access (GPTBot, ClaudeBot). Use when the user wants to ensure search engines can discover and index content, or mentions 'crawlability,' 'crawl budget,' 'orphan pages,' 'internal links,' 'site structure,' 'site crawlability,' 'infinite scroll,' 'pagination,' 'masonry SEO,' 'AI crawler optimization,' 'GPTBot crawlability,' 'ClaudeBot crawlability,' or 'content not indexed.'"
 metadata:
   version: 1.2.0
 ---

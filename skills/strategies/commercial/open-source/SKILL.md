@@ -1,6 +1,6 @@
 ---
 name: open-source-strategy
-description: When the user wants open source strategy, OSS commercialization, or open source growth. Also use when the user mentions "open source strategy," "OSS strategy," "open source commercialization," "open source to paid," "open core," "COSS," "commercial open source," "GitHub stars strategy," "DevHunt," "open source marketing," "open source growth," "Llama," "Dify," "Cursor," "open source business model," or "developer tools directory."
+description: "Guides open source commercialization strategy—building community and trust through open source then monetizing via open core, managed services, or support subscriptions. Covers business models (Open Core, SaaS cloud, Support-First), GitHub optimization for stars and discoverability, DevHunt submission, community and trust building, licensing trade-offs (MIT/Apache vs AGPL vs BSL), and developer-first distribution. Use when the user mentions 'open source strategy,' 'OSS strategy,' 'open source commercialization,' 'open source to paid,' 'open core,' 'COSS,' 'commercial open source,' 'GitHub stars strategy,' 'DevHunt,' 'open source marketing,' 'open source growth,' 'Llama,' 'Dify,' 'Cursor,' 'open source business model,' or 'developer tools directory.'"
 metadata:
   version: 1.0.0
 ---

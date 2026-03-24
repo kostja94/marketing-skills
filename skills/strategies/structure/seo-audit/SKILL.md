@@ -1,6 +1,6 @@
 ---
 name: seo-audit
-description: When the user wants to run an SEO audit, technical SEO audit, or site health check. Also use when the user mentions "SEO audit," "technical audit," "site audit," "crawl audit," "indexing audit," "SEO health," or "fix SEO issues."
+description: "Guides end-to-end SEO audits across technical, on-page, content, and off-page phases—providing a prioritized checklist to uncover crawl blockers, metadata gaps, content issues, and authority weaknesses. Use when the user wants to audit an existing site or plan fixes, or mentions 'SEO audit,' 'technical audit,' 'site audit,' 'crawl audit,' 'indexing audit,' 'SEO health,' or 'fix SEO issues.'"
 metadata:
   version: 1.0.0
 ---

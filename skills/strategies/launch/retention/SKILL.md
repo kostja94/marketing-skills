@@ -1,6 +1,6 @@
 ---
 name: retention-strategy
-description: When the user wants to reduce churn, improve customer retention, or plan lifecycle marketing. Also use when the user mentions "retention," "churn," "customer lifecycle," "churn prevention," "at-risk customers," or "loyalty program."
+description: "Develops customer retention and churn prevention strategy—diagnosing voluntary vs involuntary churn, building health scoring frameworks, designing proactive intervention playbooks (60–80% conversion vs 15–20% reactive), and implementing loyalty programs, dunning sequences, and onboarding improvements. Maps retention across the full customer lifecycle: onboarding, adoption, expansion, and renewal. Use when the user mentions 'retention,' 'churn,' 'customer lifecycle,' 'churn prevention,' 'at-risk customers,' or 'loyalty program.'"
 metadata:
   version: 1.1.0
 ---

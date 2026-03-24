@@ -1,6 +1,6 @@
 ---
 name: website-structure
-description: When the user wants to plan website structure, decide which pages to build, or prioritize pages for a new or existing site. Also use when the user mentions "website structure," "site structure," "which pages do I need," "page planning," "sitemap planning," "Must Have pages," "website architecture," or "site hierarchy."
+description: "Plan website structure, prioritize which pages to build, and define site hierarchy to support SEO and UX. Use when the user wants to architect a new or existing site, or mentions \"website structure,\" \"site structure,\" \"which pages do I need,\" \"page planning,\" \"sitemap planning,\" \"Must Have pages,\" \"website architecture,\" or \"site hierarchy.\""
 metadata:
   version: 1.3.0
 ---

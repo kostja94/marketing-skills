@@ -1,6 +1,6 @@
 ---
 name: copywriting
-description: When the user wants to write or optimize marketing copy—headlines, CTAs, ad copy, landing page copy, email copy. Also use when the user mentions "copywriting," "headline," "CTA copy," "ad copy," "landing page copy," "sales copy," "conversion copy," "PAS," "AIDA," "BAB," "copy formula," or "differentiation." For article body content (long-form blog posts, guides), use article-content.
+description: "Write or optimize short-form marketing copy—headlines, CTAs, ad copy, and landing page text—using proven frameworks. Use when the user wants conversion-focused copy, or mentions \"copywriting,\" \"headline,\" \"CTA copy,\" \"ad copy,\" \"landing page copy,\" \"sales copy,\" \"conversion copy,\" \"PAS,\" \"AIDA,\" \"BAB,\" \"copy formula,\" or \"differentiation.\" For article body content (long-form blog posts, guides), use article-content."
 metadata:
   version: 1.1.0
 ---

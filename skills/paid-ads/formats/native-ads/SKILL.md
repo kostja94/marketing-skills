@@ -1,6 +1,6 @@
 ---
 name: native-ads
-description: When the user wants to run native ads on Taboola, Outbrain, or similar platforms. Also use when the user mentions "native ads," "Taboola," "Outbrain," "content recommendation," "sponsored content," or "in-feed ads."
+description: "Plans and optimizes native advertising campaigns on Taboola, Outbrain, and content recommendation networks—covering platform selection, creative testing (headline/image variants), copywriting guidelines, funnel targeting, budget sizing ($500–5,000+), and output of headline options with image and landing page guidance. Native ads achieve ~18% higher CTR than display banners. Use when the user mentions 'native ads,' 'Taboola,' 'Outbrain,' 'content recommendation,' 'sponsored content,' or 'in-feed ads.'"
 metadata:
   version: 1.0.0
 ---

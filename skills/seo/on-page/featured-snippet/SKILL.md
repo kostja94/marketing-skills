@@ -1,6 +1,6 @@
 ---
 name: featured-snippet
-description: When the user wants to optimize for Featured Snippets, Position Zero, or snippet extraction. Also use when the user mentions "featured snippet," "position zero," "snippet optimization," "answer box," "definition box," "list snippet," "table snippet," "paragraph snippet," "PAA optimization," or "win position zero."
+description: "Optimizes content to win Featured Snippets (Position Zero) and AI Overview citations by structuring answer-first paragraphs, semantic HTML lists and tables, and targeted query formats. Covers paragraph, list, and table snippet formats, query targeting for positions 2–5, and PAA opportunities. Use when the user wants to optimize for Featured Snippets, Position Zero, or snippet extraction and mentions 'featured snippet,' 'position zero,' 'snippet optimization,' 'answer box,' 'definition box,' 'list snippet,' 'table snippet,' 'paragraph snippet,' 'PAA optimization,' or 'win position zero.'"
 metadata:
   version: 1.0.0
 ---

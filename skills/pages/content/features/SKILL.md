@@ -1,6 +1,6 @@
 ---
 name: features-page-generator
-description: When the user wants to create, optimize, or audit features page content. Also use when the user mentions "features page," "product features," "capabilities," "what it does," "feature list," "feature comparison," "product capabilities," or "features section."
+description: "Create, optimize, or audit features pages to communicate product capabilities and drive conversion. Use when the user wants to showcase what a product does, or mentions \"features page,\" \"product features,\" \"capabilities,\" \"what it does,\" \"feature list,\" \"feature comparison,\" \"product capabilities,\" or \"features section.\""
 metadata:
   version: 1.1.0
 ---

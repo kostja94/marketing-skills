@@ -1,6 +1,6 @@
 ---
 name: visual-content
-description: When the user wants to plan, create, or repurpose visual content (images, infographics, social post images) across channels. Also use when the user mentions "content images," "social media images," "infographic," "visual content," "post image," "image specs," "visual repurposing," "content visuals," or "image for social post."
+description: "Plan, create, and repurpose visual content (images, infographics, social post visuals) across website and social channels. Use when the user needs visuals for content, or mentions \"content images,\" \"social media images,\" \"infographic,\" \"visual content,\" \"post image,\" \"image specs,\" \"visual repurposing,\" \"content visuals,\" or \"image for social post.\""
 metadata:
   version: 1.0.0
 ---

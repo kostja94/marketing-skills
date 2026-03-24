@@ -1,6 +1,6 @@
 ---
 name: title-tag
-description: When the user wants to optimize the title tag, page title, or SERP title. Also use when the user mentions "title tag," "meta title," "page title," "SEO title," "SERP title," "browser tab title," "title optimization," "headline for search," "title too long," "title tag length," "duplicate title tags," or "optimize title for CTR."
+description: "Guides optimization of the HTML title tag for search engines and SERP display—covering keyword placement, pixel-width length limits by language, uniqueness requirements, and CTR-boosting patterns. Use when the user wants to write, fix, or audit a title tag, or mentions 'title tag,' 'meta title,' 'page title,' 'SEO title,' 'SERP title,' 'browser tab title,' 'title optimization,' 'headline for search,' 'title too long,' 'title tag length,' 'duplicate title tags,' or 'optimize title for CTR.'"
 metadata:
   version: 1.3.0
 ---

@@ -1,6 +1,6 @@
 ---
 name: google-ads
-description: When the user wants to set up, optimize, or manage Google Ads campaigns. Also use when the user mentions "Google Ads," "Google Search Ads," "PPC," "SEM," "PMF testing with ads," "test product-market fit," "Responsive Search Ads," "RSA," "Performance Max," "Quality Score," "keyword bidding," or "Google Display/YouTube ads."
+description: "Sets up and optimizes Google Ads campaigns including Search, Performance Max, and Display with keyword targeting, RSA copy, bidding strategy, and Quality Score improvement. Use when the user wants to set up, optimize, or manage Google Ads campaigns, or mentions 'Google Ads,' 'Google Search Ads,' 'PPC,' 'SEM,' 'PMF testing with ads,' 'test product-market fit,' 'Responsive Search Ads,' 'RSA,' 'Performance Max,' 'Quality Score,' 'keyword bidding,' or 'Google Display/YouTube ads.'"
 metadata:
   version: 1.4.0
 ---

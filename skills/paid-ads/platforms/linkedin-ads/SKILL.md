@@ -1,6 +1,6 @@
 ---
 name: linkedin-ads
-description: When the user wants to set up, optimize, or manage LinkedIn Ads. Also use when the user mentions "LinkedIn Ads," "LinkedIn Campaign Manager," "Sponsored Content," "LinkedIn Lead Gen Forms," "job title targeting," "company targeting," or "B2B paid ads."
+description: "Guides LinkedIn Ads setup, targeting, and optimization for B2B campaigns—covering campaign structure, ad formats (Sponsored Content, Lead Gen Forms, Message Ads), job title and company targeting, bid strategies, and performance benchmarks. Use when job title or company targeting matters and ACV is higher, or when the user mentions 'LinkedIn Ads,' 'LinkedIn Campaign Manager,' 'Sponsored Content,' 'LinkedIn Lead Gen Forms,' 'job title targeting,' 'company targeting,' or 'B2B paid ads.'"
 metadata:
   version: 1.0.0
 ---

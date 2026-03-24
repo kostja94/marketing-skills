@@ -1,6 +1,6 @@
 ---
 name: faq-page-generator
-description: When the user wants to create, optimize, or audit FAQ page content. Also use when the user mentions "FAQ page," "frequently asked questions," "help page," "Q&A page," "FAQ schema," "FAQ section," "common questions," "FAQ SEO," "accordion FAQ," "People Also Ask," "PAA," "People Also Search For," "PASF," "FAQ rich results," or "FAQ for GEO."
+description: "Builds FAQ pages optimized for SEO rich results, People Also Ask, Featured Snippets, and GEO using structured Q&A with FAQ schema markup. Use when the user wants to create, optimize, or audit FAQ page content, or mentions 'FAQ page,' 'frequently asked questions,' 'help page,' 'Q&A page,' 'FAQ schema,' 'FAQ section,' 'common questions,' 'FAQ SEO,' 'accordion FAQ,' 'People Also Ask,' 'PAA,' 'People Also Search For,' 'PASF,' 'FAQ rich results,' or 'FAQ for GEO.'"
 metadata:
   version: 1.1.0
 ---

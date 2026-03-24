@@ -1,6 +1,6 @@
 ---
 name: open-graph
-description: When the user wants to add or optimize Open Graph metadata for social sharing. Also use when the user mentions "Open Graph," "og:tags," "og:title," "og:image," "og:description," "Facebook preview," "LinkedIn preview," or "social share preview."
+description: "Implement or optimize Open Graph meta tags to control social media link previews. Use when the user wants to improve social sharing appearance, or mentions \"Open Graph,\" \"og:tags,\" \"og:title,\" \"og:image,\" \"og:description,\" \"Facebook preview,\" \"LinkedIn preview,\" or \"social share preview.\""
 metadata:
   version: 1.0.0
 ---

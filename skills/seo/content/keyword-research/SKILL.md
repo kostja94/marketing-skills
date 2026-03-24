@@ -1,6 +1,6 @@
 ---
 name: keyword-research
-description: When the user wants to research keywords, find target keywords, or analyze search intent. Also use when the user mentions "keyword research," "keyword tool," "target keywords," "search volume," "search intent," "keyword difficulty," "topical map," "keyword clustering," "People Also Ask," "Google autocomplete," "autocomplete keywords," or "alphabet method."
+description: "Identifies target keywords, evaluates search volume and difficulty, maps search intent, and builds topical clusters to guide SEO content strategy. Use when the user wants to research keywords, find target keywords, or analyze search intent, or mentions 'keyword research,' 'keyword tool,' 'target keywords,' 'search volume,' 'search intent,' 'keyword difficulty,' 'topical map,' 'keyword clustering,' 'People Also Ask,' 'Google autocomplete,' 'autocomplete keywords,' or 'alphabet method.'"
 metadata:
   version: 1.3.0
 ---

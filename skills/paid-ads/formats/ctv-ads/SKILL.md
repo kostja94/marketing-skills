@@ -1,6 +1,6 @@
 ---
 name: ctv-ads
-description: When the user wants to run CTV, OTT, or streaming TV ads. Also use when the user mentions "CTV ads," "connected TV," "OTT advertising," "streaming ads," "TV ads," "Hulu ads," "Roku ads," "YouTube TV ads," or "programmatic TV."
+description: "Plans and optimizes Connected TV (CTV) and OTT advertising campaigns on streaming platforms including Hulu, Roku, YouTube TV, and Peacock—covering ad formats (pre-roll, mid-roll, interactive, QR), programmatic vs. direct buying, audience targeting, creative specs, frequency capping, and attribution via UTM and QR codes. Achieves ~95% completion rates vs lower on mobile/desktop. Use when the user mentions 'CTV ads,' 'connected TV,' 'OTT advertising,' 'streaming ads,' 'TV ads,' 'Hulu ads,' 'Roku ads,' 'YouTube TV ads,' or 'programmatic TV.'"
 metadata:
   version: 1.0.0
 ---

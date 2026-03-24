@@ -1,6 +1,6 @@
 ---
 name: 404-page-generator
-description: When the user wants to create, optimize, or audit 404 error pages. Also use when the user mentions "404 page," "404 error," "error page," "page not found," "broken link page," "404 design," "custom 404," "404 redirect," "404 page UX," or "404 recovery."
+description: "Design or optimize 404 error pages to recover lost visitors and maintain brand consistency. Use when the user wants to improve error handling, or mentions \"404 page,\" \"404 error,\" \"error page,\" \"page not found,\" \"broken link page,\" \"404 design,\" \"custom 404,\" \"404 redirect,\" \"404 page UX,\" or \"404 recovery.\""
 metadata:
   version: 1.0.0
 ---

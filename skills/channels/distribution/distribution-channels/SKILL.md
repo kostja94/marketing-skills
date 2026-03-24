@@ -1,6 +1,6 @@
 ---
 name: distribution-channels
-description: When the user wants to plan product distribution via marketplaces, app stores, or third-party platforms. Also use when the user mentions "distribution channels," "marketplace listing," "app store listing," "Figma plugin," "Chrome extension marketplace," "AWS Marketplace," "Shopify app," "GPTs store," "app distribution," or "third-party marketplace."
+description: "Plans and optimizes product distribution listings across third-party marketplaces and app stores — including design tools (Figma, Canva), browser extensions (Chrome Web Store), cloud marketplaces (AWS, Azure, GCP), mobile stores (App Store, Google Play), and vertical platforms (Shopify, Slack, Salesforce). Guides platform selection, listing optimization, and co-sell strategies. Use when the user wants to plan product distribution via marketplaces, app stores, or third-party platforms and mentions 'distribution channels,' 'marketplace listing,' 'app store listing,' 'Figma plugin,' 'Chrome extension marketplace,' 'AWS Marketplace,' 'Shopify app,' 'GPTs store,' 'app distribution,' or 'third-party marketplace.'"
 metadata:
   version: 1.1.0
 ---

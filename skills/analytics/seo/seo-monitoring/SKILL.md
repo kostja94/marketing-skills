@@ -1,6 +1,6 @@
 ---
 name: seo-monitoring
-description: When the user wants to build an SEO data analysis system, monitor indexing/traffic/keywords/backlinks, or set up benchmarks. Also use when the user mentions "SEO data analysis," "SEO monitoring," "article database," "traffic benchmark," "penalty recovery," "SEO work document," "SEO dashboard," "keyword tracking," "ranking monitoring," "indexing report," or "backlink monitoring."
+description: "Guides building a holistic SEO monitoring system—setting up benchmarks across indexing, traffic, keywords, and backlinks, establishing an article performance database, selecting analytics tools, and managing penalty recovery. Use when the user wants to track SEO health over time or mentions 'SEO data analysis,' 'SEO monitoring,' 'article database,' 'traffic benchmark,' 'penalty recovery,' 'SEO work document,' 'SEO dashboard,' 'keyword tracking,' 'ranking monitoring,' 'indexing report,' or 'backlink monitoring.'"
 metadata:
   version: 1.0.0
 ---

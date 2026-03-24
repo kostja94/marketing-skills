@@ -1,6 +1,6 @@
 ---
 name: careers-page-generator
-description: When the user wants to create, optimize, or audit a careers or jobs page. Also use when the user mentions "careers," "jobs," "hiring," "open positions," "company culture," "careers page," "job listings," "we're hiring," "join our team," or "recruitment page."
+description: "Builds careers and jobs pages that showcase company culture, open positions, and employer brand to attract and convert qualified candidates. Use when the user wants to create, optimize, or audit a careers or jobs page, or mentions 'careers,' 'jobs,' 'hiring,' 'open positions,' 'company culture,' 'careers page,' 'job listings,' \"we're hiring,\" 'join our team,' or 'recruitment page.'"
 metadata:
   version: 1.0.0
 ---

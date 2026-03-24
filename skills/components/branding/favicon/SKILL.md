@@ -1,6 +1,6 @@
 ---
 name: favicon-generator
-description: When the user wants to implement, optimize, or audit favicon and app icons. Also use when the user mentions "favicon," "app icon," "browser icon," "touch icon," "PWA icon," "favicon sizes," "apple-touch-icon," "favicon.ico," "site icon," or "tab icon."
+description: "Implement or audit favicons and app icons for brand consistency across browsers, devices, and search results. Use when the user wants to set up site icons, or mentions \"favicon,\" \"app icon,\" \"browser icon,\" \"touch icon,\" \"PWA icon,\" \"favicon sizes,\" \"apple-touch-icon,\" \"favicon.ico,\" \"site icon,\" or \"tab icon.\""
 metadata:
   version: 1.0.0
 ---

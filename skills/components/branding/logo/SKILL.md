@@ -1,6 +1,6 @@
 ---
 name: logo-generator
-description: When the user wants to optimize logo placement, linking, or branding on a website. Also use when the user mentions "logo," "brand logo," "header logo," "logo placement," "AI logo design," "logo link," "logo alt text," "logo sizing," "favicon logo," or "logo usage."
+description: "Guides logo placement, sizing, alt text, linking, and favicon implementation for consistent brand recall and site navigation. Use when the user wants to optimize logo placement, linking, or branding on a website, or mentions 'logo,' 'brand logo,' 'header logo,' 'logo placement,' 'AI logo design,' 'logo link,' 'logo alt text,' 'logo sizing,' 'favicon logo,' or 'logo usage.'"
 metadata:
   version: 1.0.0
 ---

@@ -1,6 +1,6 @@
 ---
 name: email-marketing
-description: When the user wants to plan email marketing, EDM, newsletter strategy, or email deliverability. Also use when the user mentions "email marketing," "EDM," "newsletter," "SPF," "DKIM," "DMARC," "email deliverability," "email content strategy," "email campaigns," "newsletter strategy," "email automation," or "cold email."
+description: "Plans and optimizes email marketing strategy for AI/SaaS products—covering EDM vs newsletter distinction, five content types (onboarding, campaign, announcement, features, blog), deliverability configuration (SPF/DKIM/DMARC, subdomain isolation), segmentation, cadence planning, SEO synergy via article delivery, and Gmail/Yahoo bulk sender compliance. Email ROI is ~$36 per dollar spent. Use when the user mentions 'email marketing,' 'EDM,' 'newsletter,' 'SPF,' 'DKIM,' 'DMARC,' 'email deliverability,' 'email content strategy,' 'email campaigns,' 'newsletter strategy,' 'email automation,' or 'cold email.'"
 metadata:
   version: 1.0.0
 ---

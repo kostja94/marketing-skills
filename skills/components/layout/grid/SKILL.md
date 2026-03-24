@@ -1,6 +1,6 @@
 ---
 name: grid
-description: When the user wants to design, optimize, or audit grid layouts for content display. Also use when the user mentions "grid layout," "grid design," "multi-column grid," "CSS grid," "responsive grid," "card grid," "product grid," or "feature grid."
+description: "Design or optimize multi-column grid layouts for equal-hierarchy content display. Use when the user wants to display products, features, or content in a grid, or mentions \"grid layout,\" \"grid design,\" \"multi-column grid,\" \"CSS grid,\" \"responsive grid,\" \"card grid,\" \"product grid,\" or \"feature grid.\""
 metadata:
   version: 1.0.0
 ---

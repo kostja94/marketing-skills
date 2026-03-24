@@ -1,6 +1,6 @@
 ---
 name: meta-description
-description: When the user wants to optimize the meta description or meta tag description. Also use when the user mentions "meta description," "meta desc," "page description," "SEO description," "search snippet," "SERP description," "description tag," "snippet for search," "meta description length," "rewrite meta description," or "description not showing."
+description: "Guides optimization of the HTML meta description tag for search engines and SERP display—covering pixel-width length limits by language, CTA patterns, keyword inclusion, and uniqueness requirements to improve click-through rate. Use when the user wants to write, fix, or audit a meta description, or mentions 'meta description,' 'meta desc,' 'page description,' 'SEO description,' 'search snippet,' 'SERP description,' 'description tag,' 'snippet for search,' 'meta description length,' 'rewrite meta description,' or 'description not showing.'"
 metadata:
   version: 1.3.0
 ---

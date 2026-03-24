@@ -1,6 +1,6 @@
 ---
 name: traffic-analysis
-description: When the user wants to analyze website traffic sources, attribution, or dark traffic. Also use when the user mentions "traffic sources," "dark traffic," "direct traffic," "UTM parameters," "traffic attribution," "channel attribution," "attribution optimization," "channel analysis," "traffic analysis," "traffic diversification," "natural traffic benchmark," or "organic vs paid traffic."
+description: "Guides website traffic analysis across all channels—identifying and attributing organic, paid, social, referral, direct, and dark traffic, setting natural traffic benchmarks, and optimizing UTM tagging for accurate multi-channel reporting. Use when the user wants to understand or improve traffic attribution, or mentions 'traffic sources,' 'dark traffic,' 'direct traffic,' 'UTM parameters,' 'traffic attribution,' 'channel attribution,' 'attribution optimization,' 'channel analysis,' 'traffic analysis,' 'traffic diversification,' 'natural traffic benchmark,' or 'organic vs paid traffic.'"
 metadata:
   version: 1.1.0
 ---

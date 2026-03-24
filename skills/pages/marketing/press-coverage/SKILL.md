@@ -1,6 +1,6 @@
 ---
 name: press-coverage-page-generator
-description: When the user wants to create a press coverage page, "As Seen In" section, or media mentions aggregation. Also use when the user mentions "press coverage," "media mentions," "as seen in," "as featured in," "in the news," "press mentions," "media coverage page," or "trusted by publications."
+description: "Create a press coverage page or 'As Seen In' section to showcase third-party media mentions and build trust. Use when the user wants to display earned coverage, or mentions \"press coverage,\" \"media mentions,\" \"as seen in,\" \"as featured in,\" \"in the news,\" \"press mentions,\" \"media coverage page,\" or \"trusted by publications.\""
 metadata:
   version: 1.0.0
 ---

@@ -1,6 +1,6 @@
 ---
 name: reddit-ads
-description: When the user wants to set up, optimize, or manage Reddit Ads. Also use when the user mentions "Reddit Ads," "Promoted Posts," "subreddit targeting," "Reddit advertising," or "Reddit communities."
+description: "Guides Reddit Ads setup, subreddit targeting, and creative best practices—covering campaign structure, Promoted Post formats, community targeting, value-first messaging guidelines, and CPC/CPM benchmarks for niche audiences. Use when the user's audience is active in specific subreddits or mentions 'Reddit Ads,' 'Promoted Posts,' 'subreddit targeting,' 'Reddit advertising,' or 'Reddit communities.'"
 metadata:
   version: 1.0.0
 ---

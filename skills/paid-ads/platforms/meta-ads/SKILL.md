@@ -1,6 +1,6 @@
 ---
 name: meta-ads
-description: When the user wants to set up, optimize, or manage Meta (Facebook/Instagram) Ads. Also use when the user mentions "Meta Ads," "Facebook Ads," "Instagram Ads," "Meta Pixel," "Conversions API," "Advantage+," "lookalike audience," or "Meta retargeting."
+description: "Sets up and optimizes Meta (Facebook/Instagram) Ads campaigns with audience targeting, creative strategy, Pixel/Conversions API setup, and Advantage+ optimization. Use when the user wants to set up, optimize, or manage Meta Ads, or mentions 'Meta Ads,' 'Facebook Ads,' 'Instagram Ads,' 'Meta Pixel,' 'Conversions API,' 'Advantage+,' 'lookalike audience,' or 'Meta retargeting.'"
 metadata:
   version: 1.1.0
 ---

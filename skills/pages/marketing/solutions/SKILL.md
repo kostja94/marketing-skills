@@ -1,6 +1,6 @@
 ---
 name: solutions-page-generator
-description: When the user wants to create, optimize, or audit solutions pages. Also use when the user mentions "solutions," "solutions page," "by industry," "industry solutions," "by company size," "SMB," "enterprise," "by outcome," "business outcomes," or "how we solve X."
+description: "Structures solutions pages that communicate measurable business outcomes segmented by industry, company size, or role to convert high-intent B2B buyers. Use when the user wants to create, optimize, or audit solutions pages, or mentions 'solutions,' 'solutions page,' 'by industry,' 'industry solutions,' 'by company size,' 'SMB,' 'enterprise,' 'by outcome,' 'business outcomes,' or 'how we solve X.'"
 metadata:
   version: 1.1.0
 ---

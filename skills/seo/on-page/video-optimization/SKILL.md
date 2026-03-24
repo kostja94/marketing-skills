@@ -1,6 +1,6 @@
 ---
 name: video-optimization
-description: When the user wants to optimize videos for Google Search, video sitemap, VideoObject schema, or video SEO on websites. Also use when the user mentions "video SEO," "video sitemap," "VideoObject," "video thumbnail," "video indexing," "video preview," "key moments," "Clip schema," or "embedded video optimization."
+description: "Optimizes website-embedded videos for Google Search discovery and rich results—covering HTML embed requirements, video sitemap creation, VideoObject schema markup, thumbnail specs, stable URL strategy, key moments (Clip and SeekToAction), video preview, LIVE badge, geo-restriction, and Search Console monitoring. Note: Google now prioritizes YouTube in search; for YouTube-specific SEO use youtube-seo, for GEO distribution use generative-engine-optimization. Use when the user mentions 'video SEO,' 'video sitemap,' 'VideoObject,' 'video thumbnail,' 'video indexing,' 'video preview,' 'key moments,' 'Clip schema,' or 'embedded video optimization.'"
 metadata:
   version: 1.0.0
 ---

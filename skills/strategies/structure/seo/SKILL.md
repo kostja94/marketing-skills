@@ -1,6 +1,6 @@
 ---
 name: seo-strategy
-description: When the user wants to plan SEO strategy, prioritize SEO work, or understand the SEO workflow. Also use when the user mentions "SEO strategy," "SEO plan," "SEO roadmap," "SEO priority," "SEO audit," "SEO workflow," "where to start SEO," "SEO approach," "organic growth strategy," "why SEO," "SEO value," or "search strategy."
+description: "Guides SEO strategy planning—covering workflow order, prioritization frameworks, Product-Led SEO principles, and skill selection for each phase of organic growth. Use when the user wants to plan SEO from scratch, prioritize what to do next, or mentions 'SEO strategy,' 'SEO plan,' 'SEO roadmap,' 'SEO priority,' 'SEO workflow,' 'where to start SEO,' 'SEO approach,' 'organic growth strategy,' 'why SEO,' 'SEO value,' or 'search strategy.'"
 metadata:
   version: 1.2.0
 ---

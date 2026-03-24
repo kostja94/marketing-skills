@@ -1,6 +1,6 @@
 ---
 name: medium-posts
-description: When the user wants to publish on Medium for parasite SEO, GEO, or content distribution. Also use when the user mentions "Medium," "Medium article," "parasite SEO," "Medium publishing," "canonical Medium," or "publish on Medium."
+description: "Guides Medium publishing for parasite SEO and content distribution—leveraging Medium's domain authority to reach page 1 rankings within days, attract backlinks, and earn AI search citations. Covers original vs republish workflow, canonical link setup to avoid duplicate content penalties, content best practices, and CTA placement. Use when the user mentions 'Medium,' 'Medium article,' 'parasite SEO,' 'Medium publishing,' 'canonical Medium,' or 'publish on Medium.'"
 metadata:
   version: 1.0.0
 ---

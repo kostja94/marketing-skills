@@ -1,6 +1,6 @@
 ---
 name: analytics-tracking
-description: When the user wants to set up, audit, or optimize analytics tracking (GA4, events, conversions). Also use when the user mentions "Google Analytics," "GA4," "event tracking," "conversions," "attribution model," "gtag," "data layer," "GA4 setup," "conversion tracking," "event setup," "User ID tracking," or "CTA attribution."
+description: "Implements and audits GA4 analytics setup including event tracking, conversion configuration, data layer, and attribution modeling for web and app. Use when the user wants to set up, audit, or optimize analytics tracking, or mentions 'Google Analytics,' 'GA4,' 'event tracking,' 'conversions,' 'attribution model,' 'gtag,' 'data layer,' 'GA4 setup,' 'conversion tracking,' 'event setup,' 'User ID tracking,' or 'CTA attribution.'"
 metadata:
   version: 1.3.0
 ---

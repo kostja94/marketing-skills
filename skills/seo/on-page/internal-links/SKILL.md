@@ -1,6 +1,6 @@
 ---
 name: internal-links
-description: When the user wants to optimize internal linking, fix orphan pages, or improve link structure. Also use when the user mentions "internal links," "internal linking," "anchor text," "link equity," "internal linking strategy," or "orphan pages."
+description: "Audit and improve internal linking strategy for crawlability, link equity, and navigation. Use when: internal links, internal linking, anchor text, link equity, orphan pages, link structure."
 metadata:
   version: 1.0.0
 ---

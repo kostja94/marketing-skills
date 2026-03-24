@@ -1,6 +1,6 @@
 ---
 name: google-search-console
-description: When the user wants to analyze Google Search Console data, use GSC API, or interpret search performance. Also use when the user mentions "GSC," "Search Console," "indexing report," "Core Web Vitals," "Enhancements," "Insights report," "search performance," "search queries," "search performance report," "URL inspection," "impressions," "CTR," "average position," "index coverage," "title tag," "meta description," "GSC data analysis," "Search Console API," or "searchanalytics.query."
+description: "Guides analysis of Google Search Console (GSC) data—interpreting performance metrics (clicks, impressions, CTR, position), diagnosing indexing issues, reviewing Core Web Vitals, and using the searchanalytics API for programmatic reporting. Use when the user wants to analyze GSC data or mentions 'GSC,' 'Search Console,' 'indexing report,' 'Core Web Vitals,' 'Enhancements,' 'Insights report,' 'search performance,' 'search queries,' 'URL inspection,' 'impressions,' 'CTR,' 'average position,' 'index coverage,' 'GSC data analysis,' 'Search Console API,' or 'searchanalytics.query.'"
 metadata:
   version: 1.3.0
 ---

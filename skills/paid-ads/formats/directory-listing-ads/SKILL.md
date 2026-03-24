@@ -1,6 +1,6 @@
 ---
 name: directory-listing-ads
-description: When the user wants to run paid ads within directories or marketplaces. Also use when the user mentions "Taaft ads," "Shopify App Store ads," "G2 sponsored," "Capterra ads," "directory ads," "marketplace ads," "paid listing," "sponsored listing," or "directory promotion."
+description: "Guides paid promotions within software directories and marketplaces—covering Taaft, Shopify App Store, G2, and Capterra ad formats, bidding models, and best practices for maximizing visibility when you already have a listing. Use when the user wants to boost directory visibility with paid placements, or mentions 'Taaft ads,' 'Shopify App Store ads,' 'G2 sponsored,' 'Capterra ads,' 'directory ads,' 'marketplace ads,' 'paid listing,' 'sponsored listing,' or 'directory promotion.'"
 metadata:
   version: 1.0.0
 ---

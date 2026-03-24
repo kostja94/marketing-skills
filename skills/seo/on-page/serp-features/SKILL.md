@@ -1,6 +1,6 @@
 ---
 name: serp-features
-description: When the user wants to understand or optimize for SERP features. Also use when the user mentions "SERP," "SERP features," "search result features," "People Also Ask," "PAA," "sitelinks," "knowledge panel," "local pack," "rich results," "zero-click," "SERP types," "AI Overviews," "Bing Copilot," "Yandex AI," or "schema for SERP" (schema and SERP features are strongly related).
+description: "Analyzes and optimizes for SERP features including Featured Snippets, People Also Ask, rich results, Knowledge Panels, Local Pack, AI Overviews, and Bing Copilot. Assesses zero-click risk per feature type and maps each feature to the required schema markup. Use when the user wants to understand or optimize for SERP features and mentions 'SERP,' 'SERP features,' 'search result features,' 'People Also Ask,' 'PAA,' 'sitelinks,' 'knowledge panel,' 'local pack,' 'rich results,' 'zero-click,' 'SERP types,' 'AI Overviews,' 'Bing Copilot,' 'Yandex AI,' or 'schema for SERP.'"
 metadata:
   version: 1.0.0
 ---

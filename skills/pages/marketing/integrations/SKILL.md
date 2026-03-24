@@ -1,6 +1,6 @@
 ---
 name: integrations-page-generator
-description: When the user wants to create, optimize, or audit integrations, plugins, or extensions pages. Also use when the user mentions "integrations page," "plugins," "extensions," "add-ons," "API integrations," "connect with X," or "marketplace."
+description: "Creates and optimizes integrations, plugins, and extensions pages showing how the product connects with third-party platforms like Slack, Zapier, and Canva. Use when the user wants to create, optimize, or audit integrations or plugins pages, or mentions 'integrations page,' 'plugins,' 'extensions,' 'add-ons,' 'API integrations,' 'connect with X,' or 'marketplace.'"
 metadata:
   version: 1.0.0
 ---

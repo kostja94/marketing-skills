@@ -1,6 +1,6 @@
 ---
 name: footer-generator
-description: When the user wants to design, optimize, or audit website footers. Also use when the user mentions "footer," "page footer," "site footer," "footer links," "footer navigation," "footer SEO," "footer design," "footer CTA," "multi-column footer," or "footer sitemap."
+description: "Guides website footer design and optimization for SEO, UX, and conversion—covering navigation structure, crawlability, CTA placement, multi-column layouts, and legal link requirements. Use when the user wants to design, audit, or improve a site footer, or mentions 'footer,' 'page footer,' 'site footer,' 'footer links,' 'footer navigation,' 'footer SEO,' 'footer design,' 'footer CTA,' 'multi-column footer,' or 'footer sitemap.'"
 metadata:
   version: 1.0.0
 ---

@@ -1,6 +1,6 @@
 ---
 name: eeat-signals
-description: When the user wants to improve E-E-A-T, add trust signals, or optimize for expertise and authority. Also use when the user mentions "E-E-A-T," "E-E-A-T signals," "experience expertise authority trust," "author bio," "YMYL," "trust signals," "expertise signals," "authority signals," "citations," "references," or "credibility."
+description: "Guides implementation of E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) signals for SEO—covering author bios, citations, original research, YMYL content requirements, and on-page trust indicators that improve content quality assessments by search engines. Use when the user wants to strengthen credibility or mentions 'E-E-A-T,' 'E-E-A-T signals,' 'experience expertise authority trust,' 'author bio,' 'YMYL,' 'trust signals,' 'expertise signals,' 'authority signals,' 'citations,' 'references,' or 'credibility.'"
 metadata:
   version: 1.0.0
 ---

@@ -1,6 +1,6 @@
 ---
 name: parasite-seo
-description: When the user wants to leverage high-authority platforms for rankings or backlinks. Also use when the user mentions "parasite SEO," "parasitic SEO," "barnacle SEO," "hosted content," "third-party publishing," "Medium SEO," "Reddit SEO," "GitHub parasite SEO," "LinkedIn Pulse SEO," "high-authority platforms," "distributed authority," "borrow domain authority," or "rank without own website." For GitHub specifics, use github.
+description: "Develops and executes parasite SEO strategies by publishing optimized content on high-authority third-party platforms (Medium, Reddit, LinkedIn, GitHub, Quora) to rank faster without building own domain authority. Covers platform tier selection, keyword strategy, on-page optimization, and link building through hosted content. Use when the user wants to leverage high-authority platforms for rankings or backlinks and mentions 'parasite SEO,' 'parasitic SEO,' 'barnacle SEO,' 'hosted content,' 'third-party publishing,' 'Medium SEO,' 'Reddit SEO,' 'GitHub parasite SEO,' 'LinkedIn Pulse SEO,' 'high-authority platforms,' 'distributed authority,' 'borrow domain authority,' or 'rank without own website.' For GitHub specifics, use github."
 metadata:
   version: 1.0.0
 ---

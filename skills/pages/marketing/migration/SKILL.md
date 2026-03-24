@@ -1,6 +1,6 @@
 ---
 name: migration-page-generator
-description: When the user wants to create, optimize, or audit migration guides for users switching from competitors. Also use when the user mentions "migration guide," "migrate from X," "switch to [product]," "import from X," or "data migration."
+description: "Create or optimize migration guide pages that reduce friction for users switching from a competitor product. Use when the user wants to help switchers onboard, or mentions \"migration guide,\" \"migrate from X,\" \"switch to [product],\" \"import from X,\" or \"data migration.\""
 metadata:
   version: 1.0.0
 ---

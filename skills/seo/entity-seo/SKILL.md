@@ -1,6 +1,6 @@
 ---
 name: entity-seo
-description: When the user wants to optimize for entity recognition, Knowledge Graph, or entity-based SEO. Also use when the user mentions "entity SEO," "entity optimization," "Knowledge Graph," "Knowledge Panel," "entity signals," "brand entity," "entity linking," "entity relationships," or "entity-first content."
+description: "Audits and optimizes entity SEO signals including Knowledge Graph presence, schema markup (Organization, Person), entity consistency across platforms, and Knowledge Panel eligibility. Provides entity audit checklists and implementation workflows for brand, product, and author entities. Use when the user wants to optimize for entity recognition, Knowledge Graph, or entity-based SEO and mentions 'entity SEO,' 'entity optimization,' 'Knowledge Graph,' 'Knowledge Panel,' 'entity signals,' 'brand entity,' 'entity linking,' 'entity relationships,' or 'entity-first content.'"
 metadata:
   version: 1.0.0
 ---

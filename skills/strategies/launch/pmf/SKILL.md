@@ -1,6 +1,6 @@
 ---
 name: pmf-strategy
-description: When the user wants to validate product-market fit, measure PMF, or plan before scaling. Also use when the user mentions "PMF," "product-market fit," "product market fit," "Sean Ellis test," "very disappointed," "vitamin vs painkiller," "PMF validation," "premature scaling," or "validate before scale."
+description: "Guides product-market fit (PMF) validation and measurement—applying the Sean Ellis 40% test, diagnosing vitamin-vs-painkiller problems, interpreting retention and NPS signals, and deciding when it is safe to scale. Use when validating before scaling, measuring PMF, or diagnosing traction problems, or when the user mentions 'PMF,' 'product-market fit,' 'product market fit,' 'Sean Ellis test,' 'very disappointed,' 'vitamin vs painkiller,' 'PMF validation,' 'premature scaling,' or 'validate before scale.'"
 metadata:
   version: 1.1.0
 ---

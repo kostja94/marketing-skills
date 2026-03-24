@@ -1,6 +1,6 @@
 ---
 name: competitor-research
-description: When the user wants to analyze competitors for SEO, content, backlinks, or positioning. Also use when the user mentions "competitor analysis," "competitor research," "competitor keywords," "competitor backlinks," "link gap," "content gap," "competitor content," "competitive analysis," or "competitor comparison."
+description: "Guides competitor research for SEO and content strategy—analyzing competitor keyword rankings, content structure, backlink profiles, and positioning to surface gaps and opportunities. Use when planning content, auditing articles, building links, or evaluating market position, or when the user mentions 'competitor analysis,' 'competitor research,' 'competitor keywords,' 'competitor backlinks,' 'link gap,' 'content gap,' 'competitor content,' 'competitive analysis,' or 'competitor comparison.'"
 metadata:
   version: 1.2.0
 ---

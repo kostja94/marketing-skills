@@ -1,6 +1,6 @@
 ---
 name: toc-generator
-description: When the user wants to add, optimize, or audit table of contents (TOC) for long-form content. Also use when the user mentions "TOC," "table of contents," "table of contents for article," "article TOC," "jump links," "content outline," "article navigation," "in-page navigation," "add TOC to blog," or "TOC for long content."
+description: "Add or optimize table of contents components for long-form articles and guides to improve navigation and SEO. Use when the user wants in-page navigation, or mentions \"TOC,\" \"table of contents,\" \"table of contents for article,\" \"article TOC,\" \"jump links,\" \"content outline,\" \"article navigation,\" \"in-page navigation,\" \"add TOC to blog,\" or \"TOC for long content.\""
 metadata:
   version: 1.0.0
 ---

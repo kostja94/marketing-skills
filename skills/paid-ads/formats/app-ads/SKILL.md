@@ -1,6 +1,6 @@
 ---
 name: app-ads
-description: When the user wants to run app install ads, user acquisition (UA), or promote mobile apps. Also use when the user mentions "app ads," "app install ads," "UA," "user acquisition," "Google App Campaigns," "Apple Search Ads," "ASA," "UAC," "App Store ads," "Play Store ads," "CPI," or "app promotion."
+description: "Guides app advertising campaigns for iOS and Android—covering Google App Campaigns, Apple Search Ads (ASA), and Meta App Install ads, including targeting, bid strategies, creative asset requirements, and CPI optimization. Use when the user wants to drive app installs or in-app actions, or mentions 'app ads,' 'app install ads,' 'UA,' 'user acquisition,' 'Google App Campaigns,' 'Apple Search Ads,' 'ASA,' 'UAC,' 'App Store ads,' 'Play Store ads,' 'CPI,' or 'app promotion.'"
 metadata:
   version: 1.0.0
 ---

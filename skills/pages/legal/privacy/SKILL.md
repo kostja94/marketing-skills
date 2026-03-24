@@ -1,6 +1,6 @@
 ---
 name: privacy-page-generator
-description: When the user wants to create, optimize, or structure Privacy Policy page. Also use when the user mentions "privacy policy," "privacy page," "data protection," "GDPR compliance," "privacy notice," "data privacy," "CCPA," "cookie policy," or "personal data."
+description: "Creates and structures a Privacy Policy page with GDPR, CCPA, and data protection compliance, covering data collection, usage, and user rights. Use when the user wants to create, optimize, or structure a Privacy Policy page, or mentions 'privacy policy,' 'privacy page,' 'data protection,' 'GDPR compliance,' 'privacy notice,' 'data privacy,' 'CCPA,' 'cookie policy,' or 'personal data.'"
 metadata:
   version: 1.0.0
 ---

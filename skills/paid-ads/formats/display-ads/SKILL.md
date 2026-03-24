@@ -1,6 +1,6 @@
 ---
 name: display-ads
-description: When the user wants to run display, banner, or ad network campaigns. Also use when the user mentions "display ads," "banner ads," "ad network," "ad alliance," "programmatic display," "native ads," or "retargeting display."
+description: "Plans and optimizes display and banner advertising campaigns across ad networks, Google Display Network, and programmatic DSPs—covering IAB standard sizes, buying options (programmatic RTB, direct, Google Display), metrics (CPM, CPC, CTR, viewability), creative specs, UTM attribution, and retargeting setup. Use when the user mentions 'display ads,' 'banner ads,' 'ad network,' 'ad alliance,' 'programmatic display,' 'native ads,' or 'retargeting display.'"
 metadata:
   version: 1.0.0
 ---

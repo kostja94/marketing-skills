@@ -1,6 +1,6 @@
 ---
 name: tiktok-ads
-description: When the user wants to set up, optimize, or manage TikTok Ads. Also use when the user mentions "TikTok Ads," "TikTok for Business," "TikTok Pixel," "Events API," "TikTok Spark Ads," or "TikTok video ads."
+description: "Sets up and optimizes TikTok Ads campaigns with video creative strategy, Pixel/Events API tracking, Spark Ads, and audience targeting for 18-34 demographics. Use when the user wants to set up, optimize, or manage TikTok Ads, or mentions 'TikTok Ads,' 'TikTok for Business,' 'TikTok Pixel,' 'Events API,' 'TikTok Spark Ads,' or 'TikTok video ads.'"
 metadata:
   version: 1.0.0
 ---

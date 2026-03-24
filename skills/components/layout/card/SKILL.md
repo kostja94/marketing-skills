@@ -1,6 +1,6 @@
 ---
 name: card
-description: When the user wants to design, optimize, or audit card layouts for content display. Also use when the user mentions "card layout," "card component," "card grid," "product cards," "template cards," "tool cards," "feature cards," "gallery cards," "integration cards," or "card design."
+description: "Designs responsive card grid layouts for scannable content display across blog posts, products, tools, features, and integrations. Use when the user wants to design, optimize, or audit card layouts, or mentions 'card layout,' 'card component,' 'card grid,' 'product cards,' 'template cards,' 'tool cards,' 'feature cards,' 'gallery cards,' 'integration cards,' or 'card design.'"
 metadata:
   version: 1.1.0
 ---

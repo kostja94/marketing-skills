@@ -1,6 +1,6 @@
 ---
 name: breadcrumb-generator
-description: When the user wants to add, optimize, or audit breadcrumb navigation. Also use when the user mentions "breadcrumbs," "breadcrumb trail," "breadcrumb nav," "breadcrumb links," "path navigation," "site breadcrumb," "BreadcrumbList schema," "location-based breadcrumb," "attribute-based breadcrumb," "site hierarchy display," "add breadcrumbs," or "breadcrumb SEO."
+description: "Add, optimize, or audit breadcrumb navigation to improve SEO, UX, and site hierarchy clarity. Use when the user wants to implement breadcrumbs, or mentions \"breadcrumbs,\" \"breadcrumb trail,\" \"breadcrumb nav,\" \"breadcrumb links,\" \"path navigation,\" \"site breadcrumb,\" \"BreadcrumbList schema,\" \"location-based breadcrumb,\" \"attribute-based breadcrumb,\" \"site hierarchy display,\" \"add breadcrumbs,\" or \"breadcrumb SEO.\""
 metadata:
   version: 1.1.0
 ---

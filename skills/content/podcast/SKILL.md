@@ -1,6 +1,6 @@
 ---
 name: podcast-marketing
-description: When the user wants to plan, create, or market a podcast. Also use when the user mentions "podcast," "podcast strategy," "podcast SEO," "show notes," "podcast distribution," "Spotify podcast," "Apple Podcasts," "podcast discoverability," "PodcastEpisode schema," or "podcast repurposing."
+description: "Plan, create, distribute, and market a podcast for discoverability and audience growth. Use when the user wants to launch or improve a podcast, or mentions \"podcast,\" \"podcast strategy,\" \"podcast SEO,\" \"show notes,\" \"podcast distribution,\" \"Spotify podcast,\" \"Apple Podcasts,\" \"podcast discoverability,\" \"PodcastEpisode schema,\" or \"podcast repurposing.\""
 metadata:
   version: 1.0.0
 ---

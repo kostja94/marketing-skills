@@ -1,6 +1,6 @@
 ---
 name: gtm-strategy
-description: When the user wants to plan go-to-market strategy, GTM framework, or market entry. Also use when the user mentions "GTM," "go-to-market," "market entry," "new market," "repositioning," "PLG," "sales-led," "product-led," "marketing-led," "ICP," "buyer persona," "GTM motion," or "market expansion."
+description: "Builds go-to-market (GTM) strategy for product launches, new market entry, repositioning, and feature launches—covering GTM modes (PLG, SLG, MLG, Hybrid), ICP and buyer persona definition, market analysis (TAM, competitive landscape, buying patterns), a 90-day execution framework, and cross-functional alignment. Outputs a recommended GTM mode, 90-day phase plan, ICP, and market analysis checklist. Use when the user mentions 'GTM,' 'go-to-market,' 'market entry,' 'new market,' 'repositioning,' 'PLG,' 'sales-led,' 'product-led,' 'marketing-led,' 'ICP,' 'buyer persona,' 'GTM motion,' or 'market expansion.'"
 metadata:
   version: 1.1.0
 ---

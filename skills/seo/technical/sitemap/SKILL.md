@@ -1,6 +1,6 @@
 ---
 name: xml-sitemap
-description: When the user wants to create, audit, or optimize sitemap.xml. Also use when the user mentions "sitemap," "sitemap.xml," "sitemap index," "lastmod," "changefreq," "priority," "URL discovery," "URL discovery for search engines," "single source of truth," "URL config," "unify sitemap IndexNow," or "reduce duplicate maintenance."
+description: "Creates, audits, and optimizes sitemap.xml and sitemap index files for accurate search engine URL discovery, including lastmod, priority, and IndexNow integration. Use when the user wants to create, audit, or optimize sitemap.xml, or mentions 'sitemap,' 'sitemap.xml,' 'sitemap index,' 'lastmod,' 'changefreq,' 'priority,' 'URL discovery,' 'URL discovery for search engines,' 'single source of truth,' 'URL config,' 'unify sitemap IndexNow,' or 'reduce duplicate maintenance.'"
 metadata:
   version: 1.0.0
 ---

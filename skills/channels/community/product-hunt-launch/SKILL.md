@@ -1,6 +1,6 @@
 ---
 name: product-hunt-launch
-description: When the user wants to launch on Product Hunt, prepare a Product Hunt submission, or plan a Product Hunt launch. Also use when the user mentions "Product Hunt," "launch on Product Hunt," "PH launch," "Product Hunt submission," "hunter," "Product of the Day," "upvotes," or "Product Hunt first comment."
+description: "Plans and prepares a full Product Hunt launch including submission copy, first comment, launch-day strategy, and upvote tactics. Use when the user wants to launch on Product Hunt, prepare a Product Hunt submission, or plan a Product Hunt launch, or mentions 'Product Hunt,' 'launch on Product Hunt,' 'PH launch,' 'Product Hunt submission,' 'hunter,' 'Product of the Day,' 'upvotes,' or 'Product Hunt first comment.'"
 metadata:
   version: 1.0.0
 ---

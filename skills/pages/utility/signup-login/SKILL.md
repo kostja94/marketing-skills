@@ -1,6 +1,6 @@
 ---
 name: signup-login-page-generator
-description: When the user wants to create, optimize, or audit signup and login pages. Also use when the user mentions "signup page," "login page," "registration page," "auth page," "sign up form," "create account," "student discount at signup," or "auth subdomain."
+description: "Create or optimize signup and login pages as the conversion endpoint from landing pages and pricing. Use when the user wants to improve account creation or authentication flow, or mentions \"signup page,\" \"login page,\" \"registration page,\" \"auth page,\" \"sign up form,\" \"create account,\" \"student discount at signup,\" or \"auth subdomain.\""
 metadata:
   version: 1.0.0
 ---

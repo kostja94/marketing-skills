@@ -1,6 +1,6 @@
 ---
 name: video-marketing
-description: When the user wants to plan video marketing, create video scripts, or optimize for short-form or long-form video. Also use when the user mentions "video marketing," "video script," "short-form video," "long-form video," "TikTok script," "Reels script," "YouTube script," "video hook," or "video content strategy."
+description: "Plan video marketing strategy and write scripts for short-form and long-form video across platforms. Use when the user wants to create or optimize video content, or mentions \"video marketing,\" \"video script,\" \"short-form video,\" \"long-form video,\" \"TikTok script,\" \"Reels script,\" \"YouTube script,\" \"video hook,\" or \"video content strategy.\""
 metadata:
   version: 1.0.0
 ---

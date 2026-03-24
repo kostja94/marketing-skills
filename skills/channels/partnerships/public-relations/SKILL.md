@@ -1,6 +1,6 @@
 ---
 name: public-relations
-description: When the user wants to plan PR, write a press release, or manage media relations. Also use when the user mentions "public relations," "PR," "press release," "media relations," "news release," "journalist," "media coverage," "product announcement," or "earned media."
+description: "Plan PR strategy, write press releases, and manage media relations for earned coverage. Use when the user wants to announce a product or pitch journalists, or mentions \"public relations,\" \"PR,\" \"press release,\" \"media relations,\" \"news release,\" \"journalist,\" \"media coverage,\" \"product announcement,\" or \"earned media.\""
 metadata:
   version: 1.0.0
 ---

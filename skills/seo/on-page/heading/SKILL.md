@@ -1,8 +1,8 @@
 ---
 name: heading-structure
-description: When the user wants to optimize heading structure (H1-H6), fix heading hierarchy, or improve content structure. Also use when the user mentions "H1," "heading," "heading hierarchy," "content structure," "H2," "H3," "heading tags," "heading SEO," "multiple H1," or "heading structure."
+description: When the user wants to optimize heading structure (H1-H6), fix heading hierarchy, or improve content structure. Also use when the user mentions "H1," "heading," "heading hierarchy," "content structure," "H2," "H3," "heading tags," "heading SEO," "multiple H1," or "heading structure." For SEO workflow, use seo-strategy.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # SEO On-Page: Heading Structure

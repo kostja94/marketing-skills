@@ -1,8 +1,8 @@
 ---
 name: youtube-seo
-description: When the user wants to optimize YouTube videos for search, create video descriptions, or improve channel visibility. Also use when the user mentions "YouTube SEO," "YouTube description," "YouTube tags," "YouTube thumbnail," "YouTube title," "YouTube channel," or "video SEO."
+description: When the user wants to optimize YouTube videos for search, create video descriptions, or improve channel visibility. Also use when the user mentions "YouTube SEO," "YouTube description," "YouTube tags," "YouTube thumbnail," "YouTube title," "YouTube channel," or "video SEO." For YouTube ads, use youtube-ads.
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Platforms: YouTube SEO

@@ -1,8 +1,8 @@
 ---
 name: integrated-marketing
-description: When the user wants to plan integrated marketing, coordinate channels, or clarify program vs channel vs campaign. Also use when the user mentions "IMC," "integrated marketing," "channel mix," "marketing program," "PESO model," "integrated marketing communications," "omnichannel marketing," "channel strategy," "marketing mix," or "cross-channel campaign."
+description: When the user wants to plan integrated marketing, coordinate channels, or clarify program vs channel vs campaign. Also use when the user mentions "IMC," "integrated marketing," "channel mix," "marketing program," "PESO model," "integrated marketing communications," "omnichannel marketing," "channel strategy," "marketing mix," or "cross-channel campaign." For content planning, use content-marketing.
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Strategies: Integrated Marketing (IMC)

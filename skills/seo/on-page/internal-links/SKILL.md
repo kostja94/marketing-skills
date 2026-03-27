@@ -1,8 +1,8 @@
 ---
 name: internal-links
-description: When the user wants to optimize internal linking, fix orphan pages, or improve link structure. Also use when the user mentions "internal links," "internal linking," "anchor text," "link equity," "internal linking strategy," or "orphan pages."
+description: When the user wants to optimize internal linking, fix orphan pages, or improve link structure. Also use when the user mentions "internal links," "internal linking," "anchor text," "link equity," "internal linking strategy," or "orphan pages." For IA, use website-structure.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # SEO On-Page: Internal Links

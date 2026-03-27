@@ -1,8 +1,8 @@
 ---
 name: faq-page-generator
-description: When the user wants to create, optimize, or audit FAQ page content. Also use when the user mentions "FAQ page," "frequently asked questions," "help page," "Q&A page," "FAQ schema," "FAQ section," "common questions," "FAQ SEO," "accordion FAQ," "People Also Ask," "PAA," "People Also Search For," "PASF," "FAQ rich results," or "FAQ for GEO."
+description: When the user wants to create, optimize, or audit FAQ page content. Also use when the user mentions "FAQ page," "frequently asked questions," "help page," "Q&A page," "FAQ schema," "FAQ section," "common questions," "FAQ SEO," "accordion FAQ," "People Also Ask," "PAA," "People Also Search For," "PASF," or "FAQ rich results." For FAQ structured data markup, use schema-markup. For AI search visibility strategy, use generative-engine-optimization.
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Pages: FAQ

@@ -1,8 +1,8 @@
 ---
 name: url-slug-generator
-description: When the user wants to create, optimize, or validate URL slugs for content pages. Also use when the user mentions "URL slug," "URL path," "blog URL," "article URL," "short URL," "clean slug," "permalink," "slug optimization," "URL structure," "SEO-friendly URL," "create URL slug," or "SEO slug."
+description: When the user wants to create, optimize, or validate URL slugs for content pages. Also use when the user mentions "URL slug," "URL path," "blog URL," "article URL," "short URL," "clean slug," "permalink," "slug optimization," "URL structure," "SEO-friendly URL," "create URL slug," or "SEO slug." For site-wide URL policy, use url-structure.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Components: URL Slug

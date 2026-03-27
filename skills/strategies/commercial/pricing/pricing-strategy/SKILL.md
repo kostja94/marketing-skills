@@ -1,8 +1,8 @@
 ---
 name: pricing-strategy
-description: When the user wants to plan, design, or optimize pricing strategy and structure. Also use when the user mentions "pricing strategy," "pricing model," "pricing tiers," "freemium," "value-based pricing," "anchoring," "price structure," or "monetization strategy."
+description: When the user wants to plan, design, or optimize pricing strategy and structure. Also use when the user mentions "pricing strategy," "pricing model," "pricing tiers," "freemium," "value-based pricing," "anchoring," "price structure," or "monetization strategy." For pricing page, use pricing-page-generator.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Strategies: Pricing

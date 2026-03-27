@@ -1,8 +1,8 @@
 ---
 name: tools-page-generator
-description: When the user wants to create, optimize, or audit free tools pages. Also use when the user mentions "free tools," "tools page," "toolkit," "free [X] tool," "free [X] calculator," "free [X] checker," "lead magnet tool," "programmatic tools," or "tools hub."
+description: When the user wants to create, optimize, or audit free tools pages. Also use when the user mentions "free tools," "tools page," "toolkit," "free [X] tool," "free [X] calculator," "free [X] checker," "lead magnet tool," "programmatic tools," or "tools hub." For content strategy, use content-strategy.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Pages: Tools (Free Tools)

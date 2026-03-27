@@ -1,8 +1,8 @@
 ---
 name: trust-badges-generator
-description: When the user wants to add or optimize trust badges, "Trusted by" logos, security seals, or social proof elements. Also use when the user mentions "trust badges," "trusted by," "security badges," "payment logos," "social proof," "trust seals," "SSL badge," "customer logos," "as seen in," or "trust signals."
+description: When the user wants to add or optimize trust badges, "Trusted by" logos, security seals, or social proof elements. Also use when the user mentions "trust badges," "trusted by," "security badges," "payment logos," "social proof," "trust seals," "SSL badge," "customer logos," "as seen in," or "trust signals." For press logos, use press-coverage-page-generator.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Components: Trust Badges

@@ -1,8 +1,8 @@
 ---
 name: pricing-page-generator
-description: When the user wants to create, optimize, or audit pricing page content and structure. Also use when the user mentions "pricing page," "pricing table," "plans," "subscription," "pricing plans," "pricing tiers," "pricing comparison," "SaaS pricing," "enterprise pricing," "API pricing," "contact sales," "pricing in nav," "public pricing," "hide pricing," or "pricing objection handling."
+description: When the user wants to create, optimize, or audit pricing page content and structure. Also use when the user mentions "pricing page," "pricing table," "plans," "subscription," "pricing plans," "pricing tiers," "pricing comparison," "SaaS pricing," "enterprise pricing," "API pricing," "contact sales," "pricing in nav," "public pricing," "hide pricing," or "pricing objection handling." For pricing strategy, use pricing-strategy.
 metadata:
-  version: 1.2.0
+  version: 1.2.1
 ---
 
 # Pages: Pricing

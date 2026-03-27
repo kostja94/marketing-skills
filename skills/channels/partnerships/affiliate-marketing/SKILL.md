@@ -1,8 +1,8 @@
 ---
 name: affiliate-marketing
-description: When the user wants to plan, implement, or optimize affiliate marketing strategy. Also use when the user mentions "affiliate marketing," "affiliate program strategy," "CPS model," "affiliate recruitment," "commission structure," "affiliate partners," "affiliate network," "affiliate tracking," "affiliate commission," or "partner marketing."
+description: When the user wants to plan, implement, or optimize affiliate marketing strategy. Also use when the user mentions "affiliate marketing," "affiliate program strategy," "CPS model," "affiliate recruitment," "commission structure," "affiliate partners," "affiliate network," "affiliate tracking," "affiliate commission," or "partner marketing." For affiliate page, use affiliate-page-generator.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Channels: Affiliate

@@ -1,8 +1,8 @@
 ---
 name: education-program
-description: When the user wants to plan, implement, or optimize student and education discount programs. Also use when the user mentions "student discount," "education discount," "student plan," "for students," ".edu discount," "academic pricing," "student verification," "SheerID," "UNiDAYS," or "education program."
+description: When the user wants to plan, implement, or optimize student and education discount programs. Also use when the user mentions "student discount," "education discount," "student plan," "for students," ".edu discount," "academic pricing," "student verification," "SheerID," "UNiDAYS," or "education program." For startup pricing page, use startups-page-generator.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Channels: Education Program

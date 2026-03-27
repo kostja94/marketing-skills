@@ -1,8 +1,8 @@
 ---
 name: pinterest-posts
-description: When the user wants to create Pinterest Pins, optimize Pin descriptions, or grow Pinterest presence. Also use when the user mentions "Pinterest," "Pin," "Pinterest SEO," "Pinterest description," "Pinterest board," or "Pinterest marketing."
+description: When the user wants to create Pinterest Pins, optimize Pin descriptions, or grow Pinterest presence. Also use when the user mentions "Pinterest," "Pin," "Pinterest SEO," "Pinterest description," "Pinterest board," or "Pinterest marketing." For asset specs, use visual-content.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Platforms: Pinterest

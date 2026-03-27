@@ -1,8 +1,8 @@
 ---
 name: generative-engine-optimization
-description: When the user wants to optimize for AI search visibility (ChatGPT, Claude, Perplexity). Also use when the user mentions "GEO," "AEO," "generative engine optimization," "AI search visibility," "LLM optimization," "GitHub GEO," "Grokipedia," "optimize for ChatGPT," "AI Overviews," "Bing Copilot," "Yandex AI," "Perplexity optimization," "GEO strategy," or "AI search optimization." For parasite SEO strategy, use parasite-seo. For GitHub, use github.
+description: When the user wants to optimize for AI search visibility (ChatGPT, Claude, Perplexity, AI Overviews). Also use when the user mentions "GEO," "AEO," "generative engine optimization," "AI search visibility," "LLM optimization," "GitHub GEO," "Grokipedia," "optimize for ChatGPT," "AI Overviews," "Bing Copilot," "Yandex AI," "Perplexity optimization," "GEO strategy," or "AI search optimization." For third-party publishing strategy (which platforms to use), use parasite-seo. For GitHub repos, README, and Awesome lists, use github. For Medium.com only, use medium-posts. For Grokipedia edits, use grokipedia-recommendations. For traditional Google SERP strategy, use seo-strategy.
 metadata:
-  version: 1.1.0
+  version: 1.3.0
 ---
 
 # Strategies: GEO (Generative Engine Optimization)

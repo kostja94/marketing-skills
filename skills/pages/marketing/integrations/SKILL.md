@@ -1,8 +1,8 @@
 ---
 name: integrations-page-generator
-description: When the user wants to create, optimize, or audit integrations, plugins, or extensions pages. Also use when the user mentions "integrations page," "plugins," "extensions," "add-ons," "API integrations," "connect with X," or "marketplace."
+description: When the user wants to create, optimize, or audit integrations, plugins, or extensions pages. Also use when the user mentions "integrations page," "plugins," "extensions," "add-ons," "API integrations," "connect with X," or "marketplace." For sitewide page planning, use website-structure.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Pages: Integrations / Plugins

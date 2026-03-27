@@ -1,8 +1,8 @@
 ---
 name: alternatives-page-generator
-description: When the user wants to create, optimize, or audit alternatives or comparison content (page or blog article). Also use when the user mentions "alternatives page," "alternatives listicle," "X alternatives," "competitor comparison," "vs page," "compare page," "best alternatives to X," "switch from X," "competitor brand traffic," "brand keyword ads," or "intercept competitor search."
+description: When the user wants to create, optimize, or audit alternatives or comparison content (page or blog article). Also use when the user mentions "alternatives page," "alternatives listicle," "X alternatives," "competitor comparison," "vs page," "compare page," "best alternatives to X," "switch from X," "competitor brand traffic," "brand keyword ads," or "intercept competitor search." For competitor research, use competitor-research.
 metadata:
-  version: 1.2.0
+  version: 1.2.1
 ---
 
 # Pages: Alternatives / Compare

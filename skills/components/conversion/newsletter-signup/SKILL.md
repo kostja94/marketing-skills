@@ -1,8 +1,8 @@
 ---
 name: newsletter-signup-generator
-description: When the user wants to design, optimize, or audit newsletter signup forms. Also use when the user mentions "newsletter," "email signup," "subscribe form," "email capture," "lead magnet," "newsletter form," "email opt-in," "subscribe CTA," "newsletter signup," or "email list building."
+description: When the user wants to design, optimize, or audit newsletter signup forms. Also use when the user mentions "newsletter," "email signup," "subscribe form," "email capture," "lead magnet," "newsletter form," "email opt-in," "subscribe CTA," "newsletter signup," or "email list building." For email strategy, use email-marketing.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Components: Newsletter Signup

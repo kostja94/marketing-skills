@@ -1,8 +1,8 @@
 ---
 name: discount-marketing-strategy
-description: When the user wants to plan, implement, or optimize discount and promotional pricing strategy. Also use when the user mentions "discount strategy," "promo code," "coupon," "redeem code," "lifetime deal," "LTD," "AppSumo," "Black Friday," "Cyber Monday," "BFCM," "seasonal sale," or "promotional pricing."
+description: When the user wants to plan, implement, or optimize discount and promotional pricing strategy. Also use when the user mentions "discount strategy," "promo code," "coupon," "redeem code," "lifetime deal," "LTD," "AppSumo," "Black Friday," "Cyber Monday," "BFCM," "seasonal sale," or "promotional pricing." For pricing page, use pricing-page-generator.
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Strategies: Discount Marketing

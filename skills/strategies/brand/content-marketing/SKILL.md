@@ -1,8 +1,8 @@
 ---
 name: content-marketing
-description: When the user wants to plan content marketing across channels, define content types and formats, or create a content repurposing strategy. Also use when the user mentions "content marketing strategy," "content types," "content formats," "content repurposing," "content calendar," "content mix," "owned content," "content distribution," "content funnel," or "content planning across channels."
+description: When the user wants to plan content marketing across channels, define content types and formats, or create a content repurposing strategy. Also use when the user mentions "content marketing strategy," "content types," "content formats," "content repurposing," "content calendar," "content mix," "owned content," "content distribution," "content funnel," or "content planning across channels." For SEO calendar, use content-strategy.
 metadata:
-  version: 1.2.0
+  version: 1.2.1
 ---
 
 # Strategies: Content Marketing

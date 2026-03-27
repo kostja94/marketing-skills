@@ -1,8 +1,8 @@
 ---
 name: startups-page-generator
-description: When the user wants to create, optimize, or audit a startups, education, or special program page. Also use when the user mentions "startups program," "for startups," "education discount," "student plan," "for students," or "special pricing."
+description: When the user wants to create, optimize, or audit a startups, education, or special program page. Also use when the user mentions "startups program," "for startups," "education discount," "student plan," "for students," or "special pricing." For education discounts, use education-program.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Pages: Startups / Education

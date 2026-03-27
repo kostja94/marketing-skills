@@ -1,8 +1,8 @@
 ---
 name: image-optimization
-description: When the user wants to optimize images for search engines and performance. Also use when the user mentions "image SEO," "alt text," "image captions," "figcaption," "image optimization," "WebP," "lazy loading," "LCP," "image sitemap," "responsive images," "srcset," "image format," or "hero image optimization."
+description: When the user wants to optimize images for search engines and performance. Also use when the user mentions "image SEO," "alt text," "image captions," "figcaption," "image optimization," "WebP," "lazy loading," "LCP," "image sitemap," "responsive images," "srcset," "image format," or "hero image optimization." For CWV, use core-web-vitals.
 metadata:
-  version: 1.2.0
+  version: 1.2.1
 ---
 
 # SEO On-Page: Image Optimization

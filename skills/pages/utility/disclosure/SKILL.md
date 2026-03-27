@@ -1,8 +1,8 @@
 ---
 name: disclosure-page-generator
-description: When the user wants to create, optimize, or audit an affiliate, sponsor, or paid partnership disclosure page. Also use when the user mentions "disclosure," "affiliate disclosure," "sponsored content," "FTC disclosure," or "paid partnership."
+description: When the user wants to create, optimize, or audit an affiliate, sponsor, or paid partnership disclosure page. Also use when the user mentions "disclosure," "affiliate disclosure," "sponsored content," "FTC disclosure," or "paid partnership." For sitewide page planning, use website-structure.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Pages: Disclosure

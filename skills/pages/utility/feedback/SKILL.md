@@ -1,8 +1,8 @@
 ---
 name: feedback-page-generator
-description: When the user wants to create, optimize, or audit a feedback or roadmap page. Also use when the user mentions "feedback page," "roadmap," "feature requests," "vote on features," "Canny," "UserVoice," or "product feedback."
+description: When the user wants to create, optimize, or audit a feedback or roadmap page. Also use when the user mentions "feedback page," "roadmap," "feature requests," "vote on features," "Canny," "UserVoice," or "product feedback." For sitewide page planning, use website-structure.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Pages: Feedback / Roadmap

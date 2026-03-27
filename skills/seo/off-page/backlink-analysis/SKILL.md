@@ -1,8 +1,8 @@
 ---
 name: backlink-analysis
-description: When the user wants to analyze backlinks, audit link profile, or identify link issues. Also use when the user mentions "backlink analysis," "backlink audit," "referring domains," "toxic links," "link profile," or "disavow file."
+description: When the user wants to analyze backlinks, audit link profile, or identify link issues. Also use when the user mentions "backlink analysis," "backlink audit," "referring domains," "toxic links," "link profile," or "disavow file." For acquisition, use link-building.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # SEO Off-Page: Backlink Analysis

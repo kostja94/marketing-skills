@@ -1,8 +1,8 @@
 ---
 name: social-share-generator
-description: When the user wants to add, optimize, or audit social share buttons (share article to X, LinkedIn, Facebook, etc.). Also use when the user mentions "share buttons," "social share," "share to X," "share to LinkedIn," "social sharing," "share icons," "share widget," "native share," "Web Share API," or "share intent URLs."
+description: When the user wants to add, optimize, or audit social share buttons (share article to X, LinkedIn, Facebook, etc.). Also use when the user mentions "share buttons," "social share," "share to X," "share to LinkedIn," "social sharing," "share icons," "share widget," "native share," "Web Share API," or "share intent URLs." For link previews, use open-graph.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Components: Social Share Buttons

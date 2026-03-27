@@ -1,8 +1,8 @@
 ---
 name: migration-page-generator
-description: When the user wants to create, optimize, or audit migration guides for users switching from competitors. Also use when the user mentions "migration guide," "migrate from X," "switch to [product]," "import from X," or "data migration."
+description: When the user wants to create, optimize, or audit migration guides for users switching from competitors. Also use when the user mentions "migration guide," "migrate from X," "switch to [product]," "import from X," or "data migration." For rebrand and redirects, use rebranding-strategy.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Pages: Migration

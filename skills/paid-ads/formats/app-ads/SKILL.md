@@ -1,8 +1,8 @@
 ---
 name: app-ads
-description: When the user wants to run app install ads, user acquisition (UA), or promote mobile apps. Also use when the user mentions "app ads," "app install ads," "UA," "user acquisition," "Google App Campaigns," "Apple Search Ads," "ASA," "UAC," "App Store ads," "Play Store ads," "CPI," or "app promotion."
+description: When the user wants to run app install ads, user acquisition (UA), or promote mobile apps. Also use when the user mentions "app ads," "app install ads," "UA," "user acquisition," "Google App Campaigns," "Apple Search Ads," "ASA," "UAC," "App Store ads," "Play Store ads," "CPI," or "app promotion." For store listings, use distribution-channels.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Paid Ads: App Ads

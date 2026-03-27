@@ -1,8 +1,8 @@
 ---
 name: testimonials-generator
-description: When the user wants to add, optimize, or design customer testimonials, reviews, or case study sections. Also use when the user mentions "testimonials," "reviews," "customer quotes," "social proof," "case studies," "testimonial section," "customer reviews," "review schema," "testimonial design," or "social proof section."
+description: When the user wants to add, optimize, or design customer testimonials, reviews, or case study sections. Also use when the user mentions "testimonials," "reviews," "customer quotes," "social proof," "case studies," "testimonial section," "customer reviews," "review schema," "testimonial design," or "social proof section." For case studies page, use customer-stories-page-generator.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Components: Testimonials

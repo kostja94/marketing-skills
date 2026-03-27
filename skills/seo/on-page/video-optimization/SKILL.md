@@ -1,8 +1,8 @@
 ---
 name: video-optimization
-description: When the user wants to optimize videos for Google Search, video sitemap, VideoObject schema, or video SEO on websites. Also use when the user mentions "video SEO," "video sitemap," "VideoObject," "video thumbnail," "video indexing," "video preview," "key moments," "Clip schema," or "embedded video optimization."
+description: When the user wants to optimize videos for Google Search, video sitemap, VideoObject schema, or video SEO on websites. Also use when the user mentions "video SEO," "video sitemap," "VideoObject," "video thumbnail," "video indexing," "video preview," "key moments," "Clip schema," or "embedded video optimization." For page template, use article-page-generator.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # SEO On-Page: Video Optimization

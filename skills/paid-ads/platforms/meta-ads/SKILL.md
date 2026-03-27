@@ -1,8 +1,8 @@
 ---
 name: meta-ads
-description: When the user wants to set up, optimize, or manage Meta (Facebook/Instagram) Ads. Also use when the user mentions "Meta Ads," "Facebook Ads," "Instagram Ads," "Meta Pixel," "Conversions API," "Advantage+," "lookalike audience," or "Meta retargeting."
+description: When the user wants to set up, optimize, or manage Meta (Facebook/Instagram) Ads. Also use when the user mentions "Meta Ads," "Facebook Ads," "Instagram Ads," "Meta Pixel," "Conversions API," "Advantage+," "lookalike audience," or "Meta retargeting." For landing pages, use landing-page-generator.
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Paid Ads: Meta Ads

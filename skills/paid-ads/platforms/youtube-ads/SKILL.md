@@ -1,8 +1,8 @@
 ---
 name: youtube-ads
-description: When the user wants to run YouTube ads, set up TrueView or Bumper campaigns, or optimize video ad creative. Also use when the user mentions "YouTube ads," "TrueView," "Bumper ads," "YouTube Discovery," "video ads," "YouTube campaign," or "in-feed ads."
+description: When the user wants to run YouTube ads, set up TrueView or Bumper campaigns, or optimize video ad creative. Also use when the user mentions "YouTube ads," "TrueView," "Bumper ads," "YouTube Discovery," "video ads," "YouTube campaign," or "in-feed ads." For organic YouTube, use youtube-seo.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Paid Ads: YouTube Ads

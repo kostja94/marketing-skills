@@ -1,8 +1,8 @@
 ---
 name: changelog-page-generator
-description: When the user wants to create, optimize, or structure a changelog or release notes page. Also use when the user mentions "changelog," "release notes," "what's new," "updates," "product updates," "version history," or "changelog.yourdomain.com."
+description: When the user wants to create, optimize, or structure a changelog or release notes page. Also use when the user mentions "changelog," "release notes," "what's new," "updates," "product updates," "version history," or "changelog.yourdomain.com." For sitewide page planning, use website-structure.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Pages: Changelog

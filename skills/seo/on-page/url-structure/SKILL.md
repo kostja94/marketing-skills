@@ -1,8 +1,8 @@
 ---
 name: url-structure
-description: When the user wants to optimize URL structure, fix URL issues, or plan URL hierarchy. Also use when the user mentions "URL structure," "URL optimization," "slug," "clean URLs," "URL hierarchy," "URL path," "permalink structure," "URL best practices," "dynamic URLs," or "URL parameters."
+description: When the user wants to optimize URL structure, fix URL issues, or plan URL hierarchy. Also use when the user mentions "URL structure," "URL optimization," "slug," "clean URLs," "URL hierarchy," "URL path," "permalink structure," "URL best practices," "dynamic URLs," or "URL parameters." For per-page slug wording, use url-slug-generator. For canonical consolidation, use canonical-tag.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # SEO On-Page: URL Structure

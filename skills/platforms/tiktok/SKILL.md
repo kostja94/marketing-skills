@@ -1,8 +1,8 @@
 ---
 name: tiktok-captions
-description: When the user wants to create TikTok video captions, scripts, or optimize for TikTok. Also use when the user mentions "TikTok post," "TikTok caption," "TikTok video," "post to TikTok," "TikTok script," "TikTok content," "TikTok copy," "TikTok hashtags," or "TikTok marketing."
+description: When the user wants to create TikTok video captions, scripts, or optimize for TikTok. Also use when the user mentions "TikTok post," "TikTok caption," "TikTok video," "post to TikTok," "TikTok script," "TikTok content," "TikTok copy," "TikTok hashtags," or "TikTok marketing." For TikTok ads, use tiktok-ads.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Platforms: TikTok

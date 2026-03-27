@@ -1,8 +1,8 @@
 ---
 name: services-page-generator
-description: When the user wants to create, optimize, or audit a services page. Also use when the user mentions "services page," "what we offer," "service offerings," "consulting services," "service page," "offerings page," "service catalog," or "professional services."
+description: When the user wants to create, optimize, or audit a services page. Also use when the user mentions "services page," "what we offer," "service offerings," "consulting services," "service page," "offerings page," "service catalog," or "professional services." For sitewide page planning, use website-structure.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Pages: Services

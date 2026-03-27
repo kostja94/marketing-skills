@@ -1,8 +1,8 @@
 ---
 name: local-seo
-description: When the user wants to optimize for local search, set up Google Business Profile, or build local citations. Also use when the user mentions "local SEO," "Google Business Profile," "Google Maps," "NAP," "citations," "local search," "local business," or "service area."
+description: When the user wants to optimize for local search, set up Google Business Profile, or build local citations. Also use when the user mentions "local SEO," "Google Business Profile," "Google Maps," "NAP," "citations," "local search," "local business," or "service area." For location pages, use programmatic-seo.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # SEO: Local

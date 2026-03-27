@@ -1,8 +1,8 @@
 ---
 name: creator-program
-description: When the user wants to plan, implement, or optimize creator program strategy. Also use when the user mentions "creator program," "creator partnership," "content co-creation," "creator ambassador," "creator economy," "creator collaboration," "UGC program," "creator incentives," or "creator community."
+description: When the user wants to plan, implement, or optimize creator program strategy. Also use when the user mentions "creator program," "creator partnership," "content co-creation," "creator ambassador," "creator economy," "creator collaboration," "UGC program," "creator incentives," or "creator community." For influencers, use influencer-marketing.
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Channels: Creator Program

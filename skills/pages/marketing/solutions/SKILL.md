@@ -1,8 +1,8 @@
 ---
 name: solutions-page-generator
-description: When the user wants to create, optimize, or audit solutions pages. Also use when the user mentions "solutions," "solutions page," "by industry," "industry solutions," "by company size," "SMB," "enterprise," "by outcome," "business outcomes," or "how we solve X."
+description: When the user wants to create, optimize, or audit solutions pages. Also use when the user mentions "solutions," "solutions page," "by industry," "industry solutions," "by company size," "SMB," "enterprise," "by outcome," "business outcomes," or "how we solve X." For sitewide page planning, use website-structure.
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Pages: Solutions

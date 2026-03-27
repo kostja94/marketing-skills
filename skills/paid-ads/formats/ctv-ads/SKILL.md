@@ -1,8 +1,8 @@
 ---
 name: ctv-ads
-description: When the user wants to run CTV, OTT, or streaming TV ads. Also use when the user mentions "CTV ads," "connected TV," "OTT advertising," "streaming ads," "TV ads," "Hulu ads," "Roku ads," "YouTube TV ads," or "programmatic TV."
+description: When the user wants to run CTV, OTT, or streaming TV ads. Also use when the user mentions "CTV ads," "connected TV," "OTT advertising," "streaming ads," "TV ads," "Hulu ads," "Roku ads," "YouTube TV ads," or "programmatic TV." For paid mix, use paid-ads-strategy.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Paid Ads: CTV / Streaming TV

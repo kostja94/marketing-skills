@@ -1,8 +1,8 @@
 ---
 name: growth-funnel
-description: When the user wants to plan growth using the AARRR framework, diagnose growth bottlenecks, or map actions across the customer lifecycle. Also use when the user mentions "growth funnel," "AARRR," "pirate metrics," "acquisition activation retention," "customer lifecycle metrics," or "growth framework."
+description: When the user wants to plan growth using the AARRR framework, diagnose growth bottlenecks, or map actions across the customer lifecycle. Also use when the user mentions "growth funnel," "AARRR," "pirate metrics," "acquisition activation retention," "customer lifecycle metrics," or "growth framework." For retention tactics, use retention-strategy.
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Strategies: Growth Funnel (AARRR)

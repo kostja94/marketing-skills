@@ -1,13 +1,16 @@
 ---
 name: brand-visual-generator
-description: When the user wants to define, audit, or apply visual identity (typography, colors, spacing, frontend aesthetics). Also use when the user mentions "brand style guide," "visual identity," "design system," "typography," "color palette," "brand guidelines," "AI brand aesthetics," "brand colors," "font choices," "spacing system," "design tokens," "motion," "distinctive design," or "frontend aesthetics."
+description: When the user wants to define, audit, or apply visual identity (typography, colors, spacing, design tokens, frontend aesthetics). Also use when the user mentions "brand style guide," "visual identity," "design system," "typography," "color palette," "brand guidelines," "AI brand aesthetics," "brand colors," "font choices," "spacing system," "design tokens," "motion," "distinctive design," "frontend aesthetics," "PowerPoint theme," "Google Slides brand," or "slide master colors." For brand story, positioning, and voice, use branding.
+license: MIT
 metadata:
-  version: 1.2.0
+  version: 1.4.0
 ---
 
 # Components: Brand Visual Identity
 
 Guides visual identity for consistent brand presentation. Companies with consistent branding see up to 23-33% revenue lift; 94% of consumers say consistency influences buying decisions.
+
+**Keywords**: visual identity, design tokens, color palette, typography, CSS variables, slide deck, brand guidelines, frontend aesthetics, accessibility
 
 **When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -17,7 +20,7 @@ Guides visual identity for consistent brand presentation. Companies with consist
 
 Identify:
 1. **Scope**: New brand, audit, or component design
-2. **Touchpoints**: Web, print, social, product UI
+2. **Touchpoints**: Web, print, social, product UI, **slides** (PowerPoint, Google Slides, Keynote), **documents** (Word, Google Docs, PDF reports)
 3. **Existing assets**: Logo, style guide, design files
 
 ## Best Practices
@@ -35,7 +38,7 @@ Identify:
 
 - **Structure**: Primary, secondary, CTA, background, text. Use flexible systems (core hero color + complementary shades), not single rigid colors.
 - **Industry mapping**: Finance → blue, gray, navy (stability); Luxury → rose gold, burgundy, black (exclusivity); Tech → teal, neon accents, charcoal (innovation); Wellness → lavender, peach, mint (calm); Sustainability → sage green, earthy tones.
-- **Reproduction**: HEX, RGB, CMYK for print and digital.
+- **Reproduction**: HEX, RGB, CMYK for print and digital. For **programmatic slides** (e.g. python-pptx), map brand HEX to RGB tuples `(R, G, B)` for fills and text; keep a single source of truth table (HEX + RGB) in the deliverable.
 - **Accessibility**: Contrast >=4.5:1 for normal text, >=3:1 for large text (18px+ or 14px+ bold). Don't rely on color alone for information.
 
 ### Spacing
@@ -154,6 +157,17 @@ When creating or updating `.cursor/project-context.md`, add:
 **Layout**: Viewport, top bar, footer heights if fixed
 ```
 
+## Slides & Documents (Non-Web)
+
+When the user asks for **deck or document** branding—not only websites:
+
+- **Slide master**: Background color from token; title font = display/heading token; body = body token; default title/body sizes aligned to type scale from **branding** / Section 12.
+- **Theme colors**: Map primary, secondary, background, text, and one accent to the presentation app's theme (PowerPoint *Design → Variants*, Google Slides *Theme*, Keynote *Document* settings) so shapes and charts inherit palette.
+- **Charts & shapes**: Cycle accents in a fixed order (e.g. primary → secondary → tertiary) instead of random colors; keeps decks on-brand.
+- **Documents**: Same fonts and heading hierarchy as web where possible; specify paragraph style names (Title, Heading 1–3, Normal) with point sizes and colors.
+
+Strategy and narrative layers remain in **branding**; this section is **visual execution** for office/slide tools.
+
 ## Brand Guidelines Structure (Single Source of Truth)
 
 Ensure consistency across touchpoints. Include:
@@ -174,6 +188,7 @@ Ensure consistency across touchpoints. Include:
 - **Anti-patterns** and accessibility checklist
 - **AI products** (optional): Visual trend and archetype alignment
 - **Context template** for project-context Section 12
+- **Slides/documents** (when requested): theme mapping + master typography + chart accent order
 
 ## Related Skills
 

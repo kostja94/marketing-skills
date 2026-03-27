@@ -1,8 +1,8 @@
 ---
 name: list
-description: When the user wants to design, optimize, or audit list layouts for content display. Also use when the user mentions "list layout," "list design," "vertical list," "stacked list," "blog list," "article list," "documentation list," "search results layout," or "infinite scroll list."
+description: When the user wants to design, optimize, or audit list layouts for content display. Also use when the user mentions "list layout," "list design," "vertical list," "stacked list," "blog list," "article list," "documentation list," "search results layout," or "infinite scroll list." For blog index page, use blog-page-generator.
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Components: List Layout

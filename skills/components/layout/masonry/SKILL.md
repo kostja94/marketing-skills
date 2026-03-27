@@ -1,8 +1,8 @@
 ---
 name: masonry
-description: When the user wants to design, optimize, or audit masonry (Pinterest-style) layouts for content display. Also use when the user mentions "masonry layout," "masonry grid," "Pinterest layout," "waterfall layout," "brick layout," "varying height grid," "gallery layout," or "masonry SEO."
+description: When the user wants to design, optimize, or audit masonry (Pinterest-style) layouts for content display. Also use when the user mentions "masonry layout," "masonry grid," "Pinterest layout," "waterfall layout," "brick layout," "varying height grid," "gallery layout," or "masonry SEO." For crawl and scroll UX, use site-crawlability.
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Components: Masonry Layout

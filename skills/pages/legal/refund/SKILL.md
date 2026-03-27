@@ -1,8 +1,8 @@
 ---
 name: refund-page-generator
-description: When the user wants to create or optimize a refund or return policy page. Also use when the user mentions "refund policy," "return policy," "money-back guarantee," "returns and refunds," "refund page," "return process," "refund terms," or "satisfaction guarantee."
+description: When the user wants to create or optimize a refund or return policy page. Also use when the user mentions "refund policy," "return policy," "money-back guarantee," "returns and refunds," "refund page," "return process," "refund terms," or "satisfaction guarantee." For legal overview, use legal-page-generator.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Pages: Refund / Return Policy

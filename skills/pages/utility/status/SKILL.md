@@ -1,8 +1,8 @@
 ---
 name: status-page-generator
-description: When the user wants to create, optimize, or structure a status page. Also use when the user mentions "status page," "status.yourdomain.com," "uptime," "service health," "incident page," or "system status."
+description: When the user wants to create, optimize, or structure a status page. Also use when the user mentions "status page," "status.yourdomain.com," "uptime," "service health," "incident page," or "system status." For incident comms, use public-relations.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Pages: Status Page

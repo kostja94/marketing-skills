@@ -1,8 +1,8 @@
 ---
 name: sidebar-generator
-description: When the user wants to design, optimize, or audit a sidebar for blogs, docs, or content pages. Also use when the user mentions "sidebar," "blog sidebar," "content sidebar," "side panel," "sidebar navigation," "related content," "sidebar CTA," "doc sidebar," or "sidebar widgets."
+description: When the user wants to design, optimize, or audit a sidebar for blogs, docs, or content pages. Also use when the user mentions "sidebar," "blog sidebar," "content sidebar," "side panel," "sidebar navigation," "related content," "sidebar CTA," "doc sidebar," or "sidebar widgets." For blog layout, use blog-page-generator.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Components: Sidebar

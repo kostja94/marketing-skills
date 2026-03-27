@@ -1,8 +1,8 @@
 ---
 name: hero-generator
-description: When the user wants to design, optimize, or audit hero sections (above-the-fold main visual area). Also use when the user mentions "hero," "hero section," "hero area," "above the fold," "above the fold content," "landing hero," "main banner," "banner section," "first fold," "hero section design," "hero conversion," "split layout hero," "centered hero," or "hero alignment."
+description: When the user wants to design, optimize, or audit hero sections (above-the-fold main visual area). Also use when the user mentions "hero," "hero section," "hero area," "above the fold," "above the fold content," "landing hero," "main banner," "banner section," "first fold," "hero section design," "hero conversion," "split layout hero," "centered hero," or "hero alignment." For homepage, use homepage-generator.
 metadata:
-  version: 1.2.0
+  version: 1.2.1
 ---
 
 # Components: Hero Section

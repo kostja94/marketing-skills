@@ -1,8 +1,8 @@
 ---
 name: breadcrumb-generator
-description: When the user wants to add, optimize, or audit breadcrumb navigation. Also use when the user mentions "breadcrumbs," "breadcrumb trail," "breadcrumb nav," "breadcrumb links," "path navigation," "site breadcrumb," "BreadcrumbList schema," "location-based breadcrumb," "attribute-based breadcrumb," "site hierarchy display," "add breadcrumbs," or "breadcrumb SEO."
+description: When the user wants to add, optimize, or audit breadcrumb navigation. Also use when the user mentions "breadcrumbs," "breadcrumb trail," "breadcrumb nav," "breadcrumb links," "path navigation," "site breadcrumb," "BreadcrumbList schema," "location-based breadcrumb," "attribute-based breadcrumb," "site hierarchy display," "add breadcrumbs," or "breadcrumb SEO." For BreadcrumbList JSON-LD, use schema-markup. For main nav, use navigation-menu-generator.
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Components: Breadcrumb Navigation

@@ -1,8 +1,8 @@
 ---
 name: contact-page-generator
-description: When the user wants to create, optimize, or audit contact page and forms. Also use when the user mentions "contact page," "contact form," "get in touch," "support form," "contact us," "reach us," "contact information," "support contact," or "inquiry form."
+description: When the user wants to create, optimize, or audit contact page and forms. Also use when the user mentions "contact page," "contact form," "get in touch," "support form," "contact us," "reach us," "contact information," "support contact," or "inquiry form." For sitewide page planning, use website-structure.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Pages: Contact

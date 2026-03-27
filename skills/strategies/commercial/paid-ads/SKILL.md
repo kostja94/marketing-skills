@@ -1,8 +1,8 @@
 ---
 name: paid-ads-strategy
-description: When the user wants to plan paid ads strategy, allocate ad budget, or choose paid channels. Also use when the user mentions "paid ads," "paid media," "PPC," "SEM," "web ads," "app ads," "TV ads," "CTV," "OOH," "banner ads," "ad network," "ad alliance," "Taaft ads," "Shopify App Store ads," "Google Ads," "Meta Ads," "PMF testing," "PMF validation," "test product-market fit with ads," "ad spend," "ad budget," "ROAS," "paid acquisition," "Quality Score," or "ad-to-page alignment."
+description: When the user wants to plan paid ads strategy, allocate ad budget, or choose paid channels. Also use when the user mentions "paid ads," "paid media," "PPC," "SEM," "web ads," "app ads," "TV ads," "CTV," "OOH," "banner ads," "ad network," "ad alliance," "Taaft ads," "Shopify App Store ads," "Google Ads," "Meta Ads," "PMF testing," "PMF validation," "test product-market fit with ads," "ad spend," "ad budget," "ROAS," "paid acquisition," "Quality Score," or "ad-to-page alignment." For Google Ads execution, use google-ads. For Meta Ads execution, use meta-ads. For landing page alignment, use landing-page-generator.
 metadata:
-  version: 1.6.0
+  version: 1.7.0
 ---
 
 # Strategies: Paid Ads

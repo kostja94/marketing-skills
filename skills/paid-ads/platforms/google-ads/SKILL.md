@@ -1,8 +1,8 @@
 ---
 name: google-ads
-description: When the user wants to set up, optimize, or manage Google Ads campaigns. Also use when the user mentions "Google Ads," "Google Search Ads," "PPC," "SEM," "PMF testing with ads," "test product-market fit," "Responsive Search Ads," "RSA," "Performance Max," "Quality Score," "keyword bidding," or "Google Display/YouTube ads."
+description: When the user wants to set up, optimize, or manage Google Ads campaigns. Also use when the user mentions "Google Ads," "Google Search Ads," "PPC," "SEM," "PMF testing with ads," "test product-market fit," "Responsive Search Ads," "RSA," "Performance Max," "Quality Score," "keyword bidding," or "Google Display/YouTube ads." For paid mix, use paid-ads-strategy.
 metadata:
-  version: 1.4.0
+  version: 1.4.1
 ---
 
 # Paid Ads: Google Ads

@@ -1,8 +1,8 @@
 ---
 name: linkedin-ads
-description: When the user wants to set up, optimize, or manage LinkedIn Ads. Also use when the user mentions "LinkedIn Ads," "LinkedIn Campaign Manager," "Sponsored Content," "LinkedIn Lead Gen Forms," "job title targeting," "company targeting," or "B2B paid ads."
+description: When the user wants to set up, optimize, or manage LinkedIn Ads. Also use when the user mentions "LinkedIn Ads," "LinkedIn Campaign Manager," "Sponsored Content," "LinkedIn Lead Gen Forms," "job title targeting," "company targeting," or "B2B paid ads." For organic posts, use linkedin-posts.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Paid Ads: LinkedIn Ads

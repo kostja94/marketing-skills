@@ -1,8 +1,8 @@
 ---
 name: influencer-marketing
-description: When the user wants to plan, implement, or optimize influencer marketing strategy. Also use when the user mentions "influencer marketing," "KOL," "creator partnership," "brand ambassador," "sponsored content," "influencer campaign," "micro-influencer," "influencer outreach," "creator collaboration," or "influencer deal."
+description: When the user wants to plan, implement, or optimize influencer marketing strategy. Also use when the user mentions "influencer marketing," "KOL," "creator partnership," "brand ambassador," "sponsored content," "influencer campaign," "micro-influencer," "influencer outreach," "creator collaboration," or "influencer deal." For creator programs, use creator-program.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Channels: Influencer

@@ -1,13 +1,16 @@
 ---
 name: branding
-description: When the user wants to define, audit, or apply brand strategy—purpose, values, positioning, storytelling, voice, visual identity. Also use when the user mentions "brand strategy," "brand story," "brand storytelling," "brand voice," "brand identity," "brand guidelines," "brand purpose," "brand values," "origin story," "brand narrative," "brand personality," or "brand archetype."
+description: When the user wants to define, audit, or apply brand strategy—purpose, values, positioning, storytelling, voice, narrative (not only visuals). Also use when the user mentions "brand strategy," "brand story," "brand storytelling," "brand voice," "brand identity," "brand guidelines," "brand purpose," "brand values," "origin story," "brand narrative," "brand personality," "brand archetype," "slide deck branding," "PPT brand colors," or "document style guide." For typography, colors, design tokens, and frontend visuals, use brand-visual-generator.
+license: MIT
 metadata:
-  version: 1.0.0
+  version: 1.2.0
 ---
 
 # Strategies: Branding
 
 Guides brand strategy: purpose, values, positioning, storytelling, voice, and visual identity. Companies with consistent branding see 23–33% revenue lift; people remember stories ~22× more than facts alone. Use this skill when defining a new brand, auditing consistency, or aligning messaging across touchpoints.
+
+**Keywords**: brand strategy, brand guidelines, visual identity, storytelling, brand voice, design tokens, slide deck, corporate identity, style guide, positioning
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -117,13 +120,34 @@ Single source of truth. Include:
 - **Typography**: Font families, hierarchy, sizing
 - **Imagery**: Photography tone; iconography style
 
+## Visual Specification Delivery (Design Tokens)
+
+When the user needs **actionable specs** (not only strategy)—for web, slides, or print—produce a **token table** the team can paste into a design system, media kit, or slide master. Align with **brand-visual-generator** for full web/CSS detail.
+
+| Token category | What to document | Example fields |
+|----------------|------------------|----------------|
+| **Colors** | Named roles + values for light/dark if applicable | Primary `#______`, text primary `#______`, background `#______`, accent 1–3, CTA, border, error/success |
+| **Typography** | Family, weight, size scale, line-height | Display / H1–H3 / body / caption; web-safe or system fallbacks |
+| **Spacing** | Base unit and scale | e.g. 8px base; section gaps; logo clear space in `em` or `px` |
+| **Non-text accents** | Charts, shapes, dividers | Rotate accent colors; avoid arbitrary one-off hues outside palette |
+
+**Applying tokens across surfaces**
+
+- **Web / product**: CSS variables or design tokens; see **brand-visual-generator**.
+- **Slides (PowerPoint, Google Slides, Keynote)**: Set slide master background + default title/body fonts from token table; map theme colors to primary/secondary/background/text; reuse one accent per deck section where possible.
+- **Documents (Word, Google Docs, PDF)**: Define paragraph styles (Title, Heading 1–3, Normal, Caption) with fonts and colors from tokens; set default page background if brand uses off-white.
+
+If the user **pastes an existing brand PDF or bullet list**, extract and normalize into this token table before suggesting implementation.
+
 ## Output Format
 
 - **Brand strategy** (purpose, values, positioning, differentiation)
 - **Story** (origin story, hero's journey, narrative arc)
 - **Voice & tone** (voice, tone, avoid, preferred)
 - **Archetype** (if applicable)
-- **Visual** (high-level; defer to brand-visual-generator for specs)
+- **Visual** (high-level; defer to brand-visual-generator for web specs)
+- **Design token table** (colors, type scale, spacing) when deliverable must be implementation-ready
+- **Slide/document notes** (master fonts, theme colors) when touchpoints include decks or docs
 - **Context template** for project-context Sections 8, 12
 
 ## Related Skills

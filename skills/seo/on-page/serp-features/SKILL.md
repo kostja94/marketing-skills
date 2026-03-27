@@ -1,8 +1,8 @@
 ---
 name: serp-features
-description: When the user wants to understand or optimize for SERP features. Also use when the user mentions "SERP," "SERP features," "search result features," "People Also Ask," "PAA," "sitelinks," "knowledge panel," "local pack," "rich results," "zero-click," "SERP types," "AI Overviews," "Bing Copilot," "Yandex AI," or "schema for SERP" (schema and SERP features are strongly related).
+description: When the user wants to understand or optimize for SERP feature types (PAA, sitelinks, rich results, AI Overviews). Also use when the user mentions "SERP," "SERP features," "search result features," "People Also Ask," "PAA," "sitelinks," "knowledge panel," "local pack," "rich results," "zero-click," "SERP types," "AI Overviews," "Bing Copilot," or "Yandex AI." For JSON-LD and rich result implementation, use schema-markup. For organic strategy and roadmap, use seo-strategy.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # SEO On-Page: SERP Features

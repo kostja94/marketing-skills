@@ -1,8 +1,8 @@
 ---
 name: display-ads
-description: When the user wants to run display, banner, or ad network campaigns. Also use when the user mentions "display ads," "banner ads," "ad network," "ad alliance," "programmatic display," "native ads," or "retargeting display."
+description: When the user wants to run display, banner, or ad network campaigns. Also use when the user mentions "display ads," "banner ads," "ad network," "ad alliance," "programmatic display," "native ads," or "retargeting display." For strategy, use paid-ads-strategy.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Paid Ads: Display / Banner

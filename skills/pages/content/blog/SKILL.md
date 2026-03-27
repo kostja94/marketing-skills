@@ -1,8 +1,8 @@
 ---
 name: blog-page-generator
-description: When the user wants to create, optimize, or audit blog page structure and content. Also use when the user mentions "blog page," "blog index," "blog layout," "content hub," "blog homepage," "blog listing," "subdomain vs subdirectory," "blog structure," or "blog SEO."
+description: When the user wants to create, optimize, or audit blog index or listing page structure (not a single post). Also use when the user mentions "blog page," "blog index," "blog layout," "content hub," "blog homepage," "blog listing," "subdomain vs subdirectory," "blog structure," or "blog SEO." For single post page SEO and schema, use article-page-generator.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Pages: Blog

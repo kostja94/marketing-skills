@@ -1,8 +1,8 @@
 ---
 name: core-web-vitals
-description: When the user wants to optimize Core Web Vitals, fix LCP, INP, or CLS issues. Also use when the user mentions "Core Web Vitals," "CWV," "LCP," "INP," "CLS," "FID," "page speed," "page performance," "Largest Contentful Paint," "Interaction to Next Paint," "Cumulative Layout Shift," or "Page Experience."
+description: When the user wants to optimize Core Web Vitals, fix LCP, INP, or CLS issues. Also use when the user mentions "Core Web Vitals," "CWV," "LCP," "INP," "CLS," "FID," "page speed," "page performance," "Largest Contentful Paint," "Interaction to Next Paint," "Cumulative Layout Shift," or "Page Experience." For GSC CWV, use google-search-console.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # SEO Technical: Core Web Vitals

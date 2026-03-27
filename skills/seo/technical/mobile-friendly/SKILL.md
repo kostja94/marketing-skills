@@ -1,8 +1,8 @@
 ---
 name: mobile-friendly
-description: When the user wants to optimize for mobile-first indexing or fix mobile usability. Also use when the user mentions "mobile-friendly," "mobile-first indexing," "mobile SEO," "responsive design," "mobile adaptation," "mobile viewport," "viewport meta," "touch targets," "font size mobile," "AMP," or "Accelerated Mobile Pages."
+description: When the user wants to optimize for mobile-first indexing or fix mobile usability. Also use when the user mentions "mobile-friendly," "mobile-first indexing," "mobile SEO," "responsive design," "mobile adaptation," "mobile viewport," "viewport meta," "touch targets," "font size mobile," "AMP," or "Accelerated Mobile Pages." For viewport meta, use page-metadata.
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # SEO Technical: Mobile-Friendly

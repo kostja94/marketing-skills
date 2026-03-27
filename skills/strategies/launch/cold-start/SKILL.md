@@ -1,8 +1,8 @@
 ---
 name: cold-start-strategy
-description: When the user wants to plan cold start, get first users, or launch a new product with zero traction. Also use when the user mentions "cold start," "cold start problem," "first users," "seed users," "finding users," "finding early users," "Fiverr Upwork," "comment outreach," "Twitter search users," "product launch strategy," "0 to 1 growth," "early-stage acquisition," "launch channels," "get first customers," "Product Hunt launch," "AppSumo," "LTD," "indie hacker," "bootstrapping," or "solo founder."
+description: When the user wants to plan cold start, get first users, or launch a new product with zero traction. Also use when the user mentions "cold start," "cold start problem," "first users," "seed users," "finding users," "finding early users," "Fiverr Upwork," "comment outreach," "Twitter search users," "product launch strategy," "0 to 1 growth," "early-stage acquisition," "launch channels," "get first customers," "Product Hunt launch," "AppSumo," "LTD," "indie hacker," "bootstrapping," or "solo founder." For directory listing copy and submissions, use directory-submission. For Product Hunt day-of execution, use product-hunt-launch. For GTM motion design, use gtm-strategy.
 metadata:
-  version: 1.2.0
+  version: 1.3.0
 ---
 
 # Strategies: Cold Start

@@ -1,8 +1,8 @@
 ---
 name: grokipedia-recommendations
-description: When the user wants to add recommendations, links, or content to Grokipedia. Also use when the user mentions "Grokipedia," "GEO wiki," "AI encyclopedia," "suggest Grokipedia article," "Grokipedia citation," "Grokipedia listing," "AI search citation," "GEO visibility," or "Grokipedia optimization." For parasite SEO strategy, use parasite-seo.
+description: When the user wants to add recommendations, links, or content to Grokipedia. Also use when the user mentions "Grokipedia," "GEO wiki," "AI encyclopedia," "suggest Grokipedia article," "Grokipedia citation," "Grokipedia listing," "AI search citation," "GEO visibility," or "Grokipedia optimization." For multi-platform parasite SEO strategy, use parasite-seo. For broad AI search visibility, use generative-engine-optimization.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Platforms: Grokipedia

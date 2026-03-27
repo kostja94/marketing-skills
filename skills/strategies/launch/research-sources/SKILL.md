@@ -1,8 +1,8 @@
 ---
 name: research-sources
-description: When the user wants to find information sources for content ideation, competitor monitoring, or industry tracking. Also use when the user mentions "research sources," "information sources," "content ideation," "industry monitoring," "competitor monitoring," "market intelligence," "content research," or "topic research."
+description: When the user wants to find information sources for content ideation, competitor monitoring, or industry tracking. Also use when the user mentions "research sources," "information sources," "content ideation," "industry monitoring," "competitor monitoring," "market intelligence," "content research," or "topic research." For keywords, use keyword-research.
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Strategies: Research Sources

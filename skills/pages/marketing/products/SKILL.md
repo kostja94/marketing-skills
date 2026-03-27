@@ -1,8 +1,8 @@
 ---
 name: products-page-generator
-description: When the user wants to create, optimize, or audit a product listing or category page. Also use when the user mentions "product page," "product listing," "shop," "e-commerce products," "product catalog," "product grid," "product cards," or "product overview."
+description: When the user wants to create, optimize, or audit a product listing or category page. Also use when the user mentions "product page," "product listing," "shop," "e-commerce products," "product catalog," "product grid," "product cards," or "product overview." For category SEO, use category-page-generator.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Pages: Products

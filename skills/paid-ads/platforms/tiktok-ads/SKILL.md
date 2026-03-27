@@ -1,8 +1,8 @@
 ---
 name: tiktok-ads
-description: When the user wants to set up, optimize, or manage TikTok Ads. Also use when the user mentions "TikTok Ads," "TikTok for Business," "TikTok Pixel," "Events API," "TikTok Spark Ads," or "TikTok video ads."
+description: When the user wants to set up, optimize, or manage TikTok Ads. Also use when the user mentions "TikTok Ads," "TikTok for Business," "TikTok Pixel," "Events API," "TikTok Spark Ads," or "TikTok video ads." For organic TikTok, use tiktok-captions.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Paid Ads: TikTok Ads

@@ -1,8 +1,8 @@
 ---
 name: top-banner-generator
-description: When the user wants to add, optimize, or audit a top announcement bar or sticky banner. Also use when the user mentions "announcement bar," "top banner," "sticky bar," "promo banner," "discount banner," "student discount banner," "header banner," "announcement bar design," "sticky header," "promo bar," "urgency banner," or "lead capture bar."
+description: When the user wants to add, optimize, or audit a top announcement bar or sticky banner. Also use when the user mentions "announcement bar," "top banner," "sticky bar," "promo banner," "discount banner," "student discount banner," "header banner," "announcement bar design," "sticky header," "promo bar," "urgency banner," or "lead capture bar." For promos, use discount-marketing-strategy.
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Components: Top Banner (Announcement Bar)

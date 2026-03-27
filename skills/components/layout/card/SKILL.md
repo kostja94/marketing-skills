@@ -1,8 +1,8 @@
 ---
 name: card
-description: When the user wants to design, optimize, or audit card layouts for content display. Also use when the user mentions "card layout," "card component," "card grid," "product cards," "template cards," "tool cards," "feature cards," "gallery cards," "integration cards," or "card design."
+description: When the user wants to design, optimize, or audit card layouts for content display. Also use when the user mentions "card layout," "card component," "card grid," "product cards," "template cards," "tool cards," "feature cards," "gallery cards," "integration cards," or "card design." For grids, use grid.
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Components: Card Layout

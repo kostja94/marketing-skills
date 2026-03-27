@@ -1,8 +1,8 @@
 ---
 name: tab-accordion
-description: When the user wants to add or optimize tab or accordion components for content organization. Also use when the user mentions "tab component," "accordion," "expandable content," "collapsible sections," "tabbed content," "FAQ accordion," "how-to tabs," "horizontal tabs," "vertical accordion," "content in tabs," "hidden content SEO," "details summary," or "disclosure widget."
+description: When the user wants to add or optimize tab or accordion components for content organization. Also use when the user mentions "tab component," "accordion," "expandable content," "collapsible sections," "tabbed content," "FAQ accordion," "how-to tabs," "horizontal tabs," "vertical accordion," "content in tabs," "hidden content SEO," "details summary," or "disclosure widget." For FAQ content, use faq-page-generator.
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Components: Tab & Accordion

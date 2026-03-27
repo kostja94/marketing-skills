@@ -1,8 +1,8 @@
 ---
 name: medium-posts
-description: When the user wants to publish on Medium for parasite SEO, GEO, or content distribution. Also use when the user mentions "Medium," "Medium article," "parasite SEO," "Medium publishing," "canonical Medium," or "publish on Medium."
+description: When the user wants to write, publish, republish, or optimize posts on Medium.com (canonical tags, distribution, Medium SEO). Also use when the user mentions "Medium," "Medium article," "Medium story," "Medium publishing," "canonical Medium," or "publish on Medium." Not for general parasite SEO when Medium is not the target platform—use parasite-seo. For AI search visibility strategy, use generative-engine-optimization.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Platforms: Medium

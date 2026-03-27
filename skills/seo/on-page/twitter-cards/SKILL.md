@@ -1,8 +1,8 @@
 ---
 name: twitter-cards
-description: When the user wants to add or optimize Twitter Card metadata for X (Twitter) link previews. Also use when the user mentions "Twitter Card," "twitter:card," "twitter:image," "twitter:title," "X preview," or "tweet preview."
+description: When the user wants to add or optimize Twitter Card metadata for X (Twitter) link previews. Also use when the user mentions "Twitter Card," "twitter:card," "twitter:image," "twitter:title," "X preview," or "tweet preview." For Facebook/LinkedIn previews, use open-graph.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # SEO On-Page: Twitter Cards

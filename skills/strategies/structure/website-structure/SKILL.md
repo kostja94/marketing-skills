@@ -1,8 +1,8 @@
 ---
 name: website-structure
-description: When the user wants to plan website structure, decide which pages to build, or prioritize pages for a new or existing site. Also use when the user mentions "website structure," "site structure," "which pages do I need," "page planning," "sitemap planning," "Must Have pages," "website architecture," or "site hierarchy."
+description: When the user wants to plan website structure, decide which pages to build, or prioritize pages for a new or existing site. Also use when the user mentions "website structure," "site structure," "which pages do I need," "page planning," "sitemap planning," "Must Have pages," "website architecture," or "site hierarchy." For a specific page template (e.g. homepage), use homepage-generator or landing-page-generator as appropriate. Not for organic SEO roadmap alone; use seo-strategy.
 metadata:
-  version: 1.3.0
+  version: 1.5.0
 ---
 
 # Strategy: Website Structure

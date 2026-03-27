@@ -1,8 +1,8 @@
 ---
 name: entity-seo
-description: When the user wants to optimize for entity recognition, Knowledge Graph, or entity-based SEO. Also use when the user mentions "entity SEO," "entity optimization," "Knowledge Graph," "Knowledge Panel," "entity signals," "brand entity," "entity linking," "entity relationships," or "entity-first content."
+description: When the user wants to optimize for entity recognition, Knowledge Graph, or entity-based SEO. Also use when the user mentions "entity SEO," "entity optimization," "Knowledge Graph," "Knowledge Panel," "entity signals," "brand entity," "entity linking," "entity relationships," or "entity-first content." For structured data, use schema-markup.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # SEO: Entity SEO

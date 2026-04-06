@@ -126,6 +126,7 @@ Before shipping a landing page, verify:
 - **image-optimization**: Alt, WebP, LCP, responsive, lazy loading
 - **pricing-page-generator**: Click-through LP destination; signup CTA
 - **faq-page-generator**: Objection-handling FAQ section
+- **howto-section-generator**: How-to step section (e.g. setup flow) before FAQ/CTA
 - **homepage-generator**: Multi-purpose home vs single-goal landing; similar structure
 - **paid-ads-strategy**: Ad-to-page alignment; when to use paid ads
 - **alternatives-page-generator**: Competitor brand keyword ads → comparison LP (not blog)

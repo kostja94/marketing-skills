@@ -17,6 +17,20 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [2026-03-28] v2.3.16
+
+### Added
+
+- **howto-section-generator** - Component skill for in-page HowTo step blocks: placement, `<ol>` structure, answer-first per step, HowTo JSON-LD alignment vs FAQ; lives under `skills/components/content/howto-section/`.
+
+### Changed
+
+- **Cross-references** - **schema-markup**, **featured-snippet**, **serp-features**, **tab-accordion**, **article-content**, **content-optimization**, **article-page-generator**, **faq-page-generator**, **docs-page-generator**, **tools-page-generator**, **landing-page-generator**, **content-marketing**, **programmatic-seo**, **geo** - Related Skills and/or skill `description` fields now point to **howto-section-generator** where relevant.
+- **docs/skills-reference.md** - **howto-section-generator** listed under Components; Pages quick-mapping row removed (HowTo is a section, not a page type); content tree diagram updated.
+- **README.md** - Prompt-to-skill row for HowTo section / step-by-step block.
+
+---
+
 ## [2025-03-12] v2.3.15
 
 ### Added

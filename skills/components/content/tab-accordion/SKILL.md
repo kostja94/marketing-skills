@@ -1,6 +1,6 @@
 ---
 name: tab-accordion
-description: When the user wants to add or optimize tab or accordion components for content organization. Also use when the user mentions "tab component," "accordion," "expandable content," "collapsible sections," "tabbed content," "FAQ accordion," "how-to tabs," "horizontal tabs," "vertical accordion," "content in tabs," "hidden content SEO," "details summary," or "disclosure widget." For FAQ content, use faq-page-generator.
+description: When the user wants to add or optimize tab or accordion components for content organization. Also use when the user mentions "tab component," "accordion," "expandable content," "collapsible sections," "tabbed content," "FAQ accordion," "how-to tabs," "horizontal tabs," "vertical accordion," "content in tabs," "hidden content SEO," "details summary," or "disclosure widget." For FAQ content, use faq-page-generator. For HowTo step sections (schema, placement), use howto-section-generator.
 metadata:
   version: 1.1.1
 ---
@@ -110,7 +110,7 @@ If using JS-only tabs: **ensure all tab content is in the DOM at page load**, no
 ## Schema & Rich Results
 
 - **FAQ (vertical accordion)**: FAQPage JSON-LD; schema must match on-page content exactly; see **schema-markup**, **faq-page-generator**
-- **How-to (horizontal tabs)**: HowTo schema for step-by-step content; see **schema-markup**, **featured-snippet**
+- **How-to (horizontal tabs)**: HowTo schema for step-by-step content; see **howto-section-generator**, **schema-markup**, **featured-snippet**
 - **Other tabs**: No specific schema; ensure semantic HTML (headings, structure)
 
 ## UX & Accessibility
@@ -133,6 +133,7 @@ If using JS-only tabs: **ensure all tab content is in the DOM at page load**, no
 ## Related Skills
 
 - **faq-page-generator**: FAQ structure, answer length, schema; accordion is common FAQ UI
+- **howto-section-generator**: HowTo section; steps in tabs vs FAQ; JSON-LD alignment
 - **featured-snippet**: Answer-first, H2/H3; content in accordions can be extracted
 - **schema-markup**: FAQPage for FAQ accordions; HowTo for step-by-step tabs
 - **content-strategy**: Pillar/cluster architecture; when to use separate pages vs tabs

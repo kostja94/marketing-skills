@@ -138,6 +138,7 @@ See **content-strategy** for SEO topic clusters and pillar-cluster structure.
 - **content-strategy**: SEO topic clusters, pillar-cluster, editorial calendar; SEO content planning
 - **integrated-marketing**: PESO model, channel mix; content as owned media
 - **article-content**: Article body creation; word count by type; writing frameworks
+- **howto-section-generator**: How-to step sections; guides vs FAQ
 - **article-page-generator**: Article page structure, orientations; blog content
 - **email-marketing**: Email content types (onboarding, campaign, newsletter)
 - **twitter-x-posts, linkedin-posts, reddit-posts, tiktok-captions**: Platform-specific post formats

@@ -268,6 +268,7 @@ Example: `[P0] Add TL;DR or Key Takeaways — GEO, AI citation`
 - **blog-page-generator**: Blog index/listing; article pages live within blog
 - **keyword-research**: Keyword basis for articles
 - **schema-markup**: Article/BlogPosting/NewsArticle schema
+- **howto-section-generator**: HowTo step sections; HowTo schema alongside Article
 - **heading-structure**: H1–H6 structure for article body
 - **content-optimization**: H2 keywords, tables, lists, multimedia; word count for articles → **article-content**
 - **image-optimization**: Article hero/featured image specs

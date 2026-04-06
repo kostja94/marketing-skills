@@ -191,6 +191,7 @@ Rich results do not directly boost rankings but can increase CTR by up to 35%. T
 
 - **schema-markup**: **Strongly related**—schema type maps to SERP feature; see mapping table above
 - **featured-snippet**: Featured Snippet / Position Zero optimization
+- **howto-section-generator**: HowTo step sections; list snippets; HowTo vs FAQ in SERP context
 - **faq-page-generator**: PAA optimization; FAQ format
 - **keyword-research**: SERP features in keyword screening
 - **website-structure**: Sitelinks; site architecture

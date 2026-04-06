@@ -48,6 +48,7 @@ Page types in this library live under `pages/{brand|content|legal|marketing|util
 | **Category / catalog** | Faceted listings, product grids | category-page-generator, products-page-generator | `pages/marketing/category-pages`, `products` |
 | **Glossary / definitions** | "what is [term]", term landings | glossary-page-generator | `pages/content/glossary` |
 | **FAQ / Q&A** | Question banks, PAA-style pages | faq-page-generator | `pages/content/faq` |
+| **How-to / procedures** | Step libraries, "[how to] [task]" blocks in templates | howto-section-generator | `components/content/howto-section` |
 | **Tools & lead magnets** | "free [x] tool/calculator" | tools-page-generator | `pages/content/tools` |
 | **Template gallery** | Browse → detail (your templates) | template-page-generator | `pages/content/template-page` |
 | **Resource hub** | Guides, hubs, download centers | resources-page-generator | `pages/content/resources` |
@@ -71,6 +72,7 @@ Page types in this library live under `pages/{brand|content|legal|marketing|util
 | Product catalog or SKUs | Category / product grids | category-page-generator, products-page-generator |
 | Term / definition database | Glossary | glossary-page-generator |
 | Support tickets / PAA mined questions | FAQ scale | faq-page-generator |
+| How-to step banks / procedure templates | HowTo sections in scaled pages | howto-section-generator |
 | Lead magnets, calculators | Tools hub + per-tool | tools-page-generator |
 | **Your own templates** (exports, gallery items) | Template marketplace | template-page-generator |
 | ICP × industry matrix | Use cases / solutions | use-cases-page-generator, solutions-page-generator |
@@ -271,7 +273,7 @@ Pages with only a title, one paragraph, and swapped city names will not rank and
 - **tools-page-generator**: Free tools pages; toolkit hub; programmatic tool pages; lead gen
 - **alternatives-page-generator**: Alternatives/comparison pages at scale; competitor brand traffic
 - **category-page-generator**, **products-page-generator**: Category / catalog grids
-- **glossary-page-generator**, **faq-page-generator**, **resources-page-generator**: Definitions, Q&A banks, content hubs
+- **glossary-page-generator**, **faq-page-generator**, **howto-section-generator**, **resources-page-generator**: Definitions, Q&A banks, HowTo step blocks, content hubs
 - **use-cases-page-generator**, **solutions-page-generator**, **migration-page-generator**: ICP/industry matrix, migration SEO
 - **integrations-page-generator**: Integration pair pages at scale
 - **blog-page-generator**, **article-page-generator**, **docs-page-generator**, **features-page-generator**, **api-page-generator**: Long-form and product surface scale

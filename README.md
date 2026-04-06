@@ -80,6 +80,7 @@ Ask your agent - it picks the right skill. Examples:
 | "Optimize title" / "Meta description" / "Schema markup" | title-tag, meta-description, schema-markup |
 | "Keyword research" / "Content strategy" / "Link building" | keyword-research, content-strategy, link-building |
 | "Create pricing page" / "Homepage" / "Landing page" / "FAQ" | pricing-page-generator, homepage-generator, landing-page-generator, faq-page-generator |
+| "HowTo section" / "Step-by-step block" / "HowTo schema" | howto-section-generator, schema-markup |
 | "Cold start" / "Product Hunt" / "Directory submission" | cold-start-strategy, directory-submission |
 | "Indie hacker" / "PMF" / "Parasite SEO" / "GitHub SEO" | indie-hacker-strategy, pmf-strategy, parasite-seo, github |
 | "GA4 tracking" / "Search Console" / "AI traffic" | analytics-tracking, google-search-console, ai-traffic-tracking |

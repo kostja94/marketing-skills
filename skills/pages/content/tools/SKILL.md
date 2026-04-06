@@ -125,3 +125,4 @@ Identify:
 - **resources-page-generator**: Tools can be a section in resources; or standalone /tools
 - **landing-page-generator**: Tool page as lead-capture LP when gated
 - **schema-markup**: SoftwareApplication, HowTo for tool pages
+- **howto-section-generator**: "How to use" step section; HowTo JSON-LD with tool usage copy

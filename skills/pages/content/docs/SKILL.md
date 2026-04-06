@@ -70,4 +70,5 @@ API Reference is a section of docs, not a standalone page. Include: endpoints by
 - **api-page-generator**: API intro page links to docs
 - **sidebar-generator**: Docs sidebar design
 - **faq-page-generator**: FAQ can live in docs or main site
+- **howto-section-generator**: HowTo step blocks in guides/tutorials; TechArticle + HowTo alignment
 - **content-strategy**: Doc content planning

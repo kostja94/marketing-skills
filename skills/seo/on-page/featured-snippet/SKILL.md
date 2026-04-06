@@ -1,6 +1,6 @@
 ---
 name: featured-snippet
-description: When the user wants to optimize for Featured Snippets, Position Zero, or snippet extraction. Also use when the user mentions "featured snippet," "position zero," "snippet optimization," "answer box," "definition box," "list snippet," "table snippet," "paragraph snippet," "PAA optimization," or "win position zero." For schema, use schema-markup.
+description: When the user wants to optimize for Featured Snippets, Position Zero, or snippet extraction. Also use when the user mentions "featured snippet," "position zero," "snippet optimization," "answer box," "definition box," "list snippet," "table snippet," "paragraph snippet," "PAA optimization," or "win position zero." For schema, use schema-markup. For step-by-step HowTo sections (lists, copy), use howto-section-generator.
 metadata:
   version: 1.0.1
 ---
@@ -119,6 +119,7 @@ Guides optimization for Featured Snippets (Position Zero)—direct answers displ
 - **serp-features**: SERP features overview; Featured Snippet in context
 - **content-optimization**: H2 keywords, tables, lists; defers snippet-specific structure to this skill
 - **faq-page-generator**: FAQ format and answer length; FAQ schema for PAA
+- **howto-section-generator**: HowTo sections; list snippets; step copy; HowTo schema alignment
 - **schema-markup**: FAQPage, HowTo for rich results
 - **heading-structure**: H2–H3 hierarchy
 - **generative-engine-optimization**: AI citation; GEO strategy

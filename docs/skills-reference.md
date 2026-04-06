@@ -158,6 +158,7 @@ Paths: `skills/components/{navigation,conversion,branding,content,layout,utility
 | [brand-visual-generator](../skills/components/branding/brand-visual/) | Visual identity, typography, colors, spacing |
 | [hero-generator](../skills/components/branding/hero/) | Hero section design, conversion |
 | [tab-accordion](../skills/components/content/tab-accordion/) | Tab and accordion components; expandable content; SEO for hidden content |
+| [howto-section-generator](../skills/components/content/howto-section/) | HowTo section block: ordered steps, HowTo JSON-LD; embed in article, doc, tool, or LP pages (not a page template) |
 | [card](../skills/components/layout/card/) | Card layout; product, template, tool, feature, gallery cards |
 | [grid](../skills/components/layout/grid/) | Grid layout; equal-hierarchy, multi-column |
 | [list](../skills/components/layout/list/) | List layout; linear, stacked; blog index, docs |
@@ -355,7 +356,7 @@ Skill dependency maps as ASCII trees. Workflow order: Technical → On-Page → 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │  Components (used in Pages) · Analytics                                     │
-│  navigation/ · conversion/ · branding/ · layout/ · utility/                  │
+│  navigation/ · content/ (tab-accordion · howto-section) · conversion/ · branding/ · layout/ · utility/ │
 │  traffic-analysis · analytics-tracking · seo-monitoring · ai-traffic · GSC   │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```

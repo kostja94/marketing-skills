@@ -184,6 +184,7 @@ When content is AI-assisted: **human review** before publish; **verify facts** a
 ## Related Skills
 
 - **article-page-generator**: Page structure, schema, metadata, layout; content goes here
+- **howto-section-generator**: Dedicated HowTo step blocks (ordered steps, HowTo JSON-LD; vs FAQ)
 - **copywriting**: Frameworks (PAS, AIDA, BAB); headline formulas; short conversion copy
 - **content-marketing**: Article Orientations; content types
 - **eeat-signals**: E-E-A-T; author bio; citations; citations format

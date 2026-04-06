@@ -136,6 +136,7 @@ Identify: (1) Source of questions (2) Conversion focus (3) Placement (dedicated 
 
 ## Related Skills
 
+- **howto-section-generator**: Step-by-step HowTo sections; not FAQ—use HowTo schema, not FAQPage
 - **tab-accordion**: Accordion implementation; details/summary
 - **serp-features**: PAA, Featured Snippet, PASF, FAQ limits
 - **featured-snippet**: Answer length, position zero

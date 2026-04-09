@@ -2,7 +2,7 @@
 name: landing-page-generator
 description: When the user wants to create, optimize, or audit campaign landing pages for paid ads, email, or other traffic. Also use when the user mentions "landing page," "PPC landing page," "SEM landing page," "conversion page," "campaign page," "lead capture page," "landing page optimization," "LP conversion," "single-page funnel," or "squeeze page." Not for the main site homepage; use homepage-generator.
 metadata:
-  version: 1.4.0
+  version: 1.4.1
 ---
 
 # Pages: Landing Page
@@ -127,6 +127,7 @@ Before shipping a landing page, verify:
 - **pricing-page-generator**: Click-through LP destination; signup CTA
 - **faq-page-generator**: Objection-handling FAQ section
 - **howto-section-generator**: How-to step section (e.g. setup flow) before FAQ/CTA
+- **comparison-table-generator**: Competitor / traditional-vs-modern comparison **table section**; message match with ads
 - **homepage-generator**: Multi-purpose home vs single-goal landing; similar structure
 - **paid-ads-strategy**: Ad-to-page alignment; when to use paid ads
 - **alternatives-page-generator**: Competitor brand keyword ads → comparison LP (not blog)

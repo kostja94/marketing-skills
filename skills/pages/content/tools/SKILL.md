@@ -2,7 +2,7 @@
 name: tools-page-generator
 description: When the user wants to create, optimize, or audit free tools pages. Also use when the user mentions "free tools," "tools page," "toolkit," "free [X] tool," "free [X] calculator," "free [X] checker," "lead magnet tool," "programmatic tools," or "tools hub." For content strategy, use content-strategy.
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Pages: Tools (Free Tools)
@@ -52,7 +52,7 @@ Identify:
 | **Headline** | "Free [Category] Tools" or "Free Tools to [Outcome]" |
 | **Category tabs/sections** | e.g., SEO Tools, AI Writing Tools, Local SEO (Semrush pattern) |
 | **Tool cards** | Name, one-line benefit, CTA to tool page |
-| **How to use** | 3-step: Choose tool → Enter info → Get results |
+| **How to use** | Short ordered procedure (often 3 steps for hubs); e.g. Choose tool → Enter info → Get results. Section **H2** per **howto-section-generator**—prefer outcome/tool-led (“How to use these tools”) or “In *N* steps …” **only** when *N* matches the visible steps |
 | **CTA** | "Access 50+ tools with free account" |
 | **Social proof** | Logos, "Trusted by X brands" |
 

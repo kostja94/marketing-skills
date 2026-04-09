@@ -2,7 +2,7 @@
 name: tab-accordion
 description: When the user wants to add or optimize tab or accordion components for content organization. Also use when the user mentions "tab component," "accordion," "expandable content," "collapsible sections," "tabbed content," "FAQ accordion," "how-to tabs," "horizontal tabs," "vertical accordion," "content in tabs," "hidden content SEO," "details summary," or "disclosure widget." For FAQ content, use faq-page-generator. For HowTo step sections (schema, placement), use howto-section-generator.
 metadata:
-  version: 1.1.1
+  version: 1.1.2
 ---
 
 # Components: Tab & Accordion
@@ -16,7 +16,7 @@ Guides tab and accordion implementation for organizing content without excessive
 | Pattern | Layout | Best for | Example |
 |---------|--------|----------|---------|
 | **Vertical accordion** | Stacked; expand/collapse one at a time | FAQ, Q&A, long lists, objection handling | "How do I return?" → answer below |
-| **Horizontal tabs** | Side-by-side labels; one panel visible | How-to steps, product specs, pricing tiers, comparisons | "Step 1 \| Step 2 \| Step 3" |
+| **Horizontal tabs** | Side-by-side labels; one panel visible | How-to steps, product specs, pricing tiers, comparisons | "Step 1 \| Step 2 \| Step 3" or **short action labels** (see **howto-section-generator**—labels should match H2 intent, not contradict a fixed “N steps” title) |
 
 **Mobile**: Vertical accordion works well on small screens (natural scroll). Horizontal tabs can feel cramped—consider accordion, dropdown, or full-width tab bar that scrolls.
 
@@ -101,7 +101,7 @@ If using JS-only tabs: **ensure all tab content is in the DOM at page load**, no
 | Use case | Format | Layout | Notes |
 |----------|--------|--------|-------|
 | **FAQ** | Accordion | Vertical | FAQPage schema; first Q expanded; see **faq-page-generator** |
-| **How-to steps** | Tabs | Horizontal | Step 1, Step 2, Step 3; sequential flow |
+| **How-to steps** | Tabs | Horizontal | Numbered “Step *n*” or descriptive tab titles; sequential flow; same step count as section H2 if the H2 uses a number (**howto-section-generator**) |
 | **Product specs** | Tabs | Horizontal | Dimensions, materials, shipping—secondary to hero |
 | **Long guides** | Accordion | Vertical | Collapsible sections; see **toc-generator** |
 | **Pricing tiers** | Tabs | Horizontal | Compare plans; primary CTA visible |

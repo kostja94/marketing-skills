@@ -2,7 +2,7 @@
 name: alternatives-page-generator
 description: When the user wants to create, optimize, or audit alternatives or comparison content (page or blog article). Also use when the user mentions "alternatives page," "alternatives listicle," "X alternatives," "competitor comparison," "vs page," "compare page," "best alternatives to X," "switch from X," "competitor brand traffic," "brand keyword ads," or "intercept competitor search." For competitor research, use competitor-research.
 metadata:
-  version: 1.2.1
+  version: 1.2.2
 ---
 
 # Pages: Alternatives / Compare
@@ -64,7 +64,7 @@ Identify:
 | **Problem-focused intro** | Empathy for pain; validate why they're searching; tease the payoff |
 | **Quick verdict** | 5–8 lines above the fold: who it's for, top picks, decision shortcut |
 | **Pros/cons of original** | Build trust; acknowledge why someone might leave; who should still keep it |
-| **Comparison table** | Place early, not hidden; 4–6 columns (best for, price, ease, key limit); **HTML table** (not image)—required for AEO/GEO; scannable |
+| **Comparison table** | Place early, not hidden; 4–6 columns (best for, price, ease, key limit); **HTML table** (not image)—required for AEO/GEO; scannable; section-level criteria and markup → **comparison-table-generator** |
 | **Alternatives list** | 6–10 picks; each with "best for" label, proof, tradeoff, pricing snapshot |
 | **Migration** | Link to migration-page if applicable |
 | **FAQ** | "Is X better than Y?"; "Can I migrate from X?"; pricing, trials |
@@ -135,6 +135,7 @@ Identify:
 
 ## Related Skills
 
+- **comparison-table-generator**: The comparison **table block** (HTML, criteria, fairness, accessibility); use with this skill for full pages that include a matrix
 - **article-page-generator**: Alternatives as blog listicle; same structure, different path
 - **migration-page-generator**: Migration guides for switchers; link from alternatives
 - **landing-page-generator**: When alternatives page is used for paid ads (PPC), apply LP principles; ad-to-page alignment

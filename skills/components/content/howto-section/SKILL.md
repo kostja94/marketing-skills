@@ -1,8 +1,8 @@
 ---
 name: howto-section-generator
-description: When the user wants to create, optimize, or audit a HowTo section block—an in-page block of ordered steps with optional Schema.org HowTo JSON-LD. Also use when the user mentions "HowTo section," "how-to section," "steps section," "tutorial steps," "step-by-step block," "HowTo schema," "HowTo JSON-LD," "instruction steps," "numbered steps SEO," "horizontal tabs for steps," or "procedure section." This skill is for a section inside a page, not a full page template—use article-page-generator, docs-page-generator, or tools-page-generator for page-level layout. For FAQ Q&A blocks, use faq-page-generator. For structured data details beyond HowTo, use schema-markup. For article body copy only, use article-content.
+description: When the user wants to create, optimize, or audit a HowTo section block—an in-page block of ordered steps with optional Schema.org HowTo JSON-LD. Also use when the user mentions "HowTo section," "how-to section," "steps section," "quick start," "walkthrough," "tutorial block," "3 steps," "N steps," "simple steps," "tutorial steps," "step-by-step block," "HowTo schema," "HowTo JSON-LD," "instruction steps," "numbered steps SEO," "horizontal tabs for steps," or "procedure section." This skill is for a section inside a page, not a full page template—use article-page-generator, docs-page-generator, or tools-page-generator for page-level layout. For FAQ Q&A blocks, use faq-page-generator. For structured data details beyond HowTo, use schema-markup. For article body copy only, use article-content.
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Components: HowTo Section
@@ -41,7 +41,24 @@ This section is always **part of** a larger page. Typical positions:
 
 ### Headings and lists
 
-- **Section title**: Clear H2 (e.g. “How to [outcome]” or “Steps”).
+#### Section title (H2)
+
+Headings should **describe the topic or purpose** (WCAG 2.4.6)—not just decorate. Prefer one primary H2 for the procedure; match **page type** and **search intent**.
+
+| Pattern | Best for | Examples |
+|---------|----------|----------|
+| **Outcome / task (default)** | Blog posts, guides, most informational “how to …” queries | “How to [verb] [outcome]”, “[Task] step by step” |
+| **Product or tool** | Tool pages, LP blocks after hero | “How to use [Product]”, “Using [Tool]” |
+| **Quick start / walkthrough** | Docs, onboarding | “Quick start”, “Walkthrough”, “Get started with [X]” |
+| **Numbered hook** (“In 3 steps …”, “3 simple steps to …”) | Short LP/tool copy when **simplicity** is the message | Use **only** if the visible `<ol>` (and HowTo JSON-LD `step` list) has **exactly** that many steps |
+
+**Rules**
+
+- **Avoid** a bare **“Steps”** or **“Instructions”** as the only H2 text when you can name the outcome—screen reader and scan users lose context.
+- **Count in the title**: If you use “3 steps” / “In 4 steps” in the H2, tabs, or subheads, the on-page list and **HowTo** schema must show the **same** number of steps (no extra steps only in JSON-LD).
+- **Volatile UIs**: If step count may change with releases, prefer **non-count** titles (“How to …”) and put “three main steps” in body copy if needed.
+- **Language**: Mirror the query (e.g. “How to …” for EN informational intent); localized pages: same intent in `inLanguage` as the visible heading.
+
 - **Steps**: Use **semantic ordered list** `<ol>` with `<li>` per step; **bold** the step title inside the `<li>` if needed.
 - **Sub-steps**: Nested `<ol>` or H3 under a step when the step is long.
 - **Avoid**: Fake lists built only with `<div>`—hurts extraction and accessibility.
@@ -109,7 +126,8 @@ See **featured-snippet**, **serp-features**.
 
 ## Best Practices Checklist
 
-- [ ] One primary **H2** (or clear section) for the procedure
+- [ ] One primary **H2** (or clear section) for the procedure; wording matches page type (outcome vs quick start vs counted steps)
+- [ ] If the title mentions a **step count**, it matches **`<ol>`** length and **HowTo** `step` items
 - [ ] **`<ol>`** steps with concise, **answer-first** lines per step
 - [ ] **HowTo** JSON-LD aligned with visible steps (and `totalTime` / `tool` / `supply` if shown on page)
 - [ ] Not confused with **FAQPage** for Q&A lists
@@ -120,6 +138,7 @@ See **featured-snippet**, **serp-features**.
 
 - **Placement** of the section **within the parent page** (after intro, mid-body, before FAQ, etc.)
 - **Outline**: H2 structure, ordered list, optional sub-steps
+- **Section title rationale**: Why this H2 pattern (outcome vs quick start vs “In *N* steps”) fits the parent page and query
 - **Copy notes**: answer-first per step; length targets
 - **HowTo JSON-LD** outline (required properties for your case)
 - **UI** note (tabs vs inline list) and **crawlability** requirements
@@ -148,5 +167,6 @@ See **featured-snippet**, **serp-features**.
 ## References
 
 - [Schema.org: HowTo](https://schema.org/HowTo)
+- [Understanding 2.4.6 Headings and Labels (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html) (descriptive headings)
 - [Google: Structured data intro](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data) (verify current supported types in Search Gallery)
 - [Featured snippets overview](https://developers.google.com/search/docs/appearance/featured-snippets) (content structure)

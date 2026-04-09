@@ -2,7 +2,7 @@
 name: programmatic-seo
 description: When the user wants to create SEO pages at scale using templates and data—including AI-assisted, grounded copy for per-URL differentiation (vs rigid mail-merge templates). Also use when the user mentions "programmatic SEO," "programmatic SEO pages," "template pages," "scale content," "location pages," "city pages," "comparison pages at scale," "X vs Y pages," "integration pages," "pages from data," "automated landing pages," or "programmatic landing pages." Uses a playbook matrix aligned to skills under skills/pages. For user-facing template galleries or marketplaces (browse → use), use template-page-generator.
 metadata:
-  version: 1.4.0
+  version: 1.4.1
 ---
 
 # SEO: Programmatic SEO
@@ -49,6 +49,7 @@ Page types in this library live under `pages/{brand|content|legal|marketing|util
 | **Glossary / definitions** | "what is [term]", term landings | glossary-page-generator | `pages/content/glossary` |
 | **FAQ / Q&A** | Question banks, PAA-style pages | faq-page-generator | `pages/content/faq` |
 | **How-to / procedures** | Step libraries, "[how to] [task]" blocks in templates | howto-section-generator | `components/content/howto-section` |
+| **Comparison matrix (blocks)** | Feature/criteria grids, "vs" cells from data feed | comparison-table-generator | `components/content/comparison-table` |
 | **Tools & lead magnets** | "free [x] tool/calculator" | tools-page-generator | `pages/content/tools` |
 | **Template gallery** | Browse → detail (your templates) | template-page-generator | `pages/content/template-page` |
 | **Resource hub** | Guides, hubs, download centers | resources-page-generator | `pages/content/resources` |
@@ -73,6 +74,7 @@ Page types in this library live under `pages/{brand|content|legal|marketing|util
 | Term / definition database | Glossary | glossary-page-generator |
 | Support tickets / PAA mined questions | FAQ scale | faq-page-generator |
 | How-to step banks / procedure templates | HowTo sections in scaled pages | howto-section-generator |
+| Competitor/feature matrix from data | Comparison table blocks in scaled pages | comparison-table-generator (+ alternatives-page-generator for URL intent) |
 | Lead magnets, calculators | Tools hub + per-tool | tools-page-generator |
 | **Your own templates** (exports, gallery items) | Template marketplace | template-page-generator |
 | ICP × industry matrix | Use cases / solutions | use-cases-page-generator, solutions-page-generator |
@@ -273,7 +275,7 @@ Pages with only a title, one paragraph, and swapped city names will not rank and
 - **tools-page-generator**: Free tools pages; toolkit hub; programmatic tool pages; lead gen
 - **alternatives-page-generator**: Alternatives/comparison pages at scale; competitor brand traffic
 - **category-page-generator**, **products-page-generator**: Category / catalog grids
-- **glossary-page-generator**, **faq-page-generator**, **howto-section-generator**, **resources-page-generator**: Definitions, Q&A banks, HowTo step blocks, content hubs
+- **glossary-page-generator**, **faq-page-generator**, **howto-section-generator**, **comparison-table-generator**, **resources-page-generator**: Definitions, Q&A banks, HowTo step blocks, comparison matrices, content hubs
 - **use-cases-page-generator**, **solutions-page-generator**, **migration-page-generator**: ICP/industry matrix, migration SEO
 - **integrations-page-generator**: Integration pair pages at scale
 - **blog-page-generator**, **article-page-generator**, **docs-page-generator**, **features-page-generator**, **api-page-generator**: Long-form and product surface scale

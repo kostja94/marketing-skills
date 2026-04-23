@@ -1,8 +1,8 @@
 ---
 name: github
-description: When the user wants to use GitHub for SEO, parasite SEO, GEO, open source marketing, README optimization, or curated Awesome lists. Also use when the user mentions "GitHub," "GitHub SEO," "GitHub parasite SEO," "GitHub GEO," "awesome list," "GitHub README," "repository name," "About section," "GitHub description," "GitHub topics," "GitHub Pages," "GitHub gist," "curated list," or "navigation list." Not for Medium or other non-GitHub platforms—use parasite-seo or medium-posts. For OSS business model, use open-source-strategy.
+description: When the user wants to use GitHub for SEO, parasite SEO, GEO, open source marketing, README optimization, or curated Awesome lists. Also use when the user mentions "GitHub," "GitHub SEO," "GitHub parasite SEO," "GitHub GEO," "awesome list," "GitHub README," "profile README," "pinned repositories," "Trending," "Explore," "repository name," "About section," "GitHub description," "GitHub topics," "Website field," "GitHub Pages," "github.io," "user site," "project site," "GitHub gist," "curated list," or "navigation list." Not for Medium or other non-GitHub platforms—use parasite-seo or medium-posts. For OSS business model, use open-source-strategy.
 metadata:
-  version: 1.2.0
+  version: 1.3.0
 ---
 
 # Platforms: GitHub
@@ -28,6 +28,49 @@ Guides GitHub for parasite SEO, GEO (AI citation), and curated list creation. Gi
 | **Parasite SEO** | Repos, README, Pages, gists | Leverage GitHub authority for rankings and backlinks |
 | **GEO** | Documentation, tutorials, curated lists | AI tools cite GitHub for technical answers |
 | **Curated / navigation lists** | Awesome-style repos | Topic-specific resource directories; backlinks, discovery |
+
+## Surfaces: profile vs repository
+
+| Surface | What it is | Optimization focus |
+|---------|------------|---------------------|
+| **Profile README** | Public repo **with the same name as the username**; root `README.md` renders on the profile | Personal brand, flagship links, social proof |
+| **Pinned** | Up to **6** repos or gists on the profile | Showcase top projects; align with entity signals (**entity-seo**) |
+| **Per-repo README** | Root `README.md` on each repo’s **Code** tab | Product landing; install, proof, CTAs |
+
+Changing a normal repo README does **not** change the profile banner unless that content is the **profile README** repo or linked from it.
+
+## Repository home: layout map
+
+| Area | Typical contents | SEO / ops note |
+|------|------------------|----------------|
+| **Main column** | File list; rendered **root README** below | First screen and H2/H3 carry most narrative |
+| **About sidebar** | **Description**, **Website**, **Topics**, releases shortcut, license, languages | Keep Description and README first paragraph consistent; **Website** should match the primary outbound CTA |
+| **Other tabs** | Issues, PRs, Actions, etc. | Engagement and freshness signals |
+
+**Website field**: Maintained via repo **Settings** / **About** edit; prefer one canonical docs or product URL aligned with README links.
+
+## In-site discovery (high level)
+
+| Entry | Role | Caveat |
+|-------|------|--------|
+| **Trending** | Time-windowed visibility | Formula is **not** public; never promise ranking |
+| **Explore** | Collections, themes, programs | Useful for patterns and seasonal campaigns |
+| **Topics** | Topic pages tied to repository topics | Aligns with Topics metadata (see Topics section below) |
+| **Search** | Query across repos and users | README + About + topics drive match quality |
+
+UI and URLs evolve; verify on [github.com](https://github.com/).
+
+```mermaid
+flowchart LR
+  discovery[Discovery or referral]
+  home[Repository home]
+  readme[README and About]
+  outbound[Site or docs]
+
+  discovery --> home
+  home --> readme
+  readme --> outbound
+```
 
 ## Repository Name, About & README (SEO/GEO Priority)
 
@@ -113,6 +156,17 @@ Guides GitHub for parasite SEO, GEO (AI citation), and curated list creation. Gi
 | **Wiki** | Keyword-rich documentation |
 | **Issues** | Q&A, discussions; indexable |
 
+### GitHub Pages vs README
+
+| Surface | Role |
+|---------|------|
+| **README** | First impression; Stars/forks; short pitch and deep links |
+| **Pages** | Multi-page **static** site: long docs, blog, changelog |
+
+**Default URL patterns**: A **user or organization site** often uses a `username.github.io` repository and serves at `https://username.github.io`. A **project site** is published from a given repo and typically appears at `https://username.github.io/repository/` (path may vary with settings). See [About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
+
+**Limits**: Build size, bandwidth, and build-frequency caps change over time—cite [GitHub Pages limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits) when users need numbers, not hard-coded figures from this skill.
+
 ### Optimization
 
 | Element | Practice |
@@ -144,6 +198,15 @@ Guides GitHub for parasite SEO, GEO (AI citation), and curated list creation. Gi
 | **Documentation** | Structured; AI tools parse well |
 | **Entity signals** | Clear project, author identity; see **entity-seo** |
 | **Consistency** | Active maintenance; engagement (stars, forks, watchers) |
+
+## Repository archetypes
+
+| Archetype | Intent | First-screen emphasis |
+|-----------|--------|------------------------|
+| **Product / library** | Installable software, SDK, CLI, service | Install, quickstart, proof (CI, license), support path |
+| **Curated / resource** | Awesome-style lists, indexes | Scope, curation bar, contribution rules |
+
+Match metrics to type: curated lists optimize for trust and backlinks; product repos optimize for adoption and issue quality.
 
 ## Curated / Navigation Lists (Awesome-Style)
 
@@ -206,6 +269,7 @@ Guides GitHub for parasite SEO, GEO (AI citation), and curated list creation. Gi
 ## Output Format
 
 - **Use case** (parasite SEO / GEO / curated list)
+- **Surface scope** (profile vs specific repository; README vs Pages)
 - **Repository name, About, Topics** (if optimizing metadata)
 - **Surface** (README, Pages, gist, awesome repo)
 - **README structure** (sections, word count, GEO practices if applicable)

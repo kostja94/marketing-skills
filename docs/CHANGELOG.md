@@ -17,6 +17,12 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [2026-04-23] v2.3.18
+
+### Changed
+
+- **github** (v1.3.0) - Profile vs repo surfaces; repository home layout map; in-site discovery (Trending, Explore, Topics, Search) with caveats; visitor-path mermaid; GitHub Pages vs README with official docs links; repository archetypes (product vs curated); extended `description` triggers; Output Format surface scope.
+
 ## [2026-04-23] v2.3.17
 
 ### Changed

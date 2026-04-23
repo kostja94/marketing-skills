@@ -190,7 +190,7 @@ Paths: Channels `skills/channels/{partnerships,community,owned,distribution}/`. 
 | [reddit-posts](../skills/platforms/reddit/) | Reddit post copy, subreddit rules |
 | [linkedin-posts](../skills/platforms/linkedin/) | LinkedIn post copy, professional content |
 | [tiktok-captions](../skills/platforms/tiktok/) | TikTok caption, video specs, script |
-| [github](../skills/platforms/github/) | GitHub for SEO, GEO, parasite SEO, open source |
+| [github](../skills/platforms/github/) | GitHub for SEO, GEO, parasite SEO, open source; profile/repo surfaces, Pages, discovery |
 | [grokipedia-recommendations](../skills/platforms/grokipedia/) | Grokipedia recommendations, GEO |
 | [youtube-seo](../skills/platforms/youtube/) | YouTube titles, descriptions, thumbnails; video SEO |
 | [pinterest-posts](../skills/platforms/pinterest/) | Pin descriptions, board SEO |

@@ -17,6 +17,13 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [2026-04-23] v2.3.17
+
+### Changed
+
+- **linkedin-posts** (v1.2.0) - Post type matrix (Article vs post, document, reshare, Newsletter, etc.); feed ranking summary; short off-site SEO/GEO; official help links; Related Skills: **open-graph**, **entity-seo**, **generative-engine-optimization**; extended `description` keywords.
+- **linkedin-ads** (v1.2.0) - Campaign Manager hierarchy and Accelerate/Classic ad sets; objective-based pricing and pacing; expanded formats (Thought Leader, Event, CTV, LAN, etc.); Lookalike retired in favor of Matched Audiences; Lead Gen and Sponsored Messaging notes; bench CPC disclaimer; pre-launch checklist; official link index.
+
 ## [2026-03-28] v2.3.16
 
 ### Added

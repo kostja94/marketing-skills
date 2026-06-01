@@ -105,3 +105,4 @@ export const metadata = {
 - **meta-description**: Meta description often mirrors og:description
 - **twitter-cards**: Twitter uses OG as fallback; add Twitter-specific tags for best results
 - **canonical-tag**: og:url should match canonical URL
+- **og-image-generator**: Programmatic OG image generation — 6 visual styles (Terminal/CLI, Magazine Editorial, Swiss Minimal, Pixel Retro, Brutalist, Newspaper), Satori+resvg, Puppeteer, AI image generation tools, and Agent-Native content-aware workflow. This skill covers how to SET the image tag; og-image-generator covers how to CREATE the image.

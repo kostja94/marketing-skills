@@ -104,3 +104,4 @@ export const metadata = {
 - **meta-description**: Meta description often mirrors twitter:description
 - **page-metadata**: Hreflang, other meta tags
 - **twitter-x-posts**: X post copy and engagement (different from link previews)
+- **twitter-card-image-generator**: Programmatic Twitter Card image generation — 1200×675px, 2:1 ratio, player card posters, dark mode adaptations for ~40% of X users, timeline-safe zone design for mobile 1:1 crop, all 6 visual styles from og-image-generator. This skill covers how to SET the twitter:image tag; twitter-card-image-generator covers how to CREATE the image.

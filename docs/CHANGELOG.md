@@ -17,6 +17,18 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [2026-06-01] v2.3.20
+
+### Changed
+
+- **legal** (v1.2.0) - Product category matrix, jurisdiction decision framework, indexing strategy, platform dependencies for AI/SaaS legal pages.
+- **privacy** (v1.1.0) - 14-section framework, AI data/training disclosures, product-category-aware required sections.
+- **terms** (v1.1.0) - 18-section framework, AI output clauses, dual-jurisdiction and third-party model terms.
+- **cookie-policy** (v1.1.0) - Cookie inventory tables (GA4, functional, marketing), notice vs consent decision guide.
+- **refund** (v1.1.0) - Product-category refund matrix, EU withdrawal rights, jurisdiction-specific rules (UK, US, AU, CN).
+- **shipping** (v1.1.0) - Shipping scope tiers, cross-border regulatory exposure, AI-era delivery discoverability.
+- **open-graph**, **twitter-cards** - Cross-reference links to og-image-generator and twitter-card-image-generator.
+
 ## [2026-05-06] v2.3.19
 
 ### Changed

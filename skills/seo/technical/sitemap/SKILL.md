@@ -2,7 +2,7 @@
 name: xml-sitemap
 description: When the user wants to create, audit, or optimize sitemap.xml. Also use when the user mentions "sitemap," "sitemap.xml," "sitemap index," "lastmod," "changefreq," "priority," "URL discovery," "URL discovery for search engines," "single source of truth," "URL config," "unify sitemap IndexNow," or "reduce duplicate maintenance." For IndexNow, use indexnow.
 metadata:
-  version: 1.0.2
+  version: 1.1.0
 ---
 
 # SEO Technical: Sitemap
@@ -28,6 +28,16 @@ Identify:
 1. **Site URL**: Base domain (e.g., `https://example.com`)
 2. **URL count**: Total indexable pages (single sitemap vs. sitemap index)
 3. **Data source**: Static config, CMS, file system, or hybrid
+
+### Precondition: Does the site need a sitemap?
+
+Before generating, assess whether a sitemap is warranted. A sitemap is most valuable when:
+- **Large site** (hundreds+ pages) or **new site** with few backlinks
+- **Deep or orphaned pages** that internal links don't reach well
+- **Rich media** (images, videos, news) needing extension metadata
+- GSC shows growing "Discovered – not indexed" or "Not discovered" counts
+
+Small sites (< 50 pages) with strong internal linking may not strictly need one, but creating a sitemap has near-zero cost and provides future-proof infrastructure. If in doubt, err on the side of creating.
 
 ## 1. Protocol Essentials
 
@@ -195,7 +205,40 @@ With multiple sitemaps, only declare the main index.
 </sitemapindex>
 ```
 
-## 9. Common Issues
+## 9. Submission & Verification
+
+After generating the sitemap, guide the user through submission:
+
+1. **robots.txt**: Add `Sitemap: https://example.com/sitemap.xml` (or the index URL)
+2. **Google Search Console**: Navigate to Indexing → Sitemaps, enter the sitemap URL, submit
+3. **Verify**: In GSC Sitemaps report, check "Discovered pages" count vs. expected; if large gap, investigate
+4. **Monitor**: After 24–48h, confirm status shows "Success"; check Indexing → Pages report filtered by sitemap for "Indexed" vs. "Not indexed" breakdown
+
+Common submission errors to flag:
+- Sitemap URL 404 — check build output and deployment
+- "Could not fetch" — verify robots.txt doesn't block the sitemap URL
+- "HTML page" error — see §10 HTML Diagnosis below
+
+## 10. HTML Diagnosis (Sitemap Returns HTML Instead of XML)
+
+When `/sitemap.xml` returns HTTP 200 but `Content-Type: text/html` with homepage content, Google silently rejects the sitemap — no GSC alert because the status code is 200. This is **worse than 404**.
+
+**Common causes**:
+- Catch-all page routes (`pages/[...slug].vue`, Next.js catch-all) intercepting before the sitemap handler
+- i18n modules running at a lower level than routeRules/middleware
+- Geo-redirects or redirect plugins matching sitemap paths
+- CDN/cache layers stripping Content-Type headers
+
+**Diagnose with**:
+```bash
+curl -I https://example.com/sitemap.xml          # Check Content-Type
+curl -A "Googlebot" -I https://example.com/sitemap.xml  # Googlebot's view
+curl -s https://example.com/sitemap.xml | head -5       # First lines must be XML
+```
+
+**Fix (Next.js)**: Use `server/routes/sitemap.xml.ts` (highest priority, bypasses catch-all). For i18n, add `excludePatterns: [/^\/sitemap.*\.xml$/]`. Renaming the sitemap file (e.g., to `sitemap_index.xml`) can bypass Google's cache of the failed state.
+
+## 11. Common Issues
 
 | Issue | Cause / Fix |
 |-------|-------------|
@@ -204,6 +247,7 @@ With multiple sitemaps, only declare the main index.
 | lastmod anomaly | Avoid `new Date()`; use `modifiedDate` from page metadata |
 | Google not indexing | Submit sitemap in GSC; check Coverage (google-search-console) and robots |
 | EN/ZH URL mismatch | Use unified data source; share same list when generating by locale |
+| **Sitemap returns HTML** | Catch-all route or i18n intercepting before sitemap handler; diagnose with `curl -I` + Googlebot UA; see §10 |
 
 ## References
 

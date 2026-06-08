@@ -232,6 +232,34 @@ For **which page-generator skill to use**, see **Page Playbook Matrix** above. G
 
 Pages with only a title, one paragraph, and swapped city names will not rank and may incur Google penalties.
 
+## Remediating Already-Built Homogenized Pages
+
+If programmatic pages are already published and feel interchangeable — shared closing sentences, identical value propositions across URLs, cloned section endings — fix the content before it triggers quality signals.
+
+### Diagnostic approach
+
+Run regex scans across rendered or source files to surface shared sentence tails and repeated paragraph structures. Look for patterns that appear in more than 30% of same-category pages. Common telltales: every tool page ending with "X is the ideal choice for Y," every category page sharing the same technology summary, every location page using identical FAQ tails.
+
+Scan at three scopes: within a single page (do its sections repeat the same closing formula?), within a category (do all video tool pages share a template?), and across categories (is the same value statement on every page site-wide?).
+
+### Prioritize fixes into three levels
+
+| Priority | What it is | Action |
+|----------|------------|--------|
+| **P0 — Eliminate** | Pure template filler with no information value; every page says the same thing | Rewrite each page independently with page-specific detail |
+| **P1 — Rewrite** | Core information is correct but delivery is formulaic (e.g., "different tools use different architectures" — true but generic) | Prepare 8–15 semantic variants and cycle through them so adjacent pages differ |
+| **P2 — Reduce density** | Normal vocabulary that appears too frequently (e.g., "seamless" on 80% of pages) | Replace ~30–40% of instances, not all — normal words are fine at moderate frequency |
+
+### Execute in rounds
+
+Fix P0 patterns first, one category at a time. After each round, re-scan to confirm patterns are cleared and no new ones appeared. A common trap: replacing one template with another by applying the same fix uniformly. Distribute rewrites so pages processed in sequence get different treatments.
+
+For single-page internal duplicates — where all use cases or tool descriptions within one file share identical closing sentences — use functional endings instead of evaluative ones. A functional ending describes what bottleneck the entry solves in practice; an evaluative ending just declares it's a good choice.
+
+### Prevention in the pipeline
+
+Add structural-variety requirements to AI generation prompts (vary section endings, forbid repeated closing formulas). Batch-generate pages from different categories together rather than all from one category at once. Run N-gram overlap checks across same-category pages before publishing.
+
 ## Step-by-Step Workflow
 
 1. **Research** — Niche, intent; include low-volume keywords; SEO tools, question databases

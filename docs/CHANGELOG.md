@@ -17,6 +17,13 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [2026-06-08] v2.3.21
+
+### Changed
+
+- **programmatic-seo** - Homogenized-page remediation workflow: regex diagnostics, P0/P1/P2 fix priorities, round-by-round execution, pipeline prevention.
+- **xml-sitemap** (v1.1.0) - Sitemap need assessment, GSC submission and verification steps, HTML-return diagnosis (catch-all/i18n), §10 troubleshooting.
+
 ## [2026-06-01] v2.3.20
 
 ### Changed

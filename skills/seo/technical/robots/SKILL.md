@@ -72,6 +72,19 @@ Identify:
 | `Sitemap:` | Declare sitemap absolute URL | `Sitemap: https://example.com/sitemap.xml` |
 | `Clean-param:` | Strip query params (Yandex) | See below |
 
+### Path Format Rules (Critical)
+
+Different directives use different path formats — a common source of errors:
+
+| Directive | Format | Correct | Wrong |
+|-----------|--------|---------|-------|
+| Disallow / Allow | **Root-relative path only** (starts with `/`) | `Disallow: /admin/` | `Disallow: https://example.com/admin/` |
+| Sitemap | **Absolute URL only** | `Sitemap: https://example.com/sitemap.xml` | `Sitemap: /sitemap.xml` |
+
+**Wildcards**: `*` matches any character sequence (`Disallow: /tmp/*`). `$` marks exact URL ending (`Allow: /news/.html$`).
+
+**Priority**: More specific paths take precedence. `Allow: /shop/shoes/` overrides `Disallow: /shop/`. Path matching is case-sensitive: `Disallow: /PDF/` does not match `/pdf/`.
+
 ### Critical: Do Not Block
 
 | Do not block | Reason |
@@ -92,7 +105,9 @@ robots.txt is effective for all measured AI crawlers. Set rules per user-agent; 
 | **GPTBot** | OpenAI training | Disallow | Respects robots.txt; shares crawl data with OAI-SearchBot if both allowed |
 | **ChatGPT-User** | User-initiated browsing | N/A | **No longer respects robots.txt** (Dec 2025); use server-side controls instead |
 | **Claude-SearchBot** | Claude search | Allow | Respects robots.txt |
+| **Claude-User** | Anthropic user-initiated browsing | Allow | Respects robots.txt (unlike ChatGPT-User) |
 | **ClaudeBot** | Anthropic training | Disallow | Respects robots.txt |
+> **Deprecated**: ~~anthropic-ai~~ — retired by Anthropic, replaced by ClaudeBot / Claude-User / Claude-SearchBot. References to `anthropic-ai` in robots.txt have no effect.
 | **PerplexityBot** | Perplexity search | Allow | Respects robots.txt |
 | **Google-Extended** | Gemini training | Disallow | Respects robots.txt |
 | **CCBot** | Common Crawl (LLM training) | Disallow | Respects robots.txt |

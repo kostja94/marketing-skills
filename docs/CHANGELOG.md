@@ -17,6 +17,12 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [2026-06-08] v2.3.22
+
+### Changed
+
+- **robots** (v1.2.0) - Path format rules (Disallow/Allow vs Sitemap), wildcard and precedence notes; Claude-User crawler entry; deprecated anthropic-ai user-agent.
+
 ## [2026-06-08] v2.3.21
 
 ### Changed

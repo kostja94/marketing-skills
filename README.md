@@ -83,7 +83,7 @@ Ask your agent - it picks the right skill. Examples:
 | "HowTo section" / "Step-by-step block" / "HowTo schema" | howto-section-generator, schema-markup |
 | "Cold start" / "Product Hunt" / "Directory submission" | cold-start-strategy, directory-submission |
 | "Indie hacker" / "PMF" / "Parasite SEO" / "GitHub SEO" | indie-hacker-strategy, pmf-strategy, parasite-seo, github |
-| "GA4 tracking" / "Search Console" / "AI traffic" | analytics-tracking, google-search-console, ai-traffic-tracking |
+| "GA4 tracking" / "Search Console" / "AI traffic" / "X data research" | analytics-tracking, google-search-console, ai-traffic-tracking, xquik |
 
 [Full prompt -> skill mapping](docs/usage.md)
 
@@ -116,9 +116,9 @@ Ask your agent - it picks the right skill. Examples:
 | **Pages** | 40+ types - brand, content, marketing, legal, utility; Features vs Use cases vs Solutions |
 | **Components** | Nav, breadcrumb, footer, hero, CTA, logo, testimonials, etc. |
 | **Channels** | Affiliate, email, influencer, referral, directories, PR |
-| **Platforms** | X, Reddit, LinkedIn, TikTok, YouTube, Medium, GitHub, Grokipedia |
+| **Platforms** | X, Xquik, Reddit, LinkedIn, TikTok, YouTube, Medium, GitHub, Grokipedia |
 | **Strategies** | launch | brand | commercial | structure (SEO, cold-start, GEO, branding, GTM, PMF, pricing, domain, etc.) |
-| **Analytics** | Traffic, tracking, Search Console, AI traffic |
+| **Analytics** | Traffic, tracking, Search Console, AI traffic, Xquik social data |
 
 **Workflow**: Technical SEO -> On-Page -> Content -> Off-Page. **seo-strategy** orchestrates. Each skill has **Related Skills**; say "skip intro" or "just do it" for repeat tasks. [Dependency maps](docs/skills-reference.md#3-how-skills-work-together)
 

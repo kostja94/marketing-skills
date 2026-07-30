@@ -12,7 +12,7 @@
 
 **How they differ**: **Prompt** is one-off, per conversation. **Skill** is reusable, version-controlled, loaded when needed. **Tool** is a single executable (API call, file write). **MCP** connects agents to external services. **RAG** retrieves docs to augment context but doesn't execute. Skills complement all of these.
 
-**Discovering skills**: Browse [skills.sh](https://skills.sh) (All Time, Trending, Hot); search with `npx skills find [keyword]`; or `npx skills add owner/repo --list` to see a repo's skills. Check [skills.sh/kostja94](https://skills.sh/kostja94) for this repo's listing.
+**Discovering skills**: Browse [skills.sh](https://skills.sh) (All Time, Trending, Hot); search with `npx skills find [keyword]`; or `npx skills add owner/repo --full-depth --list` to see every nested skill. Check [skills.sh/kostja94](https://skills.sh/kostja94) for this repo's listing.
 
 **SkillsBench tip** (*for reference only — one paper's findings*): 2–3 relevant skills per task may be a performance sweet spot; 4+ skills can cause context overload. Prefer selective install (`--skill a b c`) when you know the task. See [skill-authoring §9](skill-authoring.md#9-skillsbench-reference-informational).
 
@@ -22,10 +22,10 @@
 
 | Platform Type | Platforms | How |
 |---------------|-----------|-----|
-| **Native Skills** | Cursor, Claude Code, Codex, OpenCode, Gemini CLI, GitHub Copilot, Windsurf, Cline, Base44, Trae | `npx skills add kostja94/marketing-skills` or copy to `.agents/skills/` |
+| **Native Skills** | Cursor, Claude Code, Codex, OpenCode, Gemini CLI, GitHub Copilot, Windsurf, Cline, Base44, Trae | `npx skills add kostja94/marketing-skills --full-depth` or copy to `.agents/skills/` |
 | **AGENTS.md** | Lovable, Replit | OpenSkills sync or `.lovable/skills/` + adapt paths |
 | **Paste / Reference** | v0, Bolt.new, Medo, ChatGPT, Gemini, Claude Web | Paste skill markdown as context, or copy to project root |
-| **CLI Multi-Platform** | AMP, KiloCode, Roo, Goose, Kiro, OpenClaw | `npx skills add ... -a <platform>` |
+| **CLI Multi-Platform** | AMP, KiloCode, Roo, Goose, Kiro, OpenClaw | `npx skills add ... --full-depth -a <platform>` |
 
 ---
 
@@ -54,15 +54,15 @@ These platforms auto-discover skills from standard directories. Install once, ag
 
 ```bash
 # Install to default platform
-npx skills add kostja94/marketing-skills
+npx skills add kostja94/marketing-skills --full-depth
 
 # Install to multiple platforms
-npx skills add kostja94/marketing-skills -a cursor -a claude-code -a codex -a opencode
+npx skills add kostja94/marketing-skills --full-depth -a cursor -a claude-code -a codex -a opencode
 ```
 
 ### Syncing with GitHub
 
-To keep skills updated: **CLI** — re-run `npx skills add kostja94/marketing-skills` (overwrites); **Git submodule** — `git submodule add https://github.com/kostja94/marketing-skills.git .cursor/marketing-skills`, then `cp -r .cursor/marketing-skills/skills/* .cursor/skills/`; update with `cd .cursor/marketing-skills && git pull`.
+To keep skills updated: **CLI**: re-run `npx skills add kostja94/marketing-skills --full-depth` (overwrites); **Git submodule**: `git submodule add https://github.com/kostja94/marketing-skills.git .cursor/marketing-skills`, then `cp -r .cursor/marketing-skills/skills/* .cursor/skills/`; update with `cd .cursor/marketing-skills && git pull`.
 
 ---
 
@@ -82,10 +82,10 @@ To keep skills updated: **CLI** — re-run `npx skills add kostja94/marketing-sk
 
 ```bash
 # Install all marketing skills to OpenClaw
-npx skills add kostja94/marketing-skills -a openclaw
+npx skills add kostja94/marketing-skills --full-depth -a openclaw
 
 # Install specific skills only
-npx skills add kostja94/marketing-skills -a openclaw --skill robots-txt title-tag meta-description pricing-page-generator
+npx skills add kostja94/marketing-skills --full-depth -a openclaw --skill robots-txt title-tag meta-description pricing-page-generator
 ```
 
 **Product context**: Add `project-context.md` to your OpenClaw workspace. Skills read it automatically. See [README § Project Context](../README.md#project-context--linking).
@@ -184,7 +184,7 @@ Skills are **plain markdown**. Use them with any LLM that accepts text input.
 1. Fork [kostja94/marketing-skills](https://github.com/kostja94/marketing-skills)
 2. Read [skill-authoring](skill-authoring.md) for format and authoring rules
 3. Pick a skill similar to what you want (e.g. `pricing-page-generator` → your `custom-page-generator`)
-4. Copy, rename, edit — then install with `npx skills add your-username/your-fork`
+4. Copy, rename, and edit. Then install with `npx skills add your-username/your-fork --full-depth`
 
 ### 7.6 Future — Non-Website Agents
 

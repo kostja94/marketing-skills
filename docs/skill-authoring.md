@@ -94,7 +94,7 @@ skills/
     +-- tracking/         # GA4, event tracking
 ```
 
-The CLI supports **recursive discovery**; `SKILL.md` files in nested directories are found automatically.
+The CLI's default scan is bounded. Use `--full-depth` with this nested taxonomy.
 
 ### 2.4 Folder Name vs Skill Name
 
@@ -230,21 +230,21 @@ The Markdown body after the frontmatter has no fixed structure. Recommended sect
 
 ```bash
 # Install all
-npx skills add owner/repo
+npx skills add owner/repo --full-depth
 
 # Install specific skills
-npx skills add owner/repo --skill skill-name-1 skill-name-2
+npx skills add owner/repo --full-depth --skill skill-name-1 skill-name-2
 
 # List only (no install)
-npx skills add owner/repo --list
+npx skills add owner/repo --full-depth --list
 
 # Non-interactive mode
-npx skills add owner/repo -y
+npx skills add owner/repo --full-depth -y
 ```
 
 **Discovery paths**: Repository root; `skills/`; `skills/.curated/`; `skills/.experimental/`; agent-specific paths (e.g. `.cursor/skills/`).
 
-**Full vs selective**: `npx skills add kostja94/marketing-skills` - all skills; `--skill robots-txt pricing-page-generator` - only specified. Remove unwanted folders from `.cursor/skills/` after install.
+**Full vs selective**: `npx skills add kostja94/marketing-skills --full-depth` - all skills; add `--skill robots-txt pricing-page-generator` for only those skills. Remove unwanted folders from `.cursor/skills/` after install.
 
 ---
 
@@ -272,7 +272,7 @@ Before creating or modifying a skill, verify:
 
 **Project Task Tracker**: `.cursor/project-task-tracker.md` - Track task status; agent suggests next steps.
 
-**Using beyond Cursor & Claude**: Skills are markdown - they work anywhere an AI can read text. **OpenClaw** supports AgentSkills natively: `npx skills add kostja94/marketing-skills -a openclaw`. **Full guide**: [usage.md](usage.md).
+**Using beyond Cursor & Claude**: Skills are markdown - they work anywhere an AI can read text. **OpenClaw** supports AgentSkills natively: `npx skills add kostja94/marketing-skills --full-depth -a openclaw`. **Full guide**: [usage.md](usage.md).
 
 ---
 

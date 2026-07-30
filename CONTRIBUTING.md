@@ -19,7 +19,7 @@ Contributions are welcome! Here's how to add or improve skills.
    - Clear instructions for the agent
    - Related skills section
 3. Update [README.md](README.md) with the new skill in the table
-4. Run `npx skills add kostja94/marketing-skills --list` to verify discovery
+4. Run `npx skills add kostja94/marketing-skills --full-depth --list` to verify discovery
 
 ## Skill Naming
 
@@ -52,6 +52,6 @@ See [skill-authoring.md](docs/skill-authoring.md) for the complete specification
 
 ## Testing
 
-1. Install locally: `npx skills add . --skill your-skill-name`
+1. Install locally: `npx skills add . --full-depth --skill your-skill-name`
 2. Ask the agent to perform the task
 3. Verify the skill is invoked correctly

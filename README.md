@@ -14,13 +14,13 @@ Markdown skill library for AI agents - SEO, content, pages, paid ads, channels, 
 
 ```bash
 # Install specific skills (recommended - 2-3 per task; SkillsBench ref, one paper)
-npx skills add kostja94/marketing-skills --skill robots-txt title-tag meta-description
+npx skills add kostja94/marketing-skills --full-depth --skill robots-txt title-tag meta-description
 
 # Install all skills
-npx skills add kostja94/marketing-skills
+npx skills add kostja94/marketing-skills --full-depth
 
 # List available
-npx skills add kostja94/marketing-skills --list
+npx skills add kostja94/marketing-skills --full-depth --list
 ```
 
 **Context** (required for tailored output): Copy [project-context.md](templates/project-context.md) to `.cursor/` or `.claude/` and fill in. [Templates](templates/README.md) | [Project Task Tracker](templates/project-task-tracker.md)
@@ -106,7 +106,7 @@ Ask your agent - it picks the right skill. Examples:
 
 ## Skills Overview
 
-**160+ skills** in 9 categories. [Full list](docs/skills-reference.md) | `npx skills add kostja94/marketing-skills --list`
+**160+ skills** in 9 categories. [Full list](docs/skills-reference.md) | `npx skills add kostja94/marketing-skills --full-depth --list`
 
 | Category | Scope |
 |----------|-------|
@@ -118,7 +118,7 @@ Ask your agent - it picks the right skill. Examples:
 | **Channels** | Affiliate, email, influencer, referral, directories, PR |
 | **Platforms** | X, Reddit, LinkedIn, TikTok, YouTube, Medium, GitHub, Grokipedia |
 | **Strategies** | launch | brand | commercial | structure (SEO, cold-start, GEO, branding, GTM, PMF, pricing, domain, etc.) |
-| **Analytics** | Traffic, tracking, Search Console, AI traffic |
+| **Analytics** | Traffic, tracking, Search Console, AI traffic, Xquik research |
 
 **Workflow**: Technical SEO -> On-Page -> Content -> Off-Page. **seo-strategy** orchestrates. Each skill has **Related Skills**; say "skip intro" or "just do it" for repeat tasks. [Dependency maps](docs/skills-reference.md#3-how-skills-work-together)
 

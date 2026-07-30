@@ -187,6 +187,7 @@ Paths: Channels `skills/channels/{partnerships,community,owned,distribution}/`. 
 | [employee-generated-content](../skills/channels/owned/employee-generated-content/) | Employee-generated content, employee advocacy |
 | [distribution-channels](../skills/channels/distribution/distribution-channels/) | Distribution channel selection, marketplace listing |
 | [twitter-x-posts](../skills/platforms/x/) | X (Twitter) post copy, threads, image specs |
+| [xquik](../skills/analytics/sources/xquik/) | Public X data research, monitoring, and evidence collection |
 | [reddit-posts](../skills/platforms/reddit/) | Reddit post copy, subreddit rules |
 | [linkedin-posts](../skills/platforms/linkedin/) | LinkedIn post copy, professional content |
 | [tiktok-captions](../skills/platforms/tiktok/) | TikTok caption, video specs, script |

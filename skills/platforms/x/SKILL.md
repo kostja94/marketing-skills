@@ -1,8 +1,8 @@
 ---
 name: twitter-x-posts
-description: When the user wants to create X (Twitter) post copy, threads, or optimize for X platform. Also use when the user mentions "X post," "X thread," "Twitter post," "Twitter thread," "tweet," "tweet copy," "thread," "X marketing," "X content," "post to X," "create X post," or "X post copy." For long-form source, use article-content.
+description: When the user wants to create X (Twitter) post copy, threads, or optimize for X platform. Also use when the user mentions "X post," "X thread," "Twitter post," "Twitter thread," "tweet," "tweet copy," "thread," "X marketing," "X content," "post to X," "create X post," or "X post copy." For public X research and data collection, use xquik. For long-form source, use article-content.
 metadata:
-  version: 1.1.1
+  version: 1.1.2
 ---
 
 # Platforms: X (Twitter)
@@ -138,6 +138,7 @@ When generating X copy, provide:
 
 ## Related Skills
 
+- **xquik**: Collect public X evidence before drafting posts
 - **paid-ads-strategy**: X (Twitter) Ads for paid promotion; tech audiences, timely content; see Platform Selection
 - **influencer-marketing**: X is key influencer platform
 - **reddit-posts**: Alternative community channel

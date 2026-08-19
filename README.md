@@ -51,7 +51,7 @@ Skills are **markdown files** that give AI agents focused knowledge and workflow
 
 **Partnership**: Building a vibe coding product or AI marketing agent? [Contact](mailto:zyjstc@gmail.com) to integrate.
 
-[![Star History Chart](https://api.star-history.com/image?repos=kostja94/marketing-skills&type=Date)](https://star-history.com/#kostja94/marketing-skills)
+[![Star History Chart](https://star-history.dera.page/svg?repos=kostja94/marketing-skills&type=Date)](https://star-history.dera.page/#kostja94/marketing-skills)
 
 **Found this useful?** Star or share with colleagues helps others discover it - thank you.
 

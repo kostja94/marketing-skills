@@ -22,7 +22,7 @@ Guides translation workflow, terminology, style, and quality for multilingual co
 
 ## Initial Assessment
 
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for brand voice, target markets, and product terminology.
+**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
 
 Identify:
 1. **Content type**: Product UI, marketing copy, blog, landing page, docs

@@ -13,7 +13,7 @@ Guides domain structure decisions for multiple products or brands: subfolder (su
 
 ## Initial Assessment
 
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product portfolio and growth goals.
+**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
 
 Identify:
 1. **Product count**: Single product vs multiple products/brands

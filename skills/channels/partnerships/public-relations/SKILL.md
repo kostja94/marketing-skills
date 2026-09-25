@@ -13,7 +13,7 @@ Guides PR and press release strategy. Journalists use ~3% of releases they recei
 
 ## Initial Assessment
 
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read Sections 2 (Positioning), 3 (Value Proposition), 8 (Brand & Voice).
+**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
 
 Identify:
 1. **News angle**: Product launch, funding, partnership, milestone

@@ -13,7 +13,7 @@ Guides customer retention and churn prevention. Acquiring new customers costs 5â
 
 ## Initial Assessment
 
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read Sections 4 (Audience), 9 (Documentation).
+**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
 
 Identify:
 1. **Churn type**: Voluntary (active cancel) vs involuntary (payment failure)

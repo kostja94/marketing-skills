@@ -88,7 +88,7 @@ npx skills add kostja94/marketing-skills -a openclaw
 npx skills add kostja94/marketing-skills -a openclaw --skill robots-txt title-tag meta-description pricing-page-generator
 ```
 
-**Product context**: Add `project-context.md` to your OpenClaw workspace. Skills read it automatically. See [README § Project Context](../README.md#project-context--linking).
+**Product context**: Root `contextus.md` is the canonical entry when Contextus is installed. Without it, provide project material or facts directly. See [README § Project Context](../README.md#project-context).
 
 ---
 
@@ -115,7 +115,7 @@ npx skills add kostja94/marketing-skills -a openclaw --skill robots-txt title-ta
 | **Bolt.new** | Browser-based; no project file structure. Paste skill markdown as context | [Bolt.new](https://bolt.new) |
 | **Medo** | Paste skill content into dialogue | [medo.dev](https://medo.dev) |
 
-**Approach**: Create a product-specific directory (e.g. `.lovable/`); copy [project-context.md](../templates/project-context.md) and fill it in; copy skill files from `skills/*/SKILL.md`; adapt path references (e.g. `.cursor/project-context.md` → `.lovable/project-context.md`).
+**Approach**: Copy the relevant skill files from `skills/*/SKILL.md`. For durable context, install [Contextus](https://github.com/kostja94/contextus) and keep root `contextus.md`; otherwise provide project material or facts in the task. Do not create a platform-specific parallel context format.
 
 ---
 
@@ -129,7 +129,7 @@ Skills are **plain markdown**. Use them with any LLM that accepts text input.
 
 **Example prompt**: Paste title-tag or meta-description skill content, then: "Using these guidelines, optimize the meta title and description for my homepage. Product: [brief description]. Target keyword: [keyword]."
 
-**Tips**: Paste project-context before the skill for tailored output; paste most relevant sections if token limits apply.
+**Tips**: Provide the task-relevant Contextus modules or equivalent project facts before the skill; omit unrelated modules when token limits apply.
 
 ---
 
@@ -137,8 +137,8 @@ Skills are **plain markdown**. Use them with any LLM that accepts text input.
 
 | Original | Replace with |
 |----------|--------------|
-| `.cursor/project-context.md` | `.lovable/project-context.md` (or your path) |
-| `.claude/project-context.md` | Same as above |
+| `contextus.md` | Keep at the project root across supported platforms |
+| Legacy `project-context.md` paths | Read-only fallback; migrate durable maintenance to `contextus.md` |
 | `.cursor/project-task-tracker.md` | `.lovable/project-task-tracker.md` (optional) |
 | `.cursor/skills/` | `.agents/skills/`, `.claude/skills/`, `./skills` (OpenClaw), `~/.openclaw/skills/`, or platform-specific dir |
 

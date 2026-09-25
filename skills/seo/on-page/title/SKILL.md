@@ -32,7 +32,7 @@ Google truncates by **pixel width** (~580–600px desktop), not character count.
 
 ## Initial Assessment
 
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for brand voice and target keywords.
+**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
 
 Identify:
 1. **Page type**: Homepage, landing, blog, product, etc.

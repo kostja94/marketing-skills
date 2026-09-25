@@ -23,7 +23,7 @@ npx skills add kostja94/marketing-skills
 npx skills add kostja94/marketing-skills --list
 ```
 
-**Context** (required for tailored output): Add the product, audience, brand, and constraints before running a task. [Set up project context](#project-context)
+**Context** (required for tailored output): [Contextus](https://github.com/kostja94/contextus) is the maintained source of product and project truth. Without it, provide sufficient project material or facts in the conversation. [Project context](#project-context)
 
 **Note**: CLI installs skills only (flat layout), not `templates/` or `docs/`. Need templates? Use [Clone + copy](#installation) below.
 
@@ -91,16 +91,20 @@ Ask your agent - it picks the right skill. Examples:
 
 ## Project Context
 
-**Without context, outputs stay generic.** Add `project-context.md` for product, audience, brand - skills read it automatically.
+**Without context, outputs stay generic.** [Contextus](https://github.com/kostja94/contextus) is the single source of truth for durable organization, product, audience, marketing, brand, website, technical, decision, and change context. Its standard project entry is root `contextus.md`.
+
+Marketing Skills consumes task-relevant Contextus modules but does not create, update, archive, or version another project-context format. Marketing methods remain in this repository; project-specific keyword research, competitors, content strategy, and marketing decisions belong in Contextus.
+
+Contextus is not a runtime requirement. Without it, skills use available project documents or user-provided facts, ask for missing information, and complete the task without creating a parallel context system. Existing legacy `project-context.md` files remain readable as fallback material.
 
 | Context | Purpose |
 |---------|---------|
-| **project-context.md** | Product, audience, brand, keywords - skills read automatically |
-| **project-task-tracker.md** | Task status, priority - agent suggests next steps |
-| **Project rules** (`.cursor/rules/`) | Code style, conventions |
+| **contextus.md** | Canonical project-context entry and module map |
+| **project-task-tracker.md** | Optional task status and priority; not a context store |
+| **Project rules** (`.cursor/rules/`) | Code style and execution conventions |
 | **AGENTS.md** | Project instructions |
 
-**Start with**: Overview, 1-4, 8. Add 5-7 as you have them. Update regularly - stale context degrades quality. [Templates](templates/README.md) | [skill-authoring S8](docs/skill-authoring.md#8-customization)
+Install Contextus with `npx skills add kostja94/contextus --skill contextus`. The deprecated [project-context compatibility entry](templates/project-context.md) contains no maintained context schema.
 
 ---
 
@@ -170,7 +174,7 @@ All skills are pure Markdown - no executable code. Scope limited to SEO, content
 | [usage](docs/usage.md) | Platforms, install, use cases, roadmap |
 | [skills-reference](docs/skills-reference.md) | Full skill list, page taxonomy, dependency trees |
 | [skill-authoring](docs/skill-authoring.md) | Rules, specs, authoring |
-| [templates](templates/README.md) | project-context | project-task-tracker |
+| [templates](templates/README.md) | Contextus compatibility entry | project-task-tracker |
 | [CONTRIBUTING](CONTRIBUTING.md) | How to contribute |
 
 **Ecosystem**: [Agent Skills Specification](https://agentskills.io/specification) | [skills.sh](https://skills.sh) | [Vercel skills CLI](https://github.com/vercel-labs/skills)

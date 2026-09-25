@@ -13,7 +13,7 @@ Guides keyword research for SEO: finding target keywords, assessing difficulty, 
 
 ## Initial Assessment
 
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, audience, and positioning.
+**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
 
 Identify:
 1. **Product/service**: What you offer
@@ -155,7 +155,7 @@ Keyword research serves both SEO and Google Ads. Align both channels to avoid du
 ## Report Workflow
 
 1. **Parse** — Read Excel/CSV, infer keyword, volume, KD, intent, etc. from headers
-2. **Enrich** — Web search, visit competitor/product pages; read `project-context.md` if present
+2. **Enrich** — Web search, visit competitor/product pages; read root `contextus.md` if present
 3. **Build** — Structure data for report
 4. **Generate** — Output report in chosen format
 

@@ -17,6 +17,17 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [2026-09-25] v2.6.0
+
+### Changed
+
+- **Project context integration** - Made [Contextus](https://github.com/kostja94/contextus) the single source of truth for durable project context while preserving no-Contextus task execution.
+- **Context-aware skills** - Replaced platform-specific paths and numbered template sections with semantic root `contextus.md` discovery.
+
+### Removed
+
+- **project-context template** - Replaced the duplicated full schema with a deprecated compatibility entry that contains no maintained context rules.
+
 ## [2026-09-25] v2.5.0
 
 ### Changed

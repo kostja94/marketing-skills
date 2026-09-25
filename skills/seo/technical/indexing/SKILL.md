@@ -18,7 +18,7 @@ Guides indexing troubleshooting and fix actions. For how to find and diagnose is
 
 ## Initial Assessment
 
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for site URL and indexing goals.
+**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
 
 Identify issue from GSC (see **google-search-console** for Coverage report, issue types, diagnosis workflow). Then apply fix below.
 

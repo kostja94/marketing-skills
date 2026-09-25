@@ -16,7 +16,7 @@ Guides visual identity for consistent brand presentation. Companies with consist
 
 ## Initial Assessment
 
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read Section 12 (Visual Identity) for colors, typography, spacing. See **branding** for brand strategy and visual identity strategy layer.
+**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
 
 Identify:
 1. **Scope**: New brand, audit, or component design
@@ -143,9 +143,9 @@ For AI/SaaS products, consider these visual trends and brand archetypes; adopt, 
 | **Bold Builders** | Groundbreaking, transformative | Dark palettes, space references |
 | **Utopian Dreamers** | What becomes possible | Retrofuturistic, surreal worlds |
 
-## Product Marketing Context (Section 12)
+## Return Visual Identity Context
 
-When creating or updating `.cursor/project-context.md`, add:
+When returning confirmed visual identity context through Contextus, include:
 
 ```markdown
 ## 12. Visual Identity (Optional)
@@ -187,7 +187,7 @@ Ensure consistency across touchpoints. Include:
 - **Frontend aesthetics** (optional): Motion, spatial composition, backgrounds—for distinctive implementation
 - **Anti-patterns** and accessibility checklist
 - **AI products** (optional): Visual trend and archetype alignment
-- **Context template** for project-context Section 12
+- **Contextus** for maintained project-specific visual identity
 - **Slides/documents** (when requested): theme mapping + master typography + chart accent order
 
 ## Related Skills

@@ -13,7 +13,7 @@ Guides pricing strategy and structure for SaaS, tools, and products. Covers pric
 
 ## Initial Assessment
 
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, value proposition, and competitors.
+**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
 
 Identify:
 1. **Product type**: SaaS, tool, e-commerce

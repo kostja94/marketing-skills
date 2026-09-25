@@ -48,7 +48,7 @@ Guides competitor research for SEO, content, backlinks, and positioning. Use whe
 
 When analyzing or auditing a single article, use this lightweight workflow to obtain competitor articles:
 
-1. **Obtain URLs**: From user, project-context Section 11, or web search for `"[target keyword]"` to find top-ranking pages
+1. **Obtain URLs**: From the user, relevant Contextus competitor or content modules, or web search for `"[target keyword]"` to find top-ranking pages
 2. **Fetch content**: Use mcp_web_fetch or WebSearch to fetch 2–3 top-ranking pages
 3. **Analyze**: Word count, H2 structure, keyword placement, content gaps, CTA, schema
 4. **Output**: Competitor URLs, brief structure comparison, content gaps, length target, keyword opportunities
@@ -88,7 +88,7 @@ See **pricing-strategy**, **alternatives-page-generator**.
 ## Report Workflow
 
 1. **Parse** — Read Excel/CSV, infer domain, visits, traffic sources, etc. from headers
-2. **Enrich** — Web search, visit competitor sites; read `project-context.md` if present
+2. **Enrich** — Web search, visit competitor sites; read root `contextus.md` if present
 3. **Build** — Structure data for report
 4. **Generate** — Output report in chosen format
 

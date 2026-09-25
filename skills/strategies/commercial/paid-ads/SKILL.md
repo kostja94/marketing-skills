@@ -15,7 +15,7 @@ Guides paid ads strategy: when to use paid acquisition, channel selection, budge
 
 ## Before Starting
 
-**Check for project context first:** If `.agents/project-context.md` or `.claude/project-context.md` exists, read it before asking questions.
+**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
 
 Gather this context (ask if not provided):
 

@@ -11,7 +11,7 @@ Guides programmatic SEO—creating large numbers of SEO-optimized pages automati
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
-**Project context**: If `.claude/project-context.md` or `.cursor/project-context.md` exists, read product/ICP sections before proposing playbooks or page types.
+**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
 
 ## Definition
 

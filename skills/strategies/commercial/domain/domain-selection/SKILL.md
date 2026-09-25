@@ -15,7 +15,7 @@ Guides initial domain choice for a single site: Brand vs Partial Match vs Exact 
 
 ## Initial Assessment
 
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read Sections 2 (Positioning), 3 (Target Audience), 8 (Brand & Voice).
+**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
 
 Identify:
 1. **Product type**: Tool, content, e-commerce, AI product, etc.

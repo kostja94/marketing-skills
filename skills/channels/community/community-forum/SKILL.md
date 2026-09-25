@@ -13,7 +13,7 @@ Guides forum promotion, community invitation, and vertical community marketing. 
 
 ## Initial Assessment
 
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product, audience, and brand voice.
+**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
 
 Identify:
 1. **Goal**: Leads, community growth, brand awareness

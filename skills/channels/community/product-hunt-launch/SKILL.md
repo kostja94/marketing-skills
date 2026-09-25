@@ -13,7 +13,7 @@ Guides preparing and executing a Product Hunt launch. Product Hunt is a communit
 
 ## Initial Assessment
 
-**Read project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, use Sections 1–4, 5, 6, 8, 9 for submission content.
+**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
 
 Identify:
 1. **Product type**: SaaS, AI tool, app, Chrome extension

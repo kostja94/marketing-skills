@@ -23,7 +23,7 @@ npx skills add kostja94/marketing-skills
 npx skills add kostja94/marketing-skills --list
 ```
 
-**Context** (required for tailored output): Copy [project-context.md](templates/project-context.md) to `.cursor/` or `.claude/` and fill in. [Templates](templates/README.md) | [Project Task Tracker](templates/project-task-tracker.md)
+**Context** (required for tailored output): Add the product, audience, brand, and constraints before running a task. [Set up project context](#project-context)
 
 **Note**: CLI installs skills only (flat layout), not `templates/` or `docs/`. Need templates? Use [Clone + copy](#installation) below.
 
@@ -106,7 +106,7 @@ Ask your agent - it picks the right skill. Examples:
 
 ## Skills Overview
 
-**160+ skills** in 9 categories. [Full list](docs/skills-reference.md) | `npx skills add kostja94/marketing-skills --list`
+**170+ skills** in 9 categories. [Full list](docs/skills-reference.md) | `npx skills add kostja94/marketing-skills --list`
 
 | Category | Scope |
 |----------|-------|
@@ -154,16 +154,6 @@ Ask your agent - it picks the right skill. Examples:
 | influencer | referral|                  | paid-ads | branding     |                   | tracking | GSC      |
 +---------------------+                   +-------------------------+                   +---------------------+
 ```
-
----
-
-## Tips
-
-| Tip | Action |
-|-----|--------|
-| **Project Context** | Add `project-context.md` for tailored output |
-| **Skip intro** | "skip intro" or "just do it" -> go straight to Action |
-| **Related Skills** | Each skill has Related Skills for dependencies |
 
 ---
 

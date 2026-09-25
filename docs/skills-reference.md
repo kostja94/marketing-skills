@@ -139,34 +139,35 @@ Paths: `skills/pages/{brand,content,marketing,legal,utility}/`. **Full taxonomy 
 
 ### Components
 
-Paths: `skills/components/{navigation,conversion,branding,content,layout,utility}/`.
+Component construction is maintained in [Bricks](https://github.com/kostja94/bricks), the component layer for AI agents. The 22 component paths below are compatibility entries that link directly to their corresponding Bricks references and install `component-builder`; they no longer contain component rules.
 
 | Skill | Description |
 |-------|-------------|
-| [navigation-menu-generator](../skills/components/navigation/navigation-menu/) | Navigation menu design, SEO, UX, accessibility |
-| [breadcrumb-generator](../skills/components/navigation/breadcrumb/) | Breadcrumb navigation, BreadcrumbList schema |
-| [footer-generator](../skills/components/navigation/footer/) | Footer design, links, SEO, newsletter placement |
-| [sidebar-generator](../skills/components/navigation/sidebar/) | Sidebar for blogs, docs; nav, CTA, related content |
-| [toc-generator](../skills/components/navigation/toc/) | Table of contents for long-form content |
-| [cta-generator](../skills/components/conversion/cta/) | Call-to-action button design |
-| [popup-generator](../skills/components/conversion/popup/) | Popup, modal, lightbox; lead capture, offers |
-| [newsletter-signup-generator](../skills/components/conversion/newsletter-signup/) | Newsletter signup form |
-| [trust-badges-generator](../skills/components/conversion/trust-badges/) | Trust badges, "Trusted by" logos |
-| [testimonials-generator](../skills/components/conversion/testimonials/) | Testimonials, reviews, customer quotes |
-| [logo-generator](../skills/components/branding/logo/) | Logo placement, linking, brand recall |
-| [favicon-generator](../skills/components/branding/favicon/) | Favicon, app icons, PWA icons |
-| [brand-visual-generator](../skills/components/branding/brand-visual/) | Visual identity, typography, colors, spacing |
-| [hero-generator](../skills/components/branding/hero/) | Hero section design, conversion |
-| [tab-accordion](../skills/components/content/tab-accordion/) | Tab and accordion components; expandable content; SEO for hidden content |
-| [howto-section-generator](../skills/components/content/howto-section/) | HowTo section block: ordered steps, HowTo JSON-LD; embed in article, doc, tool, or LP pages (not a page template) |
-| [card](../skills/components/layout/card/) | Card layout; product, template, tool, feature, gallery cards |
-| [grid](../skills/components/layout/grid/) | Grid layout; equal-hierarchy, multi-column |
-| [list](../skills/components/layout/list/) | List layout; linear, stacked; blog index, docs |
-| [masonry](../skills/components/layout/masonry/) | Masonry layout; varying heights; gallery, portfolio |
-| [carousel](../skills/components/layout/carousel/) | Carousel/slider layout; testimonials, logos; accessibility |
-| [top-banner-generator](../skills/components/utility/top-banner/) | Announcement bar, sticky banner, promo bar |
-| [social-share-generator](../skills/components/utility/social-share/) | Share buttons (X, LinkedIn, Facebook), placement |
-| [url-slug-generator](../skills/components/utility/url-slug/) | URL slug creation for content; 3–5 words, SEO-friendly |
+| [navigation-menu-generator](../skills/components/navigation/navigation-menu/) | Moved to Bricks: Navigation Menu |
+| [breadcrumb-generator](../skills/components/navigation/breadcrumb/) | Moved to Bricks: Breadcrumb |
+| [footer-generator](../skills/components/navigation/footer/) | Moved to Bricks: Footer |
+| [sidebar-generator](../skills/components/navigation/sidebar/) | Moved to Bricks: Sidebar |
+| [toc-generator](../skills/components/navigation/toc/) | Moved to Bricks: Table of Contents |
+| [cta-generator](../skills/components/conversion/cta/) | Moved to Bricks: Call to Action |
+| [popup-generator](../skills/components/conversion/popup/) | Moved to Bricks: Modal |
+| [newsletter-signup-generator](../skills/components/conversion/newsletter-signup/) | Moved to Bricks: Newsletter Signup |
+| [trust-badges-generator](../skills/components/conversion/trust-badges/) | Moved to Bricks: Trust Signals |
+| [testimonials-generator](../skills/components/conversion/testimonials/) | Moved to Bricks: Testimonials |
+| [logo-generator](../skills/components/branding/logo/) | Moved to Bricks: Logo |
+| [hero-generator](../skills/components/branding/hero/) | Moved to Bricks: Hero |
+| [comparison-table-generator](../skills/components/content/comparison-table/) | Moved to Bricks: Comparison Table |
+| [tab-accordion](../skills/components/content/tab-accordion/) | Moved to Bricks: Tabs and Accordion |
+| [howto-section-generator](../skills/components/content/howto-section/) | Moved to Bricks: How-to Section |
+| [card](../skills/components/layout/card/) | Moved to Bricks: Card |
+| [grid](../skills/components/layout/grid/) | Moved to Bricks: Grid |
+| [list](../skills/components/layout/list/) | Moved to Bricks: List |
+| [masonry](../skills/components/layout/masonry/) | Moved to Bricks: Masonry |
+| [carousel](../skills/components/layout/carousel/) | Moved to Bricks: Carousel |
+| [top-banner-generator](../skills/components/utility/top-banner/) | Moved to Bricks: Top Banner |
+| [social-share-generator](../skills/components/utility/social-share/) | Moved to Bricks: Social Share |
+| [brand-visual-generator](../skills/components/branding/brand-visual/) | Maintained here as branding and design-system guidance, not a component |
+| [favicon-generator](../skills/components/branding/favicon/) | Maintained here as a brand and technical-SEO asset, not a component |
+| [url-slug-generator](../skills/components/utility/url-slug/) | Maintained here as URL and on-page SEO guidance, not a component |
 
 ### Channels, Platforms, Strategies, Analytics
 

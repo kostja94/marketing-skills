@@ -1,76 +1,17 @@
 ---
 name: popup-generator
-description: When the user wants to add, optimize, or audit popups or modals for lead capture or offers. Also use when the user mentions "popup," "modal," "lightbox," "overlay," "exit-intent," "popup form," "modal design," "lead popup," "popup timing," or "popup triggers." For CRO, use conversion-optimization.
+description: Deprecated compatibility entry for Modal construction. This component is now maintained in Bricks; install and use component-builder to build a new Modal.
 metadata:
-  version: 1.0.1
+  status: moved
+  successor: kostja94/bricks/component-builder
 ---
 
-# Components: Popup / Modal
+# Modal construction has moved
 
-Guides popup and modal design for conversion. Well-designed popups can achieve up to 25% conversion; poorly timed or intrusive ones hurt UX and SEO. Google penalizes intrusive mobile popups.
+Modal construction is now maintained in the [Modal reference](https://github.com/kostja94/bricks/blob/main/skills/component-builder/references/components/modal.md) in [Bricks](https://github.com/kostja94/bricks), the component layer for AI agents.
 
-**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+```bash
+npx skills add kostja94/bricks --skill component-builder
+```
 
-## Initial Assessment
-
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for offers and audience.
-
-Identify:
-1. **Goal**: Newsletter, discount, lead magnet, demo
-2. **Trigger**: Time delay, scroll %, exit intent, click
-3. **Mobile**: Critical; smaller screens = easier to interrupt
-
-## Best Practices
-
-### Timing and Context
-
-- **Avoid**: Popup on page load; users hate it
-- **Prefer**: After engagement (scroll 25-50%, time on page, exit intent)
-- **Personalize**: Returning visitors, cart abandoners, discount users
-- **Value-first**: Offer genuine value; act as "helpful teammate" not spam
-
-### Design
-
-- **Short copy**: Clear headline, one benefit, single CTA
-- **Visual hierarchy**: Guide attention to CTA; don't distract
-- **Easy exit**: Clear X, visible "No Thanks"; friction-free exit increases trust and conversion
-- **Brand consistency**: Build instant comfort
-
-### Mobile
-
-- **Size**: Fit screen; thumb-friendly close
-- **Lightweight**: Avoid heavy assets; affects LCP
-- **SEO**: Google penalizes intrusive interstitials; avoid full-page takeover on mobile
-
-### Avoid
-
-- Dark patterns (fake close, hidden options)
-- Too early or too frequent
-- Multiple popups in one session
-- Blocking content without clear value
-
-## Triggers
-
-| Trigger | Use |
-|---------|-----|
-| **Time delay** | 5-15s typical; after some engagement |
-| **Scroll %** | 25-50% read; user invested |
-| **Exit intent** | Mouse leaving viewport; last chance |
-| **Click** | User-initiated; least intrusive |
-
-## Output Format
-
-- **Offer** and copy
-- **Trigger** (timing, scroll, exit intent)
-- **Design** (size, CTA, exit)
-- **Mobile** checklist
-
-## Related Skills
-
-- **signup-login-page-generator**: Full account signup → dedicated page preferred; popup for lightweight capture
-- **landing-page-generator**: Lead capture popups on landing pages; popup as alternative to full-page form
-- **newsletter-signup-generator**: Popup often contains signup form
-- **cta-generator**: Popup CTA design
-- **top-banner-generator**: Alternative to popup; less intrusive for announcements
-- **sidebar-generator**: Alternative for CTAs; in-content often converts better
-- **brand-visual-generator**: Popup styling
+Ask the agent to use component-builder to build a new Modal. This compatibility entry contains no component rules and is no longer maintained.

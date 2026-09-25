@@ -1,84 +1,17 @@
 ---
 name: cta-generator
-description: When the user wants to design, optimize, or audit call-to-action (CTA) buttons. Also use when the user mentions "CTA," "call to action," "button design," "conversion button," "primary action," "CTA copy," "button text," "CTA placement," "conversion CTA," or "action button." For landing pages, use landing-page-generator.
+description: Deprecated compatibility entry for Call to Action construction. This component is now maintained in Bricks; install and use component-builder to build a new Call to Action.
 metadata:
-  version: 1.1.1
+  status: moved
+  successor: kostja94/bricks/component-builder
 ---
 
-# Components: Call-to-Action (CTA)
+# Call to Action construction has moved
 
-Guides CTA button design for conversion. A well-designed CTA can increase conversion by 25–10%.
+Call to Action construction is now maintained in the [Call to Action reference](https://github.com/kostja94/bricks/blob/main/skills/component-builder/references/components/cta.md) in [Bricks](https://github.com/kostja94/bricks), the component layer for AI agents.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+```bash
+npx skills add kostja94/bricks --skill component-builder
+```
 
-## Initial Assessment
-
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for conversion goals.
-
-Identify:
-1. **Context**: Hero, form, pricing, product page
-2. **User stage**: Awareness, consideration, decision
-3. **Primary action**: Sign up, buy, trial, download
-
-## Design Principles
-
-### Visual Clarity
-
-- **Look like buttons**: Background, border, corner radius, shadow
-- **Stand out**: Contrasting color; clear hierarchy
-- **Size**: ≥48×48px for touch; minimum 48px wide
-
-### Hierarchy
-
-- **Primary CTA**: One per section; impossible to miss
-- **Secondary CTA**: Lower priority; visually distinct
-- **Avoid**: Multiple competing CTAs causing choice overload
-
-### Color & Shape
-
-- **Color**: High contrast; red/orange for urgency
-- **Shape**: Rounded = friendly; angled = dynamic
-- **Accessibility**: →.5:1 contrast for text
-
-## Copy Best Practices
-
-- **Action-oriented**: "Buy," "Sign up," "Subscribe," "Get started"
-- **Loss aversion**: "Claim Your Discount Before It's Gone" vs "Get 10% Off"; see **discount-marketing-strategy** for discount campaign design
-- **Clear, no ambiguity**: User knows exactly what happens
-- **Scarcity/urgency**: When appropriate; avoid overuse
-
-## Placement
-
-- **Above the fold** for primary actions
-- **After value proposition**; build value before CTA
-- **Near trust signals** (testimonials, badges)
-- **Sticky/fixed** for long pages (use sparingly)
-
-## Technical
-
-- **Semantic HTML**: `<button>` or `<a>` with `role="button"` when needed
-- **Visible focus state** for keyboard users
-- **Loading state** for async actions: disable button during async operations; show spinner or loading text; prevent double-submit
-- **cursor-pointer**: Add `cursor-pointer` to all clickable CTAs; default cursor on interactive elements is poor UX
-- **aria-label**: Use `aria-label` for icon-only buttons (e.g., close, search); screen readers need descriptive labels
-- **Hover stability**: Use color/opacity transitions (150–300ms); avoid scale transforms that shift layout
-
-## Testing
-
-- A/B test: color, copy, placement, size
-- Measure: click-through rate, conversion rate
-
-## Output Format
-
-- **CTA copy** suggestions
-- **Design** notes (color, size, hierarchy)
-- **Placement** recommendations
-- **Accessibility** checklist (cursor-pointer, aria-label, focus, loading state)
-
-## Related Skills
-
-- **hero-generator**: Hero typically contains primary CTA
-- **landing-page-generator**: CTA is step 5 of landing page flow; single-goal pages
-- **testimonials-generator**: Testimonials near CTAs boost conversion
-- **trust-badges-generator**: Badges near CTAs increase trust
-- **pricing-page-generator**: CTA on pricing pages (e.g., "Start free trial")
+Ask the agent to use component-builder to build a new Call to Action. This compatibility entry contains no component rules and is no longer maintained.

@@ -17,6 +17,16 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [2026-09-25] v2.4.0
+
+### Changed
+
+- **Component construction** - Moved 22 interface component capabilities to [Bricks](https://github.com/kostja94/bricks); former component skills now provide one-to-one compatibility links to their Bricks references.
+- **brand-visual-generator, favicon-generator, url-slug-generator** - Retained in Marketing Skills because they are branding, asset, and URL/SEO capabilities rather than interface components.
+- **README and skills reference** - Updated component ownership, compatibility status, and Bricks installation guidance.
+
+---
+
 ## [2026-06-08] v2.3.22
 
 ### Changed

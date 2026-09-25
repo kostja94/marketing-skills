@@ -1,87 +1,17 @@
 ---
 name: newsletter-signup-generator
-description: When the user wants to design, optimize, or audit newsletter signup forms. Also use when the user mentions "newsletter," "email signup," "subscribe form," "email capture," "lead magnet," "newsletter form," "email opt-in," "subscribe CTA," "newsletter signup," or "email list building." For email strategy, use email-marketing.
+description: Deprecated compatibility entry for Newsletter Signup construction. This component is now maintained in Bricks; install and use component-builder to build a new Newsletter Signup.
 metadata:
-  version: 1.0.1
+  status: moved
+  successor: kostja94/bricks/component-builder
 ---
 
-# Components: Newsletter Signup
+# Newsletter Signup construction has moved
 
-Guides newsletter signup form design for list growth. Email subscribers spend 138% more than non-subscribers; top popups convert at 23%+.
+Newsletter Signup construction is now maintained in the [Newsletter Signup reference](https://github.com/kostja94/bricks/blob/main/skills/component-builder/references/components/newsletter-signup.md) in [Bricks](https://github.com/kostja94/bricks), the component layer for AI agents.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+```bash
+npx skills add kostja94/bricks --skill component-builder
+```
 
-## Initial Assessment
-
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for audience and value proposition.
-
-Identify:
-1. **Placement**: Header, footer, popup, inline, sidebar
-2. **Incentive**: What subscribers receive
-3. **Platform**: Web, mobile, both
-
-## Form Design
-
-### Minimal Fields
-
-- **Email only** when possible; highest conversion
-- Add name only if needed for personalization
-- Wrong number of fields significantly impacts conversion
-
-### Value Proposition
-
-- Clear: what subscribers receive, how often
-- Transparent: avoid disappointing subscribers
-- Incentive: lead magnet, discount, exclusive content
-
-### Visual Design
-
-- Clearly clickable submit button
-- Mobile-first; responsive layout
-- Appropriate input types (e.g., `type="email"` for mobile keyboards)
-- Trust marks or security indicators
-
-## Placement
-
-| Placement | Best For | Pros | Cons |
-|-----------|----------|------|------|
-| **Header** | High visibility | Always visible | Limited space |
-| **Footer** | Secondary capture | Non-intrusive | Lower visibility |
-| **Footer bar** | Persistent | Sticky | Can annoy |
-| **Popup** | High intent | High conversion | Intrusive |
-| **Inline** | Content pages | Contextual | Depends on scroll |
-
-- Avoid hiding forms behind unclicked buttons/links
-- Don't place competing forms nearby
-
-## Accessibility
-
-| Requirement | Practice |
-|-------------|----------|
-| **Labels** | `<label>` for each input; `for`/`id` association |
-| **Placeholders** | Don't replace labels; supplement only |
-| **Error messages** | Clear, associated with field |
-| **Keyboard** | Full tab order; submit via Enter |
-| **Touch targets** | ≥44×44px for submit button |
-
-## Technical
-
-- **Validation**: Client-side; server-side required
-- **Privacy**: Link to privacy policy; GDPR/CCPA compliance
-- **Double opt-in**: When required by jurisdiction or best practice
-
-## Output Format
-
-- **Form structure** (fields, copy)
-- **Placement** recommendation
-- **Value proposition** suggestions
-- **Accessibility** checklist
-
-## Related Skills
-
-- **signup-login-page-generator**: Full account signup; form design principles apply
-- **landing-page-generator**: Lead capture landing page contains signup form; LP exchanges value for email
-- **email-marketing**: Full email marketing strategy; EDM, newsletter, deliverability, content types
-- **footer-generator**: Footer often hosts signup forms
-- **cta-generator**: Submit button is a CTA
-- **trust-badges-generator**: Trust marks near form
+Ask the agent to use component-builder to build a new Newsletter Signup. This compatibility entry contains no component rules and is no longer maintained.

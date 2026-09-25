@@ -1,83 +1,17 @@
 ---
 name: trust-badges-generator
-description: When the user wants to add or optimize trust badges, "Trusted by" logos, security seals, or social proof elements. Also use when the user mentions "trust badges," "trusted by," "security badges," "payment logos," "social proof," "trust seals," "SSL badge," "customer logos," "as seen in," or "trust signals." For press logos, use press-coverage-page-generator.
+description: Deprecated compatibility entry for Trust Signals construction. This component is now maintained in Bricks; install and use component-builder to build a new Trust Signals.
 metadata:
-  version: 1.0.1
+  status: moved
+  successor: kostja94/bricks/component-builder
 ---
 
-# Components: Trust Badges
+# Trust Signals construction has moved
 
-Guides trust badge design and placement for conversion. Trust badges borrow authority from third-party organizations to signal legitimacy and reduce purchase anxiety.
+Trust Signals construction is now maintained in the [Trust Signals reference](https://github.com/kostja94/bricks/blob/main/skills/component-builder/references/components/trust-signals.md) in [Bricks](https://github.com/kostja94/bricks), the component layer for AI agents.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+```bash
+npx skills add kostja94/bricks --skill component-builder
+```
 
-## Initial Assessment
-
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for key partners and certifications.
-
-Identify:
-1. **Site type**: E-commerce, SaaS, lead gen
-2. **Available badges**: Security, payment, reviews, guarantees
-3. **Placement goals**: Hero, checkout, product pages
-
-## Badge Types & Impact
-
-| Type | Best Placement | Conversion Impact |
-|------|----------------|-------------------|
-| **Security** (SSL, Norton, McAfee) | Checkout, payment forms | +15–10% for unfamiliar brands |
-| **Payment logos** (Visa, PayPal, Stripe) | Checkout, cart | +8→2% trust |
-| **Money-back guarantee** | Product, checkout | +6–10% |
-| **Reviews/ratings** (Trustpilot, BBB) | Product, hero | +12→8% |
-| **Privacy/compliance** (GDPR, CCPA) | Forms, checkout | Data-sensitive transactions |
-
-**"Trusted by" logos**: Client/customer logos in hero or footer; social proof for B2B. **"As Seen In"** (press coverage): Publication logos; see **press-coverage-page-generator** for media mentions aggregation.
-
-## Best Practices
-
-### Quantity
-
-- **3→ badge types max**; more can cause "badge bloat" and reduce conversions by 5→%
-- Quality over quantity; use only legitimate, verifiable badges
-
-### Placement
-
-- **Highest leverage**: Cart and checkout (near payment fields)
-- **Product pages**: Near add-to-cart button
-- **Hero**: "Trusted by" logos for brand credibility
-- **Footer**: Secondary trust signals
-
-### Authenticity
-
-- Use only real, verifiable badges
-- Fake or irrelevant badges create skepticism
-- Link to verification where appropriate
-
-## Design Guidelines
-
-- Consistent size and style; don't mix clashing visuals
-- **Image optimization**: Alt text, format—see **image-optimization**
-- Adequate spacing; avoid clutter
-- Grayscale or muted for "Trusted by" logos (don't compete with primary content)
-- Ensure badges are recognizable at display size
-
-## Accessibility
-
-- Provide `alt` text for badge images (e.g., "Norton Secured")
-- Don't rely on badges alone for critical information
-
-## Output Format
-
-- **Badge recommendations** by type and placement
-- **Placement map** (hero, product, checkout)
-- **Quantity** guidance (avoid bloat)
-
-## Related Skills
-
-- **landing-page-generator**: Trust signals as step 2 (earn trust) in landing page flow
-- **hero-generator**: "Trusted by" often in hero
-- **testimonials-generator**: Complementary social proof
-- **cta-generator**: Badges near CTAs increase conversion
-- **pricing-page-generator**: Trust badges on pricing pages
-- **image-optimization**: Badge image optimization (alt, format)
-- **press-coverage-page-generator**: "As Seen In" publication logos; similar visual treatment; distinct (press = media coverage; trust-badges = security, payment, reviews)
-- **brand-protection**: "Official website" badges to distinguish from impersonation sites
+Ask the agent to use component-builder to build a new Trust Signals. This compatibility entry contains no component rules and is no longer maintained.

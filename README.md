@@ -114,7 +114,7 @@ Ask your agent - it picks the right skill. Examples:
 | **Content** | Copywriting, video, visual, translation |
 | **Paid Ads** | Strategy + 12 platforms (Google, Meta, LinkedIn, TikTok, etc.) |
 | **Pages** | 40+ types - brand, content, marketing, legal, utility; Features vs Use cases vs Solutions |
-| **Components** | Nav, breadcrumb, footer, hero, CTA, logo, testimonials, etc. |
+| **Components** | Compatibility entries only; 22 interface components moved to [Bricks](https://github.com/kostja94/bricks). Brand Visual, Favicon, and URL Slug remain here because they are not interface components. |
 | **Channels** | Affiliate, email, influencer, referral, directories, PR |
 | **Platforms** | X, Reddit, LinkedIn, TikTok, YouTube, Medium, GitHub, Grokipedia |
 | **Strategies** | launch | brand | commercial | structure (SEO, cold-start, GEO, branding, GTM, PMF, pricing, domain, etc.) |
@@ -148,9 +148,9 @@ Ask your agent - it picks the right skill. Examples:
          +---------------------------------------------+---------------------------------------------+
          v                                             v                                             v
 +---------------------+                   +-------------------------+                   +---------------------+
-| Channels            |                   | Platforms | Strategies   |                   | Components |        |
+| Channels            |                   | Platforms | Strategies   |                   | Bricks     |        |
 | affiliate | email | |                   | x | reddit | linkedin |   |                   | Analytics           |
-| directories | pr |  |                   | cold-start | GEO |       |                   | nav | hero | cta |  |
+| directories | pr |  |                   | cold-start | GEO |       |                   | component layer    |
 | influencer | referral|                  | paid-ads | branding     |                   | tracking | GSC      |
 +---------------------+                   +-------------------------+                   +---------------------+
 ```

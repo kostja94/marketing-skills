@@ -1,102 +1,17 @@
 ---
 name: toc-generator
-description: When the user wants to add, optimize, or audit table of contents (TOC) for long-form content. Also use when the user mentions "TOC," "table of contents," "table of contents for article," "article TOC," "jump links," "content outline," "article navigation," "in-page navigation," "add TOC to blog," or "TOC for long content." For article SEO template, use article-page-generator.
+description: Deprecated compatibility entry for Table of Contents construction. This component is now maintained in Bricks; install and use component-builder to build a new Table of Contents.
 metadata:
-  version: 1.0.1
+  status: moved
+  successor: kostja94/bricks/component-builder
 ---
 
-# Components: Table of Contents (TOC)
+# Table of Contents construction has moved
 
-Guides TOC implementation for long-form articles, guides, and whitepapers. TOCs improve UX and SEO by enabling quick navigation and reducing bounce rates.
+Table of Contents construction is now maintained in the [Table of Contents reference](https://github.com/kostja94/bricks/blob/main/skills/component-builder/references/components/table-of-contents.md) in [Bricks](https://github.com/kostja94/bricks), the component layer for AI agents.
 
-**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
-
-## Initial Assessment
-
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for content structure.
-
-Identify:
-1. **Content type**: Blog article, guide, whitepaper, documentation
-2. **Length**: TOC most valuable for 1000+ word content
-3. **Platform**: Web, mobile, both
-
-## Placement Strategies
-
-| Placement | Best For | Pros | Cons |
-|-----------|----------|------|------|
-| **After intro** | Most articles | Natural flow; visible early | Can scroll out of view |
-| **Floating sidebar** | Very long content | Always visible | More complex; mobile challenges |
-| **Collapsible** | Long articles | Less intrusive | May be overlooked |
-| **Top of article** | Mobile-first | Accessible on all devices | Takes space |
-
-## Technical Implementation
-
-### Heading Structure
-
-- One `<h1>` per page
-- `<h2>` for major sections
-- `<h3>` for subsections; avoid skipping levels
-- Headings >=15 characters for SEO
-
-### Jump Links
-
-- Assign unique IDs to headings (e.g., `id="keyword-optimization"`)
-- Use kebab-case for IDs
-- Link TOC entries via anchor tags (`#section-id`)
-- Descriptive anchor text; include target keywords naturally
-
-### Semantic HTML
-
-```html
-<nav aria-label="Table of contents">
-  <ol>
-    <li><a href="#section-1">Section Title</a></li>
-  </ol>
-</nav>
+```bash
+npx skills add kostja94/bricks --skill component-builder
 ```
 
-## SEO Best Practices
-
-| Practice | Purpose |
-|----------|---------|
-| **Schema.org TableOfContents** | Help search engines understand structure |
-| **Keywords in headings** | Natural integration; avoid stuffing |
-| **Jump links in SERP** | Google may feature TOC links; increases CTR; see **serp-features** |
-
-## UX Guidelines
-
-### Visibility & Interaction
-
-- Clear visual hierarchy; indent nested items
-- Highlight current section when scrolling (optional)
-- Smooth scroll behavior for jump links
-
-### Mobile
-
-- Minimum 16px font size
-- Touch targets >=44x44px
-- Responsive layout; consider collapsible on small screens
-
-### Accessibility
-
-| Requirement | Practice |
-|-------------|----------|
-| **ARIA** | `aria-label="Table of contents"` on nav |
-| **Keyboard** | All links keyboard-accessible |
-| **Screen readers** | Proper heading structure; TOC aids skimming |
-
-## Output Format
-
-- **TOC structure** (sections, nesting)
-- **Heading/ID mapping** suggestions
-- **HTML/ARIA** notes
-- **SEO** checklist
-
-## Related Skills
-
-- **tab-accordion**: Collapsible TOC uses same disclosure pattern; details/summary implementation
-- **heading-structure**: TOC built from heading structure
-- **content-optimization**: H2 structure, lists, tables for Featured Snippets
-- **featured-snippet**: Featured Snippet optimization; TOC supports snippet structure
-- **serp-features**: SERP features; jump links in results
-- **article-page-generator**: TOC common in long-form article pages
+Ask the agent to use component-builder to build a new Table of Contents. This compatibility entry contains no component rules and is no longer maintained.

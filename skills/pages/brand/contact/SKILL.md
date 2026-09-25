@@ -1,75 +1,17 @@
 ---
 name: contact-page-generator
-description: When the user wants to create, optimize, or audit contact page and forms. Also use when the user mentions "contact page," "contact form," "get in touch," "support form," "contact us," "reach us," "contact information," "support contact," or "inquiry form." For sitewide page planning, use website-structure.
+description: Deprecated compatibility entry for Contact Page construction. This page is now maintained in Pagina; install and use page-builder to build a new Contact Page.
 metadata:
-  version: 1.0.1
+  status: moved
+  successor: kostja94/pagina/page-builder
 ---
 
-# Pages: Contact
+# Contact Page construction has moved
 
-Guides contact page design and form optimization for conversions.
+Contact Page construction is now maintained in the [Contact Page reference](https://github.com/kostja94/pagina/blob/main/skills/page-builder/references/pages/contact.md) in [Pagina](https://github.com/kostja94/pagina), the page intelligence layer for AI agents.
 
-**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+```bash
+npx skills add kostja94/pagina --skill page-builder
+```
 
-## Initial Assessment
-
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for brand voice.
-
-Identify:
-1. **Contact types**: Sales, support, general, press
-2. **Form purpose**: Lead capture, support ticket, demo request
-3. **Alternative channels**: Email, phone, chat, social
-
-## Best Practices
-
-### Form Design
-
-| Principle | Guideline |
-|-----------|-----------|
-| **Short** | 3-5 fields for basic contact; long forms increase abandonment |
-| **Single column** | Vertical layout; works better on mobile |
-| **Logical grouping** | Name+email together; address fields together |
-| **Required fields** | Mark clearly (asterisk); avoid surprises |
-| **Progressive disclosure** | Show relevant fields based on selections |
-
-### Field Labels
-
-- **Clear language**: "Email Address" not "Email ID"
-- **Conversational**: Friendly, welcoming
-- **No jargon**: Universally understood terms
-
-### CTA Button
-
-- **Action verbs**: "Send Message," "Get in Touch," "Start a Conversation"
-- **Avoid generic**: "Submit" ? "Send Message"
-- **Stand out**: Contrasting color, clear hierarchy
-
-### Page-Level
-
-| Element | Guideline |
-|---------|-----------|
-| **Visibility** | "Contact" or "Support" in main nav, not just footer |
-| **Mobile** | Appropriate input types (tel for phone), large tap targets |
-| **Proofreading** | No typos--credibility at conversion moment |
-| **Alternatives** | Email, phone, chat if form isn't right |
-
-### Trust
-
-- **Response time**: "We reply within 24 hours"
-- **Privacy**: Link to privacy policy near form
-- **Security**: HTTPS, visible trust signals
-
-## Output Format
-
-- **Form** structure (fields, order)
-- **Copy** (labels, placeholder, CTA)
-- **Page** layout and placement
-- **SEO** metadata
-- **Accessibility** checklist
-
-## Related Skills
-
-- **landing-page-generator**: Lead capture LP contains contact form; demo request CTA destination
-- **about-page-generator**: Contact often linked from About
-- **legal-page-generator**: Privacy policy link near form
-- **title-tag, meta-description, page-metadata**: Contact page metadata
+Ask the agent to use page-builder to build a new Contact Page. This compatibility entry contains no page rules and is no longer maintained.

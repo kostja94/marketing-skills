@@ -100,11 +100,11 @@ The CLI supports **recursive discovery**; `SKILL.md` files in nested directories
 
 **Channels, Platforms (multi-use), Analytics**: Folder name = skill `name` field. Example: `affiliate-marketing/` -> `affiliate-marketing`; `github/` -> `github`.
 
-**Pages, Strategies**: Folder = base concept; skill name may add a suffix for function clarity. Folder and name may differ by design. New component construction belongs in [Bricks](https://github.com/kostja94/bricks), not this repository.
+**Strategies**: Folder = base concept; skill name may add a suffix for function clarity. Folder and name may differ by design. Page construction belongs in [Pagina](https://github.com/kostja94/pagina), and component construction belongs in [Bricks](https://github.com/kostja94/bricks); their folders here are compatibility entries only.
 
 | Category | Folder | Skill name | Rationale |
 |----------|--------|------------|-----------|
-| **Pages** | Page type (home, pricing, landing-page) | `[type]-page-generator` | `-page-generator` signals page output |
+| **Pages** | Compatibility path only | Existing `[type]-page-generator` names | New page skills belong in Pagina |
 | **Strategies** | Topic (geo, cold-start, indie-hacker) | `[topic]` or `[topic]-strategy` | Folder = subject; name = full strategy identifier |
 | **Channels** | = skill name | = folder | Full consistency |
 | **Platforms** | = skill name | = folder | Multi-use platforms (e.g. github) use platform name only |
@@ -141,7 +141,7 @@ description: A description of what this skill does and when to use it.
 
 | Category | Pattern | Example |
 |----------|---------|---------|
-| Pages | `[type]-page-generator` | pricing-page-generator, homepage-generator |
+| Pages | Compatibility names only | New page capabilities belong in Pagina |
 | SEO | Industry term (noun phrase) | schema-markup, title-tag, canonical-tag, link-building |
 | Channels | `[channel]-[noun]` | referral-program, affiliate-marketing, employee-generated-content |
 | Platforms | `[platform]-[suffix]` | twitter-x-posts, reddit-posts, tiktok-captions |

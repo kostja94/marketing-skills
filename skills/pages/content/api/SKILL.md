@@ -1,61 +1,17 @@
 ---
 name: api-page-generator
-description: 'When the user wants to create, optimize, or audit the API introduction/overview page. Also use when the user mentions "API page," "API landing page," "/api page," "API overview," "developer landing," "API marketing," or "API for developers." Note: API documentation (endpoint reference) lives in docs; use docs-page-generator.'
+description: Deprecated compatibility entry for API Page construction. This page is now maintained in Pagina; install and use page-builder to build a new API Page.
 metadata:
-  version: 1.0.1
+  status: moved
+  successor: kostja94/pagina/page-builder
 ---
 
-# Pages: API Introduction
+# API Page construction has moved
 
-Guides the API introduction page →typically at `/api` →that overviews the API, use cases, and links to documentation. API documentation (endpoint reference, code examples) lives on separate pages.
+API Page construction is now maintained in the [API Page reference](https://github.com/kostja94/pagina/blob/main/skills/page-builder/references/pages/product-interface.md) in [Pagina](https://github.com/kostja94/pagina), the page intelligence layer for AI agents.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+```bash
+npx skills add kostja94/pagina --skill page-builder
+```
 
-## Initial Assessment
-
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product and developer use cases.
-
-Identify:
-1. **API type**: REST, GraphQL, etc.
-2. **Audience**: Developers (integration) vs. decision makers (evaluation)
-3. **Docs location**: Where API documentation lives (e.g. `/docs`, `/api/reference`, external)
-
-## Page Role
-
-- **API page** (`/api`): Introduction, overview, value prop, CTA to docs or signup
-- **API documentation**: Lives in docs (docs.*) → API Reference section with endpoint reference, auth, examples
-
-## Best Practices
-
-### Overview and Structure
-
-- **What the API does**: Clear value proposition, key capabilities
-- **Use cases**: Who uses it, common scenarios
-- **Getting started**: Quick path to first call or docs
-- **Link to docs**: Prominent CTA to API documentation
-
-### Content
-
-- **Key concepts**: High-level, not endpoint-level detail
-- **Auth overview**: How auth works; link to docs for details
-- **Pricing/limits**: If relevant for evaluation
-- **SDKs and tools**: If available; link to docs
-
-### SEO and Discovery
-
-- **Developer search**: Target "API" + product/category terms
-- **Metadata**: Title, description for developer intent
-- **Internal links**: From homepage, features, resources
-
-## Output Format
-
-- **Structure** outline (sections)
-- **Value proposition** and key messages
-- **CTA** to documentation or signup
-- **SEO** metadata for developer search
-
-## Related Skills
-
-- **homepage-generator**: Link to API page for developers
-- **schema-markup**: WebPage or SoftwareApplication schema
-- **title-tag, meta-description, page-metadata**: API page metadata
+Ask the agent to use page-builder to build a new API Page. This compatibility entry contains no page rules and is no longer maintained.

@@ -152,13 +152,13 @@ Skills are **plain markdown**. Use them with any LLM that accepts text input.
 
 **Why this works**: One-click install; no need to learn SEO from scratch — the agent applies best practices when you ask.
 
-**Recommended skills subset**: Technical: `robots-txt`, `xml-sitemap`, `canonical-tag`, `indexing`; On-page: `title-tag`, `meta-description`, `open-graph`, `twitter-cards`, `schema-markup`, `heading-structure`; Pages: `homepage-generator`, `about-page-generator`, `contact-page-generator`, `blog-page-generator`; Components: `hero-generator`, `footer-generator`, `cta-generator`.
+**Recommended skills subset**: Technical: `robots-txt`, `xml-sitemap`, `canonical-tag`, `indexing`; On-page: `title-tag`, `meta-description`, `open-graph`, `twitter-cards`, `schema-markup`, `heading-structure`. Use [Pagina](https://github.com/kostja94/pagina) for pages and [Bricks](https://github.com/kostja94/bricks) for interface components; compatibility entries in this repository route existing skill names to those projects.
 
 ### 7.2 Product Website — SEO Growth with Frontend + Ops Split
 
 **Scenario**: A product website wants to drive SEO growth. Frontend uses optimization techniques; operations can build marketing pages independently via rewrite without depending on engineering.
 
-**Recommended skills subset**: Technical + on-page (frontend team); Pages (marketing): `pricing-page-generator`, `landing-page-generator`, `use-cases-page-generator`, `customer-stories-page-generator`, `alternatives-page-generator`, `integrations-page-generator`; Strategies: `seo-strategy`, `paid-ads-strategy`, `website-structure`.
+**Recommended skills subset**: Technical + on-page (frontend team); Strategies: `seo-strategy`, `paid-ads-strategy`, `website-structure`. Use [Pagina](https://github.com/kostja94/pagina) for page construction; former page skill names remain only as compatibility routes.
 
 ### 7.3 Vibe Coding Beginner — Learn SEO Standalone
 
@@ -166,7 +166,7 @@ Skills are **plain markdown**. Use them with any LLM that accepts text input.
 
 **Why this works**: Skills are markdown — install and read them as learning material. Use ChatGPT, Claude Web, or Gemini: paste a skill, ask questions, get explanations.
 
-**Recommended approach**: Start with `seo-strategy` for workflow overview; then technical: `robots-txt`, `xml-sitemap`, `title-tag`, `meta-description`; use [skill-authoring](skill-authoring.md) and [skills-reference §2](skills-reference.md#2-page-taxonomy) for structure.
+**Recommended approach**: Start with `seo-strategy` for workflow overview; then technical: `robots-txt`, `xml-sitemap`, `title-tag`, `meta-description`; use [skill-authoring](skill-authoring.md) for Marketing Skills structure and [Pagina](https://github.com/kostja94/pagina) for page construction.
 
 ### 7.4 Vibe Coding Product — Built-in Skills as Templates
 
@@ -183,7 +183,7 @@ Skills are **plain markdown**. Use them with any LLM that accepts text input.
 **How to start**:
 1. Fork [kostja94/marketing-skills](https://github.com/kostja94/marketing-skills)
 2. Read [skill-authoring](skill-authoring.md) for format and authoring rules
-3. Pick a skill similar to what you want (e.g. `pricing-page-generator` → your `custom-page-generator`)
+3. Pick an actively maintained marketing skill similar to what you want; page and component folders are compatibility entries, not authoring templates
 4. Copy, rename, edit — then install with `npx skills add your-username/your-fork`
 
 ### 7.6 Future — Non-Website Agents

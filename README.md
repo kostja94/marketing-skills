@@ -79,7 +79,7 @@ Ask your agent - it picks the right skill. Examples:
 | "Configure robots.txt" / "Audit sitemap" / "Fix canonical" | robots-txt, xml-sitemap, canonical-tag |
 | "Optimize title" / "Meta description" / "Schema markup" | title-tag, meta-description, schema-markup |
 | "Keyword research" / "Content strategy" / "Link building" | keyword-research, content-strategy, link-building |
-| "Create pricing page" / "Homepage" / "Landing page" / "FAQ" | pricing-page-generator, homepage-generator, landing-page-generator, faq-page-generator |
+| "Create pricing page" / "Homepage" / "Landing page" / "FAQ" | Compatibility entries route these requests to [Pagina](https://github.com/kostja94/pagina) |
 | "HowTo section" / "Step-by-step block" / "HowTo schema" | howto-section-generator, schema-markup |
 | "Cold start" / "Product Hunt" / "Directory submission" | cold-start-strategy, directory-submission |
 | "Indie hacker" / "PMF" / "Parasite SEO" / "GitHub SEO" | indie-hacker-strategy, pmf-strategy, parasite-seo, github |
@@ -113,7 +113,7 @@ Ask your agent - it picks the right skill. Examples:
 | **SEO** | Technical (robots, sitemap, canonical, crawlability), On-Page (title, meta, schema, heading), Content (keyword, content, competitor), Off-Page, Local, Tactics |
 | **Content** | Copywriting, video, visual, translation |
 | **Paid Ads** | Strategy + 12 platforms (Google, Meta, LinkedIn, TikTok, etc.) |
-| **Pages** | 40+ types - brand, content, marketing, legal, utility; Features vs Use cases vs Solutions |
+| **Pages** | Compatibility entries only; 40+ former page skills now route one-to-one to [Pagina](https://github.com/kostja94/pagina). |
 | **Components** | Compatibility entries only; 22 interface components moved to [Bricks](https://github.com/kostja94/bricks). Brand Visual, Favicon, and URL Slug remain here because they are not interface components. |
 | **Channels** | Affiliate, email, influencer, referral, directories, PR |
 | **Platforms** | X, Reddit, LinkedIn, TikTok, YouTube, Medium, GitHub, Grokipedia |
@@ -142,7 +142,7 @@ Ask your agent - it picks the right skill. Examples:
              +-----------------------------------+---------+
                                                 v
                     +-------------------------------------------------------------+
-                    |  Pages | Brand | Content | Marketing | Legal | Utility (40+) |
+                    |      Pagina: page intelligence for AI agents               |
                     +---------------------------------+-----------------------------+
                                                       |
          +---------------------------------------------+---------------------------------------------+

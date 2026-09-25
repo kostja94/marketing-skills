@@ -82,60 +82,15 @@ Paths: Content `skills/content/`. Paid Ads `skills/paid-ads/{platforms,formats}/
 
 Strategy (when to use, channel selection, budget) → [paid-ads-strategy](../skills/strategies/commercial/paid-ads/).
 
-### Pages — Quick Mapping
+### Pages — Compatibility Entries
 
-Paths: `skills/pages/{brand,content,marketing,legal,utility}/`. **Full taxonomy with Notes and Best Practices** → §2 below.
+Page construction is maintained in [Pagina](https://github.com/kostja94/pagina), the page intelligence layer for AI agents. The paths under `skills/pages/` remain only so existing installations and explicit skill names can route to the corresponding Pagina reference; they contain no page construction, optimization, or audit rules.
 
-| Purpose | Page | Skill | Intent | Funnel |
-|---------|------|-------|--------|--------|
-| Brand | Home | [homepage-generator](../skills/pages/brand/home/) | Navigational | Awareness |
-| Brand | About | [about-page-generator](../skills/pages/brand/about/) | Navigational | Awareness |
-| Brand | Contact | [contact-page-generator](../skills/pages/brand/contact/) | Navigational | Support |
-| SEO | Features | [features-page-generator](../skills/pages/content/features/) | Commercial | Consideration |
-| SEO | Tools | [tools-page-generator](../skills/pages/content/tools/) | Informational | Awareness |
-| SEO | Template page | [template-page-generator](../skills/pages/content/template-page/) | Commercial | Consideration |
-| SEO | Glossary | [glossary-page-generator](../skills/pages/content/glossary/) | Informational | Awareness |
-| SEO | Blog | [blog-page-generator](../skills/pages/content/blog/) | Informational | Awareness |
-| SEO | Article | [article-content](../skills/content/article/) (body) + [article-page-generator](../skills/pages/content/article/) (page) | Informational | Awareness |
-| SEO | Resources | [resources-page-generator](../skills/pages/content/resources/) | Informational | Awareness |
-| SEO | FAQ | [faq-page-generator](../skills/pages/content/faq/) | Informational | Consideration |
-| SEO | API | [api-page-generator](../skills/pages/content/api/) | Informational | Consideration |
-| SEO | Docs | [docs-page-generator](../skills/pages/content/docs/) | Informational | Awareness |
-| Marketing | Use cases | [use-cases-page-generator](../skills/pages/marketing/use-cases/) | Commercial | Consideration |
-| Marketing | Solutions | [solutions-page-generator](../skills/pages/marketing/solutions/) | Commercial | Consideration |
-| Marketing | Pricing | [pricing-page-generator](../skills/pages/marketing/pricing/) | Transactional | Decision |
-| Marketing | Products | [products-page-generator](../skills/pages/marketing/products/) | Transactional | Decision |
-| Marketing | Services | [services-page-generator](../skills/pages/marketing/services/) | Commercial | Consideration |
-| Marketing | Category pages | [category-page-generator](../skills/pages/marketing/category-pages/) | Commercial | Consideration |
-| Marketing | Customer stories | [customer-stories-page-generator](../skills/pages/marketing/customer-stories/) | Commercial | Consideration |
-| Marketing | Affiliate program | [affiliate-page-generator](../skills/pages/marketing/affiliate-program/) | Transactional | Decision |
-| Marketing | Landing page | [landing-page-generator](../skills/pages/marketing/landing-page/) | Transactional | Decision |
-| Marketing | Download | [download-page-generator](../skills/pages/marketing/download/) | Transactional | Decision |
-| Marketing | Media kit | [media-kit-page-generator](../skills/pages/marketing/media-kit/) | Commercial | Consideration |
-| Marketing | Press coverage | [press-coverage-page-generator](../skills/pages/marketing/press-coverage/) | Commercial | Consideration |
-| Marketing | Alternatives | [alternatives-page-generator](../skills/pages/marketing/alternatives/) | Commercial | Consideration |
-| Marketing | Integrations | [integrations-page-generator](../skills/pages/marketing/integrations/) | Commercial | Consideration |
-| Marketing | Migration | [migration-page-generator](../skills/pages/marketing/migration/) | Transactional | Decision |
-| Marketing | Showcase | [showcase-page-generator](../skills/pages/marketing/showcase/) | Commercial | Consideration |
-| Marketing | Contest | [contest-page-generator](../skills/pages/marketing/contest/) | Transactional | Decision |
-| Marketing | Startups | [startups-page-generator](../skills/pages/marketing/startups/) | Transactional | Decision |
-| Legal | Privacy | [privacy-page-generator](../skills/pages/legal/privacy/) | — | Support |
-| Legal | Terms | [terms-page-generator](../skills/pages/legal/terms/) | — | Support |
-| Legal | Cookie policy | [cookie-policy-page-generator](../skills/pages/legal/cookie-policy/) | — | Support |
-| Legal | Legal | [legal-page-generator](../skills/pages/legal/legal/) | — | Support |
-| Legal | Refund | [refund-page-generator](../skills/pages/legal/refund/) | — | Support |
-| Legal | Shipping | [shipping-page-generator](../skills/pages/legal/shipping/) | — | Support |
-| Utility | 404 | [404-page-generator](../skills/pages/utility/404/) | — | — |
-| Utility | Signup/Login | [signup-login-page-generator](../skills/pages/utility/signup-login/) | — | Functional |
-| Utility | Careers | [careers-page-generator](../skills/pages/utility/careers/) | Commercial | Consideration |
-| Utility | Changelog | [changelog-page-generator](../skills/pages/utility/changelog/) | Informational | Support |
-| Utility | Status | [status-page-generator](../skills/pages/utility/status/) | — | Support |
-| Utility | Feedback | [feedback-page-generator](../skills/pages/utility/feedback/) | — | Support |
-| Utility | Disclosure | [disclosure-page-generator](../skills/pages/utility/disclosure/) | — | Support |
+```bash
+npx skills add kostja94/pagina --skill page-builder
+```
 
-**Features vs Use cases vs Solutions**: Features = What (capabilities); Use cases = When/How (scenario, persona, business goal); Solutions = Outcome (industry, company size, team). See §2 and the skills for details.
-
-**Tools vs Features**: Tools = free utilities; lead gen; not primary monetization; same ICP; toolkit hub; programmatic SEO. Features = paid capabilities.
+Use Pagina's catalog for the maintained page taxonomy, page-to-component recommendations, route and localization guidance, and page-specific quality gates.
 
 ### Components
 
@@ -231,54 +186,14 @@ Paths: Channels `skills/channels/{partnerships,community,owned,distribution}/`. 
 
 ---
 
-## 2. Page Taxonomy
+## 2. Page Ownership
 
-Expanded page classification for navigation design, sitemaps, content strategy, and SEO.
+Pagina is the single maintenance source for page identities and page construction guidance. Marketing Skills owns marketing, SEO, channel, platform, content, and strategy capabilities that may supply inputs to a page, but it does not maintain a second page taxonomy.
 
-### Core vs Extended Pages
-
-| Tier | Scope | Examples |
-|------|-------|----------|
-| **Core** | Essential for most sites | Home, About, Contact, Privacy, Terms, 404 |
-| **Content** | Informational, SEO | Features, Blog, Article, FAQ, Resources, Glossary, API (intro), Docs |
-| **Marketing** | Conversion | Pricing, Products, Services, Landing page, Customer stories, Use cases, Solutions |
-| **Extended** | Situational | Category pages, Affiliate, Media kit; Legal (Cookie, Refund, Shipping); Careers, Changelog, Status |
-
-### Classification Dimensions
-
-**By Purpose**: Brand (awareness, trust) | SEO (organic traffic, topical authority) | SEM (paid conversion) | Marketing (conversion, acquisition) | Functional (product use) | Download (install) | Legal (compliance) | Utility (navigation, UX).
-
-**By Intent**: Navigational (finding brand) | Informational (learning) | Commercial (comparing) | Transactional (buying, signing up).
-
-**By Funnel**: Awareness | Consideration | Decision | Support.
-
-### Page Classification Mapping (with Notes)
-
-Key distinctions:
-
-- **Features vs Use cases vs Solutions**: Features = What (capabilities); Use cases = When/How (scenario, persona); Solutions = Outcome (industry, company size).
-- **Tools vs Features**: Tools = free utilities; lead gen; same ICP; programmatic SEO. Features = paid capabilities.
-
-### Best Practices
-
-- **Match intent to page type**: Informational → blog, FAQ, glossary; Commercial → features, pricing; Transactional → products, pricing.
-- **Avoid intent mismatch**: One clear primary goal per page.
-- **Internal linking**: Brand → conversion paths; SEO → commercial/transactional; Legal in footer.
-- **Indexing**: Brand, SEO, marketing: index; Legal: index but not keyword-optimized; Auth, 404, search, admin: noindex. See **indexing** skill.
-- **Navigation**: Primary nav = brand + core marketing; Secondary = blog, resources, glossary; Footer = legal, contact, utility.
-
-### Website Types & Page Applicability
-
-| Website Type | Core Pages |
-|--------------|------------|
-| **Product / SaaS** | Home, Features, Pricing, Docs (incl. API Reference), API, Changelog, Status, Use cases, Solutions, Tools (if free tools strategy) |
-| **B2B** | Home, Use cases, Solutions, Customer stories, Demo CTA |
-| **E-commerce** | Home, Products, Category pages, Cart, Refund, Shipping |
-| **Portfolio** | Home, About, Portfolio/Work, Services, Contact |
-| **Forum** | Home, Categories, Threads, Member profiles |
-| **Directory** | Home, Categories, Search, Listing pages |
-
----
+- Use [Pagina](https://github.com/kostja94/pagina) to select and build an individual page.
+- Use [Bricks](https://github.com/kostja94/bricks) for individual interface components.
+- Use Marketing Skills for upstream marketing and discovery work that informs page content.
+- Existing page and component skill names in this repository are compatibility routes only.
 
 ## 3. How Skills Work Together
 
@@ -325,21 +240,12 @@ Skill dependency maps as ASCII trees. Workflow order: Technical → On-Page → 
     └─────────────────┘  └─────────────────┘  └─────────────────┘
 ```
 
-### 3.3 Pages (Apply SEO)
+### 3.3 Pages
 
-```
-                         ┌─────────────────────────────────────────┐
-                         │         On-Page SEO (from tree 1)        │
-                         └─────────────────────┬───────────────────┘
-                                                │
-    ┌───────────────────────────────────────────┼───────────────────────────────────────────┐
-    ▼                   ▼                       ▼                       ▼                   ▼
-┌─────────┐    ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐    ┌─────────┐
-│  Brand  │    │    Content       │    │   Marketing     │    │     Legal       │    │ Utility │
-│ home ·  │    │ blog · article · │    │ pricing · LP ·  │    │ privacy · terms │    │ 404 ·   │
-│ about · │    │ faq · glossary · │    │ alternatives ·  │    │ cookie · refund │    │ changelog│
-│ contact │    │ docs · api       │    │ use-cases · ... │    │ shipping · legal │    │ status  │
-└─────────┘    └─────────────────┘    └─────────────────┘    └─────────────────┘    └─────────┘
+Pagina owns page construction. Apply relevant Marketing Skills outputs as inputs, such as keyword research, positioning, metadata, schema, content strategy, or campaign context; do not recreate Pagina's page rules in this repository.
+
+```text
+Marketing and SEO inputs -> Pagina page contract -> Bricks components -> project implementation
 ```
 
 ### 3.4 Growth: Channels, Platforms, Strategies

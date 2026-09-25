@@ -1,70 +1,17 @@
 ---
 name: services-page-generator
-description: When the user wants to create, optimize, or audit a services page. Also use when the user mentions "services page," "what we offer," "service offerings," "consulting services," "service page," "offerings page," "service catalog," or "professional services." For sitewide page planning, use website-structure.
+description: Deprecated compatibility entry for Service Page construction. This page is now maintained in Pagina; install and use page-builder to build a new Service Page.
 metadata:
-  version: 1.0.1
+  status: moved
+  successor: kostja94/pagina/page-builder
 ---
 
-# Pages: Services
+# Service Page construction has moved
 
-Guides services page content and structure for service-based businesses (consulting, agencies, freelancers).
+Service Page construction is now maintained in the [Service Page reference](https://github.com/kostja94/pagina/blob/main/skills/page-builder/references/pages/service-solution.md) in [Pagina](https://github.com/kostja94/pagina), the page intelligence layer for AI agents.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+```bash
+npx skills add kostja94/pagina --skill page-builder
+```
 
-## Initial Assessment
-
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for service offerings and differentiation.
-
-Identify:
-1. **Service count**: One overview or multiple service pages
-2. **Audience**: B2B, B2C, or both
-3. **Conversion goal**: Contact, quote, booking
-
-## Best Practices
-
-### Structure
-
-| Approach | When |
-|----------|------|
-| **Single page** | Few services; compact overview |
-| **Hub + detail** | Many services; main page links to each |
-| **Service tiers** | Packages, pricing tiers |
-
-### Essential Elements
-
-| Element | Purpose |
-|---------|---------|
-| **Service overview** | What you offer; who it's for |
-| **Benefits** | Outcomes, not just features |
-| **Process** | How you work; steps |
-| **Proof** | Case studies, testimonials |
-| **CTA** | Contact, get quote, book call |
-
-### Content
-
-- **Benefit-first**: Solve problems; outcomes
-- **Clear scope**: What's included
-- **Differentiation**: Why you vs. others
-
-### SEO
-
-- Target "service + location" or "service + industry"
-- Schema: Service type
-- Internal links from Home, About
-
-## Output Format
-
-- **Structure** (single vs. hub)
-- **Service** descriptions
-- **CTA** placement
-- **SEO** metadata
-
-## Related Skills
-
-- **landing-page-generator**: Service landing page; CTA to contact, quote, or booking
-- **contact-page-generator**: Services CTA often goes to contact form
-- **url-structure**: Service URL hierarchy (e.g. /services/web-development)
-- **features-page-generator**: For SaaS; services for service businesses
-- **pricing-page-generator**: Service pricing
-- **customer-stories-page-generator**: Proof for services
-- **title-tag, meta-description, page-metadata**: Services page metadata
+Ask the agent to use page-builder to build a new Service Page. This compatibility entry contains no page rules and is no longer maintained.

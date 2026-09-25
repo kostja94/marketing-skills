@@ -17,6 +17,18 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [2026-09-25] v2.5.0
+
+### Changed
+
+- **Page construction** - Moved 44 page capabilities to [Pagina](https://github.com/kostja94/pagina); former page skills now provide one-to-one compatibility links to their Pagina references.
+
+### Removed
+
+- **press-coverage/reference.md** - Removed the duplicate local reference after its maintained guidance moved to Pagina.
+
+---
+
 ## [2026-09-25] v2.4.0
 
 ### Changed

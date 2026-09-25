@@ -1,66 +1,17 @@
 ---
 name: products-page-generator
-description: When the user wants to create, optimize, or audit a product listing or category page. Also use when the user mentions "product page," "product listing," "shop," "e-commerce products," "product catalog," "product grid," "product cards," or "product overview." For category SEO, use category-page-generator.
+description: Deprecated compatibility entry for Commerce Product Page construction. This page is now maintained in Pagina; install and use page-builder to build a new Commerce Product Page.
 metadata:
-  version: 1.0.1
+  status: moved
+  successor: kostja94/pagina/page-builder
 ---
 
-# Pages: Products
+# Commerce Product Page construction has moved
 
-Guides product listing and category page content for e-commerce. For individual product detail pages, structure varies by platform.
+Commerce Product Page construction is now maintained in the [Commerce Product Page reference](https://github.com/kostja94/pagina/blob/main/skills/page-builder/references/pages/commerce.md) in [Pagina](https://github.com/kostja94/pagina), the page intelligence layer for AI agents.
 
-**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+```bash
+npx skills add kostja94/pagina --skill page-builder
+```
 
-## Initial Assessment
-
-**Check for project context first:** If `.claude/project-context.md` or `.cursor/project-context.md` exists, read it for product catalog and positioning.
-
-Identify:
-1. **Page type**: Category, collection, or product grid
-2. **Products**: Count, filters, sorting
-3. **Audience**: Browsers, researchers, buyers
-
-## Best Practices
-
-### Category/Listing Page
-
-| Element | Purpose |
-|---------|---------|
-| **Category title** | Clear H1; target keyword |
-| **Description** | SEO copy; benefits of category |
-| **Filters** | Price, size, brand, etc. |
-| **Product cards** | Image, name, price, CTA |
-| **Pagination** | Crawlable; rel prev/next |
-
-### Product Card
-
-- **Image**: Alt text; multiple angles
-- **Name**: Descriptive; keyword
-- **Price**: Clear; sale/compare-at
-- **CTA**: Add to cart, view details
-
-### SEO
-
-- **Category pages**: Unique titles, descriptions
-- **Schema**: ItemList, Product
-- **Internal links**: Cross-category; breadcrumbs
-
-## Output Format
-
-- **Structure** for listing page
-- **Product card** elements
-- **Filter/sort** approach
-- **SEO** metadata and schema
-
-## Related Skills
-
-- **card**: Card layout structure; product card anatomy, grid design
-- **grid**: Product grid layout; responsive columns
-- **landing-page-generator**: Product-focused landing pages send to products; product launch LP destination
-- **pricing-page-generator**: Product cards link to pricing
-- **url-slug-generator**: URL slug for product pages; 3-5 words, primary keyword
-- **url-structure**: Product URL hierarchy (e.g. /products/category/product)
-- **features-page-generator**: For SaaS feature pages
-- **schema-markup**: Product, ItemList schema
-- **internal-links**: Category linking
-- **breadcrumb-generator**: Breadcrumb trail for product hierarchy
+Ask the agent to use page-builder to build a new Commerce Product Page. This compatibility entry contains no page rules and is no longer maintained.

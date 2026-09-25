@@ -32,7 +32,7 @@ Agent Skills are reusable capability packages that provide **procedural knowledg
 
 **Skills vs plain Markdown**: Skills add AI-oriented conventions: each skill is a directory with `SKILL.md`, YAML frontmatter (`name`, `description`) required, `description` used for discovery and routing. Agents load metadata at startup, full content on activation. Plain Markdown has no such structure and doesn't participate in agent discovery.
 
-**SkillsBench** ([2025](https://arxiv.org/abs/2602.12670), *for reference only - one paper's findings*): Human-curated skills yield +16.2pp task success; AI-generated skills degrade performance (-1.3pp). Detailed, step-focused format outperforms exhaustive long docs (+18.8pp vs -2.9pp). Vertical domains (e.g. marketing, SEO) benefit most from skills.
+**SkillsBench** ([2026 v4](https://arxiv.org/abs/2602.12670), *for reference only — one benchmark's findings*): Across 87 tasks, 8 domains, and 18 model-harness configurations, curated Skills raised average pass rate from 33.9% to 50.5% (`+16.6` percentage points). Focused Skills with at most three modules outperformed larger or exhaustive bundles in that evaluation.
 
 ---
 
@@ -270,21 +270,20 @@ Before creating or modifying a skill, verify:
 
 **Project Task Tracker**: `.cursor/project-task-tracker.md` - Track task status; agent suggests next steps.
 
-**Using beyond Cursor & Claude**: Skills are markdown - they work anywhere an AI can read text. **OpenClaw** supports AgentSkills natively: `npx skills add kostja94/marketing-skills -a openclaw`. **Full guide**: [usage.md](usage.md).
+**Using beyond Cursor & Claude**: Agent Skills-aware tools can discover installed Skills natively. Other tools can use the Markdown instructions manually, but discovery, routing, paths, and tool access depend on the host. **OpenClaw** supports AgentSkills natively: `npx skills add kostja94/marketing-skills -a openclaw`. **Full guide**: [usage.md](usage.md).
 
 ---
 
 ## 9. SkillsBench Reference (Informational)
 
-*For reference only - one paper's findings; not authoritative.*
+*For reference only — one benchmark's findings; not authoritative and not a guarantee for this repository.*
 
 [SkillsBench](https://skillsbench.ai) ([arXiv:2602.12670](https://arxiv.org/abs/2602.12670), [GitHub](https://github.com/benchflow-ai/skillsbench)) reports:
 
-- **2-3 skills per task** - performance sweet spot; 4+ skills cause context overload.
-- **Detailed > Comprehensive** - step-focused, actionable content outperforms exhaustive long docs.
-- **Human-curated > AI-generated** - avoid AI batch-generation; quality over quantity.
-- **Vertical domains** - marketing, SEO benefit most (weak pretraining coverage).
-- **Small model + Skills** - can outperform large model without skills (cost/quality tradeoff).
+- **Measured scope** — 87 tasks across 8 domains and 18 model-harness configurations.
+- **Aggregate result** — curated Skills raised average pass rate from 33.9% to 50.5% (`+16.6` percentage points).
+- **Focused bundles** — Skills with at most three modules outperformed larger or exhaustive bundles in the evaluation.
+- **Model tradeoff** — smaller models with Skills could match larger models without Skills in tested configurations.
 
 Use as heuristics; your mileage may vary.
 
@@ -299,4 +298,4 @@ Use as heuristics; your mileage may vary.
 | Agent Skills Specification | https://agentskills.io/specification |
 | skills.sh | https://skills.sh |
 | Vercel skills CLI | https://github.com/vercel-labs/skills |
-| SkillsBench | [skillsbench.ai](https://skillsbench.ai) | [arXiv:2602.12670](https://arxiv.org/abs/2602.12670) | [GitHub](https://github.com/benchflow-ai/skillsbench) |
+| SkillsBench | [Website](https://skillsbench.ai) · [arXiv:2602.12670](https://arxiv.org/abs/2602.12670) · [GitHub](https://github.com/benchflow-ai/skillsbench) |

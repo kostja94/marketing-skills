@@ -1,6 +1,6 @@
 # Installation & Use Cases
 
-> Skills are **markdown instruction files**. They work anywhere an AI can read text — IDEs, vibe-coding tools, chat models, and any platform with file access. This doc covers platforms, installation, use cases, and content roadmap.
+> Skills are **Markdown instruction files with discovery metadata**. Agent Skills-aware tools can load them natively; other tools can use the instructions through manual copy or text context, without guaranteed automatic discovery or routing. This doc covers platforms, installation, use cases, and content roadmap.
 
 **Reference**: [Agent Skills spec](https://agentskills.io/specification) · [skills.sh](https://skills.sh) (40+ agents) · [agentskills.help](https://agentskills.help)
 
@@ -14,7 +14,7 @@
 
 **Discovering skills**: Browse [skills.sh](https://skills.sh) (All Time, Trending, Hot); search with `npx skills find [keyword]`; or `npx skills add owner/repo --list` to see a repo's skills. Check [skills.sh/kostja94](https://skills.sh/kostja94) for this repo's listing.
 
-**SkillsBench tip** (*for reference only — one paper's findings*): 2–3 relevant skills per task may be a performance sweet spot; 4+ skills can cause context overload. Prefer selective install (`--skill a b c`) when you know the task. See [skill-authoring §9](skill-authoring.md#9-skillsbench-reference-informational).
+**SkillsBench tip** (*for reference only — one benchmark's findings*): Focused Skills with at most three modules outperformed larger or exhaustive bundles in the paper's 2026 v4 evaluation. Prefer selective install (`--skill a b c`) when you know the task. See [skill-authoring §9](skill-authoring.md#9-skillsbench-reference-informational).
 
 ---
 

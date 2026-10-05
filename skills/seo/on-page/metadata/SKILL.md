@@ -1,120 +1,120 @@
 ---
 name: page-metadata
-description: When the user wants to optimize meta tags other than title, description, Open Graph, or Twitter Cards. Also use when the user mentions "hreflang," "meta robots," "viewport," "charset," "canonical meta," "other meta tags," "meta robots noindex," "meta robots nofollow," "hreflang tags," "viewport meta," or "meta charset." For title tags, use title-tag. For meta descriptions, use meta-description. For Facebook/LinkedIn previews, use open-graph. For X previews, use twitter-cards.
+description: When the user wants a full-page metadata audit or implementation across discovery, search intent, title, description, canonical, robots, hreflang, Open Graph, Twitter Cards, code or CMS changes, build validation, rendered HTML, production verification, localization, or post-release observation. Also use for "metadata audit," "sitewide meta optimization," "metadata implementation," "meta robots," "hreflang," "viewport," or "charset." For an isolated title, description, heading, Open Graph, or Twitter Card task, use its specialist skill directly.
 metadata:
-  version: 1.2.0
+  version: 2.0.0
 ---
 
-# SEO On-Page: Metadata (Other Meta Tags)
+# SEO On-Page: Page Metadata
 
-Guides optimization of meta tags beyond title, description, Open Graph, and Twitter Cards. Covers hreflang, robots, viewport, charset, and metadata completeness.
+Orchestrates the complete metadata lifecycle. It owns scope, routing, implementation, validation, and delivery; specialist skills own their individual writing and tag rules.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+**When invoking**: On first use, briefly state the scope and which specialist skills are needed. Then work from current production evidence and the real source of truth rather than producing a detached copy sheet.
 
-## Scope (On-Page SEO)
+## Ownership and boundaries
 
-- **Hreflang**: Language/region targeting for multilingual sites
-- **Meta robots**: index/noindex, follow/nofollow (page-level)
-- **Viewport**: Mobile responsiveness
-- **Charset**: Character encoding
-- **Metadata completeness**: All pages have title + meta description (see **title-tag**, **meta-description**)
+| Concern | Owner |
+|---|---|
+| Lifecycle, page inventory, implementation, validation, delivery | **page-metadata** |
+| `<title>` writing and review | **title-tag** |
+| Meta description writing and review | **meta-description** |
+| H1-H6 writing and hierarchy | **heading-structure** |
+| Open Graph | **open-graph** |
+| X/Twitter Cards | **twitter-cards** |
+| Canonical URL | **canonical-tag** |
+| Localization | **localization-strategy**, **translation** |
+| Post-release query and CTR observation | **google-search-console** |
 
-## Initial Assessment
+This skill may check H1 and body coverage to confirm that metadata promises are fulfilled. It must not rewrite H1-H6; route that work to **heading-structure**. It may report keyword cannibalization, but must not merge pages, change page roles, delete URLs, or redistribute target keywords.
 
-**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
+## Required inputs and evidence
 
-Identify:
-1. **Multi-language**: zh, en, x-default if applicable
-2. **Indexing**: Full index, noindex for specific pages
-3. **Tech stack**: Next.js, HTML, etc.
+Read root `contextus.md` when present and load only relevant modules. Otherwise use project documentation and verified product facts. Establish:
 
-## hreflang (Multi-language)
+1. Target site, locales, environment, and release scope.
+2. Page inventory from production navigation, footer, contextual links, index or hub pages, robots.txt, sitemap, production URLs, and application routes. A sitemap is evidence, not a complete inventory guarantee. For very large generated page families, inspect the template and representative examples instead of enumerating every URL.
+3. Page type, unique job, primary search intent, target query evidence, audience, and page-specific facts.
+4. Current production output: title, description, H1, canonical, robots, hreflang, OG, Twitter Cards, HTTP status, and server-returned HTML.
+5. Actual maintenance source: framework metadata API, layout template, route module, static HTML, JSON/YAML, CMS fields, server injection, or proxy layer.
 
-**Three non-negotiables**: (1) Self-referencing tags (each page links to itself), (2) Symmetric annotations (every version lists ALL others), (3) Valid ISO 639-1 or language-region codes (`en`, `en-US`, `zh-CN`).
+Never infer current production metadata from source code alone. Deployment and production may differ in either direction.
 
-**Implementation methods**: HTML `<link>` in head, XML sitemap (`xhtml:link`), or HTTP headers. For SPAs/JS-rendered pages, use sitemap-based hreflang as backup. See **rendering-strategies** for SSR/SSG/CSR.
+## Lifecycle
 
-**Canonical alignment**: Canonical URL must match the same regional version hreflang refers to. Misalignment causes Google to ignore hreflang.
+### 1. Discover and classify pages
 
-**x-default**: Fallback for users whose language/location doesn't match any version. Point to default locale or language-selector page.
+- Build a URL-to-page-type map and select representative samples for repeated page families.
+- Identify missing, duplicate, stale, inherited, fallback, or cross-locale metadata.
+- Detect template-generated brand suffixes before writing titles so the suffix is not duplicated.
+- Flag old brand names, parent-product language, obsolete features, or copied sibling-page claims.
 
-### Next.js (App Router)
+### 2. Establish intent and page identity
 
-```tsx
-export const metadata = {
-  alternates: {
-    languages: {
-      'en-US': '/en/page',
-      'zh-CN': '/zh/page',
-      'x-default': '/en/page',
-    },
-  },
-};
-```
+- Confirm what the page alone can promise and prove.
+- Use verified product facts and current page content; do not invent differentiators.
+- Apply the **Swap Test**: if a title or description could be moved unchanged to a sibling page, it lacks page-specific information.
+- Report potential cannibalization with affected URLs, overlapping intent, and evidence. Stop at reporting.
 
-### HTML (generic)
+### 3. Route specialist work
 
-```html
-<link rel="alternate" hreflang="en" href="https://example.com/en/page" />
-<link rel="alternate" hreflang="zh" href="https://example.com/zh/page" />
-<link rel="alternate" hreflang="x-default" href="https://example.com/en/page" />
-```
+- Use **title-tag** for title decisions and **meta-description** for descriptions.
+- Use **heading-structure** only when headings need actual edits; otherwise check semantic alignment.
+- Use **open-graph** and **twitter-cards** for social metadata. Social copy may differ from SEO copy, but page identity and claims must remain consistent.
+- Use **canonical-tag**, **localization-strategy**, and **translation** when applicable.
 
-### Common Mistakes (Avoid)
+### 4. Localize by market
 
-- Missing reciprocal references between language versions.
-- Canonical tag conflicting with hreflang.
-- Relying solely on machine translation without localization (see **translation**).
-- Ignoring mobile—hreflang must appear on both desktop and mobile.
-- Forgetting to update hreflang when page structure changes.
+- Research query language and intent for each locale; do not translate and truncate source metadata.
+- Preserve product and brand terminology intentionally through a terminology source when one exists.
+- Confirm each locale URL, canonical, hreflang set, and `og:locale` relationship.
+- Treat missing or materially non-equivalent locale pages as an implementation issue rather than fabricating parity.
 
-## Meta Robots (Page-level)
+### 5. Implement at the source of truth
 
-Page-level control for indexing and link following. See **indexing** for which page types typically need noindex.
+- Edit canonical code or CMS fields, not generated output.
+- Preserve URL and page identity unless a separate migration task changes them.
+- Account for layout inheritance, route precedence, template interpolation, CMS fallbacks, and automatic brand suffixes.
+- Keep title, description, social metadata, canonical, robots, and hreflang internally consistent without forcing identical strings.
 
-| Directive | Effect |
-|-----------|--------|
-| `noindex` | Exclude page from search results |
-| `nofollow` | Do not pass link equity through links on the page; **does NOT prevent indexing** |
-| `noindex,follow` | Exclude from SERP; allow crawlers to follow links (most common for thank-you, signup, legal) |
-| `noindex,nofollow` | Exclude + block link flow (login, staging, test pages) |
+### 6. Validate before release
 
-**Crawl vs index vs link equity**: robots.txt = crawl control; noindex = index control; nofollow = link equity only. See **robots-txt**, **indexing**.
+Run relevant lint, typecheck, tests, and production build. Then start or preview the built application when practical and inspect the initial server response HTML for representative URLs and locales. A browser DOM snapshot alone is insufficient when crawlers may receive different HTML.
 
-```html
-<meta name="robots" content="noindex, follow">
-```
+Check:
 
-Next.js: `metadata.robots = { index: false, follow: true }`. Default is `index: true, follow: true`.
+- exactly one effective title and one intended description;
+- no empty, placeholder, duplicate, or doubly suffixed output;
+- title and H1 serve the same page intent without needing identical wording;
+- H2/body content substantiate the metadata promise;
+- canonical, robots, hreflang, OG, and Twitter tags resolve to intended absolute URLs;
+- HTML escaping, locale output, images, and status codes are correct.
 
-## Viewport
+### 7. Verify production and observe
 
-```html
-<meta name="viewport" content="width=device-width, initial-scale=1">
-```
+- Recheck representative production URLs after deployment using raw response HTML.
+- Use platform preview/debug tools where available for social tags; cached previews may require refresh.
+- Use **google-search-console** after recrawl to observe query mix, impressions, title/snippet behavior, and CTR. Do not promise a ranking or CTR lift.
 
-Required for mobile-friendly pages; affects Core Web Vitals and mobile search. For full mobile-first indexing and mobile usability requirements, see **mobile-friendly**.
+## Other technical metadata
 
-## Charset
+- `robots` controls page-level indexing/snippet behavior; robots.txt controls crawling. Use **indexing** and **robots-txt** for strategy.
+- `viewport` normally uses `width=device-width, initial-scale=1`.
+- Declare UTF-8 early in the document head.
+- Hreflang annotations must use valid language or language-region codes, include self and reciprocal references, and align each locale with its own canonical URL. Use HTML, sitemap, or HTTP headers consistently.
 
-```html
-<meta charset="UTF-8">
-```
+## Deliverable
 
-Place in `<head>`; first child of `<head>` recommended.
+Provide scope and evidence, affected URLs or families, their true maintenance source, before/after metadata where useful, unresolved blockers, any cannibalization report, build/HTML/locale/production verification, and a post-release observation plan.
 
-## Output Format
+## Primary references
 
-- **hreflang** setup if multi-language
-- **Meta robots** if noindex needed
-- **Viewport** / **charset** if missing
+- [Google: title links](https://developers.google.com/search/docs/appearance/title-link)
+- [Google: snippets and meta descriptions](https://developers.google.com/search/docs/appearance/snippet)
+- [Google: localized versions](https://developers.google.com/search/docs/specialty/international/localized-versions)
 
 ## Related Skills
 
-- **title-tag, meta-description**: Title and meta description
-- **open-graph, twitter-cards**: Social sharing; link previews
-- **canonical-tag**: Canonical + hreflang for multi-language
-- **indexing**: noindex page-type list; noindex vs nofollow
-- **robots-txt**: Crawl vs index; robots.txt vs noindex
-- **mobile-friendly**: Mobile-first indexing; viewport required
-- **rendering-strategies**: SSR, SSG, CSR; SPAs need sitemap-based hreflang
+- **title-tag**, **meta-description**, **heading-structure**
+- **open-graph**, **twitter-cards**, **canonical-tag**
+- **localization-strategy**, **translation**
+- **indexing**, **robots-txt**, **google-search-console**

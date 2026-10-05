@@ -1,74 +1,47 @@
 ---
 name: title-tag
-description: When the user wants to optimize the title tag, page title, or SERP title. Also use when the user mentions "title tag," "meta title," "page title," "SEO title," "SERP title," "browser tab title," "title optimization," "headline for search," "title too long," "title tag length," "duplicate title tags," or "optimize title for CTR." For meta description, use meta-description. For structured data, use schema-markup.
+description: When the user wants to write, audit, or optimize an HTML title tag, SEO title, page title, SERP title, browser-tab title, duplicate title, or title rewrite issue. For a sitewide metadata lifecycle including implementation and production validation, use page-metadata.
 metadata:
-  version: 1.4.0
+  version: 2.0.0
 ---
 
 # SEO On-Page: Title Tag
 
-Guides optimization of the HTML title tag for search engines and SERP display.
+Owns writing and review rules for the HTML `<title>` element. **page-metadata** owns discovery, implementation, and release verification.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+## Inputs
 
-## Scope (On-Page SEO)
+Read root `contextus.md` when present. Confirm page type, unique page job, primary search intent, locale, current title and H1, verified differentiators, sibling-page titles, and whether a template automatically appends the brand.
 
-- **Title tag**: Primary search snippet; primary keyword near start; unique per page
+## Rules
 
-## Length by Language
+- Write a descriptive, concise, page-specific title that accurately represents the page.
+- Put the primary search concept early when natural; do not keyword-stuff.
+- Treat about 60 Latin characters for the title body as a default warning, not a hard limit. Pixel width, script, device, and query context affect display.
+- A delimiter plus brand suffix such as `| Brand` is outside that title-body target. It may be truncated or rewritten; include it only when useful and never duplicate a template suffix.
+- For CJK, RTL, or other scripts, review rendered width and natural language instead of applying a translated character formula.
+- Title and H1 must serve the same page intent and promise, but need not use identical wording. Example: title `AI Image Generator`; H1 `Generate Images with AI`.
+- Include only claims supported by the page. Do not add a year, number, superlative, or feature merely for click appeal.
+- Apply the **Swap Test**: if the title fits a sibling page unchanged, add a verified page-specific fact or sharpen its task.
+- Google may generate a different title link from the `<title>`, main visual title, headings, prominent text, anchors, `og:title`, or other signals. Optimize consistency of page identity, not control of the exact displayed string.
 
-Google truncates by **pixel width** (~580–600px desktop), not character count. Character limits are approximate—CJK chars are wider (~2× Latin), so fewer fit in the same pixels.
+## Cannibalization
 
-| Script / Language | Title (chars) | Notes |
-|-------------------|---------------|-------|
-| **Latin** (English, Spanish, French, etc.) | 50–60 | ~55 recommended |
-| **CJK** (Chinese, Japanese, Korean) | 25–35 | Full-width chars; 25–30 desktop; 20–28 mobile; use pixel checker when available |
-| **Cyrillic** (Russian, etc.) | 50–55 | Slightly wider than Latin |
-| **Arabic, Hebrew** | 30–40 | RTL; variable width |
+When multiple URLs target the same primary intent, report the affected URLs, overlap, and evidence. Do not merge pages, reassign keywords, change page roles, or alter information architecture.
 
-**Pixel tools**: Use a pixel-accurate checker for CJK—font and locale affect display.
+## Output
 
-**Multilingual**: Use locale-specific limits; don't translate then truncate. See **localization-strategy**, **translation**.
+- Recommended title, with the title body and optional brand suffix shown separately.
+- A length or width warning when relevant, never a mechanical pass/fail.
+- Brief rationale tied to intent and unique page facts.
+- H1 semantic-alignment result; actual H1 edits route to **heading-structure**.
+- Cannibalization warning when applicable.
 
-## Initial Assessment
+## Primary reference
 
-**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
-
-Identify:
-1. **Page type**: Homepage, landing, blog, product, etc.
-2. **Primary keyword**: Target search query
-3. **Language / script**: Apply length rule above
-4. **Brand**: Optional brand append at end
-
-## Best Practices
-
-| Item | Guideline |
-|------|-----------|
-| **Length** | Per language (see table above); Google truncates beyond ~600px |
-| **Front-load** | Main phrase first; branding at end |
-| **Keyword** | Include primary keyword near the start |
-| **Unique** | One unique title per page |
-| **Clarity** | Match search intent; avoid keyword stuffing |
-| **Engagement** | Numbers, power words, questions can boost CTR ~36% |
-| **H1 alignment** | H1 should align with title; Google may rewrite titles if they mismatch content or intent |
-
-**Example**: Bad: "SEO Tips for Small Business" → Better: "11 SEO Tips That Actually Work (2026)"
-
-## Output Format
-
-- **Recommended title** (with character count for target language)
-- **Alternatives** (if A/B testing)
-
-## GSC-Driven Optimization
-
-For pages with low CTR despite good position, use google-search-console to identify opportunities. Compare actual CTR vs expected by position; optimize title for pages with CTR gap.
+- [Google: influencing title links](https://developers.google.com/search/docs/appearance/title-link)
 
 ## Related Skills
 
-- **google-search-console**: CTR analysis, identify low-CTR pages for title optimization
-- **meta-description**: Meta description pairs with title in SERP
-- **localization-strategy, translation**: Multilingual metadata; locale-specific length
-- **serp-features**: SERP features; standard result appearance in context
-- **heading-structure**: H1 should align with title tag
-- **open-graph**: og:title for social sharing (often mirrors title)
-- **schema-markup**: Structured data complements metadata
+- **page-metadata**, **meta-description**, **heading-structure**
+- **localization-strategy**, **translation**, **google-search-console**

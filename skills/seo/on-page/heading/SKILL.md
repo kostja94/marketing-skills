@@ -1,8 +1,8 @@
 ---
 name: heading-structure
-description: When the user wants to optimize heading structure (H1-H6), fix heading hierarchy, or improve content structure. Also use when the user mentions "H1," "heading," "heading hierarchy," "content structure," "H2," "H3," "heading tags," "heading SEO," "multiple H1," or "heading structure." For SEO workflow, use seo-strategy.
+description: When the user wants to write or optimize H1-H6, fix heading hierarchy, improve content structure, rewrite an H1, or align headings with page intent. This skill owns actual heading changes; page-metadata may only check and report metadata-to-heading alignment.
 metadata:
-  version: 1.0.1
+  version: 2.0.0
 ---
 
 # SEO On-Page: Heading Structure
@@ -13,8 +13,8 @@ Guides heading (H1-H6) optimization for SEO and content structure.
 
 ## Scope (On-Page SEO)
 
-- **H1 tag**: One per page; clear headline; matches content; primary keyword near start
-- **Header tags (H1-H6)**: Logical hierarchy; keyword in headers; one idea per heading
+- **H1 tag**: Clear visible page headline that confirms the user's task and value
+- **Header tags (H1-H6)**: Logical content hierarchy and one coherent section per heading
 
 ## Initial Assessment
 
@@ -31,16 +31,16 @@ Identify:
 
 | Principle | Guideline |
 |-----------|-----------|
-| **One per page** | Single H1 per page |
-| **Primary keyword** | Include target keyword naturally |
+| **Primary page heading** | Prefer one clear H1 that identifies the page; audit accessibility and template semantics before treating an extra H1 as a ranking emergency |
+| **Search language** | Include the primary concept naturally when useful; do not force exact-match phrasing |
 | **Descriptive** | Clearly describe page content |
-| **Match intent** | Align with title tag and user intent |
+| **Match intent** | Serve the same page intent and promise as the title tag without requiring identical wording |
 
 ### H2-H6 Hierarchy
 
 | Principle | Guideline |
 |-----------|-----------|
-| **Logical order** | H1 -> H2 -> H3; don't skip levels |
+| **Logical order** | Use heading levels to express document structure; do not choose a level for visual size alone |
 | **One idea per heading** | Each heading = one topic |
 | **Scannable** | Headings should summarize section content |
 | **Keyword variation** | Use related keywords in subheadings |
@@ -61,8 +61,8 @@ H1 (page title)
 
 | Issue | Fix |
 |-------|-----|
-| Multiple H1s | Use single H1; use H2 for other sections |
-| Skipped levels | Use H2 after H1, H3 after H2 |
+| Multiple H1s | Confirm the template and accessibility semantics; prefer one clear primary H1, but do not present extra H1s as an automatic ranking failure |
+| Visual styling encoded as hierarchy | Keep semantic level based on structure and style it separately |
 | Generic headings | Make descriptive; avoid "Introduction," "Conclusion" |
 | Keyword stuffing | Natural language; avoid forced keywords |
 
@@ -76,9 +76,9 @@ H1 (page title)
 ## Related Skills
 
 - **featured-snippet**: H2/H3 for snippet extraction; semantic HTML for list/table snippets
-- **page-metadata**: Hreflang, meta robots; metadata complements heading structure
+- **page-metadata**: Checks and reports title/H1/body alignment; routes actual heading edits here
 - **content-optimization**: H2 keyword placement, quantity, tables, lists; complements heading structure
 - **article-page-generator**: Article page H1-H3 structure, intro/body/conclusion
-- **title-tag**: H1 should align with title tag
+- **title-tag**: H1 and title share page intent but may use different natural variants
 - **schema-markup**: Article schema uses headline (often H1)
 - **content-strategy**: Content outline informs headings

@@ -45,7 +45,8 @@ Install two or three relevant skills when the task is known instead of loading t
 |---|---|
 | Build an SEO roadmap | `seo-strategy` |
 | Fix crawling, indexing, sitemap, or canonical issues | `robots-txt`, `indexing`, `xml-sitemap`, `canonical-tag` |
-| Improve titles, descriptions, schema, and internal links | `title-tag`, `meta-description`, `schema-markup`, `internal-links` |
+| Audit or implement page metadata end to end | `page-metadata` |
+| Improve one title, description, schema, or internal-link concern | `title-tag`, `meta-description`, `schema-markup`, `internal-links` |
 | Research keywords, competitors, or content opportunities | `keyword-research`, `competitor-research`, `content-strategy` |
 | Plan launch, positioning, pricing, or acquisition | `product-launch`, `gtm-strategy`, `pricing-strategy`, `cold-start-strategy` |
 | Plan paid acquisition | `paid-ads-strategy` plus the relevant platform skill |

@@ -127,7 +127,7 @@ Skills are **plain markdown**. Use them with any LLM that accepts text input.
 2. Copy the full content.
 3. In ChatGPT, Gemini, Claude, or similar: paste the skill as context, then ask your question.
 
-**Example prompt**: Paste title-tag or meta-description skill content, then: "Using these guidelines, optimize the meta title and description for my homepage. Product: [brief description]. Target keyword: [keyword]."
+**Example prompt**: Use `page-metadata` for the complete lifecycle: "Audit and implement metadata across this site. Discover the live page set, inspect current production HTML, find the real code or CMS sources, route title/description/social work to the specialist skills, build the project, and verify initial HTML and production output." Use `title-tag` or `meta-description` directly only for an isolated copy task.
 
 **Tips**: Provide the task-relevant Contextus modules or equivalent project facts before the skill; omit unrelated modules when token limits apply.
 
@@ -152,7 +152,7 @@ Skills are **plain markdown**. Use them with any LLM that accepts text input.
 
 **Why this works**: One-click install; no need to learn SEO from scratch — the agent applies best practices when you ask.
 
-**Recommended skills subset**: Technical: `robots-txt`, `xml-sitemap`, `canonical-tag`, `indexing`; On-page: `title-tag`, `meta-description`, `open-graph`, `twitter-cards`, `schema-markup`, `heading-structure`. Use [Pagina](https://github.com/kostja94/pagina) for pages and [Bricks](https://github.com/kostja94/bricks) for interface components; compatibility entries in this repository route existing skill names to those projects.
+**Recommended skills subset**: Technical: `robots-txt`, `xml-sitemap`, `canonical-tag`, `indexing`; On-page: start with `page-metadata` for a complete metadata lifecycle, or install `title-tag`, `meta-description`, `open-graph`, `twitter-cards`, and `heading-structure` for isolated concerns. Use [Pagina](https://github.com/kostja94/pagina) for pages and [Bricks](https://github.com/kostja94/bricks) for interface components; compatibility entries in this repository route existing skill names to those projects.
 
 ### 7.2 Product Website — SEO Growth with Frontend + Ops Split
 

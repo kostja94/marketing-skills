@@ -1,13 +1,13 @@
 ---
 name: open-graph
-description: When the user wants to add or optimize Open Graph metadata for social sharing. Also use when the user mentions "Open Graph," "og:tags," "og:title," "og:image," "og:description," "Facebook preview," "LinkedIn preview," or "social share preview." For X (Twitter) link previews, use twitter-cards. For SERP title/description, use title-tag and meta-description.
+description: When the user wants to add, audit, implement, or optimize Open Graph metadata for social sharing, including og:title, og:description, og:image, og:url, Facebook previews, LinkedIn previews, or social share previews. For a full metadata lifecycle use page-metadata; for X-specific previews use twitter-cards.
 metadata:
-  version: 1.1.0
+  version: 2.0.0
 ---
 
 # SEO On-Page: Open Graph
 
-Guides implementation of Open Graph meta tags for social media previews (Facebook, LinkedIn, Slack, Discord, etc.). Pages with proper OG tags get 2–3× more clicks than bare URL links.
+Owns Open Graph writing and implementation rules for social previews. **page-metadata** owns the full-page lifecycle and release verification.
 
 **When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
 
@@ -28,10 +28,10 @@ Every shareable page requires these minimum tags:
 
 | Tag | Guideline |
 |-----|-----------|
-| **og:title** | Keep under 60 chars; compelling; match page content |
-| **og:description** | 150–200 chars; conversion-focused |
-| **og:image** | Absolute URL (https://); 1200×630px recommended |
-| **og:url** | Canonical URL; deduplicates shares |
+| **og:title** | Concise and useful in a sharing context; same page identity as SEO title, not necessarily identical text |
+| **og:description** | Accurate social summary; may differ from the meta description without changing the promise |
+| **og:image** | Absolute HTTPS URL; representative of the page; include dimensions when known |
+| **og:url** | Stable public page identity; normally the same URL declared canonical |
 
 ## Recommended Additional Tags
 
@@ -47,8 +47,8 @@ Every shareable page requires these minimum tags:
 
 | Item | Guideline |
 |------|-----------|
-| **Size** | 1200×630px (1.91:1 ratio) for Facebook, LinkedIn, WhatsApp |
-| **Format** | JPG, PNG, WebP; under 5MB |
+| **Size** | Use a high-resolution image and verify the target platforms' current requirements; 1200×630 is a common cross-platform starting point |
+| **Format** | Use a platform-supported web image format and verify the deployed response |
 | **URL** | Absolute URL with https://; no relative paths |
 | **Unique** | One unique image per page when possible |
 
@@ -58,6 +58,8 @@ Every shareable page requires these minimum tags:
 - Images too small or wrong aspect ratio
 - Empty or placeholder values
 - Missing og:url (canonical)
+- Reusing a generic logo or unrelated image when a representative page image is available
+- Copying SEO title/description mechanically when the share context needs different wording
 
 ## Implementation
 
@@ -96,13 +98,18 @@ export const metadata = {
 - **Facebook**: [Sharing Debugger](https://developers.facebook.com/tools/debug/)
 - **LinkedIn**: [Post Inspector](https://www.linkedin.com/post-inspector/)
 
+Preview services cache metadata. Test the deployed absolute URL and refresh the cache when supported. Also inspect the raw initial HTML; a client-only tag insertion may not be available to every scraper.
+
+## Consistency boundary
+
+Open Graph and SEO metadata may use different copy because search and social feeds are different contexts. They must still identify the same page, describe the same product or content, and avoid unsupported claims. Do not require string equality.
+
 ## Related Skills
 
 - **social-share-generator**: Share buttons use OG tags for rich previews when users share; OG must be set for share buttons to show proper cards
 - **article-page-generator**: Use og:type `article` for article/post pages; article-specific tags (published_time, author)
-- **page-metadata**: Hreflang, other meta tags
-- **title-tag**: Title tag often mirrors og:title
-- **meta-description**: Meta description often mirrors og:description
+- **page-metadata**: Full lifecycle, source-of-truth implementation, and production validation
+- **title-tag**, **meta-description**: Search copy; may differ while preserving page identity
 - **twitter-cards**: Twitter uses OG as fallback; add Twitter-specific tags for best results
 - **canonical-tag**: og:url should match canonical URL
 - **og-image-generator**: Programmatic OG image generation — 6 visual styles (Terminal/CLI, Magazine Editorial, Swiss Minimal, Pixel Retro, Brutalist, Newspaper), Satori+resvg, Puppeteer, AI image generation tools, and Agent-Native content-aware workflow. This skill covers how to SET the image tag; og-image-generator covers how to CREATE the image.

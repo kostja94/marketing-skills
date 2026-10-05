@@ -101,7 +101,7 @@ Place external references in a **References** or **References / Citations** bloc
 | Category | Examples | When to include |
 |----------|----------|-----------------|
 | **Official / spec** | Google docs, Bing, Schema.org, sitemaps.org | Required for technical accuracy |
-| **Validation tools** | Rich Results Test, Card Validator | When skill involves validation |
+| **Validation tools** | Rich Results Test, Schema Markup Validator, current platform preview/debug tools | When skill involves validation; do not list retired tools as release gates |
 | **Third-party guides** | Alignify, industry blogs | Optional; one authoritative source per topic |
 | **Platform docs** | Grokipedia, Product Hunt | When skill targets that platform |
 
@@ -114,7 +114,7 @@ External references must be **authoritative** or **directly relevant**. Exclude 
 | Type | Examples |
 |------|----------|
 | **Official / spec** | Google, Bing, Schema.org, sitemaps.org, platform docs |
-| **Validation tools** | Rich Results Test, Schema Validator, Card Validator |
+| **Validation tools** | Rich Results Test, Schema Markup Validator, current platform preview/debug tools |
 | **Platform docs** | When skill targets that platform (e.g. Grokipedia) |
 | **Project / meta docs** | Keep a Changelog, MDN, agentskills.io, skills.sh, GitHub (project repo) |
 | **Media** | When relevant for context (e.g. The Verge for Grokipedia citation) |

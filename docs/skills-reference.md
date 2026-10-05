@@ -26,17 +26,17 @@ Complete skill list, page taxonomy, and dependency maps. See [README](../README.
 
 | Skill | Description |
 |-------|-------------|
-| [title-tag](../skills/seo/on-page/title/) | Title tag optimization for SERP |
-| [meta-description](../skills/seo/on-page/description/) | Meta description optimization for SERP |
+| [title-tag](../skills/seo/on-page/title/) | Title writing and review for search results |
+| [meta-description](../skills/seo/on-page/description/) | Meta description writing and review as a snippet candidate |
 | [featured-snippet](../skills/seo/on-page/featured-snippet/) | Featured Snippet / Position Zero optimization |
 | [serp-features](../skills/seo/on-page/serp-features/) | SERP features types, obtainability, optimization |
-| [page-metadata](../skills/seo/on-page/metadata/) | Hreflang, meta robots, viewport, charset |
-| [open-graph](../skills/seo/on-page/open-graph/) | Open Graph tags for social sharing |
-| [twitter-cards](../skills/seo/on-page/twitter-cards/) | Twitter Card tags for X previews |
+| [page-metadata](../skills/seo/on-page/metadata/) | End-to-end page metadata audit, implementation, validation, localization, and observation |
+| [open-graph](../skills/seo/on-page/open-graph/) | Open Graph writing and implementation for social sharing |
+| [twitter-cards](../skills/seo/on-page/twitter-cards/) | X/Twitter Card writing and implementation |
 | [schema-markup](../skills/seo/on-page/schema/) | Structured data (Schema.org, JSON-LD) |
 | [internal-links](../skills/seo/on-page/internal-links/) | Internal linking, link equity, orphan pages |
 | [url-structure](../skills/seo/on-page/url-structure/) | URL optimization, hierarchy, slugs |
-| [heading-structure](../skills/seo/on-page/heading/) | Heading structure (H1–H6), content outline |
+| [heading-structure](../skills/seo/on-page/heading/) | H1–H6 writing, hierarchy, and content outline |
 | [image-optimization](../skills/seo/on-page/image-optimization/) | Image SEO: alt text, WebP, LCP, responsive, lazy loading, image sitemap |
 | [video-optimization](../skills/seo/on-page/video-optimization/) | Video SEO: VideoObject, video sitemap, thumbnail, key moments; YouTube prioritization |
 

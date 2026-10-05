@@ -17,6 +17,14 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [2026-10-06] v2.7.0
+
+### Changed
+
+- **page-metadata** - Upgraded the existing skill into the end-to-end metadata lifecycle entry for discovery, intent, source-of-truth implementation, localization, build checks, initial HTML, production verification, and post-release observation.
+- **title-tag, meta-description** - Replaced hard character gates and unsupported CTR claims with evidence-based warnings, page-specific Swap Tests, and explicit title/H1 and cannibalization boundaries.
+- **open-graph, twitter-cards, heading-structure** - Clarified specialist ownership, allowed channel-specific copy with consistent page identity, removed unsupported click claims and obsolete validator gating, and routed actual heading edits to heading-structure.
+
 ## [2026-09-25] v2.6.0
 
 ### Changed

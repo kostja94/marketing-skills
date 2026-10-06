@@ -1,141 +1,146 @@
 ---
 name: localization-strategy
-description: When the user wants to plan or implement localization strategy for multilingual and global growth. Also use when the user mentions "localization," "multilingual," "i18n," "global expansion," "market entry," "localization strategy," "hreflang," "multi-language SEO," or "international SEO." For translation workflow, glossary, and style guide, use translation.
+description: Plan, audit, implement, migrate, or validate localization for multilingual products and websites, including locale scope, market readiness, URL architecture, content coverage, hreflang coordination, rollout, and production verification. Use translation for the actual translation, glossary, and language review work.
 metadata:
-  version: 1.1.0
+  version: 2.0.0
 ---
 
-# Strategies: Localization
+# Localization Strategy
 
-Guides localization strategy for AI/SaaS products expanding into global markets. Covers i18n implementation, translation, pricing, and marketing adaptation--not just text translation.
+Own the end-to-end localization decision and delivery lifecycle. Do not treat localization as a request to translate every source page or to create locale routes before the content is ready.
 
-**When invoking**: On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+## Boundaries
 
-## Initial Assessment
+- This skill owns market and locale selection, scope, technical architecture, rollout, migration, release gates, and measurement.
+- **translation** owns translated copy, terminology, style, review, and source-change updates.
+- **keyword-research** owns target-market query research; do not translate a source keyword list.
+- **page-metadata**, **canonical-tag**, and **url-structure** own their specialist implementation details. Coordinate them here without duplicating their full rules.
+- Preserve project-specific product facts, route inventories, and terminology in the project context or implementation repository. Do not turn them into universal rules.
 
-**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
+## Establish the Current State
 
-Identify:
-1. **Target markets**: Priority languages/regions
-2. **Product type**: SaaS, AI tool, content
-3. **Technical stack**: Next.js, React, etc.
+Read root `contextus.md` when present. Build the evidence set from the production site, route or CMS inventory, navigation and internal links, sitemap, source repository, analytics, and search data as available. A sitemap alone is not a complete page inventory.
 
-## Localization vs. Translation
+Confirm:
 
-Localization includes:
-- **Product**: Features, UI/UX, cultural adaptation
-- **Pricing**: True localization (adjust by market) vs. cosmetic (currency only)
-- **Marketing**: Channels, content, user personas
-- **Compliance**: GDPR, local regulations
+- target markets, languages, and actual locale distinctions;
+- current and proposed public URL patterns;
+- default locale and whether it is prefixed;
+- which page types are localized, source-only, or market-specific;
+- content owner, glossary, review capacity, and update cadence;
+- current route, canonical, hreflang, sitemap, language-switcher, and fallback behavior;
+- existing indexed URLs that require redirects or compatibility handling.
 
-## Technical (i18n)
+When a site has thousands of same-template pages, inventory page types and representative examples rather than listing every URL.
 
-### URL Structure
+## Decide Whether a Locale Should Launch
 
-Choose one; be consistent:
+Prioritize a locale using evidence such as existing demand, search opportunity, conversion or revenue potential, competitive depth, payment and support readiness, compliance, and the team's ability to keep content current.
 
-| Option | Example | Pros / Cons |
-|--------|---------|-------------|
-| **Subdirectories** | `/en/`, `/de/`, `/zh/` | Recommended; maintains domain authority |
-| **Subdomains** | `de.example.com` | Separate hosting; less authority transfer |
-| **ccTLD** | `example.de` | Strongest geo signal; costly |
+Separate these decisions:
 
-- **Use subdirectories, not subdomains** for i18n; subdomains transfer less authority.
-- **Default locale**: Root path for default (e.g. `/` for English); prefix for others (`/zh/`, `/de/`).
-- **IETF BCP 47**: Use valid codes (`en`, `en-US`, `zh-CN`, `pt-BR`). Same language, different country (e.g. `de-DE` vs `de-AT`) needs ≥20% content difference for Google to differentiate.
+1. **Language support**: the interface or content is available in a language.
+2. **Locale support**: spelling, formats, currency, terminology, or product behavior differs.
+3. **Market entry**: pricing, payments, channels, proof, support, and compliance are ready for a geography.
 
-### i18n SEO Principles
+Do not create country-specific copies only because the countries differ. A new locale needs a maintained user or market distinction.
 
-- **No hardcoded strings**: All user-facing text via translation dictionary.
-- **Symmetric alternates**: Every locale page lists ALL other versions (including self-reference). ~75% of international sites have hreflang errors; missing reciprocal links is the most common.
-- **x-default**: Always include for fallback when user language/location doesn't match any version.
-- **Canonical alignment**: Canonical must match the same regional version hreflang refers to; misalignment causes Google to ignore hreflang.
-- **Full SEO coverage**: Metadata, OpenGraph, JSON-LD (`inLanguage`), and sitemap all locale-aware.
+## Define the Coverage Model
 
-### Common Issues (Next.js + next-intl)
+Create a page-type or route-family matrix with one state per locale:
 
-| Issue | Solution |
-|-------|----------|
-| Route conflict | `generateStaticParams()`; validate locale |
-| Auto redirect | `localeDetection: false` |
-| Middleware | Apply only to prefixed paths (e.g. `/zh`) |
-| URL duplication | Manual switcher; `getLocalizedHref()` |
+| State | Meaning | Public behavior |
+|---|---|---|
+| `source-current` | Source-language page is current | Source URL is public |
+| `translation-draft` | Work exists but is not approved | Preview or noindex only |
+| `localized-ready` | Content, terminology, facts, and metadata passed review | Locale URL may be indexed |
+| `outdated` | Source changed after localized approval | Keep, warn internally, and queue review according to risk |
+| `not-applicable` | Product or content does not apply to the market | Do not manufacture an alternate |
 
-### SEO
+Core product, pricing, checkout, legal, and high-intent pages require a stricter release gate than low-risk support or user-generated content. Do not publish a locale URL whose language shell hides source-language body content.
 
-- **Hreflang** on all language versions; self-reference + symmetric annotations.
-- **Language switcher**: Use `<a>` not `<button>`; links in initial HTML.
-- **Canonical**: Handle multi-domain if using local TLDs; align with hreflang.
-- **SPAs**: Use sitemap-based hreflang as backup when HTML head is JS-rendered. See **rendering-strategies**.
+## Choose URL and Routing Architecture
 
-## Keyword Research by Market
+Use stable, crawlable URLs for public localized pages. Subdirectories are often operationally simple, but subdomains or ccTLDs can be valid when hosting, ownership, regulation, or market operations justify them. Do not claim one structure is universally superior.
 
-| Market | Tool |
-|--------|------|
-| **Russia** | Yandex Wordstat |
-| **Korea** | Naver DataLab |
-| **Global** | Google Keyword Planner, SEO tools |
+Key invariants:
 
-Consider: Cultural expressions, search habits, competition, long-tail in small markets.
+- each indexable locale page has one stable public URL;
+- the URL, rendered language, `<html lang>`, navigation, metadata, and structured data describe the same locale;
+- a language switcher uses discoverable links and, when an equivalent exists, preserves the current page context;
+- user preferences may improve return visits but do not replace public locale URLs;
+- missing translations do not silently render source-language content under a localized URL;
+- canonical, hreflang, sitemap, internal links, and redirects agree on the public URL form.
 
-## Terminology & Translation
+Use BCP 47 language or locale identifiers appropriate to the real distinction. Do not invent regional variants merely for SEO.
 
-- **Translation workflow, glossary, style guide**: See **translation** for full workflow
-- **Avoid machine translation** for product/marketing: See **translation** (Human vs MT)
+## Coordinate Content Production
 
-## Pricing Strategies
+For each approved locale:
 
-| Strategy | Use |
-|----------|-----|
-| **True localization** | Adjust price by purchasing power |
-| **Cosmetic** | Display currency only; same price |
-| **Tools** | Parity Deals, Chargebee |
+1. Lock the source version and record page type, audience, intent, claims, constraints, and owner.
+2. Use **keyword-research** for the target market rather than translating source queries.
+3. Use **translation** to produce copy, glossary decisions, style guidance, and review evidence.
+4. Adapt examples, proof, pricing, payments, dates, units, imagery, and compliance only when verified for that market.
+5. Keep feature availability and legal statements tied to the actual locale or market.
+6. Mark the locale `localized-ready` only after content and implementation gates pass.
 
-## i18n SEO Checklist (New Feature / New Locale)
+Legal or regulated content requires subject-matter review. Translation must preserve parties, numbers, obligations, rights, jurisdiction, version precedence, and section correspondence unless authorized counsel changes them.
 
-### New feature with i18n
+## Migrate Existing Locale URLs
 
-1. Add translation keys to all locale JSON files. Use **translation** for glossary, style guide, and translation workflow.
-2. Add `generateMetadata()` with alternates (hreflang) per page.
-3. Add JSON-LD with `inLanguage` and translated fields.
-4. Add page to sitemap with hreflang annotations.
-5. Set `lang` attribute on `<html>`; UTF-8 encoding.
+When replacing query parameters, cookies, old prefixes, domains, or routing systems:
 
-### New locale
+1. Capture the current URL and behavior inventory, including indexed and externally linked variants.
+2. Freeze the target public URL policy and locale mapping.
+3. Map old URLs to the most equivalent new locale URLs.
+4. Add permanent redirects where the old public URL is being replaced; preserve relevant path and query state when safe.
+5. Update internal links, language switching, canonicals, hreflang, sitemaps, structured data, and analytics segmentation.
+6. Keep compatibility redirects until logs and search data show they are no longer needed; do not use an arbitrary universal retention period.
+7. Define rollback triggers and verify that rollback will not restore conflicting index signals.
 
-1. Add locale code to config; create `{code}.json` dictionary.
-2. Register in sitemap locale list; regenerate.
-3. Add OpenGraph `locale` and `alternateLocale`.
-4. Ensure all alternates are symmetric (every page lists all versions).
+Framework examples may be useful, but public URL and content-state invariants take precedence over a particular Next.js or i18n library configuration.
 
-### Multilingual Risks
+## Release Verification
 
-- **Batch publishing**: Too many translated pages at once can trigger de-indexing or thin-content penalties.
-- **Mitigation**: Roll out slowly; ensure content is product/industry relevant; avoid Wikipedia-like breadth; monitor indexing in GSC.
+Verify observable production behavior, not only configuration files:
 
-### Avoid
+- representative URLs for every page type and locale return the intended status;
+- initial HTML contains the correct language, title, description, canonical, and locale-aware structured data;
+- hreflang is reciprocal only among genuinely equivalent, published pages;
+- language switching reaches the corresponding page or clearly explains that no equivalent exists;
+- no locale URL renders mixed-language or source-language fallback as if localized;
+- sitemaps include only canonical, indexable, published locale URLs;
+- redirects are finite, preserve the intended destination, and do not expose duplicate public forms;
+- internal links remain inside the current locale where an equivalent target exists;
+- build, lint, route generation, and project-specific tests pass.
 
-- IP-based redirects that override user preferences.
-- Machine translation without localization for product/marketing (see **translation**).
-- Missing reciprocal hreflang between language versions.
-- Canonical tags that conflict with hreflang.
+Use representative samples for very large route sets and add automated checks for route families.
 
-## Output Format
+## Monitor and Expand
 
-- **Market** priority
-- **i18n** approach
-- **Keyword** strategy per market
-- **Pricing** recommendation
-- **Technical** checklist
-- **i18n SEO** checklist (if applicable)
+Measure by locale and market rather than only global totals: crawl/index coverage, impressions, clicks, conversions, activation, revenue, support load, and stale-content rate. Report cannibalization, wrong-locale ranking, or indexing conflicts; do not automatically restructure pages without authorization.
+
+Expand after the first locale demonstrates maintainable publishing and source-change synchronization. Volume alone is not success.
+
+## Output
+
+Provide only the artifacts the request needs, such as:
+
+- locale and market decision;
+- current-state findings;
+- coverage matrix and ownership;
+- URL or migration map;
+- phased implementation plan;
+- release and production-verification results;
+- unresolved product, legal, or market decisions.
+
+Do not create a new planning document when an existing project SSOT or implementation Skill can be updated.
 
 ## Related Skills
 
-- **pricing-strategy**: Base price structure; localization-strategy covers pricing by market
-- **page-metadata**: Hreflang implementation
-- **url-structure**: URL hierarchy for i18n (subdirectories, subdomains)
-- **content-strategy**: Multilingual content planning; avoid thin translations
-- **translation**: Translation workflow, glossary, style guide, human vs MT; produces content for localized pages
-- **navigation-menu-generator**: Language switcher SEO
-- **affiliate-marketing**: Local affiliates for target markets
-- **gtm-strategy**: New market entry; localization as GTM for new geography
+- **translation**: copy production, glossary, style, language review, and update workflow
+- **keyword-research**: target-market search language and intent
+- **page-metadata**, **canonical-tag**, **url-structure**: specialist SEO and URL implementation
+- **pricing-strategy**, **gtm-strategy**: market economics and entry planning
+- **navigation-menu-generator**: language switcher and discoverable navigation

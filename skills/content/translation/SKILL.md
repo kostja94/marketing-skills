@@ -1,222 +1,133 @@
 ---
 name: translation
-description: When the user wants to translate content, create translation workflows, manage terminology, or optimize translation quality. Also use when the user mentions "translate," "translation," "localization copy," "glossary," "terminology," "style guide translation," "machine translation," "human translation," "TMS," or "multilingual content." For strategy, use localization-strategy.
+description: Translate, transcreate, review, or maintain multilingual product and marketing content, including source locking, glossary decisions, language style, machine-assisted workflows, legal-content safeguards, QA, and source-change synchronization. Use localization-strategy for market scope, locale architecture, rollout, and production release planning.
 metadata:
-  version: 1.0.1
+  version: 2.0.0
 ---
 
-# Content: Translation
+# Translation
 
-Guides translation workflow, terminology, style, and quality for multilingual content. Covers when to use human vs machine translation, glossary and style guide creation, and SEO considerations. For i18n implementation, hreflang, and URL structure, see **localization-strategy**.
+Own the language-production lifecycle. Deliver natural, accurate target-language content without changing product facts, inventing market claims, or treating translated words as proof that a locale is ready to launch.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+## Boundaries
 
-## Scope
+- This skill owns translation, transcreation, terminology, style, linguistic review, and keeping translations current.
+- **localization-strategy** owns locale selection, page coverage, URL architecture, routing, rollout, and release verification.
+- **keyword-research** owns target-market queries. Never translate a source keyword list and call it localized research.
+- Project positioning, feature availability, legal facts, and approved terminology remain in their project SSOTs.
 
-- **Workflow**: Brief → translate → review
-- **Terminology**: Glossary creation and management
-- **Style guide**: Voice, tone, formatting per language
-- **Human vs MT**: When to use each; post-editing
-- **Quality**: QA, consistency, SEO
-- **Market-specific**: Terminology by region
+## Prepare the Source
 
-## Initial Assessment
+Read root `contextus.md` when present. Before translating, establish:
 
-**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
+- source version and owner;
+- content type and target locale or market;
+- user task, audience, tone, and channel;
+- product facts and claims that must remain unchanged;
+- approved terminology, forbidden terms, and terms intentionally left untranslated;
+- layout, UI, metadata, structured-data, or character constraints;
+- review level required by business, legal, safety, or conversion risk.
 
-Identify:
-1. **Content type**: Product UI, marketing copy, blog, landing page, docs
-2. **Target language(s)**: Priority locales
-3. **Existing assets**: Glossary, style guide, translation memory (TM)
+If the source is unstable or contradictory, report the conflict before producing many dependent translations.
 
----
+## Choose the Right Treatment
 
-## 1. Translation Workflow
+| Treatment | Use when | Main risk |
+|---|---|---|
+| Direct translation | Meaning and context transfer cleanly | Literal but unnatural phrasing |
+| Localization | Formats, examples, terminology, or market facts differ | Unverified adaptation |
+| Transcreation | Taglines, campaigns, landing-page persuasion, or cultural framing must change | Drifting from the product promise |
+| Machine-assisted translation with review | Volume is high and risk is controlled | Fluent factual or terminology errors |
+| Specialist translation | Legal, regulated, safety-critical, or technically exact material | Liability from semantic change |
 
-### Brief → Translate → Review
+Machine translation is a production method, not an automatic quality verdict. Match review depth to risk and page importance. Do not publish raw machine output merely because it reads fluently.
 
-| Phase | Purpose | Output |
-|-------|---------|--------|
-| **Brief** | Context, audience, tone, glossary reference, style guide | Translator brief document |
-| **Translate** | First pass; use glossary + TM when available | Draft translation |
-| **Review** | Native speaker review; consistency, brand voice, SEO | Final translation |
+## Maintain Terminology
 
-### Translator Brief
+Use one project termbase or glossary rather than embedding competing lists in multiple plans. Useful fields include:
 
-Include in every project:
-- **Context**: What the content is for (landing page, product UI, blog)
-- **Audience**: Target market, user persona
-- **Tone**: Formal, casual, technical
-- **Glossary**: Link or attach; mandatory terms
-- **Style guide**: Reference or key rules
-- **Constraints**: Character limits (UI), SEO keywords to include naturally
+- source term and approved target term;
+- definition or product context;
+- allowed variants and forbidden translations;
+- keep-untranslated decision;
+- locale or market scope;
+- owner and approval status.
 
-### Content-Type Workflow
+Distinguish brand names, registered entities, product features, technical standards, generic category terms, UI labels, and search-language variants. A search phrase may differ from the UI term; document the role rather than forcing one string everywhere.
 
-| Content Type | Approach | Notes |
-|--------------|----------|-------|
-| **Product UI** | Glossary-critical; short strings; consistency | Use TM; avoid machine translation |
-| **Marketing copy** | Brand voice; cultural adaptation | Human translation; see terminology |
-| **Blog / Article** | SEO; natural keyword placement | Re-research keywords in target language; don't translate keyword lists |
-| **Landing page** | Conversion-focused; CTA clarity | Human; test localized CTAs |
-| **Technical docs** | Precision; glossary | TM + glossary; consider MT + post-edit for high volume |
+## Translate by Content Type
 
----
+### Product UI
 
-## 2. Glossary & Terminology
+- preserve action, state, and error meaning;
+- check interpolation variables, plurals, gender, truncation, line wrapping, and RTL behavior;
+- review strings in screen context, not only in a spreadsheet;
+- keep the same concept named consistently across navigation, onboarding, billing, and help.
 
-### Glossary Purpose
+### Marketing and Landing Pages
 
-- **Consistency**: Same term translated the same way across all content
-- **Brand**: Product names, feature names, approved phrasing
-- **Compliance**: Safety, legal, regulated terms
-- **Cost**: Reduces rework; accelerates review
+- preserve the page's audience, product promise, evidence, and desired action;
+- use natural target-market phrasing and approved query language without keyword stuffing;
+- adapt examples, proof, CTA, and objection handling only when the market facts support the change;
+- keep Title, H1, description, body, and social copy semantically aligned without requiring identical strings.
 
-### Glossary Structure
+### Articles and Documentation
 
-| Field | Purpose |
-|-------|---------|
-| **Source term** | Original (e.g., English) |
-| **Target term** | Approved translation |
-| **Context** | Where it appears; usage note |
-| **Do not translate** | Brand names, product names (when applicable) |
+- preserve technical meaning, examples, code, citations, and internal-link intent;
+- localize headings and anchors only when the publishing system supports the resulting links;
+- keep source and localized update states visible so stale versions can be found.
 
-### Market-Specific Terminology
+### Legal and Regulated Content
 
-| Term | English | Chinese | Notes |
-|------|---------|---------|------|
-| **Generative AI** | Generative AI, GenAI | AIGC (人工智能生成内容) | Use "AIGC" for China; "Generative AI" for English |
-| **Influencer** | Influencer | KOL (关键意见领袖) | "KOL" common in Chinese marketing |
-| **User** | User | 用户 | Context-dependent |
-| **Dashboard** | Dashboard | 控制台, 仪表盘 | Choose one; document in glossary |
+- preserve section correspondence, parties, defined terms, numbers, dates, rights, obligations, prohibitions, governing law, and dispute terms;
+- do not add a “source language prevails” clause or change legal effect without authorized legal direction;
+- record unresolved ambiguity for counsel rather than silently choosing a convenient interpretation;
+- require specialist review before release.
 
-**Principle**: Don't translate terminology lists; research how target market searches and speaks. See **keyword-research** for multi-language keyword research.
+## Production Workflow
 
----
+1. Lock the source version and collect context.
+2. Load the project glossary and style guidance.
+3. Produce a first pass using the selected treatment.
+4. Run terminology, factual, completeness, and formatting checks.
+5. Review in the rendered product or page context.
+6. Complete native or specialist review at the required risk level.
+7. Mark the content ready and record its source version.
+8. When the source changes, calculate affected strings or sections, move the translation to `outdated`, and review only after understanding the semantic change.
 
-## 3. Style Guide (Translation)
+Suggested lifecycle states are `translation-draft`, `review`, `localized-ready`, `outdated`, and `not-applicable`. Use the project's existing state model when one exists.
 
-### Elements to Define
+## Quality Gates
 
-| Element | Purpose |
-|---------|---------|
-| **Voice** | Brand personality; formal vs casual |
-| **Tone** | Varies by content type (support = helpful; marketing = persuasive) |
-| **Register** | Formal (您) vs informal (你) in languages that distinguish |
-| **Punctuation** | Quotation marks, spacing (e.g., no space before colon in French) |
-| **Formatting** | Dates, numbers, units; locale-specific |
-| **Forbidden** | Terms or phrases to avoid |
+Check what matters for the artifact:
 
-### Per-Language Considerations
+- no missing or accidentally untranslated user-facing content;
+- approved terms and intentional untranslated terms are respected;
+- claims, numbers, links, entities, prices, and feature availability match verified facts;
+- grammar, register, punctuation, dates, numbers, units, and address formats suit the locale;
+- UI variables, markup, links, and code remain valid;
+- metadata and headings match the localized page intent;
+- the rendered page has no clipping, mixed-language fallback, broken RTL, or inaccessible controls;
+- the source version and approval state are traceable.
 
-- **Chinese**: Simplified vs Traditional; measure word usage
-- **German**: Formal (Sie) vs informal (du); compound nouns
-- **Japanese**: Honorifics; keigo for formal contexts
-- **Arabic**: RTL; formal vs dialect
+For large inventories, test every template and risk tier plus representative pages; do not pretend a small sample proves every page correct.
 
----
+## Output
 
-## 4. Human vs Machine Translation
+Return the requested translation or review result plus only the supporting artifacts needed, such as:
 
-### When to Use Human Translation
+- translator brief;
+- approved and unresolved terminology decisions;
+- translated or transcreated copy;
+- issues requiring product, legal, or market decisions;
+- QA and rendered-context findings;
+- source-version and update-status notes.
 
-| Scenario | Reason |
-|----------|--------|
-| **Product UI** | Terminology, UX clarity, brand |
-| **Marketing copy** | Persuasion, cultural nuance, CTAs |
-| **Landing pages** | Conversion; tested copy |
-| **Legal, compliance** | Accuracy, liability |
-| **Brand-critical** | Taglines, campaign copy |
-
-### When Machine Translation (MT) May Be Acceptable
-
-| Scenario | Condition |
-|----------|-----------|
-| **High-volume, low-stakes** | Internal docs, user-generated content |
-| **Draft / triage** | MT + human post-edit (MTPE) |
-| **Real-time** | Chat, support; with disclaimer |
-
-### Avoid
-
-- **Raw MT for product/marketing**: Terminology errors, cultural misfires, poor SEO
-- **MT without post-edit** for customer-facing content
-- **Translating keyword lists** instead of re-researching in target language
-
----
-
-## 5. Translation Memory (TM) & TMS
-
-### Translation Memory
-
-- **What**: Stores approved source↔target sentence pairs
-- **Benefit**: Consistency; reuse; lower cost per word; faster turnaround
-- **Best practice**: Maintain TM; clean duplicates; align with glossary
-
-### Translation Management System (TMS)
-
-- **Use for**: Centralized workflow; glossary + TM integration; vendor management
-- **When**: Multiple languages; ongoing translation; team collaboration
-
----
-
-## 6. Quality & SEO
-
-### Quality Checklist
-
-- [ ] Glossary terms used correctly
-- [ ] Style guide followed
-- [ ] No untranslated strings
-- [ ] Numbers, dates, units localized
-- [ ] Character limits respected (UI)
-- [ ] Native speaker review completed
-
-### SEO for Translated Content
-
-- **Keywords**: Re-research in target language; don't translate from source
-- **Metadata**: Title, description translated; see **title-tag**, **meta-description**
-- **Hreflang**: Technical implementation in **localization-strategy**; translation produces the content
-- **Thin content**: Avoid publishing many low-quality translated pages at once; can trigger penalties. See **localization-strategy** Multilingual Risks.
-
----
-
-## 7. Integration with Localization
-
-| Topic | Skill |
-|-------|-------|
-| **i18n implementation** | localization-strategy |
-| **URL structure, hreflang** | localization-strategy |
-| **Translation workflow, glossary, style** | This skill (translation) |
-| **Keyword research by market** | keyword-research; localization-strategy |
-
-When adding a new locale: create glossary, style guide, then translate. See **localization-strategy** for technical checklist (hreflang, sitemap, metadata).
-
----
-
-## Output Format
-
-- **Translator brief** (context, audience, glossary, style)
-- **Glossary** additions or updates
-- **Style guide** notes for target language
-- **Human vs MT** recommendation
-- **Quality** checklist
+Do not create a new translation-plan document when an existing project context, glossary, CMS workflow, or Skill should be updated.
 
 ## Related Skills
 
-### Strategy & Technical
-
-- **localization-strategy**: i18n, hreflang, URL structure, pricing by market; translation produces content for localized pages
-- **content-strategy**: Multilingual content planning; avoid thin translations
-- **content-marketing**: Content types and formats; translation as one channel adaptation
-
-### SEO & Content
-
-- **keyword-research**: Multi-language keyword research; don't translate keyword lists
-- **page-metadata**: Hreflang implementation
-- **title-tag, meta-description**: Translate metadata per locale
-- **copywriting**: Source copy to translate; brand voice
-- **image-optimization**: Localize image filenames for translated pages
-
-### Pages
-
-- **article-page-generator**: Article structure; translate with SEO in mind
-- **landing-page-generator**: Landing page copy; human translation for conversion
+- **localization-strategy**: locale scope, architecture, migration, rollout, and production validation
+- **keyword-research**: target-market queries and search intent
+- **page-metadata**, **title-tag**, **meta-description**, **heading-structure**: localized search and page copy
+- **copywriting**, **content-optimization**: source and target copy quality

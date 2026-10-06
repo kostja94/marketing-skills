@@ -66,7 +66,7 @@ Paths: Content `skills/content/`. Paid Ads `skills/paid-ads/{platforms,formats}/
 | [copywriting](../skills/content/copywriting/) | Headlines, CTAs, ad copy, landing page copy; PAS, AIDA, BAB frameworks; short-form conversion copy |
 | [video-marketing](../skills/content/video/) | Short-form and long-form video scripts; hooks; platform optimization |
 | [visual-content](../skills/content/visual-content/) | Visual content planning; images for social, infographics, repurposing; cross-channel specs |
-| [translation](../skills/content/translation/) | Translation workflow, glossary, style guide; human vs MT; terminology by market |
+| [translation](../skills/content/translation/) | Translation and transcreation lifecycle; terminology, risk-based review, legal safeguards, QA, and source-change synchronization |
 | [podcast-marketing](../skills/content/podcast/) | Podcast strategy, distribution, SEO, repurposing |
 | [google-ads](../skills/paid-ads/platforms/google-ads/) | Google Ads: Search, Display, Performance Max; Quality Score; keyword bidding |
 | [meta-ads](../skills/paid-ads/platforms/meta-ads/) | Meta (Facebook/Instagram) Ads: campaign structure, lookalike, creative |
@@ -165,7 +165,7 @@ Paths: Channels `skills/channels/{partnerships,community,owned,distribution}/`. 
 | [generative-engine-optimization](../skills/strategies/commercial/geo/) | GEO/AEO for AI search visibility |
 | [open-source-strategy](../skills/strategies/commercial/open-source/) | Open source commercialization; GitHub, DevHunt, open core |
 | [integrated-marketing](../skills/strategies/brand/integrated-marketing/) | IMC, PESO, program vs channel vs campaign |
-| [localization-strategy](../skills/strategies/commercial/localization/) | Localization strategy, i18n, multilingual |
+| [localization-strategy](../skills/strategies/commercial/localization/) | Locale selection, coverage, URL architecture and migration, rollout, production validation, and monitoring |
 | [pmf-strategy](../skills/strategies/launch/pmf/) | Product-market fit validation; Sean Ellis 40% test |
 | [gtm-strategy](../skills/strategies/launch/gtm/) | GTM strategy: PLG/SLG/MLG modes; 90-day framework |
 | [domain-selection](../skills/strategies/commercial/domain/domain-selection/) | Domain choice: Brand vs PMD vs EMD, TLD |

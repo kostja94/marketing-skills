@@ -17,6 +17,13 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [2026-10-06] v2.8.0
+
+### Changed
+
+- **localization-strategy** - Upgraded the existing skill into the end-to-end locale decision, coverage, URL migration, rollout, production verification, and monitoring workflow.
+- **translation** - Added source locking, risk-based machine-assisted translation, terminology ownership, legal safeguards, rendered-context QA, and source-change synchronization.
+
 ## [2026-10-06] v2.7.0
 
 ### Changed

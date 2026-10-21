@@ -6,7 +6,7 @@
 
 **Marketing Skills** is an open-source library of reusable marketing and SEO workflows for AI agents. Install the skills your task needs, provide real product context, and get structured work grounded in explicit methods, checks, and source rules.
 
-The library covers technical and on-page SEO, research, content, channels, paid advertising, launch and commercial strategy, platforms, and analytics. Page construction routes to [Pagina](https://github.com/kostja94/pagina); interface component construction routes to [Bricks](https://github.com/kostja94/bricks).
+The library covers technical and on-page SEO, research, content, channels, paid advertising, launch and commercial strategy, and platforms. Page construction routes to [Pagina](https://github.com/kostja94/pagina); interface component construction routes to [Bricks](https://github.com/kostja94/bricks); analytics methods and execution route to [Open Analytics](https://github.com/kostja94/open-analytics).
 
 > **Marketing methods for agents. Project truth stays with the project.**
 
@@ -50,7 +50,7 @@ Install two or three relevant skills when the task is known instead of loading t
 | Research keywords, competitors, or content opportunities | `keyword-research`, `competitor-research`, `content-strategy` |
 | Plan launch, positioning, pricing, or acquisition | `product-launch`, `gtm-strategy`, `pricing-strategy`, `cold-start-strategy` |
 | Plan paid acquisition | `paid-ads-strategy` plus the relevant platform skill |
-| Track search and AI traffic | `analytics-tracking`, `google-search-console`, `ai-traffic-tracking` |
+| Track search and AI traffic | [Open Analytics](https://github.com/kostja94/open-analytics): `analytics-tracking`, `google-search-console`, `ai-traffic-tracking` |
 | Build a complete page | [Pagina](https://github.com/kostja94/pagina) `page-builder` |
 | Build an interface component | [Bricks](https://github.com/kostja94/bricks) `component-builder` |
 
@@ -73,7 +73,7 @@ The skills do not replace product facts, professional judgment, platform access,
 
 ## Library scope
 
-The repository currently contains **170+ installable entries across 9 top-level categories**. That total includes active marketing skills and compatibility entries for page and component names that have moved to Pagina and Bricks.
+The repository currently contains **170+ installable entries across 9 top-level categories**. That total includes active marketing skills and compatibility entries for page, component, and analytics names maintained in Pagina, Bricks, and Open Analytics.
 
 | Category | Maintained responsibility |
 |---|---|
@@ -83,7 +83,7 @@ The repository currently contains **170+ installable entries across 9 top-level 
 | **Channels** | Affiliate, email, influencer, referral, directories, community, and PR |
 | **Platforms** | X, Reddit, LinkedIn, TikTok, YouTube, Medium, Pinterest, GitHub, and Grokipedia |
 | **Strategies** | Launch, brand, SEO structure, pricing, domain, localization, GEO, GTM, and PMF |
-| **Analytics** | Traffic, tracking, Search Console, SEO monitoring, and AI traffic |
+| **Analytics** | Compatibility entries; traffic, tracking, Search Console, SEO monitoring, and AI traffic are maintained in Open Analytics |
 | **Pages** | Compatibility entries routing complete page construction to Pagina |
 | **Components** | Compatibility entries routing interface components to Bricks; brand visual, favicon, and URL slug remain here |
 
@@ -96,19 +96,21 @@ Contextus
 durable product and project truth
         ↓
 Marketing Skills
-SEO · content · channels · ads · strategy · analytics
+SEO · content · channels · ads · strategy
         ├── complete page construction → Pagina
-        └── interface component construction → Bricks
+        ├── interface component construction → Bricks
+        └── analytics methods and execution → Open Analytics
 ```
 
 | Project | Single source of truth |
 |---|---|
 | [Contextus](https://github.com/kostja94/contextus) | Durable organization, product, audience, brand, website, technical, decision, and change context |
-| **Marketing Skills** | Reusable marketing, SEO, channel, platform, strategy, and analytics methods |
+| **Marketing Skills** | Reusable marketing, SEO, channel, platform, and strategy methods |
 | [Pagina](https://github.com/kostja94/pagina) | Complete page responsibilities, composition, states, and verification |
 | [Bricks](https://github.com/kostja94/bricks) | Interface component responsibilities, variants, boundaries, and verification |
+| [Open Analytics](https://github.com/kostja94/open-analytics) | Analytics methods, data contracts, source adapters, workflows, and reporting |
 
-These repositories work independently. Compatibility entries preserve old skill names without creating duplicate page or component guidance.
+These repositories work independently. Compatibility entries preserve old skill names without creating duplicate page, component, or analytics guidance.
 
 ## Project context
 

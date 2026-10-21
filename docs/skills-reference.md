@@ -126,7 +126,7 @@ Component construction is maintained in [Bricks](https://github.com/kostja94/bri
 
 ### Channels, Platforms, Strategies, Analytics
 
-Paths: Channels `skills/channels/{partnerships,community,owned,distribution}/`. Platforms `skills/platforms/`. Analytics `skills/analytics/{sources,seo,tracking}/`.
+Paths: Channels `skills/channels/{partnerships,community,owned,distribution}/`. Platforms `skills/platforms/`. Analytics compatibility pointers `skills/analytics/{sources,seo,tracking}/`; maintained instructions are in [Open Analytics](https://github.com/kostja94/open-analytics).
 
 | Skill | Description |
 |-------|-------------|
@@ -178,11 +178,11 @@ Paths: Channels `skills/channels/{partnerships,community,owned,distribution}/`. 
 | [product-launch](../skills/strategies/launch/product-launch/) | Product launch execution |
 | [research-sources](../skills/strategies/launch/research-sources/) | Information sources for market research |
 | [retention-strategy](../skills/strategies/launch/retention/) | Churn prevention, lifecycle marketing |
-| [traffic-analysis](../skills/analytics/sources/traffic/) | Traffic sources, dark traffic, UTM attribution |
-| [ai-traffic-tracking](../skills/analytics/sources/ai-traffic/) | Track AI search traffic in GA4 and GSC |
-| [google-search-console](../skills/analytics/seo/google-search-console/) | GSC analysis, indexing, Core Web Vitals |
-| [seo-monitoring](../skills/analytics/seo/seo-monitoring/) | SEO data analysis, benchmark |
-| [analytics-tracking](../skills/analytics/tracking/) | GA4, event tracking, conversions |
+| [traffic-analysis](../skills/analytics/sources/traffic/) | Moved to Open Analytics; old name and path retained |
+| [ai-traffic-tracking](../skills/analytics/sources/ai-traffic/) | Moved to Open Analytics; old name and path retained |
+| [google-search-console](../skills/analytics/seo/google-search-console/) | Moved to Open Analytics; old name and path retained |
+| [seo-monitoring](../skills/analytics/seo/seo-monitoring/) | Moved to Open Analytics; old name and path retained |
+| [analytics-tracking](../skills/analytics/tracking/) | Moved to Open Analytics; old name and path retained |
 
 ---
 
@@ -264,7 +264,7 @@ Marketing and SEO inputs -> Pagina page contract -> Bricks components -> project
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │  Components (used in Pages) · Analytics                                     │
 │  navigation/ · content/ (tab-accordion · howto-section) · conversion/ · branding/ · layout/ · utility/ │
-│  traffic-analysis · analytics-tracking · seo-monitoring · ai-traffic · GSC   │
+│  Analytics entries point to Open Analytics; methods are maintained there   │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 

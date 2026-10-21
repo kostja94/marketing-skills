@@ -88,10 +88,10 @@ skills/
 |   |-- brand/            # Branding, rebranding, brand-protection, content-marketing, integrated
 |   |-- commercial/       # Domain, pricing, GEO, localization, paid-ads
 |   +-- structure/        # SEO strategy, seo-audit, website-structure
-+-- analytics/            # Traffic, tracking, seo-monitoring
-    |-- sources/          # Traffic, AI traffic
-    |-- seo/              # SEO monitoring, Search Console
-    +-- tracking/         # GA4, event tracking
++-- analytics/            # Compatibility pointers to Open Analytics
+    |-- sources/          # Traffic and AI traffic pointers
+    |-- seo/              # SEO monitoring and GSC pointers
+    +-- tracking/         # GA4 tracking pointer
 ```
 
 The CLI supports **recursive discovery**; `SKILL.md` files in nested directories are found automatically.

@@ -193,7 +193,7 @@ Skills are **plain markdown**. Use them with any LLM that accepts text input.
 | **Image / Video** | — | New skills: image generation prompts, video script/storyboard |
 | **Marketing (Influencer)** | `influencer-marketing`, `creator-program`, `twitter-x-posts`, `tiktok-captions`, `linkedin-posts` | Campaign briefs, creator discovery criteria |
 | **Marketing (Ads)** | `paid-ads-strategy` | Ad copy, landing page alignment, ROAS optimization |
-| **Analytics** | `analytics-tracking`, `google-search-console`, `ai-traffic-tracking`, `traffic-analysis` | Dashboard design, report templates |
+| **Analytics** | [Open Analytics](https://github.com/kostja94/open-analytics): `analytics-tracking`, `google-search-console`, `ai-traffic-tracking`, `traffic-analysis` | Dashboard design, report templates |
 | **Content** | `keyword-research`, `content-strategy`, `content-optimization` | Editorial workflows, content repurposing |
 
 ---

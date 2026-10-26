@@ -16,7 +16,7 @@ Guides URL structure optimization for SEO: readability, hierarchy, and best prac
 - **URL hierarchy**: Path structure, categories, depth
 - **URL format**: Static vs dynamic; omit file extensions
 - **URL slug**: See **url-slug-generator** for slug creation (3–5 words, under 60 chars)
-- **Duplicate variants**: See **canonical-tag** for HTTPS, www, trailing slash
+- **Duplicate variants**: Route protocol, host, slash, default-document, extension, case, and tracking variants to **canonical-tag**
 
 ## Initial Assessment
 
@@ -70,14 +70,9 @@ Identify:
 - **Omit** `.html`, `.php`, `.aspx` — keeps URLs technology-agnostic, shorter, easier to refactor
 - **Example**: `/seo-guide` not `/seo-guide.html`
 
-### URL Parameter Handling
+### URL Parameter Boundary
 
-| Scenario | Approach |
-|----------|----------|
-| **UTM / tracking** | Canonical to base URL; params in query string only |
-| **Search results** | Canonical to search page; avoid indexing result URLs |
-| **Filters / sort** | Canonical to base; or **robots-txt** Clean-param |
-| **Session IDs** | Use cookies; never in indexable URLs |
+Use parameters only when they represent a real function. Route duplicate-page decisions for UTM, tracking, sorting, filtering, sessions, and other parameter variants to **canonical-tag**; do not assume every parameterized URL should canonicalize to the base page.
 
 ### Use Cases
 
@@ -93,8 +88,8 @@ Identify:
 | Issue | Fix |
 |-------|-----|
 | Long URLs | Shorten; remove redundant words |
-| Dynamic params | Use canonical; clean params in robots (Yandex Clean-param) |
-| Mixed case | Redirect to lowercase |
+| Dynamic params | Decide whether they change page identity; use **canonical-tag** for duplicate variants |
+| Mixed case | Prefer lowercase for new URLs; use **canonical-tag** before consolidating existing routes |
 | Changed URLs | 301 redirect old to new |
 
 ## Output Format
@@ -109,7 +104,7 @@ Identify:
 
 - **website-structure**: Plan structure and URL paths; apply url-structure rules after structure is defined
 
-- **canonical-tag**: HTTPS, www, trailing slash — handles duplicate URL variants
+- **canonical-tag**: Audits and consolidates duplicate URL identities across protocol, host, slash, default documents, extensions, case, and tracking parameters
 - **url-slug-generator**: Slug creation for content pages; length, keywords, format
 - **category-page-generator**: E-commerce category URL hierarchy, faceted URLs
 - **products-page-generator**: Product URL hierarchy

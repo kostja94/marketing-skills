@@ -1,124 +1,126 @@
 ---
 name: canonical-tag
-description: When the user wants to configure canonical URLs, fix duplicate content, or consolidate URL signals. Also use when the user mentions "canonical," "canonical URL," "duplicate content," "duplicate content fix," "preferred URL," or "URL consolidation." For GSC duplicates, use google-search-console.
+description: Audit and fix duplicate-page canonicalization across protocol, host, slash, default-document, extension, case, and tracking-parameter URL variants. Use for canonical URLs, duplicate content, preferred URLs, URL consolidation, or conflicting canonical signals. For URL naming and hierarchy design, use url-structure.
 metadata:
-  version: 1.0.1
+  version: 1.1.0
 ---
 
-# SEO Technical: Canonical
+# SEO Technical: Canonicalization
 
-Guides canonical tag configuration to consolidate duplicate content and declare preferred URLs.
+Determine the preferred URL for each page identity, consolidate duplicate variants, and verify that redirects, canonical annotations, internal links, sitemaps, and localization signals agree.
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+## Scope
 
-## Scope (Technical SEO)
+Treat these as one duplicate-page canonicalization problem when they expose the same or substantially similar primary content:
 
-- **Duplicate site versions**: HTTPS vs HTTP; www vs non-www; trailing slash (/page vs /page/) — choose one, 301 redirect others
-- **Duplicate content**: Canonical tags; consolidate and 301 to preferred URL
-- **HTTPS**: SSL/TLS; secure connection; ranking signal since 2014
+- HTTP and HTTPS;
+- www and non-www hosts, including combined protocol/host variants;
+- trailing-slash and non-trailing-slash paths;
+- repeated path slashes such as `/docs//guide`;
+- directory defaults such as `/docs/` and `/docs/index.html`;
+- historical extensions such as `/guide.html` and `/guide`;
+- case variants such as `/Guide` and `/guide`;
+- UTM and other tracking parameters that do not change primary content.
 
-## Initial Assessment
+Do not assume that similar-looking URLs are duplicates. Case, parameters, extensions, and slash behavior can identify different resources. Compare response behavior, primary content, and project intent before consolidating.
 
-**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
+## Inputs and Context
 
-Identify:
-1. **Site URL**: Base domain
-2. **Duplicate scenarios**: Multi-language, query params, pagination, alternate URLs
-3. **Framework**: Next.js, React, static, etc.
+Read root `contextus.md` when present and only the modules relevant to the task. Otherwise use project configuration, routing code, deployment rules, sitemaps, and user-provided facts. Establish:
 
-## Canonicalization Methods (Choose by Scenario)
+1. preferred scheme and host;
+2. preferred path conventions;
+3. which parameters change content versus only attribution or presentation;
+4. framework, origin server, CDN, and redirect ownership;
+5. existing indexed URLs, backlinks, migrations, and localization rules when relevant.
 
-| Method | When | Strength |
-|--------|------|----------|
-| **301 redirect** | Preferred; server can redirect | Strongest — permanent redirect |
-| **Canonical tag** | Cannot redirect (e.g. params, pagination) | Strong — HTML signal |
-| **robots.txt** | Block non-canonical paths | Weak — advisory only |
+Ask only for missing information that would change the preferred URL or make a redirect unsafe.
 
-Use 301 for HTTP→HTTPS, www variants, trailing slash. Use canonical for params, pagination, UTM.
+## Decision Rules
 
-## HTTPS & Security
+| Situation | Primary action |
+|---|---|
+| Duplicate URL should no longer remain accessible | Permanent server-side redirect to the final preferred URL |
+| Duplicate or near-duplicate must remain accessible | `rel="canonical"` to the preferred URL |
+| Canonical HTML page | Self-referencing canonical |
+| Non-HTML duplicate such as a PDF | Canonical HTTP `Link` header when supported |
+| Tracking parameter that must reach analytics | Keep the landing request if needed; canonical to the content URL without tracking parameters |
+| Parameter changes primary content or search intent | Evaluate as a separate page; do not strip or canonicalize mechanically |
+| Pagination | Give each page a crawlable URL and evaluate it as distinct content; do not canonicalize every page to page 1 |
+| Language or regional variant | Canonical within the appropriate language identity and coordinate with `hreflang` |
 
-HTTPS is a ranking signal ([Google, 2014](https://developers.google.com/search/blog/2014/08/https-as-ranking-signal)). Users and crawlers should access only the HTTPS version.
+Use redirects to retire duplicate access paths. Use canonical annotations when access must remain. Do not use `robots.txt`, the removal tool, or `noindex` as substitutes for canonicalization.
 
-| Requirement | Action |
-|-------------|--------|
-| **SSL/TLS certificate** | Install valid certificate; use Let's Encrypt for free |
-| **301 redirect** | HTTP → HTTPS; all HTTP requests redirect to HTTPS |
-| **Mixed content** | No HTTP resources on HTTPS pages; fix mixed content warnings |
-| **HSTS** | Optional; `Strict-Transport-Security` header for repeat visitors |
+## Variant Audit Matrix
 
-**WWW vs non-WWW**: Choose one preferred version; 301 redirect the other. See canonical rules above.
+Generate applicable test cases from the real site rather than testing one example only.
 
-## When to Use Canonical
+| Dimension | Variants to test | Expected invariant |
+|---|---|---|
+| Scheme | `http`, `https` | Non-preferred scheme reaches preferred HTTPS URL |
+| Host | `www`, apex, known aliases | Non-preferred hosts reach one preferred host |
+| Scheme + host | all supported combinations | Each duplicate reaches the same final URL without a redirect chain |
+| Trailing slash | `/page`, `/page/` | One convention for the same page identity |
+| Repeated slash | `/a//b`, `/a/b` | Duplicate path normalizes without corrupting `://` |
+| Default document | `/`, `/index.html`; `/docs/`, `/docs/index.html` | Default-document aliases converge when content is equivalent |
+| Extension | `/guide.html`, `/guide` | Historical alias maps to the corresponding page, not the homepage |
+| Case | `/Guide`, `/guide` | Equivalent paths converge; genuinely case-distinct resources remain distinct |
+| Tracking | base URL plus `utm_*`, `gclid`, or project tracking keys | Attribution works as required; content identity remains the clean URL |
+| Combinations | case + extension + tracking + host/scheme variants | Normalize directly to one destination where safe |
 
-- **Multi-language**: Each language version has its own canonical; use **hreflang** with canonical
-- **Same content, multiple URLs**: Params, pagination, tracking params, www vs non-www, trailing slash (/page vs /page/)
-- **Self-referencing**: Canonical should point to self or the preferred version
-- **Avoid chain canonical**: A→B→C is invalid
+Do not invent routes or send mutation requests during an audit. Use read-only requests unless the user asks to implement fixes.
 
-## Rules
+## Signal Consistency
 
-| Rule | Note |
-|------|------|
-| **Absolute URL** | Include `https://` |
-| **Consistency** | Must match current page URL or the chosen preferred version |
-| **No chains** | A→B→C is invalid |
+For every preferred URL, verify:
 
-## Implementation Patterns
+- redirect targets, HTML canonical or canonical HTTP header;
+- internal navigation and content links;
+- XML sitemap entries;
+- `hreflang` URLs and return links when applicable;
+- structured-data URLs and feeds when they identify the page;
+- framework-generated metadata and client-side code do not overwrite the source canonical.
 
-### Next.js (metadata)
+Canonical targets must be absolute, fetchable, indexable, and appropriate for the same content identity. Avoid canonical chains and conflicting targets across methods.
 
-```tsx
-export const metadata = {
-  alternates: {
-    canonical: "https://example.com/page-slug",
-    languages: {
-      zh: "https://example.com/zh/page-slug",
-      en: "https://example.com/page-slug",
-      "x-default": "https://example.com/page-slug",
-    },
-  },
-};
-```
+## Verification
 
-### HTML (generic)
+Record evidence for representative URLs and high-risk templates:
 
-```html
-<link rel="canonical" href="https://example.com/page-slug" />
-```
+1. requested URL;
+2. HTTP status and each redirect hop;
+3. final URL;
+4. source canonical target;
+5. indexability and content-equivalence result;
+6. sitemap, internal-link, and `hreflang` consistency;
+7. pass, fail, or needs-decision status.
 
-### Server Redirects (301)
+Confirm that retired variants reach their corresponding preferred page in one hop where infrastructure permits. A final `200` alone is insufficient: the final URL and canonical must also be correct. For Google-specific diagnosis, compare the user-declared and Google-selected canonicals in URL Inspection when access is available.
 
-**Apache (.htaccess)**:
-```apache
-RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-```
+## Implementation Boundaries
 
-**Nginx**:
-```nginx
-return 301 https://$host$request_uri;
-```
+Implement in the layer that owns the behavior: CDN or reverse proxy for host/scheme normalization, server/router for paths, and page metadata for canonical annotations. Preserve query parameters needed for attribution or product behavior; remove only parameters confirmed not to affect the destination.
 
-## Relationship to Other Technical SEO
+When changing live URLs, provide a mapping and rollback-aware implementation plan. Do not apply redirects to production, alter DNS, or change indexing controls without the user's authorization.
 
-- **Sitemap**: URLs in sitemap should match canonical
-- **IndexNow**: Submit canonical URLs
+## Output
 
-## Output Format
+Return:
 
-- **Canonical URL** for each page type
-- **Implementation** (metadata or HTML)
-- **Multi-language** setup if applicable
-- **References**: [Alignify URL optimization](https://alignify.co/zh/seo/url-optimization); [Google Canonical](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)
+- the preferred scheme, host, and path conventions;
+- duplicate clusters and the evidence that they represent the same page;
+- a variant matrix with current and expected behavior;
+- the selected method for each cluster: redirect, canonical, separate page, or needs decision;
+- implementation location and exact proposed change when requested;
+- verification results and unresolved risks.
+
+References: [Google canonicalization](https://developers.google.com/search/docs/crawling-indexing/canonicalization), [canonical methods](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls), [redirects](https://developers.google.com/search/docs/crawling-indexing/301-redirects), and [URL structure](https://developers.google.com/search/docs/crawling-indexing/url-structure).
 
 ## Related Skills
 
-- **url-structure**: URL hierarchy and format; canonical handles duplicate variants (HTTPS, www, trailing slash)
-- **localization-strategy**: hreflang + canonical for multi-language
-- **xml-sitemap**: Sitemap URLs should match canonical
-- **indexnow**: Submit canonical URLs
-- **google-search-console**: Find duplicate content in Coverage report
-- **indexing**: Resolve indexing issues
-- **site-crawlability**: Crawl budget; redirect chains; canonical reduces duplicate crawl waste
+- **url-structure**: Design readable hierarchy and format for new canonical URLs.
+- **localization-strategy**: Coordinate canonical and `hreflang` for localized pages.
+- **xml-sitemap**: Publish only canonical indexable URLs.
+- **indexing**: Diagnose indexability and selected-canonical issues.
+- **site-crawlability**: Inspect crawl waste, redirect chains, and response behavior.
+- **google-search-console**: Inspect Google-selected canonicals when property access exists.

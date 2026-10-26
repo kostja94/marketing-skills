@@ -14,7 +14,7 @@ Complete skill list, page taxonomy, and dependency maps. See [README](../README.
 |-------|-------------|
 | [robots-txt](../skills/seo/technical/robots/) | Configure and audit robots.txt, AI crawler rules |
 | [xml-sitemap](../skills/seo/technical/sitemap/) | Create, audit, and optimize sitemap.xml |
-| [canonical-tag](../skills/seo/technical/canonical/) | Configure canonical URLs, fix duplicate content |
+| [canonical-tag](../skills/seo/technical/canonical/) | Audit and consolidate duplicate URL variants and conflicting canonical signals |
 | [indexing](../skills/seo/technical/indexing/) | Fix indexing issues, noindex page-type list, Search Console |
 | [indexnow](../skills/seo/technical/indexnow/) | Implement IndexNow for faster Bing indexing |
 | [site-crawlability](../skills/seo/technical/crawlability/) | Redirect chains, broken links, site structure, orphan pages, pagination |

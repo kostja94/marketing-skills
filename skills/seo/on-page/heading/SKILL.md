@@ -2,7 +2,7 @@
 name: heading-structure
 description: When the user wants to write or optimize H1-H6, fix heading hierarchy, improve content structure, rewrite an H1, or align headings with page intent. This skill owns actual heading changes; page-metadata may only check and report metadata-to-heading alignment.
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
 
 # SEO On-Page: Heading Structure
@@ -45,6 +45,17 @@ Identify:
 | **Scannable** | Headings should summarize section content |
 | **Keyword variation** | Use related keywords in subheadings |
 
+### Clarity, Consistency and Specificity
+
+- Optimize first for a reader who scans the headings: each heading should make the section's subject immediately clear. SEO phrasing supports that purpose.
+- Reuse structural headings across the same page family when they describe equivalent sections. Consistency is useful; repeated wording alone is not a defect.
+- Keep concise labels such as `FAQ` and `Related Investors` when they are sufficient. Do not expand a label merely to add words or manufacture uniqueness.
+- Add the entity and relevant topic when they improve identification: `Sequoia Capital’s AI Portfolio`, `Sequoia Capital’s Investment Philosophy`, or `Mistral AI’s Company History`. These are examples, not required sections or universal templates.
+- Front-load the entity or primary search concept when the result reads naturally. Skip keyword insertion when it adds repetition, awkwardness or an unsupported promise. Do not impose a heading word-count target.
+- Distinguish reusable structure from content-specific meaning. Specific analytical subsections should name their actual subject; do not rotate synonyms just to pass a swap test.
+- Match the body’s scope: a selected portfolio must not imply a complete portfolio; a short company introduction must not be relabeled as a company history or investment philosophy without that content.
+- When headings are generated from shared components, keep reusable phrasing in one maintained configuration and interpolate canonical entity names. Use editorial overrides only for a real difference in content, not cosmetic variation.
+
 ### Structure
 
 ```
@@ -63,14 +74,15 @@ H1 (page title)
 |-------|-----|
 | Multiple H1s | Confirm the template and accessibility semantics; prefer one clear primary H1, but do not present extra H1s as an automatic ranking failure |
 | Visual styling encoded as hierarchy | Keep semantic level based on structure and style it separately |
-| Generic headings | Make descriptive; avoid "Introduction," "Conclusion" |
+| Vague content headings | Name the actual subject; preserve useful structural labels such as "FAQ" rather than expanding them mechanically |
 | Keyword stuffing | Natural language; avoid forced keywords |
 
 ## Output Format
 
-- **H1** recommendation (with keyword)
+- **H1** recommendation (with the primary concept when natural)
 - **H2-H6** outline for content
 - **Hierarchy** check
+- **Reuse and specificity**: identify shared page-family headings and content-specific overrides; flag only misleading repetition or unsupported claims
 - **References**: [Google headings](https://developers.google.com/search/docs/appearance/title-link)
 
 ## Related Skills

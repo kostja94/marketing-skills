@@ -14,3 +14,6 @@ Reuse a page that serves the task. Improve it for a supported task with missing 
 Return cluster, current URL (or proposed asset type), action, rationale and required verification. Send implementation to the relevant page or content skill. Keep redirects, publishing and content production as separate decisions.
 
 When assets are unavailable, return a provisional map with illustrative relative URLs and stated product assumptions. Group same-page variants under one URL. Explain when a modifier warrants an on-page option versus a dedicated landing page. Assign a blog guide when the user wants instruction and evidence supports that reading. Avoid generating an entire modifier-by-page matrix from an untested pattern.
+
+
+When an existing site's inventory is missing or uncertain, use [site-structure-inventory](https://github.com/kostja94/vibe-coding/tree/main/skills/site-structure-inventory) to verify live pages, URL families and discovery gaps before making recommendations.

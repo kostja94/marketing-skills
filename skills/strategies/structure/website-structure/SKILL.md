@@ -117,3 +117,6 @@ See **homepage-generator** for common modules (Headline, Subheadline, CTA, Benef
 - **breadcrumb-generator**: Breadcrumb for hierarchy; large sites, e-commerce
 - **navigation-menu-generator**: Nav design; primary, footer, mobile
 - **content-strategy**: Content clusters, pillar pages; complements structure planning
+
+
+When an existing site's inventory is missing or uncertain, use [site-structure-inventory](https://github.com/kostja94/vibe-coding/tree/main/skills/site-structure-inventory) to verify live pages, URL families and discovery gaps before making recommendations.

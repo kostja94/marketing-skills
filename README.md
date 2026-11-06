@@ -23,7 +23,7 @@ Then give your agent a real assignment:
 
 ```text
 Use seo-strategy to create a prioritized SEO plan for this product.
-Read contextus.md and the current website first. Separate verified facts,
+Read {project}.md and the current website first. Separate verified facts,
 assumptions, opportunities, and next actions.
 ```
 
@@ -115,7 +115,7 @@ These repositories work independently. Compatibility entries preserve old skill 
 
 ## Project context
 
-Tailored marketing work needs real product facts. [Contextus](https://github.com/kostja94/contextus) is the recommended maintained source, with a root `contextus.md` as the standard entry.
+Tailored marketing work needs real product facts. [Contextus](https://github.com/kostja94/contextus) is the recommended maintained source, with a root `{project}.md` as the standard entry. Substitute the stable project slug, or follow the project README pointer and verify the subject in the manifest.
 
 Marketing Skills reads only task-relevant context. It does not create a second context schema or silently promote agent research into confirmed product truth. Without Contextus, provide sufficient project documents or facts in the task; the skills remain usable and should ask only for missing information that would materially change the result.
 

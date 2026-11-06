@@ -13,7 +13,7 @@ Guides website structure planning: which pages to build, page priority, and how 
 
 ## Initial Assessment
 
-**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
+**Project context:** Read root `{project}.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
 
 Identify:
 1. **Website type**: Product/SaaS, B2B, E-commerce, Portfolio, Forum, Directory

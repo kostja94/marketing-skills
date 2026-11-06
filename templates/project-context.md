@@ -2,7 +2,7 @@
 
 This compatibility entry is no longer a maintained context template. Durable organization, product, project, marketing, brand, website, technical, decision, and change context is owned by [Contextus](https://github.com/kostja94/contextus).
 
-Create root `contextus.md` with Contextus instead:
+Create root `{project}.md` with Contextus instead:
 
 ```bash
 npx skills add kostja94/contextus --skill contextus

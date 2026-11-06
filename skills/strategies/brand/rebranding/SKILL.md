@@ -13,7 +13,7 @@ Guides rebranding execution: domain change, 301 redirects, migration checklist, 
 
 ## Initial Assessment
 
-**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
+**Project context:** Read root `{project}.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
 
 Identify:
 1. **Scope**: Full rebrand (name, domain, identity) vs partial (logo, messaging only)

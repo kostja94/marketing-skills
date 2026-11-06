@@ -88,7 +88,7 @@ npx skills add kostja94/marketing-skills -a openclaw
 npx skills add kostja94/marketing-skills -a openclaw --skill robots-txt title-tag meta-description pricing-page-generator
 ```
 
-**Product context**: Root `contextus.md` is the canonical entry when Contextus is installed. Without it, provide project material or facts directly. See [README § Project Context](../README.md#project-context).
+**Product context**: Root `{project}.md` is the canonical entry when Contextus is installed. Without it, provide project material or facts directly. See [README § Project Context](../README.md#project-context).
 
 ---
 
@@ -115,7 +115,7 @@ npx skills add kostja94/marketing-skills -a openclaw --skill robots-txt title-ta
 | **Bolt.new** | Browser-based; no project file structure. Paste skill markdown as context | [Bolt.new](https://bolt.new) |
 | **Medo** | Paste skill content into dialogue | [medo.dev](https://medo.dev) |
 
-**Approach**: Copy the relevant skill files from `skills/*/SKILL.md`. For durable context, install [Contextus](https://github.com/kostja94/contextus) and keep root `contextus.md`; otherwise provide project material or facts in the task. Do not create a platform-specific parallel context format.
+**Approach**: Copy the relevant skill files from `skills/*/SKILL.md`. For durable context, install [Contextus](https://github.com/kostja94/contextus) and keep root `{project}.md`; otherwise provide project material or facts in the task. Do not create a platform-specific parallel context format.
 
 ---
 
@@ -137,8 +137,8 @@ Skills are **plain markdown**. Use them with any LLM that accepts text input.
 
 | Original | Replace with |
 |----------|--------------|
-| `contextus.md` | Keep at the project root across supported platforms |
-| Legacy `project-context.md` paths | Read-only fallback; migrate durable maintenance to `contextus.md` |
+| `{project}.md` | Keep at the project root across supported platforms |
+| Legacy `project-context.md` paths | Read-only fallback; migrate durable maintenance to `{project}.md` |
 | `.cursor/project-task-tracker.md` | `.lovable/project-task-tracker.md` (optional) |
 | `.cursor/skills/` | `.agents/skills/`, `.claude/skills/`, `./skills` (OpenClaw), `~/.openclaw/skills/`, or platform-specific dir |
 

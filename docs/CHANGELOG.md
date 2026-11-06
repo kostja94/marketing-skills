@@ -37,7 +37,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Changed
 
 - **Project context integration** - Made [Contextus](https://github.com/kostja94/contextus) the single source of truth for durable project context while preserving no-Contextus task execution.
-- **Context-aware skills** - Replaced platform-specific paths and numbered template sections with semantic root `contextus.md` discovery.
+- **Context-aware skills** - Replaced platform-specific paths and numbered template sections with semantic root `{project}.md` discovery.
 
 ### Removed
 

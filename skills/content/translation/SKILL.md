@@ -18,7 +18,7 @@ Own the language-production lifecycle. Deliver natural, accurate target-language
 
 ## Prepare the Source
 
-Read root `contextus.md` when present. Before translating, establish:
+Read root `{project}.md` when present. Before translating, establish:
 
 - source version and owner;
 - content type and target locale or market;

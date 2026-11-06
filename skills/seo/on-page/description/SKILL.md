@@ -11,7 +11,7 @@ Owns writing and review rules for `<meta name="description">`. It is a candidate
 
 ## Inputs
 
-Read root `contextus.md` when present. Confirm page type, primary search intent, locale, verified page-specific facts, current description, body coverage, sibling-page descriptions, and the intended next action when one exists.
+Read root `{project}.md` when present. Confirm page type, primary search intent, locale, verified page-specific facts, current description, body coverage, sibling-page descriptions, and the intended next action when one exists.
 
 ## Rules
 

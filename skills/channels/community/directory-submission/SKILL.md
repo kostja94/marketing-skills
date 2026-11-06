@@ -1,6 +1,6 @@
 ---
 name: directory-submission
-description: When the user wants to submit a product or app to directories, curated lists, launch platforms, or app stores—and needs ready-to-paste copy per platform. Reads root contextus.md when present. Also use when the user mentions "directory submission," "get listed," "app store listing," "submit to directories," "curated list," "best tools list," "Taaft," "Product Hunt," "directory ads," "newsletter feature," "directory campaign," "tailor description per platform," "Shopify App Store," "Chrome Web Store," "navigation site," or "product directory." For Product Hunt launch day tactics (hunter, first comment, timing), use product-hunt-launch. For full 0→1 channel planning, use cold-start-strategy.
+description: When the user wants to submit a product or app to directories, curated lists, launch platforms, or app stores—and needs ready-to-paste copy per platform. Reads root {project}.md when present. Also use when the user mentions "directory submission," "get listed," "app store listing," "submit to directories," "curated list," "best tools list," "Taaft," "Product Hunt," "directory ads," "newsletter feature," "directory campaign," "tailor description per platform," "Shopify App Store," "Chrome Web Store," "navigation site," or "product directory." For Product Hunt launch day tactics (hunter, first comment, timing), use product-hunt-launch. For full 0→1 channel planning, use cold-start-strategy.
 metadata:
   version: 1.2.0
 ---
@@ -39,7 +39,7 @@ Directory submission is a core channel for cold start—see **cold-start-strateg
 
 ## Initial Assessment
 
-**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
+**Project context:** Read root `{project}.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
 
 | Context section | Maps to directory fields |
 |-----------------|---------------------------|
@@ -361,7 +361,7 @@ Before submitting to any directory:
 
 ## Related Resources
 
-- **Contextus** (`contextus.md`): Read relevant modules when present; without it, use supplied project facts and ask for missing information.
+- **Contextus** (`{project}.md`): Read relevant modules when present; without it, use supplied project facts and ask for missing information.
 - **Alignify directory guide**: [alignify.co/zh/insights/directory-submission-sites](https://alignify.co/zh/insights/directory-submission-sites) --Cold-start strategy, preparation checklist, review platforms, vertical directories, bulk submission.
 
 ## Related Skills

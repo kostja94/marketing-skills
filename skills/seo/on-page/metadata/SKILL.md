@@ -29,7 +29,7 @@ This skill may check H1 and body coverage to confirm that metadata promises are 
 
 ## Required inputs and evidence
 
-Read root `contextus.md` when present and load only relevant modules. Otherwise use project documentation and verified product facts. Establish:
+Read root `{project}.md` when present and load only relevant modules. Otherwise use project documentation and verified product facts. Establish:
 
 1. Target site, locales, environment, and release scope.
 2. Page inventory from production navigation, footer, contextual links, index or hub pages, robots.txt, sitemap, production URLs, and application routes. A sitemap is evidence, not a complete inventory guarantee. For very large generated page families, inspect the template and representative examples instead of enumerating every URL.

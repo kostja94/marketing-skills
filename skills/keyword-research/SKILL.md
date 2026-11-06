@@ -7,7 +7,7 @@ metadata:
 
 # Keyword Research
 
-For a market or category, start with [category research](references/category-research.md) to identify demand branches and seeds. For an existing website, start with its URL inventory and check indexability before diagnosing weak keyword performance. For a single seed, begin directly with the workflow below. Establish the decision, product capabilities, market, language and channel. Reuse relevant project context (including contextus.md when available), existing queries, URLs and CSV exports. State reasonable assumptions. A single seed is enough. When exploring several seeds one at a time, complete the current one before continuing.
+For a market or category, start with [category research](references/category-research.md) to identify demand branches and seeds. For an existing website, start with its URL inventory and check indexability before diagnosing weak keyword performance. For a single seed, begin directly with the workflow below. Establish the decision, product capabilities, market, language and channel. Reuse relevant project context (including {project}.md when available), existing queries, URLs and CSV exports. State reasonable assumptions. A single seed is enough. When exploring several seeds one at a time, complete the current one before continuing.
 
 Read the relevant sibling skills by name from the installed collection or local repository. Start at the earliest missing input and stop at the requested deliverable.
 

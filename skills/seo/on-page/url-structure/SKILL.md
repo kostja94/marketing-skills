@@ -20,7 +20,7 @@ Guides URL structure optimization for SEO: readability, hierarchy, and best prac
 
 ## Initial Assessment
 
-**Project context:** Read root `contextus.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
+**Project context:** Read root `{project}.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
 
 Identify:
 1. **Site structure**: Categories, subcategories, content types

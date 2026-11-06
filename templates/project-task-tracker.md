@@ -8,9 +8,9 @@
 
 ## Related Documents
 
-Link to root `contextus.md` and task-relevant modules. Replace placeholders with your actual paths.
+Link to root `{project}.md` and task-relevant modules. Replace placeholders with your actual paths.
 
-**Related**: [contextus.md] | task-relevant Contextus modules
+**Related**: [{project}.md] | task-relevant Contextus modules
 
 ---
 
@@ -200,7 +200,7 @@ Add rows for pages that exist or need creation. Delete rows for page types you d
 
 ## Task Details (Optional)
 
-Expand complex tasks here. Reference `contextus.md` and its task-relevant modules for specifics.
+Expand complex tasks here. Reference `{project}.md` and its task-relevant modules for specifics.
 
 ### Task: [Task name]
 

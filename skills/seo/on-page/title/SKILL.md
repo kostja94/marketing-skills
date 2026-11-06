@@ -11,7 +11,7 @@ Owns writing and review rules for the HTML `<title>` element. **page-metadata** 
 
 ## Inputs
 
-Read root `contextus.md` when present. Confirm page type, unique page job, primary search intent, locale, current title and H1, verified differentiators, sibling-page titles, and whether a template automatically appends the brand.
+Read root `{project}.md` when present. Confirm page type, unique page job, primary search intent, locale, current title and H1, verified differentiators, sibling-page titles, and whether a template automatically appends the brand.
 
 ## Rules
 

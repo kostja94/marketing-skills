@@ -115,7 +115,7 @@ See **pricing-strategy**, **alternatives-page-generator**.
 ## Report Workflow
 
 1. **Parse** — Read Excel/CSV, infer domain, visits, traffic sources, etc. from headers
-2. **Enrich** — Web search, visit competitor sites; read root `contextus.md` if present
+2. **Enrich** — Web search, visit competitor sites; read root `{project}.md` if present
 3. **Build** — Structure data for report
 4. **Generate** — Output report in chosen format
 

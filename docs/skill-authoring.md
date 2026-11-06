@@ -266,7 +266,7 @@ Before creating or modifying a skill, verify:
 
 ## 8. Customization
 
-**Project Context**: Root `contextus.md` is the canonical durable-context entry. Skills consume relevant modules when present and otherwise use supplied project material without creating a parallel context format.
+**Project Context**: Root `{project}.md` is the canonical durable-context entry. Skills consume relevant modules when present and otherwise use supplied project material without creating a parallel context format.
 
 **Project Task Tracker**: `.cursor/project-task-tracker.md` - Track task status; agent suggests next steps.
 

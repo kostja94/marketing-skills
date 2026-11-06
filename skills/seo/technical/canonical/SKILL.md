@@ -26,7 +26,7 @@ Do not assume that similar-looking URLs are duplicates. Case, parameters, extens
 
 ## Inputs and Context
 
-Read root `contextus.md` when present and only the modules relevant to the task. Otherwise use project configuration, routing code, deployment rules, sitemaps, and user-provided facts. Establish:
+Read root `{project}.md` when present and only the modules relevant to the task. Otherwise use project configuration, routing code, deployment rules, sitemaps, and user-provided facts. Establish:
 
 1. preferred scheme and host;
 2. preferred path conventions;

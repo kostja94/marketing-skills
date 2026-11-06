@@ -19,7 +19,7 @@ Own the end-to-end localization decision and delivery lifecycle. Do not treat lo
 
 ## Establish the Current State
 
-Read root `contextus.md` when present. Build the evidence set from the production site, route or CMS inventory, navigation and internal links, sitemap, source repository, analytics, and search data as available. A sitemap alone is not a complete page inventory.
+Read root `{project}.md` when present. Build the evidence set from the production site, route or CMS inventory, navigation and internal links, sitemap, source repository, analytics, and search data as available. A sitemap alone is not a complete page inventory.
 
 Confirm:
 

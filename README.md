@@ -48,6 +48,7 @@ Install two or three relevant skills when the task is known instead of loading t
 | Audit or implement page metadata end to end | `page-metadata` |
 | Improve one title, description, schema, or internal-link concern | `title-tag`, `meta-description`, `schema-markup`, `internal-links` |
 | Research keywords, competitors, or content opportunities | `keyword-research`, `competitor-research`, `content-strategy` |
+| Expand, cluster, prioritize, or map keywords | keyword-discovery, keyword-clustering, keyword-opportunity, keyword-mapping |
 | Plan launch, positioning, pricing, or acquisition | `product-launch`, `gtm-strategy`, `pricing-strategy`, `cold-start-strategy` |
 | Plan paid acquisition | `paid-ads-strategy` plus the relevant platform skill |
 | Track search and AI traffic | [Open Analytics](https://github.com/kostja94/open-analytics): `analytics-tracking`, `google-search-console`, `ai-traffic-tracking` |

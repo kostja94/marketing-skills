@@ -6,6 +6,22 @@ Complete skill list, page taxonomy, and dependency maps. See [README](../README.
 
 ## 1. Full Skills List
 
+### Competitor Research
+
+| Skill | Description |
+|-------|-------------|
+| [competitor-research](../skills/competitor-research/) | Competitor analysis for SEO, content, backlinks, positioning |
+
+### Keyword Research
+
+| Skill | Description |
+|-------|-------------|
+| [keyword-research](../skills/keyword-research/) | Keyword research, search intent, difficulty |
+| [keyword-discovery](../skills/keyword-discovery/) | Finds long-tail search expressions from a seed, competitor sites, search suggestions and customer language. Use for keyword expansion and demand discovery. |
+| [keyword-clustering](../skills/keyword-clustering/) | Groups candidate keywords by user task and tests whether one page can satisfy them. Use for same-page decisions, mixed intent and adjacent queries. |
+| [keyword-opportunity](../skills/keyword-opportunity/) | Prioritizes keyword clusters for a stated business goal using demand evidence, product fit, competition and delivery cost. |
+| [keyword-mapping](../skills/keyword-mapping/) | Maps keyword clusters to existing website assets and recommends reuse, improvement, consolidation review or a new page. |
+
 ### SEO
 
 #### Technical
@@ -46,11 +62,9 @@ Complete skill list, page taxonomy, and dependency maps. See [README](../README.
 |-------|-------------|
 | [link-building](../skills/seo/off-page/link-building/) | Link building, outreach, link acquisition |
 | [backlink-analysis](../skills/seo/off-page/backlink-analysis/) | Backlink audit, toxic links, competitive analysis |
-| [keyword-research](../skills/seo/content/keyword-research/) | Keyword research, search intent, difficulty |
 | [content-strategy](../skills/seo/content/content-strategy/) | Content clusters, pillar pages, editorial calendar |
 | [content-optimization](../skills/seo/content/content-optimization/) | Word count, H2 keywords, keyword density, tables, lists, multimedia |
 | [eeat-signals](../skills/seo/content/eeat-signals/) | E-E-A-T signals, author bio, citations, YMYL, trust |
-| [competitor-research](../skills/seo/content/competitor-research/) | Competitor analysis for SEO, content, backlinks, positioning |
 | [local-seo](../skills/seo/local/) | Google Business Profile, NAP consistency, local citations |
 | [entity-seo](../skills/seo/entity-seo/) | Entity SEO: Knowledge Graph, Organization/Person schema, entity signals, Knowledge Panel |
 | [parasite-seo](../skills/seo/parasite-seo/) | Parasite SEO: high-authority platforms (Medium, Reddit, Grokipedia) |

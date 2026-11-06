@@ -47,6 +47,7 @@ Install two or three relevant skills when the task is known instead of loading t
 | Fix crawling, indexing, sitemap, or canonical issues | `robots-txt`, `indexing`, `xml-sitemap`, `canonical-tag` |
 | Audit or implement page metadata end to end | `page-metadata` |
 | Improve one title, description, schema, or internal-link concern | `title-tag`, `meta-description`, `schema-markup`, `internal-links` |
+| Audit citations, third-party destinations and embeds in Blog articles | [outbound-links](skills/seo/on-page/outbound-links/) |
 | Research keywords, competitors, or content opportunities | `keyword-research`, `competitor-research`, `content-strategy` |
 | Expand, cluster, prioritize, or map keywords | keyword-discovery, keyword-clustering, keyword-opportunity, keyword-mapping |
 | Plan launch, positioning, pricing, or acquisition | `product-launch`, `gtm-strategy`, `pricing-strategy`, `cold-start-strategy` |

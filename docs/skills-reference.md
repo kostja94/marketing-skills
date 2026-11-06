@@ -51,6 +51,7 @@ Complete skill list, page taxonomy, and dependency maps. See [README](../README.
 | [twitter-cards](../skills/seo/on-page/twitter-cards/) | X/Twitter Card writing and implementation |
 | [schema-markup](../skills/seo/on-page/schema/) | Structured data (Schema.org, JSON-LD) |
 | [internal-links](../skills/seo/on-page/internal-links/) | Internal linking, link equity, orphan pages |
+| [outbound-links](../skills/seo/on-page/outbound-links/) | Third-party evidence, embeds and editorial links in Blog articles |
 | [url-structure](../skills/seo/on-page/url-structure/) | URL optimization, hierarchy, slugs |
 | [heading-structure](../skills/seo/on-page/heading/) | H1–H6 writing, hierarchy, and content outline |
 | [image-optimization](../skills/seo/on-page/image-optimization/) | Image SEO: alt text, WebP, LCP, responsive, lazy loading, image sitemap |

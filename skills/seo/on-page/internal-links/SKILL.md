@@ -1,79 +1,37 @@
 ---
 name: internal-links
-description: When the user wants to optimize internal linking, fix orphan pages, or improve link structure. Also use when the user mentions "internal links," "internal linking," "anchor text," "link equity," "internal linking strategy," or "orphan pages." For IA, use website-structure.
+description: Audits and designs internal links for a site, page family or article. Use for orphan pages, link equity, click depth, hubs, anchor text, old-post backfill and product navigation.
 metadata:
-  version: 1.0.1
+  version: 2.0.0
 ---
 
-# SEO On-Page: Internal Links
+# Internal links
 
-Guides internal linking strategy for SEO: crawlability, link equity distribution, and user navigation.
+## Scope and evidence
 
-**When invoking**: On **first use**, if helpful, open with 1–2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
+State the intended outcome: discovery, access to priority pages, semantic hierarchy, a reading path, product conversion, or diagnosis of missing or overlapping pages. Read the relevant project context from root `{project}.md` when available; otherwise use supplied material. Declare included hosts, locales and surfaces (Blog, Docs, Help Center, app).
 
-## Scope (On-Page SEO)
+Classify clickable destinations by ownership: same-host page, same registered domain on another subdomain (ecosystem), another owned domain, owned social/community channel, third party, or same-page fragment. Report these separately. Canonicals, hreflang, redirects, sitemap and Schema URLs can corroborate findings but do not count as clickable edges. For third-party links in Blog articles use outbound-links.
 
-- **Internal links**: Contextual links; descriptive anchor text; related posts; hub pages
-- **Breadcrumbs**: Implement for large sites (e.g. ecommerce); see **breadcrumb-generator**
+Establish live nodes from the rendered site and existing page inventory. Use [site-structure-inventory](https://github.com/kostja94/vibe-coding/tree/main/skills/site-structure-inventory) if discovery is needed. Cross-check robots, sitemap, CMS, routes, search console, analytics or logs as available. Label disagreements with source and date: a deployment repository can lag production or contain future work. Record crawl exclusions, sampling and unknowns before calling a page an orphan.
 
-## Initial Assessment
+## Compare observed and intended links
 
-**Project context:** Read root `{project}.md` when present and load only the modules relevant to this task. Without Contextus, use available project material or user-provided facts and ask for missing information; do not create a parallel context system.
+1. Crawl reachable in-scope pages and extract rendered links. Distinguish navigation, footer, breadcrumb, body, card, CTA, recommendation and fragment. For large inventories, summarize by page family and URL pattern with examples.
+2. For each important page, identify its parent, children, justified peers, useful incoming entrances and next user action. Select the [landing-page workflow](references/landing-pages.md) for product, proof and conversion, or the [Blog workflow](references/blog.md) for education and continued reading. For mixed pages, select the primary role, then inspect the bridge to the other family.
+3. Compare observed edges with these candidates. Flag missing nodes separately from missing edges: if the intended destination does not exist, report the gap. For each issue give the observed evidence, impact, proposed source/target, placement or anchor change, and a verification method. Separate responsibility conflicts from link fixes.
+4. Prioritize broken, wrong or noncanonical targets; important orphans; broken hub/detail relationships; navigation, breadcrumbs and main product paths; strong contextual gaps; cross-cluster bridges; then wording. Counts, density and click depth are diagnostics or project-specific thresholds. Choose natural, descriptive anchor text that predicts the destination; use a keyword only where it helps the reader.
 
-Identify:
-1. **Site structure**: Hub pages, pillar content, supporting pages
-2. **Orphan pages**: Pages with no or few internal links
-3. **Priority pages**: Pages that need more link equity
+## Deliver at the scale of the site
 
-## Best Practices
+- Small site: add the key relationships and serious reachability gaps to the existing site-structure inventory.
+- Curated site: use a project internal-linking plan for intended relationships, priority destinations, hubs, subdomain rules and exceptions.
+- Large or programmatic site: additionally generate a dated observed graph in CSV, JSON or a database. Store evidence separately from proposals; a proposed edge contributes zero observed inlinks.
 
-### Link Structure
+For an observed edge preserve the literal source and target, the roles of both pages, placement, actual anchor (or image/control), and discovery time separately from recheck time. Record the verified canonical target alongside the original URL; leave unverified values unknown. Support the status with evidence for existence, crawlability, destination availability and contextual relevance separately.
 
-| Principle | Guideline |
-|-----------|-----------|
-| **Depth** | Important pages within 3 clicks from homepage |
-| **Orphan pages** | Avoid; ensure every page has at least one internal link; see **site-crawlability** for technical detection and crawl issues |
-| **Hub-to-spoke** | Link from hub/pillar pages to cluster articles; topic cluster structure |
-| **Contextual** | Place links in relevant body content, not just footers |
+After authorized changes, recrawl the affected paths. Verify important destinations have relevant crawlable entrances, anchors resolve to the intended canonical and locale, and the new observations and project plan agree. For draft-only work report the verified artifact and any outstanding live checks.
 
-### Anchor Text
+## Related skills
 
-| Principle | Guideline |
-|-----------|-----------|
-| **Descriptive** | Use anchor text that describes the target page |
-| **Variation** | Avoid over-optimization; use natural variation |
-| **Keyword** | Include target keyword when natural |
-
-### Placement
-
-| Location | Use |
-|----------|-----|
-| **First paragraph** | Primary link to related content |
-| **Body** | Contextual links throughout |
-| **Related/Recommended** | End-of-article links |
-| **Navigation** | Key site sections |
-
-## Common Issues
-
-| Issue | Fix |
-|-------|-----|
-| Orphan pages | Add internal links from hub pages or navigation; **site-crawlability** for technical audit |
-| Too many links | Focus on most important; avoid link stuffing |
-| Generic anchors | Use descriptive "learn more about X" instead of "click here" |
-| Broken links | Audit and fix 404s; see **site-crawlability** for technical audit |
-
-## Output Format
-
-- **Internal link audit** (if auditing)
-- **Link opportunities** for key pages
-- **Anchor text** recommendations
-- **Structure** improvements
-
-## Related Skills
-
-- **article-page-generator**: Related posts, contextual links, end-of-article recommendations
-- **website-structure**: Plan page structure and hierarchy; informs internal linking
-- **site-crawlability**: Internal links enable crawling
-- **url-structure**: URL structure affects link patterns
-- **content-strategy**: Topic clusters inform link structure; pillar <-> cluster; cluster <-> cluster
-- **breadcrumb-generator**: Breadcrumbs are internal links; category hierarchy
+Use website-structure or url-structure for architecture decisions, site-crawlability for technical access, breadcrumb-generator for breadcrumb implementation, and content-strategy for cluster planning.

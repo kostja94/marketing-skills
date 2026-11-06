@@ -51,7 +51,7 @@ Guides SEO strategy: workflow order, prioritization, Product-Led SEO, and when t
 | Phase | Focus | Skills |
 |-------|-------|--------|
 | **1. Technical** | Crawlability, indexing, sitemap | robots-txt, xml-sitemap, canonical-tag, indexing, indexnow, site-crawlability |
-| **2. On-Page** | Metadata, structure, schema | title-tag, meta-description, page-metadata, schema-markup, internal-links, url-structure, heading-structure |
+| **2. On-Page** | Metadata, structure, schema | title-tag, meta-description, page-metadata, schema-markup, internal-links, outbound-links, url-structure, heading-structure |
 | **3. Content** | Keywords, clusters, optimization | keyword-research, content-strategy, content-optimization |
 | **4. Off-Page** | Backlinks, authority | link-building, backlink-analysis |
 
